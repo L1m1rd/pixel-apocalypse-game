@@ -1,0 +1,133 @@
+{
+  "character": "03-B",
+  "name": "Усик",
+  "grade": "B",
+  "direction": "east",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "idle_east_00",
+        "idle_east_01",
+        "idle_east_02",
+        "idle_east_03",
+        "idle_east_04",
+        "idle_east_05"
+      ]
+    },
+    "walk": {
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "walk_east_00",
+        "walk_east_01",
+        "walk_east_02",
+        "walk_east_03",
+        "walk_east_04",
+        "walk_east_05"
+      ]
+    },
+    "run": {
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "run_east_00",
+        "run_east_01",
+        "run_east_02",
+        "run_east_03",
+        "run_east_04",
+        "run_east_05"
+      ]
+    },
+    "attack": {
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "attack_east_00",
+        "attack_east_01",
+        "attack_east_02",
+        "attack_east_03",
+        "attack_east_04",
+        "attack_east_05"
+      ]
+    },
+    "hurt": {
+      "durationMs": 95,
+      "frameRate": 10.526315789473685,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "hurt_east_00",
+        "hurt_east_01",
+        "hurt_east_02",
+        "hurt_east_03",
+        "hurt_east_04",
+        "hurt_east_05"
+      ]
+    },
+    "stunned": {
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "stunned_east_00",
+        "stunned_east_01",
+        "stunned_east_02",
+        "stunned_east_03",
+        "stunned_east_04",
+        "stunned_east_05"
+      ]
+    },
+    "knockback": {
+      "durationMs": 115,
+      "frameRate": 8.695652173913043,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "knockback_east_00",
+        "knockback_east_01",
+        "knockback_east_02",
+        "knockback_east_03",
+        "knockback_east_04",
+        "knockback_east_05"
+      ]
+    },
+    "death": {
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": true,
+      "frames": [
+        "death_east_00",
+        "death_east_01",
+        "death_east_02",
+        "death_east_03",
+        "death_east_04",
+        "death_east_05"
+      ],
+      "terminalFrame": "death_east_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_east_05",
+    "static": true
+  }
+}

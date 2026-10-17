@@ -25,9 +25,9 @@
 
 Новая итерация внешности: [18 утверждённых реалистичных образов](assets/infected-redesign-realistic-v1/README.md), по три класса для шести видов. Все образы приняты: A — слабый, B — средний, C — сильный внутри вида. Прежние наборы ниже сохранены как предыдущая итерация.
 
-По всем 18 образам подготовлены [статичные пиксельные прототипы](assets/infected-redesign-pixel-v1/README.md): отдельные прозрачные PNG, небольшие спрайты и сравнения классов. [Архив](output/infected-redesign-pixel-v1.zip). Это по одному ракурсу на образ; анимаций нового состава и игровой реализации классов пока нет.
+По всем 18 образам подготовлены [статичные пиксельные прототипы](assets/infected-redesign-pixel-v1/README.md) и утверждённый [полный набор анимаций](assets/infected-redesign-animations-v1/README.md): **672 анимации, 4032 кадра и 72 неподвижных тела**, четыре направления. [Общий архив](output/redesigned-animation-review/all-review.zip), [архивы по видам](output/redesigned-animation-review), [просмотрщик](assets/infected-redesign-animations-v1/preview.html). Кровь, споры и частицы сохранены без изменений. Игровая реализация классов пока отсутствует.
 
-Актуальный набор: [infected-animation-pack-v5](assets/infected-animation-pack-v5/README.md). Отдельные дополнения: [реакции на удары](assets/infected-reactions-v1/README.md), [смерть и тела](assets/infected-deaths-v1/README.md), [специальные атаки и фазы босса](assets/infected-specials-v1/README.md).
+Предыдущий набор: [infected-animation-pack-v5](assets/infected-animation-pack-v5/README.md). Прежние дополнения: [реакции на удары](assets/infected-reactions-v1/README.md), [смерть и тела](assets/infected-deaths-v1/README.md), [специальные атаки и фазы босса](assets/infected-specials-v1/README.md). Приведённые ниже показатели относятся к этой прошлой версии.
 
 - 6 типов: runner, stalker, clicker, bloater, shambler, rat-king.
 - 4 направления: south, west, east, north.

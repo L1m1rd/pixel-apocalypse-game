@@ -1,0 +1,13320 @@
+window.REDESIGNED_INFECTED={
+  "status": "approved for GitHub publication",
+  "directions": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "totalCharacters": 18,
+  "totalSourceSheets": 168,
+  "totalAnimations": 672,
+  "totalFrames": 4032,
+  "gradeSystem": {
+    "scope": "within each of the six types",
+    "A": {
+      "rank": 1,
+      "strength": "слабый"
+    },
+    "B": {
+      "rank": 2,
+      "strength": "средний"
+    },
+    "C": {
+      "rank": 3,
+      "strength": "сильный"
+    },
+    "numericalBalance": "not specified; visual stage only"
+  },
+  "characters": [
+    {
+      "id": "01-A",
+      "name": "Жильник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-A.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "01-A",
+          "name": "Жильник",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "01-A",
+          "name": "Жильник",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "01-A",
+          "name": "Жильник",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "01-A",
+          "name": "Жильник",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "01-B",
+      "name": "Косой",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-B.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "01-B",
+          "name": "Косой",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "01-B",
+          "name": "Косой",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "01-B",
+          "name": "Косой",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "01-B",
+          "name": "Косой",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "01-C",
+      "name": "Пружинник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-C.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "01-C",
+          "name": "Пружинник",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "01-C",
+          "name": "Пружинник",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "01-C",
+          "name": "Пружинник",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "01-C",
+          "name": "Пружинник",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 90,
+              "frameRate": 11.11111111111111,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 80,
+              "frameRate": 12.5,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "02-A",
+      "name": "Теневик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-A.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "02-A",
+          "name": "Теневик",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "02-A",
+          "name": "Теневик",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "02-A",
+          "name": "Теневик",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "02-A",
+          "name": "Теневик",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "02-B",
+      "name": "Лазутчик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-B.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "02-B",
+          "name": "Лазутчик",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "02-B",
+          "name": "Лазутчик",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "02-B",
+          "name": "Лазутчик",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "02-B",
+          "name": "Лазутчик",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "02-C",
+      "name": "Складень",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-C.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "02-C",
+          "name": "Складень",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "02-C",
+          "name": "Складень",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "02-C",
+          "name": "Складень",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "02-C",
+          "name": "Складень",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 100,
+              "frameRate": 10,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "03-A",
+      "name": "Резонатор",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-A.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "03-A",
+          "name": "Резонатор",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "03-A",
+          "name": "Резонатор",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "03-A",
+          "name": "Резонатор",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "03-A",
+          "name": "Резонатор",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "03-B",
+      "name": "Усик",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-B.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "03-B",
+          "name": "Усик",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "03-B",
+          "name": "Усик",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "03-B",
+          "name": "Усик",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "03-B",
+          "name": "Усик",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "03-C",
+      "name": "Гул",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-C.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "03-C",
+          "name": "Гул",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "03-C",
+          "name": "Гул",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "03-C",
+          "name": "Гул",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "03-C",
+          "name": "Гул",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 200,
+              "frameRate": 5,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 130,
+              "frameRate": 7.6923076923076925,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 95,
+              "frameRate": 10.526315789473685,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 115,
+              "frameRate": 8.695652173913043,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "04-A",
+      "name": "Сланец",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-A.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "04-A",
+          "name": "Сланец",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_south_00",
+                "throw_growth_south_01",
+                "throw_growth_south_02",
+                "throw_growth_south_03",
+                "throw_growth_south_04",
+                "throw_growth_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "04-A",
+          "name": "Сланец",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_west_00",
+                "throw_growth_west_01",
+                "throw_growth_west_02",
+                "throw_growth_west_03",
+                "throw_growth_west_04",
+                "throw_growth_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "04-A",
+          "name": "Сланец",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_east_00",
+                "throw_growth_east_01",
+                "throw_growth_east_02",
+                "throw_growth_east_03",
+                "throw_growth_east_04",
+                "throw_growth_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "04-A",
+          "name": "Сланец",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_north_00",
+                "throw_growth_north_01",
+                "throw_growth_north_02",
+                "throw_growth_north_03",
+                "throw_growth_north_04",
+                "throw_growth_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "04-B",
+      "name": "Кокон",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-B.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "04-B",
+          "name": "Кокон",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_south_00",
+                "throw_growth_south_01",
+                "throw_growth_south_02",
+                "throw_growth_south_03",
+                "throw_growth_south_04",
+                "throw_growth_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "04-B",
+          "name": "Кокон",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_west_00",
+                "throw_growth_west_01",
+                "throw_growth_west_02",
+                "throw_growth_west_03",
+                "throw_growth_west_04",
+                "throw_growth_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "04-B",
+          "name": "Кокон",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_east_00",
+                "throw_growth_east_01",
+                "throw_growth_east_02",
+                "throw_growth_east_03",
+                "throw_growth_east_04",
+                "throw_growth_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "04-B",
+          "name": "Кокон",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_north_00",
+                "throw_growth_north_01",
+                "throw_growth_north_02",
+                "throw_growth_north_03",
+                "throw_growth_north_04",
+                "throw_growth_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "04-C",
+      "name": "Роговик",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-C.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "04-C",
+          "name": "Роговик",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_south_00",
+                "throw_growth_south_01",
+                "throw_growth_south_02",
+                "throw_growth_south_03",
+                "throw_growth_south_04",
+                "throw_growth_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "04-C",
+          "name": "Роговик",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_west_00",
+                "throw_growth_west_01",
+                "throw_growth_west_02",
+                "throw_growth_west_03",
+                "throw_growth_west_04",
+                "throw_growth_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "04-C",
+          "name": "Роговик",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_east_00",
+                "throw_growth_east_01",
+                "throw_growth_east_02",
+                "throw_growth_east_03",
+                "throw_growth_east_04",
+                "throw_growth_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "04-C",
+          "name": "Роговик",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 300,
+              "frameRate": 3.3333333333333335,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 240,
+              "frameRate": 4.166666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 120,
+              "frameRate": 8.333333333333334,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "throw_growth": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "projectile_release",
+                  "effect": "growth_projectile"
+                }
+              ],
+              "frames": [
+                "throw_growth_north_00",
+                "throw_growth_north_01",
+                "throw_growth_north_02",
+                "throw_growth_north_03",
+                "throw_growth_north_04",
+                "throw_growth_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "05-A",
+      "name": "Сотовик",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-A.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "05-A",
+          "name": "Сотовик",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "05-A",
+          "name": "Сотовик",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "05-A",
+          "name": "Сотовик",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "05-A",
+          "name": "Сотовик",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "05-B",
+      "name": "Дымарь",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-B.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "05-B",
+          "name": "Дымарь",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "05-B",
+          "name": "Дымарь",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "05-B",
+          "name": "Дымарь",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "05-B",
+          "name": "Дымарь",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "05-C",
+      "name": "Стручник",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-C.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "05-C",
+          "name": "Стручник",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "05-C",
+          "name": "Стручник",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "05-C",
+          "name": "Стручник",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "05-C",
+          "name": "Стручник",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 96,
+          "frameHeight": 96,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 280,
+              "frameRate": 3.5714285714285716,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 230,
+              "frameRate": 4.3478260869565215,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 110,
+              "frameRate": 9.090909090909092,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 210,
+              "frameRate": 4.761904761904762,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "06-A",
+      "name": "Перекос",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-A.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "06-A",
+          "name": "Перекос",
+          "grade": "A",
+          "direction": "south",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_south_00",
+                "charge_start_south_01",
+                "charge_start_south_02",
+                "charge_start_south_03",
+                "charge_start_south_04",
+                "charge_start_south_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_south_00",
+                "charge_loop_south_01",
+                "charge_loop_south_02",
+                "charge_loop_south_03",
+                "charge_loop_south_04",
+                "charge_loop_south_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_south_00",
+                "charge_impact_south_01",
+                "charge_impact_south_02",
+                "charge_impact_south_03",
+                "charge_impact_south_04",
+                "charge_impact_south_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_south_00",
+                "heavy_combo_south_01",
+                "heavy_combo_south_02",
+                "heavy_combo_south_03",
+                "heavy_combo_south_04",
+                "heavy_combo_south_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_south_00",
+                "ground_slam_south_01",
+                "ground_slam_south_02",
+                "ground_slam_south_03",
+                "ground_slam_south_04",
+                "ground_slam_south_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_south_00",
+                "phase2_roar_south_01",
+                "phase2_roar_south_02",
+                "phase2_roar_south_03",
+                "phase2_roar_south_04",
+                "phase2_roar_south_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_south_00",
+                "phase3_enrage_south_01",
+                "phase3_enrage_south_02",
+                "phase3_enrage_south_03",
+                "phase3_enrage_south_04",
+                "phase3_enrage_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "06-A",
+          "name": "Перекос",
+          "grade": "A",
+          "direction": "west",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_west_00",
+                "charge_start_west_01",
+                "charge_start_west_02",
+                "charge_start_west_03",
+                "charge_start_west_04",
+                "charge_start_west_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_west_00",
+                "charge_loop_west_01",
+                "charge_loop_west_02",
+                "charge_loop_west_03",
+                "charge_loop_west_04",
+                "charge_loop_west_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_west_00",
+                "charge_impact_west_01",
+                "charge_impact_west_02",
+                "charge_impact_west_03",
+                "charge_impact_west_04",
+                "charge_impact_west_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_west_00",
+                "heavy_combo_west_01",
+                "heavy_combo_west_02",
+                "heavy_combo_west_03",
+                "heavy_combo_west_04",
+                "heavy_combo_west_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_west_00",
+                "ground_slam_west_01",
+                "ground_slam_west_02",
+                "ground_slam_west_03",
+                "ground_slam_west_04",
+                "ground_slam_west_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_west_00",
+                "phase2_roar_west_01",
+                "phase2_roar_west_02",
+                "phase2_roar_west_03",
+                "phase2_roar_west_04",
+                "phase2_roar_west_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_west_00",
+                "phase3_enrage_west_01",
+                "phase3_enrage_west_02",
+                "phase3_enrage_west_03",
+                "phase3_enrage_west_04",
+                "phase3_enrage_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "06-A",
+          "name": "Перекос",
+          "grade": "A",
+          "direction": "east",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_east_00",
+                "charge_start_east_01",
+                "charge_start_east_02",
+                "charge_start_east_03",
+                "charge_start_east_04",
+                "charge_start_east_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_east_00",
+                "charge_loop_east_01",
+                "charge_loop_east_02",
+                "charge_loop_east_03",
+                "charge_loop_east_04",
+                "charge_loop_east_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_east_00",
+                "charge_impact_east_01",
+                "charge_impact_east_02",
+                "charge_impact_east_03",
+                "charge_impact_east_04",
+                "charge_impact_east_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_east_00",
+                "heavy_combo_east_01",
+                "heavy_combo_east_02",
+                "heavy_combo_east_03",
+                "heavy_combo_east_04",
+                "heavy_combo_east_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_east_00",
+                "ground_slam_east_01",
+                "ground_slam_east_02",
+                "ground_slam_east_03",
+                "ground_slam_east_04",
+                "ground_slam_east_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_east_00",
+                "phase2_roar_east_01",
+                "phase2_roar_east_02",
+                "phase2_roar_east_03",
+                "phase2_roar_east_04",
+                "phase2_roar_east_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_east_00",
+                "phase3_enrage_east_01",
+                "phase3_enrage_east_02",
+                "phase3_enrage_east_03",
+                "phase3_enrage_east_04",
+                "phase3_enrage_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "06-A",
+          "name": "Перекос",
+          "grade": "A",
+          "direction": "north",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_north_00",
+                "charge_start_north_01",
+                "charge_start_north_02",
+                "charge_start_north_03",
+                "charge_start_north_04",
+                "charge_start_north_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_north_00",
+                "charge_loop_north_01",
+                "charge_loop_north_02",
+                "charge_loop_north_03",
+                "charge_loop_north_04",
+                "charge_loop_north_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_north_00",
+                "charge_impact_north_01",
+                "charge_impact_north_02",
+                "charge_impact_north_03",
+                "charge_impact_north_04",
+                "charge_impact_north_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_north_00",
+                "heavy_combo_north_01",
+                "heavy_combo_north_02",
+                "heavy_combo_north_03",
+                "heavy_combo_north_04",
+                "heavy_combo_north_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_north_00",
+                "ground_slam_north_01",
+                "ground_slam_north_02",
+                "ground_slam_north_03",
+                "ground_slam_north_04",
+                "ground_slam_north_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_north_00",
+                "phase2_roar_north_01",
+                "phase2_roar_north_02",
+                "phase2_roar_north_03",
+                "phase2_roar_north_04",
+                "phase2_roar_north_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_north_00",
+                "phase3_enrage_north_01",
+                "phase3_enrage_north_02",
+                "phase3_enrage_north_03",
+                "phase3_enrage_north_04",
+                "phase3_enrage_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "06-B",
+      "name": "Колонна",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-B.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "06-B",
+          "name": "Колонна",
+          "grade": "B",
+          "direction": "south",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_south_00",
+                "charge_start_south_01",
+                "charge_start_south_02",
+                "charge_start_south_03",
+                "charge_start_south_04",
+                "charge_start_south_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_south_00",
+                "charge_loop_south_01",
+                "charge_loop_south_02",
+                "charge_loop_south_03",
+                "charge_loop_south_04",
+                "charge_loop_south_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_south_00",
+                "charge_impact_south_01",
+                "charge_impact_south_02",
+                "charge_impact_south_03",
+                "charge_impact_south_04",
+                "charge_impact_south_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_south_00",
+                "heavy_combo_south_01",
+                "heavy_combo_south_02",
+                "heavy_combo_south_03",
+                "heavy_combo_south_04",
+                "heavy_combo_south_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_south_00",
+                "ground_slam_south_01",
+                "ground_slam_south_02",
+                "ground_slam_south_03",
+                "ground_slam_south_04",
+                "ground_slam_south_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_south_00",
+                "phase2_roar_south_01",
+                "phase2_roar_south_02",
+                "phase2_roar_south_03",
+                "phase2_roar_south_04",
+                "phase2_roar_south_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_south_00",
+                "phase3_enrage_south_01",
+                "phase3_enrage_south_02",
+                "phase3_enrage_south_03",
+                "phase3_enrage_south_04",
+                "phase3_enrage_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "06-B",
+          "name": "Колонна",
+          "grade": "B",
+          "direction": "west",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_west_00",
+                "charge_start_west_01",
+                "charge_start_west_02",
+                "charge_start_west_03",
+                "charge_start_west_04",
+                "charge_start_west_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_west_00",
+                "charge_loop_west_01",
+                "charge_loop_west_02",
+                "charge_loop_west_03",
+                "charge_loop_west_04",
+                "charge_loop_west_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_west_00",
+                "charge_impact_west_01",
+                "charge_impact_west_02",
+                "charge_impact_west_03",
+                "charge_impact_west_04",
+                "charge_impact_west_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_west_00",
+                "heavy_combo_west_01",
+                "heavy_combo_west_02",
+                "heavy_combo_west_03",
+                "heavy_combo_west_04",
+                "heavy_combo_west_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_west_00",
+                "ground_slam_west_01",
+                "ground_slam_west_02",
+                "ground_slam_west_03",
+                "ground_slam_west_04",
+                "ground_slam_west_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_west_00",
+                "phase2_roar_west_01",
+                "phase2_roar_west_02",
+                "phase2_roar_west_03",
+                "phase2_roar_west_04",
+                "phase2_roar_west_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_west_00",
+                "phase3_enrage_west_01",
+                "phase3_enrage_west_02",
+                "phase3_enrage_west_03",
+                "phase3_enrage_west_04",
+                "phase3_enrage_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "06-B",
+          "name": "Колонна",
+          "grade": "B",
+          "direction": "east",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_east_00",
+                "charge_start_east_01",
+                "charge_start_east_02",
+                "charge_start_east_03",
+                "charge_start_east_04",
+                "charge_start_east_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_east_00",
+                "charge_loop_east_01",
+                "charge_loop_east_02",
+                "charge_loop_east_03",
+                "charge_loop_east_04",
+                "charge_loop_east_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_east_00",
+                "charge_impact_east_01",
+                "charge_impact_east_02",
+                "charge_impact_east_03",
+                "charge_impact_east_04",
+                "charge_impact_east_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_east_00",
+                "heavy_combo_east_01",
+                "heavy_combo_east_02",
+                "heavy_combo_east_03",
+                "heavy_combo_east_04",
+                "heavy_combo_east_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_east_00",
+                "ground_slam_east_01",
+                "ground_slam_east_02",
+                "ground_slam_east_03",
+                "ground_slam_east_04",
+                "ground_slam_east_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_east_00",
+                "phase2_roar_east_01",
+                "phase2_roar_east_02",
+                "phase2_roar_east_03",
+                "phase2_roar_east_04",
+                "phase2_roar_east_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_east_00",
+                "phase3_enrage_east_01",
+                "phase3_enrage_east_02",
+                "phase3_enrage_east_03",
+                "phase3_enrage_east_04",
+                "phase3_enrage_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "06-B",
+          "name": "Колонна",
+          "grade": "B",
+          "direction": "north",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_north_00",
+                "charge_start_north_01",
+                "charge_start_north_02",
+                "charge_start_north_03",
+                "charge_start_north_04",
+                "charge_start_north_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_north_00",
+                "charge_loop_north_01",
+                "charge_loop_north_02",
+                "charge_loop_north_03",
+                "charge_loop_north_04",
+                "charge_loop_north_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_north_00",
+                "charge_impact_north_01",
+                "charge_impact_north_02",
+                "charge_impact_north_03",
+                "charge_impact_north_04",
+                "charge_impact_north_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_north_00",
+                "heavy_combo_north_01",
+                "heavy_combo_north_02",
+                "heavy_combo_north_03",
+                "heavy_combo_north_04",
+                "heavy_combo_north_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_north_00",
+                "ground_slam_north_01",
+                "ground_slam_north_02",
+                "ground_slam_north_03",
+                "ground_slam_north_04",
+                "ground_slam_north_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_north_00",
+                "phase2_roar_north_01",
+                "phase2_roar_north_02",
+                "phase2_roar_north_03",
+                "phase2_roar_north_04",
+                "phase2_roar_north_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_north_00",
+                "phase3_enrage_north_01",
+                "phase3_enrage_north_02",
+                "phase3_enrage_north_03",
+                "phase3_enrage_north_04",
+                "phase3_enrage_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    },
+    {
+      "id": "06-C",
+      "name": "Тягун",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-C.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      },
+      "directions": {
+        "south": {
+          "character": "06-C",
+          "name": "Тягун",
+          "grade": "C",
+          "direction": "south",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_south_00",
+                "idle_south_01",
+                "idle_south_02",
+                "idle_south_03",
+                "idle_south_04",
+                "idle_south_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_south_00",
+                "walk_south_01",
+                "walk_south_02",
+                "walk_south_03",
+                "walk_south_04",
+                "walk_south_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_south_00",
+                "run_south_01",
+                "run_south_02",
+                "run_south_03",
+                "run_south_04",
+                "run_south_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_south_00",
+                "attack_south_01",
+                "attack_south_02",
+                "attack_south_03",
+                "attack_south_04",
+                "attack_south_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_south_00",
+                "hurt_south_01",
+                "hurt_south_02",
+                "hurt_south_03",
+                "hurt_south_04",
+                "hurt_south_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_south_00",
+                "stunned_south_01",
+                "stunned_south_02",
+                "stunned_south_03",
+                "stunned_south_04",
+                "stunned_south_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_south_00",
+                "knockback_south_01",
+                "knockback_south_02",
+                "knockback_south_03",
+                "knockback_south_04",
+                "knockback_south_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_south_00",
+                "death_south_01",
+                "death_south_02",
+                "death_south_03",
+                "death_south_04",
+                "death_south_05"
+              ],
+              "terminalFrame": "death_south_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_south_00",
+                "charge_start_south_01",
+                "charge_start_south_02",
+                "charge_start_south_03",
+                "charge_start_south_04",
+                "charge_start_south_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_south_00",
+                "charge_loop_south_01",
+                "charge_loop_south_02",
+                "charge_loop_south_03",
+                "charge_loop_south_04",
+                "charge_loop_south_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_south_00",
+                "charge_impact_south_01",
+                "charge_impact_south_02",
+                "charge_impact_south_03",
+                "charge_impact_south_04",
+                "charge_impact_south_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_south_00",
+                "heavy_combo_south_01",
+                "heavy_combo_south_02",
+                "heavy_combo_south_03",
+                "heavy_combo_south_04",
+                "heavy_combo_south_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_south_00",
+                "ground_slam_south_01",
+                "ground_slam_south_02",
+                "ground_slam_south_03",
+                "ground_slam_south_04",
+                "ground_slam_south_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_south_00",
+                "phase2_roar_south_01",
+                "phase2_roar_south_02",
+                "phase2_roar_south_03",
+                "phase2_roar_south_04",
+                "phase2_roar_south_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_south_00",
+                "phase3_enrage_south_01",
+                "phase3_enrage_south_02",
+                "phase3_enrage_south_03",
+                "phase3_enrage_south_04",
+                "phase3_enrage_south_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_south_05",
+            "static": true
+          }
+        },
+        "west": {
+          "character": "06-C",
+          "name": "Тягун",
+          "grade": "C",
+          "direction": "west",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_west_00",
+                "idle_west_01",
+                "idle_west_02",
+                "idle_west_03",
+                "idle_west_04",
+                "idle_west_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_west_00",
+                "walk_west_01",
+                "walk_west_02",
+                "walk_west_03",
+                "walk_west_04",
+                "walk_west_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_west_00",
+                "run_west_01",
+                "run_west_02",
+                "run_west_03",
+                "run_west_04",
+                "run_west_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_west_00",
+                "attack_west_01",
+                "attack_west_02",
+                "attack_west_03",
+                "attack_west_04",
+                "attack_west_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_west_00",
+                "hurt_west_01",
+                "hurt_west_02",
+                "hurt_west_03",
+                "hurt_west_04",
+                "hurt_west_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_west_00",
+                "stunned_west_01",
+                "stunned_west_02",
+                "stunned_west_03",
+                "stunned_west_04",
+                "stunned_west_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_west_00",
+                "knockback_west_01",
+                "knockback_west_02",
+                "knockback_west_03",
+                "knockback_west_04",
+                "knockback_west_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_west_00",
+                "death_west_01",
+                "death_west_02",
+                "death_west_03",
+                "death_west_04",
+                "death_west_05"
+              ],
+              "terminalFrame": "death_west_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_west_00",
+                "charge_start_west_01",
+                "charge_start_west_02",
+                "charge_start_west_03",
+                "charge_start_west_04",
+                "charge_start_west_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_west_00",
+                "charge_loop_west_01",
+                "charge_loop_west_02",
+                "charge_loop_west_03",
+                "charge_loop_west_04",
+                "charge_loop_west_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_west_00",
+                "charge_impact_west_01",
+                "charge_impact_west_02",
+                "charge_impact_west_03",
+                "charge_impact_west_04",
+                "charge_impact_west_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_west_00",
+                "heavy_combo_west_01",
+                "heavy_combo_west_02",
+                "heavy_combo_west_03",
+                "heavy_combo_west_04",
+                "heavy_combo_west_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_west_00",
+                "ground_slam_west_01",
+                "ground_slam_west_02",
+                "ground_slam_west_03",
+                "ground_slam_west_04",
+                "ground_slam_west_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_west_00",
+                "phase2_roar_west_01",
+                "phase2_roar_west_02",
+                "phase2_roar_west_03",
+                "phase2_roar_west_04",
+                "phase2_roar_west_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_west_00",
+                "phase3_enrage_west_01",
+                "phase3_enrage_west_02",
+                "phase3_enrage_west_03",
+                "phase3_enrage_west_04",
+                "phase3_enrage_west_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_west_05",
+            "static": true
+          }
+        },
+        "east": {
+          "character": "06-C",
+          "name": "Тягун",
+          "grade": "C",
+          "direction": "east",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_east_00",
+                "idle_east_01",
+                "idle_east_02",
+                "idle_east_03",
+                "idle_east_04",
+                "idle_east_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_east_00",
+                "walk_east_01",
+                "walk_east_02",
+                "walk_east_03",
+                "walk_east_04",
+                "walk_east_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_east_00",
+                "run_east_01",
+                "run_east_02",
+                "run_east_03",
+                "run_east_04",
+                "run_east_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_east_00",
+                "attack_east_01",
+                "attack_east_02",
+                "attack_east_03",
+                "attack_east_04",
+                "attack_east_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_east_00",
+                "hurt_east_01",
+                "hurt_east_02",
+                "hurt_east_03",
+                "hurt_east_04",
+                "hurt_east_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_east_00",
+                "stunned_east_01",
+                "stunned_east_02",
+                "stunned_east_03",
+                "stunned_east_04",
+                "stunned_east_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_east_00",
+                "knockback_east_01",
+                "knockback_east_02",
+                "knockback_east_03",
+                "knockback_east_04",
+                "knockback_east_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_east_00",
+                "death_east_01",
+                "death_east_02",
+                "death_east_03",
+                "death_east_04",
+                "death_east_05"
+              ],
+              "terminalFrame": "death_east_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_east_00",
+                "charge_start_east_01",
+                "charge_start_east_02",
+                "charge_start_east_03",
+                "charge_start_east_04",
+                "charge_start_east_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_east_00",
+                "charge_loop_east_01",
+                "charge_loop_east_02",
+                "charge_loop_east_03",
+                "charge_loop_east_04",
+                "charge_loop_east_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_east_00",
+                "charge_impact_east_01",
+                "charge_impact_east_02",
+                "charge_impact_east_03",
+                "charge_impact_east_04",
+                "charge_impact_east_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_east_00",
+                "heavy_combo_east_01",
+                "heavy_combo_east_02",
+                "heavy_combo_east_03",
+                "heavy_combo_east_04",
+                "heavy_combo_east_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_east_00",
+                "ground_slam_east_01",
+                "ground_slam_east_02",
+                "ground_slam_east_03",
+                "ground_slam_east_04",
+                "ground_slam_east_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_east_00",
+                "phase2_roar_east_01",
+                "phase2_roar_east_02",
+                "phase2_roar_east_03",
+                "phase2_roar_east_04",
+                "phase2_roar_east_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_east_00",
+                "phase3_enrage_east_01",
+                "phase3_enrage_east_02",
+                "phase3_enrage_east_03",
+                "phase3_enrage_east_04",
+                "phase3_enrage_east_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_east_05",
+            "static": true
+          }
+        },
+        "north": {
+          "character": "06-C",
+          "name": "Тягун",
+          "grade": "C",
+          "direction": "north",
+          "frameWidth": 128,
+          "frameHeight": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 0.875
+          },
+          "animations": {
+            "idle": {
+              "durationMs": 320,
+              "frameRate": 3.125,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "idle_north_00",
+                "idle_north_01",
+                "idle_north_02",
+                "idle_north_03",
+                "idle_north_04",
+                "idle_north_05"
+              ]
+            },
+            "walk": {
+              "durationMs": 260,
+              "frameRate": 3.8461538461538463,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "walk_north_00",
+                "walk_north_01",
+                "walk_north_02",
+                "walk_north_03",
+                "walk_north_04",
+                "walk_north_05"
+              ]
+            },
+            "run": {
+              "durationMs": 160,
+              "frameRate": 6.25,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "run_north_00",
+                "run_north_01",
+                "run_north_02",
+                "run_north_03",
+                "run_north_04",
+                "run_north_05"
+              ]
+            },
+            "attack": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "attack_north_00",
+                "attack_north_01",
+                "attack_north_02",
+                "attack_north_03",
+                "attack_north_04",
+                "attack_north_05"
+              ]
+            },
+            "hurt": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "hurt_north_00",
+                "hurt_north_01",
+                "hurt_north_02",
+                "hurt_north_03",
+                "hurt_north_04",
+                "hurt_north_05"
+              ]
+            },
+            "stunned": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": -1,
+              "rootMotion": false,
+              "frames": [
+                "stunned_north_00",
+                "stunned_north_01",
+                "stunned_north_02",
+                "stunned_north_03",
+                "stunned_north_04",
+                "stunned_north_05"
+              ]
+            },
+            "knockback": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "frames": [
+                "knockback_north_00",
+                "knockback_north_01",
+                "knockback_north_02",
+                "knockback_north_03",
+                "knockback_north_04",
+                "knockback_north_05"
+              ]
+            },
+            "death": {
+              "durationMs": 250,
+              "frameRate": 4,
+              "repeat": 0,
+              "rootMotion": false,
+              "holdLastFrame": true,
+              "frames": [
+                "death_north_00",
+                "death_north_01",
+                "death_north_02",
+                "death_north_03",
+                "death_north_04",
+                "death_north_05"
+              ],
+              "terminalFrame": "death_north_05"
+            },
+            "charge_start": {
+              "durationMs": 150,
+              "frameRate": 6.666666666666667,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_warning"
+                }
+              ],
+              "frames": [
+                "charge_start_north_00",
+                "charge_start_north_01",
+                "charge_start_north_02",
+                "charge_start_north_03",
+                "charge_start_north_04",
+                "charge_start_north_05"
+              ]
+            },
+            "charge_loop": {
+              "durationMs": 85,
+              "frameRate": 11.764705882352942,
+              "repeat": -1,
+              "rootMotion": false,
+              "events": [],
+              "frames": [
+                "charge_loop_north_00",
+                "charge_loop_north_01",
+                "charge_loop_north_02",
+                "charge_loop_north_03",
+                "charge_loop_north_04",
+                "charge_loop_north_05"
+              ]
+            },
+            "charge_impact": {
+              "durationMs": 140,
+              "frameRate": 7.142857142857143,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "charge_contact"
+                }
+              ],
+              "frames": [
+                "charge_impact_north_00",
+                "charge_impact_north_01",
+                "charge_impact_north_02",
+                "charge_impact_north_03",
+                "charge_impact_north_04",
+                "charge_impact_north_05"
+              ]
+            },
+            "heavy_combo": {
+              "durationMs": 125,
+              "frameRate": 8,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 2,
+                  "name": "combo_contact",
+                  "hit": 1
+                },
+                {
+                  "frame": 4,
+                  "name": "combo_contact",
+                  "hit": 2
+                }
+              ],
+              "frames": [
+                "heavy_combo_north_00",
+                "heavy_combo_north_01",
+                "heavy_combo_north_02",
+                "heavy_combo_north_03",
+                "heavy_combo_north_04",
+                "heavy_combo_north_05"
+              ]
+            },
+            "ground_slam": {
+              "durationMs": 180,
+              "frameRate": 5.555555555555555,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "slam_contact",
+                  "effect": "slam_dust"
+                }
+              ],
+              "frames": [
+                "ground_slam_north_00",
+                "ground_slam_north_01",
+                "ground_slam_north_02",
+                "ground_slam_north_03",
+                "ground_slam_north_04",
+                "ground_slam_north_05"
+              ]
+            },
+            "phase2_roar": {
+              "durationMs": 190,
+              "frameRate": 5.2631578947368425,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 2
+                }
+              ],
+              "frames": [
+                "phase2_roar_north_00",
+                "phase2_roar_north_01",
+                "phase2_roar_north_02",
+                "phase2_roar_north_03",
+                "phase2_roar_north_04",
+                "phase2_roar_north_05"
+              ]
+            },
+            "phase3_enrage": {
+              "durationMs": 170,
+              "frameRate": 5.882352941176471,
+              "repeat": 0,
+              "rootMotion": false,
+              "events": [
+                {
+                  "frame": 3,
+                  "name": "phase_transition_peak",
+                  "phase": 3
+                }
+              ],
+              "frames": [
+                "phase3_enrage_north_00",
+                "phase3_enrage_north_01",
+                "phase3_enrage_north_02",
+                "phase3_enrage_north_03",
+                "phase3_enrage_north_04",
+                "phase3_enrage_north_05"
+              ]
+            }
+          },
+          "corpse": {
+            "image": "corpse.png",
+            "frame": "death_north_05",
+            "static": true
+          }
+        }
+      }
+    }
+  ],
+  "staticCorpses": 72,
+  "effectsPolicy": "All existing blood, spore and particle packs preserved byte-for-byte; no effect art regenerated."
+};

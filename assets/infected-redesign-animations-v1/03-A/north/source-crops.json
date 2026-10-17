@@ -1,0 +1,1014 @@
+{
+  "sharedCharacterScale": 0.1991701244813278,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_north_00",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 98,
+        "y": 775,
+        "w": 138,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 24,
+        "y": 9,
+        "w": 27,
+        "h": 47
+      },
+      "sha256": "9b40580457eb4c84146852d887b5d423be42878de3d681c61371a24851018589"
+    },
+    {
+      "name": "idle_north_01",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 348,
+        "y": 775,
+        "w": 136,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 23,
+        "y": 9,
+        "w": 27,
+        "h": 47
+      },
+      "sha256": "993d1e8c51479c5186a93d4029c04f004134d057456bc61bd1f113e5d6fcd9fe"
+    },
+    {
+      "name": "idle_north_02",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 775,
+        "w": 143,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 18,
+        "y": 9,
+        "w": 28,
+        "h": 47
+      },
+      "sha256": "26ed926666f3db1595cb5dc42d9733c393cda2f0ebfe42d6b12b8fe19c53ce64"
+    },
+    {
+      "name": "idle_north_03",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 831,
+        "y": 775,
+        "w": 136,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 17,
+        "y": 9,
+        "w": 27,
+        "h": 47
+      },
+      "sha256": "b39a630b0fd394bed8e4d88695b73ccf0c4346cee1e4acdcebea3041280db5ae"
+    },
+    {
+      "name": "idle_north_04",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 1065,
+        "y": 775,
+        "w": 138,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 13,
+        "y": 9,
+        "w": 27,
+        "h": 47
+      },
+      "sha256": "1d995634944fbf01482b28476fa0cf8f83ab657f48ba3935dabc346c8bc40f51"
+    },
+    {
+      "name": "idle_north_05",
+      "source": "../../sources/03-A-idle.png",
+      "sourceBounds": {
+        "x": 1305,
+        "y": 775,
+        "w": 140,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 242
+      },
+      "destination": {
+        "x": 10,
+        "y": 9,
+        "w": 28,
+        "h": 47
+      },
+      "sha256": "926e80a955dd66ead92822d83c8280ea65fb97dcddb0627f1c8820a0d17b6291"
+    },
+    {
+      "name": "walk_north_00",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 86,
+        "y": 755,
+        "w": 129,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 23,
+        "y": 8,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "b8b68d5d12a4b1dbf856f58932ea86d170b81f081732830e2bc2f408a58f4f2a"
+    },
+    {
+      "name": "walk_north_01",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 755,
+        "w": 126,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 21,
+        "y": 8,
+        "w": 25,
+        "h": 48
+      },
+      "sha256": "90b2265e69a846b4b142fa22b4daeb36853d3c89dbf1eebc9b5d50244cb98e28"
+    },
+    {
+      "name": "walk_north_02",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 755,
+        "w": 127,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 19,
+        "y": 8,
+        "w": 25,
+        "h": 48
+      },
+      "sha256": "675fa782baa6ae90aee70a2f08235e8082b8ada8794edf5f149591ab66bbe8ec"
+    },
+    {
+      "name": "walk_north_03",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 835,
+        "y": 755,
+        "w": 130,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 19,
+        "y": 8,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "d311742ecbef698198e6557c560ae47bd45c27a73fc177500e6665d458d5561a"
+    },
+    {
+      "name": "walk_north_04",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 1089,
+        "y": 753,
+        "w": 130,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 19,
+        "y": 8,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "c267f6515a892de9956c0dc691c7fcf84f95f4045398e436027b032ba38f45b1"
+    },
+    {
+      "name": "walk_north_05",
+      "source": "../../sources/03-A-walk.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 753,
+        "w": 134,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 17,
+        "y": 8,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "390345f075b3f7e8450ae6d1d1fb4172190e3f2f19f2eb6ab9f6c942bd681e83"
+    },
+    {
+      "name": "run_north_00",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 776,
+        "w": 132,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 19,
+        "y": 11,
+        "w": 26,
+        "h": 46
+      },
+      "sha256": "0fb1dd9d7b48fb2e199417826d47aadac62d58b9d75d35db4133052a799f149b"
+    },
+    {
+      "name": "run_north_01",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 329,
+        "y": 776,
+        "w": 130,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 20,
+        "y": 11,
+        "w": 26,
+        "h": 46
+      },
+      "sha256": "633389786ea700348eb445dbed6530b975a0b99b30b61ea8eb154870ca265778"
+    },
+    {
+      "name": "run_north_02",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 572,
+        "y": 776,
+        "w": 133,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 17,
+        "y": 11,
+        "w": 26,
+        "h": 46
+      },
+      "sha256": "2ba2b4271019dc3e8a3a1f914aa37306239e54a93b0acb1e469c7fbd1c8bfa33"
+    },
+    {
+      "name": "run_north_03",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 776,
+        "w": 136,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 16,
+        "y": 11,
+        "w": 27,
+        "h": 46
+      },
+      "sha256": "030a1bc0982c37ce8d62398b6ffed5e1c267a4e399ce4b8dc2a1124bc33a68df"
+    },
+    {
+      "name": "run_north_04",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 1096,
+        "y": 776,
+        "w": 127,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 19,
+        "y": 11,
+        "w": 25,
+        "h": 46
+      },
+      "sha256": "88003bb3b3361bb91932610d329d5cdef59c355214a10e404f48f1d5825132dd"
+    },
+    {
+      "name": "run_north_05",
+      "source": "../../sources/03-A-run.png",
+      "sourceBounds": {
+        "x": 1343,
+        "y": 776,
+        "w": 128,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 236
+      },
+      "destination": {
+        "x": 18,
+        "y": 11,
+        "w": 25,
+        "h": 46
+      },
+      "sha256": "113c794dc28259f226751a3a9e7a46a8ab4ef7c1c91881e6942520c806225691"
+    },
+    {
+      "name": "attack_north_00",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 65,
+        "y": 763,
+        "w": 142,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 18,
+        "y": 10,
+        "w": 28,
+        "h": 46
+      },
+      "sha256": "da25da2c6574b1f21c499edcfa6315fdf3d19a1f510168f3472b1a1a65dbe7c6"
+    },
+    {
+      "name": "attack_north_01",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 310,
+        "y": 759,
+        "w": 167,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 15,
+        "y": 10,
+        "w": 33,
+        "h": 47
+      },
+      "sha256": "b101594d0f6297fee0584868463227f04c03f5fdab057bd518f3bd7c2855c571"
+    },
+    {
+      "name": "attack_north_02",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 552,
+        "y": 775,
+        "w": 198,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 13,
+        "y": 13,
+        "w": 39,
+        "h": 43
+      },
+      "sha256": "e8124c704d459d79b4470b48ebe6f77a0352d27e7dd3a14461a85ae4a45bd85c"
+    },
+    {
+      "name": "attack_north_03",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 781,
+        "y": 775,
+        "w": 245,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 7,
+        "y": 13,
+        "w": 49,
+        "h": 43
+      },
+      "sha256": "b11141f3f351b028a086fdb1817dbc58f825a374f0693ea3e618832dba39704b"
+    },
+    {
+      "name": "attack_north_04",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 1100,
+        "y": 766,
+        "w": 148,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 20,
+        "y": 11,
+        "w": 29,
+        "h": 45
+      },
+      "sha256": "59cacddb982820952590211cd96fe45213da132dc76d22c7c3f39babc14229dc"
+    },
+    {
+      "name": "attack_north_05",
+      "source": "../../sources/03-A-attack.png",
+      "sourceBounds": {
+        "x": 1327,
+        "y": 763,
+        "w": 140,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 224
+      },
+      "destination": {
+        "x": 14,
+        "y": 10,
+        "w": 28,
+        "h": 46
+      },
+      "sha256": "f29db632f98b9785a6f888efb7cd92151772f378eed8fec1aea213b8563f16ef"
+    },
+    {
+      "name": "hurt_north_00",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 773,
+        "w": 121,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 20,
+        "y": 9,
+        "w": 24,
+        "h": 47
+      },
+      "sha256": "f79835eb1f84cc41c3fb80a2df831ed6257594c0060d04ac5cf2cc436ef319f8"
+    },
+    {
+      "name": "hurt_north_01",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 770,
+        "w": 130,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 20,
+        "y": 9,
+        "w": 26,
+        "h": 47
+      },
+      "sha256": "c440193d14a5c54536f10b9f66409905c5cc18d2f43c122d3e148e53e477738b"
+    },
+    {
+      "name": "hurt_north_02",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 584,
+        "y": 806,
+        "w": 115,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 20,
+        "y": 16,
+        "w": 23,
+        "h": 40
+      },
+      "sha256": "9b61b3462af0375c7507075aa00b845154a2aa53a1f07a0b496fa6f6895e2bff"
+    },
+    {
+      "name": "hurt_north_03",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 811,
+        "y": 773,
+        "w": 168,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 15,
+        "y": 9,
+        "w": 33,
+        "h": 47
+      },
+      "sha256": "a2c0719d1c082807861a466360a053d7bba6f321b79c9e512e9892957c0a36d2"
+    },
+    {
+      "name": "hurt_north_04",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 1094,
+        "y": 773,
+        "w": 124,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 20,
+        "y": 9,
+        "w": 25,
+        "h": 47
+      },
+      "sha256": "cfa4adc2c5565d2d24616cde672c22effacddbf25abc7f4b3f448e00100e41c7"
+    },
+    {
+      "name": "hurt_north_05",
+      "source": "../../sources/03-A-hurt.png",
+      "sourceBounds": {
+        "x": 1350,
+        "y": 773,
+        "w": 121,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 239
+      },
+      "destination": {
+        "x": 20,
+        "y": 9,
+        "w": 24,
+        "h": 47
+      },
+      "sha256": "fed6f9f98262f02de8fcfac0ad2160d28471d4384e88f69d6de5a26960cff967"
+    },
+    {
+      "name": "stunned_north_00",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 62,
+        "y": 776,
+        "w": 131,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 19,
+        "y": 10,
+        "w": 26,
+        "h": 46
+      },
+      "sha256": "d27d30221d8932d5d53d81c73c0351d43adb11f50fbcc6c6ee7c17c68fbfc3d2"
+    },
+    {
+      "name": "stunned_north_01",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 314,
+        "y": 774,
+        "w": 142,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 18,
+        "y": 10,
+        "w": 28,
+        "h": 47
+      },
+      "sha256": "5ed18e7f73ed7238deb5a1a3dfc4d707fc5a22d3fcca9a70524f1c6976ebb907"
+    },
+    {
+      "name": "stunned_north_02",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 774,
+        "w": 130,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 19,
+        "y": 10,
+        "w": 26,
+        "h": 47
+      },
+      "sha256": "f4462be5c8b5e6c194b549f5da13e56d1e53adb883301b6de19220bfb50530c8"
+    },
+    {
+      "name": "stunned_north_03",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 776,
+        "w": 143,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 17,
+        "y": 10,
+        "w": 28,
+        "h": 46
+      },
+      "sha256": "2f882fe746223fb12a3cc1dd3a77825cb21d22285069158f9215dffad1b0dc4f"
+    },
+    {
+      "name": "stunned_north_04",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 1081,
+        "y": 772,
+        "w": 145,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 18,
+        "y": 9,
+        "w": 29,
+        "h": 47
+      },
+      "sha256": "f40d5e43b431166c36cd50d7aba0ec3803b1920cda0593113f9a42f0463f516c"
+    },
+    {
+      "name": "stunned_north_05",
+      "source": "../../sources/03-A-stunned.png",
+      "sourceBounds": {
+        "x": 1345,
+        "y": 774,
+        "w": 127,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 239
+      },
+      "destination": {
+        "x": 19,
+        "y": 10,
+        "w": 25,
+        "h": 47
+      },
+      "sha256": "236ce773a424f80dedf5f85aa35931de4ba47582af61291fe984dcd548b9080a"
+    },
+    {
+      "name": "knockback_north_00",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 63,
+        "y": 769,
+        "w": 138,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 18,
+        "y": 8,
+        "w": 27,
+        "h": 48
+      },
+      "sha256": "0541376ac82b3b9b7188c2ee63273eeb891639dc1c046f1c9d7a0924db079805"
+    },
+    {
+      "name": "knockback_north_01",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 296,
+        "y": 779,
+        "w": 176,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 14,
+        "y": 10,
+        "w": 35,
+        "h": 46
+      },
+      "sha256": "c97cde20ce7a7f82b308c71b9ab1edff2079108dc38e5b67575e17020b243c61"
+    },
+    {
+      "name": "knockback_north_02",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 523,
+        "y": 775,
+        "w": 243,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 8,
+        "y": 9,
+        "w": 48,
+        "h": 47
+      },
+      "sha256": "77953141007d979fc160155ac80098b8f6d5fa88625cbb9d3a0b3af8f865f593"
+    },
+    {
+      "name": "knockback_north_03",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 803,
+        "y": 782,
+        "w": 199,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 13,
+        "y": 11,
+        "w": 40,
+        "h": 45
+      },
+      "sha256": "fce2d252c1f4a6d2d8e0534c55263f9fe9d5ac332e8b296997e7b33cf4d609b8"
+    },
+    {
+      "name": "knockback_north_04",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 813,
+        "w": 155,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 17,
+        "y": 17,
+        "w": 31,
+        "h": 39
+      },
+      "sha256": "b9948a854f67de0caf2697508e81bd92190888e6b0613085aeb5975bdc8fb533"
+    },
+    {
+      "name": "knockback_north_05",
+      "source": "../../sources/03-A-knockback.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 770,
+        "w": 142,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 242
+      },
+      "destination": {
+        "x": 17,
+        "y": 8,
+        "w": 28,
+        "h": 48
+      },
+      "sha256": "328f65b08fa58987a05f009191e5a915ed183465cbd0b32c31979b00472501c5"
+    },
+    {
+      "name": "death_north_00",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 52,
+        "y": 758,
+        "w": 134,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 19,
+        "y": 10,
+        "w": 27,
+        "h": 46
+      },
+      "sha256": "70f537d9e8f6d424dc35bad166fd46e40cc9851d3a8875b57d45c3c19faa420a"
+    },
+    {
+      "name": "death_north_01",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 262,
+        "y": 768,
+        "w": 176,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 10,
+        "y": 12,
+        "w": 35,
+        "h": 43
+      },
+      "sha256": "bec06940765d8d40e3c0840500183c046deb75fffe228212e9bc52c8b6a66e67"
+    },
+    {
+      "name": "death_north_02",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 528,
+        "y": 818,
+        "w": 176,
+        "h": 164
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 12,
+        "y": 22,
+        "w": 35,
+        "h": 33
+      },
+      "sha256": "dd1cc32e2dc0835e9e14c407cd1d294ea67af463ff6baaeac666bbc7edac496d"
+    },
+    {
+      "name": "death_north_03",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 766,
+        "y": 855,
+        "w": 227,
+        "h": 135
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 8,
+        "y": 30,
+        "w": 45,
+        "h": 27
+      },
+      "sha256": "e58013291800bcbeabde3d17aef66567cfe8843dc773c89e97c70db758ff144b"
+    },
+    {
+      "name": "death_north_04",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 1039,
+        "y": 873,
+        "w": 220,
+        "h": 109
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 11,
+        "y": 33,
+        "w": 44,
+        "h": 22
+      },
+      "sha256": "4694e669cefb63d8693ac631b246bb090746ac8e4c70aa63d42d3e8e0bc5211b"
+    },
+    {
+      "name": "death_north_05",
+      "source": "../../sources/03-A-death.png",
+      "sourceBounds": {
+        "x": 1295,
+        "y": 902,
+        "w": 213,
+        "h": 80
+      },
+      "fixedSourceAnchor": {
+        "x": 118.5,
+        "y": 220
+      },
+      "destination": {
+        "x": 11,
+        "y": 39,
+        "w": 42,
+        "h": 16
+      },
+      "sha256": "242a753ceaec0cf40660c490253b22aa18fd52151d06f96a387a90b22e4bcaf7"
+    }
+  ]
+}

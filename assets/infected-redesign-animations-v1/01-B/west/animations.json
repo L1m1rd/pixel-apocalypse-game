@@ -1,0 +1,133 @@
+{
+  "character": "01-B",
+  "name": "Косой",
+  "grade": "B",
+  "direction": "west",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "idle_west_00",
+        "idle_west_01",
+        "idle_west_02",
+        "idle_west_03",
+        "idle_west_04",
+        "idle_west_05"
+      ]
+    },
+    "walk": {
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "walk_west_00",
+        "walk_west_01",
+        "walk_west_02",
+        "walk_west_03",
+        "walk_west_04",
+        "walk_west_05"
+      ]
+    },
+    "run": {
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "run_west_00",
+        "run_west_01",
+        "run_west_02",
+        "run_west_03",
+        "run_west_04",
+        "run_west_05"
+      ]
+    },
+    "attack": {
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "attack_west_00",
+        "attack_west_01",
+        "attack_west_02",
+        "attack_west_03",
+        "attack_west_04",
+        "attack_west_05"
+      ]
+    },
+    "hurt": {
+      "durationMs": 80,
+      "frameRate": 12.5,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "hurt_west_00",
+        "hurt_west_01",
+        "hurt_west_02",
+        "hurt_west_03",
+        "hurt_west_04",
+        "hurt_west_05"
+      ]
+    },
+    "stunned": {
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "stunned_west_00",
+        "stunned_west_01",
+        "stunned_west_02",
+        "stunned_west_03",
+        "stunned_west_04",
+        "stunned_west_05"
+      ]
+    },
+    "knockback": {
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "knockback_west_00",
+        "knockback_west_01",
+        "knockback_west_02",
+        "knockback_west_03",
+        "knockback_west_04",
+        "knockback_west_05"
+      ]
+    },
+    "death": {
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": true,
+      "frames": [
+        "death_west_00",
+        "death_west_01",
+        "death_west_02",
+        "death_west_03",
+        "death_west_04",
+        "death_west_05"
+      ],
+      "terminalFrame": "death_west_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_west_05",
+    "static": true
+  }
+}

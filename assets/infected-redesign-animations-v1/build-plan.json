@@ -1,0 +1,1726 @@
+{
+  "status": "approved for GitHub publication",
+  "directions": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "totalCharacters": 18,
+  "totalSourceSheets": 168,
+  "totalAnimations": 672,
+  "totalFrames": 4032,
+  "gradeSystem": {
+    "scope": "within each of the six types",
+    "A": {
+      "rank": 1,
+      "strength": "слабый"
+    },
+    "B": {
+      "rank": 2,
+      "strength": "средний"
+    },
+    "C": {
+      "rank": 3,
+      "strength": "сильный"
+    },
+    "numericalBalance": "not specified; visual stage only"
+  },
+  "characters": [
+    {
+      "id": "01-A",
+      "name": "Жильник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-A.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "01-B",
+      "name": "Косой",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-B.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "01-C",
+      "name": "Пружинник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/01-C.png",
+      "previousRole": "runner",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 80,
+          "frameRate": 12.5,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "02-A",
+      "name": "Теневик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-A.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "02-B",
+      "name": "Лазутчик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-B.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "02-C",
+      "name": "Складень",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/02-C.png",
+      "previousRole": "stalker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "03-A",
+      "name": "Резонатор",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-A.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "03-B",
+      "name": "Усик",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-B.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "03-C",
+      "name": "Гул",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/03-C.png",
+      "previousRole": "clicker",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 95,
+          "frameRate": 10.526315789473685,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 115,
+          "frameRate": 8.695652173913043,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "04-A",
+      "name": "Сланец",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-A.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "04-B",
+      "name": "Кокон",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-B.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "04-C",
+      "name": "Роговик",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/04-C.png",
+      "previousRole": "bloater",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "throw_growth"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 300,
+          "frameRate": 3.3333333333333335,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 240,
+          "frameRate": 4.166666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "throw_growth": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "projectile_release",
+              "effect": "growth_projectile"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "05-A",
+      "name": "Сотовик",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-A.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "05-B",
+      "name": "Дымарь",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-B.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "05-C",
+      "name": "Стручник",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-C.png",
+      "previousRole": "shambler",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 280,
+          "frameRate": 3.5714285714285716,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 230,
+          "frameRate": 4.3478260869565215,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 210,
+          "frameRate": 4.761904761904762,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "06-A",
+      "name": "Перекос",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "A",
+      "strength": "слабый",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-A.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06-B",
+      "name": "Колонна",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "B",
+      "strength": "средний",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-B.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06-C",
+      "name": "Тягун",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "C",
+      "strength": "сильный",
+      "frameSize": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-C.png",
+      "previousRole": "rat-king",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "attack",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death",
+        "charge_start",
+        "charge_loop",
+        "charge_impact",
+        "heavy_combo",
+        "ground_slam",
+        "phase2_roar",
+        "phase3_enrage"
+      ],
+      "actions": {
+        "idle": {
+          "durationMs": 320,
+          "frameRate": 3.125,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "walk": {
+          "durationMs": 260,
+          "frameRate": 3.8461538461538463,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "run": {
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "attack": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "hurt": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "stunned": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": -1,
+          "rootMotion": false
+        },
+        "knockback": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false
+        },
+        "death": {
+          "durationMs": 250,
+          "frameRate": 4,
+          "repeat": 0,
+          "rootMotion": false,
+          "holdLastFrame": true
+        },
+        "charge_start": {
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_warning"
+            }
+          ]
+        },
+        "charge_loop": {
+          "durationMs": 85,
+          "frameRate": 11.764705882352942,
+          "repeat": -1,
+          "rootMotion": false,
+          "events": []
+        },
+        "charge_impact": {
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "charge_contact"
+            }
+          ]
+        },
+        "heavy_combo": {
+          "durationMs": 125,
+          "frameRate": 8,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 2,
+              "name": "combo_contact",
+              "hit": 1
+            },
+            {
+              "frame": 4,
+              "name": "combo_contact",
+              "hit": 2
+            }
+          ]
+        },
+        "ground_slam": {
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "slam_contact",
+              "effect": "slam_dust"
+            }
+          ]
+        },
+        "phase2_roar": {
+          "durationMs": 190,
+          "frameRate": 5.2631578947368425,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 2
+            }
+          ]
+        },
+        "phase3_enrage": {
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": 0,
+          "rootMotion": false,
+          "events": [
+            {
+              "frame": 3,
+              "name": "phase_transition_peak",
+              "phase": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

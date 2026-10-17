@@ -76,11 +76,20 @@ async function main(){
   }
   if(combatVfxFrames!==96||combatVfxAnimations!==16||combatVfxDecals!==1)errors.push('Wrong combat VFX totals');
  }catch(e){if(e.code!=='ENOENT')throw e;}
+ let redesignedAnimations=0,redesignedFrames=0,redesignedCorpses=0;
+ try{
+  const pack=JSON.parse(await fs.readFile(path.join(ROOT,'assets/infected-redesign-animations-v1/manifest.json'),'utf8'));
+  for(const c of pack.characters)for(const d of pack.directions){
+   for(const a of Object.values(c.directions[d].animations)){redesignedAnimations++;for(const frame of a.frames){const p=`assets/infected-redesign-animations-v1/${c.id}/${d}/frames/${frame}.png`;if(!set.has(p))errors.push('Missing '+p);redesignedFrames++;}}
+   const p=`assets/infected-redesign-animations-v1/${c.id}/${d}/corpse.png`;if(!set.has(p))errors.push('Missing '+p);redesignedCorpses++;
+  }
+  if(redesignedAnimations!==672||redesignedFrames!==4032||redesignedCorpses!==72)errors.push('Wrong redesigned animation totals');
+ }catch(e){if(e.code!=='ENOENT')throw e;}
  if(errors.length)throw Error(errors.join('\n'));
  if(process.argv.includes('--inventory')){
   const entries=[];for(const file of files){if(file==='docs/asset-inventory.json')continue;const data=await fs.readFile(path.join(ROOT,file));entries.push({path:file,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')});}
   await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'Published project files except this inventory, Git internals, local dependencies, temporary files and explicitly excluded local drafts.',excludedLocalPaths,files:entries.length,totalBytes:entries.reduce((sum,x)=>sum+x.bytes,0),entries},null,2)+'\n');
  }
- console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,combatVfxAnimations,combatVfxFrames,combatVfxDecals,markdownLinksValid:true,allFilesBelow100MiB:true}));
+ console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,combatVfxAnimations,combatVfxFrames,combatVfxDecals,redesignedAnimations,redesignedFrames,redesignedCorpses,markdownLinksValid:true,allFilesBelow100MiB:true}));
 }
 main().catch(e=>{console.error(e.message);process.exitCode=1;});

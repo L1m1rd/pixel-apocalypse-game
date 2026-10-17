@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "01-B-walk",
+      "reason": "Remove painted gray backdrop; retain original poses",
+      "prompt": "Edit ONLY the background of the attached pixel-art animation sheet. Preserve all24 existing character poses, their exact silhouettes, clothing, colors, positions, grid layout and canvas1536x1024. Remove all white/gray backdrop and diffuse shadow haze completely, replacing every background region between and around the sprites with true transparent alpha0. Keep the existing dark outlines on the sprites. Do not add, move, resize, redraw or delete any character or limb. No ground shadows. Output clean transparent RGBA sprite sheet,6columns and4rows, no lettering."
+    }
+  ]
+}

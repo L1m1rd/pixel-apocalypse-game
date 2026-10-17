@@ -1,0 +1,4 @@
+const fs=require('node:fs/promises'),path=require('node:path'),scan=require('./slice-sprite-components.cjs');
+const ROOT=path.resolve(__dirname,'../assets/infected-redesign-animations-v1');
+async function main(){const jobs=JSON.parse(await fs.readFile(path.join(ROOT,'generation-prompts.json'),'utf8')).jobs,report={expected:jobs.length,ready:0,missing:[],invalid:[]};for(const j of jobs){try{await fs.access(path.join(ROOT,j.source));}catch{report.missing.push(j.id);continue;}try{const cells=await scan(path.join(ROOT,j.source));if(cells.length!==24)throw Error('Expected 24 poses');if(cells.some(c=>c.x0===0||c.y0===0||c.x1===1535||c.y1===1023))throw Error('A source silhouette touches the outer canvas edge');report.ready++;}catch(e){report.invalid.push({id:j.id,error:e.message});}}await fs.writeFile(path.join(ROOT,'source-audit.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));}
+main().catch(e=>{console.error(e);process.exitCode=1;});

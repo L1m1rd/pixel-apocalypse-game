@@ -1,0 +1,133 @@
+{
+  "character": "02-C",
+  "name": "Складень",
+  "grade": "C",
+  "direction": "south",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "durationMs": 240,
+      "frameRate": 4.166666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_south_04",
+        "idle_south_05"
+      ]
+    },
+    "walk": {
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05"
+      ]
+    },
+    "run": {
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "run_south_00",
+        "run_south_01",
+        "run_south_02",
+        "run_south_03",
+        "run_south_04",
+        "run_south_05"
+      ]
+    },
+    "attack": {
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "attack_south_00",
+        "attack_south_01",
+        "attack_south_02",
+        "attack_south_03",
+        "attack_south_04",
+        "attack_south_05"
+      ]
+    },
+    "hurt": {
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "hurt_south_00",
+        "hurt_south_01",
+        "hurt_south_02",
+        "hurt_south_03",
+        "hurt_south_04",
+        "hurt_south_05"
+      ]
+    },
+    "stunned": {
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "stunned_south_00",
+        "stunned_south_01",
+        "stunned_south_02",
+        "stunned_south_03",
+        "stunned_south_04",
+        "stunned_south_05"
+      ]
+    },
+    "knockback": {
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "knockback_south_00",
+        "knockback_south_01",
+        "knockback_south_02",
+        "knockback_south_03",
+        "knockback_south_04",
+        "knockback_south_05"
+      ]
+    },
+    "death": {
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": true,
+      "frames": [
+        "death_south_00",
+        "death_south_01",
+        "death_south_02",
+        "death_south_03",
+        "death_south_04",
+        "death_south_05"
+      ],
+      "terminalFrame": "death_south_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_south_05",
+    "static": true
+  }
+}

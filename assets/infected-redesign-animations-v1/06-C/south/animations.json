@@ -1,0 +1,277 @@
+{
+  "character": "06-C",
+  "name": "Тягун",
+  "grade": "C",
+  "direction": "south",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "durationMs": 320,
+      "frameRate": 3.125,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_south_04",
+        "idle_south_05"
+      ]
+    },
+    "walk": {
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05"
+      ]
+    },
+    "run": {
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "run_south_00",
+        "run_south_01",
+        "run_south_02",
+        "run_south_03",
+        "run_south_04",
+        "run_south_05"
+      ]
+    },
+    "attack": {
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "attack_south_00",
+        "attack_south_01",
+        "attack_south_02",
+        "attack_south_03",
+        "attack_south_04",
+        "attack_south_05"
+      ]
+    },
+    "hurt": {
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "hurt_south_00",
+        "hurt_south_01",
+        "hurt_south_02",
+        "hurt_south_03",
+        "hurt_south_04",
+        "hurt_south_05"
+      ]
+    },
+    "stunned": {
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "stunned_south_00",
+        "stunned_south_01",
+        "stunned_south_02",
+        "stunned_south_03",
+        "stunned_south_04",
+        "stunned_south_05"
+      ]
+    },
+    "knockback": {
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "knockback_south_00",
+        "knockback_south_01",
+        "knockback_south_02",
+        "knockback_south_03",
+        "knockback_south_04",
+        "knockback_south_05"
+      ]
+    },
+    "death": {
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": true,
+      "frames": [
+        "death_south_00",
+        "death_south_01",
+        "death_south_02",
+        "death_south_03",
+        "death_south_04",
+        "death_south_05"
+      ],
+      "terminalFrame": "death_south_05"
+    },
+    "charge_start": {
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_warning"
+        }
+      ],
+      "frames": [
+        "charge_start_south_00",
+        "charge_start_south_01",
+        "charge_start_south_02",
+        "charge_start_south_03",
+        "charge_start_south_04",
+        "charge_start_south_05"
+      ]
+    },
+    "charge_loop": {
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": -1,
+      "rootMotion": false,
+      "events": [],
+      "frames": [
+        "charge_loop_south_00",
+        "charge_loop_south_01",
+        "charge_loop_south_02",
+        "charge_loop_south_03",
+        "charge_loop_south_04",
+        "charge_loop_south_05"
+      ]
+    },
+    "charge_impact": {
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_contact"
+        }
+      ],
+      "frames": [
+        "charge_impact_south_00",
+        "charge_impact_south_01",
+        "charge_impact_south_02",
+        "charge_impact_south_03",
+        "charge_impact_south_04",
+        "charge_impact_south_05"
+      ]
+    },
+    "heavy_combo": {
+      "durationMs": 125,
+      "frameRate": 8,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "combo_contact",
+          "hit": 1
+        },
+        {
+          "frame": 4,
+          "name": "combo_contact",
+          "hit": 2
+        }
+      ],
+      "frames": [
+        "heavy_combo_south_00",
+        "heavy_combo_south_01",
+        "heavy_combo_south_02",
+        "heavy_combo_south_03",
+        "heavy_combo_south_04",
+        "heavy_combo_south_05"
+      ]
+    },
+    "ground_slam": {
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "slam_contact",
+          "effect": "slam_dust"
+        }
+      ],
+      "frames": [
+        "ground_slam_south_00",
+        "ground_slam_south_01",
+        "ground_slam_south_02",
+        "ground_slam_south_03",
+        "ground_slam_south_04",
+        "ground_slam_south_05"
+      ]
+    },
+    "phase2_roar": {
+      "durationMs": 190,
+      "frameRate": 5.2631578947368425,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 2
+        }
+      ],
+      "frames": [
+        "phase2_roar_south_00",
+        "phase2_roar_south_01",
+        "phase2_roar_south_02",
+        "phase2_roar_south_03",
+        "phase2_roar_south_04",
+        "phase2_roar_south_05"
+      ]
+    },
+    "phase3_enrage": {
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 3
+        }
+      ],
+      "frames": [
+        "phase3_enrage_south_00",
+        "phase3_enrage_south_01",
+        "phase3_enrage_south_02",
+        "phase3_enrage_south_03",
+        "phase3_enrage_south_04",
+        "phase3_enrage_south_05"
+      ]
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_south_05",
+    "static": true
+  }
+}

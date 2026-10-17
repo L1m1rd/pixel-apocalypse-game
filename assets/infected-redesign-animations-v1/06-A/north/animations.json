@@ -1,0 +1,277 @@
+{
+  "character": "06-A",
+  "name": "Перекос",
+  "grade": "A",
+  "direction": "north",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "durationMs": 320,
+      "frameRate": 3.125,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_north_04",
+        "idle_north_05"
+      ]
+    },
+    "walk": {
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05"
+      ]
+    },
+    "run": {
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "run_north_00",
+        "run_north_01",
+        "run_north_02",
+        "run_north_03",
+        "run_north_04",
+        "run_north_05"
+      ]
+    },
+    "attack": {
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "attack_north_00",
+        "attack_north_01",
+        "attack_north_02",
+        "attack_north_03",
+        "attack_north_04",
+        "attack_north_05"
+      ]
+    },
+    "hurt": {
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "hurt_north_00",
+        "hurt_north_01",
+        "hurt_north_02",
+        "hurt_north_03",
+        "hurt_north_04",
+        "hurt_north_05"
+      ]
+    },
+    "stunned": {
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": -1,
+      "rootMotion": false,
+      "frames": [
+        "stunned_north_00",
+        "stunned_north_01",
+        "stunned_north_02",
+        "stunned_north_03",
+        "stunned_north_04",
+        "stunned_north_05"
+      ]
+    },
+    "knockback": {
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false,
+      "frames": [
+        "knockback_north_00",
+        "knockback_north_01",
+        "knockback_north_02",
+        "knockback_north_03",
+        "knockback_north_04",
+        "knockback_north_05"
+      ]
+    },
+    "death": {
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": true,
+      "frames": [
+        "death_north_00",
+        "death_north_01",
+        "death_north_02",
+        "death_north_03",
+        "death_north_04",
+        "death_north_05"
+      ],
+      "terminalFrame": "death_north_05"
+    },
+    "charge_start": {
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_warning"
+        }
+      ],
+      "frames": [
+        "charge_start_north_00",
+        "charge_start_north_01",
+        "charge_start_north_02",
+        "charge_start_north_03",
+        "charge_start_north_04",
+        "charge_start_north_05"
+      ]
+    },
+    "charge_loop": {
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": -1,
+      "rootMotion": false,
+      "events": [],
+      "frames": [
+        "charge_loop_north_00",
+        "charge_loop_north_01",
+        "charge_loop_north_02",
+        "charge_loop_north_03",
+        "charge_loop_north_04",
+        "charge_loop_north_05"
+      ]
+    },
+    "charge_impact": {
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_contact"
+        }
+      ],
+      "frames": [
+        "charge_impact_north_00",
+        "charge_impact_north_01",
+        "charge_impact_north_02",
+        "charge_impact_north_03",
+        "charge_impact_north_04",
+        "charge_impact_north_05"
+      ]
+    },
+    "heavy_combo": {
+      "durationMs": 125,
+      "frameRate": 8,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "combo_contact",
+          "hit": 1
+        },
+        {
+          "frame": 4,
+          "name": "combo_contact",
+          "hit": 2
+        }
+      ],
+      "frames": [
+        "heavy_combo_north_00",
+        "heavy_combo_north_01",
+        "heavy_combo_north_02",
+        "heavy_combo_north_03",
+        "heavy_combo_north_04",
+        "heavy_combo_north_05"
+      ]
+    },
+    "ground_slam": {
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "slam_contact",
+          "effect": "slam_dust"
+        }
+      ],
+      "frames": [
+        "ground_slam_north_00",
+        "ground_slam_north_01",
+        "ground_slam_north_02",
+        "ground_slam_north_03",
+        "ground_slam_north_04",
+        "ground_slam_north_05"
+      ]
+    },
+    "phase2_roar": {
+      "durationMs": 190,
+      "frameRate": 5.2631578947368425,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 2
+        }
+      ],
+      "frames": [
+        "phase2_roar_north_00",
+        "phase2_roar_north_01",
+        "phase2_roar_north_02",
+        "phase2_roar_north_03",
+        "phase2_roar_north_04",
+        "phase2_roar_north_05"
+      ]
+    },
+    "phase3_enrage": {
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 3
+        }
+      ],
+      "frames": [
+        "phase3_enrage_north_00",
+        "phase3_enrage_north_01",
+        "phase3_enrage_north_02",
+        "phase3_enrage_north_03",
+        "phase3_enrage_north_04",
+        "phase3_enrage_north_05"
+      ]
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_north_05",
+    "static": true
+  }
+}
