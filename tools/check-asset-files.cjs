@@ -7,7 +7,9 @@ async function walk(dir=''){
  }return all.sort();
 }
 async function main(){
- const files=await walk(),set=new Set(files),errors=[];
+ const excludeArg=process.argv.find(a=>a.startsWith('--inventory-exclude='));
+ const excludedLocalPaths=excludeArg?excludeArg.slice('--inventory-exclude='.length).split(',').filter(Boolean):[];
+ const files=(await walk()).filter(f=>!excludedLocalPaths.some(p=>f===p||f.startsWith(p+'/'))),set=new Set(files),errors=[];
  for(const file of files.filter(f=>f.endsWith('.md'))){
   const text=await fs.readFile(path.join(ROOT,file),'utf8');
   for(const match of text.matchAll(/\]\(([^)]+)\)/g)){
@@ -77,7 +79,7 @@ async function main(){
  if(errors.length)throw Error(errors.join('\n'));
  if(process.argv.includes('--inventory')){
   const entries=[];for(const file of files){if(file==='docs/asset-inventory.json')continue;const data=await fs.readFile(path.join(ROOT,file));entries.push({path:file,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')});}
-  await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'All project files except this inventory, Git internals, ignored local dependencies and temporary files.',files:entries.length,totalBytes:entries.reduce((sum,x)=>sum+x.bytes,0),entries},null,2)+'\n');
+  await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'Published project files except this inventory, Git internals, local dependencies, temporary files and explicitly excluded local drafts.',excludedLocalPaths,files:entries.length,totalBytes:entries.reduce((sum,x)=>sum+x.bytes,0),entries},null,2)+'\n');
  }
  console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,combatVfxAnimations,combatVfxFrames,combatVfxDecals,markdownLinksValid:true,allFilesBelow100MiB:true}));
 }

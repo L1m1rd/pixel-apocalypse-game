@@ -7,9 +7,13 @@
 | `assets/concepts/environment-weather-v1.png` | Посёлок, лес, дома, укрепление; солнце, дождь, ночь |
 | `assets/concepts/survivors-v1.png` | Первый общий лист стилевых вариантов выживших |
 | `assets/concepts/infected-v1.png` | Первый концепт шести заражённых |
-| `assets/infected-redesign-realistic-v1/art` | Новая итерация: все 18 реалистичных образа утверждены; шесть видов × A/слабый, B/средний, C/сильный |
+| `assets/infected-redesign-realistic-v1/art` | Новая итерация: все 18 реалистичных образов утверждены; шесть видов × A/слабый, B/средний, C/сильный |
 | `assets/infected-redesign-realistic-v1/comparisons` | Шесть подписанных сравнительных листов A/B/C |
 | `output/infected-redesign-realistic-v1.zip` | Все реалистичные прототипы, сравнения, описания и запросы генерации |
+| `assets/infected-redesign-pixel-v1/art` | 18 отдельных статичных пиксельных изображений, шесть видов × три класса A/B/C |
+| `assets/infected-redesign-pixel-v1/sprites` | 18 прозрачных спрайтов 64/96/128 пикселей, один ракурс |
+| `assets/infected-redesign-pixel-v1/comparisons` | Шесть сравнений классов с подписями A/слабый, B/средний, C/сильный |
+| `output/infected-redesign-pixel-v1.zip` | Пиксельный набор: исходники, 18 PNG для просмотра, 18 небольших спрайтов, подписи и настройки |
 | `assets/infected-animation-pack-v1` | 24 анимации, 144 кадра, south; исходники, PNG, GIF, атласы, JSON, просмотрщик |
 | `assets/infected-animation-pack-v2` | Предыдущие 96 анимаций, 576 кадров, четыре направления; исходники, PNG, GIF, JSON, просмотрщик |
 | `assets/infected-reactions-v1` | 72 новые реакции hurt/stunned/knockback, 432 кадра, исходники и просмотрщик |

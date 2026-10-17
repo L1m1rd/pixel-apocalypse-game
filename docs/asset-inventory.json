@@ -1,7 +1,13 @@
 {
-  "description": "All project files except this inventory, Git internals, ignored local dependencies and temporary files.",
-  "files": 7408,
-  "totalBytes": 652294351,
+  "description": "Published project files except this inventory, Git internals, local dependencies, temporary files and explicitly excluded local drafts.",
+  "excludedLocalPaths": [
+    "assets/survivor-animation-pack-v1",
+    "docs/survivors-early-references.md",
+    "tools/build-survivor-animations.cjs",
+    "tools/prepare-survivor-references.cjs"
+  ],
+  "files": 7508,
+  "totalBytes": 818884354,
   "entries": [
     {
       "path": ".gitattributes",
@@ -15,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11662,
-      "sha256": "15ae35256a5601ce63df01ecf37f8291abfdbc86b372deebf1fcd0dacd0bf53f"
+      "bytes": 12618,
+      "sha256": "6d2e18bd005bf6b61cc95dd2deb53aae65d44a786a1e237b53cab418bfd1d41a"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -34989,6 +34995,486 @@
       "sha256": "268be6e2b38947dd0cbdef3787b58b45b8d7a864f56dbb0d00992ccf39d79411"
     },
     {
+      "path": "assets/infected-redesign-pixel-v1/README.md",
+      "bytes": 4402,
+      "sha256": "c1e78953983dac0718117c3431dc3c9391b764253dc83ee5019f7bb7d4788912"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/01-A.png",
+      "bytes": 6513,
+      "sha256": "19c003765e3d3adb2441e2d60a954aedae26a97ca39ee04a3d00a8d96d1b41e8"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/01-B.png",
+      "bytes": 6363,
+      "sha256": "27c80a3041811dadf535bccc9bee6c29522f2c52aa00a5f04451c3414ac10ab9"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/01-C.png",
+      "bytes": 6425,
+      "sha256": "38b508771c460ee9272c4db190537f48f73487dd692596ca9ce9505ebed8dee4"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/02-A.png",
+      "bytes": 9407,
+      "sha256": "e8196c1b1d6e529ab63b88b6d68061c8a2cdc7781b050518c5e7c41d9eec4af2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/02-B.png",
+      "bytes": 7842,
+      "sha256": "ce9b8d01efa3cc5a6ddc002098572a47af1f7d5f07517bc156473a24cc5e5d52"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/02-C.png",
+      "bytes": 10066,
+      "sha256": "2c37a0227403abb8b62a4f13efd21c3b7eb14f901a4af0603f95921371b5b7b7"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/03-A.png",
+      "bytes": 6330,
+      "sha256": "d42cb2d3437d500b59a1f61a8e10ae752bbc16c848d44b1b9693bc46379b94e5"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/03-B.png",
+      "bytes": 5385,
+      "sha256": "5a81e07a66717781f7eaa1d9309762521b6e931c180344ff9eb563d1d92c8591"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/03-C.png",
+      "bytes": 6899,
+      "sha256": "d5c70b576e63c8392ef1485bd9e96daf1855ef35da213220a8e6b5b020b9469b"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/04-A.png",
+      "bytes": 12566,
+      "sha256": "0add14e4b99e2eca490ec577bfd545c307ad4d5885297b459e45d2fb44ddc9c2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/04-B.png",
+      "bytes": 13561,
+      "sha256": "269ac180add66fafc45e12f82c96957dbce7f9c08b1f6ec1d2cf03801af05f51"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/04-C.png",
+      "bytes": 13600,
+      "sha256": "5a3f3ad71bc49df81029aa15371b514aac3f266d354c37d1573395e5abdffb8a"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/05-A.png",
+      "bytes": 9081,
+      "sha256": "d1798ce5db20f0c1ae614b5bc80cda3cac2b41b96455b79b81d6e7890b89cd3d"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/05-B.png",
+      "bytes": 8648,
+      "sha256": "8e228a24387aa3dbee61117e73c4495dd40dbe23eecd42730e0c2cff5babba0b"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/05-C.png",
+      "bytes": 9381,
+      "sha256": "f3f2f9de6f6a8dbd6ef690f338681e5a6ce1efe5ecbcd1d8fd09583a894f3f22"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/06-A.png",
+      "bytes": 20382,
+      "sha256": "e56b5feacc268e392d1f5416ff332d1054709c5d668a5e75e3af37822c219020"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/06-B.png",
+      "bytes": 14518,
+      "sha256": "4d72d9471e79d0c0f271fe7b798035a6e89b944d88cc63d477897fd5cdc37a39"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/art/06-C.png",
+      "bytes": 26917,
+      "sha256": "879b0972bc4e93f8dd62c06712cae386549da567cb6c31bd4dba196d3e03fabd"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/01-fast.png",
+      "bytes": 34605,
+      "sha256": "df9e87c36bb9c3e071a2990ecfc7b22e94cf7279dc282453513216a270614792"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/02-ambush.png",
+      "bytes": 40768,
+      "sha256": "d84dc8d896ee10352c2ccada42ac9186f482f0c9fabffb7bbc7f770223c72c11"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/03-sensory.png",
+      "bytes": 33693,
+      "sha256": "72bb111dc36dcad10a6bb3e65279fa625fe6c9b1152ed4e19afcb88ddab7c7a2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/04-armored.png",
+      "bytes": 50656,
+      "sha256": "74e760f9079a5c630df92df6676ba8d518262af51305389d36701c5db4ab87d0"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/05-emitter.png",
+      "bytes": 42485,
+      "sha256": "e1c404574d9ffb4830529bcfffd1acf49c48d55e8717ec047dd098c0ec073a11"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/comparisons/06-boss.png",
+      "bytes": 67878,
+      "sha256": "0252c292d8186c7207892eb5060973b170b3edafb495f6c34084c197ed996cfe"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/generation-prompts.json",
+      "bytes": 33247,
+      "sha256": "678ba6454b750d9a2791ea4bd3fb175527ba1c6a91a878e4c8a68c65ce990012"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/manifest.json",
+      "bytes": 12774,
+      "sha256": "181dcbe1444b05632cd70e9acc6e769b8f3fc987b853f94e74e85637d968fc7a"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/overview.png",
+      "bytes": 273967,
+      "sha256": "cdc57bca9a94c53f6ce9be2e25ca71ee3fa80c0913e13b024866698bfdaccba3"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/revision-prompts.json",
+      "bytes": 2986,
+      "sha256": "8811d511d6fce304783616047a072663094908022f105a7c584834fd402ca995"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/01-A.png",
+      "bytes": 777163,
+      "sha256": "bbd8b9003ad1d29f4e58fdb05722237de34c7e9fb0cd3d44fe0cfc3654c61872"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/01-B.png",
+      "bytes": 726283,
+      "sha256": "df371f13d095c5eccc152e0f940e830ea86f7669585493c58b0ff16dc653ec3e"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/01-C.png",
+      "bytes": 775682,
+      "sha256": "77a532bda782137a204873da5ad1e66c413224c39f9edf9b7e9f77b90377c257"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/02-A.png",
+      "bytes": 1020739,
+      "sha256": "07081fef41a5486baeb317d61b9d65a695b0ecc8d1c1619eea43aeb329ee6fc4"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/02-B.png",
+      "bytes": 968822,
+      "sha256": "7a9daa3b3fb5a0ef266d31a1b9b117fadb490209a1c769a38665529a12bcb7ea"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/02-C.png",
+      "bytes": 1056590,
+      "sha256": "e703359d46cb9fe051e3aa61c56e05515eaffdbd4016a2d36d66f60cf4b335a6"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/03-A.png",
+      "bytes": 692602,
+      "sha256": "1f0ad9b552ccfb6e5733998c5e6597d36612e019270ef07ba666c471ea3d729d"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/03-B.png",
+      "bytes": 785804,
+      "sha256": "6a82be002b6c2c2768fea43567a1184dbe890b72d55ed19d7dce84f92b6df0a3"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/03-C.png",
+      "bytes": 821877,
+      "sha256": "59096997bc59ed5cdb00103b30dd03e5e319acaf516b020ab7ca3e0418e440ae"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/04-A.png",
+      "bytes": 946835,
+      "sha256": "83d0f21ad30c4e6aefe045ecd6ee8317062278e311819bcf9f5e7db809e5c45a"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/04-B.png",
+      "bytes": 1076143,
+      "sha256": "6f71528ffa27450288203dad543f16ac7334fc324d4598199254a9279ae3f175"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/04-C.png",
+      "bytes": 1103642,
+      "sha256": "bc6f9459aa7945d989aa109e9138898e3a08cd3e650d616000f66b45712e8c7b"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/05-A.png",
+      "bytes": 628646,
+      "sha256": "2467461a7dca038cd04b292f8cb5370df626ca8a3d8ca193c0dd9a24f401f129"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/05-B.png",
+      "bytes": 650861,
+      "sha256": "ac26866598fc67b8245e34bc5bce959119ecb330bc39c2eee0080b40ccc9bdd2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/05-C.png",
+      "bytes": 716043,
+      "sha256": "8ae989207e7177ffaa00fa331da384b11a2a88893f99e24dbe9aeaf41285e33b"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/06-A.png",
+      "bytes": 1161714,
+      "sha256": "ec2e9d0d92929dc2f3f5f448222dd638acaf8480813cf470adcbfe1377649800"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/06-B.png",
+      "bytes": 734018,
+      "sha256": "734f61f31e63c0180c196c5ca87ad5b918ac9bbb9f5c319639e15e79084158c0"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sources/06-C.png",
+      "bytes": 1476358,
+      "sha256": "121dbe0b170ed5a27d8009ceaebd118deed1e2d904c0daf2deb7f45b0ce77b6f"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/01-A.png",
+      "bytes": 2789,
+      "sha256": "3070b96708c62a1278093befaa8b052b612c1bbcdb730c6227ba60d9ecf59986"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/01-B.png",
+      "bytes": 2592,
+      "sha256": "14a0838390811fdbb352fca70ab5f03fec5673d3a6b9233dc913e0d112e195c8"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/01-C.png",
+      "bytes": 2640,
+      "sha256": "012726c7d3faaeaa169fed4b021d97cf523e2e48763ff148715eb94f5c07856e"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/02-A.png",
+      "bytes": 4258,
+      "sha256": "c1419b872e923681d5a7618839308f03f13eee2edae6812fb0855e0f9e434ff6"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/02-B.png",
+      "bytes": 3460,
+      "sha256": "93169766c493631baba6cf3e89803f19944795d1a7ab08162cc6e2a565964bd6"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/02-C.png",
+      "bytes": 4727,
+      "sha256": "7512a28eca1fcdc5e0925acbe5e7dc56ab7d20cda1f34006c31ced3e84833db2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/03-A.png",
+      "bytes": 2699,
+      "sha256": "f1d24ea7801b16108431e8d50ccf1235623a8708767cfef5672a165a133a4b0e"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/03-B.png",
+      "bytes": 2233,
+      "sha256": "ef363ea636214e8bcdfca316f1810b5705c3a37a6e4e473c8bd6e8b913bd1dab"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/03-C.png",
+      "bytes": 2897,
+      "sha256": "150cce6e4c3e96d7d79e75f82d3794854f8c7e69c804cf1e8f4ec1589ac75f8f"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/04-A.png",
+      "bytes": 7441,
+      "sha256": "bb0a266ae1dd366e6d713a030529c37bf3514198df11fd6b31313723d270bd39"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/04-B.png",
+      "bytes": 8130,
+      "sha256": "d0c9e9d5ba5725357f3d1a6d3fcc329643ccc596c2aa6fa3aaeb7263a824820e"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/04-C.png",
+      "bytes": 8172,
+      "sha256": "1672cc783560fe5ebfd8383b6aa5e3d0b4d3343f757b242fdf3bbb51c30b889f"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/05-A.png",
+      "bytes": 5149,
+      "sha256": "ffbf2fd02d06fa2fec946dfe2f9dda762b5fad913311f2edda86aa8065f9555a"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/05-B.png",
+      "bytes": 4746,
+      "sha256": "fd0128ca0b831e2677499d43a598a447dfe4cf3f6170f5aff63e7ca2b0e8f697"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/05-C.png",
+      "bytes": 5404,
+      "sha256": "ebd186b61d74ae4264590df6737f13eb49e9ed5268b5cf9825e866dc4d7f9ac0"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/06-A.png",
+      "bytes": 13842,
+      "sha256": "a9a00fb25462c4fc13743de167d720d25fe5f8313326a1849bc59ade0344aab2"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/06-B.png",
+      "bytes": 9329,
+      "sha256": "f767aaf73b43f1fdb9d372d1611b699b37e3f807869a8753366bb8f843c23284"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/sprites/06-C.png",
+      "bytes": 18635,
+      "sha256": "e022d53ac343fa50abcea8b0432854f0a0df5b35610232118129c2326efd8f4d"
+    },
+    {
+      "path": "assets/infected-redesign-pixel-v1/verification.json",
+      "bytes": 370,
+      "sha256": "a5f906d4ee4c2dfc9ebfd5a6cef366cfba64e6df3f5aaae82efa6c220454ae6d"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/README.md",
+      "bytes": 3893,
+      "sha256": "e0e4ac831c61a46f37afe2e0144c4ad6ec7477c78304cac5694a2a067a7053d0"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/01-A.png",
+      "bytes": 2374683,
+      "sha256": "178e53d5e85b63c37b9deb6b527a88fae8fd49bf91610f685aa1fda290b181b5"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/01-B.png",
+      "bytes": 2217994,
+      "sha256": "22c887c51da8cb5537d34917553e4101b3bc66e4f1304594b38f4958b713744a"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/01-C.png",
+      "bytes": 2221355,
+      "sha256": "19d4962329962ba3b537ab6606ef00523d35c2869c60ee055fdd9105c4410c47"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/02-A.png",
+      "bytes": 2283978,
+      "sha256": "ce5ea51232508763ec74415c6d291339e5c5c263e3133e067a6be179c29a9a8f"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/02-B.png",
+      "bytes": 2543830,
+      "sha256": "62b892bdd06f0fae1e05baa6d4cdf4154ab6c146d638dc7d747f8426e2dc7562"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/02-C.png",
+      "bytes": 2497114,
+      "sha256": "53997d01354797c398f27c1fe69191f81fe6d439fc860cd5974067d93550dfa3"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/03-A.png",
+      "bytes": 2135178,
+      "sha256": "c65d1222baf6dd883cbe83c960a799cd3203d11cbf8ad86df6e1591eb6707e6d"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/03-B.png",
+      "bytes": 2212521,
+      "sha256": "36ffbd01cfe47e51f0991525784deda86ebaf5839ce7ab1499d1700bf43e15df"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/03-C.png",
+      "bytes": 2238407,
+      "sha256": "f7e5546a7e2b4dbb93e3b3e22fb7af456316c10c5cebe3c7f766b050a36c66e4"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/04-A.png",
+      "bytes": 2480701,
+      "sha256": "ef54b251f60034fc3512e96f3bb22f89115eb1964dcd228a1c101724be35246d"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/04-B.png",
+      "bytes": 2575623,
+      "sha256": "d265d8036744e310e2846c2688cda4d5aa54ef011a8c9e50cdba660075746475"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/04-C.png",
+      "bytes": 2405835,
+      "sha256": "08c17071be49f812d68e1e28a61c3e26979a527eae5ca6d134830c7962addf75"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/05-A.png",
+      "bytes": 2139117,
+      "sha256": "dffcf2989cf7db715ff847ad384f16c3ff8e6d8b0d85f07fe15422303e487552"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/05-B.png",
+      "bytes": 2257564,
+      "sha256": "5203814a5040f065ad70f215a0e6208e2031ab22be97fee9626a3718a0254323"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/05-C.png",
+      "bytes": 2241027,
+      "sha256": "0706afaf8b3a74930b3fe3462a2f09f65515749303471b364780492ccbbf5f2d"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/06-A.png",
+      "bytes": 2617763,
+      "sha256": "e95bac78d5de7ac04bbee3796ae012c819485516050a98b90580d65233e15f04"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/06-B.png",
+      "bytes": 2390505,
+      "sha256": "4f3bb466e41c5e8be39d037842922956ba1b5d6b699142251f77fc7f4410073d"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/art/06-C.png",
+      "bytes": 2756921,
+      "sha256": "5247bdcdeb373340f9d6ac14b2d91f83ab841c6a9e046bc85e0151fd69eb5684"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/01-fast.png",
+      "bytes": 2499603,
+      "sha256": "a673e8f6fe158a91d35c21fafc8c3e310f0adfb69926f83c9a9cf487935c85e8"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/02-ambush.png",
+      "bytes": 2753644,
+      "sha256": "4ea38fb954fbdb52b9e1ff4515b77bb53a719bd747a048b497249dfbf48bfe12"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/03-sensory.png",
+      "bytes": 2467993,
+      "sha256": "d280da60ad4866cac194042cb2c64ee86deaeb969aff5be574a91541ba8794b5"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/04-armored.png",
+      "bytes": 2613062,
+      "sha256": "dabf95e401690b4d7b8145024d3c506db5f5a07ee2b1766de114fcea6dc4634b"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/05-emitter.png",
+      "bytes": 2592437,
+      "sha256": "45c152e98c2daa89309f6189fd8d767c31d694ef852f40214eed93e783cda757"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/comparisons/06-boss.png",
+      "bytes": 2815408,
+      "sha256": "32dd4f3f331a2bff8870881670d7255a2a7e0e6136869958573c211a23b6c7bb"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/generation-prompts.json",
+      "bytes": 39723,
+      "sha256": "0e6592111b0205ea968d067669b2da7f5ee5b48f49a49a1ffefa44a6ea66d77c"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/overview.png",
+      "bytes": 9190486,
+      "sha256": "8f44b4712305bbc4b989ede71896140804213e66d503351159924b482eb55b62"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/prototypes.json",
+      "bytes": 13121,
+      "sha256": "ca134b7f25c9930f56a8bb7bc4c7caaedf0b40277e67b93123760d9132d42329"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/revision-prompts.json",
+      "bytes": 19063,
+      "sha256": "bcacaa20716f224a2a62c8b4a34676c943a6a235c32b7dd8de07447fbbbb22f5"
+    },
+    {
+      "path": "assets/infected-redesign-realistic-v1/verification.json",
+      "bytes": 5412,
+      "sha256": "e9106a838013cd25c5cebe14485e75b94b55a0a0cd3a47003c99c6f0d095bfee"
+    },
+    {
       "path": "assets/infected-specials-v1/README.md",
       "bytes": 7336,
       "sha256": "deb206cb7a4606d4da7bc75fafaa6ebb206ee39b90454b15ecec8f98ad04039d"
@@ -36705,8 +37191,8 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 6336,
-      "sha256": "82fb8f6b4a5fd2ceb746874caaf8312b76233c68aea7dedf009e267d4e5ea488"
+      "bytes": 7583,
+      "sha256": "0e0424ba89253374e9ad54c35ab231fb56fc863e224f45a5f17795aede543d1b"
     },
     {
       "path": "docs/combat-design.md",
@@ -36715,8 +37201,8 @@
     },
     {
       "path": "docs/game-direction.md",
-      "bytes": 10625,
-      "sha256": "3d0a9a762af98b1fe651fff2208571357d5eb980c79a15bec1f3a90b99d4e33f"
+      "bytes": 11701,
+      "sha256": "16a2c0fb9a38c624257c578e392543bcd16eda587369ab7617b40b3ba7926b9f"
     },
     {
       "path": "docs/infected.md",
@@ -36772,6 +37258,16 @@
       "path": "output/infected-reactions-v1.zip",
       "bytes": 69046491,
       "sha256": "bed2e15b053e4a0efc2cf14ba30dd6cd4aa006d8ec325c5c69ed58c75b7e9c5d"
+    },
+    {
+      "path": "output/infected-redesign-pixel-v1.zip",
+      "bytes": 16055557,
+      "sha256": "0717177f9163cb8083e3e7159c56cc22b6581badb89a574a75239026f1f35fcd"
+    },
+    {
+      "path": "output/infected-redesign-realistic-v1.zip",
+      "bytes": 65895995,
+      "sha256": "a35fda0ce5a9b4fb481ea84b2a303b0cbbfa158cd9309104a316de0a7f7ead7d"
     },
     {
       "path": "output/infected-specials-v1.zip",
@@ -36970,8 +37466,8 @@
     },
     {
       "path": "tools/check-asset-files.cjs",
-      "bytes": 6280,
-      "sha256": "3e4a05c86c13dc7d912302fdb839c4a414a53f8f1c56f1d82657ff9ebbc9ea88"
+      "bytes": 6594,
+      "sha256": "93b7abc75eef2bc49e34bca73fe1aa4416c6421d2990c63c3b2c73df4dd461f2"
     },
     {
       "path": "tools/check-combat-vfx.cjs",
@@ -37014,6 +37510,16 @@
       "sha256": "dd7ae6aa705205ed7f3f6a3e6af4c4556d505da7be32596dc8361ce1e3eb9e10"
     },
     {
+      "path": "tools/package-infected-pixel.cjs",
+      "bytes": 6403,
+      "sha256": "70a40dfd6c06bfe6e8ea274b5c88f656ff7398a09a41cd185cdf265c6e8f8173"
+    },
+    {
+      "path": "tools/package-infected-redesign.cjs",
+      "bytes": 3284,
+      "sha256": "8e90e8ba19e8025a5706393b9ab9fa30c4255ad9174c50738783c7885afc1a5b"
+    },
+    {
       "path": "tools/package-survivor-visuals.cjs",
       "bytes": 3305,
       "sha256": "766796dc7711dc5d76c42e9a11ed02f6c49e6c5d621a238647a29647ca92cdc7"
@@ -37035,8 +37541,8 @@
     },
     {
       "path": "tools/publish-github.cjs",
-      "bytes": 4892,
-      "sha256": "d88dd91011c368b4f29c9c91d509b6a150cf141989501c4a8fb10866924b7532"
+      "bytes": 5422,
+      "sha256": "80ac4b86dab053b2a4d189e1e1304ca723ea3f3ed64b21ac3baf42262ca06fc8"
     },
     {
       "path": "tools/slice-sprite-components.cjs",

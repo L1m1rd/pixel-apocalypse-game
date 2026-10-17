@@ -1,0 +1,473 @@
+{
+  "version": 1,
+  "status": "18 static pixel prototypes; no animations or game logic",
+  "direction": "south with slightly elevated camera",
+  "gradeSystem": {
+    "scope": "within each of the six types",
+    "A": {
+      "rank": 1,
+      "strength": "слабый"
+    },
+    "B": {
+      "rank": 2,
+      "strength": "средний"
+    },
+    "C": {
+      "rank": 3,
+      "strength": "сильный"
+    },
+    "numericalBalance": "not specified; visual stage only"
+  },
+  "images": [
+    {
+      "id": "01-A",
+      "name": "Жильник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/01-A.png",
+      "source": "sources/01-A.png",
+      "art": "art/01-A.png",
+      "sprite": "sprites/01-A.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 345,
+        "y": 21,
+        "w": 593,
+        "h": 1218
+      },
+      "sha256": "3070b96708c62a1278093befaa8b052b612c1bbcdb730c6227ba60d9ecf59986"
+    },
+    {
+      "id": "01-B",
+      "name": "Косой",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/01-B.png",
+      "source": "sources/01-B.png",
+      "art": "art/01-B.png",
+      "sprite": "sprites/01-B.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 345,
+        "y": 25,
+        "w": 620,
+        "h": 1213
+      },
+      "sha256": "14a0838390811fdbb352fca70ab5f03fec5673d3a6b9233dc913e0d112e195c8"
+    },
+    {
+      "id": "01-C",
+      "name": "Пружинник",
+      "type": "01-fast",
+      "typeName": "Быстрый заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/01-C.png",
+      "source": "sources/01-C.png",
+      "art": "art/01-C.png",
+      "sprite": "sprites/01-C.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 383,
+        "y": 17,
+        "w": 586,
+        "h": 1226
+      },
+      "sha256": "012726c7d3faaeaa169fed4b021d97cf523e2e48763ff148715eb94f5c07856e"
+    },
+    {
+      "id": "02-A",
+      "name": "Теневик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/02-A.png",
+      "source": "sources/02-A.png",
+      "art": "art/02-A.png",
+      "sprite": "sprites/02-A.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 245,
+        "y": 78,
+        "w": 872,
+        "h": 1133
+      },
+      "sha256": "c1419b872e923681d5a7618839308f03f13eee2edae6812fb0855e0f9e434ff6"
+    },
+    {
+      "id": "02-B",
+      "name": "Лазутчик",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/02-B.png",
+      "source": "sources/02-B.png",
+      "art": "art/02-B.png",
+      "sprite": "sprites/02-B.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 277,
+        "y": 16,
+        "w": 782,
+        "h": 1224
+      },
+      "sha256": "93169766c493631baba6cf3e89803f19944795d1a7ab08162cc6e2a565964bd6"
+    },
+    {
+      "id": "02-C",
+      "name": "Складень",
+      "type": "02-ambush",
+      "typeName": "Засадный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/02-C.png",
+      "source": "sources/02-C.png",
+      "art": "art/02-C.png",
+      "sprite": "sprites/02-C.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 212,
+        "y": 91,
+        "w": 848,
+        "h": 1113
+      },
+      "sha256": "7512a28eca1fcdc5e0925acbe5e7dc56ab7d20cda1f34006c31ced3e84833db2"
+    },
+    {
+      "id": "03-A",
+      "name": "Резонатор",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/03-A.png",
+      "source": "sources/03-A.png",
+      "art": "art/03-A.png",
+      "sprite": "sprites/03-A.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 355,
+        "y": 31,
+        "w": 561,
+        "h": 1205
+      },
+      "sha256": "f1d24ea7801b16108431e8d50ccf1235623a8708767cfef5672a165a133a4b0e"
+    },
+    {
+      "id": "03-B",
+      "name": "Усик",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/03-B.png",
+      "source": "sources/03-B.png",
+      "art": "art/03-B.png",
+      "sprite": "sprites/03-B.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 336,
+        "y": 12,
+        "w": 591,
+        "h": 1231
+      },
+      "sha256": "ef363ea636214e8bcdfca316f1810b5705c3a37a6e4e473c8bd6e8b913bd1dab"
+    },
+    {
+      "id": "03-C",
+      "name": "Гул",
+      "type": "03-sensory",
+      "typeName": "Сенсорный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/03-C.png",
+      "source": "sources/03-C.png",
+      "art": "art/03-C.png",
+      "sprite": "sprites/03-C.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 216,
+        "y": 35,
+        "w": 827,
+        "h": 1194
+      },
+      "sha256": "150cce6e4c3e96d7d79e75f82d3794854f8c7e69c804cf1e8f4ec1589ac75f8f"
+    },
+    {
+      "id": "04-A",
+      "name": "Сланец",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/04-A.png",
+      "source": "sources/04-A.png",
+      "art": "art/04-A.png",
+      "sprite": "sprites/04-A.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 266,
+        "y": 45,
+        "w": 748,
+        "h": 1190
+      },
+      "sha256": "bb0a266ae1dd366e6d713a030529c37bf3514198df11fd6b31313723d270bd39"
+    },
+    {
+      "id": "04-B",
+      "name": "Кокон",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/04-B.png",
+      "source": "sources/04-B.png",
+      "art": "art/04-B.png",
+      "sprite": "sprites/04-B.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 250,
+        "y": 33,
+        "w": 740,
+        "h": 1201
+      },
+      "sha256": "d0c9e9d5ba5725357f3d1a6d3fcc329643ccc596c2aa6fa3aaeb7263a824820e"
+    },
+    {
+      "id": "04-C",
+      "name": "Роговик",
+      "type": "04-armored",
+      "typeName": "Бронированный заражённый",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/04-C.png",
+      "source": "sources/04-C.png",
+      "art": "art/04-C.png",
+      "sprite": "sprites/04-C.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 283,
+        "y": 42,
+        "w": 712,
+        "h": 1180
+      },
+      "sha256": "1672cc783560fe5ebfd8383b6aa5e3d0b4d3343f757b242fdf3bbb51c30b889f"
+    },
+    {
+      "id": "05-A",
+      "name": "Сотовик",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/05-A.png",
+      "source": "sources/05-A.png",
+      "art": "art/05-A.png",
+      "sprite": "sprites/05-A.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 387,
+        "y": 59,
+        "w": 464,
+        "h": 1162
+      },
+      "sha256": "ffbf2fd02d06fa2fec946dfe2f9dda762b5fad913311f2edda86aa8065f9555a"
+    },
+    {
+      "id": "05-B",
+      "name": "Дымарь",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/05-B.png",
+      "source": "sources/05-B.png",
+      "art": "art/05-B.png",
+      "sprite": "sprites/05-B.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 366,
+        "y": 28,
+        "w": 523,
+        "h": 1193
+      },
+      "sha256": "fd0128ca0b831e2677499d43a598a447dfe4cf3f6170f5aff63e7ca2b0e8f697"
+    },
+    {
+      "id": "05-C",
+      "name": "Стручник",
+      "type": "05-emitter",
+      "typeName": "Распространитель",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/05-C.png",
+      "source": "sources/05-C.png",
+      "art": "art/05-C.png",
+      "sprite": "sprites/05-C.png",
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 396,
+        "y": 9,
+        "w": 463,
+        "h": 1225
+      },
+      "sha256": "ebd186b61d74ae4264590df6737f13eb49e9ed5268b5cf9825e866dc4d7f9ac0"
+    },
+    {
+      "id": "06-A",
+      "name": "Перекос",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "A",
+      "strength": "слабый",
+      "approvedReference": "../infected-redesign-realistic-v1/art/06-A.png",
+      "source": "sources/06-A.png",
+      "art": "art/06-A.png",
+      "sprite": "sprites/06-A.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 249,
+        "y": 35,
+        "w": 805,
+        "h": 1206
+      },
+      "sha256": "a9a00fb25462c4fc13743de167d720d25fe5f8313326a1849bc59ade0344aab2"
+    },
+    {
+      "id": "06-B",
+      "name": "Колонна",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "B",
+      "strength": "средний",
+      "approvedReference": "../infected-redesign-realistic-v1/art/06-B.png",
+      "source": "sources/06-B.png",
+      "art": "art/06-B.png",
+      "sprite": "sprites/06-B.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 445,
+        "y": 2,
+        "w": 446,
+        "h": 1245
+      },
+      "sha256": "f767aaf73b43f1fdb9d372d1611b699b37e3f807869a8753366bb8f843c23284"
+    },
+    {
+      "id": "06-C",
+      "name": "Тягун",
+      "type": "06-boss",
+      "typeName": "Крупный босс",
+      "grade": "C",
+      "strength": "сильный",
+      "approvedReference": "../infected-redesign-realistic-v1/art/06-C.png",
+      "source": "sources/06-C.png",
+      "art": "art/06-C.png",
+      "sprite": "sprites/06-C.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "sourceBounds": {
+        "x": 219,
+        "y": 21,
+        "w": 931,
+        "h": 1208
+      },
+      "sha256": "e022d53ac343fa50abcea8b0432854f0a0df5b35610232118129c2326efd8f4d"
+    }
+  ]
+}
