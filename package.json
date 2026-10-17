@@ -10,6 +10,8 @@
     "build:infected:v1": "node tools/build-infected-pack.cjs --zip",
     "build:infected:v2": "node tools/build-infected-v2.cjs",
     "build:survivors": "node tools/package-survivor-visuals.cjs",
+    "build:reactions": "node tools/build-infected-reactions.cjs",
+    "check:reactions": "node tools/check-infected-reactions.cjs",
     "inventory": "node tools/check-asset-files.cjs --inventory"
   },
   "devDependencies": {

@@ -1,0 +1,110 @@
+{
+  "monster": "runner",
+  "direction": "east",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_east_00",
+        "idle_east_01",
+        "idle_east_02",
+        "idle_east_03",
+        "idle_east_04",
+        "idle_east_05"
+      ],
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_east_00",
+        "walk_east_01",
+        "walk_east_02",
+        "walk_east_03",
+        "walk_east_04",
+        "walk_east_05"
+      ],
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_east_00",
+        "run_east_01",
+        "run_east_02",
+        "run_east_03",
+        "run_east_04",
+        "run_east_05"
+      ],
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_east_00",
+        "attack_east_01",
+        "attack_east_02",
+        "attack_east_03",
+        "attack_east_04",
+        "attack_east_05"
+      ],
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3
+      }
+    },
+    "hurt": {
+      "frames": [
+        "hurt_east_00",
+        "hurt_east_01",
+        "hurt_east_02",
+        "hurt_east_03",
+        "hurt_east_04",
+        "hurt_east_05"
+      ],
+      "durationMs": 80,
+      "frameRate": 12.5,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "stunned": {
+      "frames": [
+        "stunned_east_00",
+        "stunned_east_01",
+        "stunned_east_02",
+        "stunned_east_03",
+        "stunned_east_04",
+        "stunned_east_05"
+      ],
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false
+    },
+    "knockback": {
+      "frames": [
+        "knockback_east_00",
+        "knockback_east_01",
+        "knockback_east_02",
+        "knockback_east_03",
+        "knockback_east_04",
+        "knockback_east_05"
+      ],
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false
+    }
+  }
+}

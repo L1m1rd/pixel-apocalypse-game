@@ -1,0 +1,196 @@
+{
+  "source": "../../sources/rat-king-north.png",
+  "referenceRow": 3,
+  "referenceHeight": 204,
+  "targetHeight": 69,
+  "scale": 0.3382352941176471,
+  "requestedScale": 0.3382352941176471,
+  "scaleRatio": 1,
+  "groundAnchors": [
+    249,
+    490,
+    731
+  ],
+  "frames": [
+    {
+      "name": "hurt_north_00",
+      "sourceBounds": {
+        "x": 31,
+        "y": 41,
+        "w": 219,
+        "h": 209
+      },
+      "sha256": "c385d7e33e8ee8ddd76ba57531ed98a4d51406f4ecc9fe399f6acdc62a2c95b8"
+    },
+    {
+      "name": "hurt_north_01",
+      "sourceBounds": {
+        "x": 272,
+        "y": 20,
+        "w": 234,
+        "h": 230
+      },
+      "sha256": "ae8f02c9fbe280b46f83416f47ab703d4b051216bc02c48cf706ff9a5f5c1245"
+    },
+    {
+      "name": "hurt_north_02",
+      "sourceBounds": {
+        "x": 557,
+        "y": 59,
+        "w": 179,
+        "h": 191
+      },
+      "sha256": "91c33c8b145c4f3de2ffe7d7efd832e2d98c650deecd139854045288b88f2550"
+    },
+    {
+      "name": "hurt_north_03",
+      "sourceBounds": {
+        "x": 782,
+        "y": 49,
+        "w": 228,
+        "h": 201
+      },
+      "sha256": "960f5bbe1cc8a85b19bd4cab6cd4254b17dd3d114e921ce4bf05e1250cd452d3"
+    },
+    {
+      "name": "hurt_north_04",
+      "sourceBounds": {
+        "x": 1032,
+        "y": 52,
+        "w": 236,
+        "h": 198
+      },
+      "sha256": "0bf0c1d8f155ff79b6492fbd72c9ec381adeb771c2fb46e99143527c741ff8e7"
+    },
+    {
+      "name": "hurt_north_05",
+      "sourceBounds": {
+        "x": 1295,
+        "y": 44,
+        "w": 216,
+        "h": 206
+      },
+      "sha256": "c1a9840656062c09f1236ede6f788ccf781ca0bc199a1dc811143a8098f9f6a6"
+    },
+    {
+      "name": "stunned_north_00",
+      "sourceBounds": {
+        "x": 32,
+        "y": 286,
+        "w": 209,
+        "h": 199
+      },
+      "sha256": "86581712a0a53987a8fd44152c48535d34da31bca20af63153f7e79acc596b3d"
+    },
+    {
+      "name": "stunned_north_01",
+      "sourceBounds": {
+        "x": 292,
+        "y": 294,
+        "w": 195,
+        "h": 197
+      },
+      "sha256": "73917c202c166dcdf5c7ed322e4780c91efcbd1f53c3ea4612ab037446dc43ae"
+    },
+    {
+      "name": "stunned_north_02",
+      "sourceBounds": {
+        "x": 549,
+        "y": 298,
+        "w": 203,
+        "h": 193
+      },
+      "sha256": "69ac266f54a063852ebe4798a9274fb259e926c69c9d99a69e18325abe6c5ca6"
+    },
+    {
+      "name": "stunned_north_03",
+      "sourceBounds": {
+        "x": 792,
+        "y": 293,
+        "w": 216,
+        "h": 195
+      },
+      "sha256": "9da6d0688d076b63abb1fc1890c2342f14b21bf7e67b9a741d630c69ce20a0da"
+    },
+    {
+      "name": "stunned_north_04",
+      "sourceBounds": {
+        "x": 1050,
+        "y": 295,
+        "w": 203,
+        "h": 196
+      },
+      "sha256": "3100cadddf2879ad1b880098e6c859cb8997a3866e371c7f613a62e09e4278b3"
+    },
+    {
+      "name": "stunned_north_05",
+      "sourceBounds": {
+        "x": 1302,
+        "y": 297,
+        "w": 202,
+        "h": 190
+      },
+      "sha256": "1efa8a27030e467e1d6ed114c5fd6a4e837089a76e94a2f2fe614d31a12d056b"
+    },
+    {
+      "name": "knockback_north_00",
+      "sourceBounds": {
+        "x": 27,
+        "y": 517,
+        "w": 225,
+        "h": 215
+      },
+      "sha256": "4e5c7de75e55d053501b06bc3251def9f385aa2cbf6a8b1f9b9163b1c675c533"
+    },
+    {
+      "name": "knockback_north_01",
+      "sourceBounds": {
+        "x": 269,
+        "y": 504,
+        "w": 236,
+        "h": 228
+      },
+      "sha256": "d1d6c8133e9588a93a73a88fba70a1f114d84ec9fbda46ab34bed9d1298c90b1"
+    },
+    {
+      "name": "knockback_north_02",
+      "sourceBounds": {
+        "x": 540,
+        "y": 525,
+        "w": 233,
+        "h": 207
+      },
+      "sha256": "4edba5dd9554346e9e340b74307de0568b80d04172adccdf35de4cb6d429a55f"
+    },
+    {
+      "name": "knockback_north_03",
+      "sourceBounds": {
+        "x": 797,
+        "y": 524,
+        "w": 223,
+        "h": 208
+      },
+      "sha256": "ac08e3603ad4c3933c0d5fb1ec6316c1dd20da0143063f78f8a266cd138f678e"
+    },
+    {
+      "name": "knockback_north_04",
+      "sourceBounds": {
+        "x": 1043,
+        "y": 552,
+        "w": 224,
+        "h": 180
+      },
+      "sha256": "d97a51bf59f73a8dd9d21c72f83135f89fc5101363f89941200b580ef6c681bc"
+    },
+    {
+      "name": "knockback_north_05",
+      "sourceBounds": {
+        "x": 1297,
+        "y": 533,
+        "w": 215,
+        "h": 199
+      },
+      "sha256": "d9b50948d0b8f66df4ce09f6305c228ed586d155da6ec6824c6cfe9f962af414"
+    }
+  ]
+}

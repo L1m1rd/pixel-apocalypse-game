@@ -1,0 +1,54 @@
+{
+  "monster": "stalker",
+  "direction": "north",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "hurt": {
+      "frames": [
+        "hurt_north_00",
+        "hurt_north_01",
+        "hurt_north_02",
+        "hurt_north_03",
+        "hurt_north_04",
+        "hurt_north_05"
+      ],
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "stunned": {
+      "frames": [
+        "stunned_north_00",
+        "stunned_north_01",
+        "stunned_north_02",
+        "stunned_north_03",
+        "stunned_north_04",
+        "stunned_north_05"
+      ],
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false
+    },
+    "knockback": {
+      "frames": [
+        "knockback_north_00",
+        "knockback_north_01",
+        "knockback_north_02",
+        "knockback_north_03",
+        "knockback_north_04",
+        "knockback_north_05"
+      ],
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "monster": "clicker",
+  "direction": "north",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_north_04",
+        "idle_north_05"
+      ],
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05"
+      ],
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_north_00",
+        "run_north_01",
+        "run_north_02",
+        "run_north_03",
+        "run_north_04",
+        "run_north_05"
+      ],
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_north_00",
+        "attack_north_01",
+        "attack_north_02",
+        "attack_north_03",
+        "attack_north_04",
+        "attack_north_05"
+      ],
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3
+      }
+    },
+    "hurt": {
+      "frames": [
+        "hurt_north_00",
+        "hurt_north_01",
+        "hurt_north_02",
+        "hurt_north_03",
+        "hurt_north_04",
+        "hurt_north_05"
+      ],
+      "durationMs": 95,
+      "frameRate": 10.526315789473685,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "stunned": {
+      "frames": [
+        "stunned_north_00",
+        "stunned_north_01",
+        "stunned_north_02",
+        "stunned_north_03",
+        "stunned_north_04",
+        "stunned_north_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false
+    },
+    "knockback": {
+      "frames": [
+        "knockback_north_00",
+        "knockback_north_01",
+        "knockback_north_02",
+        "knockback_north_03",
+        "knockback_north_04",
+        "knockback_north_05"
+      ],
+      "durationMs": 115,
+      "frameRate": 8.695652173913043,
+      "repeat": 0,
+      "rootMotion": false
+    }
+  }
+}

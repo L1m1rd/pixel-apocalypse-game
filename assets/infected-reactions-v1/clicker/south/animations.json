@@ -1,0 +1,54 @@
+{
+  "monster": "clicker",
+  "direction": "south",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "hurt": {
+      "frames": [
+        "hurt_south_00",
+        "hurt_south_01",
+        "hurt_south_02",
+        "hurt_south_03",
+        "hurt_south_04",
+        "hurt_south_05"
+      ],
+      "durationMs": 95,
+      "frameRate": 10.526315789473685,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "stunned": {
+      "frames": [
+        "stunned_south_00",
+        "stunned_south_01",
+        "stunned_south_02",
+        "stunned_south_03",
+        "stunned_south_04",
+        "stunned_south_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false
+    },
+    "knockback": {
+      "frames": [
+        "knockback_south_00",
+        "knockback_south_01",
+        "knockback_south_02",
+        "knockback_south_03",
+        "knockback_south_04",
+        "knockback_south_05"
+      ],
+      "durationMs": 115,
+      "frameRate": 8.695652173913043,
+      "repeat": 0,
+      "rootMotion": false
+    }
+  }
+}
