@@ -41,7 +41,14 @@ async function main(){
   git(['remote','add','origin',repo.clone_url]);
  }
  console.log(JSON.stringify({repository:repo.html_url,private:repo.private,phase:'repository-ready'}));
- git(['add','--all']);
+ const pathsIndex=process.argv.indexOf('--paths');
+ if(pathsIndex!==-1){
+  const selected=process.argv.slice(pathsIndex+1);
+  if(!selected.length)throw Error('--paths requires project-relative paths');
+  for(const item of selected)if(path.isAbsolute(item)||item.startsWith('-')||item.split(/[\\/]/).includes('..'))throw Error('Invalid publication path');
+  if(git(['diff','--cached','--name-only']))throw Error('Existing staged changes require a separate review before scoped publication');
+  git(['add','--',...selected]);
+ }else git(['add','--all']);
  const pending=git(['diff','--cached','--name-only']);
  if(pending){
   console.log('Committing '+pending.split('\n').length+' project files');

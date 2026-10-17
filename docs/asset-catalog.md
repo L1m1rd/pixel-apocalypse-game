@@ -7,6 +7,9 @@
 | `assets/concepts/environment-weather-v1.png` | Посёлок, лес, дома, укрепление; солнце, дождь, ночь |
 | `assets/concepts/survivors-v1.png` | Первый общий лист стилевых вариантов выживших |
 | `assets/concepts/infected-v1.png` | Первый концепт шести заражённых |
+| `assets/infected-redesign-realistic-v1/art` | Новая итерация: все 18 реалистичных образа утверждены; шесть видов × A/слабый, B/средний, C/сильный |
+| `assets/infected-redesign-realistic-v1/comparisons` | Шесть подписанных сравнительных листов A/B/C |
+| `output/infected-redesign-realistic-v1.zip` | Все реалистичные прототипы, сравнения, описания и запросы генерации |
 | `assets/infected-animation-pack-v1` | 24 анимации, 144 кадра, south; исходники, PNG, GIF, атласы, JSON, просмотрщик |
 | `assets/infected-animation-pack-v2` | Предыдущие 96 анимаций, 576 кадров, четыре направления; исходники, PNG, GIF, JSON, просмотрщик |
 | `assets/infected-reactions-v1` | 72 новые реакции hurt/stunned/knockback, 432 кадра, исходники и просмотрщик |
