@@ -14,7 +14,10 @@
     "build:redesigned": "node tools/build-redesigned-animations.cjs",
     "build:combat-vfx": "node tools/build-combat-vfx.cjs",
     "build:environment": "node tools/build-environment-variants.cjs",
-    "build:friends": "node tools/build-friends-animations.cjs"
+    "build:friends": "node tools/build-friends-animations.cjs",
+    "build:weapons": "node tools/build-weapon-animations.cjs",
+    "check:weapons": "node tools/check-weapon-animations.cjs",
+    "package:weapons": "node tools/package-weapon-animations.cjs"
   },
   "devDependencies": {
     "jszip": "3.10.1",

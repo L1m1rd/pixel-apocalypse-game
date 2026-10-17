@@ -1,0 +1,101 @@
+{
+  "id": "izh-27",
+  "name": "ИЖ-27",
+  "type": "double-over",
+  "direction": "east",
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "origin": {
+    "x": 0.40131578947368424,
+    "y": 0.5543937969924811
+  },
+  "source": "sources/izh-27.png",
+  "reference": "references/izh-27.png",
+  "animations": {
+    "fire": {
+      "frames": [
+        "fire_00",
+        "fire_01",
+        "fire_02",
+        "fire_03",
+        "fire_04",
+        "fire_05"
+      ],
+      "frameDurationMs": [
+        55,
+        40,
+        45,
+        65,
+        75,
+        80
+      ],
+      "durationMs": 360,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": false,
+      "returnTo": "idle"
+    },
+    "reload": {
+      "frames": [
+        "reload_00",
+        "reload_01",
+        "reload_02",
+        "reload_03",
+        "reload_04",
+        "reload_05",
+        "reload_06",
+        "reload_07",
+        "reload_08",
+        "reload_09",
+        "reload_10",
+        "reload_11",
+        "reload_12",
+        "reload_13",
+        "reload_14",
+        "reload_15",
+        "reload_16",
+        "reload_17"
+      ],
+      "frameDurationMs": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "durationMs": 2250,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": false,
+      "returnTo": "idle"
+    }
+  },
+  "events": {
+    "fire": [
+      {
+        "frame": 1,
+        "event": "visual_muzzle_flash"
+      }
+    ],
+    "reload": [
+      {
+        "frame": 17,
+        "event": "visual_reload_complete"
+      }
+    ]
+  },
+  "gameplayEventsAuthoritative": false
+}

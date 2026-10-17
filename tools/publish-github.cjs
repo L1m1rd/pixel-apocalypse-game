@@ -62,12 +62,16 @@ async function main(){
  }
  const pending=git(['diff','--cached','--name-only']);
  const configFile=path.join(ROOT,'publication-config.json');
- if(fs.existsSync(configFile)&&pathsIndex===-1){
+ if(fs.existsSync(configFile)){
   const cfg=JSON.parse(fs.readFileSync(configFile,'utf8'));
   const tracked=git(['-c','core.quotepath=false','ls-files']).split('\n');
   if(tracked.some(p=>cfg.excludedLocalPaths.some(x=>p===x||p.startsWith(x+'/'))))throw Error('Superseded files remain in publication index');
+  // Preserve prior metadata for unchanged index files during a scoped publication.
+  const previous=new Map(JSON.parse(git(['show','HEAD:docs/asset-inventory.json'])).entries.map(e=>[e.path,e]));
+  const changed=new Set(pending.split('\n'));
   // Freeze the file list at staging time: other chats may still generate new local art.
   const entries=tracked.filter(p=>p!=='docs/asset-inventory.json').map(p=>{
+   if(previous.has(p)&&!changed.has(p))return previous.get(p);
    const data=fs.readFileSync(path.join(ROOT,p));
    return {path:p,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')};
   });

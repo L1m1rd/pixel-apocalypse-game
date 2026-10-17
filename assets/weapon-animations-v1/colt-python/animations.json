@@ -1,0 +1,101 @@
+{
+  "id": "colt-python",
+  "name": "Colt Python",
+  "type": "revolver",
+  "direction": "east",
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "origin": {
+    "x": 0.3958333333333333,
+    "y": 0.5572916666666666
+  },
+  "source": "sources/colt-python.png",
+  "reference": "references/colt-python.png",
+  "animations": {
+    "fire": {
+      "frames": [
+        "fire_00",
+        "fire_01",
+        "fire_02",
+        "fire_03",
+        "fire_04",
+        "fire_05"
+      ],
+      "frameDurationMs": [
+        55,
+        40,
+        45,
+        65,
+        75,
+        80
+      ],
+      "durationMs": 360,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": false,
+      "returnTo": "idle"
+    },
+    "reload": {
+      "frames": [
+        "reload_00",
+        "reload_01",
+        "reload_02",
+        "reload_03",
+        "reload_04",
+        "reload_05",
+        "reload_06",
+        "reload_07",
+        "reload_08",
+        "reload_09",
+        "reload_10",
+        "reload_11",
+        "reload_12",
+        "reload_13",
+        "reload_14",
+        "reload_15",
+        "reload_16",
+        "reload_17"
+      ],
+      "frameDurationMs": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "durationMs": 2700,
+      "repeat": 0,
+      "rootMotion": false,
+      "holdLastFrame": false,
+      "returnTo": "idle"
+    }
+  },
+  "events": {
+    "fire": [
+      {
+        "frame": 1,
+        "event": "visual_muzzle_flash"
+      }
+    ],
+    "reload": [
+      {
+        "frame": 17,
+        "event": "visual_reload_complete"
+      }
+    ]
+  },
+  "gameplayEventsAuthoritative": false
+}

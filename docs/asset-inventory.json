@@ -35,8 +35,8 @@
     "tools/prepare-survivor-references.cjs",
     "tools/refresh-current-publication.cjs"
   ],
-  "files": 6119,
-  "totalBytes": 728231547,
+  "files": 6977,
+  "totalBytes": 810054285,
   "entries": [
     {
       "path": ".gitattributes",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6637,
-      "sha256": "d6852e25ce68d9891270f3a6a5d77d4c149f06914a0053328e88b983cfe83db0"
+      "bytes": 7046,
+      "sha256": "5c52991d99016e5965e759cb9d7f43a7a90c8eb7e1c1a5dc2e9d913a5ccd84ec"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -30484,9 +30484,4279 @@
       "sha256": "3eb6419fb7fb9e586d0b3545efcb6f34524cf1fd0737a2f977bf22cb9a7e20e5"
     },
     {
+      "path": "assets/weapon-animations-v1/README.md",
+      "bytes": 6666,
+      "sha256": "1a0bca470d3d0955c138f3f79ee7da8ed02cb8ea6e7b1387ebd9363f36609991"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/animations.json",
+      "bytes": 1769,
+      "sha256": "34665d847ce1a8867e56aff1ed8b38fc3174b31f398b2a9b16078955b5bce948"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/fire-sheet.png",
+      "bytes": 90191,
+      "sha256": "43aabf6bf828e4abf548d6243e63e842f0dfdc36a42dbbd7580dcc1f20d3914a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/fire.gif",
+      "bytes": 79555,
+      "sha256": "469a2b26071e39a1d84fd4cafdb7d52ab8a4ec9b24916f131fc91ce2445bd144"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_00.png",
+      "bytes": 15527,
+      "sha256": "10cb6e8259af6c493f798b1ace5b5aae3c41d45cf5750bbfc423aaf559803957"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_01.png",
+      "bytes": 15946,
+      "sha256": "5fcd095efa5c701098116258dab87f21f3561130335e8398781abd621a4d8c2c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_02.png",
+      "bytes": 17292,
+      "sha256": "ceb25183ce4fc5bc0cdf4699f0ed46c21895734d55266c10df04508043319582"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_03.png",
+      "bytes": 15355,
+      "sha256": "e86a72e858c8a28f56a17ad58678e131e739a72ddfd65e5fbf28a8c3599a16f4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_04.png",
+      "bytes": 15080,
+      "sha256": "b50a38fb594a407c8455c5ab91cb0acdeb1f174830b532fcdc362f05c1944a3c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/fire_05.png",
+      "bytes": 14782,
+      "sha256": "5739fb15fc6a034334ab721caf79cef2280c8e7df84ff9f592b5007be4d7b5a8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_00.png",
+      "bytes": 15458,
+      "sha256": "e09d421c84aff180e430380444ae4c83411695fa8baf603148644382fccbe179"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_01.png",
+      "bytes": 15826,
+      "sha256": "520d2c1ddfb6f3f933a7418d8819ffe9d605e1b6597ea1a4d64c2674113f733b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_02.png",
+      "bytes": 15759,
+      "sha256": "26a6450920ec072967ac255fe1dbf4f23527f7473476b3ff21cd360a876d3e9b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_03.png",
+      "bytes": 15944,
+      "sha256": "66a90b3fad3d406d75e7c6ee8bd17eb1522639916b98fe3c9c35cf7f490c2231"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_04.png",
+      "bytes": 18271,
+      "sha256": "6b6cadfb5a41541e3a4d7e217e5b69a963f03bf49116a6bc0a5ae5edf776c8ec"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_05.png",
+      "bytes": 17939,
+      "sha256": "c60c56098f2a90a6b7b4d544592dc56ac6b5c039077cc6f46df37c886606d5dd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_06.png",
+      "bytes": 16082,
+      "sha256": "969c6d1a36e3e49629af83cf6579cbb1835549ad904294a900d2326ac7707135"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_07.png",
+      "bytes": 16098,
+      "sha256": "616cd8db434df4bb408a47814d7242c34f1a9979d33f243a6bc830c0ba0476b2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_08.png",
+      "bytes": 15419,
+      "sha256": "eee1bab98963b9729f098857cd51ca55530eac2cf6425a9b85631c1f17a3b4a7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_09.png",
+      "bytes": 15534,
+      "sha256": "bccaab800026ae2664c4cde98f1f7b67936b4c383d261a952e9c16feb4b48a09"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_10.png",
+      "bytes": 15902,
+      "sha256": "9f27e503c81f27e998154554bfecd68af2f40fee303caf82c6fd4e8862b6d7c5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_11.png",
+      "bytes": 15249,
+      "sha256": "622eeaab1b5eac27b80c16c53a0df7b06ea2e8a0c9c096398275c6ed9d666ffe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_12.png",
+      "bytes": 15507,
+      "sha256": "06509797eaff1714da01ce0a1edf99b7810feb7fe011034d81111835e5ae470a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_13.png",
+      "bytes": 15816,
+      "sha256": "116040e4c90536cbae25fefff7c93eedc39a631acea6cc0b40f920f9f7890323"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_14.png",
+      "bytes": 15068,
+      "sha256": "cb77922132fe3eb5b4ba7430a7a646c1888f39ee83b97333edf3f0559ec603fc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_15.png",
+      "bytes": 15141,
+      "sha256": "f2e7ad5f6702a62c1839b981b3546e4f550535fad3983f4ac8b3c81813fe0e1c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_16.png",
+      "bytes": 15151,
+      "sha256": "f638bc1c0536443c1cb570633060244f2b0794cefe394637944964709105d33d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/frames/reload_17.png",
+      "bytes": 14907,
+      "sha256": "9b7e44bcf935b0897f0c3862d74a0f15826de667df725629111eebacb974c5dc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/idle.png",
+      "bytes": 15527,
+      "sha256": "10cb6e8259af6c493f798b1ace5b5aae3c41d45cf5750bbfc423aaf559803957"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/reload-sheet.png",
+      "bytes": 273564,
+      "sha256": "187aeb219a560ad56cb6174018d1f55f7e0555f161ebcfdd418b5cd6a0b3a465"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/reload.gif",
+      "bytes": 245218,
+      "sha256": "80584deadb1a1478bf66461c08e5fbe3264671c7a4f4617800643b2eccfd35f3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/source-audit.json",
+      "bytes": 2374,
+      "sha256": "47aa680c0f224aa0cf7e5ad2800d6fc80ce983a2a83fb3d4d2a79db0aaa17ab6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ak74/spritesheet.png",
+      "bytes": 363671,
+      "sha256": "44b2d52f52e607b2d44181422edf9171b5d60fc7675b20da8b7568952ba7ce2c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/animations.json",
+      "bytes": 1766,
+      "sha256": "930daf4cedd7b631b6e131b0e27cc958a41439c520a1e320217a5a8dbad746bb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/fire-sheet.png",
+      "bytes": 88543,
+      "sha256": "928657bc8691930b036a22ec0ccf82cc5270d5fdb80e883c267b99166e041247"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/fire.gif",
+      "bytes": 76279,
+      "sha256": "bde53d75607c3098a0d76b9cebab1db48bd8dcc9855a5a200145ffd622d7bcbc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_00.png",
+      "bytes": 14984,
+      "sha256": "5065ca71d3bfbea79ce31e68cf68174c42459380219da0812bf45ec323da1e48"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_01.png",
+      "bytes": 15091,
+      "sha256": "8bb278804db53a3d74a7fead402786e3b35ada291abfd06d60ea0575b1bc3f8e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_02.png",
+      "bytes": 17127,
+      "sha256": "5e4071cb572956b679a59734d39352b684cf838698c9c8f4aa808c7eb200711d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_03.png",
+      "bytes": 14565,
+      "sha256": "7d719f1eab3562430ea841a696e6eb65f8081122009255863227d5c65163f854"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_04.png",
+      "bytes": 15119,
+      "sha256": "9bdd0ae41302c1df3f9dd678f6afea4fa1da2b643573e81d81529a9d4351cae9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/fire_05.png",
+      "bytes": 14880,
+      "sha256": "61edce36a1bd1ca0b92fa26614ca417f05159426ddbb00bad58a712e0684b153"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_00.png",
+      "bytes": 15269,
+      "sha256": "f1f18335c271fdb46c69c04c769bd3831f874884df24fd1a8962082e998fc7d3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_01.png",
+      "bytes": 15259,
+      "sha256": "0f5c645b826c444a1dd12f20e23a746a2401abcc3461c3fcb15cdc791cf0567b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_02.png",
+      "bytes": 15472,
+      "sha256": "b0611574578e18e522e626a4d6c121cf3250ae0babea7fb766dd951d3b6b2679"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_03.png",
+      "bytes": 15759,
+      "sha256": "05cf0892a41967d15cfa3d25d6c0c821c50915b65dcb297031eb89767f2b46a4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_04.png",
+      "bytes": 16175,
+      "sha256": "0332b38fdba7b8cd2e99e38ce1d1e6b79d5ad34e260edfc76fcd0e17fd35a03d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_05.png",
+      "bytes": 17651,
+      "sha256": "bd82d435ccff869525a34ca7fc694670baec614856233cfb724957fa4ab3f5d5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_06.png",
+      "bytes": 14080,
+      "sha256": "3053d523a4aa141f2154cb2d953544b67604250db441d8e49147aced6505a0ec"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_07.png",
+      "bytes": 17474,
+      "sha256": "00e3b79209ccaf58d22831b1062355f22f38050f56634f5c6042b59df9854b47"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_08.png",
+      "bytes": 15658,
+      "sha256": "7a7d00e03e5af4990dcab25061b596985c6477faad9cf841875b24b45c3e3fd9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_09.png",
+      "bytes": 15845,
+      "sha256": "a935295f2f368bd76bdbd6c695046040a5dcedf8729a849fd8a675e8f8f7aef7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_10.png",
+      "bytes": 15853,
+      "sha256": "69d1223c97f5c5a0483b9f942099e87bc46b2953f6df7051c929c0ee4b6af040"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_11.png",
+      "bytes": 15643,
+      "sha256": "e11b3ac6b76ce18662bcf487a479b4e4eedd33bfd5db5c96c16f879a718f015f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_12.png",
+      "bytes": 15845,
+      "sha256": "064dff778bac717de014341e8fcb80df08640b34fbbfa841a5f4a8a2d5dfbd96"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_13.png",
+      "bytes": 14945,
+      "sha256": "b331b21ec236881cec17096871a2206c083720d9663dac44c7b358d197e25ad6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_14.png",
+      "bytes": 14858,
+      "sha256": "2015f53d774d12489554e8beb108ce70cd54d4380ee398d75ed545f47c868fbc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_15.png",
+      "bytes": 14784,
+      "sha256": "f883cc2275b9673c20b18dc44e7c106543467092a21ed5a67bfa07e06d253012"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_16.png",
+      "bytes": 15408,
+      "sha256": "5bf161956a95fb26645a9874603db45a7cf959ffac7020e49079c6cac42dd823"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/frames/reload_17.png",
+      "bytes": 15206,
+      "sha256": "4ff0420caefd9df428135719488e2698e049ed6dfdbd6d16c9553c45e358a897"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/idle.png",
+      "bytes": 14984,
+      "sha256": "5065ca71d3bfbea79ce31e68cf68174c42459380219da0812bf45ec323da1e48"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/reload-sheet.png",
+      "bytes": 271674,
+      "sha256": "cceb40388eb26bfb54202040451972a00a16b65a3f80ebf97b8e1aab54fc04ee"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/reload.gif",
+      "bytes": 245433,
+      "sha256": "bc2b1b27d85d5b26e59d8d5410211a9236568306edf52dd2907c404b6c9a5131"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/source-audit.json",
+      "bytes": 2368,
+      "sha256": "4269cd033bcedcc2696fe5d3522dd140e3523ae6ea41bd9c721e4e4e1e50d8c2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/akm/spritesheet.png",
+      "bytes": 359947,
+      "sha256": "2932243f3b274626f0b8f68f4793c6a2e16e291d9fa3d2a0ba02875671bbf8dd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/build-plan.json",
+      "bytes": 91407,
+      "sha256": "de7746ece9cf0f4cbc0ede8e481e56d26ac401e9f8c45ba406b983f3a39966f7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/animations.json",
+      "bytes": 1779,
+      "sha256": "b16722587d0d0a9ed1a983f15f7a654956e4bbe41f9cfa067ff12b469772be51"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/fire-sheet.png",
+      "bytes": 111073,
+      "sha256": "5b1976758663d396246dd70455d0ba47b9602d7888a7827ee9b36c59b479d092"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/fire.gif",
+      "bytes": 99323,
+      "sha256": "9e0d15e4c7bcc6e2793a0df4aeac66391ae16a9129195ec9df83e9d50a8f9fe6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_00.png",
+      "bytes": 19234,
+      "sha256": "d244a728237f5a9e4e3e48c42f185205a55e63e00b4644410f95ed4b7cffec52"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_01.png",
+      "bytes": 19448,
+      "sha256": "9b988fef683d3ec5215ec18fadfc7e575a8a4c7600f35c96c6569572c8fd6e43"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_02.png",
+      "bytes": 23070,
+      "sha256": "a5786040651fe695f18906edced3e8e78ea45d61e44a3f5607984cbbd6f63f8a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_03.png",
+      "bytes": 18971,
+      "sha256": "0d33e11bf5fc7d67a02b3bd1a5f6cddb9bbbe1e32771b347190295e53181c577"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_04.png",
+      "bytes": 18579,
+      "sha256": "0e69b6b5a65627ad47f4d1245995c4461a716c437fcf07669c24876285835724"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/fire_05.png",
+      "bytes": 18404,
+      "sha256": "c0e46a04ae4602720a15cbfc6df920df49f6f6d17000e34f947ad44753fef8f8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_00.png",
+      "bytes": 20015,
+      "sha256": "45ee5c97f0eb2f87e493d4792a55c80289a9f3530eb76431ffcbcefb11a821ee"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_01.png",
+      "bytes": 19270,
+      "sha256": "508d5c85af021d5191d5b0a27534e752954126390673f884df52b8080b1f13f7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_02.png",
+      "bytes": 18748,
+      "sha256": "5d53c0b5a800f36e891a0c2b5b3b6a319e3fe055d78a09dd58dd6a5e3eeebba0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_03.png",
+      "bytes": 20610,
+      "sha256": "1e484952b500ed987417e8d38b8c4dd0ca9f12c3739932293aa9ad3d38f00b1a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_04.png",
+      "bytes": 21567,
+      "sha256": "f56ed1642407ae1b7d359db7af5f9677a50df599821c5ae65a3662db8df33f0d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_05.png",
+      "bytes": 21893,
+      "sha256": "fadb503bea43dbe58921e38406b6f406cd707d8b6216570cde5c59ef5ae266bc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_06.png",
+      "bytes": 18009,
+      "sha256": "eb0dfa740c74c00d9066f7e1705d4333dec31701765e293301b79406e94c0adb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_07.png",
+      "bytes": 21891,
+      "sha256": "e301402585ecc635ae871d5092b2e353bba99f63d6cb9d185ac237ea7fa1b612"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_08.png",
+      "bytes": 21736,
+      "sha256": "8cabf17b5eb03dca6b78d2ecce1877bc9cce8c121014b51ca1406ec1d77ea09e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_09.png",
+      "bytes": 21265,
+      "sha256": "cc5db45286cdda70e4bdef71dd2516464c75095e0af28f60a6a00151fbe3cb23"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_10.png",
+      "bytes": 19627,
+      "sha256": "becdcf155f41f58566a40e58300a577720f48efde305fc07c0f3f00b1bfee256"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_11.png",
+      "bytes": 18668,
+      "sha256": "fd4dc73e6ade8d913ef6e6ea9b8db7935eee26e1398ba134ff33b39dc8102f3f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_12.png",
+      "bytes": 19008,
+      "sha256": "6fc23a3293aeb222460654af369ba2e6e416996c606af664f1368586c20f096b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_13.png",
+      "bytes": 20454,
+      "sha256": "5e71557d49edb751d531fb8e28ae9a7246e99ee0e1a366fddcce93bfc160e0b7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_14.png",
+      "bytes": 19437,
+      "sha256": "6ecc1e61a54ebe111fa756fc98859e51c5e10d91447c2e77dc8a39179b7a207c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_15.png",
+      "bytes": 19412,
+      "sha256": "ec0ea3e5d5b9228c315885b58b92750671f8abfecd09bdc74e72beae539ca9dc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_16.png",
+      "bytes": 19189,
+      "sha256": "c96630300f3704ef6d7c98b61c260e0d1b6ea2c9014d3d4dd51287e15696fafe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/frames/reload_17.png",
+      "bytes": 18945,
+      "sha256": "01d7c160e556b8d60a4e8ce7840fd6e903d8b62df5faa33a417e713ddb88abdc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/idle.png",
+      "bytes": 19234,
+      "sha256": "d244a728237f5a9e4e3e48c42f185205a55e63e00b4644410f95ed4b7cffec52"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/reload-sheet.png",
+      "bytes": 344105,
+      "sha256": "6009c1429f87fe3e828430def1e44eb9ddb45bfce52bb0aa9898c845021e9de2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/reload.gif",
+      "bytes": 317537,
+      "sha256": "c77e8174b60aa3b6904b70757f2226fe6294385ef773e6b3817eead42a2332d4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/source-audit.json",
+      "bytes": 2398,
+      "sha256": "f30c6d12f5d569547562a5c78258223bcf35054fec4fbf9ffa5e0e47df6586eb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-m1911/spritesheet.png",
+      "bytes": 455159,
+      "sha256": "915f278993658cba65e34abf776558679c4406993eb0552f53952e54c4e70c7d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/animations.json",
+      "bytes": 1794,
+      "sha256": "4d939bde25f296e082bd5bf64a65c70f69b826541974b6071cd9c6f2cdeabb39"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/fire-sheet.png",
+      "bytes": 119674,
+      "sha256": "96112d30162e0b855267a0dd474dcf246b3a90064862047c10fdabfdfd51fdf0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/fire.gif",
+      "bytes": 97932,
+      "sha256": "e087c90980a733dc23f84d0af29066ac6f17309ecb3b4e505beff9401d59b5cb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_00.png",
+      "bytes": 20048,
+      "sha256": "50692844b256ecc17447a3907a152740e893ab3378512871899b7510a87419df"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_01.png",
+      "bytes": 21647,
+      "sha256": "e97b087a1b25bc31593f5178422146e2d7e06c0ab50d0aa2590ed0000d4666a8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_02.png",
+      "bytes": 22874,
+      "sha256": "2427dd9baf8dce335c821541529efbb7ecf04261b0b2752ddba578ef9154b0ba"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_03.png",
+      "bytes": 20258,
+      "sha256": "9daceec6c35f19ff1891046cd94b458270c60d7ebe981db47140340db43e6411"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_04.png",
+      "bytes": 20088,
+      "sha256": "6a83a1587f423dc03bc8626fe8fa1ec21fc6f33581175b9ba665b5101a922fd7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/fire_05.png",
+      "bytes": 20326,
+      "sha256": "587a39bb3847fde952637f3422e94300224c3fa7dd431f6219d7254e068d8d84"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_00.png",
+      "bytes": 20268,
+      "sha256": "b2c399576d5788d1fec05fbeedf3030c49325d3ec5e9ebbfec5b9c9348f9f0da"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_01.png",
+      "bytes": 21794,
+      "sha256": "6d80e0d8a68bf2318ba55fab2b2e18359417621ca91d68d6aff653a93fcfdcc5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_02.png",
+      "bytes": 24600,
+      "sha256": "b52761090cba05f0eba8334f18bf57e019a5168f9f680c2b86c936a8e26b29c9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_03.png",
+      "bytes": 25001,
+      "sha256": "c9614db1c84fcb8ec094f633e7a39391869ee50422a4e01914b708c02603a873"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_04.png",
+      "bytes": 25068,
+      "sha256": "d6912b6c33472dc6789ad95e824baf02073ca269a5c4f0c44a505b904510b8be"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_05.png",
+      "bytes": 23667,
+      "sha256": "d5b0b37a68322f0fdcbae51d1d1966b87c94888de9f97443f0f45fc4b2883975"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_06.png",
+      "bytes": 24826,
+      "sha256": "5eb573ba801e2a4387a6e4f8617d3bcc2e16b5927142b2edf72275be017ee198"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_07.png",
+      "bytes": 24090,
+      "sha256": "27eda271edaf1c93c8a299ba63baf79fe964cc99cdc361a66f3f4f9fe77784a0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_08.png",
+      "bytes": 24838,
+      "sha256": "aa7f530fcec4cee91adc7e1e313a77e838d46176b560ee9e6127a8d0279dffcd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_09.png",
+      "bytes": 25929,
+      "sha256": "b96d7c4f45c8bfd0bd297704488f9f334a623632a6b416f883e00000957e3f30"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_10.png",
+      "bytes": 26001,
+      "sha256": "4cb00574b38f21d6f86d744e44b4ce612ec407c80a1e87e0eab325a7060a1216"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_11.png",
+      "bytes": 24530,
+      "sha256": "3f76b400057940cd849d9990111811de6dc5661af693fb95076e7fcc4cc0ffb7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_12.png",
+      "bytes": 23308,
+      "sha256": "16f89ba216fc27c0cf067f190bf7caded5e05db0975c418cfb90b9bcd5f8d412"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_13.png",
+      "bytes": 22026,
+      "sha256": "bebe385175ac0955e381d7661a8274e5fea4d6012cab937d90b0f4b185c43f42"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_14.png",
+      "bytes": 21557,
+      "sha256": "3df96daeb87029c85e03abcaade1f85dea4dd5b170b5d40715d4090f6049db54"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_15.png",
+      "bytes": 21277,
+      "sha256": "f4864d9633ea7e3dff9bbadff366e8081a4dd33006f463968756c0e6937a6644"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_16.png",
+      "bytes": 20524,
+      "sha256": "97c979c6cbf2d9b728720863277d13b1886280c9ce72f393d33b14f817871c73"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/frames/reload_17.png",
+      "bytes": 20246,
+      "sha256": "570522d796c45070926ec92d212fc118c1208a92d3e4980d5d8ac3609f9c0cb5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/idle.png",
+      "bytes": 20048,
+      "sha256": "50692844b256ecc17447a3907a152740e893ab3378512871899b7510a87419df"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/reload-sheet.png",
+      "bytes": 403792,
+      "sha256": "e5cadccc5e86ffdc2f7d186e8954556832ee88fb5e2c16c5f8cd08ba44d0b1e7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/reload.gif",
+      "bytes": 333091,
+      "sha256": "3fe0d27b04319f789ac242caf554c8799a621032f51b3a4317b50ced031b8f45"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/source-audit.json",
+      "bytes": 2381,
+      "sha256": "028e4f712c3b512fd94ca62e52e4bfc43925345ccbe6cc6189db8b5cef696143"
+    },
+    {
+      "path": "assets/weapon-animations-v1/colt-python/spritesheet.png",
+      "bytes": 523179,
+      "sha256": "77a3049f74ea380eb3f29b78e8071d61799fdc797e0c2caff6e6952589b6ea18"
+    },
+    {
+      "path": "assets/weapon-animations-v1/generation-prompts.json",
+      "bytes": 62617,
+      "sha256": "fd4ac290425c6c70eaf9acdc8a0639c08d758913d1e32bec2edef16aa384f0f7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/animations.json",
+      "bytes": 1780,
+      "sha256": "bf3902cb0c766371fc1df217f388d97fd4e05cc47d2bac45d9a4574e2b60eeb7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/fire-sheet.png",
+      "bytes": 127815,
+      "sha256": "88a4458e94a2e7001710d30abf22b0881cce67159efd09198846c933327ff156"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/fire.gif",
+      "bytes": 128207,
+      "sha256": "d881650a7af41215515954170a9c5b0ef2d6a834fa5abc1de1193456c43d8138"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_00.png",
+      "bytes": 21412,
+      "sha256": "5eae95b09ad114a7cd0174ab24361f374ef3986f0050729dc678b3b133a8f7e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_01.png",
+      "bytes": 23343,
+      "sha256": "d95f4b405ecc79386f8ce3d7f6f12b18771e689814ed0b3d8431124343085cf8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_02.png",
+      "bytes": 27246,
+      "sha256": "9b7638831f13948c2d27d22b544261d1b574561916783079d1d6b73eb5b7fbd9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_03.png",
+      "bytes": 21199,
+      "sha256": "7295edb5d2d77f1aefc8437ca5f9e08d877dcf25c8aa63f22b15292043933fa5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_04.png",
+      "bytes": 21245,
+      "sha256": "24e48e5ab462c6207ea8fa0ed2e780e4a8a0a0df484c07b1d31309ff42fed60b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/fire_05.png",
+      "bytes": 21279,
+      "sha256": "db663ca8cf861720e31b273415b1ff08c639aed13b546ec774c5954c1cb7086a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_00.png",
+      "bytes": 20760,
+      "sha256": "56910dde3d12dc81257600959a9c6386cf360993528e3b7c6c9d4c7a96a76c1a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_01.png",
+      "bytes": 21791,
+      "sha256": "488e7186825b2c2d440ee64dd3fbe9a202c446569bcebe2b1aa9aa59c31de1c1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_02.png",
+      "bytes": 21574,
+      "sha256": "1831eb26d0f642cbe4936567a89043ca31dee21888fb411c6a4702c747146ba6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_03.png",
+      "bytes": 21630,
+      "sha256": "72eef456bed029136abbfcbf7b92af6837480a55989f6ad4ed54bed1380ddaba"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_04.png",
+      "bytes": 24009,
+      "sha256": "4e58f7208074fdc249cbf83c1ce44c08ca478b6130f80674ca8b55b37e5a370b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_05.png",
+      "bytes": 24853,
+      "sha256": "1208453c3d53694bf614ea72f0fa0970a0015a3d8d51efe281aff20b6df4abfc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_06.png",
+      "bytes": 20859,
+      "sha256": "40aefad6fcec1b0937d028457247c7bd6baad012c22a6a6f876e3fdc3117d8d3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_07.png",
+      "bytes": 25026,
+      "sha256": "b02d788bc4da543f03dd7c57ac5c1f8686a948750ac1917a1a34f1279ee4b9d5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_08.png",
+      "bytes": 23475,
+      "sha256": "e967a2c6cdca4103bcdaaf1940dc4de88834ba1413e5d9518c8a8664dc1f04df"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_09.png",
+      "bytes": 22136,
+      "sha256": "30049e8a87ac110de1995800bd5ff6e6178a1045cd8255a8bf36be8807cfc807"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_10.png",
+      "bytes": 21761,
+      "sha256": "2b6b688b024c7271212fb9d03cebaacb167cd8c8286510f799905679badade60"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_11.png",
+      "bytes": 23163,
+      "sha256": "918bb1c131337a4c71476286d29c90719f32a0dbf2a73f2dbd274169dc96bd47"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_12.png",
+      "bytes": 22741,
+      "sha256": "a38fc115ba7a89505e4ed6bc878c45e6adc3c1f8ab69a20e9bfb9fe4a303703b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_13.png",
+      "bytes": 21371,
+      "sha256": "c0631aed5c32d4efa1c55db5b38cfd35619bac8247079df3fb8871682262f77b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_14.png",
+      "bytes": 21601,
+      "sha256": "677abe23e6551c58f7dfed6c6ff39f0aabebbfab14d6491251b897fa71bb0ed0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_15.png",
+      "bytes": 21233,
+      "sha256": "4bf24ff5cfed37f53f0ca93c2f1bec5f1a5e89d5ee6d262567e568416a791d79"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_16.png",
+      "bytes": 20910,
+      "sha256": "4bf818f668e623a13bc3b6d986189db949eef3d44b4d981add8fa43330160a9c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/frames/reload_17.png",
+      "bytes": 21348,
+      "sha256": "1287293b7a1cf55a839afafe7e8ed2c233b620ca9000eb66449c79a89c742dc2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/idle.png",
+      "bytes": 21412,
+      "sha256": "5eae95b09ad114a7cd0174ab24361f374ef3986f0050729dc678b3b133a8f7e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/reload-sheet.png",
+      "bytes": 380830,
+      "sha256": "424f31542dd72e31dc40e1a262c543da975344025eaa83578ac3229d6a7a61d4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/reload.gif",
+      "bytes": 396458,
+      "sha256": "398cb5d06580a2f84c5ad65adb11a2bb40ef1ee6721971c3ac3d66a353056540"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/source-audit.json",
+      "bytes": 2383,
+      "sha256": "c9bb0d924a3c707ee3bfba21f70691eeb8b33df76ee1cf61dc7e01c75b7aced5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/glock-17/spritesheet.png",
+      "bytes": 508341,
+      "sha256": "23f8bea48020f8dffefff26e456953762b149708bdde0ee439602f9a15e76e8e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/animations.json",
+      "bytes": 1775,
+      "sha256": "de522fcbbc7f521f4c55268a8b89274b06ee3a0f8bd7f552a42fecae4faa2e6c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/fire-sheet.png",
+      "bytes": 97948,
+      "sha256": "8f35f84326f7ab2e5297468f2bf6826eee98c90a8b377487f67fc51f5443b752"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/fire.gif",
+      "bytes": 93362,
+      "sha256": "9e162c27048fe5909967e91359f0aa02c03fb54f687bf234fac361aac31b1f2a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_00.png",
+      "bytes": 16504,
+      "sha256": "8db687490b8bdf2e7ffcbd2bc2fd24b5cfc2589ecbc18d7b2a9c6634606debd4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_01.png",
+      "bytes": 17497,
+      "sha256": "3e0116ef6df41f7cbab66eb30cdcf509fc00de9a7d4c7dec0478e6818d3ae7df"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_02.png",
+      "bytes": 20345,
+      "sha256": "5016582d83c8aa30bc5ba32cd43e9c58c9bf6961a81003b2aaed319348dcc550"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_03.png",
+      "bytes": 16832,
+      "sha256": "46fb03be4da55f105cb8378cc30ab62a2a94fe8967fac42548b41464811e1e69"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_04.png",
+      "bytes": 16528,
+      "sha256": "f3a423aace8a01fa8f259e3724e316c250dca776f8a7e460930d7ddb729bc4b8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/fire_05.png",
+      "bytes": 16590,
+      "sha256": "9309ce09f187d8094824bcc6a45a25eacdfe67123f8d852dde5eb944198520af"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_00.png",
+      "bytes": 16676,
+      "sha256": "b508fb0256aec6460475ad3fb1146c2b82964ec1fa9d62c9a1b1a826cd3bd6dd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_01.png",
+      "bytes": 18005,
+      "sha256": "0cedffbc394e7a5e7c588fcd9d50b34253188ec04f2e0331c9718d2e31746f7a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_02.png",
+      "bytes": 18461,
+      "sha256": "b1f4124bdadbf3ef444f61eae3d494461e9c48d1b0ee8b62b3d893c547c9c273"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_03.png",
+      "bytes": 18349,
+      "sha256": "571953382a94acc17ce4c78686631a7646f9e28feee0456624f695601c6f9197"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_04.png",
+      "bytes": 18023,
+      "sha256": "d22bac454aaf4adf5e82473e225384ee6ae6c41a9e2ff77cd13ae5264f74e5c4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_05.png",
+      "bytes": 19059,
+      "sha256": "5395981d681992937a403313052b8fb39effe4a79cefa373d6bc52f0c75e369c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_06.png",
+      "bytes": 16165,
+      "sha256": "d5e398c3468777cd0c2e9c17a01b7156dea139ad01a8e434902c60fb0d9a9c82"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_07.png",
+      "bytes": 16146,
+      "sha256": "fedea22e4bcc2775705eab479c4f6a78d53c56ea66e299a12a04c09525576bd0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_08.png",
+      "bytes": 18662,
+      "sha256": "5a9524ed5b8e5c319191a364758225dbaf8b3a7de7725d8f5b9cc11ecb21a513"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_09.png",
+      "bytes": 18448,
+      "sha256": "f5c564b58d56c9c747afd4a4b5635fc3c087c2ac97b7ca445c40f290bb247fbf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_10.png",
+      "bytes": 18293,
+      "sha256": "2fef78bf091497ec47e130e857e62f1446d0fff32c5718b2126a419f2373cd8a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_11.png",
+      "bytes": 17530,
+      "sha256": "10876fda890d2f8c583642b2cfa47a384ce8de5a97db4198596c829ed9eac029"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_12.png",
+      "bytes": 17450,
+      "sha256": "0fbd17e7088527c19bf663e4a4e3cb3f165d7fe4960c26d8782234c3e3fb2522"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_13.png",
+      "bytes": 17158,
+      "sha256": "224300bd1377a5185122cde7865588d36091ec7cb41c200830afc1a008a28625"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_14.png",
+      "bytes": 17269,
+      "sha256": "8969c9d8a03af8dbeb2bfdd2007fb0bf4a655707069d8b53553f487b6ae6e147"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_15.png",
+      "bytes": 17294,
+      "sha256": "a3c5df2ea9328f6484791b9921e71a0e28608f876ac6295f3d77b209767c8a36"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_16.png",
+      "bytes": 17046,
+      "sha256": "845ba79ecc9c3cdd9dc90deb42716f3f0988ba2beb0c5be00de4dab7970c613f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/frames/reload_17.png",
+      "bytes": 16858,
+      "sha256": "419e0d5b85876c09984463b31ef9b75c29aee6d2d0018f7265a150c05c08251b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/idle.png",
+      "bytes": 16504,
+      "sha256": "8db687490b8bdf2e7ffcbd2bc2fd24b5cfc2589ecbc18d7b2a9c6634606debd4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/reload-sheet.png",
+      "bytes": 301626,
+      "sha256": "5784097e96a8d79b6305bbb439eca9f985014dcea630e0eafda40b1cf6b8b4bc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/reload.gif",
+      "bytes": 293266,
+      "sha256": "87924748e18d6874be026c9e6f2e36541880a59d18612712f31774d2339e63f6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/source-audit.json",
+      "bytes": 2379,
+      "sha256": "eb38c9172f462e053d03afa5546a6e5edbadc83ed47d0e07b3d92a666e4f0f0d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/hk-mp5/spritesheet.png",
+      "bytes": 399915,
+      "sha256": "ba931f7426522092967362b9ed940fef8d0724267203e0e2a18810315d4d9970"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/animations.json",
+      "bytes": 1779,
+      "sha256": "fa06f06f4490fa0b59654f0b23b82572c17e0c92f8b28fa20791005d81f592ef"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/fire-sheet.png",
+      "bytes": 74121,
+      "sha256": "f3783635eee6d00b541def9593596e7088a7b4b3c159f051dd5d7d5d19020467"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/fire.gif",
+      "bytes": 63206,
+      "sha256": "110c5ef278870a63f6e7f62b848ce469ae5c2a1f1cf4382883ffd1063f0eec7c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_00.png",
+      "bytes": 12164,
+      "sha256": "bce9581b1585884b4131477b4c131d9a1c30f2751f7d59569e843137333873cd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_01.png",
+      "bytes": 12806,
+      "sha256": "ec9015ce418847a20519ad8c25187c16e06a6c981f265477369a56325cd679ec"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_02.png",
+      "bytes": 15246,
+      "sha256": "d4c0a2da33142e447da498b27b4475793f5308c92534950ad83365e9da5d68b9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_03.png",
+      "bytes": 12644,
+      "sha256": "c26cabd450cf781626f6bdc9cfb4a4ed69650c8ddfbfa6a42e643e4f7ac35b99"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_04.png",
+      "bytes": 12168,
+      "sha256": "36376e3fdaccca7cc38633b47d97c518e59c54785eee2df79a217f9980f9ff60"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/fire_05.png",
+      "bytes": 12015,
+      "sha256": "ec6df06a43907c30b895dae59a5f1eb91d6e1c648af16838cd964e92f02c8abd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_00.png",
+      "bytes": 11939,
+      "sha256": "7d6d496c1a7bc0fa4f7e12d50e85f730e1be9412087062497d67faa6302f3022"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_01.png",
+      "bytes": 12587,
+      "sha256": "4b9805ba1f2ee6b3ae7d0fe3f0a29e0208538ba17b55afed5e453724b8f7e57f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_02.png",
+      "bytes": 13234,
+      "sha256": "59238bed61e39435b02c763372af0416ec7af59f22a2e5369e04874b2c8f4ae1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_03.png",
+      "bytes": 15366,
+      "sha256": "435911bc82ce081087274d70a2197c9df9fbb201f6fe8b2be778afdeb67d714f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_04.png",
+      "bytes": 16148,
+      "sha256": "3a80d6f61e5ea1999c5894cf2ab9f660100fe60f55d7ded03fbe4a75a3b45168"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_05.png",
+      "bytes": 18501,
+      "sha256": "bce6f27e29f104bb7aa23db542208cc5d3ec4977940d6de4e86793e4904d001f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_06.png",
+      "bytes": 15871,
+      "sha256": "bd76973eb5d9914ec33e36376166b8388462c64a83d439da433a150d721f5584"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_07.png",
+      "bytes": 17134,
+      "sha256": "3522723982cf24f6e53697ec95c8657140bcdc6a8d9646200ed83f92ca3db035"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_08.png",
+      "bytes": 15712,
+      "sha256": "3250a247ce640d407d17b3be551d3fa8710d5df06e4328e75d21f73861955c30"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_09.png",
+      "bytes": 16681,
+      "sha256": "01d15b3ee09c5e1ac5d1f602fc4cd88568e9f30b1bcca6451994f21224b7b481"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_10.png",
+      "bytes": 15464,
+      "sha256": "b15f50bef66d1d97985d90b756c2e33363674e7ef4a39f5d76f23c060c827143"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_11.png",
+      "bytes": 14934,
+      "sha256": "5e1499f9309fef16a54d4d28d0f4f4ec76ea5eceaea16b4b48796b49d93c7f9c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_12.png",
+      "bytes": 13857,
+      "sha256": "b616f92aad29f547cd34e3599933e94f0b1f525be3236e90ed6474794f044bcc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_13.png",
+      "bytes": 13127,
+      "sha256": "54cfef0ab409968e94c7aba0a03baaafdcf2b2e033729207564d8d2782dde970"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_14.png",
+      "bytes": 12861,
+      "sha256": "0fca8e6aabf1f410a86055ec2a5ec5bf3470bca269a349a4c89b0ab1c618ef5b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_15.png",
+      "bytes": 12223,
+      "sha256": "48ccf436066b0d29ee882483f55e4cb124ba06d59cd231f0935a00505f5b7b67"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_16.png",
+      "bytes": 12270,
+      "sha256": "3f3787debccf178fad9b55878ebb447e1f05edc736bcf18c6b110dae06c3b494"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/frames/reload_17.png",
+      "bytes": 11962,
+      "sha256": "af0efe909fa1cb76bd343fdbf94321e76411e7b9018f8529503d65689bba7020"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/idle.png",
+      "bytes": 12164,
+      "sha256": "bce9581b1585884b4131477b4c131d9a1c30f2751f7d59569e843137333873cd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/reload-sheet.png",
+      "bytes": 250106,
+      "sha256": "70f148845531da06d6bdce1a8764438f6cc79b92b2cbf0d5ff9a4e170378249a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/reload.gif",
+      "bytes": 224171,
+      "sha256": "7f85a776443c577faa56ad6396d83b4c63f2fedc3b893fac39f60e9ac72caa96"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/source-audit.json",
+      "bytes": 2356,
+      "sha256": "883f1308d81fd11ae6e62efe0b85c473c272663dde92009b812da2eac98eb0cf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-27/spritesheet.png",
+      "bytes": 324470,
+      "sha256": "63b1364a9869fb885039fb7a36de769f2ed031faaaf12a8bdfdc77b0d6b29b1f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/animations.json",
+      "bytes": 1778,
+      "sha256": "68e6708a4e0bd323767864034fbd76435d4cbf219c2a0698ee434b8e4d3b3e19"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/fire-sheet.png",
+      "bytes": 67710,
+      "sha256": "ce2a43b1188871d33489de84914d64997681c134c24053b06c27934aeb7703a9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/fire.gif",
+      "bytes": 57558,
+      "sha256": "1fa38738bf59974f538592e50bfc468847c8f3fbcc0ab4e5953496d25b2a55c4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_00.png",
+      "bytes": 10712,
+      "sha256": "74dba82b0c30baa5f56d6c3a5393e739e615b61f077e4711205a2ed62a600cd5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_01.png",
+      "bytes": 12083,
+      "sha256": "d8b57adc4d7dc8a4a64cd535c8e274f8af1ff08f6f389ef800dca6e571c919c5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_02.png",
+      "bytes": 14299,
+      "sha256": "706383e7f7a3a70caac5725e2597a779d994c35b71f7451e6e95f1a681378783"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_03.png",
+      "bytes": 11683,
+      "sha256": "6ba3626150395e481e101fd064e452ee97328456540657493a43a537f749a520"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_04.png",
+      "bytes": 11070,
+      "sha256": "820672f63bf132e394086c6c3537a6f422625acf8f5eb48624020e20d11ab939"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/fire_05.png",
+      "bytes": 11008,
+      "sha256": "b8f2981af3167fe55a5e556cc4821c8719710c1909cdaeeb2619da9419c3b390"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_00.png",
+      "bytes": 11396,
+      "sha256": "914d3afcf30fe61a0d9a82eb013c11ee2b09d2d77e2785c1e9a138a5099ef79f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_01.png",
+      "bytes": 11718,
+      "sha256": "0f9521cb47214125a34a45e5266ee6ff61ee9c081361a3f02cf58f1ddf7f5938"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_02.png",
+      "bytes": 12222,
+      "sha256": "c0a6a83ba213258fc5c61441341d507d2be00bcede0eff68aabc1dd4a7e786a3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_03.png",
+      "bytes": 13003,
+      "sha256": "10ef137ca59ec6c048852491cdbb28cc0988e183a4e73fa642f405e1457bb952"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_04.png",
+      "bytes": 14863,
+      "sha256": "6c5804587260a3755cb408088fb9dca034a8e664ff15cf420f149d6254f32f02"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_05.png",
+      "bytes": 14550,
+      "sha256": "c6aeebb9da114398729c2e6b0e7c800820b860998c49493f1e68c2f28a89f09b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_06.png",
+      "bytes": 16983,
+      "sha256": "e5ee2ddf3a140cb77fbb989744ebabf2f16ab6450a7cff64e49a1514de973093"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_07.png",
+      "bytes": 16771,
+      "sha256": "ae308af174f9247d40b41d1a288d54c2b1189766dafb56f81e747316d43a3e8b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_08.png",
+      "bytes": 17355,
+      "sha256": "60f71e24633ba51184c70633f70058b097632e61de7b72a944353c26b55b4bd3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_09.png",
+      "bytes": 16994,
+      "sha256": "0327cfe29da50e4a451c3b02e0bc2740fb5971baa3238dca6ba9c7b8825d3a4e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_10.png",
+      "bytes": 15858,
+      "sha256": "12988d0ebb36af370126c243cd020a091ae6f5dbb51320c031b0e333c963c29f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_11.png",
+      "bytes": 14941,
+      "sha256": "3cac3253c5eed46d99315833281bd3527fb785083c604175e3fc69405f53d309"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_12.png",
+      "bytes": 14961,
+      "sha256": "4b889efeb9d751f954a7a6085a34e5276e9f9a8e8a22f091010f4954e9689bd0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_13.png",
+      "bytes": 12249,
+      "sha256": "d4235f58f0c44b03f83175e89399c0973cd14dc546d85b981e8af6729f030e70"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_14.png",
+      "bytes": 13474,
+      "sha256": "e0525c103a0fe4e436018ba1f2be5b487f9e4f44c9f20a3fb688f3c21e8c06cd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_15.png",
+      "bytes": 11710,
+      "sha256": "f98f7bef4db7f4edd71f21923a2f153181705ba8d0b4ad0f3b910fe66f09968c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_16.png",
+      "bytes": 12021,
+      "sha256": "334702b235f74c2637deb23ef1bf11ded411760a94bf599b3fec7fd68b43e5c2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/frames/reload_17.png",
+      "bytes": 12059,
+      "sha256": "21bb31cf014875dbfe919425bee637ab7e5efbf1c6f6c2a16efa52ad9e051de6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/idle.png",
+      "bytes": 10712,
+      "sha256": "74dba82b0c30baa5f56d6c3a5393e739e615b61f077e4711205a2ed62a600cd5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/reload-sheet.png",
+      "bytes": 244613,
+      "sha256": "dc2840975ae062845132d11c553f1e7e42aa760ae10c220d6e0e65c77a97d661"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/reload.gif",
+      "bytes": 215313,
+      "sha256": "cf26b0691019d1d7b2f0dda28c66563a2061bc710609dc2782547aee866fcc19"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/source-audit.json",
+      "bytes": 2368,
+      "sha256": "2145e3da93824eba9fdd57f2319d07b3703479d45eb467c9d72658186ce93dcf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/izh-43/spritesheet.png",
+      "bytes": 312523,
+      "sha256": "5165c89992345061e185f60bed7390275a6b49183e4964542341b5d39190e5a1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/animations.json",
+      "bytes": 1790,
+      "sha256": "128b1a82722ec144c1ea3a0a45571a8bfbad1ba39472a3d1b72bf99d9a3376e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/fire-sheet.png",
+      "bytes": 71073,
+      "sha256": "78ac265c2cf28f716befce871d98e6245ff2aa2b2582ba61f2d55e5f812442df"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/fire.gif",
+      "bytes": 62344,
+      "sha256": "0bfb5683f77e0e323c8e1f354b3544a80cc5949de20bf15b37e90c7985fa7f7d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_00.png",
+      "bytes": 12047,
+      "sha256": "de325e6d328c4b349d589646364e945d74ddf5bf7a84cad0d2b37c6ecfbcc9ea"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_01.png",
+      "bytes": 13069,
+      "sha256": "cee70de51bd002e7bef7b54343046d66bdd54ad22c8aa523016b88f5c99d22b1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_02.png",
+      "bytes": 14679,
+      "sha256": "f760415bc01b380ae73f9c65be0fdf66d6cab338eb9f8c117ccb14f8109cb471"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_03.png",
+      "bytes": 11350,
+      "sha256": "b5c1b77f68e9ec3633c950cba4d79cbe0eca61245c02a0927a96f7af39de26e0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_04.png",
+      "bytes": 11895,
+      "sha256": "cc1dc5e6fa1e1b4d2c897f1f276391afa9a02a4a4331ef195383aae7871cb239"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/fire_05.png",
+      "bytes": 11632,
+      "sha256": "4d15b49ca9be2c91582412baf7e692b4275428a09bed11302376d778e7025e40"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_00.png",
+      "bytes": 12056,
+      "sha256": "d4c05d9fb03236288a7d49f6b292e03f2a01666552a8f94201abbb85583bd975"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_01.png",
+      "bytes": 12506,
+      "sha256": "5662bbc32099bcf9fa0c6028211b3634b8ef865a238516823425a153639c67b9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_02.png",
+      "bytes": 12649,
+      "sha256": "b460568106365cce796c50d691619a70b97d030ddd067cfeaea900e73d039332"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_03.png",
+      "bytes": 13010,
+      "sha256": "006a78a25938c28376f99273fbc36bf3fa5afa889f7d857095cec190c5e8fc5d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_04.png",
+      "bytes": 12996,
+      "sha256": "fab8ed945e664b7e8033d8df7644b1846c8e693bee1d5c41fbf8931a9fb62457"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_05.png",
+      "bytes": 13869,
+      "sha256": "afe849f7853978ad6c0bacc70a80624e1804d63637ff0856d7520f725e8f9a2a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_06.png",
+      "bytes": 14374,
+      "sha256": "68a5ba000a0a0c16f9ae344a933c3c41dba44e60350e77d9643a33651a557efd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_07.png",
+      "bytes": 12550,
+      "sha256": "b0cbbfa314e9cc773062dadccf5da7bf73dd74a28c6a55442a5ce1b47c1f2805"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_08.png",
+      "bytes": 13752,
+      "sha256": "6439052af5a1468ab7b58a1f2a1382295e5808395b5334faddfef09438b49225"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_09.png",
+      "bytes": 13289,
+      "sha256": "7fbfdbaecf4a233cea3c81972bbc3789610ba0c58f7b7c0eb891584083f4ad68"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_10.png",
+      "bytes": 13028,
+      "sha256": "cb314ca094acc524544bb2bf16197d181e156c48aea72af65a89938881b5dfd6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_11.png",
+      "bytes": 12551,
+      "sha256": "7a9dd4e828d8a8a7ef75408f1af114951dc7e2a2828cb9cf0b3bbc4ebeec7499"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_12.png",
+      "bytes": 11988,
+      "sha256": "5d4514b56a2eb26c249c3fc32261d39a00a1f86fa0088162c9db6fbd8dc66fd2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_13.png",
+      "bytes": 12344,
+      "sha256": "41af415e5c3aa6472e7f22c49f390fec8e778fddbf562e1f9b815ba73ba984ed"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_14.png",
+      "bytes": 12348,
+      "sha256": "8bd8c928fc6ab4cb796df42cc71a48f652e9a6ee4522cfb0bd1320451a698c82"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_15.png",
+      "bytes": 11918,
+      "sha256": "d0f95a0d7a9d07c554c6cb6604c50a3e0867a696fab6d23ec141852f469234b8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_16.png",
+      "bytes": 11990,
+      "sha256": "9738001bd0098a09425b16e245aaa85c1c35cbdd4a094b67edbd7d3668aa6df3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/frames/reload_17.png",
+      "bytes": 11852,
+      "sha256": "65a4d19008f0c704868ae1f51a22ce0970f7756cbef9520db8ba71a797718397"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/idle.png",
+      "bytes": 12047,
+      "sha256": "de325e6d328c4b349d589646364e945d74ddf5bf7a84cad0d2b37c6ecfbcc9ea"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/reload-sheet.png",
+      "bytes": 219733,
+      "sha256": "a91af8bedd3d038e9b51d7ad604fce40fe03576745aa077e95f724b404d88fa4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/reload.gif",
+      "bytes": 190568,
+      "sha256": "9d2e7690a9c03bdc3f4ba51c122c901498beb8bf8b7bcc5fafe173feb0c66cf5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/source-audit.json",
+      "bytes": 2360,
+      "sha256": "594574ce9ddcdad90f62a7aaebc8d026a72e9e24f4ebb926d83197748f4be813"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m1-carbine/spritesheet.png",
+      "bytes": 290352,
+      "sha256": "7e5bfdb76c64f3d6eabe9319e02cd84c2e7ce67c7a18c5021ede8c546701af34"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/animations.json",
+      "bytes": 1766,
+      "sha256": "889d5608098a042b0299ff4d376d900f820ae54bec7b06ea7d978ab7783a2b71"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/fire-sheet.png",
+      "bytes": 95143,
+      "sha256": "bf78f7084a28541036197d1e835c9c42854cd7afc74a4a6524c42e20c0108176"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/fire.gif",
+      "bytes": 96139,
+      "sha256": "fd48204d33d9f907fc8dd5db644453b4b2f1a4eaf5d59941fd6a365bd8ef7556"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_00.png",
+      "bytes": 16253,
+      "sha256": "9542cccb92839f0c72cdefb90a4c8d33f0491028f74cc026dae6a48596053e13"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_01.png",
+      "bytes": 16518,
+      "sha256": "6820c4209ccc7b9938972409dea04c6b8afe8ce068b1f55bf4b70f6c3bebe9d8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_02.png",
+      "bytes": 19988,
+      "sha256": "a967ceaf415eeb2c3b095e52f83ed9c41dfa51233ccbcd6fa62b2393c421ef1a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_03.png",
+      "bytes": 16239,
+      "sha256": "8777b148bfd8a561b18b14d85c4c107d92a4633edf52bc9874abf0e9edd35d87"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_04.png",
+      "bytes": 16158,
+      "sha256": "7248863930bc9dc583ce8e43a6262dd74b839adf279aaf3cce199338c741e653"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/fire_05.png",
+      "bytes": 16058,
+      "sha256": "412fd4ca969d90c321258e8f0363b118435ef2bdc371373535343a91e252a455"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_00.png",
+      "bytes": 16183,
+      "sha256": "33dcee43d56d9de1d07bf34b2e5922c0a5db93831c3aa69eb1f11613932056a6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_01.png",
+      "bytes": 17001,
+      "sha256": "f6dc27baf5666bf87fec96e8b620beb38d264b043ef1d265d4cd41ea5e2a9fbb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_02.png",
+      "bytes": 16906,
+      "sha256": "c3a8701fb3ae6263c70e1253fcd12638fa7dd6872b68515c01e829b5bcd53d90"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_03.png",
+      "bytes": 17653,
+      "sha256": "20691f4556fb1b0a0e8845f60976703cdc03438d3b487decb03f04a6802eeb8b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_04.png",
+      "bytes": 19256,
+      "sha256": "c4cc905e2320828075a1b6bcbd51672f80c7d95dba732ec014d06ca6958a549a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_05.png",
+      "bytes": 19232,
+      "sha256": "2c34c008c6b1583dd7a4631adb7972913e410ba1b9509448e362b6118109c6dc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_06.png",
+      "bytes": 16144,
+      "sha256": "bf9098be0f9ea3e2011bb42f7718d8fa2205e4e679e87d78ad2587d8437ab63e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_07.png",
+      "bytes": 16087,
+      "sha256": "12c5c4ea2a2d9a433059f796a2c36589063ea4ea387bd6393fbe9bfbfae056b9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_08.png",
+      "bytes": 18593,
+      "sha256": "38163b3c57eb6e52266325235d8c5789efa84171ad5fc50e82c700232dcef8fa"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_09.png",
+      "bytes": 18100,
+      "sha256": "98113020deec5c76db4d86c5374854d3f7a54db9893b64b37d7c68d2310c74ab"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_10.png",
+      "bytes": 17615,
+      "sha256": "ee6817c68f8d8c20b10c1152fa7efd2d9bbfa285c37f6a908e929c3ecd96a87f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_11.png",
+      "bytes": 18342,
+      "sha256": "06a0005033782c30eb2366c602bd1d8942ac097d89dac4a4745fbef991fd0d79"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_12.png",
+      "bytes": 17066,
+      "sha256": "bf6da86c139a58de5d1cfa64b49a9a0eb7465c4f3268d8312915f5ad2015dfc1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_13.png",
+      "bytes": 16426,
+      "sha256": "f31b9b3e6e88251ef7cff91a5d7d189532e30bb8cf2e0cfbadd24175bf04cfff"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_14.png",
+      "bytes": 16006,
+      "sha256": "12f773dfb0d4028c7d46484953fccce653ce87916ddbd90f95ab58801fb9d857"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_15.png",
+      "bytes": 16097,
+      "sha256": "eb40bc0f2bde078379bb05d23934e98dedaa9fcf8ba6b932d4a510a2e3e20dfb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_16.png",
+      "bytes": 15934,
+      "sha256": "7a3250c1f1a59b43bbf45dc02db57e7b437bc68671cd09da98e81e088791e69d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/frames/reload_17.png",
+      "bytes": 16210,
+      "sha256": "97a625d4980d157bb51dccb39bbd44b5eab010f56d57c0ef4b50329dee299013"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/idle.png",
+      "bytes": 16253,
+      "sha256": "9542cccb92839f0c72cdefb90a4c8d33f0491028f74cc026dae6a48596053e13"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/reload-sheet.png",
+      "bytes": 292069,
+      "sha256": "6ee52cf62c8272d1fde7090726d8fcd83ad5086d936b13bcb2bbcb0db8293a40"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/reload.gif",
+      "bytes": 297821,
+      "sha256": "a6619bfb2247f20cfe5b75f42a827fd4e5007c4361004b849ebfc7c80a51192c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/source-audit.json",
+      "bytes": 2366,
+      "sha256": "f64a1bdb93279dfef6925e70d18854a071da1c2a85a3d224cc24402c8b358384"
+    },
+    {
+      "path": "assets/weapon-animations-v1/m4a1/spritesheet.png",
+      "bytes": 387073,
+      "sha256": "7e6480a7437909d9dedecba04f105e5f9bffab387073d656072034c94c61e271"
+    },
+    {
+      "path": "assets/weapon-animations-v1/manifest.js",
+      "bytes": 25342,
+      "sha256": "cfad8037c8fd62f58cadb2aee3025cb4fa9d9e22f0789346fc4846c262c30e8e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/manifest.json",
+      "bytes": 53208,
+      "sha256": "fa0bc2b94fa7f09bdf324f32373d4bdeb9749bce1bad7f573494c3c5bee5076b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/animations.json",
+      "bytes": 1803,
+      "sha256": "4769f1262805fb72b7d78c33c060bb3456b1c1d4087730b5c097a172dfb9c545"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/fire-sheet.png",
+      "bytes": 69231,
+      "sha256": "ae90ecf202e0810736f4fcf32ee7b879c64f5b617bba5993895ba05f11160981"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/fire.gif",
+      "bytes": 59655,
+      "sha256": "2cb863d38d5a8f91da99f5b2eae2d6c0bad0492c7dde20f39cb274e777b1b59d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_00.png",
+      "bytes": 11469,
+      "sha256": "58f2f7592634ac9840cbd74aecffcf343423e83b23464ec4c5612df75ed391a7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_01.png",
+      "bytes": 12447,
+      "sha256": "ec9353991d0936b814e428fe7d6b57e3885d5782803f82f2c06bcdd4d96ec6e0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_02.png",
+      "bytes": 13157,
+      "sha256": "594f747612a2067d3feef4c7fe0d80786d59eb548eec1b1c8b61948b6aefd137"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_03.png",
+      "bytes": 12210,
+      "sha256": "75ee202d756534fe2bdd0071acc63b326ccbd6a621d3908b6069b567ab14a509"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_04.png",
+      "bytes": 11595,
+      "sha256": "897d96a3525a894070a62a89c6a56678a5efbdc5f7e345cb245acb0ec5cbfb01"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/fire_05.png",
+      "bytes": 11383,
+      "sha256": "f90e25cdb52a77dff230739c2c12567ea8d3f7a3d08ac9573863f0ed94307a56"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_00.png",
+      "bytes": 11389,
+      "sha256": "5deff6d60f3c8efd8168d53a0f61ebc8cb647a33272488584acda3d9f3ab6578"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_01.png",
+      "bytes": 11369,
+      "sha256": "8ce339324abdd9cbf2e5aded500d420afc0f830f81737d348d0ed3dac51e826e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_02.png",
+      "bytes": 11439,
+      "sha256": "93a93a9ce5f53bec55e08a4d45d1906b128f696827be6d0e5e586e508aaf8324"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_03.png",
+      "bytes": 10963,
+      "sha256": "ad27d3368c7282c4fb9fb9d5f7116efcb350ddd7dec933454d8f1d4ef479c4b9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_04.png",
+      "bytes": 12054,
+      "sha256": "87a2bd30c21b8d344799ad2013e7c9d1814fb2d50f1cf9c98f3c0566202e04d4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_05.png",
+      "bytes": 11427,
+      "sha256": "490ea01fb9fe91f7fe37fa73a982a56a71f743562b8469c19ee2f63f9f2ea0da"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_06.png",
+      "bytes": 12426,
+      "sha256": "acb1fdd983fb34c15296325b36e8c20a22ebedb795b79c58deafcb2af0362bea"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_07.png",
+      "bytes": 12277,
+      "sha256": "3cf3ffbe4ffd5cb0ad0ea9fbb5d6b80e5333abbd52c0b8b4deef17a8190c21c2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_08.png",
+      "bytes": 12049,
+      "sha256": "6d76116d868f309c15a0f771c56f2550b04983aea0a81afb0f18951ccd0cf690"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_09.png",
+      "bytes": 11318,
+      "sha256": "16d70a121939767cee0bc9e0f1d09049a6ce7ded29c330025b6d8c3da3df1c81"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_10.png",
+      "bytes": 11628,
+      "sha256": "bd849749d502091000cc7522a761eed200789beb63ead761c517266c6468b55a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_11.png",
+      "bytes": 11348,
+      "sha256": "32e7872951ce8af1437813cf19c1b31414c03e5a46c95d57a4db516968962b17"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_12.png",
+      "bytes": 11743,
+      "sha256": "98d96583bc25588f3ba82b8f32518a99ec98cca81c7a554ff07786d4cd8c1593"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_13.png",
+      "bytes": 11446,
+      "sha256": "865368595876d3117077d7513262d5f2072d5b0a40aca2b6acdbde3ff2fddd2c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_14.png",
+      "bytes": 11242,
+      "sha256": "0c8d9433ffdd2b6368491c0f066ff013e467f6475cc999dfb9cb85f69d719a74"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_15.png",
+      "bytes": 10949,
+      "sha256": "16c7108920b796624136948c111d0383f36b6ae9a3be538f5103c4792536f904"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_16.png",
+      "bytes": 11052,
+      "sha256": "776530985cc2a03d951a9221e53bf0da21d2fd0b235764d42d6856c49e178265"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/frames/reload_17.png",
+      "bytes": 11363,
+      "sha256": "2bee7c63f60e49a2391eb62d20a79bbdbc9c881705128bf97ec56cff278e0728"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/idle.png",
+      "bytes": 11469,
+      "sha256": "58f2f7592634ac9840cbd74aecffcf343423e83b23464ec4c5612df75ed391a7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/reload-sheet.png",
+      "bytes": 198552,
+      "sha256": "1c9de427b14ca614c88c796861fb15bf5d4874a2c86a11068f871c0986a160d8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/reload.gif",
+      "bytes": 180009,
+      "sha256": "36f89c851affe8aa161ed8d405712fe03a4ad4fb8e205bda2a91150bedf121bf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/source-audit.json",
+      "bytes": 2372,
+      "sha256": "c1590309d2d437e7c459f8e6ea69ed07a19d80ae306fa5a7fba9b988684c207e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mosin-9130/spritesheet.png",
+      "bytes": 267520,
+      "sha256": "6aa72b4ace93aaf05d13ad53d71715f76193b8a443c70aebcc9dc26adf051bda"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/animations.json",
+      "bytes": 1795,
+      "sha256": "bedfad8366b04d45a84014c2eff2a43389b874057caaa034a76f62e885a845e0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/fire-sheet.png",
+      "bytes": 70608,
+      "sha256": "b250006b9be699af310be91c1ca9960c98bf848ae6fffa295a375fe25fa63da0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/fire.gif",
+      "bytes": 59959,
+      "sha256": "1e2deb4b84f86c06fdbcafd55f991bb506b34f9af038173d2ed0fc1f12d63a46"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_00.png",
+      "bytes": 11533,
+      "sha256": "5521f9b5b2e7bbf4bbf33f5660f9b3d029fe89d5391a8e82f4348810b54aa3b7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_01.png",
+      "bytes": 12846,
+      "sha256": "8f0f6a6bb20fcb5e2eb6e25c9e85d427fbbe73080e7d30a3982f033df1d31463"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_02.png",
+      "bytes": 14593,
+      "sha256": "5884d5a90dc552f33405ddc27fa2c6132d3488e117b4e44b5d7dd439fc4806a6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_03.png",
+      "bytes": 11743,
+      "sha256": "ca91e287f15ca3b728e61cda68d318887db98dd512fde35ba1f3e65ff1a278eb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_04.png",
+      "bytes": 11937,
+      "sha256": "f8192e2368a0580efb37ad1bf88e7f7f015fabc0b7c5b4155e1206a6851176d5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/fire_05.png",
+      "bytes": 11181,
+      "sha256": "163676e8545555715cf1ded6cdd06a01cb25a7d4fd86ba38447a1f2e8f99eb72"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_00.png",
+      "bytes": 11545,
+      "sha256": "01ebee63fa7dd7dc86b705df47bfa3476d62cd99a2d8a0c0b4645bb66d0517da"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_01.png",
+      "bytes": 12442,
+      "sha256": "b70f993230ead7aadcd977a2a03cff58297452b150a89941fed1b114dad4c628"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_02.png",
+      "bytes": 12665,
+      "sha256": "44493e8ab7b0c46dd0dcff219f2d010251ab60f6509f6b88111bcf538d82a3b5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_03.png",
+      "bytes": 12787,
+      "sha256": "1b742dde5cec4fcc6a0dfa12a47ba91920101ad4d4cc7da50b1bf2f8236b0a07"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_04.png",
+      "bytes": 12820,
+      "sha256": "b7b2c91921a9d3ee153828ff41d009d53d497704125d22f455b5f6cb939a90e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_05.png",
+      "bytes": 12420,
+      "sha256": "7016eb893506a2e061da9efb075529f793fdbae35e508106a891c388d483d6a4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_06.png",
+      "bytes": 11740,
+      "sha256": "b6b30bf974ae60384c72e6c3b97ad9f3f0cfea5ad036b20808f722dc1e652b95"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_07.png",
+      "bytes": 13231,
+      "sha256": "b5dd492d716c08ef9e4e00c816835a90bb411fbd6121952d0e8e77a017cb424f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_08.png",
+      "bytes": 12677,
+      "sha256": "b7cf21000b1b3e560e5945536ca4a511bdb4d04dccc8c6fc863477f1bd6092b2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_09.png",
+      "bytes": 12778,
+      "sha256": "425c06f6a6825fecc1384fe2e3f37960805ca617901ec30dcbd610032c1336db"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_10.png",
+      "bytes": 12071,
+      "sha256": "e6e8afc317ed265c3f9b6926396caacca90ce742f773a2a581978981c17e9eb8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_11.png",
+      "bytes": 12174,
+      "sha256": "db4a487cda6dcd94326837cb014835724ffdc28fca418738042a88b7cc2ac07b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_12.png",
+      "bytes": 12074,
+      "sha256": "94feb11be672e3c4c65e8985174bacfc9e3bb736007b9b29f6d434d65c154afe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_13.png",
+      "bytes": 12305,
+      "sha256": "ec7c368877ca153ebef02292bb14c7d60c913cb4791d0078dbabbe6e35708df3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_14.png",
+      "bytes": 12691,
+      "sha256": "c2c0989041af72f240f44178787f07c98a2f97ebce88ea6650c1d9659fc32950"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_15.png",
+      "bytes": 13093,
+      "sha256": "fbb01c53a02ebf85bda92d23df9bf039731d004066076897331ffd9c9e5b5c6d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_16.png",
+      "bytes": 12899,
+      "sha256": "6cc53d50152aea2b4d168aab605482d7f9c494a52b5e23bdd6b057f4fc0c68ec"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/frames/reload_17.png",
+      "bytes": 11917,
+      "sha256": "628715336ad006d9ebf9c9c9472b208729df558dfa55d2ba140bdf30f17593f3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/idle.png",
+      "bytes": 11533,
+      "sha256": "5521f9b5b2e7bbf4bbf33f5660f9b3d029fe89d5391a8e82f4348810b54aa3b7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/reload-sheet.png",
+      "bytes": 213007,
+      "sha256": "5e28aa6f1abecf28e8d49b56da5159953e48ed8e3ca65d76df2c10d66c6b38b0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/reload.gif",
+      "bytes": 186323,
+      "sha256": "f4d677bda8eeb55cf4043025c28cf90405d283840895259afe1561cd6ba328cb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/source-audit.json",
+      "bytes": 2357,
+      "sha256": "9c6efb574761d16653fa340926f61a284d86908181636222eb13e0398f254c9a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/mossberg-500/spritesheet.png",
+      "bytes": 283503,
+      "sha256": "67452c8e5ca1c2d8fc24a76ab08b63c228ba0d8872823ab37a459906b2ed672a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/animations.json",
+      "bytes": 1807,
+      "sha256": "84d404b9ab4c6ff45a9d8b251437210aac4ba070cbe72286e7437606228236de"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/fire-sheet.png",
+      "bytes": 101145,
+      "sha256": "2264a0c7e58924095894b676e2bb84153d2615e7bfbd6c5055823dc2844a318e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/fire.gif",
+      "bytes": 91322,
+      "sha256": "6cd4bdaae979b87b11584e67521ec07f0056cfba0ec42b45d21c698b9776665b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_00.png",
+      "bytes": 17391,
+      "sha256": "4253a99d5ec1a8db535fd8af8a1399b302fc3e7a8abea56b4a0dfa01a8e2e658"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_01.png",
+      "bytes": 19193,
+      "sha256": "4c12b7bbc48b7ee68cd5b0bdb842df3b7aa11d5e74c31365f2dc65e3155cd44d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_02.png",
+      "bytes": 19449,
+      "sha256": "5f0d4286d3d80f42db2646d56ba5d2dbaaccd933778fd7b19b2cf846a61d7509"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_03.png",
+      "bytes": 16917,
+      "sha256": "44f8fbb31e879044748509d27b2dd03a4aefd3f2a4fcec5ed1ef6550fa38e913"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_04.png",
+      "bytes": 17350,
+      "sha256": "968a0d4518d75474707de0e44073dcc0c87629e0b47d257403dd9ca9c94652a0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/fire_05.png",
+      "bytes": 16856,
+      "sha256": "0e5977b45d150d3921ab8e9f989f8e88fd79721dea7775045cca2d0e2f023e63"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_00.png",
+      "bytes": 16698,
+      "sha256": "1fbaf8fd442e1f8cc256ad3f976b44843cae28a3879d495cab14996eaf4a2623"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_01.png",
+      "bytes": 16900,
+      "sha256": "947df7ba1b574dd5f59ab9c760f6516995ef7e45ff71055e01fbbde8d1c18ddb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_02.png",
+      "bytes": 18366,
+      "sha256": "329bd289c861a2cb005d01fcb88b55b449171ea9a734006646ebd84e713a1ed3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_03.png",
+      "bytes": 18335,
+      "sha256": "46f6e58144de635814b763619607c50639dcbc49a7fdcc5480ae5f5752d7d3a5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_04.png",
+      "bytes": 18017,
+      "sha256": "5edc0d047e6507d9d368c29a12e44c37577ccda8ddaa5ec6d7227a3a5dd94321"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_05.png",
+      "bytes": 17801,
+      "sha256": "1603d9ed65825a481133fb7ad3a478203f099447ea9c470485383aaa3de7a3ab"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_06.png",
+      "bytes": 18496,
+      "sha256": "89c6cfa136e5847151e4560de5371e56d3f0b3e5c90d55da2f817e14d13046ff"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_07.png",
+      "bytes": 18301,
+      "sha256": "df6ad8fc3ef2b8745e271c3965e6eb359a80af6181b947a7aaad86182069ffab"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_08.png",
+      "bytes": 18294,
+      "sha256": "672ca5f3067f3b9be5ae61ff4d32c5cf50b8b44e4aacc2c078406b726ffc91ac"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_09.png",
+      "bytes": 18630,
+      "sha256": "bb22d5b0ca786a83acfb171d745a6668d1ebd45b64750454549e048ec6151623"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_10.png",
+      "bytes": 19020,
+      "sha256": "8b1f1f369cb940d47415d5829d4f472222619712629504f4f3da07d05fe35a14"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_11.png",
+      "bytes": 18188,
+      "sha256": "3a5bc847bf6022c4d8670e48896502b39afe43b5b398ce024aedb44063269bde"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_12.png",
+      "bytes": 18006,
+      "sha256": "eb140c682a2f51e952a2a93513ef64f7bfc949a80806b74eb5d00290bcaf33d5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_13.png",
+      "bytes": 18047,
+      "sha256": "8d7588dd5bdf06178f3250d95db7031bc8902695213ff884b06b186b52958c15"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_14.png",
+      "bytes": 17613,
+      "sha256": "5d707d4be3a46b0ea87c895a3f179952fd72ab735b2c3ef96f66f5e0cff8bae8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_15.png",
+      "bytes": 17353,
+      "sha256": "d4600a3e333008116e29561fe8c00b052ec274028536bdf119fa8f61eb355b80"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_16.png",
+      "bytes": 16976,
+      "sha256": "b66282ef902b9c0e84aac4ba39e08c39a5825cc7ad8bf15b7cc5781362d65ec0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/frames/reload_17.png",
+      "bytes": 16510,
+      "sha256": "db2ab08028f8d34263407d9a5da86b4570c6a14bde3a45b026f3cdbba2eabc70"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/idle.png",
+      "bytes": 17391,
+      "sha256": "4253a99d5ec1a8db535fd8af8a1399b302fc3e7a8abea56b4a0dfa01a8e2e658"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/reload-sheet.png",
+      "bytes": 301886,
+      "sha256": "57ffb552c2f5ecf3c7fbab1612208ff3b45888440f3a60daf0e7c27598163982"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/reload.gif",
+      "bytes": 277113,
+      "sha256": "059263085d359ab53bd194feb12228bc5eddcef80e97fffbc975b816221a718b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/source-audit.json",
+      "bytes": 2390,
+      "sha256": "5bd89486014c22aac1807d0c1154348787adbc783e27384558a2a198031ab85e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/nagant-m1895/spritesheet.png",
+      "bytes": 402578,
+      "sha256": "65d10772f04ccfc0ba830d76325377e73d2fab9041227902004fe8d634480a1e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/overview-fire.gif",
+      "bytes": 710127,
+      "sha256": "8a7c4f2fc4342d72c879f83d8598f25f246e5d70e5cdba7d6d33d8469905f7e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/overview-reload.gif",
+      "bytes": 2219877,
+      "sha256": "49d498582ccc2174c50613b58e0d750cd46353de68c7a512916cdb3e0f5da5e5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/overview.png",
+      "bytes": 426587,
+      "sha256": "6fdfdf102d4ef2fa4fadb1f3f461a9d088b78c0af386ca890a9c47bc4e680451"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/animations.json",
+      "bytes": 1759,
+      "sha256": "5e9b12daee229d89863fc0934a6f112462a32b1d7375de1c299aabc8643e81bd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/fire-sheet.png",
+      "bytes": 122285,
+      "sha256": "ed480503885923ae3b028702c97f7cc571c4b680e6871002abc739dec9d9d93d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/fire.gif",
+      "bytes": 110225,
+      "sha256": "d753b6ef8bce71c2c4c337555f2edbc11711874224b046eb33c9a6773059a419"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_00.png",
+      "bytes": 20930,
+      "sha256": "f99d0b0eda8dc8404aa63430cc4ac3f40dff2e348c2269bdd112369928a9e413"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_01.png",
+      "bytes": 22088,
+      "sha256": "b40c528a3bc56d3b65a2e47ffb5b84e1ee7bada06b43518131029190c9e21d2c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_02.png",
+      "bytes": 24333,
+      "sha256": "c7a624e177d968d8f7a39f21752c1f7f26d9ae5b9c12df5e1acbf99249a9cda8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_03.png",
+      "bytes": 20736,
+      "sha256": "28ddc124fa693c5b91701fda53a3e82de701d640e70dc3b0ad6ad53f73f8495f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_04.png",
+      "bytes": 20492,
+      "sha256": "f9d673afbc9e926f23d56c423f7ec6b68a766973422b5098dfe231b1b31fe524"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/fire_05.png",
+      "bytes": 20810,
+      "sha256": "53d8e4e569f708d6e5d9f287472ce524921d5442184b0f67137935cec0cc4e17"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_00.png",
+      "bytes": 21014,
+      "sha256": "00a2d3d81945fb06704e79c4c121e361fce78ab7aed75679f5d9a47ce8e27aa1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_01.png",
+      "bytes": 21383,
+      "sha256": "a15b210ecc8bf0d33acd0e4abb38977f6650bc94fa6198f8afd7f834362e8142"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_02.png",
+      "bytes": 21275,
+      "sha256": "82bd0405656643b37432e9708e888db979ff38c8ef432b2ebc3121ab676468d2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_03.png",
+      "bytes": 22332,
+      "sha256": "e68d2ef1089c7b6e4d877928a97e4878589e3644f12e2ab7a8b0217686add1b1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_04.png",
+      "bytes": 23210,
+      "sha256": "b28de70c9f1449792c03a01f019adba59747ca24441572bdbac747371017d111"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_05.png",
+      "bytes": 24904,
+      "sha256": "dc32b23167df96ed8ee72401fae0c9da0a9623b86f52e6cfcd7185ee928a499e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_06.png",
+      "bytes": 21126,
+      "sha256": "359db26eb3c97c343d59b1faa30c6281fbf20e14b10368f3989f8a0f4db21779"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_07.png",
+      "bytes": 24766,
+      "sha256": "f192f2d145ed09485a046595996a340633a272dcd8c1c38a7232e2c08781a790"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_08.png",
+      "bytes": 22929,
+      "sha256": "33f53cad102f4bb820c6ce3b2d7cded42c958380c1d135e6a0f5b5c394fb55e0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_09.png",
+      "bytes": 21299,
+      "sha256": "d42b61e1fc15c70f4ef77628028e04007ff3c832dcd0023e629cde984ebd24e9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_10.png",
+      "bytes": 21063,
+      "sha256": "0bf05795d1af593afd192e3cf2178d8f7f5803fd2a7beaf505d6e5defacfa453"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_11.png",
+      "bytes": 21218,
+      "sha256": "cd3d513486d3c6c47c52f6a20f31fe0a1df5d3c0e75f54949d0d8bc34db18baf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_12.png",
+      "bytes": 22070,
+      "sha256": "4c7bf1479101ba8eb80227c4f8df5e98ddd8d9b22d9c9125569a21775a7a0e03"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_13.png",
+      "bytes": 20922,
+      "sha256": "b7220d89c3c93a3d3ff091004364d34b18b83af6be6fccc2766a300d9af9865f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_14.png",
+      "bytes": 21034,
+      "sha256": "2a452a53ddbfa97687f358f09c73926d5f479ada0ab98cfb2a1b7363ef794db8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_15.png",
+      "bytes": 20487,
+      "sha256": "8aa05d1591e284b8241a450cdd70390df230a5e17939b5f0988259ebbb5bc588"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_16.png",
+      "bytes": 20433,
+      "sha256": "392f4e053830c162a6d16a8dd3d9f068aaf74f301c12884a92e97af890aa070f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/frames/reload_17.png",
+      "bytes": 20471,
+      "sha256": "5b0f31d6e4687a77527b0d64aa5a4dbba60b94a3281a9598dc1e0eb72d30996b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/idle.png",
+      "bytes": 20930,
+      "sha256": "f99d0b0eda8dc8404aa63430cc4ac3f40dff2e348c2269bdd112369928a9e413"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/reload-sheet.png",
+      "bytes": 374283,
+      "sha256": "4fa1178ab42798585e76548c7aa63bb0ded9c33f4d173336d7af8787ea7bbc51"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/reload.gif",
+      "bytes": 345891,
+      "sha256": "9c66f1bc0672988e54be7d073e82e2e21baf1cde9dcb32907d185266cc8b5aa7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/source-audit.json",
+      "bytes": 2384,
+      "sha256": "82aa97717456acfa877d63cc10e67a5381a1b9374a3114ced9321a9990903a48"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pm/spritesheet.png",
+      "bytes": 496699,
+      "sha256": "123d17a74407a5f8e164585540cfb130f7cb8db1fa39cf5f53dce5d22f0e77a1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/animations.json",
+      "bytes": 1797,
+      "sha256": "b061d78f5609dcf86306003c67d83739eef2bceeffe8b338da13bcddbab05cdc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/fire-sheet.png",
+      "bytes": 88256,
+      "sha256": "b2cd0db65cd126804fbe5ec519907887a62d74cf3f141906fb5a87e41ec76d07"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/fire.gif",
+      "bytes": 83336,
+      "sha256": "b26ffeb2ad61f40b6f988ef6be76f5a1df28c0f06c6e5e1b2e2f68d37bb1d591"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_00.png",
+      "bytes": 14595,
+      "sha256": "8e9b67342d27057c73dcf02ce7ae3945a4baed55ab881ae2d098dd0bd530c743"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_01.png",
+      "bytes": 15237,
+      "sha256": "0f8dec0e0584f6a23f136d2fadf0d56c8017182f9413906aaa121cb67b79167e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_02.png",
+      "bytes": 18457,
+      "sha256": "0f0957a7b033f3bf6d82f6b46547bfa41e599672b79d21fba5a0a3b6240bf71a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_03.png",
+      "bytes": 14639,
+      "sha256": "86bd87cbe1ba3c05d15fc1ddf8c472275c5022db47d7df7e83a05dc07bff35ee"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_04.png",
+      "bytes": 14614,
+      "sha256": "1b34e5d0cf893f692d48d7536f25002e4c68ba8c1ae1600c0f15ebae71c4057f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/fire_05.png",
+      "bytes": 14539,
+      "sha256": "751698d60f33838bcbe9d9623697c02e3682e09fdad50b780256b941e9360e2d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_00.png",
+      "bytes": 14396,
+      "sha256": "1f2c749553be9de7883961027715092270f00d8bbac221b842ee481cdefa01b6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_01.png",
+      "bytes": 14439,
+      "sha256": "654a78660c746d75723aa790fd02a48793c49a5998fc4f9e9e376cd587706405"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_02.png",
+      "bytes": 14608,
+      "sha256": "878f1f556f6c1633650245e7db55b8b2612581b1bbf20b1770aae4f51ca6bb5d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_03.png",
+      "bytes": 15066,
+      "sha256": "f95b5c08eb91d6846d568b9ffc65c935341a655e32ebff250c7944eac92abcb8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_04.png",
+      "bytes": 15338,
+      "sha256": "3516c6ca7f5ed8cb957e86fb865f8c9ae0d145ece870ec3b5751874bba39b604"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_05.png",
+      "bytes": 15591,
+      "sha256": "b534db7499c1b5d12736949f82f5fbe4383f904c14f6177548e083b6eb160521"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_06.png",
+      "bytes": 16142,
+      "sha256": "c6a7f8774f972e099494f0d411d7380d248821483f3627eeca71bdc11c622e93"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_07.png",
+      "bytes": 15617,
+      "sha256": "ab8b4f2defcbb1f94c9cb7902174cd03d290521c8a080ab92316a285bb3bb1cb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_08.png",
+      "bytes": 15091,
+      "sha256": "c48af4e78a647c54b1d571814727e0be124e281eeaff1b28cf8e1257010169f6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_09.png",
+      "bytes": 15085,
+      "sha256": "36816242caf519bd362c8929c3356979315901cf8ba40ad8ccf465b799cda87a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_10.png",
+      "bytes": 16139,
+      "sha256": "d7751223b30eb68987cb1a56435047d424f744181ec6ac7b8641d73dca54c253"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_11.png",
+      "bytes": 14768,
+      "sha256": "e9a4aa0b7352d86f3d0742ce0744f1221fcac5d3b41b8ad6751bae3d77ab975d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_12.png",
+      "bytes": 14936,
+      "sha256": "ce80430089fe709ac2964b9b6fa88f9616f7a21d248490a59b6398f573e8ade1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_13.png",
+      "bytes": 15162,
+      "sha256": "8a2c4546dd0df88d12f1886bdc7c188510ef9113e43a5245e6aa1ff5a6ed7764"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_14.png",
+      "bytes": 14684,
+      "sha256": "39e1abcd14265d481e9fd0787efe6c3ba218a5564b4527bf456ca87f4d71a5cc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_15.png",
+      "bytes": 14853,
+      "sha256": "37ff718b4e10e280f095b8092f0bc227c3ea05ad8f2db4597216f60c13925ea7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_16.png",
+      "bytes": 15111,
+      "sha256": "f8449ec32dacc84d9252f01c17858bf2eb110d377f1d6213262e72323c706629"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/frames/reload_17.png",
+      "bytes": 14847,
+      "sha256": "8e22301a4a081886fcacbb54f48ca33c9997b8f4577167c90851ca6540cbc86b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/idle.png",
+      "bytes": 14595,
+      "sha256": "8e9b67342d27057c73dcf02ce7ae3945a4baed55ab881ae2d098dd0bd530c743"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/reload-sheet.png",
+      "bytes": 258084,
+      "sha256": "de88c7f41f949b9f8a16900723c47a6c6d6f71e8dfe5db274a5d24b1a5c1f74e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/reload.gif",
+      "bytes": 248625,
+      "sha256": "b0b545fccdab59cb159675a30404d335aff5e3a6362ad6329ae11b3782f0920c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/source-audit.json",
+      "bytes": 2362,
+      "sha256": "f43659fee8acdda2a04aea6600de901516d326f8c2e31a4eb914668821fa707a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/pp91-kedr/spritesheet.png",
+      "bytes": 345782,
+      "sha256": "e2a039a5a7acb4b1e28c64561c6e11c63f319f8ee81c9762f4c97e7585977d92"
+    },
+    {
+      "path": "assets/weapon-animations-v1/preview.html",
+      "bytes": 5938,
+      "sha256": "1d50466758af0a486c8132c3cd49950a4d26c1c7e8e7fbfdc29c457b8370a9d4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/qa/all-fire.png",
+      "bytes": 511472,
+      "sha256": "ea9b9bc8d53922e4b5b225edc8c667c1c1d6be55e3d013d5e9c3716de787ecb9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/qa/all-reload.png",
+      "bytes": 465617,
+      "sha256": "681cfeaf3324e24f2642edb07718257484a114aaa9f90162af04145d1ab76dd2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/qa/double-reload-light.png",
+      "bytes": 102877,
+      "sha256": "7bb608e36a3f3992563173bcc91b0c211b052fcb68115298e60ebbfab085d56f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/ak74.png",
+      "bytes": 61370,
+      "sha256": "d8495e36b430b2bc09c5d9b1953e5f1a3a7ac4b1d9ef9233bf9ac97adf3b78a4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/akm.png",
+      "bytes": 63141,
+      "sha256": "167e507877426e11c0dddd8195fc321a9dfa8244fc33322591fc5306eb37afa3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/colt-m1911.png",
+      "bytes": 55782,
+      "sha256": "a2173a115d3b2e421c139dfe3e2cef12f63c871c1e59e4b6b7f97458ebfbba11"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/colt-python.png",
+      "bytes": 61839,
+      "sha256": "e09d24310854a86a2422b81df31dc4e9569f438e3efe07d5c820ee227f0a7d43"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/glock-17.png",
+      "bytes": 53304,
+      "sha256": "8c867bb05702de6ff079107c8a00972dcbfef5d5dfe3354e82ad0474dabebafe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/hk-mp5.png",
+      "bytes": 63254,
+      "sha256": "1d6ec380b69af332ac425617c81aca2b3cfcd9ae86507edc3c6125f3bf6fa5b1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/izh-27.png",
+      "bytes": 55673,
+      "sha256": "27db2078d2e16bfed85e2ffde9df1c09d40f43f6fc6b12d534c0d8b8072341c2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/izh-43.png",
+      "bytes": 65739,
+      "sha256": "258d9f69f2783d66d8921e8da0072ffedb8de9ab148965116ea02a87a8339ea6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/m1-carbine.png",
+      "bytes": 56431,
+      "sha256": "910ad49edc5cff05aee1d71ad68a43f60d20745067de8d9c89d911bf3d7f70a8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/m4a1.png",
+      "bytes": 60335,
+      "sha256": "cce16ba99544929b25441b989f443650e4269325b8a38556d06c0cd3fbd16fc9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/mosin-9130.png",
+      "bytes": 61120,
+      "sha256": "bba4e374dbb9d4093750e5fb81ed50c1daadab2f832bc921e7fe5fd31f13f483"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/mossberg-500.png",
+      "bytes": 59320,
+      "sha256": "4d7763e3b9e83a0687148781f937a7eefa89e01e33e54d1171a9898a1ebfa25f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/nagant-m1895.png",
+      "bytes": 62568,
+      "sha256": "c6e17988e02615576d8f3dedbe53815742c12717785b1690e27f020924c39a1e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/pm.png",
+      "bytes": 53465,
+      "sha256": "e5e86ef88fe26e63ec4207b0eb00d23b2e3eb077970fdae562d4f9fbb7a0eb93"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/pp91-kedr.png",
+      "bytes": 55736,
+      "sha256": "937fbae59e115b97370f1a4dd28d66d4312161f80f2783dea4b4fe746d406e5e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/remington-700.png",
+      "bytes": 59686,
+      "sha256": "cbec0cb13834c652976f7ab5e911ea8c9d77afcd097b806e0e546a91bd26ef9b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/remington-870.png",
+      "bytes": 63147,
+      "sha256": "8aade466acd97cb10c05abe1d3356c0cf4d2b0a2b70d54d3bbe77eb4362b3a6f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/ruger-mini14.png",
+      "bytes": 59911,
+      "sha256": "4deb10b3df313a62d3be689b605d25288415b88aae22fa466c68ef7d77945f5d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/sks.png",
+      "bytes": 62466,
+      "sha256": "e19d48d7fb00f4555d593e0f8a6c0c3a97c89ea989ebee699b3cab08277106ff"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/sw-686.png",
+      "bytes": 61172,
+      "sha256": "a64e9861975f1ec66ed092022aa05d1f13c29a8818962ef35f7dfa7e1238bdad"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/toz-34.png",
+      "bytes": 55792,
+      "sha256": "8e5d81b188f4ebecf7e6c65b22da629cf1fa3fd446e3e0a23feecfc7e745bc81"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/uzi.png",
+      "bytes": 47313,
+      "sha256": "a7a282b42a3db38d332279e831f7f718d026300631498fe4da3a0c03d7cb775c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/winchester-1897.png",
+      "bytes": 59059,
+      "sha256": "64a1d206d477fc2dd4beb4196648e9e624584ca7979660556465c9199554d6f3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/references/winchester-70.png",
+      "bytes": 55736,
+      "sha256": "f91f7dac407ce268eefbaf6f3a18f441bdcc3db7b547fddac17cbf7f9d5845be"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/animations.json",
+      "bytes": 1805,
+      "sha256": "ccd87ebc8af2387f17e8744789d831d28f3eb7a0423a1eb673348f4f1e66af27"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/fire-sheet.png",
+      "bytes": 83659,
+      "sha256": "8df1ae35b1981caf10ae6ecb93b4dbc61cade0ea8ac1444720cb2287914a4af3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/fire.gif",
+      "bytes": 75818,
+      "sha256": "e020cf27da790321c9136f25e8f1262a285ffe590a219fddb2b85e990933056a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_00.png",
+      "bytes": 14317,
+      "sha256": "6c39f5bb2b81f458d963ac91266c30bafd9e1fd458444103afc0502c54637c64"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_01.png",
+      "bytes": 14872,
+      "sha256": "bdea6e2c304715a8aedbd633910fe753dfc79da28bdf2c7308bf1c0920651fb9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_02.png",
+      "bytes": 15508,
+      "sha256": "2b8e88ea57c8be46f87eee170c2377d823371e2dea46e1e859b75957fcf440f5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_03.png",
+      "bytes": 15384,
+      "sha256": "771e959d5fbfa361090944bd8c9984de6dec09df00d6d2b0deaad30cd018e6b1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_04.png",
+      "bytes": 14240,
+      "sha256": "468474b5b19ec0b782b8e7bdaa70c3682b3f906f2be66aa44a67b6a5d2df4c02"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/fire_05.png",
+      "bytes": 14545,
+      "sha256": "51a14186df0b34efb99a08199b4f41ec359cb36df17e2e0c0ce78e6d1ad85e5b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_00.png",
+      "bytes": 14730,
+      "sha256": "352cef771d698c5eaace156dbc67d4e898710939aa198873de6655f6a58678b4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_01.png",
+      "bytes": 14579,
+      "sha256": "e27d76ab27d8255ee4f229f359f9400e60f59f503941ef460491db68a1b789c2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_02.png",
+      "bytes": 14555,
+      "sha256": "f6757163ffe713735cdf883b6a18a1073387cb7cfb3cf408a8fe6a57fee76fd7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_03.png",
+      "bytes": 14527,
+      "sha256": "0fffd09ef390e45721e7c121fbe7386b1d1e4c041bc6c1a4b9d3b7847996bf3a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_04.png",
+      "bytes": 14828,
+      "sha256": "72703bad8a2c315397936369b6346ee244c8bb679900a13e1ad34a499a266f23"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_05.png",
+      "bytes": 14456,
+      "sha256": "014772ea211e2db559c5ee7255482b0fb73bf731673464df22eac6170c18b381"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_06.png",
+      "bytes": 15504,
+      "sha256": "c5b8c17c8346c2c19b86efa359762890f48cd72f523052443f90c1c838fbc6c8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_07.png",
+      "bytes": 15196,
+      "sha256": "320548fb1d0b82e6511b5e9a558f26aebe9a49e12d37f203b4553a84bdd0346f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_08.png",
+      "bytes": 14969,
+      "sha256": "b3a229de2f49da7d32ba843ddd502551eb69671c773cdc815530cca3e329fb29"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_09.png",
+      "bytes": 15073,
+      "sha256": "26bfc3d0a56c52518742c4cf937ac56d2a3013bd31253416e25c352d13ec95a2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_10.png",
+      "bytes": 14580,
+      "sha256": "e9cd2986d55fe34782bf1c4108f6f6f220c9fe782581bd43b6a9235f63cc0f86"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_11.png",
+      "bytes": 14982,
+      "sha256": "a04d6b6685ce84db827d74c2b45b569f0d186fcf8300cff2ada93840fc016d74"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_12.png",
+      "bytes": 14866,
+      "sha256": "cc6fe298f32eda096e645694b8fba427f2408d2b572963d00847ac734a4c1732"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_13.png",
+      "bytes": 14514,
+      "sha256": "e589cc2483dd0f47423931eea71595b3c76f473b94a82f1ff3f47268b556cb5a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_14.png",
+      "bytes": 14527,
+      "sha256": "0a352942c28ad65501c37b3593eb613a98f764318382c5e7bb3f43d89a961334"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_15.png",
+      "bytes": 14419,
+      "sha256": "7aae20763f23ebe4131ab9a71be1af60a546295a752a58058d72152ef7d5ae94"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_16.png",
+      "bytes": 14387,
+      "sha256": "405b7e6a92f3555d08be4e33b6a080ee0f80b47aa54cde95e4f9e591b35b1473"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/frames/reload_17.png",
+      "bytes": 14361,
+      "sha256": "87fced3c956eda63115facc4d0cad5d6feb74d44e17ac496491bff7797cdc95d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/idle.png",
+      "bytes": 14317,
+      "sha256": "6c39f5bb2b81f458d963ac91266c30bafd9e1fd458444103afc0502c54637c64"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/reload-sheet.png",
+      "bytes": 245829,
+      "sha256": "2c3cec5f3c0d5ae7685dd13992b8c85aa2b56c428cd96b7f3253a45ced8aa9ea"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/reload.gif",
+      "bytes": 220962,
+      "sha256": "b950145aa0f0b151af5b471e21dad2b64e64d914ce148133f9dc4724145ed2fc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/source-audit.json",
+      "bytes": 2367,
+      "sha256": "3fd2ede32410608434c72b74507eeae62cb8729acff9ef34bce5659c1ff8ab24"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-700/spritesheet.png",
+      "bytes": 329355,
+      "sha256": "bd968a135f849d7e436cd5bd8c2bacd5a3fd443ba532907c9839e5e657936b08"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/animations.json",
+      "bytes": 1798,
+      "sha256": "a426d32cfe85aec9f19bf087f7a3a11069e901c63cf326942f4d7e9d62d7c149"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/fire-sheet.png",
+      "bytes": 70169,
+      "sha256": "8be479c5507826ae2865c2d98deb30862113fce473f523d58309aab1997e0672"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/fire.gif",
+      "bytes": 60686,
+      "sha256": "0df27e2a443bd9a807193ad470245ac76b86c1caeaacaa7e0b3bdda146622aca"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_00.png",
+      "bytes": 11520,
+      "sha256": "b6a46cefb72a1c0f8f3fea7fe6b1fb4f38f2c186671cf9cc56f34d99651ce24a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_01.png",
+      "bytes": 13021,
+      "sha256": "0c850025b12ea8ffd5018d3a80790842859b52b17e5fbe0ed19438c4b170fc69"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_02.png",
+      "bytes": 15036,
+      "sha256": "0fc9aee90314a4de7d5e7514485ee0def6d26edd1bbdf952a88182248616e655"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_03.png",
+      "bytes": 12090,
+      "sha256": "08e29b09f5618c56d4e24a8d283b0c6d91a3c70279795176ebbd0ebd30d8c098"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_04.png",
+      "bytes": 11265,
+      "sha256": "0243697c242bcdaf0077363a4a409afbc2ca51600adfa3b1f631c244f5312353"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/fire_05.png",
+      "bytes": 10944,
+      "sha256": "f8304fc6fb6a2ff43f0bba829362a851778ccdb7f406843b58f62575cd835888"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_00.png",
+      "bytes": 12014,
+      "sha256": "cb1f886c3966fa9981310fb829c36e89e2f4f29d7f050ad43800e83008c67c0f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_01.png",
+      "bytes": 12408,
+      "sha256": "9153bc7c28e1836fd1e14e078880fb01dd0b00e89e26b1cae9756a7e5a5c36f1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_02.png",
+      "bytes": 12193,
+      "sha256": "f0ff6ecb3c0f06fba186c70819e0b08ac2f013bc6503c0af24731c3a9ce0fe44"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_03.png",
+      "bytes": 13272,
+      "sha256": "648dead6346f7898765c6e0129992df1dd4debed494faee2ec1b9569b3f85a34"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_04.png",
+      "bytes": 13268,
+      "sha256": "a5f207f1ae8d023412259827617304028d64d47a80223aca90dd15ce444f5a1a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_05.png",
+      "bytes": 12538,
+      "sha256": "4cc32c7c6a0f4bc4d70aa0a5c18599f255a6c3514b96b48ab76fe4d113d9b651"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_06.png",
+      "bytes": 12278,
+      "sha256": "f3b03f97e223b7a1fb2fdd364de91a39c32e7b6f7b31a5f552e1f735b2cc2711"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_07.png",
+      "bytes": 12029,
+      "sha256": "4870956e8ce133fa7b2871a6fbd57b50076668cea9962b88aa9beb4fdc3c40d1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_08.png",
+      "bytes": 12329,
+      "sha256": "3d661e1f0d43eb59252c6a6088f4dc762b42d847771d14a2d63768b694aff397"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_09.png",
+      "bytes": 12102,
+      "sha256": "af895ed8836a70e0374bc0c38743c50333345e77f47dc168ff947684bd90517d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_10.png",
+      "bytes": 12235,
+      "sha256": "52f7f9ffd3e65c3fbf1a4784f4d52ef6da45efe66894d5c0166f55ce29c3eb7b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_11.png",
+      "bytes": 13415,
+      "sha256": "f85e873827309fdf7ac55f6c78298e0560da1bc42fc66ca125872125693a4acd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_12.png",
+      "bytes": 13291,
+      "sha256": "2b5cb977753d9942ab373267a5a213622cd7b9ac41c35cd2e125b24f58969212"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_13.png",
+      "bytes": 12317,
+      "sha256": "4e70e5db66b60f1a3af56cc72360e0575fedbb583f1e51cd35e95d6e92a4c05e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_14.png",
+      "bytes": 12396,
+      "sha256": "799c8d3f95ee6f26023957b35a99474fae740e68a4c3689a5475e962a3dea08a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_15.png",
+      "bytes": 12321,
+      "sha256": "1158b0715b90213a84e2ec588bb7811b6140f5f2285cfb3a633d91de4d1a1277"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_16.png",
+      "bytes": 12285,
+      "sha256": "f5a12eedf51c36452d2350a3876433a2f8dead94c53cfd340ea0a720da5a2d6c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/frames/reload_17.png",
+      "bytes": 12296,
+      "sha256": "b561fc8d96f778ae909de569500ef9f1376582733d702c3d02e3dd3c46113941"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/idle.png",
+      "bytes": 11520,
+      "sha256": "b6a46cefb72a1c0f8f3fea7fe6b1fb4f38f2c186671cf9cc56f34d99651ce24a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/reload-sheet.png",
+      "bytes": 212653,
+      "sha256": "c08d33c0f5aa114ebf516e83aaf2448c5a965cd880bbc4fc2cb73a0fed4c5751"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/reload.gif",
+      "bytes": 181629,
+      "sha256": "6ad6cf6165b6e339d9e0708ce3ca27a7c94a2d33da5a6dbf0ab3ebd341d8b87b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/source-audit.json",
+      "bytes": 2358,
+      "sha256": "4e7034d14fdbdc0fa12fff0316fa76fa4890ff286d92ed127ee48fae8d506fc0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/remington-870/spritesheet.png",
+      "bytes": 282855,
+      "sha256": "bf5c366b58661d6d8a7aa099f2b1621bac911c7c42db2c40c50e3b2bb4c01914"
+    },
+    {
+      "path": "assets/weapon-animations-v1/revision-prompts.json",
+      "bytes": 546,
+      "sha256": "2163afb1186a35d3b7be8e2b1caf10640a181d2a3c68ff12b2d75a84a3253d80"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/animations.json",
+      "bytes": 1799,
+      "sha256": "12acd70a5ee4a5719c6f3509e50083551d4f551a828e4b6546d48a9161597c6e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/fire-sheet.png",
+      "bytes": 73643,
+      "sha256": "662f98283ca2bf04fbfceb4d21826b0aa9fca6569996d6f1a70ceb582901aa05"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/fire.gif",
+      "bytes": 65576,
+      "sha256": "91f07b90f81d152adc578e65cc4bea81def3cfa94cd0076524e805d23620b5c3"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_00.png",
+      "bytes": 12318,
+      "sha256": "4230c7da5a3c88e3b6933c0ab2c9b2aabbef0cfa3f3dcefd89939f24dcdb36d0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_01.png",
+      "bytes": 13182,
+      "sha256": "b8e9fd91f4469480974c9e71c8d21e51c6665cb9b726af1f7a35a4720f70394c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_02.png",
+      "bytes": 14961,
+      "sha256": "fd286292674819baeac7f2fb7e0b88c7ecbb820686972c166dfeb4a4897de92a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_03.png",
+      "bytes": 12431,
+      "sha256": "cab6621e7b6e0c1972a962a03939d3bee4d09dc5ca16b65db9e58c2908cac162"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_04.png",
+      "bytes": 12437,
+      "sha256": "e6268c46d4d8bdf2b620d5f4e107acbfdf4217b3b166738212fd23789a361cf7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/fire_05.png",
+      "bytes": 12159,
+      "sha256": "ba907474e1d802b01d63b0784c442ff54671cddd15106d22d1b6f1821ed7eb6e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_00.png",
+      "bytes": 12189,
+      "sha256": "6c9ca93841d962ffa703108cfe854220f6a638264ff62a48aa3639ee5eb1fb13"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_01.png",
+      "bytes": 13023,
+      "sha256": "dafda2bd7f695f12c0632abd5d326842e783bcb4f6e32a749ed8239994a73a3c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_02.png",
+      "bytes": 13160,
+      "sha256": "97a0136f5006bdacfa63aa9bffa95341773aa0e2170aee5f6366fd14e0c05869"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_03.png",
+      "bytes": 14028,
+      "sha256": "86d34ad0c03805f8383b44a00a64373c8df2bb498fd3cb1838809164e6107f68"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_04.png",
+      "bytes": 15033,
+      "sha256": "624e8a02b755af5103ee04f96af971be53fc60f1cf2b1d1f9befd0f6b74f4209"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_05.png",
+      "bytes": 12337,
+      "sha256": "8a709921b00536ca7dd10398b84eead3629bf6dd0430877d7e2e118b1c20e1f7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_06.png",
+      "bytes": 15045,
+      "sha256": "e17d1914d80aa89c7f3d66476b93bbc9fd626f49200dba020e0004832754cabe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_07.png",
+      "bytes": 13624,
+      "sha256": "f09cb53dd2f34435d2208c9cd46db3ac2834d570ab5d009be6378ff46285d343"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_08.png",
+      "bytes": 13460,
+      "sha256": "33a929bbdcf4642abec627d4bc4761ce03d66905f14e61fc4af183d87b34e32b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_09.png",
+      "bytes": 13298,
+      "sha256": "ac62bd9932fb8cd9f8ff3135cc2d9a1a26db85155fe481ac332232c03179431b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_10.png",
+      "bytes": 13316,
+      "sha256": "dfcdbae3c318fb20d898b51a002f37ab0a5a6062f517837435757084ef15157a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_11.png",
+      "bytes": 12727,
+      "sha256": "82300d6c281f46d72a117bd020c03326b56a7f0c1170727375d39b0f4fdfea23"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_12.png",
+      "bytes": 13065,
+      "sha256": "1429f195a712f82e098e24af3635e537c54060a20c82552a144349105e3be7fa"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_13.png",
+      "bytes": 13166,
+      "sha256": "4c8b6af50ac570941abebf0ebb2a1012bc79c9f52e94ca6af719347713eda4ba"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_14.png",
+      "bytes": 13148,
+      "sha256": "da4ce278c55b3625cc991f3d25e75438dd8f2e9ecf3a482c7ebd4402ff70160f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_15.png",
+      "bytes": 12929,
+      "sha256": "eca7e63e8f7028aba71f5e45d1943ebfa940f8731ccf24a2671de8bc3d050c02"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_16.png",
+      "bytes": 12987,
+      "sha256": "5a6d570696eabd913dcb631e374d7fa15a5d682767349afaf73bd39d15dd37c7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/frames/reload_17.png",
+      "bytes": 12289,
+      "sha256": "ec4e8cac9eba17b4993b95d1d962cd4b89b403d35c0c354d7db66db49e902c25"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/idle.png",
+      "bytes": 12318,
+      "sha256": "4230c7da5a3c88e3b6933c0ab2c9b2aabbef0cfa3f3dcefd89939f24dcdb36d0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/reload-sheet.png",
+      "bytes": 229273,
+      "sha256": "bea89943bf18f8c49559442b8da5a261d6a9599c78281bd54b0f946d668d24f1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/reload.gif",
+      "bytes": 213066,
+      "sha256": "85c0b771c15ce5c5aba1230696ef58f49083a1ddc276d523dc25be1f7f536b3a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/source-audit.json",
+      "bytes": 2357,
+      "sha256": "a6fe90a88872c7e9f72cc8c85b7b8319f43619de951cb620bbebc5a67b38812c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/ruger-mini14/spritesheet.png",
+      "bytes": 302900,
+      "sha256": "13b536d1af42bddd003cb2db2dbb0ffe59c8194e2dbecc7ada8e0f17fe73604e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/animations.json",
+      "bytes": 1771,
+      "sha256": "f68b6b13b2b81296e1b68b1178e1cf8b07a21fd610b227b7b1dd5b659ffb03ff"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/fire-sheet.png",
+      "bytes": 72924,
+      "sha256": "7828a3e05e08b3891ffdae4ce34eafef90f2405d3716a39af6d6b28985b81fe6"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/fire.gif",
+      "bytes": 62867,
+      "sha256": "2b76254fc8ded5a4c388f74d22537a51ae2fa2d54f977ea78ada3ec9cd41676d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_00.png",
+      "bytes": 12607,
+      "sha256": "51f42e133521ea534158417929a00b1c8aa0e0dfecbbf1cf769928fa546f77d9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_01.png",
+      "bytes": 13093,
+      "sha256": "52f720427a16257cd645aefe5d436714468ce6f065e5e6bd7f8f946d9f04b809"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_02.png",
+      "bytes": 15015,
+      "sha256": "05af2102e1c006f90f401da10e0039cd4510c1d89594db5319e8b43adb6cea0a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_03.png",
+      "bytes": 11941,
+      "sha256": "3e24a3e2f4d3ec3f4ed7fcc5c7386ccc20d200afd3169c4bf309fa1c8bc43d6b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_04.png",
+      "bytes": 11650,
+      "sha256": "670ced6db0e9a5203138fc3df8e320a804f15967c5224bd5792ac97892bd344a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/fire_05.png",
+      "bytes": 12191,
+      "sha256": "dfa8b80d7f337717ccf3dc96f3c21ccf7c67dc227876e6e825be5819cc568679"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_00.png",
+      "bytes": 12608,
+      "sha256": "f313950214191192d2686293c4c26e6236e5434c21f87e02e6a6af3506e5bf66"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_01.png",
+      "bytes": 12821,
+      "sha256": "3256349cde2569c3c65ead4c5d0c734b93c10d8cc2d376dc4586deb2dcb28ba4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_02.png",
+      "bytes": 12621,
+      "sha256": "28b4c001a7f2c8cab840b0ea4dddc80140493131100dcc050d05b538016f6864"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_03.png",
+      "bytes": 14371,
+      "sha256": "4896a52caf254129912633fcbb20af08f865549ea46609364bf863d328f84eb0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_04.png",
+      "bytes": 16751,
+      "sha256": "73fbbddf6beb14b0fd11304a5f018fa219e223c3c1777119d15ea9a8fe9ebdca"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_05.png",
+      "bytes": 15337,
+      "sha256": "c9fac218a6d1f5004b903dea6b97c90bc159ff6da60cb94f019c9a982ea7c573"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_06.png",
+      "bytes": 14804,
+      "sha256": "938d9b590779310344a5f5626bd39e80b0f9dc32951d79d4bd25c91c77f329f5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_07.png",
+      "bytes": 14366,
+      "sha256": "4f072551420926c5bcb08561be9efd4b8b3cfca7c92842ec023f2b70597ac807"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_08.png",
+      "bytes": 13015,
+      "sha256": "8c8b7db50b69334e636cb9ca15f8d5e215ce96883b93bec32f829e09434a3061"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_09.png",
+      "bytes": 12703,
+      "sha256": "81ca26da95552544a3bbed2faecdae3efc55e3d9ef0c00efa58eb40f009eab38"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_10.png",
+      "bytes": 12732,
+      "sha256": "bf43eec5f2d9d054b8c85aba66a1555e8adb24567a1fea1d40f814f340bede1e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_11.png",
+      "bytes": 12117,
+      "sha256": "f7b043971751669790156738e67fb48a777c241671e47d742f668fd3b4ce40bf"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_12.png",
+      "bytes": 12460,
+      "sha256": "d4e328cce9f4069bca3da33e1bbb5401cf30bf87f552d0594daa6756af868ee1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_13.png",
+      "bytes": 11802,
+      "sha256": "5481d398a49598e3c773ca278e2986a2a9041a176d9da5298ab9f5d3440d2272"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_14.png",
+      "bytes": 11988,
+      "sha256": "bbff8660299e32fd07335445e526c89ef15a9398d64735bb9ee50d1646419caa"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_15.png",
+      "bytes": 12067,
+      "sha256": "4af783ebe5e6bbc96566c113ea7cbdd269b08b7d1b6b48821f913f3788b43be4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_16.png",
+      "bytes": 12133,
+      "sha256": "99bc7923398bb1667f8a9cd051ca76fa031d669b8af3eadf35b8fe1d60c75592"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/frames/reload_17.png",
+      "bytes": 12129,
+      "sha256": "b9a2d0189c269874e94ae698dacfef5902f86e426aac33bc4707aa5e3fe61094"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/idle.png",
+      "bytes": 12607,
+      "sha256": "51f42e133521ea534158417929a00b1c8aa0e0dfecbbf1cf769928fa546f77d9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/reload-sheet.png",
+      "bytes": 227596,
+      "sha256": "eb0a5e5f6103818beefb04eac22c43c81a3f34a0d26fdad60310dd2ed271cf6f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/reload.gif",
+      "bytes": 207133,
+      "sha256": "523335aae996166c03bb1c8022294b571e35da06df1cd0b4b677e186fe15b285"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/source-audit.json",
+      "bytes": 2361,
+      "sha256": "7d99a0898e78b625ad645c1cb772b2166791088147a960d579ff501aec433f1c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sks/spritesheet.png",
+      "bytes": 300497,
+      "sha256": "065d4d918e57a620bd0c96bb75c637cfeb5bd427d5fcd0baa4c4d96d3e12ab95"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/ak74.png",
+      "bytes": 1707751,
+      "sha256": "985ab71e1af74dc32db8e8e22145cbe91d65a50fed1847bffaec7a6b447f135c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/akm.png",
+      "bytes": 1759456,
+      "sha256": "72242e6ad49c7e5fedaa96db937d4de244a9f57de545e9bc87a0839e2ffbda58"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/colt-m1911.png",
+      "bytes": 1883973,
+      "sha256": "bdf481f5d54dea01cd39464a9350f98e653e8469cabf9bace137c6cf5650e593"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/colt-python.png",
+      "bytes": 1906914,
+      "sha256": "df8ebc8fdbf56c2486ea8d99dae944a3872de96a35a921df17b0348ce6c22e65"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/glock-17.png",
+      "bytes": 1908676,
+      "sha256": "94ea5f84bb599ccbc8b833cc905f7083836ef647e70458c627dbe55a61b706e9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/hk-mp5.png",
+      "bytes": 1721819,
+      "sha256": "011be3db28e0bdc4b3d65fb5e599fa6395cca2c9664245b1ddd44c4ed09868f4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/izh-27.png",
+      "bytes": 1641394,
+      "sha256": "7b7d48e57f9fa223802e5b7f9fad492b1ceaba0d9dbb7b1b69c5236852d9fa76"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/izh-43.png",
+      "bytes": 1709499,
+      "sha256": "6618d984ac50f911b0a08eeb40914aef1b0df68bcc8b6b10a560e2e21c2699c8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/m1-carbine.png",
+      "bytes": 1591247,
+      "sha256": "1a78dc6f8a24eebeb220d99df0e4fbb241d4837a42b3e61223f71cfe4076f1ea"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/m4a1.png",
+      "bytes": 1700764,
+      "sha256": "00e1f2d0c915b0193ee20ca014311fb7bc752cd96b6d5b31eb05c68a048a6fd9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/mosin-9130.png",
+      "bytes": 1572747,
+      "sha256": "cf589df26c2ae542656ed55bbc23633f0af240fd968cedc2ec6240d4bf4c8888"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/mossberg-500.png",
+      "bytes": 1524595,
+      "sha256": "23117a4da192fb53e4ce5233ff1f7a9ec6fa09752d0cf70dbc0a5ab898c15b75"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/nagant-m1895.png",
+      "bytes": 1755100,
+      "sha256": "70ecde3c8b4ed2373300785c88ccf4d89106db9884168160842aebc052d80312"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/pm.png",
+      "bytes": 1948993,
+      "sha256": "042deeb6d7b7eb2d05793a89f1fd44ea28ff1d12a3b19cd9d158bbda1b67e2e5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/pp91-kedr.png",
+      "bytes": 1577358,
+      "sha256": "3fde97ef01f56136b4a7835baaafa62b79efbb2cbcf2e9fac0d1ded49c2e0fa0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/remington-700.png",
+      "bytes": 1538006,
+      "sha256": "448944066ab64a1eb362817bd7b882498646e5e93fe97b784f1da29e23cbe3a7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/remington-870.png",
+      "bytes": 1527470,
+      "sha256": "6d93b39570cc74083fc374fbf115aa2ec6d76da8b77970cf888f0438b0e928eb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/ruger-mini14.png",
+      "bytes": 1632697,
+      "sha256": "ac7c16f3823c630fb0a730c9321624aa735e7b3e53bd6d3e0a1e0bb882eedce2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/sks.png",
+      "bytes": 1644429,
+      "sha256": "ca9eedb17241b6006aefddffaef8f54d4317fac0bc9e3731773a6513c8f8b72e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/sw-686.png",
+      "bytes": 1935783,
+      "sha256": "d3a6137a11541e016757636646591d60d2466d487f162c561dde27f9cf4542d0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/toz-34.png",
+      "bytes": 1646470,
+      "sha256": "0b2f3e061b55bc3474bba184e7374d6ee3e7a1446c9ed88b474e5c6c9ece0a20"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/uzi.png",
+      "bytes": 1750441,
+      "sha256": "6f05b7737ab6ccf13eb523b1bf20c212dc61a2f304b0533d90de21d348c0d0ba"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/winchester-1897.png",
+      "bytes": 1529640,
+      "sha256": "8f530b816a7db0ee41e0f2b636ee71ad4e025e814b595b1c53f35f4524cad190"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sources/winchester-70.png",
+      "bytes": 1570937,
+      "sha256": "fc99863fa761a3128b56804bfcc0ff9638ccc21a81f67eb5c21c0fab1f2fe7a8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/animations.json",
+      "bytes": 1792,
+      "sha256": "bcd5f0746ade26c3061d250005e5c350cdd255ec1eca0a42c0532d49f8fa5be9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/fire-sheet.png",
+      "bytes": 110392,
+      "sha256": "59ca7689d42e8639f124279676310612219180b7c8eb40415486e1436c25e9b7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/fire.gif",
+      "bytes": 92006,
+      "sha256": "34d1224ee1a59f30079cad7e5b3ff76207e4d1b2b70f0c8fa38dcc8ae2f8ee69"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_00.png",
+      "bytes": 18453,
+      "sha256": "03620f02c318a8f008fffc58a98d0363d6933a36016255b62abdcf24763a95eb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_01.png",
+      "bytes": 19961,
+      "sha256": "eb8caf01b976754c8091ba165483adaabe4bd5d57a0f2cd5cfdb946d75dde4be"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_02.png",
+      "bytes": 22849,
+      "sha256": "1b1a903115cde2fd5864bb1a6fc1ef96778b9197d22359031ba7460f81ab888b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_03.png",
+      "bytes": 19036,
+      "sha256": "422758ebe9b3eb2a00a7670f2349458950defe4730e1a1720f613a2112299741"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_04.png",
+      "bytes": 18374,
+      "sha256": "3bc8a0bef6a5d761cbae5dbd8ed40e623cc4ffbc1f407f34d61a8709a7027a63"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/fire_05.png",
+      "bytes": 18606,
+      "sha256": "1ca1b296954aec0ab3963557fba571bbc17117261e13995f6ae24aa9eb0f2bb4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_00.png",
+      "bytes": 19497,
+      "sha256": "28229acc8a9070d6e7597cfbebe267dfea4e5cca158839493b2f3585d19b1802"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_01.png",
+      "bytes": 21125,
+      "sha256": "b3568943d02ec97b3c92da3e4a3b55bdc44b96ae55f22c75c4d724eb675c8676"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_02.png",
+      "bytes": 20636,
+      "sha256": "5b84fd385b574cc01f2ddfe4b78b3e9341780f8a469ae2fb236398639f3f6c82"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_03.png",
+      "bytes": 22289,
+      "sha256": "a9358dd90c4625bc69a60fc022c8b6e3735cb13848b7d2c94f141236e3e6aa35"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_04.png",
+      "bytes": 26320,
+      "sha256": "de5a94bb781109cb57edacf89004780c7d4eb748b66d7e4d2dc7e9cd134e700b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_05.png",
+      "bytes": 21460,
+      "sha256": "1e73d4b1908432580bf921f6568213511f2472cd08bd2bb357d861f980f58dfa"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_06.png",
+      "bytes": 22087,
+      "sha256": "3e64f36a1446bb8f25e2bf1a537a576846adf5180f94735ebb50382afe814072"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_07.png",
+      "bytes": 22227,
+      "sha256": "a9d2426450252b5c32f94b310487fdc3a9c247db8485c2b5fe632aacd4837832"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_08.png",
+      "bytes": 22160,
+      "sha256": "a36cf9dea013950785fa5bf5beac3801218357cf5c9156a4b46575e0ac9ab2c5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_09.png",
+      "bytes": 22107,
+      "sha256": "10a4750fdf9cb0ed31fd3a09d3069eb227e1f7eee583f7e3cb957e4df51e12d7"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_10.png",
+      "bytes": 22029,
+      "sha256": "8a5ae2e66847af21fd649ddfc5ac22d6ccb7869d05ef2e840f2d226d3a07442a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_11.png",
+      "bytes": 21841,
+      "sha256": "e5106c57babe76fe15713c6a26ebf0476e1a114cafba6e9d85ceb09453b4b0f8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_12.png",
+      "bytes": 22569,
+      "sha256": "fe7b8a0a109075f8e45d3bd77276ce1f22b5ac89e97ba0aedb88f9beb7273621"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_13.png",
+      "bytes": 19712,
+      "sha256": "8cf16934478bf6ed01374481b521f28490d49a4b1c8fac45b66f48b37daca11e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_14.png",
+      "bytes": 19305,
+      "sha256": "aae5938f1ba96f8a83d5b6c424188c3aa7a4c6e8693c7701dbfd5819ff72ad54"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_15.png",
+      "bytes": 19652,
+      "sha256": "053f6c2cc3b0be5bd907734b6f85387f0ae2b6b12640e301a8d36bd1bcae241f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_16.png",
+      "bytes": 19129,
+      "sha256": "f22dab275288830aa1b4585d3acced88f9ae7735ac4c5d24c51fb4cd390cf132"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/frames/reload_17.png",
+      "bytes": 19375,
+      "sha256": "894f9e916b195e4eb403c21ca0749928fbeb4dec0880ee9daa4bae0099a24741"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/idle.png",
+      "bytes": 18453,
+      "sha256": "03620f02c318a8f008fffc58a98d0363d6933a36016255b62abdcf24763a95eb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/reload-sheet.png",
+      "bytes": 368939,
+      "sha256": "d9b032dfc9f4fee88d5bbcaaf947d336ecbea2b3c4b62fdef7dd25cb587a75f0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/reload.gif",
+      "bytes": 310029,
+      "sha256": "bd46138b1a7449db9eb9626e186db89b82e84695f6cfcce37c0b722a4750ca23"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/source-audit.json",
+      "bytes": 2401,
+      "sha256": "1779673ca3c82ed1832b262dae51190d8f735ddc64da6afeeb1f42d1167ee6c4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/sw-686/spritesheet.png",
+      "bytes": 479653,
+      "sha256": "8c3087a108615f490f047864faa3815f418f71c5cb95e29c61e83100581ea9b1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/animations.json",
+      "bytes": 1780,
+      "sha256": "e2673ddabf9f5620adb599f50b41a58eed43e9ae70d57444e816b90dc99fa784"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/fire-sheet.png",
+      "bytes": 64279,
+      "sha256": "d9050a45d0d6e16359b89986da018969a5a3d790907308bd30cc4f62541a92af"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/fire.gif",
+      "bytes": 55160,
+      "sha256": "d14921e89cc20529d3a96cf54fe0eadce48670c60b4684ced3d8c6c41421cf31"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_00.png",
+      "bytes": 10593,
+      "sha256": "7d089f8838beec6712770cb2febf83f9665d3e932d5af86740e1e86bda4204ad"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_01.png",
+      "bytes": 11371,
+      "sha256": "fcea1622db6e028a808cf93ede7c66e7eb9376c040da143f8c9f88e01c5ca02d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_02.png",
+      "bytes": 12845,
+      "sha256": "aec0bb564965f146118fbb7875e54ed5e1763f6fdefd62a6b5ecf4a0bbb9b903"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_03.png",
+      "bytes": 10805,
+      "sha256": "c68607b2e77e7a27b2de8824f0e7810ffebfdf58a41dde7d1e584d648f1c6343"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_04.png",
+      "bytes": 10515,
+      "sha256": "8c5956bbfa4c706f05de6e47e507fa45969ef92fef908c48dbc5b752ba484fe8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/fire_05.png",
+      "bytes": 10623,
+      "sha256": "05a65b4b41243a3506f018aa3adc4115ce5b19d560370a4d0da9835287d6e05b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_00.png",
+      "bytes": 10741,
+      "sha256": "48aa4c9b4d5061f0c52219d132e940ab41e421aac772a3e78451d0726f759188"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_01.png",
+      "bytes": 11480,
+      "sha256": "7ccc5ee2dd82b8d15c5fbba05e659a0ff29ce016da79611bb3fc6fc280e64899"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_02.png",
+      "bytes": 12191,
+      "sha256": "8deab85380e6983ff3128d42b26fc2a0a7cf01866a0900d062ea91099194f07c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_03.png",
+      "bytes": 12491,
+      "sha256": "06b3eb639e491f3ece250d4200ac5bc428a687119bdf7cf8116b5e754b0ef7cd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_04.png",
+      "bytes": 12609,
+      "sha256": "dba2833ef2ac4db0319fa37774c4da319900449d87d4377a24c447adbc79fa94"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_05.png",
+      "bytes": 12480,
+      "sha256": "6510a02f1360df7f4698a4c71bcc340a97632eacc9efc780f9ae475bb70b1213"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_06.png",
+      "bytes": 12562,
+      "sha256": "141c1abcd17e690fc047c381cb0421be5f2a076966393aebc7831d171311d211"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_07.png",
+      "bytes": 14765,
+      "sha256": "c39ea15377d03ba60a8a813ac37d1d57cb295f984869fc00ccca82cdb1b595e5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_08.png",
+      "bytes": 14760,
+      "sha256": "81c77538672c6c6a70e1e66f3cf9e40d83766ad2cb30255178138cc665808f5e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_09.png",
+      "bytes": 12817,
+      "sha256": "7eed19075cc1c536db222f9a34037f2ce06400e35c8ac6fbbdc3907cd44fa7a9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_10.png",
+      "bytes": 14975,
+      "sha256": "747c16f7072f756c53d24d88e71078fcfb6053f58def98b9a7d481ce10ab9bd5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_11.png",
+      "bytes": 12702,
+      "sha256": "dcf0b23d561ed2f8e093f5a6c9ac2649de62723e740e7490e0c0e5c3460cd85c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_12.png",
+      "bytes": 12375,
+      "sha256": "dd0c2f81366b89dbe4781f12e7cc15bfb1d23c45bfc63cb65e1f0d85d6d695a8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_13.png",
+      "bytes": 10785,
+      "sha256": "80e0901ef65568129a0c92eeaa9cfb1aee40312c63712bc1d2071bee236d7ad5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_14.png",
+      "bytes": 10971,
+      "sha256": "543c2ec9348b05cad1b96f55b5329289cac114317372a62ce9a339c57ffaff58"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_15.png",
+      "bytes": 11006,
+      "sha256": "f42f819778a023daaefda2cef29a0ef0b470b9f06df21bb37333db5ac897d26d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_16.png",
+      "bytes": 10816,
+      "sha256": "0e9448000c2ea4ac1cc025847c7ce2c80e581263d2010e5495c92db06346403e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/frames/reload_17.png",
+      "bytes": 10635,
+      "sha256": "b1ce7be30bf4b7987a2e97d0bbef228d050ba5ce894917d9e26d3154e8512368"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/idle.png",
+      "bytes": 10593,
+      "sha256": "7d089f8838beec6712770cb2febf83f9665d3e932d5af86740e1e86bda4204ad"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/reload-sheet.png",
+      "bytes": 213106,
+      "sha256": "32588637b297f257bb4d59ec6389095157698c80a278aa5cec8e7e3829b69f56"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/reload.gif",
+      "bytes": 192866,
+      "sha256": "4ea876c50209d5ee01356e909c5327f32e9468ba3fc75fd96e1f30cdc08439fe"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/source-audit.json",
+      "bytes": 2361,
+      "sha256": "339a63d6fcde46396602585c463fb17d6b5128ecb7ad4c03317c3f0e9b571c6d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/toz-34/spritesheet.png",
+      "bytes": 277320,
+      "sha256": "866c585f609e8b302ca5fa0888826a1079eb8e753c1c3d73836f8058bfa1967d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/animations.json",
+      "bytes": 1762,
+      "sha256": "5ed0ec633458dcac01f36de896abccbd3c2a48b119e2f7ebef1d9dbc446c0623"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/fire-sheet.png",
+      "bytes": 105779,
+      "sha256": "72a325ad337f8c4b9b109f8dd26eabbb50e729d1f2a5ff05c480889f74feec87"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/fire.gif",
+      "bytes": 105072,
+      "sha256": "5b5d5f74b4c4682ac31435f989fbc7c704e0bb30337b79e2a87ef014400af9da"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_00.png",
+      "bytes": 17387,
+      "sha256": "124680902876dfce4294d9d55d4937efbb2f6eee0e1bee1db423e7cfa60c0db2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_01.png",
+      "bytes": 18761,
+      "sha256": "c1f9a62555010eabf54a0f779404c0b8bae9e577c6fb91ac9ba19d84f8c1d9e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_02.png",
+      "bytes": 22245,
+      "sha256": "a295b38714e8d1b93d4d898c91bf52774518b252d28c053199d7f2c15d232df0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_03.png",
+      "bytes": 18031,
+      "sha256": "978947b1f1ce53988ed3ee2446e93ac48fe8321a95905d33b227c538a86a74ad"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_04.png",
+      "bytes": 17984,
+      "sha256": "0e1c598d7b93ed20b131b5edce15cf63acf7fd60b0f35f0c158075b78ee89624"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/fire_05.png",
+      "bytes": 17721,
+      "sha256": "69554721f11ddcd603cb1d1be60a4d1582c1e1e31c2735104af008ffaf95ad75"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_00.png",
+      "bytes": 17954,
+      "sha256": "8d91ad343d5ed46138a069850900b65f0c1e8f83fd68036a979769cb1448fa2e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_01.png",
+      "bytes": 18983,
+      "sha256": "2446b8cdaecff2f3560ea2fbfca51f64e66e419ed974048957a0d89fe268ae2b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_02.png",
+      "bytes": 19556,
+      "sha256": "013373d3f3ff8ec9833a01b9ce507c0362f82a23595daa5458d2db3312b69a5c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_03.png",
+      "bytes": 19651,
+      "sha256": "3894fae5830c8e6792cb740aff23e56c85c7b24a9fe67b74e4f4039019cccdb5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_04.png",
+      "bytes": 19911,
+      "sha256": "41f87ddef2369ed68b7ed81061c6fff424939f26e8849d0d0f98bb43733fb708"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_05.png",
+      "bytes": 20639,
+      "sha256": "5fcc6209102891bd0f3b3d32122ee6b6aac693d58e8a4b84994612be3ef30c00"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_06.png",
+      "bytes": 20612,
+      "sha256": "0023c54c32fe043636d04447d9bde8a25468220e8ed4bb0f821875678cf76133"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_07.png",
+      "bytes": 17921,
+      "sha256": "1f20ccea791ce7dd4306d4bd6b200c2c98201dd4409110180703d5f9c5c3261b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_08.png",
+      "bytes": 21082,
+      "sha256": "6f574bdfd9b113fd3368ec1bf0f9cdb24a92ef72a5acd4965400ead6b0e941d1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_09.png",
+      "bytes": 19800,
+      "sha256": "2cfcfd523c569e0f1a62e815c4ac506a0f1e596feb4117a32613a9040d5a5f1e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_10.png",
+      "bytes": 19073,
+      "sha256": "f1f2daed9f3f933d3c373893734631d7922f5d4de4ca6b400f963f55086b4974"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_11.png",
+      "bytes": 19264,
+      "sha256": "bdbf97986b3988f8019b4871f2be05b877cb13e68f4ed810fa0607b8d19afcbc"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_12.png",
+      "bytes": 18948,
+      "sha256": "2552ec7843fc8f62327f1c573de01d0fcc729980937d6cc7550bb992abeb4da4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_13.png",
+      "bytes": 19640,
+      "sha256": "4b03bfa94ec360b2772851581e0e3361a13dcb164cd0fd1c24ff76a0b12c018c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_14.png",
+      "bytes": 19277,
+      "sha256": "110730fa2fd570a14ea38ebb1b197ebd96c9f4a62bb8cd41fd2d5cf49d7cf89a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_15.png",
+      "bytes": 18610,
+      "sha256": "00207c22f93246f41d2d822a6d62642aabc761f31f927155dcf5ef7fa71b691e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_16.png",
+      "bytes": 17808,
+      "sha256": "ec0f2f59fa691ec1cd07ecb61db2e1f0a5a4e0baff06bec611981b3a5999e518"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/frames/reload_17.png",
+      "bytes": 17796,
+      "sha256": "bc35d0115af72d811c8ad2434d26ccb928b2d8e23f3f48f9693b930f8e7cdbcb"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/idle.png",
+      "bytes": 17387,
+      "sha256": "124680902876dfce4294d9d55d4937efbb2f6eee0e1bee1db423e7cfa60c0db2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/reload-sheet.png",
+      "bytes": 329430,
+      "sha256": "6e204e2f9fd6bc08fe6d6d2f7eac69c51f8df4947b1de5ff9f04a3413665604e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/reload.gif",
+      "bytes": 340622,
+      "sha256": "358b25d3df6bdc703ae924bca7196485bae3aab59b131bad215c8d562654561b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/source-audit.json",
+      "bytes": 2386,
+      "sha256": "3345a5aa1dbeb5d9f361d7a73bf7a33da69614773a7b1a155e515b846bbf9c86"
+    },
+    {
+      "path": "assets/weapon-animations-v1/uzi/spritesheet.png",
+      "bytes": 435032,
+      "sha256": "93ee5f2cd6b9777d597bc77306b270cda2f1c50901b510cc366fc73b119cb6a0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/verification.json",
+      "bytes": 468,
+      "sha256": "7de857ef2fc74472b4357576f1cf1c23da05c5e88a4662ca26d6e6ddb5b8f80a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/animations.json",
+      "bytes": 1811,
+      "sha256": "12b1ec2692d727b34698474184ef5b085899cd1342c215c874eba757510ebd98"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/fire-sheet.png",
+      "bytes": 72446,
+      "sha256": "39acd8a58a5d1ac60e411463ead0a74509917fe42a374fa813a7f550d59f2f53"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/fire.gif",
+      "bytes": 61327,
+      "sha256": "0625bbfe38cc48625719e1f8aac1550fc424b6df245e0dac735fca5138db723e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_00.png",
+      "bytes": 11948,
+      "sha256": "cb99d52518381a21c43b845185c626fe07f9f65a4531d11e4d70ccb82a45e53d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_01.png",
+      "bytes": 12665,
+      "sha256": "01de560775e6cc10164fecbbd225dc978c11865f752d96bb4f35d4c2ab2e4c74"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_02.png",
+      "bytes": 14445,
+      "sha256": "3865f3f83521c72db6f2fea4c5cfac02d41684774ef7b4d582e86a4d15a1e3d1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_03.png",
+      "bytes": 12421,
+      "sha256": "43341f2e5bd55bc5859888e0c8863dcc92af97d5d01c8236b509965aea6bf0e9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_04.png",
+      "bytes": 12290,
+      "sha256": "57783833a68307865ee7a3cebd05ad04dffd15d6a3f59a4041d4c3eef9a38471"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/fire_05.png",
+      "bytes": 11884,
+      "sha256": "afc47205f851a8586e61fc96d1091bffa0555196725dcc394dfc72942bcae744"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_00.png",
+      "bytes": 12100,
+      "sha256": "c7bf789559295a613be1f5508a41ad1fe32275ee3b4fd9da38773d5c7f076d4f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_01.png",
+      "bytes": 12715,
+      "sha256": "15157af7530ac3f9521ebd7d73c288ffb34f5811f7b597cd5c117b0817a0ab27"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_02.png",
+      "bytes": 12985,
+      "sha256": "edd0d5b4217fe56b9a27a8abeba555249e7eb6b671bc7d13067f02f77523ec65"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_03.png",
+      "bytes": 13957,
+      "sha256": "4af4d1c071b919e6b7500380319db80bbc8dcb47fc226f65c01c2d53d5e92538"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_04.png",
+      "bytes": 13437,
+      "sha256": "a9406e65a23dd66bccd3f068a8f127e4e653a4936d278c17056dac9ad955710f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_05.png",
+      "bytes": 12589,
+      "sha256": "f59443ebaa234d3dc3db98e91f0c605329cdc31ee3ea5aade6377c40d374e533"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_06.png",
+      "bytes": 13482,
+      "sha256": "b57ef3123594a18fad632f48742570b92b4e399db171b83f399910de6f08a885"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_07.png",
+      "bytes": 13115,
+      "sha256": "05e0b4cd694dc7e550cabe5765b2801751805bbd62813f3eb3852b93cbb41a44"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_08.png",
+      "bytes": 12615,
+      "sha256": "735a03d9fd516331fdc3cef202250c219a25634173c3538cfd12a9b0e3d4e86b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_09.png",
+      "bytes": 12746,
+      "sha256": "e945b1d021bf6eb976d5feffe14ba0bcda82d68df9810a456da37cdec64a702c"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_10.png",
+      "bytes": 12801,
+      "sha256": "591b4c81a15d4968d6d10866ed89e6286c65286746791e0763e240df57d76f3a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_11.png",
+      "bytes": 12904,
+      "sha256": "e9024b1f99ed824ecf0858a7df5f98c9decb27b3e8115ef41e91d942911fe2b5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_12.png",
+      "bytes": 12561,
+      "sha256": "f2ff5a50cea9c2018ec5d0726139301ad72d270a3221191b04c730b0406be802"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_13.png",
+      "bytes": 11844,
+      "sha256": "ac9f136cad0de1bd5ac749a79cf7389c25a32cc9d65d1cfa45dfc2a36ab07b42"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_14.png",
+      "bytes": 12276,
+      "sha256": "3698310a5768925895c4fb5a6b988a9ea613612e51f7e38385cdaf80aeb1bf85"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_15.png",
+      "bytes": 12477,
+      "sha256": "4f7e80ac5a37de88c3df3984c3f35dc61a72180b342fbf19ed6ffe921bb93d8f"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_16.png",
+      "bytes": 12520,
+      "sha256": "248f80cf50a698b132eb5cfda70b43e4255c324d7d21e41e8d1e3d2ee23f2b36"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/frames/reload_17.png",
+      "bytes": 12247,
+      "sha256": "87251cbe105ab2f6b57cf09d13f46201da0a1e01fda4b7b998f17cc871fc481b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/idle.png",
+      "bytes": 11948,
+      "sha256": "cb99d52518381a21c43b845185c626fe07f9f65a4531d11e4d70ccb82a45e53d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/reload-sheet.png",
+      "bytes": 217838,
+      "sha256": "8a258ce9102155a7e84ad3063b787f9e6ce03cb9484057048e2cc783377bb718"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/reload.gif",
+      "bytes": 187378,
+      "sha256": "f3ccbc6f26439bec45216eef8fd75ef282fcf04079bc8d855f9f2d16bcadaa46"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/source-audit.json",
+      "bytes": 2354,
+      "sha256": "3d7d48079996b4da5d6a1fa4a96d0c8bf16a416d098ad4ef6692a9186bda7547"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-1897/spritesheet.png",
+      "bytes": 289680,
+      "sha256": "9e17961c3c0a88d2f6f7a3338b45ccd038a2bbf4453d387e4c9b2a03a426e79d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/animations.json",
+      "bytes": 1810,
+      "sha256": "db18699e2b59e2313a94d050825e21e7e351d2f2071212fc67a31d94cd0f4bc1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/atlas.json",
+      "bytes": 3062,
+      "sha256": "02add551912d72e52fd5ba4716b0da515d194854ce393adda05e2a699c93050b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/fire-sheet.png",
+      "bytes": 74768,
+      "sha256": "eabb8a9b9079c31393fb9cbe53635bafd5d033a1fc26e6d394eaa4c3b4ed8ea5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/fire.gif",
+      "bytes": 65382,
+      "sha256": "ecd30f928c85ce9893c06a17a7b59328be222c5a3095ac51907bc0c26e6e9bf8"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_00.png",
+      "bytes": 11986,
+      "sha256": "bfd53f1649a06a1ca471321169a8da0d176b133678571d733fc6ee0c26950036"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_01.png",
+      "bytes": 12804,
+      "sha256": "e4a16c7e4aeb8b501cf0a6a2dd51ffe13531b1944ca9c15ce59b767294bf4a80"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_02.png",
+      "bytes": 15067,
+      "sha256": "86f492a4557bb9aa2f1a2788c2050feec6ba60fa618fe4e35e5d3c88f04d766a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_03.png",
+      "bytes": 14040,
+      "sha256": "5c3092d55d305d2fcafe09d5f2e2bfb9892bb2e2d2ed728c215879aa77991321"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_04.png",
+      "bytes": 12419,
+      "sha256": "d1d77ec0b5c81a04fecdf71595865afc55150c571b15d37d9c82e491670204e4"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/fire_05.png",
+      "bytes": 12004,
+      "sha256": "9e4a0928429c13a2f8c7df44ec941387626331d066378b1d31a965edaab37ccd"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_00.png",
+      "bytes": 11939,
+      "sha256": "21c610c1301a68b06c1e73080bf8b4d1ce62036aaeca66a2c4e0bc0d1e281d4d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_01.png",
+      "bytes": 12530,
+      "sha256": "cc40c13a668803089ff33fcd954a0127cb4356fbc35862c45f16fab8bba9a33a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_02.png",
+      "bytes": 12823,
+      "sha256": "e1ecb3ef78a61b0c1e3faabd9f9b9c43c5c66b3a119bcd0899096e0e29d08ee2"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_03.png",
+      "bytes": 12447,
+      "sha256": "5fd9a5ff09645f66d7a07bc55e1a8fa52a501674d20280c6aa86df4be42d9b91"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_04.png",
+      "bytes": 12942,
+      "sha256": "2a88d57462f0a6be5576c81755fb4952f72e4d5ba4ebea8e79e8cfdda80cb979"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_05.png",
+      "bytes": 12651,
+      "sha256": "92b17d37ca2a3c8d241a765e33060d312d9c1743551715ffc5eabd513462bc07"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_06.png",
+      "bytes": 13143,
+      "sha256": "dd354481d86ba8ec0c22414526c4296a559a9bb8a15b391d1ce426da99319e05"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_07.png",
+      "bytes": 12673,
+      "sha256": "dd4bca5f1b2d24dce641c2a27296afa0dfd9663a2e6d46c1e36410783c5ad909"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_08.png",
+      "bytes": 13052,
+      "sha256": "2592239a65e4168ecc9fcd25647f3f1cbd8c34e7ccdcf97bf413aa5053ab1182"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_09.png",
+      "bytes": 12831,
+      "sha256": "f0e676598a5e7da966cdb8ae3cdc70030649b961b4de1895ce374037bf32b67d"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_10.png",
+      "bytes": 12597,
+      "sha256": "63baa83768b6a77afdd5039a87a4d61729af74fc41bc4ed94bcc63e4fb0e9734"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_11.png",
+      "bytes": 12615,
+      "sha256": "c6b8c0f792e22e33d7fb1f53d55dc722e9be716f7802b7975eaf57b022b4458e"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_12.png",
+      "bytes": 12684,
+      "sha256": "4427cbee2604ff32af2f4b28f6fd8d187c52c0ea459fd1dba4143ff28740dc24"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_13.png",
+      "bytes": 12041,
+      "sha256": "d79092258d95c0ac4c96ef9bee6ebeb88ff3b8e37ebffdc856646c2edbe7b0c1"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_14.png",
+      "bytes": 12121,
+      "sha256": "24b4f2af5959a2d8ae53d41863b53af0fd8121c5757d5c5ec84efc296c096cf9"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_15.png",
+      "bytes": 11998,
+      "sha256": "3f66378f48b9b37c44ee7d0f57e74b39e256a15266a163559c37e2f074b67ca5"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_16.png",
+      "bytes": 12009,
+      "sha256": "e3282412c6c1d370eddd310d7315268013d96f204ddebc8300eb0abd47a9acb0"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/frames/reload_17.png",
+      "bytes": 12005,
+      "sha256": "63deaa9a445aa1a52cf2a40f9e2ee27eecc2f1a81d793d9e4a88833af96216ab"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/idle.png",
+      "bytes": 11986,
+      "sha256": "bfd53f1649a06a1ca471321169a8da0d176b133678571d733fc6ee0c26950036"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/reload-sheet.png",
+      "bytes": 212702,
+      "sha256": "0975cd2684079e29a0514f5cb1c4f86c58d0e6fabfb9f4dd607890cdfb90b27b"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/reload.gif",
+      "bytes": 183805,
+      "sha256": "fea6b2643e960f3c5706339016f942143b348592ee66f231fb91687c27c7a16a"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/source-audit.json",
+      "bytes": 2374,
+      "sha256": "8b2d68194ac5b9515d2f9f322a8e068c4a6a558032967df96169f9f01416e172"
+    },
+    {
+      "path": "assets/weapon-animations-v1/winchester-70/spritesheet.png",
+      "bytes": 287156,
+      "sha256": "a0ba20297c801d9c064b49dedfe7afaa364a47dc6c40d88eb53159f99e114216"
+    },
+    {
       "path": "assets/weapons-pixel-v1/README.md",
-      "bytes": 671,
-      "sha256": "da7da559b8dd88b54b70599ba90a43d9198d9b8d54d4be7d00a8576eca1563cf"
+      "bytes": 814,
+      "sha256": "63d4b9d514380e73a0f7545aa995c71bc35844a16681db0f10d6a4443ef31ba6"
     },
     {
       "path": "assets/weapons-pixel-v1/overview.png",
@@ -30500,18 +34770,18 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 2431,
-      "sha256": "b0f6994901ee1e2862874d5e10f110f42e05aaed0713833f880ed49744b8664c"
+      "bytes": 2675,
+      "sha256": "7c13c1855013f005119667ac00fd24ef3e0d7ff8b9f1c5dca612c353d7d51f16"
     },
     {
       "path": "docs/combat-design.md",
-      "bytes": 4284,
-      "sha256": "d9906fc5fb78200d535629173a018ade5ac04576c00c716940677645eac5917a"
+      "bytes": 4382,
+      "sha256": "216f5be69a8ecdda06fc7c6d9cd1acf39acebc69c719ae55824b7c697c136700"
     },
     {
       "path": "docs/game-direction.md",
-      "bytes": 1919,
-      "sha256": "c270530115ad8a792f9e640292f055efe43f4a57d8aee7c1933884c35204ac81"
+      "bytes": 2048,
+      "sha256": "c589bda6608be0671727f65b1baf11e04a3ce222abdf898e3985ac219cabc7ed"
     },
     {
       "path": "docs/infected.md",
@@ -30525,13 +34795,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 883,
-      "sha256": "313e0223c2c54b0a86850b7cad9449a60c475fd1df7fb0975eb8647c2ae8889f"
+      "bytes": 1076,
+      "sha256": "9e1d4acef599e0d354bf8823c8f9f7c92dd696c6a6068335724956b9b45427c4"
     },
     {
       "path": "publication-config.json",
-      "bytes": 1754,
-      "sha256": "e38fcc7209ee367dc081fcdbf6c45f8d93da2b4f340e7005c103659b491a7720"
+      "bytes": 1782,
+      "sha256": "b60b868f194de35ec3d73d2bd7437091dec3c3914075d4752cd804a830ffd4a9"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
@@ -30564,6 +34834,11 @@
       "sha256": "4aebe63dc45e2ae6f1e5d655e215c432dad769c0a11c52fd9bc12c125a8d9fb1"
     },
     {
+      "path": "tools/build-weapon-animations.cjs",
+      "bytes": 7068,
+      "sha256": "e4cc8230c1791dc00530db9a1f3f3c7acc33b8aa7bdf7f2f60e3dad4e156ae2d"
+    },
+    {
       "path": "tools/check-asset-files.cjs",
       "bytes": 3926,
       "sha256": "e9c3c383bb78102b8ac26e319606b409b83cf3c14fd0477355d974703ec69415"
@@ -30589,6 +34864,11 @@
       "sha256": "c87d8f256effd6fe041cf9d74a6ac61fd2f83115e416b0d4fe558515f4690a48"
     },
     {
+      "path": "tools/check-weapon-animations.cjs",
+      "bytes": 4839,
+      "sha256": "27595d697364d4d6aa01117eae24e4f0539f3c094ec2cac347faf65f87617898"
+    },
+    {
       "path": "tools/environment-catalog.cjs",
       "bytes": 13908,
       "sha256": "144daf23c42eb8442319fc5b9390e3b69b708bdfc97328cb314fa1c3b5b7917c"
@@ -30609,9 +34889,19 @@
       "sha256": "8e90e8ba19e8025a5706393b9ab9fa30c4255ad9174c50738783c7885afc1a5b"
     },
     {
+      "path": "tools/package-weapon-animations.cjs",
+      "bytes": 2661,
+      "sha256": "2d3ff1f545a652302cae227c8b3f65a637cc3acc79a1e4c95a0cfe2294ceaa4e"
+    },
+    {
       "path": "tools/prepare-friends-animations.cjs",
       "bytes": 11098,
       "sha256": "4514f06a85bb9c90e4829b3b6bf88ab89b5fb6630fc0bed7cff112d393afff6a"
+    },
+    {
+      "path": "tools/prepare-weapon-animations.cjs",
+      "bytes": 9001,
+      "sha256": "100c7a9aa5f3744824a81e4f9895ad3441e80f844d760b256c8f358f28687c67"
     },
     {
       "path": "tools/preview-environment-variants.cjs",
@@ -30620,8 +34910,8 @@
     },
     {
       "path": "tools/publish-github.cjs",
-      "bytes": 8157,
-      "sha256": "951fab127243f92a722b0ec1d22d62cd4ad83c0d77fc7f1c9c99de9cc70c5690"
+      "bytes": 8446,
+      "sha256": "9a374aabe53de95e1fede5051280e6a81c89ab11772e8d880559f4135c935eb1"
     },
     {
       "path": "tools/slice-sprite-components.cjs",

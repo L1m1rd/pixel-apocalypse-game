@@ -1,0 +1,1914 @@
+{
+  "status": "complete-visual-prototype",
+  "tool": "built-in image_gen",
+  "grid": {
+    "columns": 6,
+    "rows": 4,
+    "cellSize": 256,
+    "width": 1536,
+    "height": 1024
+  },
+  "weapons": [
+    {
+      "id": "pm",
+      "name": "ПМ",
+      "type": "pistol",
+      "description": "compact blued-steel PM pistol with brown grip",
+      "reference": "references/pm.png",
+      "source": "sources/pm.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of ПМ, a compact blued-steel PM pistol with brown grip; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. An expressive game reload: gun tilts down slightly, old box magazine visibly lowers out of grip, empty magazine disappears, fresh magazine rises into grip, slide briefly changes position, weapon settles back to ready. Gun remains whole; avoid disassembly.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "glock-17",
+      "name": "Glock 17",
+      "type": "pistol",
+      "description": "black polymer Glock 17 pistol",
+      "reference": "references/glock-17.png",
+      "source": "sources/glock-17.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Glock 17, a black polymer Glock 17 pistol; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. An expressive game reload: gun tilts down slightly, old box magazine visibly lowers out of grip, empty magazine disappears, fresh magazine rises into grip, slide briefly changes position, weapon settles back to ready. Gun remains whole; avoid disassembly.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "colt-m1911",
+      "name": "Colt M1911",
+      "type": "pistol",
+      "description": "steel Colt M1911 pistol with brown grip panels",
+      "reference": "references/colt-m1911.png",
+      "source": "sources/colt-m1911.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Colt M1911, a steel Colt M1911 pistol with brown grip panels; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. An expressive game reload: gun tilts down slightly, old box magazine visibly lowers out of grip, empty magazine disappears, fresh magazine rises into grip, slide briefly changes position, weapon settles back to ready. Gun remains whole; avoid disassembly.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "nagant-m1895",
+      "name": "Наган M1895",
+      "type": "gate-revolver",
+      "description": "dark Nagant M1895 revolver with small brown grip",
+      "reference": "references/nagant-m1895.png",
+      "source": "sources/nagant-m1895.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Наган M1895, a dark Nagant M1895 revolver with small brown grip; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Use a stylized side loading-gate reload, small brass cartridge glints near the rear of the cylinder, cylinder rotates incrementally, gate closes and weapon returns to ready. Keep the cylinder attached in the frame; do not depict a swing-out cylinder.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "colt-python",
+      "name": "Colt Python",
+      "type": "revolver",
+      "description": "silver Colt Python revolver with brown grip and vented barrel rib",
+      "reference": "references/colt-python.png",
+      "source": "sources/colt-python.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Colt Python, a silver Colt Python revolver with brown grip and vented barrel rib; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Use a stylized swing-out-cylinder reload: weapon tilts slightly, cylinder swings sideways/down in the readable side-view convention, tiny spent-case glints fall, fresh cartridge glints appear, cylinder closes and weapon returns to ready.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "sw-686",
+      "name": "Smith & Wesson Model 686",
+      "type": "revolver",
+      "description": "silver S&W Model 686 revolver, brown grip, solid barrel rib",
+      "reference": "references/sw-686.png",
+      "source": "sources/sw-686.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Smith & Wesson Model 686, a silver S&W Model 686 revolver, brown grip, solid barrel rib; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Use a stylized swing-out-cylinder reload: weapon tilts slightly, cylinder swings sideways/down in the readable side-view convention, tiny spent-case glints fall, fresh cartridge glints appear, cylinder closes and weapon returns to ready.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150,
+            150
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "izh-43",
+      "name": "ИЖ-43",
+      "type": "double-side",
+      "description": "wooden-stock side-by-side double-barrel IZH-43 shotgun",
+      "reference": "references/izh-43.png",
+      "source": "sources/izh-43.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of ИЖ-43, a wooden-stock side-by-side double-barrel IZH-43 shotgun; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct break-open reload: barrels hinge downward at the breech as one connected pair, small brass case glints leave breech, two fresh shell glints appear, barrels close, weapon returns level. Preserve side-by-side silhouette.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "toz-34",
+      "name": "ТОЗ-34",
+      "type": "double-over",
+      "description": "wooden-stock over-under double-barrel TOZ-34 shotgun",
+      "reference": "references/toz-34.png",
+      "source": "sources/toz-34.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of ТОЗ-34, a wooden-stock over-under double-barrel TOZ-34 shotgun; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct break-open reload: vertically stacked paired barrels hinge downward as one connected assembly, small brass case glints leave breech, fresh shell glints appear, barrels close, weapon returns level. Preserve the over-under silhouette.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "izh-27",
+      "name": "ИЖ-27",
+      "type": "double-over",
+      "description": "wooden-stock over-under double-barrel IZH-27 shotgun",
+      "reference": "references/izh-27.png",
+      "source": "sources/izh-27.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of ИЖ-27, a wooden-stock over-under double-barrel IZH-27 shotgun; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct break-open reload: vertically stacked paired barrels hinge downward as one connected assembly, small brass case glints leave breech, fresh shell glints appear, barrels close, weapon returns level. Preserve the over-under silhouette.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125,
+            125
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "remington-870",
+      "name": "Remington 870",
+      "type": "pump",
+      "description": "wooden-stock Remington 870 pump shotgun with ribbed wooden fore-end",
+      "reference": "references/remington-870.png",
+      "source": "sources/remington-870.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Remington 870, a wooden-stock Remington 870 pump shotgun with ribbed wooden fore-end; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a short fore-end pump motion.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct tube-fed game reload: shotgun tilts slightly, one shell-shaped glint at a time travels into the loading area under the receiver, fore-end briefly travels rearward then forward, weapon returns to level. No detachable box magazine, no hinged barrels.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "mossberg-500",
+      "name": "Mossberg 500",
+      "type": "pump",
+      "description": "wooden-stock Mossberg 500 pump shotgun with ribbed wooden fore-end",
+      "reference": "references/mossberg-500.png",
+      "source": "sources/mossberg-500.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Mossberg 500, a wooden-stock Mossberg 500 pump shotgun with ribbed wooden fore-end; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a short fore-end pump motion.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct tube-fed game reload: shotgun tilts slightly, one shell-shaped glint at a time travels into the loading area under the receiver, fore-end briefly travels rearward then forward, weapon returns to level. No detachable box magazine, no hinged barrels.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "winchester-1897",
+      "name": "Winchester Model 1897",
+      "type": "pump",
+      "description": "wooden-stock Winchester 1897 pump shotgun with exposed hammer",
+      "reference": "references/winchester-1897.png",
+      "source": "sources/winchester-1897.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Winchester Model 1897, a wooden-stock Winchester 1897 pump shotgun with exposed hammer; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a short fore-end pump motion.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Distinct tube-fed game reload: shotgun tilts slightly, one shell-shaped glint at a time travels into the loading area under the receiver, fore-end briefly travels rearward then forward, weapon returns to level. No detachable box magazine, no hinged barrels.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170,
+            170
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "hk-mp5",
+      "name": "HK MP5",
+      "type": "magazine",
+      "description": "black HK MP5 with fixed stock and curved magazine",
+      "reference": "references/hk-mp5.png",
+      "source": "sources/hk-mp5.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of HK MP5, a black HK MP5 with fixed stock and curved magazine; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "pp91-kedr",
+      "name": "ПП-91 «Кедр»",
+      "type": "magazine",
+      "description": "compact black PP-91 Kedr with slender unfolded wire stock",
+      "reference": "references/pp91-kedr.png",
+      "source": "sources/pp91-kedr.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of ПП-91 «Кедр», a compact black PP-91 Kedr with slender unfolded wire stock; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "uzi",
+      "name": "Uzi",
+      "type": "magazine",
+      "description": "boxy black Uzi with folding stock and magazine in grip",
+      "reference": "references/uzi.png",
+      "source": "sources/uzi.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Uzi, a boxy black Uzi with folding stock and magazine in grip; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "sks",
+      "name": "СКС",
+      "type": "fixed-magazine",
+      "description": "wooden full-stock SKS carbine with fixed magazine and iron sights",
+      "reference": "references/sks.png",
+      "source": "sources/sks.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of СКС, a wooden full-stock SKS carbine with fixed magazine and iron sights; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Fixed-magazine carbine reload: weapon tilts, receiver action is visibly open, a small short group of brass cartridge glints appears above the receiver and lowers inside, glints disappear, action closes, weapon returns level. Keep the fixed magazine attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "ruger-mini14",
+      "name": "Ruger Mini-14",
+      "type": "magazine",
+      "description": "wooden-stock Ruger Mini-14 carbine with detachable magazine and iron sights",
+      "reference": "references/ruger-mini14.png",
+      "source": "sources/ruger-mini14.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Ruger Mini-14, a wooden-stock Ruger Mini-14 carbine with detachable magazine and iron sights; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "m1-carbine",
+      "name": "M1 Carbine",
+      "type": "magazine",
+      "description": "slim wooden-stock M1 Carbine with detachable straight magazine",
+      "reference": "references/m1-carbine.png",
+      "source": "sources/m1-carbine.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of M1 Carbine, a slim wooden-stock M1 Carbine with detachable straight magazine; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "akm",
+      "name": "АКМ",
+      "type": "magazine",
+      "description": "AKM with brown wooden stock and foregrip and curved steel magazine",
+      "reference": "references/akm.png",
+      "source": "sources/akm.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of АКМ, a AKM with brown wooden stock and foregrip and curved steel magazine; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "ak74",
+      "name": "АК-74",
+      "type": "magazine",
+      "description": "AK-74 with muted plum furniture and curved brown magazine",
+      "reference": "references/ak74.png",
+      "source": "sources/ak74.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of АК-74, a AK-74 with muted plum furniture and curved brown magazine; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "type": "magazine",
+      "description": "black M4A1 with adjustable stock and carry handle",
+      "reference": "references/m4a1.png",
+      "source": "sources/m4a1.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of M4A1, a black M4A1 with adjustable stock and carry handle; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. \nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Stylized box-magazine reload: weapon tilts slightly, old magazine visibly descends out of its correct magazine well, empty magazine disappears, replacement rises and seats, small receiver action movement, weapon settles level. Keep all major weapon parts attached.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "mosin-9130",
+      "name": "Мосина 1891/30",
+      "type": "bolt-fixed",
+      "description": "long wooden full-stock Mosin 1891/30 bolt-action rifle with iron sights",
+      "reference": "references/mosin-9130.png",
+      "source": "sources/mosin-9130.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Мосина 1891/30, a long wooden full-stock Mosin 1891/30 bolt-action rifle with iron sights; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a brief bolt-handle movement.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Bolt-action game reload: small bolt handle visibly turns and moves rearward, weapon tilts, small cartridge glints appear above open receiver and lower inside, bolt moves forward and handle lowers, weapon returns level. No detachable magazine and no scope movement independent of weapon.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "remington-700",
+      "name": "Remington 700",
+      "type": "bolt-fixed",
+      "description": "dark olive synthetic-stock Remington 700 bolt-action hunting rifle with scope",
+      "reference": "references/remington-700.png",
+      "source": "sources/remington-700.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Remington 700, a dark olive synthetic-stock Remington 700 bolt-action hunting rifle with scope; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a brief bolt-handle movement.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Bolt-action game reload: small bolt handle visibly turns and moves rearward, weapon tilts, small cartridge glints appear above open receiver and lower inside, bolt moves forward and handle lowers, weapon returns level. No detachable magazine and no scope movement independent of weapon.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "id": "winchester-70",
+      "name": "Winchester Model 70",
+      "type": "bolt-fixed",
+      "description": "classic brown wooden sporting-stock Winchester Model 70 bolt-action rifle with iron sights",
+      "reference": "references/winchester-70.png",
+      "source": "sources/winchester-70.png",
+      "prompt": "Use case: stylized-concept. Asset: pixel-art animation source sheet for a 2D survival videogame. Reference image is the approved appearance of Winchester Model 70, a classic brown wooden sporting-stock Winchester Model 70 bolt-action rifle with iron sights; preserve its silhouette, furniture and colors, omit the reference background and label. NEW IMAGE, not an edit of reference layout. Create one transparent PNG 1536x1024, exactly 6 columns by 4 rows of equal 256x256 invisible cells, 24 discrete weapon poses. NO visible grid, borders, labels or numbers. Each cell contains this same complete weapon, barrel pointing RIGHT, side profile, no perspective. Gun must fit inside each cell with at least 20 pixels padding, muzzle flash also inside. Maintain fixed scale and shared grip pivot at local x=105 y=144 in ALL 24 cells; no independent recentring. Ready long-gun silhouette spans about x=35..205, pistol x=80..170. Crisp square pixel clusters like approved reference, 16-bit inventory/equipment sprite, muted steel, wood and olive, dark pixel outlines. True transparent background, no ground or shadow, no smoothing, no painted 3D.\nROW 1, left to right, is a single six-frame FIRE animation: 1 ready; 2 small sharp muzzle flash and initial recoil; 3 strongest recoil with a brief larger flash and a tiny spent-case glint only if appropriate; 4 flash gone, recoil recovery; 5 almost ready; 6 ready with tiny settling movement. Flash is always attached to the muzzle, no projectiles. During recovery show a brief bolt-handle movement.\nROWS 2,3,4, read row-major left to right, are ONE continuous 18-frame RELOAD animation. First pose ready, then smooth anticipation, clear middle reload action, then settling, final pose ready. Spread the action across all 18 unique poses with readable progression. Bolt-action game reload: small bolt handle visibly turns and moves rearward, weapon tilts, small cartridge glints appear above open receiver and lower inside, bolt moves forward and handle lowers, weapon returns level. No detachable magazine and no scope movement independent of weapon.\nOnly the weapon and small action-related magazine/cartridge shapes. NO hands, arms, people, scenery, disassembly, instructional arrows, diagrams, words or extra weapons. Every cell must have a complete main weapon silhouette. Mechanical action is stylized for game readability; retain model identity. Exactly 24 cells, never merge poses.",
+      "frameWidth": 192,
+      "frameHeight": 192,
+      "origin": {
+        "x": 0.41015625,
+        "y": 0.5625
+      },
+      "actions": {
+        "fire": {
+          "cells": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frameDurationMs": [
+            55,
+            40,
+            45,
+            65,
+            75,
+            80
+          ],
+          "repeat": 0
+        },
+        "reload": {
+          "cells": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frameDurationMs": [
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115,
+            115
+          ],
+          "repeat": 0
+        }
+      }
+    }
+  ],
+  "totalWeapons": 24,
+  "totalAnimations": 48,
+  "totalFrames": 576,
+  "direction": "east; weapon-only overlay",
+  "gameplayImplemented": false
+}
