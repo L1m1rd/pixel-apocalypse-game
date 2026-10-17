@@ -16,6 +16,8 @@
     "check:deaths": "node tools/check-infected-deaths.cjs",
     "build:specials": "node tools/build-infected-specials.cjs",
     "check:specials": "node tools/check-infected-specials.cjs",
+    "build:combat-vfx": "node tools/build-combat-vfx.cjs",
+    "check:combat-vfx": "node tools/check-combat-vfx.cjs",
     "inventory": "node tools/check-asset-files.cjs --inventory"
   },
   "devDependencies": {

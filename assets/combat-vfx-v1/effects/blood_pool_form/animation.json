@@ -1,0 +1,27 @@
+{
+  "id": "blood_pool_form",
+  "label": "Образование лужи",
+  "category": "blood",
+  "direction": null,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "frames": [
+    "blood_pool_form_00",
+    "blood_pool_form_01",
+    "blood_pool_form_02",
+    "blood_pool_form_03",
+    "blood_pool_form_04",
+    "blood_pool_form_05"
+  ],
+  "durationMs": 160,
+  "frameRate": 6.25,
+  "repeat": 0,
+  "persistence": "decal",
+  "rootMotion": false,
+  "decalFrame": "blood_pool_form_05",
+  "decalFile": "effects/blood_pool_form/decal.png"
+}

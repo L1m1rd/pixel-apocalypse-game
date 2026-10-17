@@ -1,7 +1,7 @@
 {
   "description": "All project files except this inventory, Git internals, ignored local dependencies and temporary files.",
-  "files": 7205,
-  "totalBytes": 626210071,
+  "files": 7408,
+  "totalBytes": 652294351,
   "entries": [
     {
       "path": ".gitattributes",
@@ -15,8 +15,978 @@
     },
     {
       "path": "README.md",
-      "bytes": 10159,
-      "sha256": "3e3ebdb5d24b32b7daf9b4317e61b857b191a7f2e29a2afaa0e2ce3e9cd6e739"
+      "bytes": 11662,
+      "sha256": "15ae35256a5601ce63df01ecf37f8291abfdbc86b372deebf1fcd0dacd0bf53f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/README.md",
+      "bytes": 8526,
+      "sha256": "71a37d020bff3630ee2949733addf50c1faaf475e8fea7da2a7994bd1e894b65"
+    },
+    {
+      "path": "assets/combat-vfx-v1/comparisons/blood-directional.gif",
+      "bytes": 92409,
+      "sha256": "81ed837c35ed5633b63039e25e58a17639da743031ad084e2932e299b9997822"
+    },
+    {
+      "path": "assets/combat-vfx-v1/comparisons/blood.gif",
+      "bytes": 85062,
+      "sha256": "fbfbf8858a88fafa4c910f4f013e0a5652158ad12f79ed41e067a1d0a80ac60c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/comparisons/impacts.gif",
+      "bytes": 157247,
+      "sha256": "cef41fe468d4670edd6b9113a3fb74dcc81d5ff0d657627a4d892b7fabc1399e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/comparisons/spores.gif",
+      "bytes": 229828,
+      "sha256": "1bed75f7e61af8edb376613f4b1e0496859f0277acd1327fc308ceff2324fb82"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/animation.json",
+      "bytes": 463,
+      "sha256": "e0277792d404106c6db1e1896ebf8558624b53c86c7aa4bde8fc6f900898c3d4"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/atlas.json",
+      "bytes": 2588,
+      "sha256": "59678ed4dbe10a26a32c33bb97152f987b667ed656bb9dc0a7a472e8bcfd3bd1"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_00.png",
+      "bytes": 561,
+      "sha256": "115c12c32a6efde3844ea3f6690af97bc239cd83c876c6ec686ca9e136477539"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_01.png",
+      "bytes": 721,
+      "sha256": "cb44f4d864eb35d1e6e7f6eedcb58fcd6f88ca7898cf90611a5fbb529590a897"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_02.png",
+      "bytes": 2283,
+      "sha256": "715554ac6bd8850ccf0624479f91b19fead3318d507d1edd32c7175e9d5aa153"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_03.png",
+      "bytes": 2087,
+      "sha256": "5b481306e288deb1323b6734b543408a74af8b2d1bbccba3ab014bd490180edf"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_04.png",
+      "bytes": 1493,
+      "sha256": "c9c439350ec4358429245657495563ccd051c34b30d7a07d5f8564472abd654d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/frames/blood_drip_05.png",
+      "bytes": 895,
+      "sha256": "ccf94f44cad6a1e97a97e95a7540bb87bc19eee287e9a84ca0fc2302324b3f8a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/preview.gif",
+      "bytes": 15568,
+      "sha256": "ec0926168e6cec0aca166e0ad5305452c3fcf7bc313bed9be444144c14350cb3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/source-crops.json",
+      "bytes": 2299,
+      "sha256": "d79ed58d52816104a4ab781117279e515e7368b6b70364d3261eeba8eb39cb46"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_drip/spritesheet.png",
+      "bytes": 7310,
+      "sha256": "5bd42f311801e1cd084ccea0f564bdba192813a197a177ce5f5725e380d0db79"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/animation.json",
+      "bytes": 497,
+      "sha256": "2304e2bb03d75e3e75bcb38a193aef945c889b123d06e7f3e264c50afa369796"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/atlas.json",
+      "bytes": 2612,
+      "sha256": "90e5dc0d00656b5ef23003d5b57d2be2e408759fc1dc1f2c368dbe99dc26c111"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_00.png",
+      "bytes": 2778,
+      "sha256": "f7620e7ccc81dd4d941cf066200c363bf5c8fe247ce564fc4afdfeb03a22f182"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_01.png",
+      "bytes": 4370,
+      "sha256": "4d701b6d9f2c1041a616143cae0bfb82e912aa6c32311c34d4b4fda78c4eb395"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_02.png",
+      "bytes": 6026,
+      "sha256": "4cb9df704d9c30e869213a8081bb285b981e86358e0cf62caddef63321523550"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_03.png",
+      "bytes": 3502,
+      "sha256": "ade7fa275970354d1e1128a5828e7960d4f8950c69cb4d9a9ca973d04a15923a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_04.png",
+      "bytes": 1716,
+      "sha256": "1cd108f7d4880aca4ddcbcad9b8fb3587b53b70a97d5f21673392f987b661df3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/frames/blood_hit_east_05.png",
+      "bytes": 832,
+      "sha256": "943c285390bc5502c1fa1f35770cca2ab6b754f73f303a613381b2d266861e47"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/preview.gif",
+      "bytes": 33518,
+      "sha256": "3eee64c4f21f53383acda328fe99ef0db616200a98cf5937d111febad31730c2"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/source-crops.json",
+      "bytes": 2356,
+      "sha256": "54d718826674b658afeac426dabf02c63af613050fc1f78d38c2591d4d9608a8"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_east/spritesheet.png",
+      "bytes": 18463,
+      "sha256": "9f79303fbb7d3f94fba909cf253f6271a66d4119cb7bcc74f8f7089a5eed3b06"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/animation.json",
+      "bytes": 483,
+      "sha256": "87b22937f629a3ab195b645d42cb6c8de08b755b761c09073053365379806d26"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/atlas.json",
+      "bytes": 2618,
+      "sha256": "c7437f727547d4f307c0858c99649aa8aefc0829457a0cd81fde3533067a870c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_00.png",
+      "bytes": 2262,
+      "sha256": "8b21776248e242b902a6352abe1eb7402bd9337e7feee4c13dafaaac32272869"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_01.png",
+      "bytes": 5970,
+      "sha256": "38e8b16f10e67a7f2fc38bf80f93872579eb8af1f38b4732d52ac6fde8350489"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_02.png",
+      "bytes": 8404,
+      "sha256": "9e4b6b09f6305b3a8e9d73c8dcd40c4c68c17095abc3525593422cbb7fe40e2f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_03.png",
+      "bytes": 5931,
+      "sha256": "0a663073efc0e7378ea88154d8f57c74ef60d0cf2a4e25e9087acb6b74d3724e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_04.png",
+      "bytes": 3213,
+      "sha256": "4100f81c442911a3925ddfce12490a175d73b5c23ccc2444b1d63902d40d2c9f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/frames/blood_hit_heavy_05.png",
+      "bytes": 1346,
+      "sha256": "3182f5e3f0410f0c78affa954254a36e0e1eee271198c5184513e6bcc5d0bc09"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/preview.gif",
+      "bytes": 52280,
+      "sha256": "a70664327c460b64e206d23575d9bcf54c2626cb7efdd50d46ac4cfa25e98d9e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/source-crops.json",
+      "bytes": 2333,
+      "sha256": "975b5e8cf07d1be2b869bda0c097104ade06b47f091ab02241f3c01b23173663"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_heavy/spritesheet.png",
+      "bytes": 26281,
+      "sha256": "4881a9ba0e0b32094575aa6394c9bba03787ef741931d2342e8cdc6e29644aec"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/animation.json",
+      "bytes": 503,
+      "sha256": "08e2d1936a89fab2ea299f192a93c2a3fadc1ff910c2c8687a30c41316173c2e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/atlas.json",
+      "bytes": 2618,
+      "sha256": "224b46ec349384706100227f50678c4bb5004a9fd6863d2d064afff15a0e72f5"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_00.png",
+      "bytes": 2984,
+      "sha256": "06b4f93054403352bca5d11c1a1ccb180f451016331f94fbe36092b089ccd778"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_01.png",
+      "bytes": 4852,
+      "sha256": "6dd3203c747ae4e60ee2e9c2b8e95464d32ef20d3ec251956b163bb98b7b7404"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_02.png",
+      "bytes": 6592,
+      "sha256": "ab0fa0c778af0f374a884117d990c098ffbe3c85d8591761ef16596fa4d3cbf0"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_03.png",
+      "bytes": 4140,
+      "sha256": "d6819edfe6a46484327375bd6ee5684e28e02537c25f47fd0a05ab7893395156"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_04.png",
+      "bytes": 1980,
+      "sha256": "79281173992dd448b3eafcdc3e563efd01ab6e2e3b7c5caf6bd59741b4e2f31f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/frames/blood_hit_north_05.png",
+      "bytes": 1023,
+      "sha256": "5c8487a32a228e345efe531c5e4653cef76d102a48aead2388c561a2fd8fc040"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/preview.gif",
+      "bytes": 37016,
+      "sha256": "b4e915d307732b67dd197d9d1e1ed29f0756ae22de9ff5558a31495b90f25b9d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/source-crops.json",
+      "bytes": 2358,
+      "sha256": "0eb3188d10a486418e42826a60108bfa1605cb5312e3f0bd1e50c14a77b0be92"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_north/spritesheet.png",
+      "bytes": 20734,
+      "sha256": "563a5db3a9c743f96ace2752535171ddbfe943533ddcb191e585f7ab7b143d3c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/animation.json",
+      "bytes": 482,
+      "sha256": "d0bacb78ec2ce77a3f92d31027b9e3dc688d3a9d11e465232e9a82957bb3b449"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/atlas.json",
+      "bytes": 2618,
+      "sha256": "5e824c3471defaf192b5705b5a6065b031f8f1c1cf4d03d09e7b18776b5804f8"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_00.png",
+      "bytes": 1553,
+      "sha256": "97faf48f3f3c11a3b588799b97dface5ed99a3636d7e80ad8244779c25353814"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_01.png",
+      "bytes": 2835,
+      "sha256": "ceb961e004e83a268744eb1a69d6e0e58e905008670b32d912c70c8159188fbe"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_02.png",
+      "bytes": 4503,
+      "sha256": "367837742f99428b7ae88e2f501940b52f2df7a4122f31b487569f916e7cdc1b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_03.png",
+      "bytes": 3109,
+      "sha256": "acd21f1efa1a84f07fb1be7a78a7ba3c8c6b99768e2a9d14eb4d48f887debf46"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_04.png",
+      "bytes": 1600,
+      "sha256": "bfa4a3d75dafa56ade5e1fc375f563aff396e0ebb9050c754333b1822522e5cc"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/frames/blood_hit_small_05.png",
+      "bytes": 791,
+      "sha256": "3187b9711c256abd9e7e11a2d3d2ddc0233cc54d109261d2035695fbd2fc0a9e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/preview.gif",
+      "bytes": 28178,
+      "sha256": "3e8e9cfaf5e2f72a7e0da05384174d529a203a4b030d83488c98a45634078866"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/source-crops.json",
+      "bytes": 2329,
+      "sha256": "7143f24123084e27c26d41088ed31724635c02ed24ae0a3bda881df7f4627f6f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_small/spritesheet.png",
+      "bytes": 13609,
+      "sha256": "134b8075c14cff821e6116640905686075c934d2fe0d6e079837c4945a3849ee"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/animation.json",
+      "bytes": 501,
+      "sha256": "070dbc341aec37a5acd0e3e5a1df629e0792b05240d2475832df67e3fac1e0ed"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/atlas.json",
+      "bytes": 2618,
+      "sha256": "2f9862308f153210a98678051377af84560073f2059753a2a77e07a26b4d7ad6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_00.png",
+      "bytes": 3328,
+      "sha256": "2cad8279acfeb6d95d05e7ff082e29d8dd8e3bd553cc2c8cd20226127137f5a3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_01.png",
+      "bytes": 4958,
+      "sha256": "917c0ee6e24cdb8d0810365c6fe8932647f8f6cd7214eb8b36551c7967523cbe"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_02.png",
+      "bytes": 6761,
+      "sha256": "6d53f9f1f2dc585b0ba7c00a1c0191e2165992ec8062b362c78ebe7a02342e2e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_03.png",
+      "bytes": 5010,
+      "sha256": "b729c348d25283cb989f346d56a1b8915468632771eddeee3780e43d0e0a2c0f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_04.png",
+      "bytes": 2845,
+      "sha256": "9d3f8ad96352d60a2fc1553d98009817ddb08234e3c1e63dd879537c9c206eef"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/frames/blood_hit_south_05.png",
+      "bytes": 1401,
+      "sha256": "fb4d9fa20518d14b7c10f8e09983dfb7a47f52c0e1e10e8091697874f611d4c3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/preview.gif",
+      "bytes": 41105,
+      "sha256": "1def6be0a5ae465ba60aa25449d441714e99f7acbd90e9a7db0feeebfbf299f9"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/source-crops.json",
+      "bytes": 2341,
+      "sha256": "ca32e27923f0d3e96688eadd7af9c100256b16ae93e7d746f827fbdfa65b6628"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_south/spritesheet.png",
+      "bytes": 23417,
+      "sha256": "53cc96c489eacb70ed4a8244affbac7eaf93b553d608cffaded051a9bb2bb7b6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/animation.json",
+      "bytes": 495,
+      "sha256": "846941f9ca1b60cc14092103c5528ab619a12b4bc38f0b43175ac84a2d9aa8bf"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/atlas.json",
+      "bytes": 2612,
+      "sha256": "b108e298881ef1f6421e85044f349e55edc5770de245c724c7d27eb368349fea"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_00.png",
+      "bytes": 2990,
+      "sha256": "4182e0366f7124af71125d964449868ee11e13481afa12b7f4b57f4117eb944f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_01.png",
+      "bytes": 4635,
+      "sha256": "fc7b39dafcdcae7c6d25d4baec395d7e6d1b02de0c3b8e3795e273911513790f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_02.png",
+      "bytes": 6500,
+      "sha256": "e83d93cb6573dacce3fb95a9aa56a47a92ab5a6fc5614a94b2cf9e77122a4426"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_03.png",
+      "bytes": 3658,
+      "sha256": "3cd9496caacad7d90743d136c06cc6b04b0b16599333294a853e3511171e550c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_04.png",
+      "bytes": 2046,
+      "sha256": "988d942252b770825f151ea49ea5341442d5e85182760f2a351dec4a7a205d02"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/frames/blood_hit_west_05.png",
+      "bytes": 931,
+      "sha256": "f0b21d42d8808a288f9a30fdb3fecbe91251a5e1cd1baaa688f84e1bd7927190"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/preview.gif",
+      "bytes": 32044,
+      "sha256": "3ebfa25eb886c69af765f68fe42901f8ee8991680cec8a2217909b8eaa72f568"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/source-crops.json",
+      "bytes": 2354,
+      "sha256": "a36679696787c5e6c785b18199c7bb3fd0ee49c8fcd9f347644e61de83e6b3d5"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_hit_west/spritesheet.png",
+      "bytes": 19936,
+      "sha256": "d4d3357f413f6518485ea0343dd67e9ebe44a4c97243cf8e6ef7e05fc68b36ed"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/animation.json",
+      "bytes": 577,
+      "sha256": "5b006f5219cc6a25f531096352223bc9b31bb2c76d5abaedea79866c81b87669"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/atlas.json",
+      "bytes": 2618,
+      "sha256": "6be4ff803e0445950cc4ce0ed9f560422d75667a8360ebd4c6cbaa0bc60230b4"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/decal.png",
+      "bytes": 4810,
+      "sha256": "55b86a05a5d040569cfb7214f892f67cf9b52949633fbffd6786ccab60d3ed73"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_00.png",
+      "bytes": 476,
+      "sha256": "e32d955241652a602cc462bdd2880d61ca36c4e6544b2823a523643126c5d4f3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_01.png",
+      "bytes": 2177,
+      "sha256": "4227481f9db0db9c9359858dcb222129aa489e614406f2b709b11fec3f9a707e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_02.png",
+      "bytes": 3915,
+      "sha256": "d7109f0ea2606d6ffdc5e3b6a6f94016a9e905141ebe1006154947664757953d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_03.png",
+      "bytes": 5009,
+      "sha256": "91d881646dc26d2e8b712f5917e8c4cbfc9c42f08c4746488e50b4de965edf83"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_04.png",
+      "bytes": 5255,
+      "sha256": "a97b7cd5d3fe1f09d80529639486006dc72698230c11a42458e3a495df8a0408"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/frames/blood_pool_form_05.png",
+      "bytes": 4810,
+      "sha256": "55b86a05a5d040569cfb7214f892f67cf9b52949633fbffd6786ccab60d3ed73"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/preview.gif",
+      "bytes": 43086,
+      "sha256": "ef9ec24305c791af418ba92645769ef5de18bdc428760bdfe8d83d46d3372bc4"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/source-crops.json",
+      "bytes": 2349,
+      "sha256": "3c6cdbdc141f67cb76f1ae09d777bda7ae126fb8760d64bd06860e43b2538570"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/blood_pool_form/spritesheet.png",
+      "bytes": 20584,
+      "sha256": "ea693ca9c589194c5027a84f2fdd2f6f9e1300051dd5ca5bf3b8078bd0168c08"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/animation.json",
+      "bytes": 463,
+      "sha256": "ddd23358776744a1bd13a2a495c887efe3348ae9750996e2f8bced4ec0e0f6fa"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/atlas.json",
+      "bytes": 2582,
+      "sha256": "c2d875fb3a7ff32d692ac75ec8fa969359c8caddbde4476797fa81605c08ccc2"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_00.png",
+      "bytes": 4589,
+      "sha256": "35b1eed37cdb9765a1a14e0285a8a4a8f4b55934f99f05de0023886794005758"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_01.png",
+      "bytes": 8155,
+      "sha256": "b41bae59eb3662a580c9527e08590bfde38ce1941515b3aa9781dc887db978ef"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_02.png",
+      "bytes": 13595,
+      "sha256": "66aa664b8c1bd14c0cba3d027897ba340b93cdc3ea475cc20d467cb012ad71d7"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_03.png",
+      "bytes": 8510,
+      "sha256": "9948711b8a0e7b2c490205e49e689e3e1486403a0fce5fad0008a6ca721e8287"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_04.png",
+      "bytes": 6005,
+      "sha256": "df2743d35ce4ace9b2be73ad096195a6433bd13f62f96a7f648a89a078ddf07d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/frames/hit_flesh_05.png",
+      "bytes": 1860,
+      "sha256": "ca9b67cf480d25cce3afb2db282c6d5b1d41c68437ee14bd28fd3f25ce1c8e33"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/preview.gif",
+      "bytes": 54694,
+      "sha256": "3b2deafa91eab860da35f6b25a248d44ba7f29c43cc635bb07e6e96444dc90ab"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/source-crops.json",
+      "bytes": 2309,
+      "sha256": "125c966f37a80210dc02bb3d8d74a9eff130dd2e7bbd144c8db94887c60a81ca"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_flesh/spritesheet.png",
+      "bytes": 41894,
+      "sha256": "baf3e31340222cc369acf6659ea28a17c3c9d5033a570f63358bdf2bfc0d3be9"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/animation.json",
+      "bytes": 472,
+      "sha256": "62820a66b5f2ba15c279343f4534acde9f5d4cd7b2195baa7053a9d9d3c263da"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/atlas.json",
+      "bytes": 2588,
+      "sha256": "72d19f414f7dcb03031cf25cc219bb073b384b15e3367c34de0f4c4d3e5470b5"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_00.png",
+      "bytes": 4926,
+      "sha256": "0a1ac860964152976f49f4be3d5fc72cf4479430edf34bfbe6e3d343515aa195"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_01.png",
+      "bytes": 11090,
+      "sha256": "c431aa6c15e4986dd25430cf7186488f13f430b68baa4e76025ca1eb2e7f3947"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_02.png",
+      "bytes": 16508,
+      "sha256": "bbcbaa7fbf79bca16e1fae3011bfe4c7331ba68423f87b3ca1843b203500449f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_03.png",
+      "bytes": 9748,
+      "sha256": "21ff104e91442f2e645486bba1e9e5361c9592ef8cde550f82c5dcd188e7a9ee"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_04.png",
+      "bytes": 7298,
+      "sha256": "03325cab177eb5873f593f7c2cf3b15b37524f4729aa3c1424e54d1bdfa2894e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/frames/hit_fungus_05.png",
+      "bytes": 2727,
+      "sha256": "eaa4e10dce2687a30e504cf9960e4a6e4b3dd7a5998e4d39268834e1c261797b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/preview.gif",
+      "bytes": 66961,
+      "sha256": "d7b350c394260cae8b8ac0e8de4514b2ce0902e14a68de9773068cee412c2e97"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/source-crops.json",
+      "bytes": 2319,
+      "sha256": "5fb54e3680a1aa635d21903c8b36c56960601e549ff43c20f807a7898e8966e5"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_fungus/spritesheet.png",
+      "bytes": 51494,
+      "sha256": "1e9645ac533458297c178f43c2f690af7e2320edc72a818bef58cc44f68fe8ca"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/animation.json",
+      "bytes": 469,
+      "sha256": "8f3d100acc753521ecf50ef6e1ed264d96f2c4a91169e8a795240804bb680abd"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/atlas.json",
+      "bytes": 2582,
+      "sha256": "f91cc9404e004e130cd78efa6171f4cfccdcf26caf490199c2c2078841390b0a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_00.png",
+      "bytes": 5051,
+      "sha256": "07a909d32193d4a9d03d6d2c6e237cfb8d7392135de9a7ff44f70ba8df730325"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_01.png",
+      "bytes": 10061,
+      "sha256": "fe941f3d870f7da80d7ae6ed607c35716438fc7e4601be4b8529897bebe3e367"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_02.png",
+      "bytes": 13756,
+      "sha256": "ce4bed41877f6c5c0fe58ab5d2ba7c237e6506c348e65e4339c8a0418044bae6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_03.png",
+      "bytes": 7972,
+      "sha256": "2051419e5a6e339cd090e80b5229d931f73743880e66a3c062e82e869195a17e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_04.png",
+      "bytes": 4345,
+      "sha256": "68a411fce91a99b70ec8a329ca8456f2ba0d1b1c6d599837f6f17ee7f8e62d65"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/frames/hit_metal_05.png",
+      "bytes": 2066,
+      "sha256": "3914f94936a7fb53ab42a4aaaf7493f71a857e89efd4264a4770cad0f7963374"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/preview.gif",
+      "bytes": 54438,
+      "sha256": "aeba4e86723a3462d34044f4678bfabe8966bedab862edd5a31c7df2644ff8cc"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/source-crops.json",
+      "bytes": 2314,
+      "sha256": "c668dd6e67111dd2feb7b16bb1c8117064d1984f53df5f3ac109a431e6526155"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_metal/spritesheet.png",
+      "bytes": 42257,
+      "sha256": "7b8b49fba51e74d0fdff633b25ccfc3d446cccc59ebaa3210d3cf4fead913a5e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/animation.json",
+      "bytes": 464,
+      "sha256": "fc6a5d7cff747f2ff443df8c6003201beeea034e7fc106cfbbfa52b1b296f1a0"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/atlas.json",
+      "bytes": 2582,
+      "sha256": "73d29ff0c6e5d6a2d49fd2f5fcdeeb96987e96e8580d96983ff2478e60d5ee31"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_00.png",
+      "bytes": 5666,
+      "sha256": "10cadc9647faa21ed2187473f9d72204802b449025705c5e82f1a1069ced2aa7"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_01.png",
+      "bytes": 10800,
+      "sha256": "8d3bcb3cec8ec2c4ae0f72c6417cfe9c46b762845b30148750418cfd31183507"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_02.png",
+      "bytes": 15678,
+      "sha256": "88101630ddaf670d36589a3833e00e5716dd7e27dd8b58ce30759c73a1843628"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_03.png",
+      "bytes": 10986,
+      "sha256": "745c90b23ba1c89852a09caf2955a26fff4a9984c24e5b6520f6f41aa4bc1ac7"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_04.png",
+      "bytes": 8481,
+      "sha256": "2b37665d12d9b14a3555221f1fc6c340283eb6bae66bce90102b3059677140bf"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/frames/hit_stone_05.png",
+      "bytes": 3629,
+      "sha256": "5a2db2b11dd3174bbbeaacdf10f1264a4a99d035e8d6184d00bd97c02396883b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/preview.gif",
+      "bytes": 63253,
+      "sha256": "dd8c0c61c56bc82007bb7d469ef0f56ccc04f2f7c9e98a2300dc6f6182b3251b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/source-crops.json",
+      "bytes": 2315,
+      "sha256": "e3c8830073a9b96a7c8a638689144add00a90e34683bff26f9fe60eadd668d63"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/hit_stone/spritesheet.png",
+      "bytes": 54097,
+      "sha256": "24ed6d90209eeabbf12858a357e6ffb2ee32fb2e04fe9a7e5fed891e3716f3e3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/animation.json",
+      "bytes": 509,
+      "sha256": "c676dcd8a111ad6774ffed02254d1b7a999046ce9eca1b23c0b44c7d7795c835"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/atlas.json",
+      "bytes": 2668,
+      "sha256": "2d55242e2d95212861d19b364c0d05ca1b4e9db9eae06aae499d0b6d19fc105b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_00.png",
+      "bytes": 25044,
+      "sha256": "64fc789c0478297c71e925cdcc06b35b926819a8e8f0175d72c4946ddca14a4b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_01.png",
+      "bytes": 28836,
+      "sha256": "2ae5e2aedd88fc2b7578ed08e87e60144529a9ff956d14b10b74f8677f2232b3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_02.png",
+      "bytes": 29554,
+      "sha256": "24c4ac8a7640a95071eb2a54da12730049b38ef6fea2ff701555d00545734d89"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_03.png",
+      "bytes": 29077,
+      "sha256": "0f08fe2eb6ea3f05cdb4c92120736a023b14ed657d6619a4c91478d75e0b1b45"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_04.png",
+      "bytes": 27653,
+      "sha256": "ec4f35298f4e757e838b81f95aecc83b919a29af89802ee8f38b86c4923fe03e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/frames/spore_cloud_dense_05.png",
+      "bytes": 27371,
+      "sha256": "ca8262817ce41bd18c578cdc1106f49378bd32f5ea2a82d0b3eabd3018bcd7ed"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/preview.gif",
+      "bytes": 135401,
+      "sha256": "9ba6bb4ac83df19dcb3c9ac4280fb1cd229372a1a6051c808b1d30116b4c4261"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/source-crops.json",
+      "bytes": 2350,
+      "sha256": "ed71e6eb87702142c981f95b967092e53add57fb2dc98550eaa5937d6b136d59"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_cloud_dense/spritesheet.png",
+      "bytes": 164575,
+      "sha256": "aec5cf6a76981ccef3cbfab7bb29d5a8fc0ed2210a499cf8a38077cb0080a2c3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/animation.json",
+      "bytes": 505,
+      "sha256": "dbb7887392522b13a065e0c0e42c3b1fdcbf9841111c7918068a8338e0302e3a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/atlas.json",
+      "bytes": 2656,
+      "sha256": "285fc7a5de9bc0307ba76dcae6ab10ec8c5251b4eaa93f502295191b7f71c7ff"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_00.png",
+      "bytes": 29531,
+      "sha256": "4a620aad6dfdceed466ba3b956af410eb3cc04017108783e3c33719207886e0b"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_01.png",
+      "bytes": 29383,
+      "sha256": "e3480c38cd258367d73576ecbd9bdf0bf59ed702acb3ab9a19b7ea54bc0a643c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_02.png",
+      "bytes": 25574,
+      "sha256": "4b3dab6e1ae5439416c524b889fc79cd708448fc88850d1e7446002d064628c1"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_03.png",
+      "bytes": 18196,
+      "sha256": "3503438a97dd318f2c2fdb22f1a33d5598dd134f453f3b4c95856df60af478cb"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_04.png",
+      "bytes": 9271,
+      "sha256": "46bc6b0b2bb0f8b5a5e3133ee474a08ab8a5e6076a388c02d61ca27a4b58b34f"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/frames/spore_dissipate_05.png",
+      "bytes": 3128,
+      "sha256": "6b78ce23db4d03c119dae199442b5e8f35e2d42117d56dc5e6019caa36650c5e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/preview.gif",
+      "bytes": 96143,
+      "sha256": "72e15b61ac237eb3f2cd35fd72c1b578927e66e4ba0d0344411d9054d10ed519"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/source-crops.json",
+      "bytes": 2340,
+      "sha256": "bc95b85c5946e593203d6ca6cdf48d75306f5a736ed6d9c5a2259e8890d0ed52"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_dissipate/spritesheet.png",
+      "bytes": 114315,
+      "sha256": "9ef514a67739a836c720f8ad46efe49b9bcbaa90f3aab0f955b1a3d3f62bc30d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/animation.json",
+      "bytes": 473,
+      "sha256": "2846a92e152f9af74f203f0c041aa498e32b99afe1048c5753910f1ba3ff5422"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/atlas.json",
+      "bytes": 2650,
+      "sha256": "94d87ef463306cdf208f008c8068dd04d8c08b0db2d3421b48990978b19688f9"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_00.png",
+      "bytes": 6010,
+      "sha256": "926d73657c82573d49ef1bda9817d1be15cd7e0d7938a2ab6257fd0761acd686"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_01.png",
+      "bytes": 15443,
+      "sha256": "e764514a293f49c992da2b835be8aa118b3849d2593e18798d9b7d2bcdc84b3c"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_02.png",
+      "bytes": 22961,
+      "sha256": "f99a506e852f579321d38dc46ca0fdf1c15e33d2a1dcca2313c1b32c2e9273e3"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_03.png",
+      "bytes": 17800,
+      "sha256": "b0aabc69b22bf47543477af758b79a9169a65bfc8c256ccf0cae0c34c9862d68"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_04.png",
+      "bytes": 12505,
+      "sha256": "6d06df5f0ad2f75d178d5e1a5bda600bf91d63016c755e131d52a367cfa00aeb"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/frames/spore_emission_05.png",
+      "bytes": 3698,
+      "sha256": "538335eeece00d6454d7044c527d342c9224051d6ea95bf37a5ec3704eabf1cf"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/preview.gif",
+      "bytes": 67973,
+      "sha256": "b34e4884c106214e7925cd7a2a869a6c8fbbfc8d6150699f0935632b9a0b6ef0"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/source-crops.json",
+      "bytes": 2324,
+      "sha256": "ee0adb5e84ceeda9528aeaa805292ca4810daaf0c3a60b11cbc11223e336a9fd"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_emission/spritesheet.png",
+      "bytes": 77848,
+      "sha256": "ce78b499b4f3394f12268e67c56516c87bde0141553e0bc447e55c22454577c8"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/animation.json",
+      "bytes": 463,
+      "sha256": "ad1e02cf648bbefd25d1a38d9960959686d7d2170ace4e157f705a068526c485"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/atlas.json",
+      "bytes": 2632,
+      "sha256": "61ae2dee492b15bac648adaba9bda6df872da1675675d59a2e4d7539580955c9"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_00.png",
+      "bytes": 9200,
+      "sha256": "42507e41df1b9332071db0b597c52929e6d9b4b08c2ddd6b369c234717b593d4"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_01.png",
+      "bytes": 7666,
+      "sha256": "ae2e3330484c6f3b47ad6d211ac6a787eeb801359c368320aeb67a0a6fe412f6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_02.png",
+      "bytes": 7823,
+      "sha256": "2c060a078b8eadd2220d70a74c98bdff4e156c824929a179822ef17aed351fa6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_03.png",
+      "bytes": 5909,
+      "sha256": "c2c42d599a938809e6b69f2446e6dec3473e87a8b002d531715117ff1a2f28ef"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_04.png",
+      "bytes": 6681,
+      "sha256": "98d92ceeb1baded4864773f6e41830a05d66495b41fb7951ff8a36015c851580"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/frames/spore_trail_05.png",
+      "bytes": 9621,
+      "sha256": "b12a5af2450149b2e42acbcc6e61cd7f83874fcc91d46adbb47c8d0b0687b8c2"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/preview.gif",
+      "bytes": 42415,
+      "sha256": "770698da777d7ebd99b72a26e770d3a811dff964189202b99dbf8af971cf12ee"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/source-crops.json",
+      "bytes": 2331,
+      "sha256": "d4c7d5f5be50c8910ca65434d881d422ca8219babc1436791b2fd1f0a733c04d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/effects/spore_trail/spritesheet.png",
+      "bytes": 45358,
+      "sha256": "7fb85bc61561d04ef38072df3e2d063445ff8d74d0cc50872e88a1c963c20a22"
+    },
+    {
+      "path": "assets/combat-vfx-v1/generation-prompts.json",
+      "bytes": 6633,
+      "sha256": "b92ed7f71288ce21f1ec81a5082de74d53ecff52ed981e3430363f43f827cf2a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/manifest.js",
+      "bytes": 6445,
+      "sha256": "d828303e0d037ced3af5848f3756a07180535a11ffaa66019f62366c9310fb65"
+    },
+    {
+      "path": "assets/combat-vfx-v1/manifest.json",
+      "bytes": 9706,
+      "sha256": "06edf50f958237a3a56032b720daf3b78f25fbbb24454a466ba336693f23cc89"
+    },
+    {
+      "path": "assets/combat-vfx-v1/overview.png",
+      "bytes": 196607,
+      "sha256": "e333170374d391a0a2a6ff3855ee62085aac4d33f2b815b6aa4283f511f0bca6"
+    },
+    {
+      "path": "assets/combat-vfx-v1/phaser-example.mjs",
+      "bytes": 1924,
+      "sha256": "8d4bac6273caa6666304b502fa0957d579c84a3ff482c0df840e3a050341cb9a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/preview.html",
+      "bytes": 4626,
+      "sha256": "0bec621003e2310a0b2ca5e6039aec55063d6d0f9bd7c29ad7e40d29e4f0e272"
+    },
+    {
+      "path": "assets/combat-vfx-v1/references/existing-fx.png",
+      "bytes": 2114640,
+      "sha256": "0b51121f6f73a4e60256e3daafa97d5dc423f318f02e4a061bc5d83b09a4577d"
+    },
+    {
+      "path": "assets/combat-vfx-v1/sources/blood-directional.png",
+      "bytes": 1627550,
+      "sha256": "9408a118e813442402903f51c64046145cfdc433a3fb0c8f7724cef73109215e"
+    },
+    {
+      "path": "assets/combat-vfx-v1/sources/blood.png",
+      "bytes": 1417882,
+      "sha256": "c7cbb62eaab0b7d09fb1e8bd9fa8e5f8bc19b1a58469cfbbd18f023fe5b3a27a"
+    },
+    {
+      "path": "assets/combat-vfx-v1/sources/impacts.png",
+      "bytes": 2136356,
+      "sha256": "0d070c45bdba9ce5a1bd45c2f1bfc4f2f9f9747f943c3f324ef5248e768bbdab"
+    },
+    {
+      "path": "assets/combat-vfx-v1/sources/spores.png",
+      "bytes": 2213550,
+      "sha256": "4559fe1c7d01f21cce62924d02d17165a85f82e021ec0618bb4059f1c4ae36ed"
+    },
+    {
+      "path": "assets/combat-vfx-v1/verification.json",
+      "bytes": 472,
+      "sha256": "bdaeb0967b3700227ccba9cb535872308e0f5565cc5d13dfe4d0781465f030a3"
     },
     {
       "path": "assets/concepts/environment-weather-v1.png",
@@ -35735,18 +36705,18 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 5651,
-      "sha256": "277cc4f989847d371b1c20f9cdd606a942fec139c6f49769ca65a38d95bca0f6"
+      "bytes": 6336,
+      "sha256": "82fb8f6b4a5fd2ceb746874caaf8312b76233c68aea7dedf009e267d4e5ea488"
     },
     {
       "path": "docs/combat-design.md",
-      "bytes": 8300,
-      "sha256": "6f006b36c18cafeaf2d43decd6ddd33c032ce2cbc515454a547422d0511457fa"
+      "bytes": 10009,
+      "sha256": "85e2117092ab387f3cfe51900d5fd505bba21e1aa4f32b456c02753da321bb39"
     },
     {
       "path": "docs/game-direction.md",
-      "bytes": 9557,
-      "sha256": "62b21770ad5d56143bab013fb1ee95ec5022ccf1f94328bf6287412e15782cd5"
+      "bytes": 10625,
+      "sha256": "3d0a9a762af98b1fe651fff2208571357d5eb980c79a15bec1f3a90b99d4e33f"
     },
     {
       "path": "docs/infected.md",
@@ -35757,6 +36727,11 @@
       "path": "docs/survivors.md",
       "bytes": 16818,
       "sha256": "c405a7958903e1c66805415ce962590e31df659667308d7efa6d5cb300266bb2"
+    },
+    {
+      "path": "output/combat-vfx-v1.zip",
+      "bytes": 12609058,
+      "sha256": "acc9853528e47602e471c692cb5f74fe401e9de98b050682403fc2e57546d91e"
     },
     {
       "path": "output/infected-animation-pack-v1.zip",
@@ -35807,6 +36782,36 @@
       "path": "output/infected-v2-contact.png",
       "bytes": 179079,
       "sha256": "6eceefc0f02d670dad05b9d0b7a6f9b586352781d7ec0a8ff6c7e71497809975"
+    },
+    {
+      "path": "output/qa-combat-vfx/all.png",
+      "bytes": 263517,
+      "sha256": "a02e3dd982468fa70a534c916f0ed479d92c12438eda76694879d58a11910524"
+    },
+    {
+      "path": "output/qa-combat-vfx/blood.png",
+      "bytes": 56960,
+      "sha256": "ad55f66b0a9625962f98958fc58de2d29a0439ee271e8c03a1fd7501b1e69f64"
+    },
+    {
+      "path": "output/qa-combat-vfx/directional.png",
+      "bytes": 66990,
+      "sha256": "2c8a2c43e69e39fae71a15c237ae1d72ca49d5023fc3d4e847b8610a45cab3a8"
+    },
+    {
+      "path": "output/qa-combat-vfx/impacts-light.png",
+      "bytes": 87296,
+      "sha256": "4c3425ebd1f243d178e81bdd4cb96559177cc5d2ae9de02c2854e2069be032d0"
+    },
+    {
+      "path": "output/qa-combat-vfx/impacts.png",
+      "bytes": 85009,
+      "sha256": "d27cb2241508b00da8ca67db754245262569240aa520bca8a755a7a5f82f9815"
+    },
+    {
+      "path": "output/qa-combat-vfx/spores.png",
+      "bytes": 129267,
+      "sha256": "4c39551bdf522ed7bde36bc8bd58ae0f36cc9db022e5fd4880482781c5d085ec"
     },
     {
       "path": "output/qa-deaths/bloater.png",
@@ -35930,8 +36935,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 1087,
-      "sha256": "7836ad0019f07131e0615c40356e889ff358f7b0b81d01012f689289d950b7d7"
+      "bytes": 1205,
+      "sha256": "a426ffd00884d26cf4bba0f8b05461352f52ad8d43ad81e2a8fad59f4b12167b"
+    },
+    {
+      "path": "tools/build-combat-vfx.cjs",
+      "bytes": 7348,
+      "sha256": "a671246e43cd391c9f1be847e0336c7aaad2cc9a7a4ce684f648b60f12fe662c"
     },
     {
       "path": "tools/build-infected-deaths.cjs",
@@ -35960,8 +36970,13 @@
     },
     {
       "path": "tools/check-asset-files.cjs",
-      "bytes": 5372,
-      "sha256": "08b08d173c4ae46fddc319f801357a24ae3a313018a8e5b4fd19ae60cfa06968"
+      "bytes": 6280,
+      "sha256": "3e4a05c86c13dc7d912302fdb839c4a414a53f8f1c56f1d82657ff9ebbc9ea88"
+    },
+    {
+      "path": "tools/check-combat-vfx.cjs",
+      "bytes": 6850,
+      "sha256": "71ceab5094925da9dafc765cc44d03fc39fc099ce23cf95e88ff756a0c76a87b"
     },
     {
       "path": "tools/check-infected-deaths.cjs",

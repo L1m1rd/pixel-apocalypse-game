@@ -63,11 +63,22 @@ async function main(){
    if(v5Frames!==1344||v5Gifs!==224||v5FxFrames!==24)errors.push('Wrong v5 totals');
   }
  }catch(e){if(e.code!=='ENOENT')throw e;}
+ let combatVfxFrames=0,combatVfxAnimations=0,combatVfxDecals=0;
+ try{
+  const combat=JSON.parse(await fs.readFile(path.join(ROOT,'assets/combat-vfx-v1/manifest.json'),'utf8'));
+  for(const e of combat.effects){
+   combatVfxAnimations++;
+   for(const f of e.frames){const p=`assets/combat-vfx-v1/effects/${e.id}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);combatVfxFrames++;}
+   for(const f of ['spritesheet.png','atlas.json','animation.json','preview.gif']){const p=`assets/combat-vfx-v1/effects/${e.id}/${f}`;if(!set.has(p))errors.push('Missing '+p);}
+   if(e.decalFile){if(!set.has('assets/combat-vfx-v1/'+e.decalFile))errors.push('Missing decal '+e.decalFile);combatVfxDecals++;}
+  }
+  if(combatVfxFrames!==96||combatVfxAnimations!==16||combatVfxDecals!==1)errors.push('Wrong combat VFX totals');
+ }catch(e){if(e.code!=='ENOENT')throw e;}
  if(errors.length)throw Error(errors.join('\n'));
  if(process.argv.includes('--inventory')){
   const entries=[];for(const file of files){if(file==='docs/asset-inventory.json')continue;const data=await fs.readFile(path.join(ROOT,file));entries.push({path:file,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')});}
   await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'All project files except this inventory, Git internals, ignored local dependencies and temporary files.',files:entries.length,totalBytes:entries.reduce((sum,x)=>sum+x.bytes,0),entries},null,2)+'\n');
  }
- console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,markdownLinksValid:true,allFilesBelow100MiB:true}));
+ console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,combatVfxAnimations,combatVfxFrames,combatVfxDecals,markdownLinksValid:true,allFilesBelow100MiB:true}));
 }
 main().catch(e=>{console.error(e.message);process.exitCode=1;});
