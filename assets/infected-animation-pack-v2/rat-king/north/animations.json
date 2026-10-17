@@ -1,0 +1,68 @@
+{
+  "monster": "rat-king",
+  "direction": "north",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_north_04",
+        "idle_north_05"
+      ],
+      "durationMs": 320,
+      "frameRate": 3.125,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05"
+      ],
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_north_00",
+        "run_north_01",
+        "run_north_02",
+        "run_north_03",
+        "run_north_04",
+        "run_north_05"
+      ],
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_north_00",
+        "attack_north_01",
+        "attack_north_02",
+        "attack_north_03",
+        "attack_north_04",
+        "attack_north_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3
+      }
+    }
+  }
+}

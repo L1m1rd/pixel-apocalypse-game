@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Заражённые — 24 анимации</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111715;color:#e2e6dc;font:15px system-ui,sans-serif}header{padding:30px 32px 18px;border-bottom:1px solid #344037}h1{margin:5px 0 10px;font-size:30px}p{color:#a7b6aa;line-height:1.6;max-width:900px}.eyebrow{font:12px monospace;letter-spacing:3px;color:#d2b47c}.controls{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:22px 0 10px}button,select{background:#26352c;border:1px solid #536759;color:inherit;padding:9px 15px;border-radius:5px;font:inherit}button{cursor:pointer}main{padding:24px 32px;max-width:1400px;margin:auto}.monster{margin:0 0 34px}.monster h2{font-size:20px;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{background:#19231d;border:1px solid #344037;border-radius:8px;overflow:hidden}.card h3{font-size:14px;margin:12px 14px 0}.meta{font:12px monospace;color:#a5b3a7;padding:10px 14px}.stage{display:grid;place-items:center;background:repeating-conic-gradient(#26332b 0% 25%,#202b24 0% 50%) 50% / 24px 24px}canvas{width:100%;max-width:256px;image-rendering:pixelated}.card a{color:#dec38f;text-decoration:none}.hot{color:#ecb17a}.small{font-size:12px}body.flat .stage{background:#c9cec3}@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}header,main{padding:20px}}
+</style>
+<header><div class="eyebrow">INFECTED / ANIMATION PACK V1</div><h1>Шесть заражённых. Четыре движения.</h1><p>144 кадра • Направление вниз • Прозрачные PNG для игры и GIF для просмотра. Здесь атаки повторяются для удобства; в игровых настройках атака проигрывается один раз.</p>
+<div class="controls"><button id="pause">Пауза</button><label>Скорость <select id="speed"><option value="0.5">0,5×</option><option value="1" selected>1×</option><option value="1.5">1,5×</option><option value="2">2×</option></select></label><button id="bg">Светлый фон</button><span id="status">Загрузка изображений…</span></div></header>
+<main id="content"></main><script src="manifest.js"></script><script>
+const labels={idle:'Ожидание',walk:'Ходьба',run:'Бег',attack:'Атака'};
+const cards=[];let playing=true,time=0,last=performance.now(),loaded=0;
+for(const m of window.INFECTED_PACK.monsters){
+ const section=document.createElement('section');section.className='monster';
+ section.innerHTML='<h2>'+m.name+' <span class="small">'+m.frameSize+' × '+m.frameSize+' px</span></h2><div class="grid"></div>';
+ const image=new Image();image.onload=()=>{loaded++;document.querySelector('#status').textContent=loaded+'/6 листов загружено'};image.onerror=()=>document.querySelector('#status').textContent='Ошибка загрузки '+m.id;image.src=m.id+'/spritesheet.png';
+ Object.entries(m.animations).forEach(([state,a],row)=>{
+  const card=document.createElement('article');card.className='card';card.innerHTML='<h3>'+labels[state]+'</h3><div class="stage"><canvas width="256" height="256"></canvas></div><div class="meta"><span class="frame"></span> · '+a.durationMs+' мс/кадр<br><a href="'+m.id+'/previews/'+state+'.gif">Открыть GIF ↗</a></div>';
+  section.querySelector('.grid').append(card);cards.push({m,state,a,row,image,canvas:card.querySelector('canvas'),label:card.querySelector('.frame')});
+ });document.querySelector('#content').append(section);
+}
+document.querySelector('#pause').onclick=e=>{playing=!playing;e.target.textContent=playing?'Пауза':'Продолжить'};
+document.querySelector('#bg').onclick=()=>document.body.classList.toggle('flat');
+function tick(now){if(playing)time+=(now-last)*Number(document.querySelector('#speed').value);last=now;
+ for(const c of cards){if(!c.image.complete||!c.image.naturalWidth)continue;const i=Math.floor(time/c.a.durationMs)%6;const s=c.m.frameSize;const ctx=c.canvas.getContext('2d');ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,256,256);const zoom=s===96?2:256/s;const d=s*zoom;ctx.drawImage(c.image,i*s,c.row*s,s,s,(256-d)/2,(256-d)/2,d,d);c.label.textContent='Кадр '+(i+1)+'/6'+(c.state==='attack'&&i===3?' · КОНТАКТ':'');c.label.className='frame'+(c.state==='attack'&&i===3?' hot':'');}
+ requestAnimationFrame(tick);
+}requestAnimationFrame(tick);
+</script></html>

@@ -1,0 +1,20 @@
+{
+  "name": "pixel-apocalypse-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pixel survival game concepts, infected animation packs and design documentation",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "check:assets": "node tools/check-asset-files.cjs",
+    "check:viewer": "node tools/check-infected-v2.cjs",
+    "build:infected:v1": "node tools/build-infected-pack.cjs --zip",
+    "build:infected:v2": "node tools/build-infected-v2.cjs",
+    "build:survivors": "node tools/package-survivor-visuals.cjs",
+    "inventory": "node tools/check-asset-files.cjs --inventory"
+  },
+  "devDependencies": {
+    "jszip": "3.10.1",
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}

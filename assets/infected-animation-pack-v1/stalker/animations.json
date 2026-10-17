@@ -1,0 +1,69 @@
+{
+  "monster": "stalker",
+  "direction": "south",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "origin": {
+    "x": 0.5,
+    "y": 0.890625
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_south_04",
+        "idle_south_05"
+      ],
+      "durationMs": 240,
+      "frameRate": 4.166666666666667,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05"
+      ],
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_south_00",
+        "run_south_01",
+        "run_south_02",
+        "run_south_03",
+        "run_south_04",
+        "run_south_05"
+      ],
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_south_00",
+        "attack_south_01",
+        "attack_south_02",
+        "attack_south_03",
+        "attack_south_04",
+        "attack_south_05"
+      ],
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3,
+        "note": "Zero-based visual cue only. Damage and cooldown must be decided by game/server code."
+      }
+    }
+  }
+}

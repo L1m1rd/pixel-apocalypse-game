@@ -1,0 +1,69 @@
+{
+  "monster": "rat-king",
+  "direction": "south",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.9609375
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_south_04",
+        "idle_south_05"
+      ],
+      "durationMs": 320,
+      "frameRate": 3.125,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05"
+      ],
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_south_00",
+        "run_south_01",
+        "run_south_02",
+        "run_south_03",
+        "run_south_04",
+        "run_south_05"
+      ],
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_south_00",
+        "attack_south_01",
+        "attack_south_02",
+        "attack_south_03",
+        "attack_south_04",
+        "attack_south_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3,
+        "note": "Zero-based visual cue only. Damage and cooldown must be decided by game/server code."
+      }
+    }
+  }
+}
