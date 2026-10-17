@@ -45,7 +45,7 @@ async function main(){
  const pending=git(['diff','--cached','--name-only']);
  if(pending){
   console.log('Committing '+pending.split('\n').length+' project files');
-  git(['-c','user.name='+OWNER,'-c',`user.email=${profile.data.id}+${OWNER}@users.noreply.github.com`,'commit','-m','Add all survival game visuals, animations and character design documentation']);
+  git(['-c','user.name='+OWNER,'-c',`user.email=${profile.data.id}+${OWNER}@users.noreply.github.com`,'commit','-m',process.argv[2]||'Add all survival game visuals, animations and character design documentation']);
  }
  const branch=git(['branch','--show-current']);
  console.log('Uploading project to private GitHub repository…');

@@ -1,0 +1,38 @@
+{
+  "monster": "rat-king",
+  "direction": "north",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "death": {
+      "frames": [
+        "death_north_00",
+        "death_north_01",
+        "death_north_02",
+        "death_north_03",
+        "death_north_04",
+        "death_north_05"
+      ],
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": 0,
+      "rootMotion": false,
+      "terminalFrame": "death_north_05",
+      "holdLastFrame": true
+    }
+  },
+  "corpse": {
+    "frame": "death_north_05",
+    "image": "corpse.png",
+    "static": true,
+    "origin": {
+      "x": 0.5,
+      "y": 0.875
+    },
+    "rootMotion": false
+  }
+}

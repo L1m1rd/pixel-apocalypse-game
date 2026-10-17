@@ -12,6 +12,8 @@
     "build:survivors": "node tools/package-survivor-visuals.cjs",
     "build:reactions": "node tools/build-infected-reactions.cjs",
     "check:reactions": "node tools/check-infected-reactions.cjs",
+    "build:deaths": "node tools/build-infected-deaths.cjs",
+    "check:deaths": "node tools/check-infected-deaths.cjs",
     "inventory": "node tools/check-asset-files.cjs --inventory"
   },
   "devDependencies": {

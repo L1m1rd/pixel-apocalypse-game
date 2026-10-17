@@ -1,0 +1,116 @@
+{
+  "previousPack": "../../../infected-animation-pack-v3/rat-king/west/source-crops.json",
+  "death": {
+    "source": "../../../infected-deaths-v1/sources/rat-king.png",
+    "directionRow": 1,
+    "fixedSourceAnchor": {
+      "x": 125,
+      "y": 233
+    },
+    "fixedDestinationAnchor": {
+      "x": 69,
+      "y": 110
+    },
+    "scale": 0.35751295336787564,
+    "targetHeight": 69,
+    "frameTransformsFixed": true,
+    "frames": [
+      {
+        "name": "death_west_00",
+        "sourceBounds": {
+          "x": 27,
+          "y": 297,
+          "w": 197,
+          "h": 193
+        },
+        "destination": {
+          "x": 34,
+          "y": 41,
+          "w": 70,
+          "h": 69
+        },
+        "sha256": "5fb8dc9c69e9ddac8e89cc95f038657030d01ad3256fac6fb9b4b0531765a0e9"
+      },
+      {
+        "name": "death_west_01",
+        "sourceBounds": {
+          "x": 264,
+          "y": 321,
+          "w": 208,
+          "h": 177
+        },
+        "destination": {
+          "x": 27,
+          "y": 50,
+          "w": 74,
+          "h": 63
+        },
+        "sha256": "782e9d3fdb50f808675d8e061ca52875d8155810d3837cbb930163a8785f0a75"
+      },
+      {
+        "name": "death_west_02",
+        "sourceBounds": {
+          "x": 501,
+          "y": 354,
+          "w": 222,
+          "h": 151
+        },
+        "destination": {
+          "x": 20,
+          "y": 62,
+          "w": 79,
+          "h": 54
+        },
+        "sha256": "2fc8cc16722284a1e669198753d4d4e272ab5882fbf90d060366275d5e8ed424"
+      },
+      {
+        "name": "death_west_03",
+        "sourceBounds": {
+          "x": 737,
+          "y": 389,
+          "w": 241,
+          "h": 124
+        },
+        "destination": {
+          "x": 13,
+          "y": 74,
+          "w": 86,
+          "h": 44
+        },
+        "sha256": "9af0c0b8902103f447ab4e3ea50fb81d753720a3421bd5f1deebf81d4d201229"
+      },
+      {
+        "name": "death_west_04",
+        "sourceBounds": {
+          "x": 998,
+          "y": 417,
+          "w": 257,
+          "h": 101
+        },
+        "destination": {
+          "x": 15,
+          "y": 84,
+          "w": 92,
+          "h": 36
+        },
+        "sha256": "68bea2e8f3444731909b0b1ddc9c04e61fceee4275e9b7fc30cc9c15cbbcd5bb"
+      },
+      {
+        "name": "death_west_05",
+        "sourceBounds": {
+          "x": 1271,
+          "y": 423,
+          "w": 248,
+          "h": 90
+        },
+        "destination": {
+          "x": 21,
+          "y": 86,
+          "w": 89,
+          "h": 32
+        },
+        "sha256": "f0d4e4d5bc9451c2cf1153905c19045c2afb0f0f18c1849523097f6434d1277c"
+      }
+    ]
+  }
+}
