@@ -1,0 +1,810 @@
+{
+  "actions": [
+    {
+      "state": "charge_start",
+      "source": "../../sources/rat-king-charge_start.png",
+      "directionRow": 1,
+      "referenceState": "idle",
+      "scale": 0.359375,
+      "requestedScale": 0.359375,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 260
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "charge_start_west_00",
+          "sourceBounds": {
+            "x": 38,
+            "y": 323,
+            "w": 192,
+            "h": 192
+          },
+          "destination": {
+            "x": 30,
+            "y": 41,
+            "w": 69,
+            "h": 69
+          },
+          "sha256": "c772f8820b217a2570e6a2f02a6fe03658f098173340476918bda5bafca94cbe"
+        },
+        {
+          "name": "charge_start_west_01",
+          "sourceBounds": {
+            "x": 308,
+            "y": 308,
+            "w": 183,
+            "h": 206
+          },
+          "destination": {
+            "x": 35,
+            "y": 35,
+            "w": 66,
+            "h": 74
+          },
+          "sha256": "8e1828add00dcc284915ff94207649ca2f16d72a672c3140d08209201dfe3019"
+        },
+        {
+          "name": "charge_start_west_02",
+          "sourceBounds": {
+            "x": 536,
+            "y": 349,
+            "w": 220,
+            "h": 168
+          },
+          "destination": {
+            "x": 25,
+            "y": 50,
+            "w": 79,
+            "h": 60
+          },
+          "sha256": "291757ffdc696102bedf9b127445ac3f3649c0e0d77ed4396679cac3e9b68a75"
+        },
+        {
+          "name": "charge_start_west_03",
+          "sourceBounds": {
+            "x": 796,
+            "y": 366,
+            "w": 216,
+            "h": 151
+          },
+          "destination": {
+            "x": 26,
+            "y": 56,
+            "w": 78,
+            "h": 54
+          },
+          "sha256": "6f087fa695ae6af52ad65455b616b74fef21ca520e6ff24abda4b8155d927c5f"
+        },
+        {
+          "name": "charge_start_west_04",
+          "sourceBounds": {
+            "x": 1045,
+            "y": 352,
+            "w": 202,
+            "h": 165
+          },
+          "destination": {
+            "x": 24,
+            "y": 51,
+            "w": 73,
+            "h": 59
+          },
+          "sha256": "ab29dae65e06950dd284d4ef5bd74df06d5070ba966ba015f5f121d1bb3468da"
+        },
+        {
+          "name": "charge_start_west_05",
+          "sourceBounds": {
+            "x": 1292,
+            "y": 373,
+            "w": 215,
+            "h": 154
+          },
+          "destination": {
+            "x": 20,
+            "y": 59,
+            "w": 77,
+            "h": 55
+          },
+          "sha256": "08bd3e71ef161e683ff26ddd9bac4b2fc5462f1cfc8dda3ffa00283ae5454221"
+        }
+      ]
+    },
+    {
+      "state": "charge_loop",
+      "source": "../../sources/rat-king-charge_loop.png",
+      "directionRow": 1,
+      "referenceState": "run",
+      "scale": 0.3539325842696629,
+      "requestedScale": 0.3539325842696629,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 256
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "charge_loop_west_00",
+          "sourceBounds": {
+            "x": 27,
+            "y": 331,
+            "w": 232,
+            "h": 178
+          },
+          "destination": {
+            "x": 23,
+            "y": 46,
+            "w": 82,
+            "h": 63
+          },
+          "sha256": "a7ae99105f9cbadf8006131e47e680f5cebc018855cde369a639d50fe40cd208"
+        },
+        {
+          "name": "charge_loop_west_01",
+          "sourceBounds": {
+            "x": 288,
+            "y": 336,
+            "w": 234,
+            "h": 177
+          },
+          "destination": {
+            "x": 25,
+            "y": 48,
+            "w": 83,
+            "h": 63
+          },
+          "sha256": "aec027df4b9c0004bde70b7c890e49989a52934dc3443deb64f8badf0ef20ea1"
+        },
+        {
+          "name": "charge_loop_west_02",
+          "sourceBounds": {
+            "x": 536,
+            "y": 337,
+            "w": 235,
+            "h": 177
+          },
+          "destination": {
+            "x": 22,
+            "y": 48,
+            "w": 83,
+            "h": 63
+          },
+          "sha256": "126ef942e0c466b3e2e1c997b4239ac74e781a932de42288c44be59d9bae040c"
+        },
+        {
+          "name": "charge_loop_west_03",
+          "sourceBounds": {
+            "x": 789,
+            "y": 332,
+            "w": 242,
+            "h": 182
+          },
+          "destination": {
+            "x": 21,
+            "y": 46,
+            "w": 86,
+            "h": 64
+          },
+          "sha256": "fa8b22286a17526885dc635ced09c797fad5f075703783195827d061b83edb41"
+        },
+        {
+          "name": "charge_loop_west_04",
+          "sourceBounds": {
+            "x": 1058,
+            "y": 331,
+            "w": 193,
+            "h": 182
+          },
+          "destination": {
+            "x": 26,
+            "y": 46,
+            "w": 68,
+            "h": 64
+          },
+          "sha256": "4e1013a621ff319b8e45ad39a58c655d3cebb19b0da55d877ab0fe22372bdf94"
+        },
+        {
+          "name": "charge_loop_west_05",
+          "sourceBounds": {
+            "x": 1280,
+            "y": 331,
+            "w": 235,
+            "h": 177
+          },
+          "destination": {
+            "x": 14,
+            "y": 46,
+            "w": 83,
+            "h": 63
+          },
+          "sha256": "784b0e6755ce184db5757b4694bb79356e09f287587f2f6d6b35f2ddba74158d"
+        }
+      ]
+    },
+    {
+      "state": "charge_impact",
+      "source": "../../sources/rat-king-charge_impact.png",
+      "directionRow": 1,
+      "referenceState": "run",
+      "scale": 0.38181818181818183,
+      "requestedScale": 0.38181818181818183,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 238
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "charge_impact_west_00",
+          "sourceBounds": {
+            "x": 35,
+            "y": 327,
+            "w": 201,
+            "h": 165
+          },
+          "destination": {
+            "x": 26,
+            "y": 46,
+            "w": 77,
+            "h": 63
+          },
+          "sha256": "376833104ab58bd5809037861d3e9d49fc63ffe2f4c41cc16f36b46da9f22c65"
+        },
+        {
+          "name": "charge_impact_west_01",
+          "sourceBounds": {
+            "x": 271,
+            "y": 336,
+            "w": 244,
+            "h": 156
+          },
+          "destination": {
+            "x": 18,
+            "y": 50,
+            "w": 93,
+            "h": 60
+          },
+          "sha256": "b2bde932b398fd16b3678038d60cc9553e038251804ae40a42da81c33e7be7f7"
+        },
+        {
+          "name": "charge_impact_west_02",
+          "sourceBounds": {
+            "x": 529,
+            "y": 331,
+            "w": 244,
+            "h": 164
+          },
+          "destination": {
+            "x": 19,
+            "y": 48,
+            "w": 93,
+            "h": 63
+          },
+          "sha256": "ed5af1b685e3be44e29a47e89d5a0338c5d7207fbce07d17bd9b4a261d87a5df"
+        },
+        {
+          "name": "charge_impact_west_03",
+          "sourceBounds": {
+            "x": 820,
+            "y": 312,
+            "w": 208,
+            "h": 184
+          },
+          "destination": {
+            "x": 32,
+            "y": 41,
+            "w": 79,
+            "h": 70
+          },
+          "sha256": "3a06854656f45d5e8d58c9d9e2e7003b42153a8f6abfe651d0ab46c411e36f17"
+        },
+        {
+          "name": "charge_impact_west_04",
+          "sourceBounds": {
+            "x": 1081,
+            "y": 298,
+            "w": 175,
+            "h": 197
+          },
+          "destination": {
+            "x": 34,
+            "y": 35,
+            "w": 67,
+            "h": 75
+          },
+          "sha256": "9970916c32616cd7170b4d9c26ed5700c48de4ebb26629a3d87be27d77a0894c"
+        },
+        {
+          "name": "charge_impact_west_05",
+          "sourceBounds": {
+            "x": 1325,
+            "y": 312,
+            "w": 178,
+            "h": 183
+          },
+          "destination": {
+            "x": 30,
+            "y": 41,
+            "w": 68,
+            "h": 70
+          },
+          "sha256": "40c839e4e3ec3a69f655b839d05a90720df2034f3e40ff56e015121a5b87081e"
+        }
+      ]
+    },
+    {
+      "state": "heavy_combo",
+      "source": "../../sources/rat-king-heavy_combo.png",
+      "directionRow": 1,
+      "referenceState": "idle",
+      "scale": 0.33242506811989103,
+      "requestedScale": 0.34328358208955223,
+      "scaleRatio": 0.9683686766970739,
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 270
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "heavy_combo_west_00",
+          "sourceBounds": {
+            "x": 36,
+            "y": 326,
+            "w": 207,
+            "h": 201
+          },
+          "destination": {
+            "x": 30,
+            "y": 44,
+            "w": 69,
+            "h": 67
+          },
+          "sha256": "1a3d0744348bcb12d0821d84fe83099294f196368c27425dd1e63fa147cff2aa"
+        },
+        {
+          "name": "heavy_combo_west_01",
+          "sourceBounds": {
+            "x": 302,
+            "y": 317,
+            "w": 203,
+            "h": 210
+          },
+          "destination": {
+            "x": 33,
+            "y": 41,
+            "w": 67,
+            "h": 70
+          },
+          "sha256": "5e484621ec4ec3a6ea4abed7c6c6bc2eb58ca4965dc01f04a4d928baca25fc7c"
+        },
+        {
+          "name": "heavy_combo_west_02",
+          "sourceBounds": {
+            "x": 545,
+            "y": 349,
+            "w": 290,
+            "h": 178
+          },
+          "destination": {
+            "x": 29,
+            "y": 51,
+            "w": 96,
+            "h": 59
+          },
+          "sha256": "5d83d72d33d6aa40ea65353dd048a1fef2cae2d986faa37429194a70eceec1c8"
+        },
+        {
+          "name": "heavy_combo_west_03",
+          "sourceBounds": {
+            "x": 824,
+            "y": 320,
+            "w": 202,
+            "h": 207
+          },
+          "destination": {
+            "x": 36,
+            "y": 42,
+            "w": 67,
+            "h": 69
+          },
+          "sha256": "a73c27403780ac952634027c118e9414a47d289638e56506bd9e5106f6045a2f"
+        },
+        {
+          "name": "heavy_combo_west_04",
+          "sourceBounds": {
+            "x": 1056,
+            "y": 351,
+            "w": 211,
+            "h": 185
+          },
+          "destination": {
+            "x": 28,
+            "y": 52,
+            "w": 70,
+            "h": 61
+          },
+          "sha256": "3f140b95fe57f38681280117115711ed7ba5a5a5bbe97868a720bf26c5ecf48b"
+        },
+        {
+          "name": "heavy_combo_west_05",
+          "sourceBounds": {
+            "x": 1297,
+            "y": 336,
+            "w": 205,
+            "h": 191
+          },
+          "destination": {
+            "x": 23,
+            "y": 47,
+            "w": 68,
+            "h": 63
+          },
+          "sha256": "6483d8c7f11e630078a76b750db8c4422490fc25357fc83122271a241e4fec64"
+        }
+      ]
+    },
+    {
+      "state": "ground_slam",
+      "source": "../../sources/rat-king-ground_slam.png",
+      "directionRow": 1,
+      "referenceState": "idle",
+      "scale": 0.38333333333333336,
+      "requestedScale": 0.38333333333333336,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 277
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "ground_slam_west_00",
+          "sourceBounds": {
+            "x": 52,
+            "y": 353,
+            "w": 198,
+            "h": 180
+          },
+          "destination": {
+            "x": 26,
+            "y": 41,
+            "w": 76,
+            "h": 69
+          },
+          "sha256": "466b0480d166b483187ce9e2fcc761cdf05a4763abc501b7dce2f31fd73ce893"
+        },
+        {
+          "name": "ground_slam_west_01",
+          "sourceBounds": {
+            "x": 341,
+            "y": 334,
+            "w": 164,
+            "h": 200
+          },
+          "destination": {
+            "x": 39,
+            "y": 34,
+            "w": 63,
+            "h": 77
+          },
+          "sha256": "48f161147da2cfc60e5ccee0942141ff818e6a4495152773f7e739d6ccb19763"
+        },
+        {
+          "name": "ground_slam_west_02",
+          "sourceBounds": {
+            "x": 578,
+            "y": 291,
+            "w": 166,
+            "h": 233
+          },
+          "destination": {
+            "x": 32,
+            "y": 17,
+            "w": 64,
+            "h": 89
+          },
+          "sha256": "c2a69e559456893491a75ec51ed0da540562ab21244a4cc15892a3987e1b5ffe"
+        },
+        {
+          "name": "ground_slam_west_03",
+          "sourceBounds": {
+            "x": 814,
+            "y": 388,
+            "w": 202,
+            "h": 147
+          },
+          "destination": {
+            "x": 24,
+            "y": 54,
+            "w": 77,
+            "h": 56
+          },
+          "sha256": "e29134cd18b99e33b7973ef7e03de915c709b6d29fcef425a3e97f414bacad16"
+        },
+        {
+          "name": "ground_slam_west_04",
+          "sourceBounds": {
+            "x": 1061,
+            "y": 383,
+            "w": 207,
+            "h": 153
+          },
+          "destination": {
+            "x": 20,
+            "y": 52,
+            "w": 79,
+            "h": 59
+          },
+          "sha256": "ed298d57976a7a04c1957a6eab050fb236c5d9e5caf4425a3f3d9414a76a66bb"
+        },
+        {
+          "name": "ground_slam_west_05",
+          "sourceBounds": {
+            "x": 1304,
+            "y": 353,
+            "w": 194,
+            "h": 180
+          },
+          "destination": {
+            "x": 16,
+            "y": 41,
+            "w": 74,
+            "h": 69
+          },
+          "sha256": "22888ada0752d456c73a850b220477dfb85d5ced0cc18ccd20a375981e19a26a"
+        }
+      ]
+    },
+    {
+      "state": "phase2_roar",
+      "source": "../../sources/rat-king-phase2_roar.png",
+      "directionRow": 1,
+      "referenceState": "idle",
+      "scale": 0.3670212765957447,
+      "requestedScale": 0.3670212765957447,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 256
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "phase2_roar_west_00",
+          "sourceBounds": {
+            "x": 40,
+            "y": 325,
+            "w": 189,
+            "h": 188
+          },
+          "destination": {
+            "x": 30,
+            "y": 41,
+            "w": 69,
+            "h": 69
+          },
+          "sha256": "b2d72e3ee14f57999df1684281168cd2cd44067890ff46c06c1123777916fcb7"
+        },
+        {
+          "name": "phase2_roar_west_01",
+          "sourceBounds": {
+            "x": 296,
+            "y": 310,
+            "w": 185,
+            "h": 203
+          },
+          "destination": {
+            "x": 30,
+            "y": 36,
+            "w": 68,
+            "h": 75
+          },
+          "sha256": "8477836228cbba6849cfab0279871ea452ce21d095d66a4ff037d4aa411d83eb"
+        },
+        {
+          "name": "phase2_roar_west_02",
+          "sourceBounds": {
+            "x": 541,
+            "y": 305,
+            "w": 199,
+            "h": 208
+          },
+          "destination": {
+            "x": 25,
+            "y": 34,
+            "w": 73,
+            "h": 76
+          },
+          "sha256": "56ac18346117f8eb434d91db76e560dfa26df7e546644b5391b157b842d6c472"
+        },
+        {
+          "name": "phase2_roar_west_03",
+          "sourceBounds": {
+            "x": 749,
+            "y": 304,
+            "w": 307,
+            "h": 207
+          },
+          "destination": {
+            "x": 8,
+            "y": 34,
+            "w": 113,
+            "h": 76
+          },
+          "sha256": "495afe156d4c0f8434aa2305e465929533f34c8ddcdc8a5f726ca001ff934b9a"
+        },
+        {
+          "name": "phase2_roar_west_04",
+          "sourceBounds": {
+            "x": 1055,
+            "y": 325,
+            "w": 208,
+            "h": 188
+          },
+          "destination": {
+            "x": 26,
+            "y": 41,
+            "w": 76,
+            "h": 69
+          },
+          "sha256": "b1accfdfdc9fc0952c5e29b9dc93850fb7fc7f7ac47268c6f4186f605782da08"
+        },
+        {
+          "name": "phase2_roar_west_05",
+          "sourceBounds": {
+            "x": 1311,
+            "y": 329,
+            "w": 217,
+            "h": 184
+          },
+          "destination": {
+            "x": 26,
+            "y": 43,
+            "w": 80,
+            "h": 68
+          },
+          "sha256": "ff80ebce3614c240624ae3de162157ed95ccba4361b77249afb947ebc77a3b89"
+        }
+      ]
+    },
+    {
+      "state": "phase3_enrage",
+      "source": "../../sources/rat-king-phase3_enrage.png",
+      "directionRow": 1,
+      "referenceState": "run",
+      "scale": 0.35195530726256985,
+      "requestedScale": 0.35195530726256985,
+      "scaleRatio": 1,
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 277
+      },
+      "fixedDestinationAnchor": {
+        "x": 64,
+        "y": 110
+      },
+      "frames": [
+        {
+          "name": "phase3_enrage_west_00",
+          "sourceBounds": {
+            "x": 42,
+            "y": 351,
+            "w": 206,
+            "h": 179
+          },
+          "destination": {
+            "x": 28,
+            "y": 46,
+            "w": 73,
+            "h": 63
+          },
+          "sha256": "679de1c316ba7d7e1d7c63a5fd98dc4f567ff52b5a2b022aa8b41598b2dd1a01"
+        },
+        {
+          "name": "phase3_enrage_west_01",
+          "sourceBounds": {
+            "x": 312,
+            "y": 338,
+            "w": 167,
+            "h": 194
+          },
+          "destination": {
+            "x": 33,
+            "y": 41,
+            "w": 59,
+            "h": 68
+          },
+          "sha256": "5c5df39db44be63d1831bd8ce920524c8cba1d1ba2b62aa551a9ac8f7a224d19"
+        },
+        {
+          "name": "phase3_enrage_west_02",
+          "sourceBounds": {
+            "x": 543,
+            "y": 374,
+            "w": 183,
+            "h": 160
+          },
+          "destination": {
+            "x": 24,
+            "y": 54,
+            "w": 64,
+            "h": 56
+          },
+          "sha256": "a7e5b188c9ed12471e9b381e0c91c0c8e0441d9ab14e926736fd89361c4b2d2a"
+        },
+        {
+          "name": "phase3_enrage_west_03",
+          "sourceBounds": {
+            "x": 774,
+            "y": 298,
+            "w": 209,
+            "h": 234
+          },
+          "destination": {
+            "x": 15,
+            "y": 27,
+            "w": 74,
+            "h": 82
+          },
+          "sha256": "3d804381a71e9d882d222e206ca5ef565eaddfdb738b8c6e9a238d49a830c5c8"
+        },
+        {
+          "name": "phase3_enrage_west_04",
+          "sourceBounds": {
+            "x": 1017,
+            "y": 390,
+            "w": 286,
+            "h": 146
+          },
+          "destination": {
+            "x": 11,
+            "y": 60,
+            "w": 101,
+            "h": 51
+          },
+          "sha256": "fc99a67367f5b30d82133116bc947098067133c14fb298fc34ec507a0dadc2b3"
+        },
+        {
+          "name": "phase3_enrage_west_05",
+          "sourceBounds": {
+            "x": 1304,
+            "y": 362,
+            "w": 204,
+            "h": 172
+          },
+          "destination": {
+            "x": 22,
+            "y": 50,
+            "w": 72,
+            "h": 61
+          },
+          "sha256": "6bda5f5086257934d82f02fe902234cd1e0ca1266bb6ac1c0cd99c91e5124e0c"
+        }
+      ]
+    }
+  ],
+  "frameTransformsFixed": true
+}

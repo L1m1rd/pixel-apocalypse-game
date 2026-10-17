@@ -1,0 +1,42 @@
+{
+  "monster": "bloater",
+  "direction": "north",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "throw_growth": {
+      "frames": [
+        "throw_growth_north_00",
+        "throw_growth_north_01",
+        "throw_growth_north_02",
+        "throw_growth_north_03",
+        "throw_growth_north_04",
+        "throw_growth_north_05"
+      ],
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "projectile_release",
+          "socket": "throw_hand",
+          "effect": "growth_projectile"
+        }
+      ]
+    }
+  },
+  "sockets": {
+    "throw_hand": {
+      "frame": "throw_growth_north_03",
+      "x": 62,
+      "y": 36,
+      "placement": "hand center reviewed on exported release frame"
+    }
+  }
+}

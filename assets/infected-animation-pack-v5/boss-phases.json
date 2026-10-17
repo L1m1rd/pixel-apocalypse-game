@@ -1,0 +1,31 @@
+{
+  "monster": "rat-king",
+  "status": "proposed-animation-contract",
+  "healthThresholdsAreDraft": true,
+  "serverMechanicsImplemented": false,
+  "priority": ["death", "phase-transition", "special-attack", "locomotion"],
+  "phases": [
+    {"id": 1, "name": "Тяжёлый бой", "enterAtHealthFraction": 1, "transition": null, "moves": ["attack"], "description": "Обычные тяжёлые удары и сближение. Базовые idle/walk/run/hurt/death берутся из полного набора v5."},
+    {"id": 2, "name": "Натиск", "enterAtHealthFraction": 0.65, "transition": "phase2_roar", "moves": ["attack", "charge_start", "charge_loop", "charge_impact", "heavy_combo"], "description": "После перехода доступны таран и комбо из двух ударов."},
+    {"id": 3, "name": "Ярость", "enterAtHealthFraction": 0.30, "transition": "phase3_enrage", "moves": ["attack", "charge_start", "charge_loop", "charge_impact", "heavy_combo", "ground_slam"], "description": "Сохраняет предыдущие приёмы и добавляет удар по земле. Ускорение/урон/кулдауны ещё не назначены."}
+  ],
+  "transitionRules": {
+    "authority": "server",
+    "monotonic": true,
+    "playEachTransitionAtMostOnce": true,
+    "deathCancelsTransition": true,
+    "onRestoreShowSavedPhaseWithoutReplayingRoar": true,
+    "onLargeHealthDrop": "Сервер выбирает конечную фазу и один переход к ней; не воспроизводить сразу два рёва.",
+    "persistentVisualForm": "Сохраняется утверждённый облик; фазы различаются переходной анимацией и набором приёмов."
+  },
+  "chargeSequence": {
+    "windup": "charge_start",
+    "onWindupComplete": "charge_loop",
+    "loopUntil": "server collision, maximum distance or maximum duration",
+    "onLoopEnd": "charge_impact",
+    "onImpactComplete": "idle",
+    "movement": "server-driven; rootMotion=false",
+    "retargetDuringCharge": false,
+    "damage": "Visual charge_contact hook does not apply damage. Server must deduplicate contact per charge instance."
+  }
+}

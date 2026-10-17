@@ -1,0 +1,281 @@
+{
+  "monster": "rat-king",
+  "direction": "west",
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "origin": {
+    "x": 0.5,
+    "y": 0.875
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_west_00",
+        "idle_west_01",
+        "idle_west_02",
+        "idle_west_03",
+        "idle_west_04",
+        "idle_west_05"
+      ],
+      "durationMs": 320,
+      "frameRate": 3.125,
+      "repeat": -1
+    },
+    "walk": {
+      "frames": [
+        "walk_west_00",
+        "walk_west_01",
+        "walk_west_02",
+        "walk_west_03",
+        "walk_west_04",
+        "walk_west_05"
+      ],
+      "durationMs": 260,
+      "frameRate": 3.8461538461538463,
+      "repeat": -1
+    },
+    "run": {
+      "frames": [
+        "run_west_00",
+        "run_west_01",
+        "run_west_02",
+        "run_west_03",
+        "run_west_04",
+        "run_west_05"
+      ],
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1
+    },
+    "attack": {
+      "frames": [
+        "attack_west_00",
+        "attack_west_01",
+        "attack_west_02",
+        "attack_west_03",
+        "attack_west_04",
+        "attack_west_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "event": {
+        "name": "hit",
+        "frame": 3
+      }
+    },
+    "hurt": {
+      "frames": [
+        "hurt_west_00",
+        "hurt_west_01",
+        "hurt_west_02",
+        "hurt_west_03",
+        "hurt_west_04",
+        "hurt_west_05"
+      ],
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "stunned": {
+      "frames": [
+        "stunned_west_00",
+        "stunned_west_01",
+        "stunned_west_02",
+        "stunned_west_03",
+        "stunned_west_04",
+        "stunned_west_05"
+      ],
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": -1,
+      "rootMotion": false
+    },
+    "knockback": {
+      "frames": [
+        "knockback_west_00",
+        "knockback_west_01",
+        "knockback_west_02",
+        "knockback_west_03",
+        "knockback_west_04",
+        "knockback_west_05"
+      ],
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false
+    },
+    "death": {
+      "frames": [
+        "death_west_00",
+        "death_west_01",
+        "death_west_02",
+        "death_west_03",
+        "death_west_04",
+        "death_west_05"
+      ],
+      "durationMs": 250,
+      "frameRate": 4,
+      "repeat": 0,
+      "rootMotion": false,
+      "terminalFrame": "death_west_05",
+      "holdLastFrame": true
+    },
+    "charge_start": {
+      "frames": [
+        "charge_start_west_00",
+        "charge_start_west_01",
+        "charge_start_west_02",
+        "charge_start_west_03",
+        "charge_start_west_04",
+        "charge_start_west_05"
+      ],
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_warning"
+        }
+      ]
+    },
+    "charge_loop": {
+      "frames": [
+        "charge_loop_west_00",
+        "charge_loop_west_01",
+        "charge_loop_west_02",
+        "charge_loop_west_03",
+        "charge_loop_west_04",
+        "charge_loop_west_05"
+      ],
+      "durationMs": 85,
+      "frameRate": 11.764705882352942,
+      "repeat": -1,
+      "rootMotion": false,
+      "events": []
+    },
+    "charge_impact": {
+      "frames": [
+        "charge_impact_west_00",
+        "charge_impact_west_01",
+        "charge_impact_west_02",
+        "charge_impact_west_03",
+        "charge_impact_west_04",
+        "charge_impact_west_05"
+      ],
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "charge_contact"
+        }
+      ]
+    },
+    "heavy_combo": {
+      "frames": [
+        "heavy_combo_west_00",
+        "heavy_combo_west_01",
+        "heavy_combo_west_02",
+        "heavy_combo_west_03",
+        "heavy_combo_west_04",
+        "heavy_combo_west_05"
+      ],
+      "durationMs": 125,
+      "frameRate": 8,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 2,
+          "name": "combo_contact",
+          "hit": 1
+        },
+        {
+          "frame": 4,
+          "name": "combo_contact",
+          "hit": 2
+        }
+      ]
+    },
+    "ground_slam": {
+      "frames": [
+        "ground_slam_west_00",
+        "ground_slam_west_01",
+        "ground_slam_west_02",
+        "ground_slam_west_03",
+        "ground_slam_west_04",
+        "ground_slam_west_05"
+      ],
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "slam_contact",
+          "effect": "slam_dust"
+        }
+      ]
+    },
+    "phase2_roar": {
+      "frames": [
+        "phase2_roar_west_00",
+        "phase2_roar_west_01",
+        "phase2_roar_west_02",
+        "phase2_roar_west_03",
+        "phase2_roar_west_04",
+        "phase2_roar_west_05"
+      ],
+      "durationMs": 190,
+      "frameRate": 5.2631578947368425,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 2
+        }
+      ]
+    },
+    "phase3_enrage": {
+      "frames": [
+        "phase3_enrage_west_00",
+        "phase3_enrage_west_01",
+        "phase3_enrage_west_02",
+        "phase3_enrage_west_03",
+        "phase3_enrage_west_04",
+        "phase3_enrage_west_05"
+      ],
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": 0,
+      "rootMotion": false,
+      "events": [
+        {
+          "frame": 3,
+          "name": "phase_transition_peak",
+          "phase": 3
+        }
+      ]
+    }
+  },
+  "corpse": {
+    "frame": "death_west_05",
+    "image": "corpse.png",
+    "static": true,
+    "origin": {
+      "x": 0.5,
+      "y": 0.875
+    },
+    "rootMotion": false
+  },
+  "sockets": {}
+}

@@ -14,6 +14,8 @@
     "check:reactions": "node tools/check-infected-reactions.cjs",
     "build:deaths": "node tools/build-infected-deaths.cjs",
     "check:deaths": "node tools/check-infected-deaths.cjs",
+    "build:specials": "node tools/build-infected-specials.cjs",
+    "check:specials": "node tools/check-infected-specials.cjs",
     "inventory": "node tools/check-asset-files.cjs --inventory"
   },
   "devDependencies": {

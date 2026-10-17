@@ -1,7 +1,7 @@
 // Separates disconnected sprite silhouettes without cutting limbs at rectangular grid lines.
 // Artwork and poses are unchanged. Only per-frame extraction and alpha-edge ownership.
 const sharp=require('sharp');
-module.exports=async function scan(source){
+module.exports=async function scan(source,options={}){
  const {data,info}=await sharp(source).ensureAlpha().raw().toBuffer({resolveWithObject:true});
  const W=info.width,H=info.height,N=W*H;
  if(W!==1536||H!==1024)throw Error(source+': expected 1536x1024');
@@ -19,9 +19,10 @@ module.exports=async function scan(source){
   const slot=Math.min(3,Math.floor(c.cy/256))*6+Math.min(5,Math.floor(c.cx/256));
   if(!mains[slot]||mains[slot].n<c.n)mains[slot]=c;
  }
- if(mains.some(c=>!c||c.n<1000))throw Error(source+': cannot find 24 separate main silhouettes');
+ if(mains.some(c=>!c||c.n<(options.minMainPixels??1000)))throw Error(source+': cannot find 24 separate main silhouettes');
  const owners=new Int16Array(components.length);
  for(const c of components.slice(1)){
+  if(options.cellCenters){let best=Infinity,owner=0;for(let row=0;row<4;row++)for(let col=0;col<6;col++){const d=(c.cx-options.cellCenters.x[col])**2+(c.cy-options.cellCenters.y[row])**2;if(d<best){best=d;owner=row*6+col;}}owners[c.id]=owner+1;continue;}
   let owner=mains.indexOf(c);
   if(owner<0){let best=Infinity;for(let k=0;k<24;k++){const m=mains[k];const dx=Math.max(m.x0-c.cx,0,c.cx-m.x1),dy=Math.max(m.y0-c.cy,0,c.cy-m.y1);const d=dx*dx+dy*dy+.002*((m.cx-c.cx)**2+(m.cy-c.cy)**2);if(d<best){best=d;owner=k;}}}
   owners[c.id]=owner+1;

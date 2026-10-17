@@ -1,0 +1,116 @@
+{
+  "previousPack": "../../../infected-animation-pack-v3/bloater/south/source-crops.json",
+  "death": {
+    "source": "../../../infected-deaths-v1/sources/bloater.png",
+    "directionRow": 0,
+    "fixedSourceAnchor": {
+      "x": 140.5,
+      "y": 276
+    },
+    "fixedDestinationAnchor": {
+      "x": 50.5,
+      "y": 82
+    },
+    "scale": 0.27918781725888325,
+    "targetHeight": 55,
+    "frameTransformsFixed": true,
+    "frames": [
+      {
+        "name": "death_south_00",
+        "sourceBounds": {
+          "x": 43,
+          "y": 80,
+          "w": 196,
+          "h": 197
+        },
+        "destination": {
+          "x": 23,
+          "y": 27,
+          "w": 55,
+          "h": 55
+        },
+        "sha256": "5e0dd92c4da58b27124a407efcddb148247a558968f4c0b9e132b30b49951fa3"
+      },
+      {
+        "name": "death_south_01",
+        "sourceBounds": {
+          "x": 300,
+          "y": 93,
+          "w": 184,
+          "h": 184
+        },
+        "destination": {
+          "x": 24,
+          "y": 31,
+          "w": 51,
+          "h": 51
+        },
+        "sha256": "b6e97ad5407c0830bacd7214ae01f3c2d22e2e74f73d8c25b2b885f9d19b08f3"
+      },
+      {
+        "name": "death_south_02",
+        "sourceBounds": {
+          "x": 543,
+          "y": 117,
+          "w": 199,
+          "h": 160
+        },
+        "destination": {
+          "x": 20,
+          "y": 38,
+          "w": 56,
+          "h": 45
+        },
+        "sha256": "59efc44b7ced1edad459726dd19148fb58b38fbc4a0af05474c61d055f77ecfc"
+      },
+      {
+        "name": "death_south_03",
+        "sourceBounds": {
+          "x": 775,
+          "y": 147,
+          "w": 213,
+          "h": 130
+        },
+        "destination": {
+          "x": 13,
+          "y": 46,
+          "w": 59,
+          "h": 36
+        },
+        "sha256": "c1497f9163bef08523ab163c485a440c3eec90ea9eabfcaf64f8329bfc7b3851"
+      },
+      {
+        "name": "death_south_04",
+        "sourceBounds": {
+          "x": 1011,
+          "y": 159,
+          "w": 244,
+          "h": 117
+        },
+        "destination": {
+          "x": 8,
+          "y": 49,
+          "w": 68,
+          "h": 33
+        },
+        "sha256": "807fc5be8c62582db7087ba3d4e79e1d60be93bb686a15b8e70c3c357a78a414"
+      },
+      {
+        "name": "death_south_05",
+        "sourceBounds": {
+          "x": 1271,
+          "y": 176,
+          "w": 237,
+          "h": 98
+        },
+        "destination": {
+          "x": 9,
+          "y": 54,
+          "w": 66,
+          "h": 27
+        },
+        "sha256": "624cb4b068f7a00aafe0033a769c0bc6f276bf4fc6fdc2a7af43fe3646204ca3"
+      }
+    ]
+  }
+}
