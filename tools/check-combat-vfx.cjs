@@ -3,7 +3,7 @@ const sharp=require('sharp'),{chromium}=require('playwright');
 const ROOT=path.resolve(__dirname,'..'),OUT=path.join(ROOT,'assets/combat-vfx-v1'),read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 async function main(){
  const manifest=await read(path.join(OUT,'manifest.json'));assert.equal(manifest.effects.length,16);let count=0;
- const existing=await read(path.join(ROOT,'assets/infected-animation-pack-v5/manifest.json'));const ids=new Set(existing.effects.map(e=>e.id));
+ const existing=await read(path.join(ROOT,'assets/special-vfx-v1/manifest.json'));const ids=new Set(existing.effects.map(e=>e.id));
  for(const e of manifest.effects){
   assert(!ids.has(e.id),'Effect ID collides with existing VFX');ids.add(e.id);assert.equal(e.frames.length,6);assert.deepEqual(e.origin,{x:.5,y:.5});assert.equal(e.repeat,e.persistence==='loop'?-1:0);assert.equal(e.rootMotion,false);
   const folder=path.join(OUT,'effects',e.id),atlas=await read(path.join(folder,'atlas.json')),buffers=[];
@@ -33,7 +33,7 @@ async function main(){
   for(const category of ['spores','blood','directional','impacts']){await page.selectOption('#category',category);assert.equal(await page.locator('article:visible').count(),4);await page.screenshot({path:path.join(qa,category+'.png'),fullPage:true});}
   await page.locator('#bg').click();await page.screenshot({path:path.join(qa,'impacts-light.png'),fullPage:true});assert.deepEqual(errors,[]);
  }finally{await browser.close();}
- const report={animations:16,frames:count,staticDecals:1,sourceBoards:4,uniqueFramesPerAnimation:6,alphaAndEdgesVerified:true,atlasPixelsVerified:true,idsCompatibleWithV5:true,phaserRegistrations:registered.length,oneShotCleanupTested:true,loopLifetimeCleanupTested:true,staticPoolHoldTested:true,viewerFiltersAndControlsTested:true,browserErrors:errors,gameCombatImplemented:false,gameIntegrationTested:false};
+ const report={animations:16,frames:count,staticDecals:1,sourceBoards:4,uniqueFramesPerAnimation:6,alphaAndEdgesVerified:true,atlasPixelsVerified:true,idsCompatibleWithSpecialEffects:true,phaserRegistrations:registered.length,oneShotCleanupTested:true,loopLifetimeCleanupTested:true,staticPoolHoldTested:true,viewerFiltersAndControlsTested:true,browserErrors:errors,gameCombatImplemented:false,gameIntegrationTested:false};
  await fs.writeFile(path.join(OUT,'verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
 }
 main().catch(e=>{console.error(e);process.exitCode=1;});

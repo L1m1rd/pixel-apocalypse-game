@@ -1,95 +1,41 @@
-const fs=require('node:fs/promises'),path=require('node:path'),crypto=require('node:crypto');
+const fs=require('node:fs/promises'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
 const ROOT=path.resolve(__dirname,'..'),SKIP=new Set(['.git','node_modules','.cache','tmp','.tmp']);
-async function walk(dir=''){
- let all=[];for(const f of await fs.readdir(path.join(ROOT,dir),{withFileTypes:true})){
-  if(SKIP.has(f.name)||f.name.startsWith('.env')||f.name.endsWith('.log'))continue;
-  const rel=(dir?dir+'/':'')+f.name;if(f.isDirectory())all.push(...await walk(rel));else all.push(rel);
- }return all.sort();
-}
+const read=async p=>JSON.parse(await fs.readFile(path.join(ROOT,p),'utf8'));
 async function main(){
- const excludeArg=process.argv.find(a=>a.startsWith('--inventory-exclude='));
- const excludedLocalPaths=excludeArg?excludeArg.slice('--inventory-exclude='.length).split(',').filter(Boolean):[];
- const files=(await walk()).filter(f=>!excludedLocalPaths.some(p=>f===p||f.startsWith(p+'/'))),set=new Set(files),errors=[];
- for(const file of files.filter(f=>f.endsWith('.md'))){
-  const text=await fs.readFile(path.join(ROOT,file),'utf8');
-  for(const match of text.matchAll(/\]\(([^)]+)\)/g)){
-   const target=match[1].replace(/^<|>$/g,'').split('#')[0];if(!target||/^(https?:|mailto:)/.test(target))continue;
-   const dest=path.resolve(path.dirname(path.join(ROOT,file)),decodeURIComponent(target));
-   if(process.argv.includes('--inventory')&&dest===path.join(ROOT,'docs/asset-inventory.json'))continue;
-   try{await fs.access(dest);}catch{errors.push(file+': missing link '+target);}
+ const config=await read('publication-config.json'),excluded=config.excludedLocalPaths;
+ const isExcluded=p=>excluded.some(x=>p===x||p.startsWith(x+'/'));
+ async function walk(dir=''){let list=[];for(const e of await fs.readdir(path.join(ROOT,dir),{withFileTypes:true})){const rel=(dir?dir+'/':'')+e.name;if(SKIP.has(e.name)||e.name.startsWith('.env')||e.name.endsWith('.log')||isExcluded(rel))continue;if(e.isDirectory())list.push(...await walk(rel));else list.push(rel);}return list.sort();}
+ const files=await walk(),set=new Set(files),errors=[];
+ const need=p=>{if(!set.has(p))errors.push('Missing published file: '+p);};
+ for(const f of files.filter(f=>f.endsWith('.md'))){
+  const content=await fs.readFile(path.join(ROOT,f),'utf8');
+  for(const m of content.matchAll(/\]\(([^)]+)\)/g)){
+   const target=m[1].replace(/^<|>$/g,'').split('#')[0];if(!target||/^(https?:|mailto:)/.test(target))continue;
+   const abs=path.resolve(path.dirname(path.join(ROOT,f)),decodeURIComponent(target)),rel=path.relative(ROOT,abs).split(path.sep).join('/');
+   if(rel.startsWith('../')||isExcluded(rel))errors.push(f+': unpublished link '+target);
+   else try{await fs.access(abs);}catch{errors.push(f+': missing link '+target);}
   }
  }
- const manifest=JSON.parse(await fs.readFile(path.join(ROOT,'assets/infected-animation-pack-v2/manifest.json'),'utf8'));
- let frames=0,gifs=0;
- for(const m of manifest.monsters)for(const d of manifest.directions)for(const state of manifest.frameOrder){
-  for(const frame of m.directions[d].animations[state].frames){const p=`assets/infected-animation-pack-v2/${m.id}/${d}/frames/${frame}.png`;if(!set.has(p))errors.push('Missing '+p);frames++;}
-  const p=`assets/infected-animation-pack-v2/${m.id}/${d}/previews/${state}.gif`;if(!set.has(p))errors.push('Missing '+p);gifs++;
+ let animations=0,frames=0,corpses=0;
+ const pack=await read('assets/infected-redesign-animations-v1/manifest.json');
+ for(const c of pack.characters)for(const d of pack.directions){
+  for(const a of Object.values(c.directions[d].animations)){animations++;for(const f of a.frames){need('assets/infected-redesign-animations-v1/'+c.id+'/'+d+'/frames/'+f+'.png');frames++;}}
+  need('assets/infected-redesign-animations-v1/'+c.id+'/'+d+'/corpse.png');corpses++;
  }
- for(const f of files){const s=await fs.stat(path.join(ROOT,f));if(s.size>=100*1024*1024)errors.push('GitHub file limit: '+f);}
- if(frames!==576||gifs!==96)errors.push('Wrong v2 totals');
- let v3Frames=0,v3Gifs=0;
- const v3file=path.join(ROOT,'assets/infected-animation-pack-v3/manifest.json');
- try{
-  const v3=JSON.parse(await fs.readFile(v3file,'utf8'));
-  if(v3.version===3){
-   for(const m of v3.monsters)for(const d of v3.directions)for(const state of v3.frameOrder){
-    for(const f of m.directions[d].animations[state].frames){const p=`assets/infected-animation-pack-v3/${m.id}/${d}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);v3Frames++;}
-    const p=`assets/infected-animation-pack-v3/${m.id}/${d}/previews/${state}.gif`;if(!set.has(p))errors.push('Missing '+p);v3Gifs++;
-   }
-   if(v3Frames!==1008||v3Gifs!==168)errors.push('Wrong v3 totals');
-  }
- }catch(e){if(e.code!=='ENOENT')throw e;}
- let v4Frames=0,v4Gifs=0,v4Corpses=0;
- try{
-  const v4=JSON.parse(await fs.readFile(path.join(ROOT,'assets/infected-animation-pack-v4/manifest.json'),'utf8'));
-  if(v4.version===4){
-   for(const m of v4.monsters)for(const d of v4.directions){
-    for(const state of v4.frameOrder){
-     for(const f of m.directions[d].animations[state].frames){const p=`assets/infected-animation-pack-v4/${m.id}/${d}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);v4Frames++;}
-     const p=`assets/infected-animation-pack-v4/${m.id}/${d}/previews/${state}.gif`;if(!set.has(p))errors.push('Missing '+p);v4Gifs++;
-    }
-    const body=`assets/infected-animation-pack-v4/${m.id}/${d}/corpse.png`;if(!set.has(body))errors.push('Missing '+body);v4Corpses++;
-   }
-   if(v4Frames!==1152||v4Gifs!==192||v4Corpses!==24)errors.push('Wrong v4 totals');
-  }
- }catch(e){if(e.code!=='ENOENT')throw e;}
- let v5Frames=0,v5Gifs=0,v5FxFrames=0;
- try{
-  const v5=JSON.parse(await fs.readFile(path.join(ROOT,'assets/infected-animation-pack-v5/manifest.json'),'utf8'));
-  if(v5.version===5){
-   for(const m of v5.monsters)for(const d of v5.directions)for(const state of m.frameOrder){
-    for(const f of m.directions[d].animations[state].frames){const p=`assets/infected-animation-pack-v5/${m.id}/${d}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);v5Frames++;}
-    const p=`assets/infected-animation-pack-v5/${m.id}/${d}/previews/${state}.gif`;if(!set.has(p))errors.push('Missing '+p);v5Gifs++;
-   }
-   for(const fx of v5.effects)for(const f of fx.frames){const p=`assets/infected-animation-pack-v5/fx/${fx.id}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);v5FxFrames++;}
-   if(v5Frames!==1344||v5Gifs!==224||v5FxFrames!==24)errors.push('Wrong v5 totals');
-  }
- }catch(e){if(e.code!=='ENOENT')throw e;}
- let combatVfxFrames=0,combatVfxAnimations=0,combatVfxDecals=0;
- try{
-  const combat=JSON.parse(await fs.readFile(path.join(ROOT,'assets/combat-vfx-v1/manifest.json'),'utf8'));
-  for(const e of combat.effects){
-   combatVfxAnimations++;
-   for(const f of e.frames){const p=`assets/combat-vfx-v1/effects/${e.id}/frames/${f}.png`;if(!set.has(p))errors.push('Missing '+p);combatVfxFrames++;}
-   for(const f of ['spritesheet.png','atlas.json','animation.json','preview.gif']){const p=`assets/combat-vfx-v1/effects/${e.id}/${f}`;if(!set.has(p))errors.push('Missing '+p);}
-   if(e.decalFile){if(!set.has('assets/combat-vfx-v1/'+e.decalFile))errors.push('Missing decal '+e.decalFile);combatVfxDecals++;}
-  }
-  if(combatVfxFrames!==96||combatVfxAnimations!==16||combatVfxDecals!==1)errors.push('Wrong combat VFX totals');
- }catch(e){if(e.code!=='ENOENT')throw e;}
- let redesignedAnimations=0,redesignedFrames=0,redesignedCorpses=0;
- try{
-  const pack=JSON.parse(await fs.readFile(path.join(ROOT,'assets/infected-redesign-animations-v1/manifest.json'),'utf8'));
-  for(const c of pack.characters)for(const d of pack.directions){
-   for(const a of Object.values(c.directions[d].animations)){redesignedAnimations++;for(const frame of a.frames){const p=`assets/infected-redesign-animations-v1/${c.id}/${d}/frames/${frame}.png`;if(!set.has(p))errors.push('Missing '+p);redesignedFrames++;}}
-   const p=`assets/infected-redesign-animations-v1/${c.id}/${d}/corpse.png`;if(!set.has(p))errors.push('Missing '+p);redesignedCorpses++;
-  }
-  if(redesignedAnimations!==672||redesignedFrames!==4032||redesignedCorpses!==72)errors.push('Wrong redesigned animation totals');
- }catch(e){if(e.code!=='ENOENT')throw e;}
+ assert.equal(pack.characters.length,18);assert.equal(animations,672);assert.equal(frames,4032);assert.equal(corpses,72);
+ const survivors=await read('assets/survivor-friends-pixel-v1/manifest.json');assert.equal(survivors.characters.length,6);
+ for(const c of survivors.characters){need('assets/survivor-friends-pixel-v1/'+c.sprite);need('assets/survivor-friends-pixel-v1/'+c.art);}
+ let effectFrames=0;
+ for(const base of ['assets/combat-vfx-v1','assets/special-vfx-v1']){
+  const m=await read(base+'/manifest.json');for(const e of m.effects)for(const f of e.frames){need(base+(base.includes('combat')?'/effects/':'/')+e.id+'/frames/'+f+'.png');effectFrames++;}
+ }
+ assert.equal(effectFrames,120);
+ need('assets/weapons-pixel-v1/overview.png');
+ const env=await read('assets/environment-variants-v1/manifest.json');
+ for(const e of env.elements)for(const v of e.variants)for(const f of v.files)need('assets/environment-variants-v1/'+f);
+ const entries=[];for(const f of files){const b=await fs.readFile(path.join(ROOT,f));if(b.length>=100*1024*1024)errors.push('GitHub size limit: '+f);if(f!=='docs/asset-inventory.json')entries.push({path:f,bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex')});}
  if(errors.length)throw Error(errors.join('\n'));
- if(process.argv.includes('--inventory')){
-  const entries=[];for(const file of files){if(file==='docs/asset-inventory.json')continue;const data=await fs.readFile(path.join(ROOT,file));entries.push({path:file,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')});}
-  await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'Published project files except this inventory, Git internals, local dependencies, temporary files and explicitly excluded local drafts.',excludedLocalPaths,files:entries.length,totalBytes:entries.reduce((sum,x)=>sum+x.bytes,0),entries},null,2)+'\n');
- }
- console.log(JSON.stringify({files:files.length,v2Frames:frames,v2Gifs:gifs,v3Frames,v3Gifs,v4Frames,v4Gifs,v4Corpses,v5Frames,v5Gifs,v5FxFrames,combatVfxAnimations,combatVfxFrames,combatVfxDecals,redesignedAnimations,redesignedFrames,redesignedCorpses,markdownLinksValid:true,allFilesBelow100MiB:true}));
+ if(process.argv.includes('--inventory'))await fs.writeFile(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'Current published files; excludes Git, dependencies, local superseded materials and this inventory.',excludedLocalPaths:excluded,files:entries.length,totalBytes:entries.reduce((s,e)=>s+e.bytes,0),entries},null,2)+'\n');
+ console.log(JSON.stringify({publishedFiles:files.length,survivors:6,infected:18,animations,frames,corpses,effectFrames,environmentElements:env.generatedElements,markdownLinksValid:true,allFilesBelow100MiB:true}));
 }
 main().catch(e=>{console.error(e.message);process.exitCode=1;});

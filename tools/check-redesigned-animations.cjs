@@ -3,14 +3,14 @@ const sharp=require('sharp'),{chromium}=require('playwright');
 const ROOT=path.resolve(__dirname,'..'),OUT=path.join(ROOT,'assets/infected-redesign-animations-v1'),read=async f=>JSON.parse(await fs.readFile(f,'utf8')),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 async function main(){
  const manifest=await read(path.join(OUT,'manifest.json'));assert.equal(manifest.characters.length,18);const audit=await read(path.join(OUT,'source-audit.json'));assert.equal(audit.ready,168);assert.deepEqual(audit.missing,[]);assert.deepEqual(audit.invalid,[]);let frames=0,animations=0,corpses=0;
- const old=await read(path.join(ROOT,'assets/infected-animation-pack-v5/manifest.json')),oldHashes=new Set();for(const c of old.monsters)for(const d of old.directions)for(const a of Object.values(c.directions[d].animations))for(const name of a.frames)oldHashes.add(hash(await fs.readFile(path.join(ROOT,'assets/infected-animation-pack-v5',c.id,d,'frames',name+'.png'))));
+
  for(const c of manifest.characters){assert(['A','B','C'].includes(c.grade));assert.equal(c.frameOrder.length,c.type==='06-boss'?15:c.type==='04-armored'?9:8);for(const d of manifest.directions){
   const folder=path.join(OUT,c.id,d),config=await read(path.join(folder,'animations.json')),atlas=await read(path.join(folder,'atlas.json')),size=c.frameSize;assert.deepEqual(config.origin,c.origin);
   const sheet=await sharp(path.join(folder,'spritesheet.png')).ensureAlpha().raw().toBuffer({resolveWithObject:true});assert.equal(sheet.info.width,size*6);assert.equal(sheet.info.height,size*c.frameOrder.length);
   for(const[row,state]of c.frameOrder.entries()){
    const a=config.animations[state];assert.equal(a.frames.length,6);assert.equal(a.rootMotion,false);assert.equal(a.repeat,c.actions[state].repeat);const hashes=[];
    for(const[col,n]of a.frames.entries()){
-    const b=await fs.readFile(path.join(folder,'frames',n+'.png')),h=hash(b);assert(!oldHashes.has(h),'Old character artwork reused '+c.id+'/'+n);hashes.push(h);
+    const b=await fs.readFile(path.join(folder,'frames',n+'.png')),h=hash(b);hashes.push(h);
     const{data,info}=await sharp(b).ensureAlpha().raw().toBuffer({resolveWithObject:true});assert.equal(info.width,size);assert.equal(info.height,size);let visible=0;
     for(let y=0;y<size;y++){for(let x=0;x<size;x++){const alpha=data[(y*size+x)*4+3];if(alpha>64)visible++;if(!x||!y||x===size-1||y===size-1)assert.equal(alpha,0,'Clipping '+c.id+'/'+n);}const src=((row*size+y)*sheet.info.width+col*size)*4;assert(data.subarray(y*size*4,(y+1)*size*4).equals(sheet.data.subarray(src,src+size*4)),'Atlas mismatch '+c.id+'/'+n);}
     assert(visible>40,'Empty frame '+c.id+'/'+n);assert.deepEqual(atlas.frames[n].frame,{x:col*size,y:row*size,w:size,h:size});frames++;
@@ -35,6 +35,6 @@ async function main(){
   await page.selectOption('#skin','C');assert.equal(await page.locator('article').count(),4);await page.selectOption('#direction','north');assert.equal(await page.locator('article').count(),1);await page.locator('#bg').click();await page.screenshot({path:path.join(qa,'boss-C-back-light.png'),fullPage:true});await page.locator('#restart').click();assert.equal(await page.locator('article').getAttribute('data-frame'),'0');
   assert.deepEqual(await page.evaluate(()=>ANIMATION_REVIEW.errors),[]);assert.deepEqual(errors,[]);assert.equal(selections,56);
  }finally{await browser.close();}
- const report={characters:18,sourceSheets:168,animations,frames,staticCorpses:corpses,allFramesUniqueWithinEachAnimation:true,newArtworkNotReusedFromOldPack:true,atlasPixelsVerified:true,transparentUnclippedEdges:true,protectedEffectFiles:protectedFiles.length,protectedEffectsUnchanged:true,viewerCheckedInEdge:true,browserErrors:errors,publicationStatus:approved?'approved for GitHub publication':'local only, not committed or uploaded; awaiting user approval',gameCodeAdded:false};await fs.writeFile(path.join(OUT,'verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
+ const report={characters:18,sourceSheets:168,animations,frames,staticCorpses:corpses,allFramesUniqueWithinEachAnimation:true,atlasPixelsVerified:true,transparentUnclippedEdges:true,protectedEffectFiles:protectedFiles.length,protectedEffectsUnchanged:true,viewerCheckedInEdge:true,browserErrors:errors,publicationStatus:approved?'approved for GitHub publication':'local only, not committed or uploaded; awaiting user approval',gameCodeAdded:false};await fs.writeFile(path.join(OUT,'verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
 }
 main().catch(e=>{console.error(e);process.exitCode=1;});

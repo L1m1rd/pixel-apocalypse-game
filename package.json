@@ -2,25 +2,19 @@
   "name": "pixel-apocalypse-assets",
   "version": "0.1.0",
   "private": true,
-  "description": "Pixel survival game concepts, infected animation packs and design documentation",
-  "engines": { "node": ">=24" },
+  "description": "Current pixel survival game visuals: six original survivors, 18 infected, environment, effects and 24 weapons",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "check:assets": "node tools/check-asset-files.cjs",
-    "check:viewer": "node tools/check-infected-v2.cjs",
-    "build:infected:v1": "node tools/build-infected-pack.cjs --zip",
-    "build:infected:v2": "node tools/build-infected-v2.cjs",
-    "build:survivors": "node tools/package-survivor-visuals.cjs",
-    "build:reactions": "node tools/build-infected-reactions.cjs",
-    "check:reactions": "node tools/check-infected-reactions.cjs",
-    "build:deaths": "node tools/build-infected-deaths.cjs",
-    "check:deaths": "node tools/check-infected-deaths.cjs",
-    "build:specials": "node tools/build-infected-specials.cjs",
-    "check:specials": "node tools/check-infected-specials.cjs",
-    "build:combat-vfx": "node tools/build-combat-vfx.cjs",
-    "check:combat-vfx": "node tools/check-combat-vfx.cjs",
-    "build:redesigned": "node tools/build-redesigned-animations.cjs",
     "check:redesigned": "node tools/check-redesigned-animations.cjs",
-    "inventory": "node tools/check-asset-files.cjs --inventory"
+    "check:combat-vfx": "node tools/check-combat-vfx.cjs",
+    "inventory": "node tools/check-asset-files.cjs --inventory",
+    "build:redesigned": "node tools/build-redesigned-animations.cjs",
+    "build:combat-vfx": "node tools/build-combat-vfx.cjs",
+    "build:environment": "node tools/build-environment-variants.cjs",
+    "build:friends": "node tools/build-friends-animations.cjs"
   },
   "devDependencies": {
     "jszip": "3.10.1",

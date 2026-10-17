@@ -1,0 +1,2266 @@
+{
+  "status": "local visual review only",
+  "directions": [
+    "south",
+    "west",
+    "east",
+    "north"
+  ],
+  "totalCharacters": 6,
+  "totalSourceSheets": 216,
+  "totalAnimations": 864,
+  "totalFrames": 5184,
+  "staticCorpses": 24,
+  "characters": [
+    {
+      "id": "01-gleb",
+      "name": "Глеб",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/01-gleb.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "02-roman",
+      "name": "Роман",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/02-roman.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "03-miron",
+      "name": "Мирон",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/03-miron.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "04-egor",
+      "name": "Егор",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/04-egor.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "05-timur",
+      "name": "Тимур",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/05-timur.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    },
+    {
+      "id": "06-makar",
+      "name": "Макар",
+      "frameSize": 96,
+      "origin": {
+        "x": 0.5,
+        "y": 0.75
+      },
+      "reference": "references/06-makar.png",
+      "frameOrder": [
+        "idle",
+        "walk",
+        "run",
+        "crouch_down",
+        "crouch_idle",
+        "crouch_walk",
+        "stand_up",
+        "pickup",
+        "search",
+        "open_door",
+        "eat",
+        "drink",
+        "bandage",
+        "heal_ally",
+        "craft",
+        "build",
+        "repair",
+        "chop",
+        "mine",
+        "punch",
+        "one_hand_strike",
+        "two_hand_strike",
+        "shove",
+        "pistol_hold",
+        "pistol_aim",
+        "pistol_fire",
+        "pistol_reload",
+        "longgun_hold",
+        "longgun_aim",
+        "longgun_fire",
+        "longgun_reload",
+        "throw",
+        "hurt",
+        "stunned",
+        "knockback",
+        "death"
+      ],
+      "actions": {
+        "idle": {
+          "label": "Ожидание",
+          "group": "movement",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "walk": {
+          "label": "Ходьба",
+          "group": "movement",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "run": {
+          "label": "Бег",
+          "group": "movement",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_down": {
+          "label": "Присесть",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_idle": {
+          "label": "Ожидание сидя",
+          "group": "stealth",
+          "durationMs": 220,
+          "frameRate": 4.545454545454546,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "crouch_walk": {
+          "label": "Движение пригнувшись",
+          "group": "stealth",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stand_up": {
+          "label": "Встать",
+          "group": "stealth",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pickup": {
+          "label": "Поднять предмет",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "search": {
+          "label": "Обыск",
+          "group": "interaction",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "open_door": {
+          "label": "Открыть дверь",
+          "group": "interaction",
+          "durationMs": 120,
+          "frameRate": 8.333333333333334,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "eat": {
+          "label": "Есть",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "drink": {
+          "label": "Пить",
+          "group": "survival",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "bandage": {
+          "label": "Перевязать себя",
+          "group": "survival",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "heal_ally": {
+          "label": "Помочь товарищу",
+          "group": "survival",
+          "durationMs": 160,
+          "frameRate": 6.25,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "craft": {
+          "label": "Крафт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "build": {
+          "label": "Строительство",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "repair": {
+          "label": "Ремонт",
+          "group": "work",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "chop": {
+          "label": "Рубка",
+          "group": "work",
+          "durationMs": 130,
+          "frameRate": 7.6923076923076925,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "mine": {
+          "label": "Добыча ресурсов",
+          "group": "work",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "punch": {
+          "label": "Удар рукой",
+          "group": "combat",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "one_hand_strike": {
+          "label": "Одноручный удар",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "two_hand_strike": {
+          "label": "Двуручный удар",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "shove": {
+          "label": "Толчок",
+          "group": "combat",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_hold": {
+          "label": "Пистолет: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_aim": {
+          "label": "Пистолет: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_fire": {
+          "label": "Пистолет: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "pistol_reload": {
+          "label": "Пистолет: перезарядка",
+          "group": "firearm",
+          "durationMs": 140,
+          "frameRate": 7.142857142857143,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_hold": {
+          "label": "Длинное оружие: удержание",
+          "group": "firearm",
+          "durationMs": 200,
+          "frameRate": 5,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_aim": {
+          "label": "Длинное оружие: прицеливание",
+          "group": "firearm",
+          "durationMs": 170,
+          "frameRate": 5.882352941176471,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_fire": {
+          "label": "Длинное оружие: выстрел",
+          "group": "firearm",
+          "durationMs": 90,
+          "frameRate": 11.11111111111111,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "longgun_reload": {
+          "label": "Длинное оружие: перезарядка",
+          "group": "firearm",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "throw": {
+          "label": "Бросок",
+          "group": "combat",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "hurt": {
+          "label": "Получение урона",
+          "group": "reaction",
+          "durationMs": 100,
+          "frameRate": 10,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "stunned": {
+          "label": "Оглушение",
+          "group": "reaction",
+          "durationMs": 180,
+          "frameRate": 5.555555555555555,
+          "repeat": -1,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "knockback": {
+          "label": "Отбрасывание",
+          "group": "reaction",
+          "durationMs": 110,
+          "frameRate": 9.090909090909092,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer"
+        },
+        "death": {
+          "label": "Смерть и лежащее тело",
+          "group": "reaction",
+          "durationMs": 150,
+          "frameRate": 6.666666666666667,
+          "repeat": 0,
+          "rootMotion": false,
+          "equipment": "separate_layer",
+          "holdLastFrame": true
+        }
+      }
+    }
+  ]
+}

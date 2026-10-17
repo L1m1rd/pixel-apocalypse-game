@@ -1,0 +1,1666 @@
+{
+  "version": 1,
+  "variantsPerElement": 3,
+  "plannedElements": 119,
+  "generatedElements": 25,
+  "staticVariants": 75,
+  "animations": 0,
+  "animationFrames": 0,
+  "lightingReferences": 0,
+  "tool": "built-in image_gen",
+  "status": "generated-art-not-engine-integration",
+  "notes": [
+    "Source art is preserved without recoloring or synthesized variants.",
+    "Terrain seams and road connectors require validation in the eventual map renderer.",
+    "Six-frame effect sheets are proposed visual animations; gameplay timing and damage are not implemented.",
+    "Lighting panels are visual references; presets are proposed settings, not rendered engine lighting."
+  ],
+  "elements": [
+    {
+      "id": "soil",
+      "label": "Земля",
+      "kind": "terrain",
+      "subject": "dark dry brown packed forest soil with tiny pebbles",
+      "playback": null,
+      "source": "sources/soil.png",
+      "variants": [
+        {
+          "id": "soil_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/soil/soil_a.png"
+          ],
+          "preview": "elements/soil/soil_a.png",
+          "sha256": [
+            "30facc5db476424e87c32cbf7789f40beeaca5e269c0390f5213c922c649d2d3"
+          ]
+        },
+        {
+          "id": "soil_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/soil/soil_b.png"
+          ],
+          "preview": "elements/soil/soil_b.png",
+          "sha256": [
+            "6a81e40c27c75abce330fe4de2d69615618e814775462a4861ebfca3dea93e73"
+          ]
+        },
+        {
+          "id": "soil_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/soil/soil_c.png"
+          ],
+          "preview": "elements/soil/soil_c.png",
+          "sha256": [
+            "d27838bbab8e36e79abaa41213c572ae51aa494f755e422f0eb4472d6fa7fea6"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "sand",
+      "label": "Песок",
+      "kind": "terrain",
+      "subject": "muted beige coarse sand with a few tiny grains and faint irregularities",
+      "playback": null,
+      "source": "sources/sand.png",
+      "variants": [
+        {
+          "id": "sand_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sand/sand_a.png"
+          ],
+          "preview": "elements/sand/sand_a.png",
+          "sha256": [
+            "3f4a39fa706683580629747c3e1fe5e66f4da0694baae4a13faabdd979ce3cb9"
+          ]
+        },
+        {
+          "id": "sand_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sand/sand_b.png"
+          ],
+          "preview": "elements/sand/sand_b.png",
+          "sha256": [
+            "749e38ef3ec4f89bb53920d34d9b75adc4cddd8808e6a0086fe06acc3853b9e6"
+          ]
+        },
+        {
+          "id": "sand_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sand/sand_c.png"
+          ],
+          "preview": "elements/sand/sand_c.png",
+          "sha256": [
+            "892a035ad4017d4c99cdf67de5a12c1d4dcd70f351062bc670bf8548f0593957"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "gravel",
+      "label": "Гравий",
+      "kind": "terrain",
+      "subject": "small gray and brown gravel stones embedded in dusty earth",
+      "playback": null,
+      "source": "sources/gravel.png",
+      "variants": [
+        {
+          "id": "gravel_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/gravel/gravel_a.png"
+          ],
+          "preview": "elements/gravel/gravel_a.png",
+          "sha256": [
+            "9496d2a09b001c64bc2804a6e8bfb3d1c379531b178370fae682f1d6ce6525be"
+          ]
+        },
+        {
+          "id": "gravel_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/gravel/gravel_b.png"
+          ],
+          "preview": "elements/gravel/gravel_b.png",
+          "sha256": [
+            "432320e641669b300425adf5fd6f424250a702a6f103b96e22931d6d15abc770"
+          ]
+        },
+        {
+          "id": "gravel_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/gravel/gravel_c.png"
+          ],
+          "preview": "elements/gravel/gravel_c.png",
+          "sha256": [
+            "3e98e42f3df5dc2ee3f49b5c6c1d3b1fd7db46019006973c418dd0f19aeac0f0"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "mud",
+      "label": "Грязь",
+      "kind": "terrain",
+      "subject": "dark damp brown mud with subtle irregular wet patches",
+      "playback": null,
+      "source": "sources/mud.png",
+      "variants": [
+        {
+          "id": "mud_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/mud/mud_a.png"
+          ],
+          "preview": "elements/mud/mud_a.png",
+          "sha256": [
+            "031908103075bd6079255d91689c86420197b3d4d596e96cd23f181a7ea794d8"
+          ]
+        },
+        {
+          "id": "mud_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/mud/mud_b.png"
+          ],
+          "preview": "elements/mud/mud_b.png",
+          "sha256": [
+            "69e4f60fc8a88fb07fc38812e28f7a67117a245918251a57689a9c433f81a92b"
+          ]
+        },
+        {
+          "id": "mud_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/mud/mud_c.png"
+          ],
+          "preview": "elements/mud/mud_c.png",
+          "sha256": [
+            "79ffa6a9330aa62754d7443103aac31787bd6893a08f8bf71020e6f91b064fb9"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "grass_short",
+      "label": "Короткая трава",
+      "kind": "terrain",
+      "subject": "dense short muted olive green grass, no tall tufts",
+      "playback": null,
+      "source": "sources/grass_short.png",
+      "variants": [
+        {
+          "id": "grass_short_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/grass_short/grass_short_a.png"
+          ],
+          "preview": "elements/grass_short/grass_short_a.png",
+          "sha256": [
+            "ea5a7e8b744999ef2bd42cc193409d691d3ee49203f62e42d1da9f86cb7c9e57"
+          ]
+        },
+        {
+          "id": "grass_short_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/grass_short/grass_short_b.png"
+          ],
+          "preview": "elements/grass_short/grass_short_b.png",
+          "sha256": [
+            "7543ee712da67df929500955d89c3882728bc7200bbfa97d8592d1ed1bca1160"
+          ]
+        },
+        {
+          "id": "grass_short_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/grass_short/grass_short_c.png"
+          ],
+          "preview": "elements/grass_short/grass_short_c.png",
+          "sha256": [
+            "4d54d97bc3c0947fc52df7a13b874218e935c0a83a6c75e98bd79c8e72d9e3d3"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "asphalt",
+      "label": "Асфальт",
+      "kind": "terrain",
+      "subject": "weathered gray road asphalt with sparse fine hairline cracks",
+      "playback": null,
+      "source": "sources/asphalt.png",
+      "variants": [
+        {
+          "id": "asphalt_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/asphalt/asphalt_a.png"
+          ],
+          "preview": "elements/asphalt/asphalt_a.png",
+          "sha256": [
+            "df2874328d11376b6cfeb835a36bc5cee1da46fcfa0edf804053427c18e331dd"
+          ]
+        },
+        {
+          "id": "asphalt_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/asphalt/asphalt_b.png"
+          ],
+          "preview": "elements/asphalt/asphalt_b.png",
+          "sha256": [
+            "db01723b11d1ecb5acbedff3d1e46242219407e938184997fb24f7b97e9b665e"
+          ]
+        },
+        {
+          "id": "asphalt_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/asphalt/asphalt_c.png"
+          ],
+          "preview": "elements/asphalt/asphalt_c.png",
+          "sha256": [
+            "ff7b5a26e011c6c29c016358e84d639ad0959ca23db4dd1aeb760c17e00102e3"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "sidewalk",
+      "label": "Тротуар",
+      "kind": "terrain",
+      "subject": "weathered square gray concrete sidewalk paving slabs, orthogonal grid",
+      "playback": null,
+      "source": "sources/sidewalk.png",
+      "variants": [
+        {
+          "id": "sidewalk_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sidewalk/sidewalk_a.png"
+          ],
+          "preview": "elements/sidewalk/sidewalk_a.png",
+          "sha256": [
+            "a50148b887afca04caa486868d434c8211ee96868fee7b943ccd00da263da4c7"
+          ]
+        },
+        {
+          "id": "sidewalk_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sidewalk/sidewalk_b.png"
+          ],
+          "preview": "elements/sidewalk/sidewalk_b.png",
+          "sha256": [
+            "4fd57c6bc5303798e253ebb18f1728d8ba0dcdea1bc711d2798122626680834b"
+          ]
+        },
+        {
+          "id": "sidewalk_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/sidewalk/sidewalk_c.png"
+          ],
+          "preview": "elements/sidewalk/sidewalk_c.png",
+          "sha256": [
+            "8ca0ff6f8928a0f393d0745255b2de0d28ed927a81f47c990a82012ff7eea9d4"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "floor_wood",
+      "label": "Деревянный пол",
+      "kind": "terrain",
+      "subject": "worn brown wooden floorboards, straight vertical parallel planks",
+      "playback": null,
+      "source": "sources/floor_wood.png",
+      "variants": [
+        {
+          "id": "floor_wood_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_wood/floor_wood_a.png"
+          ],
+          "preview": "elements/floor_wood/floor_wood_a.png",
+          "sha256": [
+            "20b2adf464a428ede165e0ea70bc681ffb7b6a1333c2ecfaec25c20ccb684caa"
+          ]
+        },
+        {
+          "id": "floor_wood_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_wood/floor_wood_b.png"
+          ],
+          "preview": "elements/floor_wood/floor_wood_b.png",
+          "sha256": [
+            "c9bab162b77a9a7931ced45e446938984d9156bf56b0889949e0172c927fa818"
+          ]
+        },
+        {
+          "id": "floor_wood_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_wood/floor_wood_c.png"
+          ],
+          "preview": "elements/floor_wood/floor_wood_c.png",
+          "sha256": [
+            "bc2611dc44089ef148982f019960a84f1b748480ea479626501de2e5ad0f1419"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "floor_tile",
+      "label": "Плиточный пол",
+      "kind": "terrain",
+      "subject": "dirty pale gray square interior floor tiles, orthogonal grid",
+      "playback": null,
+      "source": "sources/floor_tile.png",
+      "variants": [
+        {
+          "id": "floor_tile_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_tile/floor_tile_a.png"
+          ],
+          "preview": "elements/floor_tile/floor_tile_a.png",
+          "sha256": [
+            "9795cb607f08f0dfc68fa509ae45ce5684f68e4188c314515449435d4ed7b216"
+          ]
+        },
+        {
+          "id": "floor_tile_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_tile/floor_tile_b.png"
+          ],
+          "preview": "elements/floor_tile/floor_tile_b.png",
+          "sha256": [
+            "e36a7d75c0072127074a27f61246576459e93f64548e63a77ff44ec8b840e6d2"
+          ]
+        },
+        {
+          "id": "floor_tile_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_tile/floor_tile_c.png"
+          ],
+          "preview": "elements/floor_tile/floor_tile_c.png",
+          "sha256": [
+            "e4ab9c5d5c9ba81f5c9438cd924725cb9b7ec931acb0c33558cd2a09ba236f4e"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "floor_concrete",
+      "label": "Бетонный пол",
+      "kind": "terrain",
+      "subject": "dusty worn gray concrete interior floor",
+      "playback": null,
+      "source": "sources/floor_concrete.png",
+      "variants": [
+        {
+          "id": "floor_concrete_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_concrete/floor_concrete_a.png"
+          ],
+          "preview": "elements/floor_concrete/floor_concrete_a.png",
+          "sha256": [
+            "3425cb487335a57c71e44ee966f5fee0d63c8a74d4820e719c88366c4b6529d9"
+          ]
+        },
+        {
+          "id": "floor_concrete_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_concrete/floor_concrete_b.png"
+          ],
+          "preview": "elements/floor_concrete/floor_concrete_b.png",
+          "sha256": [
+            "5de43cec3ad7f001bbd090b7bc9c4e31e17efc1c7c268a8850ae8419f8da06ca"
+          ]
+        },
+        {
+          "id": "floor_concrete_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/floor_concrete/floor_concrete_c.png"
+          ],
+          "preview": "elements/floor_concrete/floor_concrete_c.png",
+          "sha256": [
+            "5bbc0dc65e608234186d97978c5a7a9fb03740052c78e3563ea97c3375e912cf"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "water",
+      "label": "Вода",
+      "kind": "terrain",
+      "subject": "dark muted blue green still pond water surface with subtle small ripples",
+      "playback": null,
+      "source": "sources/water.png",
+      "variants": [
+        {
+          "id": "water_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/water/water_a.png"
+          ],
+          "preview": "elements/water/water_a.png",
+          "sha256": [
+            "385deaba3c6356987bf69776eea814b822f562aa136eee149ffc9dae99e53476"
+          ]
+        },
+        {
+          "id": "water_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/water/water_b.png"
+          ],
+          "preview": "elements/water/water_b.png",
+          "sha256": [
+            "cbf410b797ece54220a5893bdbf809528de1088bc04cf1f7b147d999970509bf"
+          ]
+        },
+        {
+          "id": "water_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/water/water_c.png"
+          ],
+          "preview": "elements/water/water_c.png",
+          "sha256": [
+            "535433072f6e0303a7e90cb80d577d8cc29d93eaabf78ab7ee0ad8d273b88f16"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "edge_soil_grass",
+      "label": "Переход земли в траву",
+      "kind": "transition",
+      "subject": "horizontal soft irregular boundary: bare soil in upper half, short olive grass in lower half",
+      "playback": null,
+      "source": "sources/edge_soil_grass.png",
+      "variants": [
+        {
+          "id": "edge_soil_grass_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_grass/edge_soil_grass_a.png"
+          ],
+          "preview": "elements/edge_soil_grass/edge_soil_grass_a.png",
+          "sha256": [
+            "1aaf566d8012a7f6c7817503c8682531bb6e2a9bef278bd992196c7f57efce7b"
+          ]
+        },
+        {
+          "id": "edge_soil_grass_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_grass/edge_soil_grass_b.png"
+          ],
+          "preview": "elements/edge_soil_grass/edge_soil_grass_b.png",
+          "sha256": [
+            "99596bb2153f9e8391019c1a6eebb2ba29a19fb170aca33ee2fa414eb350aef4"
+          ]
+        },
+        {
+          "id": "edge_soil_grass_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_grass/edge_soil_grass_c.png"
+          ],
+          "preview": "elements/edge_soil_grass/edge_soil_grass_c.png",
+          "sha256": [
+            "752a8adb852efe7a146efa5f3e45abfc5cc740556e0f2d1df040ae81a5aadf76"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "edge_soil_sand",
+      "label": "Переход земли в песок",
+      "kind": "transition",
+      "subject": "horizontal soft irregular boundary: dark packed earth in upper half, muted beige sand in lower half",
+      "playback": null,
+      "source": "sources/edge_soil_sand.png",
+      "variants": [
+        {
+          "id": "edge_soil_sand_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_sand/edge_soil_sand_a.png"
+          ],
+          "preview": "elements/edge_soil_sand/edge_soil_sand_a.png",
+          "sha256": [
+            "5e2d2d178e60408eea1590ab3281518648f0b9bd84992135560c2c5dbea382ba"
+          ]
+        },
+        {
+          "id": "edge_soil_sand_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_sand/edge_soil_sand_b.png"
+          ],
+          "preview": "elements/edge_soil_sand/edge_soil_sand_b.png",
+          "sha256": [
+            "1bb26431bfca79348d8d5687c35606cbaa936071576b8b1217fd7e839c82848b"
+          ]
+        },
+        {
+          "id": "edge_soil_sand_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_sand/edge_soil_sand_c.png"
+          ],
+          "preview": "elements/edge_soil_sand/edge_soil_sand_c.png",
+          "sha256": [
+            "9687e385a366478d6f7b08eb46cfdc46606e012c830158dd183d14158f8ee17e"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "edge_soil_gravel",
+      "label": "Переход земли в гравий",
+      "kind": "transition",
+      "subject": "horizontal soft irregular boundary: packed brown earth in upper half, small gray gravel in lower half",
+      "playback": null,
+      "source": "sources/edge_soil_gravel.png",
+      "variants": [
+        {
+          "id": "edge_soil_gravel_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_gravel/edge_soil_gravel_a.png"
+          ],
+          "preview": "elements/edge_soil_gravel/edge_soil_gravel_a.png",
+          "sha256": [
+            "3d97fb25e66318aa15b735bf1a8226897e3a06ac85a43fb2b7f4a86e60612f5f"
+          ]
+        },
+        {
+          "id": "edge_soil_gravel_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_gravel/edge_soil_gravel_b.png"
+          ],
+          "preview": "elements/edge_soil_gravel/edge_soil_gravel_b.png",
+          "sha256": [
+            "c1bc94d63ed7eef5c6e6f38f7f11a54a1c63c20429e2749aa8e0c3fc234c5f3f"
+          ]
+        },
+        {
+          "id": "edge_soil_gravel_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_gravel/edge_soil_gravel_c.png"
+          ],
+          "preview": "elements/edge_soil_gravel/edge_soil_gravel_c.png",
+          "sha256": [
+            "df66481901254afdb31100f62a8ca7e017b0dddb9bd2c956c668a28e7e66aced"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "edge_soil_mud",
+      "label": "Переход земли в грязь",
+      "kind": "transition",
+      "subject": "horizontal soft irregular boundary: dry brown earth in upper half, darker damp mud in lower half",
+      "playback": null,
+      "source": "sources/edge_soil_mud.png",
+      "variants": [
+        {
+          "id": "edge_soil_mud_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_mud/edge_soil_mud_a.png"
+          ],
+          "preview": "elements/edge_soil_mud/edge_soil_mud_a.png",
+          "sha256": [
+            "ed2b5e2a389bc5d64f5a41776de8b045dc2318b22d03f617126708f5fc03d138"
+          ]
+        },
+        {
+          "id": "edge_soil_mud_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_mud/edge_soil_mud_b.png"
+          ],
+          "preview": "elements/edge_soil_mud/edge_soil_mud_b.png",
+          "sha256": [
+            "8f0ee76a7fbfab56ad85a213edb2b928e39b5bbb25bdf0a60101ffe33a32ade0"
+          ]
+        },
+        {
+          "id": "edge_soil_mud_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_soil_mud/edge_soil_mud_c.png"
+          ],
+          "preview": "elements/edge_soil_mud/edge_soil_mud_c.png",
+          "sha256": [
+            "5973ba5f9431609a18d335f0cf70ecd86201d497232ce5dc93649957849a5b26"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "edge_grass_asphalt",
+      "label": "Переход травы в асфальт",
+      "kind": "transition",
+      "subject": "horizontal irregular boundary: weathered gray asphalt in upper half, creeping olive grass in lower half",
+      "playback": null,
+      "source": "sources/edge_grass_asphalt.png",
+      "variants": [
+        {
+          "id": "edge_grass_asphalt_a",
+          "variant": "A",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_grass_asphalt/edge_grass_asphalt_a.png"
+          ],
+          "preview": "elements/edge_grass_asphalt/edge_grass_asphalt_a.png",
+          "sha256": [
+            "f5f5a881d7f280ae82d15e4a4867cd5cd280ff54e5357ac68332f10c02fadfdc"
+          ]
+        },
+        {
+          "id": "edge_grass_asphalt_b",
+          "variant": "B",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_grass_asphalt/edge_grass_asphalt_b.png"
+          ],
+          "preview": "elements/edge_grass_asphalt/edge_grass_asphalt_b.png",
+          "sha256": [
+            "e61e3ac4f9b32c93eb665d39579bb796593b16d9aa63a2abf9df9881e0a35bc2"
+          ]
+        },
+        {
+          "id": "edge_grass_asphalt_c",
+          "variant": "C",
+          "width": 64,
+          "height": 64,
+          "origin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "files": [
+            "elements/edge_grass_asphalt/edge_grass_asphalt_c.png"
+          ],
+          "preview": "elements/edge_grass_asphalt/edge_grass_asphalt_c.png",
+          "sha256": [
+            "b3ff077f9be6c51b52861d880de40795977e1cb0c1a65eb159ba3ea386c761b7"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "grass_tall",
+      "label": "Высокая трава",
+      "kind": "prop",
+      "subject": "one isolated clump of tall wild olive green grass",
+      "playback": null,
+      "source": "sources/grass_tall.png",
+      "variants": [
+        {
+          "id": "grass_tall_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/grass_tall/grass_tall_a.png"
+          ],
+          "preview": "elements/grass_tall/grass_tall_a.png",
+          "sha256": [
+            "59c3877c34e5dcd602cbd865c31ac70160c744f6328b7ebab7a52608adadde60"
+          ]
+        },
+        {
+          "id": "grass_tall_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/grass_tall/grass_tall_b.png"
+          ],
+          "preview": "elements/grass_tall/grass_tall_b.png",
+          "sha256": [
+            "bbec27fc502037f41acda75223fe81bbde3462a94e65edc766b8750900a90837"
+          ]
+        },
+        {
+          "id": "grass_tall_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/grass_tall/grass_tall_c.png"
+          ],
+          "preview": "elements/grass_tall/grass_tall_c.png",
+          "sha256": [
+            "964218c3f46be4339d5609f2735f9c281c14288502e42271897db6e830397557"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "bush_small",
+      "label": "Маленький куст",
+      "kind": "prop",
+      "subject": "one small rounded dense olive green bush",
+      "playback": null,
+      "source": "sources/bush_small.png",
+      "variants": [
+        {
+          "id": "bush_small_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_small/bush_small_a.png"
+          ],
+          "preview": "elements/bush_small/bush_small_a.png",
+          "sha256": [
+            "81c2c4164b15402a813b0f96af4b77870f6db8fed86eb0513ddf5d5608762673"
+          ]
+        },
+        {
+          "id": "bush_small_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_small/bush_small_b.png"
+          ],
+          "preview": "elements/bush_small/bush_small_b.png",
+          "sha256": [
+            "f589fca067398aeeb4c16be6be699ae02e741a638950591c1a2b2b1a8c105b4c"
+          ]
+        },
+        {
+          "id": "bush_small_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_small/bush_small_c.png"
+          ],
+          "preview": "elements/bush_small/bush_small_c.png",
+          "sha256": [
+            "2a4321b57ad952396772e36abc252348b59b41750801e8fc7f74dab4fee7578a"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "bush_large",
+      "label": "Большой куст",
+      "kind": "prop",
+      "subject": "one large dense irregular olive green bush",
+      "playback": null,
+      "source": "sources/bush_large.png",
+      "variants": [
+        {
+          "id": "bush_large_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_large/bush_large_a.png"
+          ],
+          "preview": "elements/bush_large/bush_large_a.png",
+          "sha256": [
+            "570a124e3b0f64a4602caa586314f64fd3ab5ca0dfa41470a3b914a7bdbedd50"
+          ]
+        },
+        {
+          "id": "bush_large_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_large/bush_large_b.png"
+          ],
+          "preview": "elements/bush_large/bush_large_b.png",
+          "sha256": [
+            "bfb7428397b31747315dc1ddc0f44511ad88b4bda431249af07f762ae59cab5e"
+          ]
+        },
+        {
+          "id": "bush_large_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_large/bush_large_c.png"
+          ],
+          "preview": "elements/bush_large/bush_large_c.png",
+          "sha256": [
+            "1dffa86cef6190e722836c02d66941d9e2d389330caa52be67971ee1a9187673"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "bush_dry",
+      "label": "Сухой куст",
+      "kind": "prop",
+      "subject": "one dry brown leafless tangled bush",
+      "playback": null,
+      "source": "sources/bush_dry.png",
+      "variants": [
+        {
+          "id": "bush_dry_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_dry/bush_dry_a.png"
+          ],
+          "preview": "elements/bush_dry/bush_dry_a.png",
+          "sha256": [
+            "14c4ea635561f6a22a6e971007752b8c9560ddc7544e50e1b6a15e890d0d6d28"
+          ]
+        },
+        {
+          "id": "bush_dry_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_dry/bush_dry_b.png"
+          ],
+          "preview": "elements/bush_dry/bush_dry_b.png",
+          "sha256": [
+            "7a57b06b7aab8d3818c8261c7bb8e065adc04f8690114c12a15ed3de538da3e5"
+          ]
+        },
+        {
+          "id": "bush_dry_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/bush_dry/bush_dry_c.png"
+          ],
+          "preview": "elements/bush_dry/bush_dry_c.png",
+          "sha256": [
+            "22e8a91085925da8793905e698511404b0e1071e72b85b8c52eda9fa2e74452f"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "tree_deciduous",
+      "label": "Лиственное дерево",
+      "kind": "prop",
+      "subject": "one mature leafy deciduous tree with olive foliage, full trunk and crown",
+      "playback": null,
+      "source": "sources/tree_deciduous.png",
+      "variants": [
+        {
+          "id": "tree_deciduous_a",
+          "variant": "A",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_deciduous/tree_deciduous_a.png"
+          ],
+          "preview": "elements/tree_deciduous/tree_deciduous_a.png",
+          "sha256": [
+            "a13707b0f954bb10d2a5fbbf9a235d03153d89765378dcfcf91a2a91424b5811"
+          ]
+        },
+        {
+          "id": "tree_deciduous_b",
+          "variant": "B",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_deciduous/tree_deciduous_b.png"
+          ],
+          "preview": "elements/tree_deciduous/tree_deciduous_b.png",
+          "sha256": [
+            "dc024d013ec13d7f112ec6ec494ba970a0b28b35b62974fdbd5af00bad6fe9e2"
+          ]
+        },
+        {
+          "id": "tree_deciduous_c",
+          "variant": "C",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_deciduous/tree_deciduous_c.png"
+          ],
+          "preview": "elements/tree_deciduous/tree_deciduous_c.png",
+          "sha256": [
+            "de51b43e88a1b6e397b304e8999fc95b7a5158b52116ed7485b9312bfa61bb9f"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "tree_conifer",
+      "label": "Хвойное дерево",
+      "kind": "prop",
+      "subject": "one mature dark green spruce tree with full trunk and crown",
+      "playback": null,
+      "source": "sources/tree_conifer.png",
+      "variants": [
+        {
+          "id": "tree_conifer_a",
+          "variant": "A",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_conifer/tree_conifer_a.png"
+          ],
+          "preview": "elements/tree_conifer/tree_conifer_a.png",
+          "sha256": [
+            "bca954d125b1f672ffc4373ca4a0892a06061e8b0aefe12365ba69b8ccfb642c"
+          ]
+        },
+        {
+          "id": "tree_conifer_b",
+          "variant": "B",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_conifer/tree_conifer_b.png"
+          ],
+          "preview": "elements/tree_conifer/tree_conifer_b.png",
+          "sha256": [
+            "bbdac3f1d974695acc98ed5d4b8f3af139ec7a27940cc5b5fcd1a241f2113970"
+          ]
+        },
+        {
+          "id": "tree_conifer_c",
+          "variant": "C",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_conifer/tree_conifer_c.png"
+          ],
+          "preview": "elements/tree_conifer/tree_conifer_c.png",
+          "sha256": [
+            "afdfb130f18eb590add1aa08036efcd2332bbff2be46e5678bf073400c522d0e"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "tree_dead",
+      "label": "Засохшее дерево",
+      "kind": "prop",
+      "subject": "one dead leafless gray brown tree, full branching silhouette",
+      "playback": null,
+      "source": "sources/tree_dead.png",
+      "variants": [
+        {
+          "id": "tree_dead_a",
+          "variant": "A",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_dead/tree_dead_a.png"
+          ],
+          "preview": "elements/tree_dead/tree_dead_a.png",
+          "sha256": [
+            "cf7b61ed9a49e457fce1539b6228c4cf36819de79734a060f1f32e6e01748c0e"
+          ]
+        },
+        {
+          "id": "tree_dead_b",
+          "variant": "B",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_dead/tree_dead_b.png"
+          ],
+          "preview": "elements/tree_dead/tree_dead_b.png",
+          "sha256": [
+            "fc8b078d5e339a4d48c2927c1ccdcc8b16a8737933646051cae02e7c0fd26374"
+          ]
+        },
+        {
+          "id": "tree_dead_c",
+          "variant": "C",
+          "width": 256,
+          "height": 256,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/tree_dead/tree_dead_c.png"
+          ],
+          "preview": "elements/tree_dead/tree_dead_c.png",
+          "sha256": [
+            "6f295eec19be33a7399e84ab4e2cae61ffc27dcb453be391bdc8385be599ded6"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "stump",
+      "label": "Пень",
+      "kind": "prop",
+      "subject": "one cut weathered tree stump with exposed rings",
+      "playback": null,
+      "source": "sources/stump.png",
+      "variants": [
+        {
+          "id": "stump_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/stump/stump_a.png"
+          ],
+          "preview": "elements/stump/stump_a.png",
+          "sha256": [
+            "038ec41caeb3e1498982c202fc02bbedd96ee68771b927156163db01af3f5f9e"
+          ]
+        },
+        {
+          "id": "stump_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/stump/stump_b.png"
+          ],
+          "preview": "elements/stump/stump_b.png",
+          "sha256": [
+            "c802ef25a80d4cf80a19237018b476e3ba33a1bb4acb0afd3e1596e5ebea6d03"
+          ]
+        },
+        {
+          "id": "stump_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/stump/stump_c.png"
+          ],
+          "preview": "elements/stump/stump_c.png",
+          "sha256": [
+            "bbed86ebbe01b4e7082e22fb1a6a6433f5c9f1ce9659f2fc91f25be8da7fae49"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "fallen_log",
+      "label": "Поваленный ствол",
+      "kind": "prop",
+      "subject": "one fallen horizontal tree trunk with broken branch stubs",
+      "playback": null,
+      "source": "sources/fallen_log.png",
+      "variants": [
+        {
+          "id": "fallen_log_a",
+          "variant": "A",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/fallen_log/fallen_log_a.png"
+          ],
+          "preview": "elements/fallen_log/fallen_log_a.png",
+          "sha256": [
+            "2a57d1a89f7f71a5345b2bbe3fc71813da2df38227fb9b64c9b8129d6cba4f41"
+          ]
+        },
+        {
+          "id": "fallen_log_b",
+          "variant": "B",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/fallen_log/fallen_log_b.png"
+          ],
+          "preview": "elements/fallen_log/fallen_log_b.png",
+          "sha256": [
+            "bde36bf824f2c98b0fa4e9976e0fdaa2e51b1bacae7d770beac13355559a930f"
+          ]
+        },
+        {
+          "id": "fallen_log_c",
+          "variant": "C",
+          "width": 128,
+          "height": 128,
+          "origin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "files": [
+            "elements/fallen_log/fallen_log_c.png"
+          ],
+          "preview": "elements/fallen_log/fallen_log_c.png",
+          "sha256": [
+            "e96310242387152c2d4e503648b4f8f9bee5bc19fc18f414470e2107b652863d"
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "missing": [
+    "branches",
+    "moss",
+    "ivy",
+    "asphalt_weeds",
+    "curb",
+    "road_marking",
+    "crosswalk",
+    "pothole",
+    "road_broken_edge",
+    "puddle",
+    "house",
+    "shop",
+    "warehouse",
+    "garage",
+    "wall_wood",
+    "wall_brick",
+    "roof",
+    "door",
+    "window",
+    "window_broken",
+    "window_boarded",
+    "bed",
+    "table",
+    "wardrobe",
+    "shelves",
+    "fence_wood",
+    "fence_metal",
+    "fence_mesh",
+    "gate",
+    "wicket",
+    "boards",
+    "slats",
+    "pallet",
+    "barricade",
+    "sandbags",
+    "boarded_passage",
+    "car_abandoned",
+    "car_wreck",
+    "streetlamp",
+    "utility_pole",
+    "road_sign",
+    "container",
+    "trash_bin",
+    "crate",
+    "barrel",
+    "bench",
+    "litter",
+    "rubble",
+    "glass_shards",
+    "fungus_ground",
+    "fungus_wall",
+    "fungus_tree",
+    "infected_floor",
+    "infected_remains",
+    "fungal_cluster",
+    "spore_source",
+    "road_straight",
+    "road_turn",
+    "road_crossroads",
+    "road_dirt",
+    "forest_path",
+    "grass_sway",
+    "bush_sway",
+    "branches_sway",
+    "door_open",
+    "gate_open",
+    "lamp_flicker",
+    "campfire",
+    "fire",
+    "smoke",
+    "water_ripple",
+    "water_ring",
+    "rain",
+    "fog",
+    "wind",
+    "leaves",
+    "footstep_splash",
+    "run_dust",
+    "flashlight",
+    "campfire_light",
+    "streetlamp_light",
+    "muzzle_flash",
+    "shell_casing",
+    "hit_wood",
+    "hit_soil",
+    "hit_glass",
+    "explosion",
+    "burning_ground",
+    "break_crate",
+    "break_boards",
+    "break_window",
+    "daylight",
+    "dusk",
+    "night"
+  ]
+}

@@ -3,6 +3,7 @@
 const {spawnSync}=require('node:child_process');
 const fs=require('node:fs');
 const path=require('node:path');
+const crypto=require('node:crypto');
 const ROOT=path.resolve(__dirname,'..');
 const OWNER='L1m1rd';
 const NAMES=['pixel-apocalypse-game','pixel-apocalypse-game-2026-10-17'];
@@ -48,8 +49,31 @@ async function main(){
   for(const item of selected)if(path.isAbsolute(item)||item.startsWith('-')||item.split(/[\\/]/).includes('..'))throw Error('Invalid publication path');
   if(git(['diff','--cached','--name-only']))throw Error('Existing staged changes require a separate review before scoped publication');
   git(['add','--',...selected]);
- }else git(['add','--all']);
+ }else {
+  const configPath=path.join(ROOT,'publication-config.json');
+  if(fs.existsSync(configPath)){
+   const config=JSON.parse(fs.readFileSync(configPath,'utf8'));
+   for(const item of config.excludedLocalPaths){
+    if(path.isAbsolute(item)||item.startsWith('-')||item.split(/[\\/]/).includes('..'))throw Error('Invalid excluded publication path');
+   }
+   git(['rm','-r','--cached','--ignore-unmatch','--',...config.excludedLocalPaths]);
+  }
+  git(['add','--all']);
+ }
  const pending=git(['diff','--cached','--name-only']);
+ const configFile=path.join(ROOT,'publication-config.json');
+ if(fs.existsSync(configFile)&&pathsIndex===-1){
+  const cfg=JSON.parse(fs.readFileSync(configFile,'utf8'));
+  const tracked=git(['-c','core.quotepath=false','ls-files']).split('\n');
+  if(tracked.some(p=>cfg.excludedLocalPaths.some(x=>p===x||p.startsWith(x+'/'))))throw Error('Superseded files remain in publication index');
+  // Freeze the file list at staging time: other chats may still generate new local art.
+  const entries=tracked.filter(p=>p!=='docs/asset-inventory.json').map(p=>{
+   const data=fs.readFileSync(path.join(ROOT,p));
+   return {path:p,bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex')};
+  });
+  fs.writeFileSync(path.join(ROOT,'docs/asset-inventory.json'),JSON.stringify({description:'Current publication snapshot; excludes Git, dependencies, superseded local material and this inventory.',excludedLocalPaths:cfg.excludedLocalPaths,files:entries.length,totalBytes:entries.reduce((s,e)=>s+e.bytes,0),entries},null,2)+'\n');
+  git(['add','--','docs/asset-inventory.json']);
+ }
  if(pending){
   console.log('Committing '+pending.split('\n').length+' project files');
   git(['-c','user.name='+OWNER,'-c',`user.email=${profile.data.id}+${OWNER}@users.noreply.github.com`,'commit','-m',process.argv[2]||'Add all survival game visuals, animations and character design documentation']);
@@ -61,6 +85,17 @@ async function main(){
  const sha=git(['rev-parse','HEAD']),remoteSha=git(['ls-remote','origin','refs/heads/'+branch]).split(/\s/)[0];
  const verified=await api('/repos/'+repo.full_name);
  if(verified.status!==200||verified.data.private!==true||remoteSha!==sha)throw Error('Post-upload verification failed');
+ if(fs.existsSync(configFile)){
+  if(verified.data.default_branch!==branch)throw Error('Uploaded branch is not the GitHub default branch');
+  const tree=await api('/repos/'+repo.full_name+'/git/trees/'+sha+'?recursive=1');
+  if(tree.status!==200||tree.data.truncated)throw Error('Cannot verify published file tree');
+  const cfg=JSON.parse(fs.readFileSync(configFile,'utf8')),paths=tree.data.tree.map(x=>x.path);
+  if(paths.some(p=>cfg.excludedLocalPaths.some(x=>p===x||p.startsWith(x+'/'))))throw Error('Superseded files found on GitHub');
+  for(const p of ['README.md','assets/weapons-pixel-v1/overview.png','assets/survivor-friends-pixel-v1/overview.png','assets/infected-redesign-animations-v1/manifest.json'])if(!paths.includes(p))throw Error('Current asset missing on GitHub: '+p);
+  const readme=await api('/repos/'+repo.full_name+'/contents/README.md?ref='+sha);
+  if(readme.status!==200||!Buffer.from(readme.data.content,'base64').equals(fs.readFileSync(path.join(ROOT,'README.md'))))throw Error('GitHub README verification failed');
+  console.log('Verified default branch, current assets, removal of superseded files and updated README on GitHub');
+ }
  console.log(JSON.stringify({repository:repo.html_url,private:true,branch,commit:sha,remoteMatchesLocal:true,trackedFiles:git(['ls-files']).split('\n').length,workingTreeClean:git(['status','--porcelain'])===''}));
 }
 main().catch(e=>{console.error(e.message);process.exitCode=1;});

@@ -11,7 +11,7 @@ const json=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
 async function tile(w,h,inputs){const pixels=Buffer.alloc(w*h*4);for(const v of inputs){const{data,info}=await sharp(v.input).ensureAlpha().raw().toBuffer({resolveWithObject:true});for(let y=0;y<info.height;y++)data.copy(pixels,((v.top+y)*w+v.left)*4,y*info.width*4,(y+1)*info.width*4);}return sharp(pixels,{raw:{width:w,height:h,channels:4}}).png().toBuffer();}
 async function makeGif(frames,size,ms,hold=650){const images=await Promise.all(frames.map(f=>sharp(f).resize(size,size,{kernel:'nearest'}).flatten({background:'#333b37'}).png().toBuffer()));return sharp(images,{join:{animated:true}}).gif({delay:Array.from({length:6},(_,i)=>ms+(i===5?hold:0)),loop:0,dither:0,effort:5}).toBuffer();}
 async function build(){
- const manifest={version:1,compatibleWith:'infected-animation-pack-v5',totalAnimations:16,totalFrames:96,staticDecals:1,coordinateSystem:'screen: +x right, +y down; directional blood points along force, not victim facing',effects:[]};
+ const manifest={version:1,compatibleWith:'infected-redesign-animations-v1',totalAnimations:16,totalFrames:96,staticDecals:1,coordinateSystem:'screen: +x right, +y down; directional blood points along force, not victim facing',effects:[]};
  await fs.mkdir(path.join(OUT,'comparisons'),{recursive:true});
  for(const group of groups){
   const cells=await scan(path.join(OUT,'sources',group.source+'.png'),{minMainPixels:2,cellCenters:group.centers}),groupFrames=[];
