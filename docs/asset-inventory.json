@@ -33,10 +33,13 @@
     "tools/prepare-redesigned-animations.cjs",
     "tools/prepare-special-viewer.cjs",
     "tools/prepare-survivor-references.cjs",
-    "tools/refresh-current-publication.cjs"
+    "tools/refresh-current-publication.cjs",
+    "assets/decorative-corpses-v1",
+    "tools/build-decorative-corpses.cjs",
+    "tools/prepare-decorative-corpses.cjs"
   ],
-  "files": 15074,
-  "totalBytes": 1647564907,
+  "files": 15145,
+  "totalBytes": 1659388994,
   "entries": [
     {
       "path": ".gitattributes",
@@ -45,13 +48,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 1221,
-      "sha256": "87814318dd38308fc59928efd26a2d76e58e212cd21e930e0a5a9ec5387cb27d"
+      "bytes": 1386,
+      "sha256": "ace815d7ea908564ec954e52fe02a141394c9da82fbcff954a53d3e8c2c6517f"
     },
     {
       "path": "README.md",
-      "bytes": 9456,
-      "sha256": "1afc46d66608a0667eed17cadb07c8c5d576afa8713283d0dfea3a844e1da6b2"
+      "bytes": 10420,
+      "sha256": "451e50ef6c14f01b51c69fad701d21146b983d82fd495175a535d3152348dec3"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -1022,6 +1025,346 @@
       "path": "assets/combat-vfx-v1/verification.json",
       "bytes": 484,
       "sha256": "a7f0dbe27f48086fb7d123a1d0a4b9c4445fbf24c49095d0b724073b2be1323a"
+    },
+    {
+      "path": "assets/decorative-corpses-v2.zip",
+      "bytes": 5338001,
+      "sha256": "c4429ec5c408d24e1fc6647b6e412e8d82f1a0a2242201c8199d4b51f1e37b67"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/README.md",
+      "bytes": 2733,
+      "sha256": "de997fcae15407de2bc67269214d93d1fba06522c938403238e692cfbba6f30d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/01-lying-back.png",
+      "bytes": 2928,
+      "sha256": "7caa7777519df46c4e7de5891cfd98b03c4efc0eddfcb685aac27d8cfd6c16a7"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/02-lying-front.png",
+      "bytes": 2937,
+      "sha256": "faca2fb37b1161aa40641867764b9f8444f72ef11f342b7dea69f2114b05b3de"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/03-lying-side.png",
+      "bytes": 2768,
+      "sha256": "ebc4a723b89f6db36bf3548d76dd9a41e6a1c016cea466b9cb1854a8a37f5dd6"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/04-sprawled.png",
+      "bytes": 2733,
+      "sha256": "e7c09fa2948cfb4bc753f20ab09ac58d088bff9c041b4b201b8a8d0c2ff76dd3"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/05-seated-wall.png",
+      "bytes": 2564,
+      "sha256": "1deb8418810b433759aaf5494cbb704f8f860017983279e487a4bea643d98a1d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/06-seated-side.png",
+      "bytes": 2409,
+      "sha256": "3a42b73d6937416f629be22b504b8052fa3adb4cbf3a397638ffacc52f6c8a9e"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/07-seated-folded.png",
+      "bytes": 2347,
+      "sha256": "1f9881ec2afa63ef6c2a8a3b054a2c75f517ac09cee83c807380dc593bd7e078"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/08-slumped-tree.png",
+      "bytes": 2523,
+      "sha256": "58ec3e723d2c054fb26561c6cea4a2249976d782c20874e558dd2a6583ed9011"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/09-covered-body.png",
+      "bytes": 2638,
+      "sha256": "168a8a18e245b7d7008f868839d04925f2fff0081a891c8577a3e0e65982f8e5"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/10-rubble-covered.png",
+      "bytes": 3453,
+      "sha256": "3436856197c6a39d0a272251bec364511b6a261e5336257e609dd761db1fed1d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/11-skeletal-torso.png",
+      "bytes": 2477,
+      "sha256": "666c99a7a467e59aa3f64c4a331a5b57166751303ca71b86780956d6dc9d0f7a"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/art/12-skeletal-fragment.png",
+      "bytes": 1835,
+      "sha256": "34edd905b022c4912443ee6f3e6aeb795bf2a86edd0bf570c6cbcdb82bc7ccc5"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/design-intent.json",
+      "bytes": 857,
+      "sha256": "fb51303fe084ddbbd01c85924889d30861e5cd701b8a43f5136bd2b65a62b3a3"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/generation-prompts.json",
+      "bytes": 24680,
+      "sha256": "1e31f2cce95ff9b04e57cd79598f732d894013f773cfe1db49216de37d8fbff4"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/manifest.json",
+      "bytes": 12074,
+      "sha256": "4aa81c7b8e153451211debe24a18f2913a1ef18956ec683209e1b97642b9a783"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/overview.png",
+      "bytes": 62115,
+      "sha256": "4224be9c2d4f2c3e44e17185b8a7706ca5ba63867bc82e18e56e1d6ad30609d5"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/publication-status.json",
+      "bytes": 150,
+      "sha256": "563d1314084ac7cf958a1ac3b659b1edffcb9e9c91b8daef19e104ed45ec284d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/01-lying-back.png",
+      "bytes": 11166,
+      "sha256": "ee91310722da12d67b95f73a33c25e87b32b3b966cf3b4eb1fa6dbdf95827ca6"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/02-lying-front.png",
+      "bytes": 10004,
+      "sha256": "81913da9f950c2c325a51dbc7b6dd99e18740eb5b84c56a297035d87d0f9c3aa"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/03-lying-side.png",
+      "bytes": 9219,
+      "sha256": "102861d786cd339d7156d8a59a4aa193c453e2b52197a3417ee5f5f359128de3"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/04-sprawled.png",
+      "bytes": 9898,
+      "sha256": "e0dcdd4c850cb34561a026bcb17c7d5c64a8e5e6c37491e3160dc23651a18130"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/05-seated-wall.png",
+      "bytes": 7909,
+      "sha256": "571047f64eeb708914e736a5e2e12d8f4b327eff29bb823629a3ca3c10542ea0"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/06-seated-side.png",
+      "bytes": 8048,
+      "sha256": "f70ae95ed977f76a377259086e4c5402bd4832f0986eb90ac49ac0a1608a4e14"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/07-seated-folded.png",
+      "bytes": 8098,
+      "sha256": "0bdb633d2ed76c4811eae058286760598baa86c76b68d08cbf6998360905fbae"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/08-slumped-tree.png",
+      "bytes": 8126,
+      "sha256": "7e9163d97bc9313f19d9c04b7c9b26cd1903ef97ac08d1d4f8a2065d8609c93b"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/09-covered-body.png",
+      "bytes": 9685,
+      "sha256": "21997a44d79dec16cfcbbcaf74f9f5b0debeecc73d67ae98a7b669375888bffe"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/10-rubble-covered.png",
+      "bytes": 12779,
+      "sha256": "55d2782a2f9841edbd491db740f803dd32ad2f905993359734b105a3ffc2d839"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/11-skeletal-torso.png",
+      "bytes": 8818,
+      "sha256": "01905a755b7c1b8b749c5d0d03acad0a8d7c8fab7def424741ba8fd8770735c8"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/references/12-skeletal-fragment.png",
+      "bytes": 3593,
+      "sha256": "89681ac712f7a15ff3d1d490d4463a0f5070a7e227463d5c7434d50e8c031eab"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/01-lying-back.png",
+      "bytes": 603278,
+      "sha256": "b5854340c259dfca2ea5ef6186f7da2e77e557a07080a0c95408bae4b780af31"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/02-lying-front.png",
+      "bytes": 477877,
+      "sha256": "4d8439527d30b627e6a7769db907a6721ef58ed247a122ac1fae6928d4c14367"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/03-lying-side.png",
+      "bytes": 549883,
+      "sha256": "c1d68595cd77c4696448e7c6a71211ffd940a07ad2a40ed194dec7acb8c5b132"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/04-sprawled.png",
+      "bytes": 522003,
+      "sha256": "3250f67ac8291100061acc7975f1fe4bcdf62c9b56be509f183475c95398d361"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/05-seated-wall.png",
+      "bytes": 560726,
+      "sha256": "894b27a4a25c7300091b707f4e53d8e17182989fa5e48d5c1e9dce08b567d042"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/06-seated-side.png",
+      "bytes": 553083,
+      "sha256": "98d134066f72a6ae38b3469bb358c63d36e96eb93799486975739c9cb600c5ca"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/07-seated-folded.png",
+      "bytes": 369705,
+      "sha256": "c6bf6f4df1d96a8b331eeb4401a181e7cab76719d98bfed94384b75fb9a11c06"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/08-slumped-tree.png",
+      "bytes": 632209,
+      "sha256": "91f93660802989d902cdc43483157009d3583a7bfafb686f1bc5f18268222ebf"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/09-covered-body.png",
+      "bytes": 508506,
+      "sha256": "a3f56cc4d09e56c88cdad4807508e58fbfcba5188e82d2b4eb0b85bba9e19070"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/10-rubble-covered.png",
+      "bytes": 621084,
+      "sha256": "f561689ab94ac976a0a3b162319a534b7ccaa337c02b52a0b134c8153c6c9ae6"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/11-skeletal-torso.png",
+      "bytes": 548203,
+      "sha256": "ca564d373454ed1b3e14d5ed67e152041e781c1ebd82f9afb6fe2333b63ddbdf"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sources/12-skeletal-fragment.png",
+      "bytes": 264129,
+      "sha256": "08aa6db6de421e553db850ed47962772558da16d208c423a6a30f678dbf4fc30"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/01-lying-back.png",
+      "bytes": 542,
+      "sha256": "9a3c2f66128da11dfe23663c53b4458b5e0e74d148fac18f4622a5dc3754f114"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/02-lying-front.png",
+      "bytes": 539,
+      "sha256": "4cd83aac142b5065071c506d26196bc0339b9ee65efd4279b69a766b284247ce"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/03-lying-side.png",
+      "bytes": 542,
+      "sha256": "5b239ec8f6c1eeb978535913e10be675ca8a7f2b407be82d61b12d3d808a3300"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/04-sprawled.png",
+      "bytes": 503,
+      "sha256": "7066607da27af3fe80f5f83f24ad787a0e0ff656378283f690834eb55b479498"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/05-seated-wall.png",
+      "bytes": 468,
+      "sha256": "ff9a53103702d13f970952005401c9cdc8f2788f6515bece7708ef6f009ee67d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/06-seated-side.png",
+      "bytes": 439,
+      "sha256": "429c2f64e06620f79556e767172b04790fb1b03207e5c6a35804f28f52a4df5f"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/07-seated-folded.png",
+      "bytes": 441,
+      "sha256": "b4bfe97015ff2c24090af298c4aa86e28a2cece125d74585de1f3ca3ff0f22ed"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/08-slumped-tree.png",
+      "bytes": 471,
+      "sha256": "a0f489b7644e15c3bc014ddde1406340bd6413eedb0500a81436302aae68cd3e"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/09-covered-body.png",
+      "bytes": 494,
+      "sha256": "e1148418b1427290c4825ec97712df190c6c7482140471ac23c9fc74985c1e15"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/10-rubble-covered.png",
+      "bytes": 648,
+      "sha256": "fb07750e49a53842c2200e9887d1cace974d1404574f1c758a6893d0b877c7eb"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/11-skeletal-torso.png",
+      "bytes": 451,
+      "sha256": "8f8dbb659f84da163618e473086c91bf71cc5e09c9dff1bb4151acb0f170069d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites/12-skeletal-fragment.png",
+      "bytes": 338,
+      "sha256": "f48aeccf512b6a2ae48a5c159392a694c110ddeff224701e115e8a2e899e0d79"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/01-lying-back.png",
+      "bytes": 1040,
+      "sha256": "ee57bfb58551a366ccf40fc576c02a566aced33dff68006e308f5754b0ed8298"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/02-lying-front.png",
+      "bytes": 1002,
+      "sha256": "03efab5290fa889eb6bfade07cd24a57f28a4c4295b422c7f770757f160ad9e6"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/03-lying-side.png",
+      "bytes": 983,
+      "sha256": "36a23791f0058f13a86c75b1b895705f9146f4efc0c5c83a0dfadf69140f0b0f"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/04-sprawled.png",
+      "bytes": 952,
+      "sha256": "6daa0c02cc0c34054ccdc94baadb00095954dbc8c6ef474ec22e0dde18ae56d1"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/05-seated-wall.png",
+      "bytes": 948,
+      "sha256": "c9fd8e975a0997d57e9fc5529245e9692a7a73481af5c153f8b14aff4beb3403"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/06-seated-side.png",
+      "bytes": 877,
+      "sha256": "474539749795d33d2a830d1f983093173ab38f200aa9ad55d5b576ef190c729c"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/07-seated-folded.png",
+      "bytes": 827,
+      "sha256": "b3cb6158e0e6873019e328fcbc30db60bb70533c96f794dca3c84054704391fd"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/08-slumped-tree.png",
+      "bytes": 920,
+      "sha256": "a5632dc909e888eb07b33dc91c3251783e6945d6fb541a43a7782ccf51c42b18"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/09-covered-body.png",
+      "bytes": 970,
+      "sha256": "28fea3081b596514a34c5a57923b3ec983570956e90d870042cbfce95108b6b7"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/10-rubble-covered.png",
+      "bytes": 1183,
+      "sha256": "9d924ce7888c5266fe2adf94d6f2ea6dcbe7842e1bf0677793d08e8de14716ae"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/11-skeletal-torso.png",
+      "bytes": 870,
+      "sha256": "c27a2dd4952f5d999cdae821603309e0ca51f1076cd3f262c200d3b416667a80"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/sprites96/12-skeletal-fragment.png",
+      "bytes": 638,
+      "sha256": "41a3a84544e79b34996eeac4561c4daed35e89c34870bde04431a34b385f802d"
+    },
+    {
+      "path": "assets/decorative-corpses-v2/verification.json",
+      "bytes": 198,
+      "sha256": "64be3f813b447a764edeecec43a7d9016b3b3a81a3c6966392eac74564e8826f"
     },
     {
       "path": "assets/environment-variants-v1/README.md",
@@ -75220,8 +75563,8 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 3743,
-      "sha256": "1d71a3c57429a3b11dad7f16768a9fda459881c215c2bc2079de95fb3230c00d"
+      "bytes": 3836,
+      "sha256": "90ab2ef51fef80a93664e199f7757f320cdf79e7e70a7881c2e93ede5e0ba4e3"
     },
     {
       "path": "docs/combat-design.md",
@@ -75229,9 +75572,14 @@
       "sha256": "216f5be69a8ecdda06fc7c6d9cd1acf39acebc69c719ae55824b7c697c136700"
     },
     {
+      "path": "docs/corpse-organic-materials.md",
+      "bytes": 2235,
+      "sha256": "46cab88ee3b608583526bee1a80ddc6139708cbdd2be81e15820ade373f58cd4"
+    },
+    {
       "path": "docs/game-direction.md",
-      "bytes": 2048,
-      "sha256": "c589bda6608be0671727f65b1baf11e04a3ce222abdf898e3985ac219cabc7ed"
+      "bytes": 2416,
+      "sha256": "c8359446101fe76f3bc908410bed87a28af5a4ced35f59a3cac8c7f9a7fd5d47"
     },
     {
       "path": "docs/infected.md",
@@ -75250,8 +75598,8 @@
     },
     {
       "path": "publication-config.json",
-      "bytes": 1805,
-      "sha256": "685a32242cb8f766645a4b5f0e5248f60b8e1e2c7eb8f4200f0c4d9a0bd217e9"
+      "bytes": 1956,
+      "sha256": "0272fc500ce6fbb8f97c441cc2ba3b0c5e626b8f62b285f12879fd3a85b6dc65"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
@@ -75267,6 +75615,11 @@
       "path": "tools/build-combat-vfx.cjs",
       "bytes": 7353,
       "sha256": "1b24b58bca346484f85b38cb3cd5ee321d149c3e1debdca2edd2d9ba0405bd02"
+    },
+    {
+      "path": "tools/build-decorative-corpses-v2.cjs",
+      "bytes": 8019,
+      "sha256": "239babfbabe0ef141186b977da193765e88069856525ee61f3b5f1e168dc226b"
     },
     {
       "path": "tools/build-environment-variants.cjs",
@@ -75362,6 +75715,11 @@
       "path": "tools/package-weapon-animations.cjs",
       "bytes": 2661,
       "sha256": "2d3ff1f545a652302cae227c8b3f65a637cc3acc79a1e4c95a0cfe2294ceaa4e"
+    },
+    {
+      "path": "tools/prepare-decorative-corpses-v2.cjs",
+      "bytes": 4557,
+      "sha256": "0072163fe0703065ba6c04356774f038a83a56fdd2b887f57bc1e2ddfa44b01a"
     },
     {
       "path": "tools/prepare-friends-animations.cjs",

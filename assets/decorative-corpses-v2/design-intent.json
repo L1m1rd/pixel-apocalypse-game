@@ -1,0 +1,27 @@
+{
+  "decisionDate": "2026-10-18",
+  "source": "Explicit user instruction in this project chat",
+  "currentBehavior": {
+    "decorativeOnly": true,
+    "interactable": false,
+    "lootable": false,
+    "harvestable": false,
+    "engineIntegration": false
+  },
+  "futureHarvesting": {
+    "planned": true,
+    "implemented": false,
+    "scope": "Current decorative corpses and remains, including infected variants with fungal growths",
+    "resourceCategory": "organic_materials",
+    "resourceLabel": "Органика / органические материалы",
+    "purpose": "crafting",
+    "recipes": null,
+    "yields": null,
+    "requiredTools": null,
+    "harvestDuration": null,
+    "depletionRules": null,
+    "cooperativeRules": null,
+    "ordinaryVsInfectedDifferences": null
+  },
+  "documentation": "../../docs/corpse-organic-materials.md"
+}

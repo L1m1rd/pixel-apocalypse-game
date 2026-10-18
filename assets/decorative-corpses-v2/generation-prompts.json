@@ -1,0 +1,164 @@
+{
+  "tool": "built-in image_gen",
+  "revision": "coarser pixels, heavier fungal growth on infected subset",
+  "nativeGrid": 48,
+  "paletteColors": 24,
+  "jobs": [
+    {
+      "id": "01-lying-back",
+      "label": "Лежащий на спине",
+      "group": "lying",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/01-lying-back.png",
+      "source": "sources/01-lying-back.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. A broad pale-ochre fungal shield covers most of the head and left shoulder, with two thick shelf-like growth clusters on upper chest. Large clearly readable silhouette masses. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "02-lying-front",
+      "label": "Лежащий лицом вниз",
+      "group": "lying",
+      "infected": false,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/02-lying-front.png",
+      "source": "sources/02-lying-front.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Keep this as ordinary non-infected remains or covered body, WITHOUT fungal growth, for contrast with infected props. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "03-lying-side",
+      "label": "На боку",
+      "group": "lying",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/03-lying-side.png",
+      "source": "sources/03-lying-side.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. Three large overlapping cream and rusty-orange bracket-fungus plates protrude from the upper back and spine, plus a thick ochre cluster around the skull. Keep curled side pose. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "04-sprawled",
+      "label": "Упавший навзничь",
+      "group": "lying",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/04-sprawled.png",
+      "source": "sources/04-sprawled.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. A bulky ochre fungal crown obscures the head and one shoulder, with a second broad shelf-like colony around one knee and upper leg. Deliberate asymmetric heavy infestation. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "05-seated-wall",
+      "label": "Сидящий у стены",
+      "group": "leaning",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/05-seated-wall.png",
+      "source": "sources/05-seated-wall.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. An enormous layered beige-ochre fungus collar surrounds the head and both shoulders, fungal plates extend sideways beyond coat outline, thick knots on the chest. Keep slumped seated pose. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "06-seated-side",
+      "label": "Обмякший набок",
+      "group": "leaning",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/06-seated-side.png",
+      "source": "sources/06-seated-side.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. Thick lumpy olive-ochre fungal nodules engulf one shoulder and side of skull, two large cream bracket caps on forearm and thigh, broad overlapping plates on back. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "07-seated-folded",
+      "label": "Сидящий со склонённой головой",
+      "group": "leaning",
+      "infected": false,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/07-seated-folded.png",
+      "source": "sources/07-seated-folded.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Keep this as ordinary non-infected remains or covered body, WITHOUT fungal growth, for contrast with infected props. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "08-slumped-tree",
+      "label": "Осевший у опоры",
+      "group": "leaning",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "reference": "references/08-slumped-tree.png",
+      "source": "sources/08-slumped-tree.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. Wide fan-shaped cream and rusty-ochre bracket colonies grow from spine and one shoulder, a thick rough fungal hood partly covers skull. Clearly larger silhouette than ordinary corpse. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "09-covered-body",
+      "label": "Под старой тканью",
+      "group": "covered",
+      "infected": false,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/09-covered-body.png",
+      "source": "sources/09-covered-body.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Keep this as ordinary non-infected remains or covered body, WITHOUT fungal growth, for contrast with infected props. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "10-rubble-covered",
+      "label": "Под обломками",
+      "group": "covered",
+      "infected": false,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/10-rubble-covered.png",
+      "source": "sources/10-rubble-covered.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Keep this as ordinary non-infected remains or covered body, WITHOUT fungal growth, for contrast with infected props. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "11-skeletal-torso",
+      "label": "Скелетированные останки",
+      "group": "fragment",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/11-skeletal-torso.png",
+      "source": "sources/11-skeletal-torso.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. The old clothed skeletal torso is heavily colonized by three broad beige-orange fungus caps on ribs and shoulder, large fungal shelf over part of skull; dry bones visible between flat color masses. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    },
+    {
+      "id": "12-skeletal-fragment",
+      "label": "Фрагменты старых останков",
+      "group": "fragment",
+      "infected": true,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "reference": "references/12-skeletal-fragment.png",
+      "source": "sources/12-skeletal-fragment.png",
+      "prompt": "Use case: style-transfer. REDRAW the single decorative corpse prop in the input image as MUCH COARSER CLASSIC GAME PIXEL ART. Input is pose/composition reference: preserve its exact resting pose, facing, clothing color blocks and major objects, but replace all fine texture. This is an anonymous fictional adult environmental prop. Make this a heavily fungus-colonized infected corpse. The old sleeve and skeletal forearm fragment has one big pale-ochre bracket-fungus rosette growing through the cloth and two thick olive nodules near the boot. Keep compact fragment cluster. The growths are dry external fungal plates/caps, not wounds or exposed tissue. CRITICAL PIXEL STYLE: design as an actual 48x48 logical-pixel sprite, full prop fits within about38x34 pixels (seated prop about30 pixels tall). Enlarge that tiny sprite with nearest-neighbor so every logical pixel is a LARGE SQUARE BLOCK. Restrict to about16-24 FLAT muted colors total, 2-3 tones per material, stepped outlines, big clean pixel clusters. Absolutely NO grain, microtexture, dithering, noisy mottling, photographic detail, blur, smooth gradients or painterly shading. Clothes have only a few blocky folds and one or two coarse patches. Fungal clusters must be BIG SIMPLE HIGH-CONTRAST PIXEL SHAPES in pale ochre/cream with muted rusty centers, easy to see at tiny game scale. Slightly elevated top-down map camera, match original orientation. The entire prop including growths, shoes and fingers must fit inside generous transparent margins. True transparent RGBA background, no ground, scene, wall, cast shadow, checkerboard, labels or text. Exactly one stationary prop, no extra views or animation. No weapons or backpack. No blood or exposed flesh, no floating spores or effects. Keep it visibly lifeless and static."
+    }
+  ]
+}
