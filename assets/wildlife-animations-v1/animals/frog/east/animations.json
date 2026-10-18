@@ -1,0 +1,87 @@
+{
+  "species": "frog",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "frog_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "frog_b_idle_east_00",
+        "frog_b_idle_east_01",
+        "frog_b_idle_east_02",
+        "frog_b_idle_east_03",
+        "frog_b_idle_east_04",
+        "frog_b_idle_east_05"
+      ],
+      "files": [
+        "animals/frog/east/frames/frog_b_idle_east_00.png",
+        "animals/frog/east/frames/frog_b_idle_east_01.png",
+        "animals/frog/east/frames/frog_b_idle_east_02.png",
+        "animals/frog/east/frames/frog_b_idle_east_03.png",
+        "animals/frog/east/frames/frog_b_idle_east_04.png",
+        "animals/frog/east/frames/frog_b_idle_east_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "jump": {
+      "id": "frog_b_jump_east",
+      "label": "Прыжок",
+      "frames": [
+        "frog_b_jump_east_00",
+        "frog_b_jump_east_01",
+        "frog_b_jump_east_02",
+        "frog_b_jump_east_03",
+        "frog_b_jump_east_04",
+        "frog_b_jump_east_05"
+      ],
+      "files": [
+        "animals/frog/east/frames/frog_b_jump_east_00.png",
+        "animals/frog/east/frames/frog_b_jump_east_01.png",
+        "animals/frog/east/frames/frog_b_jump_east_02.png",
+        "animals/frog/east/frames/frog_b_jump_east_03.png",
+        "animals/frog/east/frames/frog_b_jump_east_04.png",
+        "animals/frog/east/frames/frog_b_jump_east_05.png"
+      ],
+      "frameRate": 10,
+      "frameMs": 100,
+      "repeat": 0,
+      "persistence": "hold-last-frame",
+      "rootMotion": false
+    },
+    "swim": {
+      "id": "frog_b_swim_east",
+      "label": "Плавание",
+      "frames": [
+        "frog_b_swim_east_00",
+        "frog_b_swim_east_01",
+        "frog_b_swim_east_02",
+        "frog_b_swim_east_03",
+        "frog_b_swim_east_04",
+        "frog_b_swim_east_05"
+      ],
+      "files": [
+        "animals/frog/east/frames/frog_b_swim_east_00.png",
+        "animals/frog/east/frames/frog_b_swim_east_01.png",
+        "animals/frog/east/frames/frog_b_swim_east_02.png",
+        "animals/frog/east/frames/frog_b_swim_east_03.png",
+        "animals/frog/east/frames/frog_b_swim_east_04.png",
+        "animals/frog/east/frames/frog_b_swim_east_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

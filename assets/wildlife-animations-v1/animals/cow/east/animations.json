@@ -1,0 +1,87 @@
+{
+  "species": "cow",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "cow_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "cow_b_idle_east_00",
+        "cow_b_idle_east_01",
+        "cow_b_idle_east_02",
+        "cow_b_idle_east_03",
+        "cow_b_idle_east_04",
+        "cow_b_idle_east_05"
+      ],
+      "files": [
+        "animals/cow/east/frames/cow_b_idle_east_00.png",
+        "animals/cow/east/frames/cow_b_idle_east_01.png",
+        "animals/cow/east/frames/cow_b_idle_east_02.png",
+        "animals/cow/east/frames/cow_b_idle_east_03.png",
+        "animals/cow/east/frames/cow_b_idle_east_04.png",
+        "animals/cow/east/frames/cow_b_idle_east_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "cow_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "cow_b_walk_east_00",
+        "cow_b_walk_east_01",
+        "cow_b_walk_east_02",
+        "cow_b_walk_east_03",
+        "cow_b_walk_east_04",
+        "cow_b_walk_east_05"
+      ],
+      "files": [
+        "animals/cow/east/frames/cow_b_walk_east_00.png",
+        "animals/cow/east/frames/cow_b_walk_east_01.png",
+        "animals/cow/east/frames/cow_b_walk_east_02.png",
+        "animals/cow/east/frames/cow_b_walk_east_03.png",
+        "animals/cow/east/frames/cow_b_walk_east_04.png",
+        "animals/cow/east/frames/cow_b_walk_east_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "cow_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "cow_b_run_east_00",
+        "cow_b_run_east_01",
+        "cow_b_run_east_02",
+        "cow_b_run_east_03",
+        "cow_b_run_east_04",
+        "cow_b_run_east_05"
+      ],
+      "files": [
+        "animals/cow/east/frames/cow_b_run_east_00.png",
+        "animals/cow/east/frames/cow_b_run_east_01.png",
+        "animals/cow/east/frames/cow_b_run_east_02.png",
+        "animals/cow/east/frames/cow_b_run_east_03.png",
+        "animals/cow/east/frames/cow_b_run_east_04.png",
+        "animals/cow/east/frames/cow_b_run_east_05.png"
+      ],
+      "frameRate": 9.090909090909092,
+      "frameMs": 110,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "fingerprint": "6a39bb7a4499d17a0065d51dc415a5a594158996d7e742fa6f7deb0970565712",
+  "animal": {
+    "id": "fox",
+    "name": "Лиса",
+    "variant": "B",
+    "characterId": "fox_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/fox-b.png",
+    "baseFiles": {
+      "south": "sprites/fox/fox_b_south.png",
+      "west": "sprites/fox/fox_b_west.png",
+      "east": "sprites/fox/fox_b_east.png",
+      "north": "sprites/fox/fox_b_north.png"
+    },
+    "baseHashes": {
+      "south": "063d257d915100e603a29359f4b036a6de85301f3ce193224befa496d0055f9d",
+      "west": "2c3854e1776f39ae0019f23a162295456416d137cf2099f3b6fdb57a14c11676",
+      "east": "8fe401a1a58a7209ee38800e08393cefef7d74ac3a0fd510de9004f0aa0701a1",
+      "north": "7467cb7ee11a4b1f9658c12d4001bb99c43601284c576a9d870e03052b5bfd6e"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6635071090047393,
+    "suggestedWorldHeight": 24,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "subtle ear flick, chest breathing and white tail-tip twitch",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/fox-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a red fox, muted rusty orange coat, dark lower legs, pale chest and white tail tip. Action: subtle ear flick, chest breathing and white tail-tip twitch. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лиса movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/fox-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/fox-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "careful light four-beat steps, narrow paw tracks, head level",
+        "loop": true,
+        "frameMs": 110,
+        "frames": 6,
+        "source": "sources/fox-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a red fox, muted rusty orange coat, dark lower legs, pale chest and white tail tip. Action: careful light four-beat steps, narrow paw tracks, head level. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лиса movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/fox-walk.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/fox-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "springy low fox gallop, fore/hind legs alternately extend and gather, bushy tail balances",
+        "loop": true,
+        "frameMs": 80,
+        "frames": 6,
+        "source": "sources/fox-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a red fox, muted rusty orange coat, dark lower legs, pale chest and white tail tip. Action: springy low fox gallop, fore/hind legs alternately extend and gather, bushy tail balances. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лиса movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/fox-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/fox-run.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/fox/south/spritesheet.png",
+        "atlas": "animals/fox/south/atlas.json",
+        "config": "animals/fox/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fox_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "fox_b_idle_south_00",
+              "fox_b_idle_south_01",
+              "fox_b_idle_south_02",
+              "fox_b_idle_south_03",
+              "fox_b_idle_south_04",
+              "fox_b_idle_south_05"
+            ],
+            "files": [
+              "animals/fox/south/frames/fox_b_idle_south_00.png",
+              "animals/fox/south/frames/fox_b_idle_south_01.png",
+              "animals/fox/south/frames/fox_b_idle_south_02.png",
+              "animals/fox/south/frames/fox_b_idle_south_03.png",
+              "animals/fox/south/frames/fox_b_idle_south_04.png",
+              "animals/fox/south/frames/fox_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "fox_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "fox_b_walk_south_00",
+              "fox_b_walk_south_01",
+              "fox_b_walk_south_02",
+              "fox_b_walk_south_03",
+              "fox_b_walk_south_04",
+              "fox_b_walk_south_05"
+            ],
+            "files": [
+              "animals/fox/south/frames/fox_b_walk_south_00.png",
+              "animals/fox/south/frames/fox_b_walk_south_01.png",
+              "animals/fox/south/frames/fox_b_walk_south_02.png",
+              "animals/fox/south/frames/fox_b_walk_south_03.png",
+              "animals/fox/south/frames/fox_b_walk_south_04.png",
+              "animals/fox/south/frames/fox_b_walk_south_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "fox_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "fox_b_run_south_00",
+              "fox_b_run_south_01",
+              "fox_b_run_south_02",
+              "fox_b_run_south_03",
+              "fox_b_run_south_04",
+              "fox_b_run_south_05"
+            ],
+            "files": [
+              "animals/fox/south/frames/fox_b_run_south_00.png",
+              "animals/fox/south/frames/fox_b_run_south_01.png",
+              "animals/fox/south/frames/fox_b_run_south_02.png",
+              "animals/fox/south/frames/fox_b_run_south_03.png",
+              "animals/fox/south/frames/fox_b_run_south_04.png",
+              "animals/fox/south/frames/fox_b_run_south_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/fox/west/spritesheet.png",
+        "atlas": "animals/fox/west/atlas.json",
+        "config": "animals/fox/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fox_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "fox_b_idle_west_00",
+              "fox_b_idle_west_01",
+              "fox_b_idle_west_02",
+              "fox_b_idle_west_03",
+              "fox_b_idle_west_04",
+              "fox_b_idle_west_05"
+            ],
+            "files": [
+              "animals/fox/west/frames/fox_b_idle_west_00.png",
+              "animals/fox/west/frames/fox_b_idle_west_01.png",
+              "animals/fox/west/frames/fox_b_idle_west_02.png",
+              "animals/fox/west/frames/fox_b_idle_west_03.png",
+              "animals/fox/west/frames/fox_b_idle_west_04.png",
+              "animals/fox/west/frames/fox_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "fox_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "fox_b_walk_west_00",
+              "fox_b_walk_west_01",
+              "fox_b_walk_west_02",
+              "fox_b_walk_west_03",
+              "fox_b_walk_west_04",
+              "fox_b_walk_west_05"
+            ],
+            "files": [
+              "animals/fox/west/frames/fox_b_walk_west_00.png",
+              "animals/fox/west/frames/fox_b_walk_west_01.png",
+              "animals/fox/west/frames/fox_b_walk_west_02.png",
+              "animals/fox/west/frames/fox_b_walk_west_03.png",
+              "animals/fox/west/frames/fox_b_walk_west_04.png",
+              "animals/fox/west/frames/fox_b_walk_west_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "fox_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "fox_b_run_west_00",
+              "fox_b_run_west_01",
+              "fox_b_run_west_02",
+              "fox_b_run_west_03",
+              "fox_b_run_west_04",
+              "fox_b_run_west_05"
+            ],
+            "files": [
+              "animals/fox/west/frames/fox_b_run_west_00.png",
+              "animals/fox/west/frames/fox_b_run_west_01.png",
+              "animals/fox/west/frames/fox_b_run_west_02.png",
+              "animals/fox/west/frames/fox_b_run_west_03.png",
+              "animals/fox/west/frames/fox_b_run_west_04.png",
+              "animals/fox/west/frames/fox_b_run_west_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/fox/east/spritesheet.png",
+        "atlas": "animals/fox/east/atlas.json",
+        "config": "animals/fox/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fox_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "fox_b_idle_east_00",
+              "fox_b_idle_east_01",
+              "fox_b_idle_east_02",
+              "fox_b_idle_east_03",
+              "fox_b_idle_east_04",
+              "fox_b_idle_east_05"
+            ],
+            "files": [
+              "animals/fox/east/frames/fox_b_idle_east_00.png",
+              "animals/fox/east/frames/fox_b_idle_east_01.png",
+              "animals/fox/east/frames/fox_b_idle_east_02.png",
+              "animals/fox/east/frames/fox_b_idle_east_03.png",
+              "animals/fox/east/frames/fox_b_idle_east_04.png",
+              "animals/fox/east/frames/fox_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "fox_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "fox_b_walk_east_00",
+              "fox_b_walk_east_01",
+              "fox_b_walk_east_02",
+              "fox_b_walk_east_03",
+              "fox_b_walk_east_04",
+              "fox_b_walk_east_05"
+            ],
+            "files": [
+              "animals/fox/east/frames/fox_b_walk_east_00.png",
+              "animals/fox/east/frames/fox_b_walk_east_01.png",
+              "animals/fox/east/frames/fox_b_walk_east_02.png",
+              "animals/fox/east/frames/fox_b_walk_east_03.png",
+              "animals/fox/east/frames/fox_b_walk_east_04.png",
+              "animals/fox/east/frames/fox_b_walk_east_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "fox_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "fox_b_run_east_00",
+              "fox_b_run_east_01",
+              "fox_b_run_east_02",
+              "fox_b_run_east_03",
+              "fox_b_run_east_04",
+              "fox_b_run_east_05"
+            ],
+            "files": [
+              "animals/fox/east/frames/fox_b_run_east_00.png",
+              "animals/fox/east/frames/fox_b_run_east_01.png",
+              "animals/fox/east/frames/fox_b_run_east_02.png",
+              "animals/fox/east/frames/fox_b_run_east_03.png",
+              "animals/fox/east/frames/fox_b_run_east_04.png",
+              "animals/fox/east/frames/fox_b_run_east_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/fox/north/spritesheet.png",
+        "atlas": "animals/fox/north/atlas.json",
+        "config": "animals/fox/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fox_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "fox_b_idle_north_00",
+              "fox_b_idle_north_01",
+              "fox_b_idle_north_02",
+              "fox_b_idle_north_03",
+              "fox_b_idle_north_04",
+              "fox_b_idle_north_05"
+            ],
+            "files": [
+              "animals/fox/north/frames/fox_b_idle_north_00.png",
+              "animals/fox/north/frames/fox_b_idle_north_01.png",
+              "animals/fox/north/frames/fox_b_idle_north_02.png",
+              "animals/fox/north/frames/fox_b_idle_north_03.png",
+              "animals/fox/north/frames/fox_b_idle_north_04.png",
+              "animals/fox/north/frames/fox_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "fox_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "fox_b_walk_north_00",
+              "fox_b_walk_north_01",
+              "fox_b_walk_north_02",
+              "fox_b_walk_north_03",
+              "fox_b_walk_north_04",
+              "fox_b_walk_north_05"
+            ],
+            "files": [
+              "animals/fox/north/frames/fox_b_walk_north_00.png",
+              "animals/fox/north/frames/fox_b_walk_north_01.png",
+              "animals/fox/north/frames/fox_b_walk_north_02.png",
+              "animals/fox/north/frames/fox_b_walk_north_03.png",
+              "animals/fox/north/frames/fox_b_walk_north_04.png",
+              "animals/fox/north/frames/fox_b_walk_north_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "fox_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "fox_b_run_north_00",
+              "fox_b_run_north_01",
+              "fox_b_run_north_02",
+              "fox_b_run_north_03",
+              "fox_b_run_north_04",
+              "fox_b_run_north_05"
+            ],
+            "files": [
+              "animals/fox/north/frames/fox_b_run_north_00.png",
+              "animals/fox/north/frames/fox_b_run_north_01.png",
+              "animals/fox/north/frames/fox_b_run_north_02.png",
+              "animals/fox/north/frames/fox_b_run_north_03.png",
+              "animals/fox/north/frames/fox_b_run_north_04.png",
+              "animals/fox/north/frames/fox_b_run_north_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

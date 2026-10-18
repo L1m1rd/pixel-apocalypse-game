@@ -1,0 +1,118 @@
+{
+  "species": "stray_dog",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "stray_dog_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "stray_dog_b_idle_east_00",
+        "stray_dog_b_idle_east_01",
+        "stray_dog_b_idle_east_02",
+        "stray_dog_b_idle_east_03",
+        "stray_dog_b_idle_east_04",
+        "stray_dog_b_idle_east_05"
+      ],
+      "files": [
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_00.png",
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_01.png",
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_02.png",
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_03.png",
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_04.png",
+        "animals/stray_dog/east/frames/stray_dog_b_idle_east_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "stray_dog_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "stray_dog_b_walk_east_00",
+        "stray_dog_b_walk_east_01",
+        "stray_dog_b_walk_east_02",
+        "stray_dog_b_walk_east_03",
+        "stray_dog_b_walk_east_04",
+        "stray_dog_b_walk_east_05"
+      ],
+      "files": [
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_00.png",
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_01.png",
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_02.png",
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_03.png",
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_04.png",
+        "animals/stray_dog/east/frames/stray_dog_b_walk_east_05.png"
+      ],
+      "frameRate": 9.090909090909092,
+      "frameMs": 110,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "stray_dog_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "stray_dog_b_run_east_00",
+        "stray_dog_b_run_east_01",
+        "stray_dog_b_run_east_02",
+        "stray_dog_b_run_east_03",
+        "stray_dog_b_run_east_04",
+        "stray_dog_b_run_east_05"
+      ],
+      "files": [
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_00.png",
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_01.png",
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_02.png",
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_03.png",
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_04.png",
+        "animals/stray_dog/east/frames/stray_dog_b_run_east_05.png"
+      ],
+      "frameRate": 13.333333333333334,
+      "frameMs": 75,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "stray_dog_b_attack_east",
+      "label": "Атака",
+      "frames": [
+        "stray_dog_b_attack_east_00",
+        "stray_dog_b_attack_east_01",
+        "stray_dog_b_attack_east_02",
+        "stray_dog_b_attack_east_03",
+        "stray_dog_b_attack_east_04",
+        "stray_dog_b_attack_east_05"
+      ],
+      "files": [
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_00.png",
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_01.png",
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_02.png",
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_03.png",
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_04.png",
+        "animals/stray_dog/east/frames/stray_dog_b_attack_east_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

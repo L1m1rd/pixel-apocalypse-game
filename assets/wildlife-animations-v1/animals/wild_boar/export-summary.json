@@ -1,0 +1,547 @@
+{
+  "fingerprint": "a39fb48034ef55e334aff6565c614021d54f69dde1bcc8728e8a58f2f9dce9d8",
+  "animal": {
+    "id": "wild_boar",
+    "name": "Кабан",
+    "variant": "B",
+    "characterId": "wild_boar_b",
+    "attackCapable": true,
+    "role": "hostile",
+    "reference": "references/wild_boar-b.png",
+    "baseFiles": {
+      "south": "sprites/wild_boar/wild_boar_b_south.png",
+      "west": "sprites/wild_boar/wild_boar_b_west.png",
+      "east": "sprites/wild_boar/wild_boar_b_east.png",
+      "north": "sprites/wild_boar/wild_boar_b_north.png"
+    },
+    "baseHashes": {
+      "south": "54f27f54741bdbe34a2b989f55fd683e14744ba4297e3e79edf8f3ee4c61c912",
+      "west": "4331d198ddeaa42873e59948d20445ba83e23abb0ecba8a3337d3c4b67aaf4ea",
+      "east": "9fdd64d4537f160d500b8938cfa35f2547ecad7a1b121b0baf69f8db45908c14",
+      "north": "86384ef61cfb628e511a29a8bd9c62f7bc42be12496371793008e1c14adbc1d2"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6829268292682927,
+    "suggestedWorldHeight": 31,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "snout sniffs, heavy shoulder breathing, small ear flick",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/wild_boar-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult wild boar, stocky dark brown bristly body, short legs, long snout and small visible tusks. Action: snout sniffs, heavy shoulder breathing, small ear flick. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кабан movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/wild_boar-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/wild_boar-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "stocky short stiff-legged steps, low head and shoulder sway",
+        "loop": true,
+        "frameMs": 125,
+        "frames": 6,
+        "source": "sources/wild_boar-walk-v2.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult wild boar, stocky dark brown bristly body, short legs, long snout and small visible tusks. Action: stocky short stiff-legged steps, low head and shoulder sway. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кабан movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1.095808383233533,
+        "comparison": "comparisons/wild_boar-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "compact fast boar gallop, rapid short hooves, heavy rounded body bobs",
+        "loop": true,
+        "frameMs": 85,
+        "frames": 6,
+        "source": "sources/wild_boar-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult wild boar, stocky dark brown bristly body, short legs, long snout and small visible tusks. Action: compact fast boar gallop, rapid short hooves, heavy rounded body bobs. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кабан movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/wild_boar-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/wild_boar-run.gif"
+      },
+      {
+        "id": "attack",
+        "label": "Атака",
+        "motion": "lowered-head tusk shove, short forward shoulder thrust, snout sweeps upward in a goring motion, then settle",
+        "loop": false,
+        "frameMs": 95,
+        "frames": 6,
+        "activeFrames": [
+          2,
+          3
+        ],
+        "impactFrame": 2,
+        "source": "sources/wild_boar-attack.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult wild boar, stocky dark brown bristly body, short legs, long snout and small visible tusks. Action: lowered-head tusk shove, short forward shoulder thrust, snout sweeps upward in a goring motion, then settle. Six-frame ONE-SHOT action: frames 1-2 prepare, frames 3-4 strike, frames 5-6 recover. No impact VFX, blood or opponent. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кабан movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/wild_boar-attack.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/wild_boar-attack.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/wild_boar/south/spritesheet.png",
+        "atlas": "animals/wild_boar/south/atlas.json",
+        "config": "animals/wild_boar/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "wild_boar_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "wild_boar_b_idle_south_00",
+              "wild_boar_b_idle_south_01",
+              "wild_boar_b_idle_south_02",
+              "wild_boar_b_idle_south_03",
+              "wild_boar_b_idle_south_04",
+              "wild_boar_b_idle_south_05"
+            ],
+            "files": [
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_00.png",
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_01.png",
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_02.png",
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_03.png",
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_04.png",
+              "animals/wild_boar/south/frames/wild_boar_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "wild_boar_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "wild_boar_b_walk_south_00",
+              "wild_boar_b_walk_south_01",
+              "wild_boar_b_walk_south_02",
+              "wild_boar_b_walk_south_03",
+              "wild_boar_b_walk_south_04",
+              "wild_boar_b_walk_south_05"
+            ],
+            "files": [
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_00.png",
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_01.png",
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_02.png",
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_03.png",
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_04.png",
+              "animals/wild_boar/south/frames/wild_boar_b_walk_south_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "wild_boar_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "wild_boar_b_run_south_00",
+              "wild_boar_b_run_south_01",
+              "wild_boar_b_run_south_02",
+              "wild_boar_b_run_south_03",
+              "wild_boar_b_run_south_04",
+              "wild_boar_b_run_south_05"
+            ],
+            "files": [
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_00.png",
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_01.png",
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_02.png",
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_03.png",
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_04.png",
+              "animals/wild_boar/south/frames/wild_boar_b_run_south_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "wild_boar_b_attack_south",
+            "label": "Атака",
+            "frames": [
+              "wild_boar_b_attack_south_00",
+              "wild_boar_b_attack_south_01",
+              "wild_boar_b_attack_south_02",
+              "wild_boar_b_attack_south_03",
+              "wild_boar_b_attack_south_04",
+              "wild_boar_b_attack_south_05"
+            ],
+            "files": [
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_00.png",
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_01.png",
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_02.png",
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_03.png",
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_04.png",
+              "animals/wild_boar/south/frames/wild_boar_b_attack_south_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/wild_boar/west/spritesheet.png",
+        "atlas": "animals/wild_boar/west/atlas.json",
+        "config": "animals/wild_boar/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "wild_boar_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "wild_boar_b_idle_west_00",
+              "wild_boar_b_idle_west_01",
+              "wild_boar_b_idle_west_02",
+              "wild_boar_b_idle_west_03",
+              "wild_boar_b_idle_west_04",
+              "wild_boar_b_idle_west_05"
+            ],
+            "files": [
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_00.png",
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_01.png",
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_02.png",
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_03.png",
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_04.png",
+              "animals/wild_boar/west/frames/wild_boar_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "wild_boar_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "wild_boar_b_walk_west_00",
+              "wild_boar_b_walk_west_01",
+              "wild_boar_b_walk_west_02",
+              "wild_boar_b_walk_west_03",
+              "wild_boar_b_walk_west_04",
+              "wild_boar_b_walk_west_05"
+            ],
+            "files": [
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_00.png",
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_01.png",
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_02.png",
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_03.png",
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_04.png",
+              "animals/wild_boar/west/frames/wild_boar_b_walk_west_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "wild_boar_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "wild_boar_b_run_west_00",
+              "wild_boar_b_run_west_01",
+              "wild_boar_b_run_west_02",
+              "wild_boar_b_run_west_03",
+              "wild_boar_b_run_west_04",
+              "wild_boar_b_run_west_05"
+            ],
+            "files": [
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_00.png",
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_01.png",
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_02.png",
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_03.png",
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_04.png",
+              "animals/wild_boar/west/frames/wild_boar_b_run_west_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "wild_boar_b_attack_west",
+            "label": "Атака",
+            "frames": [
+              "wild_boar_b_attack_west_00",
+              "wild_boar_b_attack_west_01",
+              "wild_boar_b_attack_west_02",
+              "wild_boar_b_attack_west_03",
+              "wild_boar_b_attack_west_04",
+              "wild_boar_b_attack_west_05"
+            ],
+            "files": [
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_00.png",
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_01.png",
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_02.png",
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_03.png",
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_04.png",
+              "animals/wild_boar/west/frames/wild_boar_b_attack_west_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/wild_boar/east/spritesheet.png",
+        "atlas": "animals/wild_boar/east/atlas.json",
+        "config": "animals/wild_boar/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "wild_boar_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "wild_boar_b_idle_east_00",
+              "wild_boar_b_idle_east_01",
+              "wild_boar_b_idle_east_02",
+              "wild_boar_b_idle_east_03",
+              "wild_boar_b_idle_east_04",
+              "wild_boar_b_idle_east_05"
+            ],
+            "files": [
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_00.png",
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_01.png",
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_02.png",
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_03.png",
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_04.png",
+              "animals/wild_boar/east/frames/wild_boar_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "wild_boar_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "wild_boar_b_walk_east_00",
+              "wild_boar_b_walk_east_01",
+              "wild_boar_b_walk_east_02",
+              "wild_boar_b_walk_east_03",
+              "wild_boar_b_walk_east_04",
+              "wild_boar_b_walk_east_05"
+            ],
+            "files": [
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_00.png",
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_01.png",
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_02.png",
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_03.png",
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_04.png",
+              "animals/wild_boar/east/frames/wild_boar_b_walk_east_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "wild_boar_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "wild_boar_b_run_east_00",
+              "wild_boar_b_run_east_01",
+              "wild_boar_b_run_east_02",
+              "wild_boar_b_run_east_03",
+              "wild_boar_b_run_east_04",
+              "wild_boar_b_run_east_05"
+            ],
+            "files": [
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_00.png",
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_01.png",
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_02.png",
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_03.png",
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_04.png",
+              "animals/wild_boar/east/frames/wild_boar_b_run_east_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "wild_boar_b_attack_east",
+            "label": "Атака",
+            "frames": [
+              "wild_boar_b_attack_east_00",
+              "wild_boar_b_attack_east_01",
+              "wild_boar_b_attack_east_02",
+              "wild_boar_b_attack_east_03",
+              "wild_boar_b_attack_east_04",
+              "wild_boar_b_attack_east_05"
+            ],
+            "files": [
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_00.png",
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_01.png",
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_02.png",
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_03.png",
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_04.png",
+              "animals/wild_boar/east/frames/wild_boar_b_attack_east_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/wild_boar/north/spritesheet.png",
+        "atlas": "animals/wild_boar/north/atlas.json",
+        "config": "animals/wild_boar/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "wild_boar_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "wild_boar_b_idle_north_00",
+              "wild_boar_b_idle_north_01",
+              "wild_boar_b_idle_north_02",
+              "wild_boar_b_idle_north_03",
+              "wild_boar_b_idle_north_04",
+              "wild_boar_b_idle_north_05"
+            ],
+            "files": [
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_00.png",
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_01.png",
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_02.png",
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_03.png",
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_04.png",
+              "animals/wild_boar/north/frames/wild_boar_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "wild_boar_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "wild_boar_b_walk_north_00",
+              "wild_boar_b_walk_north_01",
+              "wild_boar_b_walk_north_02",
+              "wild_boar_b_walk_north_03",
+              "wild_boar_b_walk_north_04",
+              "wild_boar_b_walk_north_05"
+            ],
+            "files": [
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_00.png",
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_01.png",
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_02.png",
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_03.png",
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_04.png",
+              "animals/wild_boar/north/frames/wild_boar_b_walk_north_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "wild_boar_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "wild_boar_b_run_north_00",
+              "wild_boar_b_run_north_01",
+              "wild_boar_b_run_north_02",
+              "wild_boar_b_run_north_03",
+              "wild_boar_b_run_north_04",
+              "wild_boar_b_run_north_05"
+            ],
+            "files": [
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_00.png",
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_01.png",
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_02.png",
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_03.png",
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_04.png",
+              "animals/wild_boar/north/frames/wild_boar_b_run_north_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "wild_boar_b_attack_north",
+            "label": "Атака",
+            "frames": [
+              "wild_boar_b_attack_north_00",
+              "wild_boar_b_attack_north_01",
+              "wild_boar_b_attack_north_02",
+              "wild_boar_b_attack_north_03",
+              "wild_boar_b_attack_north_04",
+              "wild_boar_b_attack_north_05"
+            ],
+            "files": [
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_00.png",
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_01.png",
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_02.png",
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_03.png",
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_04.png",
+              "animals/wild_boar/north/frames/wild_boar_b_attack_north_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      }
+    }
+  }
+}

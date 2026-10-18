@@ -1,0 +1,118 @@
+{
+  "species": "wild_boar",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "wild_boar_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "wild_boar_b_idle_east_00",
+        "wild_boar_b_idle_east_01",
+        "wild_boar_b_idle_east_02",
+        "wild_boar_b_idle_east_03",
+        "wild_boar_b_idle_east_04",
+        "wild_boar_b_idle_east_05"
+      ],
+      "files": [
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_00.png",
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_01.png",
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_02.png",
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_03.png",
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_04.png",
+        "animals/wild_boar/east/frames/wild_boar_b_idle_east_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "wild_boar_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "wild_boar_b_walk_east_00",
+        "wild_boar_b_walk_east_01",
+        "wild_boar_b_walk_east_02",
+        "wild_boar_b_walk_east_03",
+        "wild_boar_b_walk_east_04",
+        "wild_boar_b_walk_east_05"
+      ],
+      "files": [
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_00.png",
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_01.png",
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_02.png",
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_03.png",
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_04.png",
+        "animals/wild_boar/east/frames/wild_boar_b_walk_east_05.png"
+      ],
+      "frameRate": 8,
+      "frameMs": 125,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "wild_boar_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "wild_boar_b_run_east_00",
+        "wild_boar_b_run_east_01",
+        "wild_boar_b_run_east_02",
+        "wild_boar_b_run_east_03",
+        "wild_boar_b_run_east_04",
+        "wild_boar_b_run_east_05"
+      ],
+      "files": [
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_00.png",
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_01.png",
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_02.png",
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_03.png",
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_04.png",
+        "animals/wild_boar/east/frames/wild_boar_b_run_east_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "wild_boar_b_attack_east",
+      "label": "Атака",
+      "frames": [
+        "wild_boar_b_attack_east_00",
+        "wild_boar_b_attack_east_01",
+        "wild_boar_b_attack_east_02",
+        "wild_boar_b_attack_east_03",
+        "wild_boar_b_attack_east_04",
+        "wild_boar_b_attack_east_05"
+      ],
+      "files": [
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_00.png",
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_01.png",
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_02.png",
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_03.png",
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_04.png",
+        "animals/wild_boar/east/frames/wild_boar_b_attack_east_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

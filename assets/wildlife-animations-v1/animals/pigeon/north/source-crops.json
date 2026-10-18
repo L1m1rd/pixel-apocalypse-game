@@ -1,0 +1,582 @@
+{
+  "sharedSpeciesScale": 0.7305389221556886,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "pigeon_b_idle_north_00",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_00.png",
+      "sha256": "79502279a52a008cab4936a441393423a5c3655bced2d21728bccc563c03d017",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 60,
+        "y": 743,
+        "w": 140,
+        "h": 227
+      },
+      "sourceAnchor": {
+        "x": 127.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 79,
+        "top": 35,
+        "width": 102,
+        "height": 166
+      }
+    },
+    {
+      "name": "pigeon_b_idle_north_01",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_01.png",
+      "sha256": "5a559f845c67a51430d0f517357e9c1750f0847cffa3352c45704c6860ea36d8",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 312,
+        "y": 750,
+        "w": 144,
+        "h": 220
+      },
+      "sourceAnchor": {
+        "x": 383.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 76,
+        "top": 40,
+        "width": 105,
+        "height": 161
+      }
+    },
+    {
+      "name": "pigeon_b_idle_north_02",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_02.png",
+      "sha256": "30494886e94a1acc830404a04ddc0e562863057bb4c1ae4cf5e05c84c2b1490b",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 570,
+        "y": 749,
+        "w": 140,
+        "h": 221
+      },
+      "sourceAnchor": {
+        "x": 639.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 77,
+        "top": 39,
+        "width": 102,
+        "height": 161
+      }
+    },
+    {
+      "name": "pigeon_b_idle_north_03",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_03.png",
+      "sha256": "41f8fe71c673d51a37bd1e949a3832aa1eae8a4673034c86a803db7fb5c9f46c",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 826,
+        "y": 738,
+        "w": 141,
+        "h": 235
+      },
+      "sourceAnchor": {
+        "x": 895.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 77,
+        "top": 31,
+        "width": 103,
+        "height": 172
+      }
+    },
+    {
+      "name": "pigeon_b_idle_north_04",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_04.png",
+      "sha256": "144446b5f4e6d7447f380f4ecf9aeb2ed6b0399a23fe18028ec04e3d752c8ab3",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1080,
+        "y": 755,
+        "w": 144,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 1151.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 76,
+        "top": 44,
+        "width": 105,
+        "height": 157
+      }
+    },
+    {
+      "name": "pigeon_b_idle_north_05",
+      "file": "animals/pigeon/north/frames/pigeon_b_idle_north_05.png",
+      "sha256": "d5180a8b2ade0e6b1b7df2770decfaf9f0b256e1fe382c128bb1ac54ab84c943",
+      "source": "sources/pigeon-idle.png",
+      "sourceHash": "add4e9ff7f7ec5ec82296ed738cd49a672e94e1ca9acced5b53837adb1cb88bd",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1337,
+        "y": 743,
+        "w": 141,
+        "h": 227
+      },
+      "sourceAnchor": {
+        "x": 1407.5,
+        "y": 969
+      },
+      "destination": {
+        "left": 76,
+        "top": 35,
+        "width": 103,
+        "height": 166
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_00",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_00.png",
+      "sha256": "d4bfa4bd47d62d1b6154da5f8b5c32cfe11873a3cd2c3917ec4dc09538280842",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 82,
+        "y": 778,
+        "w": 146,
+        "h": 223
+      },
+      "sourceAnchor": {
+        "x": 129,
+        "y": 1004
+      },
+      "destination": {
+        "left": 94,
+        "top": 35,
+        "width": 107,
+        "height": 163
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_01",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_01.png",
+      "sha256": "77b8813d721f05c24b48a52db1140ab02b2e59c9efbd776d0522b91fc94e281b",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 321,
+        "y": 785,
+        "w": 145,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 385,
+        "y": 1004
+      },
+      "destination": {
+        "left": 81,
+        "top": 40,
+        "width": 106,
+        "height": 160
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_02",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_02.png",
+      "sha256": "bbebe2c948e31c9001a17f1488b825558ee7e7f019c5506e0d6edd33c7217ca3",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 571,
+        "y": 800,
+        "w": 141,
+        "h": 207
+      },
+      "sourceAnchor": {
+        "x": 641,
+        "y": 1004
+      },
+      "destination": {
+        "left": 77,
+        "top": 51,
+        "width": 103,
+        "height": 151
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_03",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_03.png",
+      "sha256": "b6b8b9b2ff65c0630fa6fc16c80f83a75f40f2c9c01586c3757dcfe5f1304f3e",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 811,
+        "y": 778,
+        "w": 143,
+        "h": 227
+      },
+      "sourceAnchor": {
+        "x": 897,
+        "y": 1004
+      },
+      "destination": {
+        "left": 65,
+        "top": 35,
+        "width": 104,
+        "height": 166
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_04",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_04.png",
+      "sha256": "3f8a65cfb53b9059dcf250da25287e9f2d138d6b463c2b66d6188067e3200298",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1061,
+        "y": 785,
+        "w": 147,
+        "h": 222
+      },
+      "sourceAnchor": {
+        "x": 1153,
+        "y": 1004
+      },
+      "destination": {
+        "left": 61,
+        "top": 40,
+        "width": 107,
+        "height": 162
+      }
+    },
+    {
+      "name": "pigeon_b_walk_north_05",
+      "file": "animals/pigeon/north/frames/pigeon_b_walk_north_05.png",
+      "sha256": "13f8efc4cda14c2bf5264401e7094f1238acf86efab997943b48d8e4e6a306d1",
+      "source": "sources/pigeon-walk.png",
+      "sourceHash": "156838d61ee4f6599fbb6cedbb95051dde45f6d4b07dc23f4143748459d51766",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1304,
+        "y": 778,
+        "w": 147,
+        "h": 223
+      },
+      "sourceAnchor": {
+        "x": 1409,
+        "y": 1004
+      },
+      "destination": {
+        "left": 51,
+        "top": 35,
+        "width": 107,
+        "height": 163
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_00",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_00.png",
+      "sha256": "b6b7db83e3db130496aa180f53c78dfc0b54e08f52a634786f04d6ba5e672dca",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 62,
+        "y": 754,
+        "w": 152,
+        "h": 216
+      },
+      "sourceAnchor": {
+        "x": 128,
+        "y": 978
+      },
+      "destination": {
+        "left": 80,
+        "top": 36,
+        "width": 111,
+        "height": 158
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_01",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_01.png",
+      "sha256": "639ae5209c32c62e61d4960c40d55139d70e5b8fb00675760fd2fdbc032e177c",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 308,
+        "y": 763,
+        "w": 151,
+        "h": 216
+      },
+      "sourceAnchor": {
+        "x": 384,
+        "y": 978
+      },
+      "destination": {
+        "left": 72,
+        "top": 43,
+        "width": 110,
+        "height": 158
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_02",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_02.png",
+      "sha256": "6fc2af3fe02aa5561534a673e951eb836f8b525f48eb0c206d3c9cc11bdae625",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 568,
+        "y": 764,
+        "w": 143,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 640,
+        "y": 978
+      },
+      "destination": {
+        "left": 75,
+        "top": 44,
+        "width": 104,
+        "height": 157
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_03",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_03.png",
+      "sha256": "39466a4a2e5667e085958d363ab2d2650e52395c0ff0cf453ffbfca5e6ddd6a8",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 822,
+        "y": 764,
+        "w": 149,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 896,
+        "y": 978
+      },
+      "destination": {
+        "left": 74,
+        "top": 44,
+        "width": 109,
+        "height": 157
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_04",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_04.png",
+      "sha256": "ab5b6e495100f8bc3c3e239caf3ffa8466f2dc7fb4f12c9f5252e0a782ac2b17",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1079,
+        "y": 764,
+        "w": 149,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 1152,
+        "y": 978
+      },
+      "destination": {
+        "left": 75,
+        "top": 44,
+        "width": 109,
+        "height": 157
+      }
+    },
+    {
+      "name": "pigeon_b_run_north_05",
+      "file": "animals/pigeon/north/frames/pigeon_b_run_north_05.png",
+      "sha256": "83ba488ecaa5012df7349fc445fff24669d206c75e3c8934395c3afbaa23ad23",
+      "source": "sources/pigeon-run.png",
+      "sourceHash": "6f4ecf7d1afce1a8afad2bf3462b583d5693f3a399de748f1c38fa3f3a5e358f",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1328,
+        "y": 754,
+        "w": 150,
+        "h": 216
+      },
+      "sourceAnchor": {
+        "x": 1408,
+        "y": 978
+      },
+      "destination": {
+        "left": 70,
+        "top": 36,
+        "width": 110,
+        "height": 158
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_00",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_00.png",
+      "sha256": "1306036af9012189e2abc611173c555f96ecb5971a1484b64dd87be679672453",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 25,
+        "y": 811,
+        "w": 228,
+        "h": 169
+      },
+      "sourceAnchor": {
+        "x": 130,
+        "y": 935
+      },
+      "destination": {
+        "left": 51,
+        "top": 109,
+        "width": 167,
+        "height": 123
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_01",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_01.png",
+      "sha256": "6715191372686b288627bb77174390b4399142c4dc78452d8b0dffa7a3f18e6b",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 258,
+        "y": 789,
+        "w": 256,
+        "h": 187
+      },
+      "sourceAnchor": {
+        "x": 386,
+        "y": 935
+      },
+      "destination": {
+        "left": 34,
+        "top": 93,
+        "width": 187,
+        "height": 137
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_02",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_02.png",
+      "sha256": "716d0b0c568a5617ba810d96d9d8a5912ba5045949c45f8f81b59520f19d08ba",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 516,
+        "y": 748,
+        "w": 250,
+        "h": 228
+      },
+      "sourceAnchor": {
+        "x": 642,
+        "y": 935
+      },
+      "destination": {
+        "left": 36,
+        "top": 63,
+        "width": 183,
+        "height": 167
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_03",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_03.png",
+      "sha256": "2b4ac958a64b20571a816f6c3967e0d765184b833f0920c54734fc3e400471c1",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 768,
+        "y": 805,
+        "w": 261,
+        "h": 172
+      },
+      "sourceAnchor": {
+        "x": 898,
+        "y": 935
+      },
+      "destination": {
+        "left": 33,
+        "top": 105,
+        "width": 191,
+        "height": 126
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_04",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_04.png",
+      "sha256": "3ca3877aadb427861b903ed77acf1c837d2b0a9f964e708b9aa5a59caf9d1cab",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1035,
+        "y": 811,
+        "w": 239,
+        "h": 169
+      },
+      "sourceAnchor": {
+        "x": 1154,
+        "y": 935
+      },
+      "destination": {
+        "left": 41,
+        "top": 109,
+        "width": 175,
+        "height": 123
+      }
+    },
+    {
+      "name": "pigeon_b_fly_north_05",
+      "file": "animals/pigeon/north/frames/pigeon_b_fly_north_05.png",
+      "sha256": "1195741c2f262d550241ce57d2fb0e52ed9937742040ac4700215d7530027491",
+      "source": "sources/pigeon-fly.png",
+      "sourceHash": "88f4b840e46df01a62698d4588c76208e89febbb4f2d3118affa337635082a27",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1337,
+        "y": 811,
+        "w": 132,
+        "h": 173
+      },
+      "sourceAnchor": {
+        "x": 1410,
+        "y": 935
+      },
+      "destination": {
+        "left": 75,
+        "top": 109,
+        "width": 96,
+        "height": 126
+      }
+    }
+  ]
+}

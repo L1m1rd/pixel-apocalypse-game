@@ -1,0 +1,87 @@
+{
+  "species": "squirrel",
+  "variant": "B",
+  "direction": "west",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "squirrel_b_idle_west",
+      "label": "Ожидание",
+      "frames": [
+        "squirrel_b_idle_west_00",
+        "squirrel_b_idle_west_01",
+        "squirrel_b_idle_west_02",
+        "squirrel_b_idle_west_03",
+        "squirrel_b_idle_west_04",
+        "squirrel_b_idle_west_05"
+      ],
+      "files": [
+        "animals/squirrel/west/frames/squirrel_b_idle_west_00.png",
+        "animals/squirrel/west/frames/squirrel_b_idle_west_01.png",
+        "animals/squirrel/west/frames/squirrel_b_idle_west_02.png",
+        "animals/squirrel/west/frames/squirrel_b_idle_west_03.png",
+        "animals/squirrel/west/frames/squirrel_b_idle_west_04.png",
+        "animals/squirrel/west/frames/squirrel_b_idle_west_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "squirrel_b_walk_west",
+      "label": "Ходьба",
+      "frames": [
+        "squirrel_b_walk_west_00",
+        "squirrel_b_walk_west_01",
+        "squirrel_b_walk_west_02",
+        "squirrel_b_walk_west_03",
+        "squirrel_b_walk_west_04",
+        "squirrel_b_walk_west_05"
+      ],
+      "files": [
+        "animals/squirrel/west/frames/squirrel_b_walk_west_00.png",
+        "animals/squirrel/west/frames/squirrel_b_walk_west_01.png",
+        "animals/squirrel/west/frames/squirrel_b_walk_west_02.png",
+        "animals/squirrel/west/frames/squirrel_b_walk_west_03.png",
+        "animals/squirrel/west/frames/squirrel_b_walk_west_04.png",
+        "animals/squirrel/west/frames/squirrel_b_walk_west_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "squirrel_b_run_west",
+      "label": "Бег",
+      "frames": [
+        "squirrel_b_run_west_00",
+        "squirrel_b_run_west_01",
+        "squirrel_b_run_west_02",
+        "squirrel_b_run_west_03",
+        "squirrel_b_run_west_04",
+        "squirrel_b_run_west_05"
+      ],
+      "files": [
+        "animals/squirrel/west/frames/squirrel_b_run_west_00.png",
+        "animals/squirrel/west/frames/squirrel_b_run_west_01.png",
+        "animals/squirrel/west/frames/squirrel_b_run_west_02.png",
+        "animals/squirrel/west/frames/squirrel_b_run_west_03.png",
+        "animals/squirrel/west/frames/squirrel_b_run_west_04.png",
+        "animals/squirrel/west/frames/squirrel_b_run_west_05.png"
+      ],
+      "frameRate": 15.384615384615385,
+      "frameMs": 65,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

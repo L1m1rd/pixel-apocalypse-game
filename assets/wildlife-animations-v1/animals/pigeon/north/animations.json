@@ -1,0 +1,112 @@
+{
+  "species": "pigeon",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "pigeon_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "pigeon_b_idle_north_00",
+        "pigeon_b_idle_north_01",
+        "pigeon_b_idle_north_02",
+        "pigeon_b_idle_north_03",
+        "pigeon_b_idle_north_04",
+        "pigeon_b_idle_north_05"
+      ],
+      "files": [
+        "animals/pigeon/north/frames/pigeon_b_idle_north_00.png",
+        "animals/pigeon/north/frames/pigeon_b_idle_north_01.png",
+        "animals/pigeon/north/frames/pigeon_b_idle_north_02.png",
+        "animals/pigeon/north/frames/pigeon_b_idle_north_03.png",
+        "animals/pigeon/north/frames/pigeon_b_idle_north_04.png",
+        "animals/pigeon/north/frames/pigeon_b_idle_north_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "pigeon_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "pigeon_b_walk_north_00",
+        "pigeon_b_walk_north_01",
+        "pigeon_b_walk_north_02",
+        "pigeon_b_walk_north_03",
+        "pigeon_b_walk_north_04",
+        "pigeon_b_walk_north_05"
+      ],
+      "files": [
+        "animals/pigeon/north/frames/pigeon_b_walk_north_00.png",
+        "animals/pigeon/north/frames/pigeon_b_walk_north_01.png",
+        "animals/pigeon/north/frames/pigeon_b_walk_north_02.png",
+        "animals/pigeon/north/frames/pigeon_b_walk_north_03.png",
+        "animals/pigeon/north/frames/pigeon_b_walk_north_04.png",
+        "animals/pigeon/north/frames/pigeon_b_walk_north_05.png"
+      ],
+      "frameRate": 8.695652173913043,
+      "frameMs": 115,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "pigeon_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "pigeon_b_run_north_00",
+        "pigeon_b_run_north_01",
+        "pigeon_b_run_north_02",
+        "pigeon_b_run_north_03",
+        "pigeon_b_run_north_04",
+        "pigeon_b_run_north_05"
+      ],
+      "files": [
+        "animals/pigeon/north/frames/pigeon_b_run_north_00.png",
+        "animals/pigeon/north/frames/pigeon_b_run_north_01.png",
+        "animals/pigeon/north/frames/pigeon_b_run_north_02.png",
+        "animals/pigeon/north/frames/pigeon_b_run_north_03.png",
+        "animals/pigeon/north/frames/pigeon_b_run_north_04.png",
+        "animals/pigeon/north/frames/pigeon_b_run_north_05.png"
+      ],
+      "frameRate": 12.5,
+      "frameMs": 80,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "fly": {
+      "id": "pigeon_b_fly_north",
+      "label": "Полёт",
+      "frames": [
+        "pigeon_b_fly_north_00",
+        "pigeon_b_fly_north_01",
+        "pigeon_b_fly_north_02",
+        "pigeon_b_fly_north_03",
+        "pigeon_b_fly_north_04",
+        "pigeon_b_fly_north_05"
+      ],
+      "files": [
+        "animals/pigeon/north/frames/pigeon_b_fly_north_00.png",
+        "animals/pigeon/north/frames/pigeon_b_fly_north_01.png",
+        "animals/pigeon/north/frames/pigeon_b_fly_north_02.png",
+        "animals/pigeon/north/frames/pigeon_b_fly_north_03.png",
+        "animals/pigeon/north/frames/pigeon_b_fly_north_04.png",
+        "animals/pigeon/north/frames/pigeon_b_fly_north_05.png"
+      ],
+      "frameRate": 14.285714285714286,
+      "frameMs": 70,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

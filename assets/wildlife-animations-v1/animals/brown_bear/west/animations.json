@@ -1,0 +1,118 @@
+{
+  "species": "brown_bear",
+  "variant": "B",
+  "direction": "west",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "brown_bear_b_idle_west",
+      "label": "Ожидание",
+      "frames": [
+        "brown_bear_b_idle_west_00",
+        "brown_bear_b_idle_west_01",
+        "brown_bear_b_idle_west_02",
+        "brown_bear_b_idle_west_03",
+        "brown_bear_b_idle_west_04",
+        "brown_bear_b_idle_west_05"
+      ],
+      "files": [
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_00.png",
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_01.png",
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_02.png",
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_03.png",
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_04.png",
+        "animals/brown_bear/west/frames/brown_bear_b_idle_west_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "brown_bear_b_walk_west",
+      "label": "Ходьба",
+      "frames": [
+        "brown_bear_b_walk_west_00",
+        "brown_bear_b_walk_west_01",
+        "brown_bear_b_walk_west_02",
+        "brown_bear_b_walk_west_03",
+        "brown_bear_b_walk_west_04",
+        "brown_bear_b_walk_west_05"
+      ],
+      "files": [
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_00.png",
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_01.png",
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_02.png",
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_03.png",
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_04.png",
+        "animals/brown_bear/west/frames/brown_bear_b_walk_west_05.png"
+      ],
+      "frameRate": 6.25,
+      "frameMs": 160,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "brown_bear_b_run_west",
+      "label": "Бег",
+      "frames": [
+        "brown_bear_b_run_west_00",
+        "brown_bear_b_run_west_01",
+        "brown_bear_b_run_west_02",
+        "brown_bear_b_run_west_03",
+        "brown_bear_b_run_west_04",
+        "brown_bear_b_run_west_05"
+      ],
+      "files": [
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_00.png",
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_01.png",
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_02.png",
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_03.png",
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_04.png",
+        "animals/brown_bear/west/frames/brown_bear_b_run_west_05.png"
+      ],
+      "frameRate": 9.090909090909092,
+      "frameMs": 110,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "brown_bear_b_attack_west",
+      "label": "Атака",
+      "frames": [
+        "brown_bear_b_attack_west_00",
+        "brown_bear_b_attack_west_01",
+        "brown_bear_b_attack_west_02",
+        "brown_bear_b_attack_west_03",
+        "brown_bear_b_attack_west_04",
+        "brown_bear_b_attack_west_05"
+      ],
+      "files": [
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_00.png",
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_01.png",
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_02.png",
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_03.png",
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_04.png",
+        "animals/brown_bear/west/frames/brown_bear_b_attack_west_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

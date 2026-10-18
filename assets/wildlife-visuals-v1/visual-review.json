@@ -1,0 +1,13 @@
+{
+  "status": "reviewed-static-visuals",
+  "species": 20,
+  "appearanceVariants": 60,
+  "directionalSprites": 240,
+  "reviewedSheets": ["directions-01.png", "directions-02.png", "directions-03.png", "directions-04.png"],
+  "notes": [
+    "Reviewed all exported front, left, right and rear poses for all three variants of every species.",
+    "Replaced nominal equal-width source cuts with transparent-gap separators to preserve full heads and tails and remove neighboring fragments.",
+    "Main silhouettes and identifying features are visible in the reviewed exports. Automatic source-grid edge warnings are preserved in verification.json.",
+    "These are static idle poses. Locomotion, flight, swimming, attacks, AI and engine integration are not implemented."
+  ]
+}

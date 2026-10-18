@@ -1,0 +1,582 @@
+{
+  "sharedSpeciesScale": 0.639269406392694,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "crow_b_idle_south_00",
+      "file": "animals/crow/south/frames/crow_b_idle_south_00.png",
+      "sha256": "7df14ad98ffd7033142981ad5abb2baeede39eb90dcc910aa476925660884874",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 46,
+        "y": 31,
+        "w": 161,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 74,
+        "top": 59,
+        "width": 103,
+        "height": 140
+      }
+    },
+    {
+      "name": "crow_b_idle_south_01",
+      "file": "animals/crow/south/frames/crow_b_idle_south_01.png",
+      "sha256": "99a9d7e7d55b2199fc2cab166171a04e9e10e7d762386f175661bb466acfdb2d",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 311,
+        "y": 31,
+        "w": 162,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 386.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 80,
+        "top": 59,
+        "width": 104,
+        "height": 140
+      }
+    },
+    {
+      "name": "crow_b_idle_south_02",
+      "file": "animals/crow/south/frames/crow_b_idle_south_02.png",
+      "sha256": "94ba702ce108941eef9f48672742db443973154b0c9af78ff5c96a4a264996a4",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 574,
+        "y": 22,
+        "w": 155,
+        "h": 230
+      },
+      "sourceAnchor": {
+        "x": 642.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 84,
+        "top": 54,
+        "width": 99,
+        "height": 147
+      }
+    },
+    {
+      "name": "crow_b_idle_south_03",
+      "file": "animals/crow/south/frames/crow_b_idle_south_03.png",
+      "sha256": "aece3265ee1a25650cfb17188da9a7b264571744497b43e876052398d184cf39",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 816,
+        "y": 31,
+        "w": 163,
+        "h": 221
+      },
+      "sourceAnchor": {
+        "x": 898.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 75,
+        "top": 59,
+        "width": 104,
+        "height": 141
+      }
+    },
+    {
+      "name": "crow_b_idle_south_04",
+      "file": "animals/crow/south/frames/crow_b_idle_south_04.png",
+      "sha256": "e89e049200d4687585102f87cfbdf8104f04fb11c343916574191f29106f76e8",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1075,
+        "y": 45,
+        "w": 160,
+        "h": 207
+      },
+      "sourceAnchor": {
+        "x": 1154.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 77,
+        "top": 68,
+        "width": 102,
+        "height": 132
+      }
+    },
+    {
+      "name": "crow_b_idle_south_05",
+      "file": "animals/crow/south/frames/crow_b_idle_south_05.png",
+      "sha256": "80757f088b06459907adddb99128ce5b1bbff293d968257b24fdbaa07b1a11fa",
+      "source": "sources/crow-idle.png",
+      "sourceHash": "8d850fa19bcabb8ee44a66254d8b9195d689e3eab1acc83f8f2324e4aa68db7b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1327,
+        "y": 31,
+        "w": 162,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 1410.5,
+        "y": 251
+      },
+      "destination": {
+        "left": 75,
+        "top": 59,
+        "width": 104,
+        "height": 140
+      }
+    },
+    {
+      "name": "crow_b_walk_south_00",
+      "file": "animals/crow/south/frames/crow_b_walk_south_00.png",
+      "sha256": "9696a5be483f77f480afd7202a07e2c3314b2318598c08f6857132dd7b60f63e",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 59,
+        "y": 41,
+        "w": 156,
+        "h": 217
+      },
+      "sourceAnchor": {
+        "x": 133,
+        "y": 257
+      },
+      "destination": {
+        "left": 81,
+        "top": 62,
+        "width": 100,
+        "height": 139
+      }
+    },
+    {
+      "name": "crow_b_walk_south_01",
+      "file": "animals/crow/south/frames/crow_b_walk_south_01.png",
+      "sha256": "e7619c21daeeaf63843f6c24ebccfc214c6c3f609e6dae289b500165a5ef98bc",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 316,
+        "y": 53,
+        "w": 152,
+        "h": 205
+      },
+      "sourceAnchor": {
+        "x": 389,
+        "y": 257
+      },
+      "destination": {
+        "left": 81,
+        "top": 70,
+        "width": 97,
+        "height": 131
+      }
+    },
+    {
+      "name": "crow_b_walk_south_02",
+      "file": "animals/crow/south/frames/crow_b_walk_south_02.png",
+      "sha256": "0f60fd685b1589fbc2db37964986b9fd17733b10d696e06797145b6098a46fcc",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 569,
+        "y": 65,
+        "w": 153,
+        "h": 193
+      },
+      "sourceAnchor": {
+        "x": 645,
+        "y": 257
+      },
+      "destination": {
+        "left": 79,
+        "top": 77,
+        "width": 98,
+        "height": 123
+      }
+    },
+    {
+      "name": "crow_b_walk_south_03",
+      "file": "animals/crow/south/frames/crow_b_walk_south_03.png",
+      "sha256": "b2a10913b5ac258d7bed664e99c29da297e6975d629d4309d715047a5c09b2a1",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 820,
+        "y": 52,
+        "w": 152,
+        "h": 206
+      },
+      "sourceAnchor": {
+        "x": 901,
+        "y": 257
+      },
+      "destination": {
+        "left": 76,
+        "top": 69,
+        "width": 97,
+        "height": 132
+      }
+    },
+    {
+      "name": "crow_b_walk_south_04",
+      "file": "animals/crow/south/frames/crow_b_walk_south_04.png",
+      "sha256": "700f955848c4487f744395b154b785ed590a4c82b55f535073e8577108b2411f",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1071,
+        "y": 41,
+        "w": 153,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 1157,
+        "y": 257
+      },
+      "destination": {
+        "left": 73,
+        "top": 62,
+        "width": 98,
+        "height": 137
+      }
+    },
+    {
+      "name": "crow_b_walk_south_05",
+      "file": "animals/crow/south/frames/crow_b_walk_south_05.png",
+      "sha256": "5ef1adce4c45158fe2945f37cedb203592e2054966a1651381944ab8b81adf5b",
+      "source": "sources/crow-walk.png",
+      "sourceHash": "1c7b329c964654ac1bf5c5bab42bbcf8ab539ef18172f3bba196847a239e1134",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1324,
+        "y": 41,
+        "w": 153,
+        "h": 214
+      },
+      "sourceAnchor": {
+        "x": 1413,
+        "y": 257
+      },
+      "destination": {
+        "left": 71,
+        "top": 62,
+        "width": 98,
+        "height": 137
+      }
+    },
+    {
+      "name": "crow_b_run_south_00",
+      "file": "animals/crow/south/frames/crow_b_run_south_00.png",
+      "sha256": "4edfcad441287ba840da6afbf79d8bedfaefecf5ab20ecb1ed22a6ad0d3d1d66",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 52,
+        "y": 64,
+        "w": 142,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 124.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 82,
+        "top": 75,
+        "width": 91,
+        "height": 125
+      }
+    },
+    {
+      "name": "crow_b_run_south_01",
+      "file": "animals/crow/south/frames/crow_b_run_south_01.png",
+      "sha256": "bcbf48994be2ec9ccf474b2b3f040b2f333ce87073a7c389a3b1d67615d577dc",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 309,
+        "y": 64,
+        "w": 144,
+        "h": 197
+      },
+      "sourceAnchor": {
+        "x": 380.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 82,
+        "top": 75,
+        "width": 92,
+        "height": 126
+      }
+    },
+    {
+      "name": "crow_b_run_south_02",
+      "file": "animals/crow/south/frames/crow_b_run_south_02.png",
+      "sha256": "dcfe197f7c84421daed578facc0177f51eff842c172764e2db4673b443c4d69d",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 563,
+        "y": 79,
+        "w": 146,
+        "h": 182
+      },
+      "sourceAnchor": {
+        "x": 636.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 81,
+        "top": 84,
+        "width": 93,
+        "height": 116
+      }
+    },
+    {
+      "name": "crow_b_run_south_03",
+      "file": "animals/crow/south/frames/crow_b_run_south_03.png",
+      "sha256": "0052b8a065a51afd109490061ff313634cfb79f1f4834b000c5ba9391237727c",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 815,
+        "y": 64,
+        "w": 146,
+        "h": 198
+      },
+      "sourceAnchor": {
+        "x": 892.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 78,
+        "top": 75,
+        "width": 93,
+        "height": 127
+      }
+    },
+    {
+      "name": "crow_b_run_south_04",
+      "file": "animals/crow/south/frames/crow_b_run_south_04.png",
+      "sha256": "1cb16619f8e86bcac86db34a4dff810e4144fe15cafe5f0c504f88cde22759a8",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1080,
+        "y": 73,
+        "w": 147,
+        "h": 188
+      },
+      "sourceAnchor": {
+        "x": 1148.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 84,
+        "top": 80,
+        "width": 94,
+        "height": 120
+      }
+    },
+    {
+      "name": "crow_b_run_south_05",
+      "file": "animals/crow/south/frames/crow_b_run_south_05.png",
+      "sha256": "1b39333385a70a149c590933dca114d9da532ac4605723fc8342d2e9a8e57450",
+      "source": "sources/crow-run.png",
+      "sourceHash": "ce0b4c62ad4b2c27bea05e9dcc40d9b23c2654d6ca6521d089e566e2a508aba4",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1335,
+        "y": 64,
+        "w": 140,
+        "h": 194
+      },
+      "sourceAnchor": {
+        "x": 1404.5,
+        "y": 260
+      },
+      "destination": {
+        "left": 84,
+        "top": 75,
+        "width": 89,
+        "height": 124
+      }
+    },
+    {
+      "name": "crow_b_fly_south_00",
+      "file": "animals/crow/south/frames/crow_b_fly_south_00.png",
+      "sha256": "5103768dd787baafc282a514b8893ce989bdb091e6b97a9e225c836200f0f0df",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 49,
+        "y": 86,
+        "w": 146,
+        "h": 155
+      },
+      "sourceAnchor": {
+        "x": 130.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 76,
+        "top": 126,
+        "width": 93,
+        "height": 99
+      }
+    },
+    {
+      "name": "crow_b_fly_south_01",
+      "file": "animals/crow/south/frames/crow_b_fly_south_01.png",
+      "sha256": "6bcf1736ee0e90535e40215fcfcbb6097404f1e9aba070b6f4c81bd77ff098c5",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 233,
+        "y": 86,
+        "w": 262,
+        "h": 150
+      },
+      "sourceAnchor": {
+        "x": 386.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 30,
+        "top": 126,
+        "width": 167,
+        "height": 96
+      }
+    },
+    {
+      "name": "crow_b_fly_south_02",
+      "file": "animals/crow/south/frames/crow_b_fly_south_02.png",
+      "sha256": "6e515bc122feba5ffe5cffb84c6ae70f692664442d68ec8abf298d7c1b0c7f38",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 485,
+        "y": 68,
+        "w": 307,
+        "h": 168
+      },
+      "sourceAnchor": {
+        "x": 642.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 27,
+        "top": 114,
+        "width": 196,
+        "height": 107
+      }
+    },
+    {
+      "name": "crow_b_fly_south_03",
+      "file": "animals/crow/south/frames/crow_b_fly_south_03.png",
+      "sha256": "6e967a25dad67fa5a76ca54e8a0da61e247cfdc249b7f299062ebe95741ad0f0",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 796,
+        "y": 22,
+        "w": 224,
+        "h": 214
+      },
+      "sourceAnchor": {
+        "x": 898.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 62,
+        "top": 85,
+        "width": 143,
+        "height": 137
+      }
+    },
+    {
+      "name": "crow_b_fly_south_04",
+      "file": "animals/crow/south/frames/crow_b_fly_south_04.png",
+      "sha256": "636a9b7ff0694384df7e291b73cd70ad00a17fd9dd63629fef1b485631801faa",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1034,
+        "y": 91,
+        "w": 256,
+        "h": 143
+      },
+      "sourceAnchor": {
+        "x": 1154.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 51,
+        "top": 129,
+        "width": 164,
+        "height": 91
+      }
+    },
+    {
+      "name": "crow_b_fly_south_05",
+      "file": "animals/crow/south/frames/crow_b_fly_south_05.png",
+      "sha256": "daf64cb09f7cba23ed63089b7ada7229ebc5b4d5304fa12695b6a22b05a9b849",
+      "source": "sources/crow-fly.png",
+      "sourceHash": "c9bfbf6cec6a921e6712a23aea8de2f6cd1e7be6c15f06a548e2c56d1845c94a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1340,
+        "y": 86,
+        "w": 142,
+        "h": 155
+      },
+      "sourceAnchor": {
+        "x": 1410.5,
+        "y": 202
+      },
+      "destination": {
+        "left": 83,
+        "top": 126,
+        "width": 91,
+        "height": 99
+      }
+    }
+  ]
+}

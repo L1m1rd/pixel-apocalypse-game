@@ -1,0 +1,14 @@
+{
+  "species": "wild_boar",
+  "variant": "B",
+  "action": "walk",
+  "source": "sources/wild_boar-walk-v2.png",
+  "references": [
+    "sources/wild_boar-walk.png",
+    "references/wild_boar-b.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, the 24-pose wild-boar walking sprite sheet. Image 2 is the identity reference for selected wild-boar variant B. Repair ONLY the layout and spacing of image 1, preserve the same individual B, natural four-legged walking phases, coat, anatomy and headings. Make an exact 6-column by 4-row grid on a 1536x1024 TRANSPARENT canvas. Each cell 256x256. Top row SOUTH, second WEST (head left), third EAST (head right), bottom NORTH. Six distinct sequential walking poses per row. CRITICAL: redraw EVERY boar at a SMALLER consistent scale: full side-facing silhouette INCLUDING tusks and tail must fit in a 165x150 pixel box at most, centered in its cell, leaving at least 40 transparent pixels to neighboring silhouettes. No animals touch, overlap or cross a cell boundary. Consistent fixed ground baseline within each row; real alternating hooves, not translated cutouts. All 24 silhouettes complete and comfortably separated. True alpha transparency with zero backdrop pixels, no ground shadows, labels, lines or borders. Crisp pixel art matching the reference. Do not add any species, variants, accessories, gore or effects.",
+  "tool": "built-in image_gen",
+  "reason": "Separate touching silhouettes while preserving walking poses",
+  "originalFile": "C:\\Users\\posto\\.codex\\generated_images\\01a14c16-255c-7ef3-8412-88685e26b996\\exec-1c3ef03d-0547-4f23-ab0b-ea22466f9421.png"
+}

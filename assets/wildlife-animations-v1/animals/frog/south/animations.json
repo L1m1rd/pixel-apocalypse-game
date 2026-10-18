@@ -1,0 +1,87 @@
+{
+  "species": "frog",
+  "variant": "B",
+  "direction": "south",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "frog_b_idle_south",
+      "label": "Ожидание",
+      "frames": [
+        "frog_b_idle_south_00",
+        "frog_b_idle_south_01",
+        "frog_b_idle_south_02",
+        "frog_b_idle_south_03",
+        "frog_b_idle_south_04",
+        "frog_b_idle_south_05"
+      ],
+      "files": [
+        "animals/frog/south/frames/frog_b_idle_south_00.png",
+        "animals/frog/south/frames/frog_b_idle_south_01.png",
+        "animals/frog/south/frames/frog_b_idle_south_02.png",
+        "animals/frog/south/frames/frog_b_idle_south_03.png",
+        "animals/frog/south/frames/frog_b_idle_south_04.png",
+        "animals/frog/south/frames/frog_b_idle_south_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "jump": {
+      "id": "frog_b_jump_south",
+      "label": "Прыжок",
+      "frames": [
+        "frog_b_jump_south_00",
+        "frog_b_jump_south_01",
+        "frog_b_jump_south_02",
+        "frog_b_jump_south_03",
+        "frog_b_jump_south_04",
+        "frog_b_jump_south_05"
+      ],
+      "files": [
+        "animals/frog/south/frames/frog_b_jump_south_00.png",
+        "animals/frog/south/frames/frog_b_jump_south_01.png",
+        "animals/frog/south/frames/frog_b_jump_south_02.png",
+        "animals/frog/south/frames/frog_b_jump_south_03.png",
+        "animals/frog/south/frames/frog_b_jump_south_04.png",
+        "animals/frog/south/frames/frog_b_jump_south_05.png"
+      ],
+      "frameRate": 10,
+      "frameMs": 100,
+      "repeat": 0,
+      "persistence": "hold-last-frame",
+      "rootMotion": false
+    },
+    "swim": {
+      "id": "frog_b_swim_south",
+      "label": "Плавание",
+      "frames": [
+        "frog_b_swim_south_00",
+        "frog_b_swim_south_01",
+        "frog_b_swim_south_02",
+        "frog_b_swim_south_03",
+        "frog_b_swim_south_04",
+        "frog_b_swim_south_05"
+      ],
+      "files": [
+        "animals/frog/south/frames/frog_b_swim_south_00.png",
+        "animals/frog/south/frames/frog_b_swim_south_01.png",
+        "animals/frog/south/frames/frog_b_swim_south_02.png",
+        "animals/frog/south/frames/frog_b_swim_south_03.png",
+        "animals/frog/south/frames/frog_b_swim_south_04.png",
+        "animals/frog/south/frames/frog_b_swim_south_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

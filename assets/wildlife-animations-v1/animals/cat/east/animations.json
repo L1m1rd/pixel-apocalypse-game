@@ -1,0 +1,87 @@
+{
+  "species": "cat",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "cat_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "cat_b_idle_east_00",
+        "cat_b_idle_east_01",
+        "cat_b_idle_east_02",
+        "cat_b_idle_east_03",
+        "cat_b_idle_east_04",
+        "cat_b_idle_east_05"
+      ],
+      "files": [
+        "animals/cat/east/frames/cat_b_idle_east_00.png",
+        "animals/cat/east/frames/cat_b_idle_east_01.png",
+        "animals/cat/east/frames/cat_b_idle_east_02.png",
+        "animals/cat/east/frames/cat_b_idle_east_03.png",
+        "animals/cat/east/frames/cat_b_idle_east_04.png",
+        "animals/cat/east/frames/cat_b_idle_east_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "cat_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "cat_b_walk_east_00",
+        "cat_b_walk_east_01",
+        "cat_b_walk_east_02",
+        "cat_b_walk_east_03",
+        "cat_b_walk_east_04",
+        "cat_b_walk_east_05"
+      ],
+      "files": [
+        "animals/cat/east/frames/cat_b_walk_east_00.png",
+        "animals/cat/east/frames/cat_b_walk_east_01.png",
+        "animals/cat/east/frames/cat_b_walk_east_02.png",
+        "animals/cat/east/frames/cat_b_walk_east_03.png",
+        "animals/cat/east/frames/cat_b_walk_east_04.png",
+        "animals/cat/east/frames/cat_b_walk_east_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "cat_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "cat_b_run_east_00",
+        "cat_b_run_east_01",
+        "cat_b_run_east_02",
+        "cat_b_run_east_03",
+        "cat_b_run_east_04",
+        "cat_b_run_east_05"
+      ],
+      "files": [
+        "animals/cat/east/frames/cat_b_run_east_00.png",
+        "animals/cat/east/frames/cat_b_run_east_01.png",
+        "animals/cat/east/frames/cat_b_run_east_02.png",
+        "animals/cat/east/frames/cat_b_run_east_03.png",
+        "animals/cat/east/frames/cat_b_run_east_04.png",
+        "animals/cat/east/frames/cat_b_run_east_05.png"
+      ],
+      "frameRate": 14.285714285714286,
+      "frameMs": 70,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

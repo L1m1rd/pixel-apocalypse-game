@@ -1,0 +1,118 @@
+{
+  "species": "stray_dog",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "stray_dog_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "stray_dog_b_idle_north_00",
+        "stray_dog_b_idle_north_01",
+        "stray_dog_b_idle_north_02",
+        "stray_dog_b_idle_north_03",
+        "stray_dog_b_idle_north_04",
+        "stray_dog_b_idle_north_05"
+      ],
+      "files": [
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_00.png",
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_01.png",
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_02.png",
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_03.png",
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_04.png",
+        "animals/stray_dog/north/frames/stray_dog_b_idle_north_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "stray_dog_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "stray_dog_b_walk_north_00",
+        "stray_dog_b_walk_north_01",
+        "stray_dog_b_walk_north_02",
+        "stray_dog_b_walk_north_03",
+        "stray_dog_b_walk_north_04",
+        "stray_dog_b_walk_north_05"
+      ],
+      "files": [
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_00.png",
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_01.png",
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_02.png",
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_03.png",
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_04.png",
+        "animals/stray_dog/north/frames/stray_dog_b_walk_north_05.png"
+      ],
+      "frameRate": 9.090909090909092,
+      "frameMs": 110,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "stray_dog_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "stray_dog_b_run_north_00",
+        "stray_dog_b_run_north_01",
+        "stray_dog_b_run_north_02",
+        "stray_dog_b_run_north_03",
+        "stray_dog_b_run_north_04",
+        "stray_dog_b_run_north_05"
+      ],
+      "files": [
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_00.png",
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_01.png",
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_02.png",
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_03.png",
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_04.png",
+        "animals/stray_dog/north/frames/stray_dog_b_run_north_05.png"
+      ],
+      "frameRate": 13.333333333333334,
+      "frameMs": 75,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "stray_dog_b_attack_north",
+      "label": "Атака",
+      "frames": [
+        "stray_dog_b_attack_north_00",
+        "stray_dog_b_attack_north_01",
+        "stray_dog_b_attack_north_02",
+        "stray_dog_b_attack_north_03",
+        "stray_dog_b_attack_north_04",
+        "stray_dog_b_attack_north_05"
+      ],
+      "files": [
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_00.png",
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_01.png",
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_02.png",
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_03.png",
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_04.png",
+        "animals/stray_dog/north/frames/stray_dog_b_attack_north_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

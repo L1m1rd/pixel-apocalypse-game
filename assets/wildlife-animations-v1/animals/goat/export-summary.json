@@ -1,0 +1,402 @@
+{
+  "fingerprint": "5fd040a2b0389ea52d9e41d6b3db97a4d819e64e22f703f90a4fc5d6387d07b6",
+  "animal": {
+    "id": "goat",
+    "name": "Коза",
+    "variant": "B",
+    "characterId": "goat_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/goat-b.png",
+    "baseFiles": {
+      "south": "sprites/goat/goat_b_south.png",
+      "west": "sprites/goat/goat_b_west.png",
+      "east": "sprites/goat/goat_b_east.png",
+      "north": "sprites/goat/goat_b_north.png"
+    },
+    "baseHashes": {
+      "south": "3c91ca5f2eefbf9e30d80932c9061d9bd6aedca7673d7756d88414e35f1457f1",
+      "west": "239405b52e7dcc49803c5e178dc18aaf0b7a1cff7ece99f64124a97efe75be10",
+      "east": "37dbb9a41bca729aaa745de42abc58902561fa466a454dde8486650c1749f6db",
+      "north": "28daed718ad6ff5448523338a93e40631f59a3266e45c5c5ef29f341b1428578"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.625,
+    "suggestedWorldHeight": 32,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "small chewing motion, ear movement and beard sway",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/goat-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic goat, muted gray brown short coat, short backward-curved horns and a small beard. Action: small chewing motion, ear movement and beard sway. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Коза movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/goat-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "sure-footed hoof steps, precise raised feet, firm compact back",
+        "loop": true,
+        "frameMs": 115,
+        "frames": 6,
+        "source": "sources/goat-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic goat, muted gray brown short coat, short backward-curved horns and a small beard. Action: sure-footed hoof steps, precise raised feet, firm compact back. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Коза movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/goat-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "light bouncy goat canter, short springy bounds, horns and beard move naturally",
+        "loop": true,
+        "frameMs": 85,
+        "frames": 6,
+        "source": "sources/goat-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic goat, muted gray brown short coat, short backward-curved horns and a small beard. Action: light bouncy goat canter, short springy bounds, horns and beard move naturally. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Коза movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/goat-run.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/goat/south/spritesheet.png",
+        "atlas": "animals/goat/south/atlas.json",
+        "config": "animals/goat/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "goat_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "goat_b_idle_south_00",
+              "goat_b_idle_south_01",
+              "goat_b_idle_south_02",
+              "goat_b_idle_south_03",
+              "goat_b_idle_south_04",
+              "goat_b_idle_south_05"
+            ],
+            "files": [
+              "animals/goat/south/frames/goat_b_idle_south_00.png",
+              "animals/goat/south/frames/goat_b_idle_south_01.png",
+              "animals/goat/south/frames/goat_b_idle_south_02.png",
+              "animals/goat/south/frames/goat_b_idle_south_03.png",
+              "animals/goat/south/frames/goat_b_idle_south_04.png",
+              "animals/goat/south/frames/goat_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "goat_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "goat_b_walk_south_00",
+              "goat_b_walk_south_01",
+              "goat_b_walk_south_02",
+              "goat_b_walk_south_03",
+              "goat_b_walk_south_04",
+              "goat_b_walk_south_05"
+            ],
+            "files": [
+              "animals/goat/south/frames/goat_b_walk_south_00.png",
+              "animals/goat/south/frames/goat_b_walk_south_01.png",
+              "animals/goat/south/frames/goat_b_walk_south_02.png",
+              "animals/goat/south/frames/goat_b_walk_south_03.png",
+              "animals/goat/south/frames/goat_b_walk_south_04.png",
+              "animals/goat/south/frames/goat_b_walk_south_05.png"
+            ],
+            "frameRate": 8.695652173913043,
+            "frameMs": 115,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "goat_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "goat_b_run_south_00",
+              "goat_b_run_south_01",
+              "goat_b_run_south_02",
+              "goat_b_run_south_03",
+              "goat_b_run_south_04",
+              "goat_b_run_south_05"
+            ],
+            "files": [
+              "animals/goat/south/frames/goat_b_run_south_00.png",
+              "animals/goat/south/frames/goat_b_run_south_01.png",
+              "animals/goat/south/frames/goat_b_run_south_02.png",
+              "animals/goat/south/frames/goat_b_run_south_03.png",
+              "animals/goat/south/frames/goat_b_run_south_04.png",
+              "animals/goat/south/frames/goat_b_run_south_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/goat/west/spritesheet.png",
+        "atlas": "animals/goat/west/atlas.json",
+        "config": "animals/goat/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "goat_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "goat_b_idle_west_00",
+              "goat_b_idle_west_01",
+              "goat_b_idle_west_02",
+              "goat_b_idle_west_03",
+              "goat_b_idle_west_04",
+              "goat_b_idle_west_05"
+            ],
+            "files": [
+              "animals/goat/west/frames/goat_b_idle_west_00.png",
+              "animals/goat/west/frames/goat_b_idle_west_01.png",
+              "animals/goat/west/frames/goat_b_idle_west_02.png",
+              "animals/goat/west/frames/goat_b_idle_west_03.png",
+              "animals/goat/west/frames/goat_b_idle_west_04.png",
+              "animals/goat/west/frames/goat_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "goat_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "goat_b_walk_west_00",
+              "goat_b_walk_west_01",
+              "goat_b_walk_west_02",
+              "goat_b_walk_west_03",
+              "goat_b_walk_west_04",
+              "goat_b_walk_west_05"
+            ],
+            "files": [
+              "animals/goat/west/frames/goat_b_walk_west_00.png",
+              "animals/goat/west/frames/goat_b_walk_west_01.png",
+              "animals/goat/west/frames/goat_b_walk_west_02.png",
+              "animals/goat/west/frames/goat_b_walk_west_03.png",
+              "animals/goat/west/frames/goat_b_walk_west_04.png",
+              "animals/goat/west/frames/goat_b_walk_west_05.png"
+            ],
+            "frameRate": 8.695652173913043,
+            "frameMs": 115,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "goat_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "goat_b_run_west_00",
+              "goat_b_run_west_01",
+              "goat_b_run_west_02",
+              "goat_b_run_west_03",
+              "goat_b_run_west_04",
+              "goat_b_run_west_05"
+            ],
+            "files": [
+              "animals/goat/west/frames/goat_b_run_west_00.png",
+              "animals/goat/west/frames/goat_b_run_west_01.png",
+              "animals/goat/west/frames/goat_b_run_west_02.png",
+              "animals/goat/west/frames/goat_b_run_west_03.png",
+              "animals/goat/west/frames/goat_b_run_west_04.png",
+              "animals/goat/west/frames/goat_b_run_west_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/goat/east/spritesheet.png",
+        "atlas": "animals/goat/east/atlas.json",
+        "config": "animals/goat/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "goat_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "goat_b_idle_east_00",
+              "goat_b_idle_east_01",
+              "goat_b_idle_east_02",
+              "goat_b_idle_east_03",
+              "goat_b_idle_east_04",
+              "goat_b_idle_east_05"
+            ],
+            "files": [
+              "animals/goat/east/frames/goat_b_idle_east_00.png",
+              "animals/goat/east/frames/goat_b_idle_east_01.png",
+              "animals/goat/east/frames/goat_b_idle_east_02.png",
+              "animals/goat/east/frames/goat_b_idle_east_03.png",
+              "animals/goat/east/frames/goat_b_idle_east_04.png",
+              "animals/goat/east/frames/goat_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "goat_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "goat_b_walk_east_00",
+              "goat_b_walk_east_01",
+              "goat_b_walk_east_02",
+              "goat_b_walk_east_03",
+              "goat_b_walk_east_04",
+              "goat_b_walk_east_05"
+            ],
+            "files": [
+              "animals/goat/east/frames/goat_b_walk_east_00.png",
+              "animals/goat/east/frames/goat_b_walk_east_01.png",
+              "animals/goat/east/frames/goat_b_walk_east_02.png",
+              "animals/goat/east/frames/goat_b_walk_east_03.png",
+              "animals/goat/east/frames/goat_b_walk_east_04.png",
+              "animals/goat/east/frames/goat_b_walk_east_05.png"
+            ],
+            "frameRate": 8.695652173913043,
+            "frameMs": 115,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "goat_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "goat_b_run_east_00",
+              "goat_b_run_east_01",
+              "goat_b_run_east_02",
+              "goat_b_run_east_03",
+              "goat_b_run_east_04",
+              "goat_b_run_east_05"
+            ],
+            "files": [
+              "animals/goat/east/frames/goat_b_run_east_00.png",
+              "animals/goat/east/frames/goat_b_run_east_01.png",
+              "animals/goat/east/frames/goat_b_run_east_02.png",
+              "animals/goat/east/frames/goat_b_run_east_03.png",
+              "animals/goat/east/frames/goat_b_run_east_04.png",
+              "animals/goat/east/frames/goat_b_run_east_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/goat/north/spritesheet.png",
+        "atlas": "animals/goat/north/atlas.json",
+        "config": "animals/goat/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "goat_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "goat_b_idle_north_00",
+              "goat_b_idle_north_01",
+              "goat_b_idle_north_02",
+              "goat_b_idle_north_03",
+              "goat_b_idle_north_04",
+              "goat_b_idle_north_05"
+            ],
+            "files": [
+              "animals/goat/north/frames/goat_b_idle_north_00.png",
+              "animals/goat/north/frames/goat_b_idle_north_01.png",
+              "animals/goat/north/frames/goat_b_idle_north_02.png",
+              "animals/goat/north/frames/goat_b_idle_north_03.png",
+              "animals/goat/north/frames/goat_b_idle_north_04.png",
+              "animals/goat/north/frames/goat_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "goat_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "goat_b_walk_north_00",
+              "goat_b_walk_north_01",
+              "goat_b_walk_north_02",
+              "goat_b_walk_north_03",
+              "goat_b_walk_north_04",
+              "goat_b_walk_north_05"
+            ],
+            "files": [
+              "animals/goat/north/frames/goat_b_walk_north_00.png",
+              "animals/goat/north/frames/goat_b_walk_north_01.png",
+              "animals/goat/north/frames/goat_b_walk_north_02.png",
+              "animals/goat/north/frames/goat_b_walk_north_03.png",
+              "animals/goat/north/frames/goat_b_walk_north_04.png",
+              "animals/goat/north/frames/goat_b_walk_north_05.png"
+            ],
+            "frameRate": 8.695652173913043,
+            "frameMs": 115,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "goat_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "goat_b_run_north_00",
+              "goat_b_run_north_01",
+              "goat_b_run_north_02",
+              "goat_b_run_north_03",
+              "goat_b_run_north_04",
+              "goat_b_run_north_05"
+            ],
+            "files": [
+              "animals/goat/north/frames/goat_b_run_north_00.png",
+              "animals/goat/north/frames/goat_b_run_north_01.png",
+              "animals/goat/north/frames/goat_b_run_north_02.png",
+              "animals/goat/north/frames/goat_b_run_north_03.png",
+              "animals/goat/north/frames/goat_b_run_north_04.png",
+              "animals/goat/north/frames/goat_b_run_north_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "sharedSpeciesScale": 0.7142857142857143,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "duck_b_idle_west_00",
+      "file": "animals/duck/west/frames/duck_b_idle_west_00.png",
+      "sha256": "666e5f879c646995568c0de0726579e0acecab23b5ebe94b96852d5d29c96376",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 37,
+        "y": 299,
+        "w": 242,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 154,
+        "y": 494
+      },
+      "destination": {
+        "left": 44,
+        "top": 61,
+        "width": 173,
+        "height": 140
+      }
+    },
+    {
+      "name": "duck_b_idle_west_01",
+      "file": "animals/duck/west/frames/duck_b_idle_west_01.png",
+      "sha256": "8d31e519d82cdd2de9458e75009430c80c655c6be6ea94601f127659dae7a498",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 286,
+        "y": 302,
+        "w": 249,
+        "h": 193
+      },
+      "sourceAnchor": {
+        "x": 410,
+        "y": 494
+      },
+      "destination": {
+        "left": 39,
+        "top": 63,
+        "width": 178,
+        "height": 138
+      }
+    },
+    {
+      "name": "duck_b_idle_west_02",
+      "file": "animals/duck/west/frames/duck_b_idle_west_02.png",
+      "sha256": "5ba0cffc5fa99302ed0291b6c37d514d0b493728d29abdad72230da8f0fae351",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 553,
+        "y": 329,
+        "w": 230,
+        "h": 166
+      },
+      "sourceAnchor": {
+        "x": 666,
+        "y": 494
+      },
+      "destination": {
+        "left": 47,
+        "top": 82,
+        "width": 164,
+        "height": 119
+      }
+    },
+    {
+      "name": "duck_b_idle_west_03",
+      "file": "animals/duck/west/frames/duck_b_idle_west_03.png",
+      "sha256": "3cf1fa41ef9372ca167ecb027555df5fef444c9e73fedce80efda2109b774886",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 784,
+        "y": 299,
+        "w": 248,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 922,
+        "y": 494
+      },
+      "destination": {
+        "left": 29,
+        "top": 61,
+        "width": 177,
+        "height": 140
+      }
+    },
+    {
+      "name": "duck_b_idle_west_04",
+      "file": "animals/duck/west/frames/duck_b_idle_west_04.png",
+      "sha256": "f53e0cc64c45fdc8d46ab33a8b477314be3d78fc6d3f3750902c32c1ceea705e",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1039,
+        "y": 299,
+        "w": 238,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 1178,
+        "y": 494
+      },
+      "destination": {
+        "left": 29,
+        "top": 61,
+        "width": 170,
+        "height": 140
+      }
+    },
+    {
+      "name": "duck_b_idle_west_05",
+      "file": "animals/duck/west/frames/duck_b_idle_west_05.png",
+      "sha256": "0f4ae46ce943f9f986ddff1aa1cb1440467ad3e386af2123fc3caa314b12fb2b",
+      "source": "sources/duck-idle.png",
+      "sourceHash": "57a896bcf54d435c2593b713fddbb649c800c377dfbc4941ef12837b5fcee462",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1283,
+        "y": 300,
+        "w": 242,
+        "h": 195
+      },
+      "sourceAnchor": {
+        "x": 1434,
+        "y": 494
+      },
+      "destination": {
+        "left": 20,
+        "top": 61,
+        "width": 173,
+        "height": 139
+      }
+    },
+    {
+      "name": "duck_b_walk_west_00",
+      "file": "animals/duck/west/frames/duck_b_walk_west_00.png",
+      "sha256": "062c97b9efba08c2ac78c8b112d6ede5d71851e6a8ab0e22334e7636864bdcc4",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 22,
+        "y": 303,
+        "w": 243,
+        "h": 188
+      },
+      "sourceAnchor": {
+        "x": 136.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 46,
+        "top": 64,
+        "width": 174,
+        "height": 134
+      }
+    },
+    {
+      "name": "duck_b_walk_west_01",
+      "file": "animals/duck/west/frames/duck_b_walk_west_01.png",
+      "sha256": "8db278fb6c7eb0e5bca7ebb49fd76b66e7890b72a84465896113be57cf5ce408",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 270,
+        "y": 305,
+        "w": 246,
+        "h": 190
+      },
+      "sourceAnchor": {
+        "x": 392.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 41,
+        "top": 66,
+        "width": 176,
+        "height": 136
+      }
+    },
+    {
+      "name": "duck_b_walk_west_02",
+      "file": "animals/duck/west/frames/duck_b_walk_west_02.png",
+      "sha256": "4cf31692fb691ed9bfe8b9ae2b2ac3af54d1482363c8914a811cfcf2eeac7a15",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 523,
+        "y": 306,
+        "w": 247,
+        "h": 180
+      },
+      "sourceAnchor": {
+        "x": 648.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 38,
+        "top": 66,
+        "width": 176,
+        "height": 129
+      }
+    },
+    {
+      "name": "duck_b_walk_west_03",
+      "file": "animals/duck/west/frames/duck_b_walk_west_03.png",
+      "sha256": "74589479c2da269bf05b524941cbe49afac63eaddd42bc4573438baf6c1d5573",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 783,
+        "y": 303,
+        "w": 247,
+        "h": 192
+      },
+      "sourceAnchor": {
+        "x": 904.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 41,
+        "top": 64,
+        "width": 176,
+        "height": 137
+      }
+    },
+    {
+      "name": "duck_b_walk_west_04",
+      "file": "animals/duck/west/frames/duck_b_walk_west_04.png",
+      "sha256": "95ac5d68c70a69e68290b533b834848ce9e53e790a17371e9b32acbb4c11d933",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1038,
+        "y": 303,
+        "w": 244,
+        "h": 191
+      },
+      "sourceAnchor": {
+        "x": 1160.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 41,
+        "top": 64,
+        "width": 174,
+        "height": 136
+      }
+    },
+    {
+      "name": "duck_b_walk_west_05",
+      "file": "animals/duck/west/frames/duck_b_walk_west_05.png",
+      "sha256": "23246aea5953205cbc897c18501000d4e41849777d787508da751824a9cc2560",
+      "source": "sources/duck-walk.png",
+      "sourceHash": "9970f7e8f87c69a60d54f995eacb7ca2f63fd96489fa9f4d14fb3c86e2faec6c",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1290,
+        "y": 302,
+        "w": 240,
+        "h": 189
+      },
+      "sourceAnchor": {
+        "x": 1416.5,
+        "y": 493
+      },
+      "destination": {
+        "left": 38,
+        "top": 64,
+        "width": 171,
+        "height": 135
+      }
+    },
+    {
+      "name": "duck_b_run_west_00",
+      "file": "animals/duck/west/frames/duck_b_run_west_00.png",
+      "sha256": "4e3764f892197f83e66546d5584341b1c18fdf611f6e3dbb7db66ed1fbefc01f",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 13,
+        "y": 304,
+        "w": 249,
+        "h": 178
+      },
+      "sourceAnchor": {
+        "x": 133.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 42,
+        "top": 74,
+        "width": 178,
+        "height": 127
+      }
+    },
+    {
+      "name": "duck_b_run_west_01",
+      "file": "animals/duck/west/frames/duck_b_run_west_01.png",
+      "sha256": "f3789a0196677f0c1abd93a7f86eaf6b49d3acd57b13bd10d6ac7ddcb2b2b0f1",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 265,
+        "y": 304,
+        "w": 250,
+        "h": 180
+      },
+      "sourceAnchor": {
+        "x": 389.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 39,
+        "top": 74,
+        "width": 179,
+        "height": 129
+      }
+    },
+    {
+      "name": "duck_b_run_west_02",
+      "file": "animals/duck/west/frames/duck_b_run_west_02.png",
+      "sha256": "ae4e9c94b577128c040b5c7842811ff7a614fa2cef19ecbfed65b730c092efad",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 515,
+        "y": 301,
+        "w": 256,
+        "h": 180
+      },
+      "sourceAnchor": {
+        "x": 645.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 35,
+        "top": 72,
+        "width": 183,
+        "height": 129
+      }
+    },
+    {
+      "name": "duck_b_run_west_03",
+      "file": "animals/duck/west/frames/duck_b_run_west_03.png",
+      "sha256": "785bf6801bd048875393193ca800e5f16d35446e3f15b3d40fa8c1c2e705babb",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 772,
+        "y": 301,
+        "w": 257,
+        "h": 180
+      },
+      "sourceAnchor": {
+        "x": 901.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 36,
+        "top": 72,
+        "width": 184,
+        "height": 129
+      }
+    },
+    {
+      "name": "duck_b_run_west_04",
+      "file": "animals/duck/west/frames/duck_b_run_west_04.png",
+      "sha256": "45421cd29c512f02fe4c10a03e9e245ef1f651cafe42f68aef3ea69eb8e04143",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1033,
+        "y": 304,
+        "w": 252,
+        "h": 176
+      },
+      "sourceAnchor": {
+        "x": 1157.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 39,
+        "top": 74,
+        "width": 180,
+        "height": 126
+      }
+    },
+    {
+      "name": "duck_b_run_west_05",
+      "file": "animals/duck/west/frames/duck_b_run_west_05.png",
+      "sha256": "1b4919fbd5bbf93436c2c094733b909b2c26e27bda6cc8c2dc5d36c5a0b5b439",
+      "source": "sources/duck-run.png",
+      "sourceHash": "0668fa9aaf1e5a44c59e782b1337eca1a380236c47077308047a16ebd6f4abf9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1289,
+        "y": 304,
+        "w": 243,
+        "h": 171
+      },
+      "sourceAnchor": {
+        "x": 1413.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 39,
+        "top": 74,
+        "width": 174,
+        "height": 122
+      }
+    },
+    {
+      "name": "duck_b_fly_west_00",
+      "file": "animals/duck/west/frames/duck_b_fly_west_00.png",
+      "sha256": "62a876cdae37f519828fbafae57650fc82253b75020f1225464776c8906ed591",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 16,
+        "y": 353,
+        "w": 242,
+        "h": 142
+      },
+      "sourceAnchor": {
+        "x": 128,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 48,
+        "top": 121,
+        "width": 173,
+        "height": 101
+      }
+    },
+    {
+      "name": "duck_b_fly_west_01",
+      "file": "animals/duck/west/frames/duck_b_fly_west_01.png",
+      "sha256": "abd69057c7830bca41dbf48b5418ab605a0714e9809dce3149302a77ea8e07ce",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 269,
+        "y": 291,
+        "w": 228,
+        "h": 208
+      },
+      "sourceAnchor": {
+        "x": 384,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 46,
+        "top": 77,
+        "width": 163,
+        "height": 149
+      }
+    },
+    {
+      "name": "duck_b_fly_west_02",
+      "file": "animals/duck/west/frames/duck_b_fly_west_02.png",
+      "sha256": "82fc7c356f3b1701fd8dace012322cdfcbac2e27e138605ade7c8001739f31b5",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 524,
+        "y": 266,
+        "w": 226,
+        "h": 232
+      },
+      "sourceAnchor": {
+        "x": 640,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 45,
+        "top": 59,
+        "width": 161,
+        "height": 166
+      }
+    },
+    {
+      "name": "duck_b_fly_west_03",
+      "file": "animals/duck/west/frames/duck_b_fly_west_03.png",
+      "sha256": "e38d4165e0f8adbd7e5e85355b0461e8746a9a8e0bb9f1ffe29378796dd58e83",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 782,
+        "y": 319,
+        "w": 225,
+        "h": 179
+      },
+      "sourceAnchor": {
+        "x": 896,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 47,
+        "top": 97,
+        "width": 161,
+        "height": 128
+      }
+    },
+    {
+      "name": "duck_b_fly_west_04",
+      "file": "animals/duck/west/frames/duck_b_fly_west_04.png",
+      "sha256": "91edfafb2941b4d84868fcc28b09cbc8c8321b09e214d9df3bb4e3e5a1c3d3f1",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1037,
+        "y": 364,
+        "w": 242,
+        "h": 158
+      },
+      "sourceAnchor": {
+        "x": 1152,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 46,
+        "top": 129,
+        "width": 173,
+        "height": 113
+      }
+    },
+    {
+      "name": "duck_b_fly_west_05",
+      "file": "animals/duck/west/frames/duck_b_fly_west_05.png",
+      "sha256": "ddd6c335637b69744b4f6f5f14e462ca62446a0458bbde40aad4ebb406afc506",
+      "source": "sources/duck-fly.png",
+      "sourceHash": "8142ff4339b11af564232ca81ddfdfce0802f4ae98e8aed5d7b40d257d9cd544",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1289,
+        "y": 353,
+        "w": 239,
+        "h": 142
+      },
+      "sourceAnchor": {
+        "x": 1408,
+        "y": 463.5
+      },
+      "destination": {
+        "left": 43,
+        "top": 121,
+        "width": 171,
+        "height": 101
+      }
+    },
+    {
+      "name": "duck_b_swim_west_00",
+      "file": "animals/duck/west/frames/duck_b_swim_west_00.png",
+      "sha256": "8793b92d384b287d12fd48aef4a04610d188da6e7bf74d0b22b3cd09617b4c1f",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 28,
+        "y": 309,
+        "w": 234,
+        "h": 154
+      },
+      "sourceAnchor": {
+        "x": 134,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 52,
+        "top": 108,
+        "width": 167,
+        "height": 110
+      }
+    },
+    {
+      "name": "duck_b_swim_west_01",
+      "file": "animals/duck/west/frames/duck_b_swim_west_01.png",
+      "sha256": "8043231279a35ae207ef336072445815b6be880656e441357764a14200603121",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 267,
+        "y": 316,
+        "w": 250,
+        "h": 175
+      },
+      "sourceAnchor": {
+        "x": 390,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 40,
+        "top": 113,
+        "width": 179,
+        "height": 125
+      }
+    },
+    {
+      "name": "duck_b_swim_west_02",
+      "file": "animals/duck/west/frames/duck_b_swim_west_02.png",
+      "sha256": "21dbad8cef088f14f84f017b23b9c93cc4067e53078ec3840265316d2a9dbcd7",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 525,
+        "y": 307,
+        "w": 241,
+        "h": 158
+      },
+      "sourceAnchor": {
+        "x": 646,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 42,
+        "top": 106,
+        "width": 172,
+        "height": 113
+      }
+    },
+    {
+      "name": "duck_b_swim_west_03",
+      "file": "animals/duck/west/frames/duck_b_swim_west_03.png",
+      "sha256": "c2b8793eb29e64df041d24240f037c34ccfa809ef24a1a715bc79fc5a5865c3a",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 773,
+        "y": 316,
+        "w": 254,
+        "h": 166
+      },
+      "sourceAnchor": {
+        "x": 902,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 36,
+        "top": 113,
+        "width": 181,
+        "height": 119
+      }
+    },
+    {
+      "name": "duck_b_swim_west_04",
+      "file": "animals/duck/west/frames/duck_b_swim_west_04.png",
+      "sha256": "912f7f03c6af89154f8912d64ddbf633bb434100cd7bd28b80c915e2e9653263",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1035,
+        "y": 307,
+        "w": 247,
+        "h": 154
+      },
+      "sourceAnchor": {
+        "x": 1158,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 40,
+        "top": 106,
+        "width": 176,
+        "height": 110
+      }
+    },
+    {
+      "name": "duck_b_swim_west_05",
+      "file": "animals/duck/west/frames/duck_b_swim_west_05.png",
+      "sha256": "97f782235249a87c54e4d9d9296c030778c4a2ea8b08c243a310f823d027f139",
+      "source": "sources/duck-swim.png",
+      "sourceHash": "fe623fff126835a91ce2a81a29836a67590406be76395ccd1e6ff2f2828ec05b",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1289,
+        "y": 313,
+        "w": 234,
+        "h": 177
+      },
+      "sourceAnchor": {
+        "x": 1414,
+        "y": 438.5
+      },
+      "destination": {
+        "left": 39,
+        "top": 110,
+        "width": 167,
+        "height": 126
+      }
+    }
+  ]
+}

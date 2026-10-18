@@ -47,10 +47,12 @@ async function main(){
   const relative=process.argv[releaseIndex+1],tagIndex=process.argv.indexOf('--release-tag'),tag=tagIndex===-1?'environment-variants-v1':process.argv[tagIndex+1];
   if(!relative||path.isAbsolute(relative)||relative.split(/[\\/]/).includes('..')||!tag||!/^[a-zA-Z0-9._-]+$/.test(tag))throw Error('Invalid release asset path or tag');
   const file=path.join(ROOT,relative),bytes=fs.readFileSync(file),name=path.basename(file),sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+  const metadataIndex=process.argv.indexOf('--release-metadata');let metadata;
+  if(metadataIndex!==-1){const relativeMetadata=process.argv[metadataIndex+1];if(!relativeMetadata||path.isAbsolute(relativeMetadata)||relativeMetadata.split(/[\\/]/).includes('..'))throw Error('Invalid release metadata path');metadata=JSON.parse(fs.readFileSync(path.join(ROOT,relativeMetadata),'utf8'));if(typeof metadata.name!=='string'||typeof metadata.body!=='string')throw Error('Release metadata requires name and body');}
   const current=await api('/repos/'+repo.full_name+'/releases/tags/'+encodeURIComponent(tag));let release;
   if(current.status===200)release=current.data;
   else if(current.status===404){
-   const made=await api('/repos/'+repo.full_name+'/releases','POST',{tag_name:tag,target_commitish:git(['rev-parse','HEAD']),name:'Окружение и эффекты — 119 элементов × 3 варианта',body:'357 близких вариантов окружения и эффектов: 258 статичных изображений, 90 анимаций на 540 кадров и 9 референсов освещения. В ZIP включены исходники, запросы генерации, отдельные PNG, спрайт-листы, атласы, GIF и локальный просмотрщик. Проверки файлов и просмотрщика пройдены. Стыки покрытий, соединения дорог и отмеченные края кадров требуют проверки в игровом движке.',draft:true,prerelease:true});
+   const made=await api('/repos/'+repo.full_name+'/releases','POST',{tag_name:tag,target_commitish:git(['rev-parse','HEAD']),name:metadata?.name||'Окружение и эффекты — 119 элементов × 3 варианта',body:metadata?.body||'357 близких вариантов окружения и эффектов: 258 статичных изображений, 90 анимаций на 540 кадров и 9 референсов освещения. В ZIP включены исходники, запросы генерации, отдельные PNG, спрайт-листы, атласы, GIF и локальный просмотрщик. Проверки файлов и просмотрщика пройдены. Стыки покрытий, соединения дорог и отмеченные края кадров требуют проверки в игровом движке.',draft:true,prerelease:true});
    if(made.status!==201)throw Error('Cannot create asset release (HTTP '+made.status+')');release=made.data;
   }else throw Error('Cannot read asset release (HTTP '+current.status+')');
   const existing=release.assets?.find(a=>a.name===name);let asset;

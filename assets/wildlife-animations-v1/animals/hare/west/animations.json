@@ -1,0 +1,87 @@
+{
+  "species": "hare",
+  "variant": "B",
+  "direction": "west",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "hare_b_idle_west",
+      "label": "Ожидание",
+      "frames": [
+        "hare_b_idle_west_00",
+        "hare_b_idle_west_01",
+        "hare_b_idle_west_02",
+        "hare_b_idle_west_03",
+        "hare_b_idle_west_04",
+        "hare_b_idle_west_05"
+      ],
+      "files": [
+        "animals/hare/west/frames/hare_b_idle_west_00.png",
+        "animals/hare/west/frames/hare_b_idle_west_01.png",
+        "animals/hare/west/frames/hare_b_idle_west_02.png",
+        "animals/hare/west/frames/hare_b_idle_west_03.png",
+        "animals/hare/west/frames/hare_b_idle_west_04.png",
+        "animals/hare/west/frames/hare_b_idle_west_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "hare_b_walk_west",
+      "label": "Ходьба",
+      "frames": [
+        "hare_b_walk_west_00",
+        "hare_b_walk_west_01",
+        "hare_b_walk_west_02",
+        "hare_b_walk_west_03",
+        "hare_b_walk_west_04",
+        "hare_b_walk_west_05"
+      ],
+      "files": [
+        "animals/hare/west/frames/hare_b_walk_west_00.png",
+        "animals/hare/west/frames/hare_b_walk_west_01.png",
+        "animals/hare/west/frames/hare_b_walk_west_02.png",
+        "animals/hare/west/frames/hare_b_walk_west_03.png",
+        "animals/hare/west/frames/hare_b_walk_west_04.png",
+        "animals/hare/west/frames/hare_b_walk_west_05.png"
+      ],
+      "frameRate": 7.407407407407407,
+      "frameMs": 135,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "hare_b_run_west",
+      "label": "Бег",
+      "frames": [
+        "hare_b_run_west_00",
+        "hare_b_run_west_01",
+        "hare_b_run_west_02",
+        "hare_b_run_west_03",
+        "hare_b_run_west_04",
+        "hare_b_run_west_05"
+      ],
+      "files": [
+        "animals/hare/west/frames/hare_b_run_west_00.png",
+        "animals/hare/west/frames/hare_b_run_west_01.png",
+        "animals/hare/west/frames/hare_b_run_west_02.png",
+        "animals/hare/west/frames/hare_b_run_west_03.png",
+        "animals/hare/west/frames/hare_b_run_west_04.png",
+        "animals/hare/west/frames/hare_b_run_west_05.png"
+      ],
+      "frameRate": 13.333333333333334,
+      "frameMs": 75,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

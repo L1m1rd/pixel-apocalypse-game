@@ -1,0 +1,118 @@
+{
+  "species": "red_deer",
+  "variant": "B",
+  "direction": "west",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "red_deer_b_idle_west",
+      "label": "Ожидание",
+      "frames": [
+        "red_deer_b_idle_west_00",
+        "red_deer_b_idle_west_01",
+        "red_deer_b_idle_west_02",
+        "red_deer_b_idle_west_03",
+        "red_deer_b_idle_west_04",
+        "red_deer_b_idle_west_05"
+      ],
+      "files": [
+        "animals/red_deer/west/frames/red_deer_b_idle_west_00.png",
+        "animals/red_deer/west/frames/red_deer_b_idle_west_01.png",
+        "animals/red_deer/west/frames/red_deer_b_idle_west_02.png",
+        "animals/red_deer/west/frames/red_deer_b_idle_west_03.png",
+        "animals/red_deer/west/frames/red_deer_b_idle_west_04.png",
+        "animals/red_deer/west/frames/red_deer_b_idle_west_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "red_deer_b_walk_west",
+      "label": "Ходьба",
+      "frames": [
+        "red_deer_b_walk_west_00",
+        "red_deer_b_walk_west_01",
+        "red_deer_b_walk_west_02",
+        "red_deer_b_walk_west_03",
+        "red_deer_b_walk_west_04",
+        "red_deer_b_walk_west_05"
+      ],
+      "files": [
+        "animals/red_deer/west/frames/red_deer_b_walk_west_00.png",
+        "animals/red_deer/west/frames/red_deer_b_walk_west_01.png",
+        "animals/red_deer/west/frames/red_deer_b_walk_west_02.png",
+        "animals/red_deer/west/frames/red_deer_b_walk_west_03.png",
+        "animals/red_deer/west/frames/red_deer_b_walk_west_04.png",
+        "animals/red_deer/west/frames/red_deer_b_walk_west_05.png"
+      ],
+      "frameRate": 7.6923076923076925,
+      "frameMs": 130,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "red_deer_b_run_west",
+      "label": "Бег",
+      "frames": [
+        "red_deer_b_run_west_00",
+        "red_deer_b_run_west_01",
+        "red_deer_b_run_west_02",
+        "red_deer_b_run_west_03",
+        "red_deer_b_run_west_04",
+        "red_deer_b_run_west_05"
+      ],
+      "files": [
+        "animals/red_deer/west/frames/red_deer_b_run_west_00.png",
+        "animals/red_deer/west/frames/red_deer_b_run_west_01.png",
+        "animals/red_deer/west/frames/red_deer_b_run_west_02.png",
+        "animals/red_deer/west/frames/red_deer_b_run_west_03.png",
+        "animals/red_deer/west/frames/red_deer_b_run_west_04.png",
+        "animals/red_deer/west/frames/red_deer_b_run_west_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "red_deer_b_attack_west",
+      "label": "Атака",
+      "frames": [
+        "red_deer_b_attack_west_00",
+        "red_deer_b_attack_west_01",
+        "red_deer_b_attack_west_02",
+        "red_deer_b_attack_west_03",
+        "red_deer_b_attack_west_04",
+        "red_deer_b_attack_west_05"
+      ],
+      "files": [
+        "animals/red_deer/west/frames/red_deer_b_attack_west_00.png",
+        "animals/red_deer/west/frames/red_deer_b_attack_west_01.png",
+        "animals/red_deer/west/frames/red_deer_b_attack_west_02.png",
+        "animals/red_deer/west/frames/red_deer_b_attack_west_03.png",
+        "animals/red_deer/west/frames/red_deer_b_attack_west_04.png",
+        "animals/red_deer/west/frames/red_deer_b_attack_west_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

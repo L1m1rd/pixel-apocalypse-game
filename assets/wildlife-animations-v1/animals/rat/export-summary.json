@@ -1,0 +1,404 @@
+{
+  "fingerprint": "bc2a902ec37c24ba88d93b3fa1666c883d30e715b551dbb731c7700135b9d7f2",
+  "animal": {
+    "id": "rat",
+    "name": "Крыса",
+    "variant": "B",
+    "characterId": "rat_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/rat-b.png",
+    "baseFiles": {
+      "south": "sprites/rat/rat_b_south.png",
+      "west": "sprites/rat/rat_b_west.png",
+      "east": "sprites/rat/rat_b_east.png",
+      "north": "sprites/rat/rat_b_north.png"
+    },
+    "baseHashes": {
+      "south": "3fefc55682992008045f44be73ca93c276dc3538f8cfda886a64ede227137ba4",
+      "west": "50e3a9afdb4f140092ebdc8f9d703efb023ed69df15145537a11ca5687a10041",
+      "east": "67a610db88a0d0bf9cff90a826d68e8237e3482508f5998453a08536d666a324",
+      "north": "3f0207a4353e82004c779e723407707dab23837cf2ba98fbc6591368b0f38419"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6666666666666666,
+    "suggestedWorldHeight": 8,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "nose and whiskers twitch, small ear movements",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/rat-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown gray rat, compact low body, small rounded ears, long thin bare tail. Action: nose and whiskers twitch, small ear movements. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Крыса movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/rat-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/rat-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "low cautious tiny alternating steps, long bare tail drags gently",
+        "loop": true,
+        "frameMs": 85,
+        "frames": 6,
+        "source": "sources/rat-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown gray rat, compact low body, small rounded ears, long thin bare tail. Action: low cautious tiny alternating steps, long bare tail drags gently. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Крыса movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/rat-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "very fast low rat scurry, rippling spine and short rapid paws, thin tail snakes behind",
+        "loop": true,
+        "frameMs": 55,
+        "frames": 6,
+        "source": "sources/rat-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown gray rat, compact low body, small rounded ears, long thin bare tail. Action: very fast low rat scurry, rippling spine and short rapid paws, thin tail snakes behind. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Крыса movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/rat-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/rat-run.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/rat/south/spritesheet.png",
+        "atlas": "animals/rat/south/atlas.json",
+        "config": "animals/rat/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "rat_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "rat_b_idle_south_00",
+              "rat_b_idle_south_01",
+              "rat_b_idle_south_02",
+              "rat_b_idle_south_03",
+              "rat_b_idle_south_04",
+              "rat_b_idle_south_05"
+            ],
+            "files": [
+              "animals/rat/south/frames/rat_b_idle_south_00.png",
+              "animals/rat/south/frames/rat_b_idle_south_01.png",
+              "animals/rat/south/frames/rat_b_idle_south_02.png",
+              "animals/rat/south/frames/rat_b_idle_south_03.png",
+              "animals/rat/south/frames/rat_b_idle_south_04.png",
+              "animals/rat/south/frames/rat_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "rat_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "rat_b_walk_south_00",
+              "rat_b_walk_south_01",
+              "rat_b_walk_south_02",
+              "rat_b_walk_south_03",
+              "rat_b_walk_south_04",
+              "rat_b_walk_south_05"
+            ],
+            "files": [
+              "animals/rat/south/frames/rat_b_walk_south_00.png",
+              "animals/rat/south/frames/rat_b_walk_south_01.png",
+              "animals/rat/south/frames/rat_b_walk_south_02.png",
+              "animals/rat/south/frames/rat_b_walk_south_03.png",
+              "animals/rat/south/frames/rat_b_walk_south_04.png",
+              "animals/rat/south/frames/rat_b_walk_south_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "rat_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "rat_b_run_south_00",
+              "rat_b_run_south_01",
+              "rat_b_run_south_02",
+              "rat_b_run_south_03",
+              "rat_b_run_south_04",
+              "rat_b_run_south_05"
+            ],
+            "files": [
+              "animals/rat/south/frames/rat_b_run_south_00.png",
+              "animals/rat/south/frames/rat_b_run_south_01.png",
+              "animals/rat/south/frames/rat_b_run_south_02.png",
+              "animals/rat/south/frames/rat_b_run_south_03.png",
+              "animals/rat/south/frames/rat_b_run_south_04.png",
+              "animals/rat/south/frames/rat_b_run_south_05.png"
+            ],
+            "frameRate": 18.181818181818183,
+            "frameMs": 55,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/rat/west/spritesheet.png",
+        "atlas": "animals/rat/west/atlas.json",
+        "config": "animals/rat/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "rat_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "rat_b_idle_west_00",
+              "rat_b_idle_west_01",
+              "rat_b_idle_west_02",
+              "rat_b_idle_west_03",
+              "rat_b_idle_west_04",
+              "rat_b_idle_west_05"
+            ],
+            "files": [
+              "animals/rat/west/frames/rat_b_idle_west_00.png",
+              "animals/rat/west/frames/rat_b_idle_west_01.png",
+              "animals/rat/west/frames/rat_b_idle_west_02.png",
+              "animals/rat/west/frames/rat_b_idle_west_03.png",
+              "animals/rat/west/frames/rat_b_idle_west_04.png",
+              "animals/rat/west/frames/rat_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "rat_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "rat_b_walk_west_00",
+              "rat_b_walk_west_01",
+              "rat_b_walk_west_02",
+              "rat_b_walk_west_03",
+              "rat_b_walk_west_04",
+              "rat_b_walk_west_05"
+            ],
+            "files": [
+              "animals/rat/west/frames/rat_b_walk_west_00.png",
+              "animals/rat/west/frames/rat_b_walk_west_01.png",
+              "animals/rat/west/frames/rat_b_walk_west_02.png",
+              "animals/rat/west/frames/rat_b_walk_west_03.png",
+              "animals/rat/west/frames/rat_b_walk_west_04.png",
+              "animals/rat/west/frames/rat_b_walk_west_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "rat_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "rat_b_run_west_00",
+              "rat_b_run_west_01",
+              "rat_b_run_west_02",
+              "rat_b_run_west_03",
+              "rat_b_run_west_04",
+              "rat_b_run_west_05"
+            ],
+            "files": [
+              "animals/rat/west/frames/rat_b_run_west_00.png",
+              "animals/rat/west/frames/rat_b_run_west_01.png",
+              "animals/rat/west/frames/rat_b_run_west_02.png",
+              "animals/rat/west/frames/rat_b_run_west_03.png",
+              "animals/rat/west/frames/rat_b_run_west_04.png",
+              "animals/rat/west/frames/rat_b_run_west_05.png"
+            ],
+            "frameRate": 18.181818181818183,
+            "frameMs": 55,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/rat/east/spritesheet.png",
+        "atlas": "animals/rat/east/atlas.json",
+        "config": "animals/rat/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "rat_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "rat_b_idle_east_00",
+              "rat_b_idle_east_01",
+              "rat_b_idle_east_02",
+              "rat_b_idle_east_03",
+              "rat_b_idle_east_04",
+              "rat_b_idle_east_05"
+            ],
+            "files": [
+              "animals/rat/east/frames/rat_b_idle_east_00.png",
+              "animals/rat/east/frames/rat_b_idle_east_01.png",
+              "animals/rat/east/frames/rat_b_idle_east_02.png",
+              "animals/rat/east/frames/rat_b_idle_east_03.png",
+              "animals/rat/east/frames/rat_b_idle_east_04.png",
+              "animals/rat/east/frames/rat_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "rat_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "rat_b_walk_east_00",
+              "rat_b_walk_east_01",
+              "rat_b_walk_east_02",
+              "rat_b_walk_east_03",
+              "rat_b_walk_east_04",
+              "rat_b_walk_east_05"
+            ],
+            "files": [
+              "animals/rat/east/frames/rat_b_walk_east_00.png",
+              "animals/rat/east/frames/rat_b_walk_east_01.png",
+              "animals/rat/east/frames/rat_b_walk_east_02.png",
+              "animals/rat/east/frames/rat_b_walk_east_03.png",
+              "animals/rat/east/frames/rat_b_walk_east_04.png",
+              "animals/rat/east/frames/rat_b_walk_east_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "rat_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "rat_b_run_east_00",
+              "rat_b_run_east_01",
+              "rat_b_run_east_02",
+              "rat_b_run_east_03",
+              "rat_b_run_east_04",
+              "rat_b_run_east_05"
+            ],
+            "files": [
+              "animals/rat/east/frames/rat_b_run_east_00.png",
+              "animals/rat/east/frames/rat_b_run_east_01.png",
+              "animals/rat/east/frames/rat_b_run_east_02.png",
+              "animals/rat/east/frames/rat_b_run_east_03.png",
+              "animals/rat/east/frames/rat_b_run_east_04.png",
+              "animals/rat/east/frames/rat_b_run_east_05.png"
+            ],
+            "frameRate": 18.181818181818183,
+            "frameMs": 55,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/rat/north/spritesheet.png",
+        "atlas": "animals/rat/north/atlas.json",
+        "config": "animals/rat/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "rat_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "rat_b_idle_north_00",
+              "rat_b_idle_north_01",
+              "rat_b_idle_north_02",
+              "rat_b_idle_north_03",
+              "rat_b_idle_north_04",
+              "rat_b_idle_north_05"
+            ],
+            "files": [
+              "animals/rat/north/frames/rat_b_idle_north_00.png",
+              "animals/rat/north/frames/rat_b_idle_north_01.png",
+              "animals/rat/north/frames/rat_b_idle_north_02.png",
+              "animals/rat/north/frames/rat_b_idle_north_03.png",
+              "animals/rat/north/frames/rat_b_idle_north_04.png",
+              "animals/rat/north/frames/rat_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "rat_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "rat_b_walk_north_00",
+              "rat_b_walk_north_01",
+              "rat_b_walk_north_02",
+              "rat_b_walk_north_03",
+              "rat_b_walk_north_04",
+              "rat_b_walk_north_05"
+            ],
+            "files": [
+              "animals/rat/north/frames/rat_b_walk_north_00.png",
+              "animals/rat/north/frames/rat_b_walk_north_01.png",
+              "animals/rat/north/frames/rat_b_walk_north_02.png",
+              "animals/rat/north/frames/rat_b_walk_north_03.png",
+              "animals/rat/north/frames/rat_b_walk_north_04.png",
+              "animals/rat/north/frames/rat_b_walk_north_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "rat_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "rat_b_run_north_00",
+              "rat_b_run_north_01",
+              "rat_b_run_north_02",
+              "rat_b_run_north_03",
+              "rat_b_run_north_04",
+              "rat_b_run_north_05"
+            ],
+            "files": [
+              "animals/rat/north/frames/rat_b_run_north_00.png",
+              "animals/rat/north/frames/rat_b_run_north_01.png",
+              "animals/rat/north/frames/rat_b_run_north_02.png",
+              "animals/rat/north/frames/rat_b_run_north_03.png",
+              "animals/rat/north/frames/rat_b_run_north_04.png",
+              "animals/rat/north/frames/rat_b_run_north_05.png"
+            ],
+            "frameRate": 18.181818181818183,
+            "frameMs": 55,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

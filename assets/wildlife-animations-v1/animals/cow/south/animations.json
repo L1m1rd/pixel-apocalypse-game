@@ -1,0 +1,87 @@
+{
+  "species": "cow",
+  "variant": "B",
+  "direction": "south",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "cow_b_idle_south",
+      "label": "Ожидание",
+      "frames": [
+        "cow_b_idle_south_00",
+        "cow_b_idle_south_01",
+        "cow_b_idle_south_02",
+        "cow_b_idle_south_03",
+        "cow_b_idle_south_04",
+        "cow_b_idle_south_05"
+      ],
+      "files": [
+        "animals/cow/south/frames/cow_b_idle_south_00.png",
+        "animals/cow/south/frames/cow_b_idle_south_01.png",
+        "animals/cow/south/frames/cow_b_idle_south_02.png",
+        "animals/cow/south/frames/cow_b_idle_south_03.png",
+        "animals/cow/south/frames/cow_b_idle_south_04.png",
+        "animals/cow/south/frames/cow_b_idle_south_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "cow_b_walk_south",
+      "label": "Ходьба",
+      "frames": [
+        "cow_b_walk_south_00",
+        "cow_b_walk_south_01",
+        "cow_b_walk_south_02",
+        "cow_b_walk_south_03",
+        "cow_b_walk_south_04",
+        "cow_b_walk_south_05"
+      ],
+      "files": [
+        "animals/cow/south/frames/cow_b_walk_south_00.png",
+        "animals/cow/south/frames/cow_b_walk_south_01.png",
+        "animals/cow/south/frames/cow_b_walk_south_02.png",
+        "animals/cow/south/frames/cow_b_walk_south_03.png",
+        "animals/cow/south/frames/cow_b_walk_south_04.png",
+        "animals/cow/south/frames/cow_b_walk_south_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "cow_b_run_south",
+      "label": "Бег",
+      "frames": [
+        "cow_b_run_south_00",
+        "cow_b_run_south_01",
+        "cow_b_run_south_02",
+        "cow_b_run_south_03",
+        "cow_b_run_south_04",
+        "cow_b_run_south_05"
+      ],
+      "files": [
+        "animals/cow/south/frames/cow_b_run_south_00.png",
+        "animals/cow/south/frames/cow_b_run_south_01.png",
+        "animals/cow/south/frames/cow_b_run_south_02.png",
+        "animals/cow/south/frames/cow_b_run_south_03.png",
+        "animals/cow/south/frames/cow_b_run_south_04.png",
+        "animals/cow/south/frames/cow_b_run_south_05.png"
+      ],
+      "frameRate": 9.090909090909092,
+      "frameMs": 110,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

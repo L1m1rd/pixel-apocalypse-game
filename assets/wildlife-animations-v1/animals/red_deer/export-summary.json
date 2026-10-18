@@ -1,0 +1,548 @@
+{
+  "fingerprint": "086039882d43ffeee6fd5336860831cf04c94b7b2a278691074239086be54b4c",
+  "animal": {
+    "id": "red_deer",
+    "name": "Олень",
+    "variant": "B",
+    "characterId": "red_deer_b",
+    "attackCapable": true,
+    "role": "hostile",
+    "reference": "references/red_deer-b.png",
+    "baseFiles": {
+      "south": "sprites/red_deer/red_deer_b_south.png",
+      "west": "sprites/red_deer/red_deer_b_west.png",
+      "east": "sprites/red_deer/red_deer_b_east.png",
+      "north": "sprites/red_deer/red_deer_b_north.png"
+    },
+    "baseHashes": {
+      "south": "2d43cccff646cc171d32118ed4ff15e783d7461dbd8409e054fede70332e6dbd",
+      "west": "af0ec306e1f54662634b57af2e8710e112c55343527b512a5e04ed28ff0c9773",
+      "east": "4344af20b2c8cade0070449e98c52fb62243be52aaebece09e8f5f325a406770",
+      "north": "05bfebffd4c3c29b735a2fbeb23a63e2786c1c398ebb20c42722842866de2f98"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.5857740585774058,
+    "suggestedWorldHeight": 48,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "slow breathing, small head and antler adjustments",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/red_deer-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult male red deer, tall sturdy brown body, branching antlers, visibly larger build than a roe deer. Action: slow breathing, small head and antler adjustments. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Олень movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/red_deer-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/red_deer-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "measured long four-beat hoof strides, proud steady neck",
+        "loop": true,
+        "frameMs": 130,
+        "frames": 6,
+        "source": "sources/red_deer-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult male red deer, tall sturdy brown body, branching antlers, visibly larger build than a roe deer. Action: measured long four-beat hoof strides, proud steady neck. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Олень movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/red_deer-walk.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/red_deer-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "powerful long-stride gallop, fore/hind extension and suspension, antlers stable",
+        "loop": true,
+        "frameMs": 85,
+        "frames": 6,
+        "source": "sources/red_deer-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult male red deer, tall sturdy brown body, branching antlers, visibly larger build than a roe deer. Action: powerful long-stride gallop, fore/hind extension and suspension, antlers stable. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Олень movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/red_deer-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/red_deer-run.gif"
+      },
+      {
+        "id": "attack",
+        "label": "Атака",
+        "motion": "lower branching antlers, brace forehooves, thrust head and antlers forward in a short forceful jab, lift head and recover",
+        "loop": false,
+        "frameMs": 95,
+        "frames": 6,
+        "activeFrames": [
+          2,
+          3
+        ],
+        "impactFrame": 2,
+        "source": "sources/red_deer-attack.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult male red deer, tall sturdy brown body, branching antlers, visibly larger build than a roe deer. Action: lower branching antlers, brace forehooves, thrust head and antlers forward in a short forceful jab, lift head and recover. Six-frame ONE-SHOT action: frames 1-2 prepare, frames 3-4 strike, frames 5-6 recover. No impact VFX, blood or opponent. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Олень movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/red_deer-attack.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/red_deer-attack.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/red_deer/south/spritesheet.png",
+        "atlas": "animals/red_deer/south/atlas.json",
+        "config": "animals/red_deer/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "red_deer_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "red_deer_b_idle_south_00",
+              "red_deer_b_idle_south_01",
+              "red_deer_b_idle_south_02",
+              "red_deer_b_idle_south_03",
+              "red_deer_b_idle_south_04",
+              "red_deer_b_idle_south_05"
+            ],
+            "files": [
+              "animals/red_deer/south/frames/red_deer_b_idle_south_00.png",
+              "animals/red_deer/south/frames/red_deer_b_idle_south_01.png",
+              "animals/red_deer/south/frames/red_deer_b_idle_south_02.png",
+              "animals/red_deer/south/frames/red_deer_b_idle_south_03.png",
+              "animals/red_deer/south/frames/red_deer_b_idle_south_04.png",
+              "animals/red_deer/south/frames/red_deer_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "red_deer_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "red_deer_b_walk_south_00",
+              "red_deer_b_walk_south_01",
+              "red_deer_b_walk_south_02",
+              "red_deer_b_walk_south_03",
+              "red_deer_b_walk_south_04",
+              "red_deer_b_walk_south_05"
+            ],
+            "files": [
+              "animals/red_deer/south/frames/red_deer_b_walk_south_00.png",
+              "animals/red_deer/south/frames/red_deer_b_walk_south_01.png",
+              "animals/red_deer/south/frames/red_deer_b_walk_south_02.png",
+              "animals/red_deer/south/frames/red_deer_b_walk_south_03.png",
+              "animals/red_deer/south/frames/red_deer_b_walk_south_04.png",
+              "animals/red_deer/south/frames/red_deer_b_walk_south_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "red_deer_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "red_deer_b_run_south_00",
+              "red_deer_b_run_south_01",
+              "red_deer_b_run_south_02",
+              "red_deer_b_run_south_03",
+              "red_deer_b_run_south_04",
+              "red_deer_b_run_south_05"
+            ],
+            "files": [
+              "animals/red_deer/south/frames/red_deer_b_run_south_00.png",
+              "animals/red_deer/south/frames/red_deer_b_run_south_01.png",
+              "animals/red_deer/south/frames/red_deer_b_run_south_02.png",
+              "animals/red_deer/south/frames/red_deer_b_run_south_03.png",
+              "animals/red_deer/south/frames/red_deer_b_run_south_04.png",
+              "animals/red_deer/south/frames/red_deer_b_run_south_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "red_deer_b_attack_south",
+            "label": "Атака",
+            "frames": [
+              "red_deer_b_attack_south_00",
+              "red_deer_b_attack_south_01",
+              "red_deer_b_attack_south_02",
+              "red_deer_b_attack_south_03",
+              "red_deer_b_attack_south_04",
+              "red_deer_b_attack_south_05"
+            ],
+            "files": [
+              "animals/red_deer/south/frames/red_deer_b_attack_south_00.png",
+              "animals/red_deer/south/frames/red_deer_b_attack_south_01.png",
+              "animals/red_deer/south/frames/red_deer_b_attack_south_02.png",
+              "animals/red_deer/south/frames/red_deer_b_attack_south_03.png",
+              "animals/red_deer/south/frames/red_deer_b_attack_south_04.png",
+              "animals/red_deer/south/frames/red_deer_b_attack_south_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/red_deer/west/spritesheet.png",
+        "atlas": "animals/red_deer/west/atlas.json",
+        "config": "animals/red_deer/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "red_deer_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "red_deer_b_idle_west_00",
+              "red_deer_b_idle_west_01",
+              "red_deer_b_idle_west_02",
+              "red_deer_b_idle_west_03",
+              "red_deer_b_idle_west_04",
+              "red_deer_b_idle_west_05"
+            ],
+            "files": [
+              "animals/red_deer/west/frames/red_deer_b_idle_west_00.png",
+              "animals/red_deer/west/frames/red_deer_b_idle_west_01.png",
+              "animals/red_deer/west/frames/red_deer_b_idle_west_02.png",
+              "animals/red_deer/west/frames/red_deer_b_idle_west_03.png",
+              "animals/red_deer/west/frames/red_deer_b_idle_west_04.png",
+              "animals/red_deer/west/frames/red_deer_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "red_deer_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "red_deer_b_walk_west_00",
+              "red_deer_b_walk_west_01",
+              "red_deer_b_walk_west_02",
+              "red_deer_b_walk_west_03",
+              "red_deer_b_walk_west_04",
+              "red_deer_b_walk_west_05"
+            ],
+            "files": [
+              "animals/red_deer/west/frames/red_deer_b_walk_west_00.png",
+              "animals/red_deer/west/frames/red_deer_b_walk_west_01.png",
+              "animals/red_deer/west/frames/red_deer_b_walk_west_02.png",
+              "animals/red_deer/west/frames/red_deer_b_walk_west_03.png",
+              "animals/red_deer/west/frames/red_deer_b_walk_west_04.png",
+              "animals/red_deer/west/frames/red_deer_b_walk_west_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "red_deer_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "red_deer_b_run_west_00",
+              "red_deer_b_run_west_01",
+              "red_deer_b_run_west_02",
+              "red_deer_b_run_west_03",
+              "red_deer_b_run_west_04",
+              "red_deer_b_run_west_05"
+            ],
+            "files": [
+              "animals/red_deer/west/frames/red_deer_b_run_west_00.png",
+              "animals/red_deer/west/frames/red_deer_b_run_west_01.png",
+              "animals/red_deer/west/frames/red_deer_b_run_west_02.png",
+              "animals/red_deer/west/frames/red_deer_b_run_west_03.png",
+              "animals/red_deer/west/frames/red_deer_b_run_west_04.png",
+              "animals/red_deer/west/frames/red_deer_b_run_west_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "red_deer_b_attack_west",
+            "label": "Атака",
+            "frames": [
+              "red_deer_b_attack_west_00",
+              "red_deer_b_attack_west_01",
+              "red_deer_b_attack_west_02",
+              "red_deer_b_attack_west_03",
+              "red_deer_b_attack_west_04",
+              "red_deer_b_attack_west_05"
+            ],
+            "files": [
+              "animals/red_deer/west/frames/red_deer_b_attack_west_00.png",
+              "animals/red_deer/west/frames/red_deer_b_attack_west_01.png",
+              "animals/red_deer/west/frames/red_deer_b_attack_west_02.png",
+              "animals/red_deer/west/frames/red_deer_b_attack_west_03.png",
+              "animals/red_deer/west/frames/red_deer_b_attack_west_04.png",
+              "animals/red_deer/west/frames/red_deer_b_attack_west_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/red_deer/east/spritesheet.png",
+        "atlas": "animals/red_deer/east/atlas.json",
+        "config": "animals/red_deer/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "red_deer_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "red_deer_b_idle_east_00",
+              "red_deer_b_idle_east_01",
+              "red_deer_b_idle_east_02",
+              "red_deer_b_idle_east_03",
+              "red_deer_b_idle_east_04",
+              "red_deer_b_idle_east_05"
+            ],
+            "files": [
+              "animals/red_deer/east/frames/red_deer_b_idle_east_00.png",
+              "animals/red_deer/east/frames/red_deer_b_idle_east_01.png",
+              "animals/red_deer/east/frames/red_deer_b_idle_east_02.png",
+              "animals/red_deer/east/frames/red_deer_b_idle_east_03.png",
+              "animals/red_deer/east/frames/red_deer_b_idle_east_04.png",
+              "animals/red_deer/east/frames/red_deer_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "red_deer_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "red_deer_b_walk_east_00",
+              "red_deer_b_walk_east_01",
+              "red_deer_b_walk_east_02",
+              "red_deer_b_walk_east_03",
+              "red_deer_b_walk_east_04",
+              "red_deer_b_walk_east_05"
+            ],
+            "files": [
+              "animals/red_deer/east/frames/red_deer_b_walk_east_00.png",
+              "animals/red_deer/east/frames/red_deer_b_walk_east_01.png",
+              "animals/red_deer/east/frames/red_deer_b_walk_east_02.png",
+              "animals/red_deer/east/frames/red_deer_b_walk_east_03.png",
+              "animals/red_deer/east/frames/red_deer_b_walk_east_04.png",
+              "animals/red_deer/east/frames/red_deer_b_walk_east_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "red_deer_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "red_deer_b_run_east_00",
+              "red_deer_b_run_east_01",
+              "red_deer_b_run_east_02",
+              "red_deer_b_run_east_03",
+              "red_deer_b_run_east_04",
+              "red_deer_b_run_east_05"
+            ],
+            "files": [
+              "animals/red_deer/east/frames/red_deer_b_run_east_00.png",
+              "animals/red_deer/east/frames/red_deer_b_run_east_01.png",
+              "animals/red_deer/east/frames/red_deer_b_run_east_02.png",
+              "animals/red_deer/east/frames/red_deer_b_run_east_03.png",
+              "animals/red_deer/east/frames/red_deer_b_run_east_04.png",
+              "animals/red_deer/east/frames/red_deer_b_run_east_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "red_deer_b_attack_east",
+            "label": "Атака",
+            "frames": [
+              "red_deer_b_attack_east_00",
+              "red_deer_b_attack_east_01",
+              "red_deer_b_attack_east_02",
+              "red_deer_b_attack_east_03",
+              "red_deer_b_attack_east_04",
+              "red_deer_b_attack_east_05"
+            ],
+            "files": [
+              "animals/red_deer/east/frames/red_deer_b_attack_east_00.png",
+              "animals/red_deer/east/frames/red_deer_b_attack_east_01.png",
+              "animals/red_deer/east/frames/red_deer_b_attack_east_02.png",
+              "animals/red_deer/east/frames/red_deer_b_attack_east_03.png",
+              "animals/red_deer/east/frames/red_deer_b_attack_east_04.png",
+              "animals/red_deer/east/frames/red_deer_b_attack_east_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/red_deer/north/spritesheet.png",
+        "atlas": "animals/red_deer/north/atlas.json",
+        "config": "animals/red_deer/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "red_deer_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "red_deer_b_idle_north_00",
+              "red_deer_b_idle_north_01",
+              "red_deer_b_idle_north_02",
+              "red_deer_b_idle_north_03",
+              "red_deer_b_idle_north_04",
+              "red_deer_b_idle_north_05"
+            ],
+            "files": [
+              "animals/red_deer/north/frames/red_deer_b_idle_north_00.png",
+              "animals/red_deer/north/frames/red_deer_b_idle_north_01.png",
+              "animals/red_deer/north/frames/red_deer_b_idle_north_02.png",
+              "animals/red_deer/north/frames/red_deer_b_idle_north_03.png",
+              "animals/red_deer/north/frames/red_deer_b_idle_north_04.png",
+              "animals/red_deer/north/frames/red_deer_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "red_deer_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "red_deer_b_walk_north_00",
+              "red_deer_b_walk_north_01",
+              "red_deer_b_walk_north_02",
+              "red_deer_b_walk_north_03",
+              "red_deer_b_walk_north_04",
+              "red_deer_b_walk_north_05"
+            ],
+            "files": [
+              "animals/red_deer/north/frames/red_deer_b_walk_north_00.png",
+              "animals/red_deer/north/frames/red_deer_b_walk_north_01.png",
+              "animals/red_deer/north/frames/red_deer_b_walk_north_02.png",
+              "animals/red_deer/north/frames/red_deer_b_walk_north_03.png",
+              "animals/red_deer/north/frames/red_deer_b_walk_north_04.png",
+              "animals/red_deer/north/frames/red_deer_b_walk_north_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "red_deer_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "red_deer_b_run_north_00",
+              "red_deer_b_run_north_01",
+              "red_deer_b_run_north_02",
+              "red_deer_b_run_north_03",
+              "red_deer_b_run_north_04",
+              "red_deer_b_run_north_05"
+            ],
+            "files": [
+              "animals/red_deer/north/frames/red_deer_b_run_north_00.png",
+              "animals/red_deer/north/frames/red_deer_b_run_north_01.png",
+              "animals/red_deer/north/frames/red_deer_b_run_north_02.png",
+              "animals/red_deer/north/frames/red_deer_b_run_north_03.png",
+              "animals/red_deer/north/frames/red_deer_b_run_north_04.png",
+              "animals/red_deer/north/frames/red_deer_b_run_north_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "red_deer_b_attack_north",
+            "label": "Атака",
+            "frames": [
+              "red_deer_b_attack_north_00",
+              "red_deer_b_attack_north_01",
+              "red_deer_b_attack_north_02",
+              "red_deer_b_attack_north_03",
+              "red_deer_b_attack_north_04",
+              "red_deer_b_attack_north_05"
+            ],
+            "files": [
+              "animals/red_deer/north/frames/red_deer_b_attack_north_00.png",
+              "animals/red_deer/north/frames/red_deer_b_attack_north_01.png",
+              "animals/red_deer/north/frames/red_deer_b_attack_north_02.png",
+              "animals/red_deer/north/frames/red_deer_b_attack_north_03.png",
+              "animals/red_deer/north/frames/red_deer_b_attack_north_04.png",
+              "animals/red_deer/north/frames/red_deer_b_attack_north_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      }
+    }
+  }
+}

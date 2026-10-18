@@ -1,0 +1,628 @@
+{
+  "fingerprint": "6fefc9170752afac875eb94b7149df25602f016c0ff2d8e12c7aa73278020c79",
+  "animal": {
+    "id": "duck",
+    "name": "Утка",
+    "variant": "B",
+    "characterId": "duck_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/duck-b.png",
+    "baseFiles": {
+      "south": "sprites/duck/duck_b_south.png",
+      "west": "sprites/duck/duck_b_west.png",
+      "east": "sprites/duck/duck_b_east.png",
+      "north": "sprites/duck/duck_b_north.png"
+    },
+    "baseHashes": {
+      "south": "ae8972d0b3cdd531ba2731e2657a4342bedbe32da8e7bb6c908711999057b51b",
+      "west": "e5d870e9c7ca41d585fa453ee354b8f7b1d34796a491640d5c946957e74f9ed6",
+      "east": "4e0bdb34da3248b23a3fa70019af00eef3e34ff5cedb2a5bad6442d3d3015d7f",
+      "north": "7d997fdbb0bceb2482d6b304a18249fa982ad1801378889b94460b244ff3205d"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.7142857142857143,
+    "suggestedWorldHeight": 17,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "small bill/head movement, breathing and tail twitch",
+        "loop": true,
+        "frameMs": 170,
+        "frames": 6,
+        "source": "sources/duck-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings. Action: small bill/head movement, breathing and tail twitch. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Утка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/duck-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "waddling webbed-foot steps, broad side-to-side body sway",
+        "loop": true,
+        "frameMs": 145,
+        "frames": 6,
+        "source": "sources/duck-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings. Action: waddling webbed-foot steps, broad side-to-side body sway. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Утка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/duck-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "fast hurried duck waddle, short webbed-foot strides and forward pitch, folded wings",
+        "loop": true,
+        "frameMs": 95,
+        "frames": 6,
+        "source": "sources/duck-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings. Action: fast hurried duck waddle, short webbed-foot strides and forward pitch, folded wings. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Утка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/duck-run.gif"
+      },
+      {
+        "id": "fly",
+        "label": "Полёт",
+        "motion": "steady direct duck wingbeats, neck extended forward and webbed feet tucked",
+        "loop": true,
+        "frameMs": 85,
+        "frames": 6,
+        "source": "sources/duck-fly.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings. Action: steady direct duck wingbeats, neck extended forward and webbed feet tucked. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Утка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/duck-fly.gif"
+      },
+      {
+        "id": "swim",
+        "label": "Плавание",
+        "motion": "buoyant calm duck swimming, subtle alternating webbed-foot paddles under the body and gentle body rocking; no painted water or ripples",
+        "loop": true,
+        "frameMs": 130,
+        "frames": 6,
+        "source": "sources/duck-swim.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings. Action: buoyant calm duck swimming, subtle alternating webbed-foot paddles under the body and gentle body rocking; no painted water or ripples. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Утка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/duck-swim.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/duck/south/spritesheet.png",
+        "atlas": "animals/duck/south/atlas.json",
+        "config": "animals/duck/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "duck_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "duck_b_idle_south_00",
+              "duck_b_idle_south_01",
+              "duck_b_idle_south_02",
+              "duck_b_idle_south_03",
+              "duck_b_idle_south_04",
+              "duck_b_idle_south_05"
+            ],
+            "files": [
+              "animals/duck/south/frames/duck_b_idle_south_00.png",
+              "animals/duck/south/frames/duck_b_idle_south_01.png",
+              "animals/duck/south/frames/duck_b_idle_south_02.png",
+              "animals/duck/south/frames/duck_b_idle_south_03.png",
+              "animals/duck/south/frames/duck_b_idle_south_04.png",
+              "animals/duck/south/frames/duck_b_idle_south_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "duck_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "duck_b_walk_south_00",
+              "duck_b_walk_south_01",
+              "duck_b_walk_south_02",
+              "duck_b_walk_south_03",
+              "duck_b_walk_south_04",
+              "duck_b_walk_south_05"
+            ],
+            "files": [
+              "animals/duck/south/frames/duck_b_walk_south_00.png",
+              "animals/duck/south/frames/duck_b_walk_south_01.png",
+              "animals/duck/south/frames/duck_b_walk_south_02.png",
+              "animals/duck/south/frames/duck_b_walk_south_03.png",
+              "animals/duck/south/frames/duck_b_walk_south_04.png",
+              "animals/duck/south/frames/duck_b_walk_south_05.png"
+            ],
+            "frameRate": 6.896551724137931,
+            "frameMs": 145,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "duck_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "duck_b_run_south_00",
+              "duck_b_run_south_01",
+              "duck_b_run_south_02",
+              "duck_b_run_south_03",
+              "duck_b_run_south_04",
+              "duck_b_run_south_05"
+            ],
+            "files": [
+              "animals/duck/south/frames/duck_b_run_south_00.png",
+              "animals/duck/south/frames/duck_b_run_south_01.png",
+              "animals/duck/south/frames/duck_b_run_south_02.png",
+              "animals/duck/south/frames/duck_b_run_south_03.png",
+              "animals/duck/south/frames/duck_b_run_south_04.png",
+              "animals/duck/south/frames/duck_b_run_south_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "duck_b_fly_south",
+            "label": "Полёт",
+            "frames": [
+              "duck_b_fly_south_00",
+              "duck_b_fly_south_01",
+              "duck_b_fly_south_02",
+              "duck_b_fly_south_03",
+              "duck_b_fly_south_04",
+              "duck_b_fly_south_05"
+            ],
+            "files": [
+              "animals/duck/south/frames/duck_b_fly_south_00.png",
+              "animals/duck/south/frames/duck_b_fly_south_01.png",
+              "animals/duck/south/frames/duck_b_fly_south_02.png",
+              "animals/duck/south/frames/duck_b_fly_south_03.png",
+              "animals/duck/south/frames/duck_b_fly_south_04.png",
+              "animals/duck/south/frames/duck_b_fly_south_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "duck_b_swim_south",
+            "label": "Плавание",
+            "frames": [
+              "duck_b_swim_south_00",
+              "duck_b_swim_south_01",
+              "duck_b_swim_south_02",
+              "duck_b_swim_south_03",
+              "duck_b_swim_south_04",
+              "duck_b_swim_south_05"
+            ],
+            "files": [
+              "animals/duck/south/frames/duck_b_swim_south_00.png",
+              "animals/duck/south/frames/duck_b_swim_south_01.png",
+              "animals/duck/south/frames/duck_b_swim_south_02.png",
+              "animals/duck/south/frames/duck_b_swim_south_03.png",
+              "animals/duck/south/frames/duck_b_swim_south_04.png",
+              "animals/duck/south/frames/duck_b_swim_south_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/duck/west/spritesheet.png",
+        "atlas": "animals/duck/west/atlas.json",
+        "config": "animals/duck/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "duck_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "duck_b_idle_west_00",
+              "duck_b_idle_west_01",
+              "duck_b_idle_west_02",
+              "duck_b_idle_west_03",
+              "duck_b_idle_west_04",
+              "duck_b_idle_west_05"
+            ],
+            "files": [
+              "animals/duck/west/frames/duck_b_idle_west_00.png",
+              "animals/duck/west/frames/duck_b_idle_west_01.png",
+              "animals/duck/west/frames/duck_b_idle_west_02.png",
+              "animals/duck/west/frames/duck_b_idle_west_03.png",
+              "animals/duck/west/frames/duck_b_idle_west_04.png",
+              "animals/duck/west/frames/duck_b_idle_west_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "duck_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "duck_b_walk_west_00",
+              "duck_b_walk_west_01",
+              "duck_b_walk_west_02",
+              "duck_b_walk_west_03",
+              "duck_b_walk_west_04",
+              "duck_b_walk_west_05"
+            ],
+            "files": [
+              "animals/duck/west/frames/duck_b_walk_west_00.png",
+              "animals/duck/west/frames/duck_b_walk_west_01.png",
+              "animals/duck/west/frames/duck_b_walk_west_02.png",
+              "animals/duck/west/frames/duck_b_walk_west_03.png",
+              "animals/duck/west/frames/duck_b_walk_west_04.png",
+              "animals/duck/west/frames/duck_b_walk_west_05.png"
+            ],
+            "frameRate": 6.896551724137931,
+            "frameMs": 145,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "duck_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "duck_b_run_west_00",
+              "duck_b_run_west_01",
+              "duck_b_run_west_02",
+              "duck_b_run_west_03",
+              "duck_b_run_west_04",
+              "duck_b_run_west_05"
+            ],
+            "files": [
+              "animals/duck/west/frames/duck_b_run_west_00.png",
+              "animals/duck/west/frames/duck_b_run_west_01.png",
+              "animals/duck/west/frames/duck_b_run_west_02.png",
+              "animals/duck/west/frames/duck_b_run_west_03.png",
+              "animals/duck/west/frames/duck_b_run_west_04.png",
+              "animals/duck/west/frames/duck_b_run_west_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "duck_b_fly_west",
+            "label": "Полёт",
+            "frames": [
+              "duck_b_fly_west_00",
+              "duck_b_fly_west_01",
+              "duck_b_fly_west_02",
+              "duck_b_fly_west_03",
+              "duck_b_fly_west_04",
+              "duck_b_fly_west_05"
+            ],
+            "files": [
+              "animals/duck/west/frames/duck_b_fly_west_00.png",
+              "animals/duck/west/frames/duck_b_fly_west_01.png",
+              "animals/duck/west/frames/duck_b_fly_west_02.png",
+              "animals/duck/west/frames/duck_b_fly_west_03.png",
+              "animals/duck/west/frames/duck_b_fly_west_04.png",
+              "animals/duck/west/frames/duck_b_fly_west_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "duck_b_swim_west",
+            "label": "Плавание",
+            "frames": [
+              "duck_b_swim_west_00",
+              "duck_b_swim_west_01",
+              "duck_b_swim_west_02",
+              "duck_b_swim_west_03",
+              "duck_b_swim_west_04",
+              "duck_b_swim_west_05"
+            ],
+            "files": [
+              "animals/duck/west/frames/duck_b_swim_west_00.png",
+              "animals/duck/west/frames/duck_b_swim_west_01.png",
+              "animals/duck/west/frames/duck_b_swim_west_02.png",
+              "animals/duck/west/frames/duck_b_swim_west_03.png",
+              "animals/duck/west/frames/duck_b_swim_west_04.png",
+              "animals/duck/west/frames/duck_b_swim_west_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/duck/east/spritesheet.png",
+        "atlas": "animals/duck/east/atlas.json",
+        "config": "animals/duck/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "duck_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "duck_b_idle_east_00",
+              "duck_b_idle_east_01",
+              "duck_b_idle_east_02",
+              "duck_b_idle_east_03",
+              "duck_b_idle_east_04",
+              "duck_b_idle_east_05"
+            ],
+            "files": [
+              "animals/duck/east/frames/duck_b_idle_east_00.png",
+              "animals/duck/east/frames/duck_b_idle_east_01.png",
+              "animals/duck/east/frames/duck_b_idle_east_02.png",
+              "animals/duck/east/frames/duck_b_idle_east_03.png",
+              "animals/duck/east/frames/duck_b_idle_east_04.png",
+              "animals/duck/east/frames/duck_b_idle_east_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "duck_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "duck_b_walk_east_00",
+              "duck_b_walk_east_01",
+              "duck_b_walk_east_02",
+              "duck_b_walk_east_03",
+              "duck_b_walk_east_04",
+              "duck_b_walk_east_05"
+            ],
+            "files": [
+              "animals/duck/east/frames/duck_b_walk_east_00.png",
+              "animals/duck/east/frames/duck_b_walk_east_01.png",
+              "animals/duck/east/frames/duck_b_walk_east_02.png",
+              "animals/duck/east/frames/duck_b_walk_east_03.png",
+              "animals/duck/east/frames/duck_b_walk_east_04.png",
+              "animals/duck/east/frames/duck_b_walk_east_05.png"
+            ],
+            "frameRate": 6.896551724137931,
+            "frameMs": 145,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "duck_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "duck_b_run_east_00",
+              "duck_b_run_east_01",
+              "duck_b_run_east_02",
+              "duck_b_run_east_03",
+              "duck_b_run_east_04",
+              "duck_b_run_east_05"
+            ],
+            "files": [
+              "animals/duck/east/frames/duck_b_run_east_00.png",
+              "animals/duck/east/frames/duck_b_run_east_01.png",
+              "animals/duck/east/frames/duck_b_run_east_02.png",
+              "animals/duck/east/frames/duck_b_run_east_03.png",
+              "animals/duck/east/frames/duck_b_run_east_04.png",
+              "animals/duck/east/frames/duck_b_run_east_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "duck_b_fly_east",
+            "label": "Полёт",
+            "frames": [
+              "duck_b_fly_east_00",
+              "duck_b_fly_east_01",
+              "duck_b_fly_east_02",
+              "duck_b_fly_east_03",
+              "duck_b_fly_east_04",
+              "duck_b_fly_east_05"
+            ],
+            "files": [
+              "animals/duck/east/frames/duck_b_fly_east_00.png",
+              "animals/duck/east/frames/duck_b_fly_east_01.png",
+              "animals/duck/east/frames/duck_b_fly_east_02.png",
+              "animals/duck/east/frames/duck_b_fly_east_03.png",
+              "animals/duck/east/frames/duck_b_fly_east_04.png",
+              "animals/duck/east/frames/duck_b_fly_east_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "duck_b_swim_east",
+            "label": "Плавание",
+            "frames": [
+              "duck_b_swim_east_00",
+              "duck_b_swim_east_01",
+              "duck_b_swim_east_02",
+              "duck_b_swim_east_03",
+              "duck_b_swim_east_04",
+              "duck_b_swim_east_05"
+            ],
+            "files": [
+              "animals/duck/east/frames/duck_b_swim_east_00.png",
+              "animals/duck/east/frames/duck_b_swim_east_01.png",
+              "animals/duck/east/frames/duck_b_swim_east_02.png",
+              "animals/duck/east/frames/duck_b_swim_east_03.png",
+              "animals/duck/east/frames/duck_b_swim_east_04.png",
+              "animals/duck/east/frames/duck_b_swim_east_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/duck/north/spritesheet.png",
+        "atlas": "animals/duck/north/atlas.json",
+        "config": "animals/duck/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "duck_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "duck_b_idle_north_00",
+              "duck_b_idle_north_01",
+              "duck_b_idle_north_02",
+              "duck_b_idle_north_03",
+              "duck_b_idle_north_04",
+              "duck_b_idle_north_05"
+            ],
+            "files": [
+              "animals/duck/north/frames/duck_b_idle_north_00.png",
+              "animals/duck/north/frames/duck_b_idle_north_01.png",
+              "animals/duck/north/frames/duck_b_idle_north_02.png",
+              "animals/duck/north/frames/duck_b_idle_north_03.png",
+              "animals/duck/north/frames/duck_b_idle_north_04.png",
+              "animals/duck/north/frames/duck_b_idle_north_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "duck_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "duck_b_walk_north_00",
+              "duck_b_walk_north_01",
+              "duck_b_walk_north_02",
+              "duck_b_walk_north_03",
+              "duck_b_walk_north_04",
+              "duck_b_walk_north_05"
+            ],
+            "files": [
+              "animals/duck/north/frames/duck_b_walk_north_00.png",
+              "animals/duck/north/frames/duck_b_walk_north_01.png",
+              "animals/duck/north/frames/duck_b_walk_north_02.png",
+              "animals/duck/north/frames/duck_b_walk_north_03.png",
+              "animals/duck/north/frames/duck_b_walk_north_04.png",
+              "animals/duck/north/frames/duck_b_walk_north_05.png"
+            ],
+            "frameRate": 6.896551724137931,
+            "frameMs": 145,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "duck_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "duck_b_run_north_00",
+              "duck_b_run_north_01",
+              "duck_b_run_north_02",
+              "duck_b_run_north_03",
+              "duck_b_run_north_04",
+              "duck_b_run_north_05"
+            ],
+            "files": [
+              "animals/duck/north/frames/duck_b_run_north_00.png",
+              "animals/duck/north/frames/duck_b_run_north_01.png",
+              "animals/duck/north/frames/duck_b_run_north_02.png",
+              "animals/duck/north/frames/duck_b_run_north_03.png",
+              "animals/duck/north/frames/duck_b_run_north_04.png",
+              "animals/duck/north/frames/duck_b_run_north_05.png"
+            ],
+            "frameRate": 10.526315789473685,
+            "frameMs": 95,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "duck_b_fly_north",
+            "label": "Полёт",
+            "frames": [
+              "duck_b_fly_north_00",
+              "duck_b_fly_north_01",
+              "duck_b_fly_north_02",
+              "duck_b_fly_north_03",
+              "duck_b_fly_north_04",
+              "duck_b_fly_north_05"
+            ],
+            "files": [
+              "animals/duck/north/frames/duck_b_fly_north_00.png",
+              "animals/duck/north/frames/duck_b_fly_north_01.png",
+              "animals/duck/north/frames/duck_b_fly_north_02.png",
+              "animals/duck/north/frames/duck_b_fly_north_03.png",
+              "animals/duck/north/frames/duck_b_fly_north_04.png",
+              "animals/duck/north/frames/duck_b_fly_north_05.png"
+            ],
+            "frameRate": 11.764705882352942,
+            "frameMs": 85,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "duck_b_swim_north",
+            "label": "Плавание",
+            "frames": [
+              "duck_b_swim_north_00",
+              "duck_b_swim_north_01",
+              "duck_b_swim_north_02",
+              "duck_b_swim_north_03",
+              "duck_b_swim_north_04",
+              "duck_b_swim_north_05"
+            ],
+            "files": [
+              "animals/duck/north/frames/duck_b_swim_north_00.png",
+              "animals/duck/north/frames/duck_b_swim_north_01.png",
+              "animals/duck/north/frames/duck_b_swim_north_02.png",
+              "animals/duck/north/frames/duck_b_swim_north_03.png",
+              "animals/duck/north/frames/duck_b_swim_north_04.png",
+              "animals/duck/north/frames/duck_b_swim_north_05.png"
+            ],
+            "frameRate": 7.6923076923076925,
+            "frameMs": 130,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

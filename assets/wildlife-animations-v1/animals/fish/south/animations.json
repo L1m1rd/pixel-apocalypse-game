@@ -1,0 +1,62 @@
+{
+  "species": "fish",
+  "variant": "B",
+  "direction": "south",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "actions": {
+    "idle": {
+      "id": "fish_b_idle_south",
+      "label": "Ожидание",
+      "frames": [
+        "fish_b_idle_south_00",
+        "fish_b_idle_south_01",
+        "fish_b_idle_south_02",
+        "fish_b_idle_south_03",
+        "fish_b_idle_south_04",
+        "fish_b_idle_south_05"
+      ],
+      "files": [
+        "animals/fish/south/frames/fish_b_idle_south_00.png",
+        "animals/fish/south/frames/fish_b_idle_south_01.png",
+        "animals/fish/south/frames/fish_b_idle_south_02.png",
+        "animals/fish/south/frames/fish_b_idle_south_03.png",
+        "animals/fish/south/frames/fish_b_idle_south_04.png",
+        "animals/fish/south/frames/fish_b_idle_south_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "swim": {
+      "id": "fish_b_swim_south",
+      "label": "Плавание",
+      "frames": [
+        "fish_b_swim_south_00",
+        "fish_b_swim_south_01",
+        "fish_b_swim_south_02",
+        "fish_b_swim_south_03",
+        "fish_b_swim_south_04",
+        "fish_b_swim_south_05"
+      ],
+      "files": [
+        "animals/fish/south/frames/fish_b_swim_south_00.png",
+        "animals/fish/south/frames/fish_b_swim_south_01.png",
+        "animals/fish/south/frames/fish_b_swim_south_02.png",
+        "animals/fish/south/frames/fish_b_swim_south_03.png",
+        "animals/fish/south/frames/fish_b_swim_south_04.png",
+        "animals/fish/south/frames/fish_b_swim_south_05.png"
+      ],
+      "frameRate": 10,
+      "frameMs": 100,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

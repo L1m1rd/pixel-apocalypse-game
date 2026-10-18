@@ -1,0 +1,402 @@
+{
+  "fingerprint": "da2d2db2dffa5f416a8cbcf269367e58fc64ebe629c5ca5ba65aaae611a77a25",
+  "animal": {
+    "id": "cow",
+    "name": "Корова",
+    "variant": "B",
+    "characterId": "cow_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/cow-b.png",
+    "baseFiles": {
+      "south": "sprites/cow/cow_b_south.png",
+      "west": "sprites/cow/cow_b_west.png",
+      "east": "sprites/cow/cow_b_east.png",
+      "north": "sprites/cow/cow_b_north.png"
+    },
+    "baseHashes": {
+      "south": "7d770b885782f9a2279afe46d070184a777d7854d611815e42d7adf256e83896",
+      "west": "60ab708e587e4638b20e39f4292917a6d4ce4163590e8c3c41f6c8ce3e8dcf53",
+      "east": "9d37ca864069be5a860cd6af033769d5f091e27e3429f8e9720dbe390176dfa0",
+      "north": "dfb8c506a10c34c2d855a857f084ddade305972edf6a2a8d41186164cc468fdb"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6635071090047393,
+    "suggestedWorldHeight": 49,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "slow chewing, breathing and small tail swish",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/cow-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic cow, muted brown and cream pied coat with restrained patches, short horns and natural proportions. Action: slow chewing, breathing and small tail swish. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Корова movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cow-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "heavy steady four-beat hoof steps, shoulder/hip roll",
+        "loop": true,
+        "frameMs": 170,
+        "frames": 6,
+        "source": "sources/cow-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic cow, muted brown and cream pied coat with restrained patches, short horns and natural proportions. Action: heavy steady four-beat hoof steps, shoulder/hip roll. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Корова movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cow-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "heavy lumbering bovine trot, short brisk hoof lift and broad body bounce, avoid horse gallop",
+        "loop": true,
+        "frameMs": 110,
+        "frames": 6,
+        "source": "sources/cow-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult domestic cow, muted brown and cream pied coat with restrained patches, short horns and natural proportions. Action: heavy lumbering bovine trot, short brisk hoof lift and broad body bounce, avoid horse gallop. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Корова movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cow-run.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/cow/south/spritesheet.png",
+        "atlas": "animals/cow/south/atlas.json",
+        "config": "animals/cow/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cow_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "cow_b_idle_south_00",
+              "cow_b_idle_south_01",
+              "cow_b_idle_south_02",
+              "cow_b_idle_south_03",
+              "cow_b_idle_south_04",
+              "cow_b_idle_south_05"
+            ],
+            "files": [
+              "animals/cow/south/frames/cow_b_idle_south_00.png",
+              "animals/cow/south/frames/cow_b_idle_south_01.png",
+              "animals/cow/south/frames/cow_b_idle_south_02.png",
+              "animals/cow/south/frames/cow_b_idle_south_03.png",
+              "animals/cow/south/frames/cow_b_idle_south_04.png",
+              "animals/cow/south/frames/cow_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cow_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "cow_b_walk_south_00",
+              "cow_b_walk_south_01",
+              "cow_b_walk_south_02",
+              "cow_b_walk_south_03",
+              "cow_b_walk_south_04",
+              "cow_b_walk_south_05"
+            ],
+            "files": [
+              "animals/cow/south/frames/cow_b_walk_south_00.png",
+              "animals/cow/south/frames/cow_b_walk_south_01.png",
+              "animals/cow/south/frames/cow_b_walk_south_02.png",
+              "animals/cow/south/frames/cow_b_walk_south_03.png",
+              "animals/cow/south/frames/cow_b_walk_south_04.png",
+              "animals/cow/south/frames/cow_b_walk_south_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cow_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "cow_b_run_south_00",
+              "cow_b_run_south_01",
+              "cow_b_run_south_02",
+              "cow_b_run_south_03",
+              "cow_b_run_south_04",
+              "cow_b_run_south_05"
+            ],
+            "files": [
+              "animals/cow/south/frames/cow_b_run_south_00.png",
+              "animals/cow/south/frames/cow_b_run_south_01.png",
+              "animals/cow/south/frames/cow_b_run_south_02.png",
+              "animals/cow/south/frames/cow_b_run_south_03.png",
+              "animals/cow/south/frames/cow_b_run_south_04.png",
+              "animals/cow/south/frames/cow_b_run_south_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/cow/west/spritesheet.png",
+        "atlas": "animals/cow/west/atlas.json",
+        "config": "animals/cow/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cow_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "cow_b_idle_west_00",
+              "cow_b_idle_west_01",
+              "cow_b_idle_west_02",
+              "cow_b_idle_west_03",
+              "cow_b_idle_west_04",
+              "cow_b_idle_west_05"
+            ],
+            "files": [
+              "animals/cow/west/frames/cow_b_idle_west_00.png",
+              "animals/cow/west/frames/cow_b_idle_west_01.png",
+              "animals/cow/west/frames/cow_b_idle_west_02.png",
+              "animals/cow/west/frames/cow_b_idle_west_03.png",
+              "animals/cow/west/frames/cow_b_idle_west_04.png",
+              "animals/cow/west/frames/cow_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cow_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "cow_b_walk_west_00",
+              "cow_b_walk_west_01",
+              "cow_b_walk_west_02",
+              "cow_b_walk_west_03",
+              "cow_b_walk_west_04",
+              "cow_b_walk_west_05"
+            ],
+            "files": [
+              "animals/cow/west/frames/cow_b_walk_west_00.png",
+              "animals/cow/west/frames/cow_b_walk_west_01.png",
+              "animals/cow/west/frames/cow_b_walk_west_02.png",
+              "animals/cow/west/frames/cow_b_walk_west_03.png",
+              "animals/cow/west/frames/cow_b_walk_west_04.png",
+              "animals/cow/west/frames/cow_b_walk_west_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cow_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "cow_b_run_west_00",
+              "cow_b_run_west_01",
+              "cow_b_run_west_02",
+              "cow_b_run_west_03",
+              "cow_b_run_west_04",
+              "cow_b_run_west_05"
+            ],
+            "files": [
+              "animals/cow/west/frames/cow_b_run_west_00.png",
+              "animals/cow/west/frames/cow_b_run_west_01.png",
+              "animals/cow/west/frames/cow_b_run_west_02.png",
+              "animals/cow/west/frames/cow_b_run_west_03.png",
+              "animals/cow/west/frames/cow_b_run_west_04.png",
+              "animals/cow/west/frames/cow_b_run_west_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/cow/east/spritesheet.png",
+        "atlas": "animals/cow/east/atlas.json",
+        "config": "animals/cow/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cow_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "cow_b_idle_east_00",
+              "cow_b_idle_east_01",
+              "cow_b_idle_east_02",
+              "cow_b_idle_east_03",
+              "cow_b_idle_east_04",
+              "cow_b_idle_east_05"
+            ],
+            "files": [
+              "animals/cow/east/frames/cow_b_idle_east_00.png",
+              "animals/cow/east/frames/cow_b_idle_east_01.png",
+              "animals/cow/east/frames/cow_b_idle_east_02.png",
+              "animals/cow/east/frames/cow_b_idle_east_03.png",
+              "animals/cow/east/frames/cow_b_idle_east_04.png",
+              "animals/cow/east/frames/cow_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cow_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "cow_b_walk_east_00",
+              "cow_b_walk_east_01",
+              "cow_b_walk_east_02",
+              "cow_b_walk_east_03",
+              "cow_b_walk_east_04",
+              "cow_b_walk_east_05"
+            ],
+            "files": [
+              "animals/cow/east/frames/cow_b_walk_east_00.png",
+              "animals/cow/east/frames/cow_b_walk_east_01.png",
+              "animals/cow/east/frames/cow_b_walk_east_02.png",
+              "animals/cow/east/frames/cow_b_walk_east_03.png",
+              "animals/cow/east/frames/cow_b_walk_east_04.png",
+              "animals/cow/east/frames/cow_b_walk_east_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cow_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "cow_b_run_east_00",
+              "cow_b_run_east_01",
+              "cow_b_run_east_02",
+              "cow_b_run_east_03",
+              "cow_b_run_east_04",
+              "cow_b_run_east_05"
+            ],
+            "files": [
+              "animals/cow/east/frames/cow_b_run_east_00.png",
+              "animals/cow/east/frames/cow_b_run_east_01.png",
+              "animals/cow/east/frames/cow_b_run_east_02.png",
+              "animals/cow/east/frames/cow_b_run_east_03.png",
+              "animals/cow/east/frames/cow_b_run_east_04.png",
+              "animals/cow/east/frames/cow_b_run_east_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/cow/north/spritesheet.png",
+        "atlas": "animals/cow/north/atlas.json",
+        "config": "animals/cow/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cow_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "cow_b_idle_north_00",
+              "cow_b_idle_north_01",
+              "cow_b_idle_north_02",
+              "cow_b_idle_north_03",
+              "cow_b_idle_north_04",
+              "cow_b_idle_north_05"
+            ],
+            "files": [
+              "animals/cow/north/frames/cow_b_idle_north_00.png",
+              "animals/cow/north/frames/cow_b_idle_north_01.png",
+              "animals/cow/north/frames/cow_b_idle_north_02.png",
+              "animals/cow/north/frames/cow_b_idle_north_03.png",
+              "animals/cow/north/frames/cow_b_idle_north_04.png",
+              "animals/cow/north/frames/cow_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cow_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "cow_b_walk_north_00",
+              "cow_b_walk_north_01",
+              "cow_b_walk_north_02",
+              "cow_b_walk_north_03",
+              "cow_b_walk_north_04",
+              "cow_b_walk_north_05"
+            ],
+            "files": [
+              "animals/cow/north/frames/cow_b_walk_north_00.png",
+              "animals/cow/north/frames/cow_b_walk_north_01.png",
+              "animals/cow/north/frames/cow_b_walk_north_02.png",
+              "animals/cow/north/frames/cow_b_walk_north_03.png",
+              "animals/cow/north/frames/cow_b_walk_north_04.png",
+              "animals/cow/north/frames/cow_b_walk_north_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cow_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "cow_b_run_north_00",
+              "cow_b_run_north_01",
+              "cow_b_run_north_02",
+              "cow_b_run_north_03",
+              "cow_b_run_north_04",
+              "cow_b_run_north_05"
+            ],
+            "files": [
+              "animals/cow/north/frames/cow_b_run_north_00.png",
+              "animals/cow/north/frames/cow_b_run_north_01.png",
+              "animals/cow/north/frames/cow_b_run_north_02.png",
+              "animals/cow/north/frames/cow_b_run_north_03.png",
+              "animals/cow/north/frames/cow_b_run_north_04.png",
+              "animals/cow/north/frames/cow_b_run_north_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

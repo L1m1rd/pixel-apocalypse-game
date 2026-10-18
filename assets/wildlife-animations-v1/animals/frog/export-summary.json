@@ -1,0 +1,402 @@
+{
+  "fingerprint": "768954d5484b5386c3e9f1fd0c8f5545f557dde11813ba9fc5a470712737e09c",
+  "animal": {
+    "id": "frog",
+    "name": "Лягушка",
+    "variant": "B",
+    "characterId": "frog_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/frog-b.png",
+    "baseFiles": {
+      "south": "sprites/frog/frog_b_south.png",
+      "west": "sprites/frog/frog_b_west.png",
+      "east": "sprites/frog/frog_b_east.png",
+      "north": "sprites/frog/frog_b_north.png"
+    },
+    "baseHashes": {
+      "south": "7001c885f83e72ea525e2e6f8b68f1c95e2262e3ec92235dace29382fa09ef8e",
+      "west": "b60abcb7af6cd7bef69954abd1f25ce3b7e70cfec6d8060a2014a0a82deed101",
+      "east": "4bfe21eb9d36d9618670d70f46243b915bd956300f3c6f1119ad07ef17987b53",
+      "north": "15a5b2a747d25ab16b10ef7c1f3508e8bddfc4c890a7b17c65e822a235e2a595"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6172839506172839,
+    "suggestedWorldHeight": 7,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "subtle throat-sac breathing and tiny head/eye settling",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/frog-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a small olive brown common frog in a natural crouch, darker mottled skin and folded hind legs. Action: subtle throat-sac breathing and tiny head/eye settling. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лягушка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/frog-idle.gif"
+      },
+      {
+        "id": "jump",
+        "label": "Прыжок",
+        "motion": "complete frog jump in six phases: relaxed crouch, deep compression, hind-leg takeoff, stretched airborne leap, tucked descent, soft four-foot landing; keep vertical lift and leg extension visible",
+        "loop": false,
+        "frameMs": 100,
+        "frames": 6,
+        "source": "sources/frog-jump.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a small olive brown common frog in a natural crouch, darker mottled skin and folded hind legs. Action: complete frog jump in six phases: relaxed crouch, deep compression, hind-leg takeoff, stretched airborne leap, tucked descent, soft four-foot landing; keep vertical lift and leg extension visible. Six phases of a complete ONE-SHOT action from preparation through recovery/landing. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лягушка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/frog-jump.gif"
+      },
+      {
+        "id": "swim",
+        "label": "Плавание",
+        "motion": "webbed hind legs gather, spread outward, kick backward, extend, return and glide; frog breaststroke paddling with full limb movement",
+        "loop": true,
+        "frameMs": 120,
+        "frames": 6,
+        "source": "sources/frog-swim.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a small olive brown common frog in a natural crouch, darker mottled skin and folded hind legs. Action: webbed hind legs gather, spread outward, kick backward, extend, return and glide; frog breaststroke paddling with full limb movement. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Лягушка movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/frog-swim.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/frog/south/spritesheet.png",
+        "atlas": "animals/frog/south/atlas.json",
+        "config": "animals/frog/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "frog_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "frog_b_idle_south_00",
+              "frog_b_idle_south_01",
+              "frog_b_idle_south_02",
+              "frog_b_idle_south_03",
+              "frog_b_idle_south_04",
+              "frog_b_idle_south_05"
+            ],
+            "files": [
+              "animals/frog/south/frames/frog_b_idle_south_00.png",
+              "animals/frog/south/frames/frog_b_idle_south_01.png",
+              "animals/frog/south/frames/frog_b_idle_south_02.png",
+              "animals/frog/south/frames/frog_b_idle_south_03.png",
+              "animals/frog/south/frames/frog_b_idle_south_04.png",
+              "animals/frog/south/frames/frog_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "jump": {
+            "id": "frog_b_jump_south",
+            "label": "Прыжок",
+            "frames": [
+              "frog_b_jump_south_00",
+              "frog_b_jump_south_01",
+              "frog_b_jump_south_02",
+              "frog_b_jump_south_03",
+              "frog_b_jump_south_04",
+              "frog_b_jump_south_05"
+            ],
+            "files": [
+              "animals/frog/south/frames/frog_b_jump_south_00.png",
+              "animals/frog/south/frames/frog_b_jump_south_01.png",
+              "animals/frog/south/frames/frog_b_jump_south_02.png",
+              "animals/frog/south/frames/frog_b_jump_south_03.png",
+              "animals/frog/south/frames/frog_b_jump_south_04.png",
+              "animals/frog/south/frames/frog_b_jump_south_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "frog_b_swim_south",
+            "label": "Плавание",
+            "frames": [
+              "frog_b_swim_south_00",
+              "frog_b_swim_south_01",
+              "frog_b_swim_south_02",
+              "frog_b_swim_south_03",
+              "frog_b_swim_south_04",
+              "frog_b_swim_south_05"
+            ],
+            "files": [
+              "animals/frog/south/frames/frog_b_swim_south_00.png",
+              "animals/frog/south/frames/frog_b_swim_south_01.png",
+              "animals/frog/south/frames/frog_b_swim_south_02.png",
+              "animals/frog/south/frames/frog_b_swim_south_03.png",
+              "animals/frog/south/frames/frog_b_swim_south_04.png",
+              "animals/frog/south/frames/frog_b_swim_south_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/frog/west/spritesheet.png",
+        "atlas": "animals/frog/west/atlas.json",
+        "config": "animals/frog/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "frog_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "frog_b_idle_west_00",
+              "frog_b_idle_west_01",
+              "frog_b_idle_west_02",
+              "frog_b_idle_west_03",
+              "frog_b_idle_west_04",
+              "frog_b_idle_west_05"
+            ],
+            "files": [
+              "animals/frog/west/frames/frog_b_idle_west_00.png",
+              "animals/frog/west/frames/frog_b_idle_west_01.png",
+              "animals/frog/west/frames/frog_b_idle_west_02.png",
+              "animals/frog/west/frames/frog_b_idle_west_03.png",
+              "animals/frog/west/frames/frog_b_idle_west_04.png",
+              "animals/frog/west/frames/frog_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "jump": {
+            "id": "frog_b_jump_west",
+            "label": "Прыжок",
+            "frames": [
+              "frog_b_jump_west_00",
+              "frog_b_jump_west_01",
+              "frog_b_jump_west_02",
+              "frog_b_jump_west_03",
+              "frog_b_jump_west_04",
+              "frog_b_jump_west_05"
+            ],
+            "files": [
+              "animals/frog/west/frames/frog_b_jump_west_00.png",
+              "animals/frog/west/frames/frog_b_jump_west_01.png",
+              "animals/frog/west/frames/frog_b_jump_west_02.png",
+              "animals/frog/west/frames/frog_b_jump_west_03.png",
+              "animals/frog/west/frames/frog_b_jump_west_04.png",
+              "animals/frog/west/frames/frog_b_jump_west_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "frog_b_swim_west",
+            "label": "Плавание",
+            "frames": [
+              "frog_b_swim_west_00",
+              "frog_b_swim_west_01",
+              "frog_b_swim_west_02",
+              "frog_b_swim_west_03",
+              "frog_b_swim_west_04",
+              "frog_b_swim_west_05"
+            ],
+            "files": [
+              "animals/frog/west/frames/frog_b_swim_west_00.png",
+              "animals/frog/west/frames/frog_b_swim_west_01.png",
+              "animals/frog/west/frames/frog_b_swim_west_02.png",
+              "animals/frog/west/frames/frog_b_swim_west_03.png",
+              "animals/frog/west/frames/frog_b_swim_west_04.png",
+              "animals/frog/west/frames/frog_b_swim_west_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/frog/east/spritesheet.png",
+        "atlas": "animals/frog/east/atlas.json",
+        "config": "animals/frog/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "frog_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "frog_b_idle_east_00",
+              "frog_b_idle_east_01",
+              "frog_b_idle_east_02",
+              "frog_b_idle_east_03",
+              "frog_b_idle_east_04",
+              "frog_b_idle_east_05"
+            ],
+            "files": [
+              "animals/frog/east/frames/frog_b_idle_east_00.png",
+              "animals/frog/east/frames/frog_b_idle_east_01.png",
+              "animals/frog/east/frames/frog_b_idle_east_02.png",
+              "animals/frog/east/frames/frog_b_idle_east_03.png",
+              "animals/frog/east/frames/frog_b_idle_east_04.png",
+              "animals/frog/east/frames/frog_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "jump": {
+            "id": "frog_b_jump_east",
+            "label": "Прыжок",
+            "frames": [
+              "frog_b_jump_east_00",
+              "frog_b_jump_east_01",
+              "frog_b_jump_east_02",
+              "frog_b_jump_east_03",
+              "frog_b_jump_east_04",
+              "frog_b_jump_east_05"
+            ],
+            "files": [
+              "animals/frog/east/frames/frog_b_jump_east_00.png",
+              "animals/frog/east/frames/frog_b_jump_east_01.png",
+              "animals/frog/east/frames/frog_b_jump_east_02.png",
+              "animals/frog/east/frames/frog_b_jump_east_03.png",
+              "animals/frog/east/frames/frog_b_jump_east_04.png",
+              "animals/frog/east/frames/frog_b_jump_east_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "frog_b_swim_east",
+            "label": "Плавание",
+            "frames": [
+              "frog_b_swim_east_00",
+              "frog_b_swim_east_01",
+              "frog_b_swim_east_02",
+              "frog_b_swim_east_03",
+              "frog_b_swim_east_04",
+              "frog_b_swim_east_05"
+            ],
+            "files": [
+              "animals/frog/east/frames/frog_b_swim_east_00.png",
+              "animals/frog/east/frames/frog_b_swim_east_01.png",
+              "animals/frog/east/frames/frog_b_swim_east_02.png",
+              "animals/frog/east/frames/frog_b_swim_east_03.png",
+              "animals/frog/east/frames/frog_b_swim_east_04.png",
+              "animals/frog/east/frames/frog_b_swim_east_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/frog/north/spritesheet.png",
+        "atlas": "animals/frog/north/atlas.json",
+        "config": "animals/frog/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "frog_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "frog_b_idle_north_00",
+              "frog_b_idle_north_01",
+              "frog_b_idle_north_02",
+              "frog_b_idle_north_03",
+              "frog_b_idle_north_04",
+              "frog_b_idle_north_05"
+            ],
+            "files": [
+              "animals/frog/north/frames/frog_b_idle_north_00.png",
+              "animals/frog/north/frames/frog_b_idle_north_01.png",
+              "animals/frog/north/frames/frog_b_idle_north_02.png",
+              "animals/frog/north/frames/frog_b_idle_north_03.png",
+              "animals/frog/north/frames/frog_b_idle_north_04.png",
+              "animals/frog/north/frames/frog_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "jump": {
+            "id": "frog_b_jump_north",
+            "label": "Прыжок",
+            "frames": [
+              "frog_b_jump_north_00",
+              "frog_b_jump_north_01",
+              "frog_b_jump_north_02",
+              "frog_b_jump_north_03",
+              "frog_b_jump_north_04",
+              "frog_b_jump_north_05"
+            ],
+            "files": [
+              "animals/frog/north/frames/frog_b_jump_north_00.png",
+              "animals/frog/north/frames/frog_b_jump_north_01.png",
+              "animals/frog/north/frames/frog_b_jump_north_02.png",
+              "animals/frog/north/frames/frog_b_jump_north_03.png",
+              "animals/frog/north/frames/frog_b_jump_north_04.png",
+              "animals/frog/north/frames/frog_b_jump_north_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "frog_b_swim_north",
+            "label": "Плавание",
+            "frames": [
+              "frog_b_swim_north_00",
+              "frog_b_swim_north_01",
+              "frog_b_swim_north_02",
+              "frog_b_swim_north_03",
+              "frog_b_swim_north_04",
+              "frog_b_swim_north_05"
+            ],
+            "files": [
+              "animals/frog/north/frames/frog_b_swim_north_00.png",
+              "animals/frog/north/frames/frog_b_swim_north_01.png",
+              "animals/frog/north/frames/frog_b_swim_north_02.png",
+              "animals/frog/north/frames/frog_b_swim_north_03.png",
+              "animals/frog/north/frames/frog_b_swim_north_04.png",
+              "animals/frog/north/frames/frog_b_swim_north_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

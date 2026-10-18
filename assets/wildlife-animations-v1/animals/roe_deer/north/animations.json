@@ -1,0 +1,118 @@
+{
+  "species": "roe_deer",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "roe_deer_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "roe_deer_b_idle_north_00",
+        "roe_deer_b_idle_north_01",
+        "roe_deer_b_idle_north_02",
+        "roe_deer_b_idle_north_03",
+        "roe_deer_b_idle_north_04",
+        "roe_deer_b_idle_north_05"
+      ],
+      "files": [
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_00.png",
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_01.png",
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_02.png",
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_03.png",
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_04.png",
+        "animals/roe_deer/north/frames/roe_deer_b_idle_north_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "roe_deer_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "roe_deer_b_walk_north_00",
+        "roe_deer_b_walk_north_01",
+        "roe_deer_b_walk_north_02",
+        "roe_deer_b_walk_north_03",
+        "roe_deer_b_walk_north_04",
+        "roe_deer_b_walk_north_05"
+      ],
+      "files": [
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_00.png",
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_01.png",
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_02.png",
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_03.png",
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_04.png",
+        "animals/roe_deer/north/frames/roe_deer_b_walk_north_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "roe_deer_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "roe_deer_b_run_north_00",
+        "roe_deer_b_run_north_01",
+        "roe_deer_b_run_north_02",
+        "roe_deer_b_run_north_03",
+        "roe_deer_b_run_north_04",
+        "roe_deer_b_run_north_05"
+      ],
+      "files": [
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_00.png",
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_01.png",
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_02.png",
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_03.png",
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_04.png",
+        "animals/roe_deer/north/frames/roe_deer_b_run_north_05.png"
+      ],
+      "frameRate": 12.5,
+      "frameMs": 80,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "roe_deer_b_attack_north",
+      "label": "Атака",
+      "frames": [
+        "roe_deer_b_attack_north_00",
+        "roe_deer_b_attack_north_01",
+        "roe_deer_b_attack_north_02",
+        "roe_deer_b_attack_north_03",
+        "roe_deer_b_attack_north_04",
+        "roe_deer_b_attack_north_05"
+      ],
+      "files": [
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_00.png",
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_01.png",
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_02.png",
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_03.png",
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_04.png",
+        "animals/roe_deer/north/frames/roe_deer_b_attack_north_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

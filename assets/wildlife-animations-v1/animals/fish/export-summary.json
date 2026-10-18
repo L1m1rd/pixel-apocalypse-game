@@ -1,0 +1,289 @@
+{
+  "fingerprint": "44916dd708ebecbe8721d5cecf18ff00a01c5a20fabf14f5ac94a6058a852cb2",
+  "animal": {
+    "id": "fish",
+    "name": "Рыба",
+    "variant": "B",
+    "characterId": "fish_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/fish-b.png",
+    "baseFiles": {
+      "south": "sprites/fish/fish_b_south.png",
+      "west": "sprites/fish/fish_b_west.png",
+      "east": "sprites/fish/fish_b_east.png",
+      "north": "sprites/fish/fish_b_north.png"
+    },
+    "baseHashes": {
+      "south": "de0f61442f3cf6ef110ffc84045b8435d4dc49ca89481297121e16ab4775dc7d",
+      "west": "c7cc687de2032a6abca79bf4a80a69f921ea6acf5f94025263beb712dfa2861f",
+      "east": "e20993fa561abd0f28030ba99f08d054cd0c82e6976ea01b685b63218b21c2b5",
+      "north": "e64e88f681eeb083d5df2c4edcbf848a3132359457eb717c2320234fbb1589eb"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "sharedScale": 0.6730769230769231,
+    "suggestedWorldHeight": 11,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "hovering fish with very small fin flutter and gentle tail movements, same body orientation",
+        "loop": true,
+        "frameMs": 170,
+        "frames": 6,
+        "source": "sources/fish-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: one freshwater river perch, olive gray body with subtle dark vertical bars and muted orange fins, viewed from above for an underwater sprite. Action: hovering fish with very small fin flutter and gentle tail movements, same body orientation. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Keep the fish horizontal/top-down perspective appropriate to each reference heading; show tail/spine bending. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Рыба movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/fish-idle.gif"
+      },
+      {
+        "id": "swim",
+        "label": "Плавание",
+        "motion": "clear side-to-side undulating fish spine and tail propulsion, alternating fin motion, smooth six-frame swimming cycle",
+        "loop": true,
+        "frameMs": 100,
+        "frames": 6,
+        "source": "sources/fish-swim.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: one freshwater river perch, olive gray body with subtle dark vertical bars and muted orange fins, viewed from above for an underwater sprite. Action: clear side-to-side undulating fish spine and tail propulsion, alternating fin motion, smooth six-frame swimming cycle. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Keep the fish horizontal/top-down perspective appropriate to each reference heading; show tail/spine bending. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Рыба movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/fish-swim.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/fish/south/spritesheet.png",
+        "atlas": "animals/fish/south/atlas.json",
+        "config": "animals/fish/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fish_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "fish_b_idle_south_00",
+              "fish_b_idle_south_01",
+              "fish_b_idle_south_02",
+              "fish_b_idle_south_03",
+              "fish_b_idle_south_04",
+              "fish_b_idle_south_05"
+            ],
+            "files": [
+              "animals/fish/south/frames/fish_b_idle_south_00.png",
+              "animals/fish/south/frames/fish_b_idle_south_01.png",
+              "animals/fish/south/frames/fish_b_idle_south_02.png",
+              "animals/fish/south/frames/fish_b_idle_south_03.png",
+              "animals/fish/south/frames/fish_b_idle_south_04.png",
+              "animals/fish/south/frames/fish_b_idle_south_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "fish_b_swim_south",
+            "label": "Плавание",
+            "frames": [
+              "fish_b_swim_south_00",
+              "fish_b_swim_south_01",
+              "fish_b_swim_south_02",
+              "fish_b_swim_south_03",
+              "fish_b_swim_south_04",
+              "fish_b_swim_south_05"
+            ],
+            "files": [
+              "animals/fish/south/frames/fish_b_swim_south_00.png",
+              "animals/fish/south/frames/fish_b_swim_south_01.png",
+              "animals/fish/south/frames/fish_b_swim_south_02.png",
+              "animals/fish/south/frames/fish_b_swim_south_03.png",
+              "animals/fish/south/frames/fish_b_swim_south_04.png",
+              "animals/fish/south/frames/fish_b_swim_south_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/fish/west/spritesheet.png",
+        "atlas": "animals/fish/west/atlas.json",
+        "config": "animals/fish/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fish_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "fish_b_idle_west_00",
+              "fish_b_idle_west_01",
+              "fish_b_idle_west_02",
+              "fish_b_idle_west_03",
+              "fish_b_idle_west_04",
+              "fish_b_idle_west_05"
+            ],
+            "files": [
+              "animals/fish/west/frames/fish_b_idle_west_00.png",
+              "animals/fish/west/frames/fish_b_idle_west_01.png",
+              "animals/fish/west/frames/fish_b_idle_west_02.png",
+              "animals/fish/west/frames/fish_b_idle_west_03.png",
+              "animals/fish/west/frames/fish_b_idle_west_04.png",
+              "animals/fish/west/frames/fish_b_idle_west_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "fish_b_swim_west",
+            "label": "Плавание",
+            "frames": [
+              "fish_b_swim_west_00",
+              "fish_b_swim_west_01",
+              "fish_b_swim_west_02",
+              "fish_b_swim_west_03",
+              "fish_b_swim_west_04",
+              "fish_b_swim_west_05"
+            ],
+            "files": [
+              "animals/fish/west/frames/fish_b_swim_west_00.png",
+              "animals/fish/west/frames/fish_b_swim_west_01.png",
+              "animals/fish/west/frames/fish_b_swim_west_02.png",
+              "animals/fish/west/frames/fish_b_swim_west_03.png",
+              "animals/fish/west/frames/fish_b_swim_west_04.png",
+              "animals/fish/west/frames/fish_b_swim_west_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/fish/east/spritesheet.png",
+        "atlas": "animals/fish/east/atlas.json",
+        "config": "animals/fish/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fish_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "fish_b_idle_east_00",
+              "fish_b_idle_east_01",
+              "fish_b_idle_east_02",
+              "fish_b_idle_east_03",
+              "fish_b_idle_east_04",
+              "fish_b_idle_east_05"
+            ],
+            "files": [
+              "animals/fish/east/frames/fish_b_idle_east_00.png",
+              "animals/fish/east/frames/fish_b_idle_east_01.png",
+              "animals/fish/east/frames/fish_b_idle_east_02.png",
+              "animals/fish/east/frames/fish_b_idle_east_03.png",
+              "animals/fish/east/frames/fish_b_idle_east_04.png",
+              "animals/fish/east/frames/fish_b_idle_east_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "fish_b_swim_east",
+            "label": "Плавание",
+            "frames": [
+              "fish_b_swim_east_00",
+              "fish_b_swim_east_01",
+              "fish_b_swim_east_02",
+              "fish_b_swim_east_03",
+              "fish_b_swim_east_04",
+              "fish_b_swim_east_05"
+            ],
+            "files": [
+              "animals/fish/east/frames/fish_b_swim_east_00.png",
+              "animals/fish/east/frames/fish_b_swim_east_01.png",
+              "animals/fish/east/frames/fish_b_swim_east_02.png",
+              "animals/fish/east/frames/fish_b_swim_east_03.png",
+              "animals/fish/east/frames/fish_b_swim_east_04.png",
+              "animals/fish/east/frames/fish_b_swim_east_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/fish/north/spritesheet.png",
+        "atlas": "animals/fish/north/atlas.json",
+        "config": "animals/fish/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "fish_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "fish_b_idle_north_00",
+              "fish_b_idle_north_01",
+              "fish_b_idle_north_02",
+              "fish_b_idle_north_03",
+              "fish_b_idle_north_04",
+              "fish_b_idle_north_05"
+            ],
+            "files": [
+              "animals/fish/north/frames/fish_b_idle_north_00.png",
+              "animals/fish/north/frames/fish_b_idle_north_01.png",
+              "animals/fish/north/frames/fish_b_idle_north_02.png",
+              "animals/fish/north/frames/fish_b_idle_north_03.png",
+              "animals/fish/north/frames/fish_b_idle_north_04.png",
+              "animals/fish/north/frames/fish_b_idle_north_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "swim": {
+            "id": "fish_b_swim_north",
+            "label": "Плавание",
+            "frames": [
+              "fish_b_swim_north_00",
+              "fish_b_swim_north_01",
+              "fish_b_swim_north_02",
+              "fish_b_swim_north_03",
+              "fish_b_swim_north_04",
+              "fish_b_swim_north_05"
+            ],
+            "files": [
+              "animals/fish/north/frames/fish_b_swim_north_00.png",
+              "animals/fish/north/frames/fish_b_swim_north_01.png",
+              "animals/fish/north/frames/fish_b_swim_north_02.png",
+              "animals/fish/north/frames/fish_b_swim_north_03.png",
+              "animals/fish/north/frames/fish_b_swim_north_04.png",
+              "animals/fish/north/frames/fish_b_swim_north_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

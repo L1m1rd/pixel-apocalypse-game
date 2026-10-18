@@ -1,0 +1,438 @@
+{
+  "sharedSpeciesScale": 0.625,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "goat_b_idle_south_00",
+      "file": "animals/goat/south/frames/goat_b_idle_south_00.png",
+      "sha256": "71320fff23177ca4ce1abf3be0d599a3c0b094019b540eb7db575089885638ef",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 94,
+        "y": 33,
+        "w": 125,
+        "h": 227
+      },
+      "sourceAnchor": {
+        "x": 119.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 112,
+        "top": 59,
+        "width": 78,
+        "height": 142
+      }
+    },
+    {
+      "name": "goat_b_idle_south_01",
+      "file": "animals/goat/south/frames/goat_b_idle_south_01.png",
+      "sha256": "610ba216bcf1872e362bad2f02f5222018fc659474c95eb7cb3c03ab1a36fefa",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 326,
+        "y": 36,
+        "w": 131,
+        "h": 224
+      },
+      "sourceAnchor": {
+        "x": 375.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 97,
+        "top": 61,
+        "width": 82,
+        "height": 140
+      }
+    },
+    {
+      "name": "goat_b_idle_south_02",
+      "file": "animals/goat/south/frames/goat_b_idle_south_02.png",
+      "sha256": "7d21a4c64f32edc0fd2a38874506abd7cbf857c7bd96b2d34beb6e7bbfd1fc53",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 569,
+        "y": 35,
+        "w": 126,
+        "h": 225
+      },
+      "sourceAnchor": {
+        "x": 631.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 89,
+        "top": 60,
+        "width": 79,
+        "height": 141
+      }
+    },
+    {
+      "name": "goat_b_idle_south_03",
+      "file": "animals/goat/south/frames/goat_b_idle_south_03.png",
+      "sha256": "32c55c8756702fa5f8481849ef7a13896d3f2b447a8ec287a093d7782c10365e",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 808,
+        "y": 34,
+        "w": 130,
+        "h": 226
+      },
+      "sourceAnchor": {
+        "x": 887.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 78,
+        "top": 59,
+        "width": 81,
+        "height": 141
+      }
+    },
+    {
+      "name": "goat_b_idle_south_04",
+      "file": "animals/goat/south/frames/goat_b_idle_south_04.png",
+      "sha256": "471415033691625ed8fed007a08ceaf5fa2b30ecc5d6e4db08fffc25c8879189",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1064,
+        "y": 35,
+        "w": 127,
+        "h": 225
+      },
+      "sourceAnchor": {
+        "x": 1143.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 78,
+        "top": 60,
+        "width": 79,
+        "height": 141
+      }
+    },
+    {
+      "name": "goat_b_idle_south_05",
+      "file": "animals/goat/south/frames/goat_b_idle_south_05.png",
+      "sha256": "3a4cec233f5f8e4995bbbc150cd089a5b0f517aecc5f0e7c3b6d0bb10d4c799c",
+      "source": "sources/goat-idle.png",
+      "sourceHash": "1274fba6a9bb53a386144ffe32e1c3391b06690e88488bc1b0f2ae64c232304d",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1319,
+        "y": 35,
+        "w": 127,
+        "h": 225
+      },
+      "sourceAnchor": {
+        "x": 1399.5,
+        "y": 259
+      },
+      "destination": {
+        "left": 78,
+        "top": 60,
+        "width": 79,
+        "height": 141
+      }
+    },
+    {
+      "name": "goat_b_walk_south_00",
+      "file": "animals/goat/south/frames/goat_b_walk_south_00.png",
+      "sha256": "d6d0df5dbb7619c80fc29e881325d51a75d503f575c2076f20177fb06d7988c4",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 79,
+        "y": 45,
+        "w": 115,
+        "h": 214
+      },
+      "sourceAnchor": {
+        "x": 131,
+        "y": 258
+      },
+      "destination": {
+        "left": 96,
+        "top": 67,
+        "width": 72,
+        "height": 134
+      }
+    },
+    {
+      "name": "goat_b_walk_south_01",
+      "file": "animals/goat/south/frames/goat_b_walk_south_01.png",
+      "sha256": "1af0072e8a12893b73ab356773f7b9162a7672648845af6475331163248e050e",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 330,
+        "y": 44,
+        "w": 117,
+        "h": 217
+      },
+      "sourceAnchor": {
+        "x": 387,
+        "y": 258
+      },
+      "destination": {
+        "left": 92,
+        "top": 66,
+        "width": 73,
+        "height": 136
+      }
+    },
+    {
+      "name": "goat_b_walk_south_02",
+      "file": "animals/goat/south/frames/goat_b_walk_south_02.png",
+      "sha256": "6951cf8d25b7340d85fa6e55366ee9271c519b174e2d65fce8ad48431c8b8772",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 584,
+        "y": 41,
+        "w": 119,
+        "h": 215
+      },
+      "sourceAnchor": {
+        "x": 643,
+        "y": 258
+      },
+      "destination": {
+        "left": 91,
+        "top": 64,
+        "width": 74,
+        "height": 134
+      }
+    },
+    {
+      "name": "goat_b_walk_south_03",
+      "file": "animals/goat/south/frames/goat_b_walk_south_03.png",
+      "sha256": "3c8ac37c862c643169d96c3561a5ddd6ada921861f379441e040298a1f84f25b",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 834,
+        "y": 46,
+        "w": 115,
+        "h": 213
+      },
+      "sourceAnchor": {
+        "x": 899,
+        "y": 258
+      },
+      "destination": {
+        "left": 87,
+        "top": 68,
+        "width": 72,
+        "height": 133
+      }
+    },
+    {
+      "name": "goat_b_walk_south_04",
+      "file": "animals/goat/south/frames/goat_b_walk_south_04.png",
+      "sha256": "9f58a780d3c61e2b48bbeef909b24b2f554b09b519be4d25e6c4b75e056272a2",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1086,
+        "y": 43,
+        "w": 119,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 1155,
+        "y": 258
+      },
+      "destination": {
+        "left": 85,
+        "top": 66,
+        "width": 74,
+        "height": 137
+      }
+    },
+    {
+      "name": "goat_b_walk_south_05",
+      "file": "animals/goat/south/frames/goat_b_walk_south_05.png",
+      "sha256": "016d6851f78a6b119d52aee1f7d5d1623979ab08697d4d29a4deab0a5d15bb12",
+      "source": "sources/goat-walk.png",
+      "sourceHash": "403bd65da5ffea4a8350f290c02d06c6b2d570a0ee413a30280ba5dd5628b3d0",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1342,
+        "y": 45,
+        "w": 115,
+        "h": 214
+      },
+      "sourceAnchor": {
+        "x": 1411,
+        "y": 258
+      },
+      "destination": {
+        "left": 85,
+        "top": 67,
+        "width": 72,
+        "height": 134
+      }
+    },
+    {
+      "name": "goat_b_run_south_00",
+      "file": "animals/goat/south/frames/goat_b_run_south_00.png",
+      "sha256": "07017fae5cbffeaf1ca7727e838e6b7ad8a43b96c880c5a52f3d36387907b90c",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 96,
+        "y": 44,
+        "w": 128,
+        "h": 226
+      },
+      "sourceAnchor": {
+        "x": 148.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 95,
+        "top": 59,
+        "width": 80,
+        "height": 141
+      }
+    },
+    {
+      "name": "goat_b_run_south_01",
+      "file": "animals/goat/south/frames/goat_b_run_south_01.png",
+      "sha256": "290090fde077225be73a97221e7a0d4ddd6f4bc7d58c0cce894e105d94ade2e5",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 360,
+        "y": 39,
+        "w": 123,
+        "h": 231
+      },
+      "sourceAnchor": {
+        "x": 404.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 100,
+        "top": 56,
+        "width": 77,
+        "height": 144
+      }
+    },
+    {
+      "name": "goat_b_run_south_02",
+      "file": "animals/goat/south/frames/goat_b_run_south_02.png",
+      "sha256": "281b31c9808a6ab84517a3fe381f0bc0df6aa9f8bb1a7314762d44bc84193921",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 601,
+        "y": 30,
+        "w": 120,
+        "h": 217
+      },
+      "sourceAnchor": {
+        "x": 660.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 91,
+        "top": 51,
+        "width": 75,
+        "height": 136
+      }
+    },
+    {
+      "name": "goat_b_run_south_03",
+      "file": "animals/goat/south/frames/goat_b_run_south_03.png",
+      "sha256": "d50948cf9b356309d60e019cdf030d88322d9fca27c60ab45db4792a3dbf9010",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 837,
+        "y": 44,
+        "w": 130,
+        "h": 224
+      },
+      "sourceAnchor": {
+        "x": 916.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 78,
+        "top": 59,
+        "width": 81,
+        "height": 140
+      }
+    },
+    {
+      "name": "goat_b_run_south_04",
+      "file": "animals/goat/south/frames/goat_b_run_south_04.png",
+      "sha256": "729efa11e4cfd2c2299fb5272f491fa9a0aa41e0f4b18f27093793224baef5a0",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1085,
+        "y": 39,
+        "w": 125,
+        "h": 231
+      },
+      "sourceAnchor": {
+        "x": 1172.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 73,
+        "top": 56,
+        "width": 78,
+        "height": 144
+      }
+    },
+    {
+      "name": "goat_b_run_south_05",
+      "file": "animals/goat/south/frames/goat_b_run_south_05.png",
+      "sha256": "4eef1865d9201cd3407bc3d42105719ad7cb100a0ef1afae1a1e36c06c45739e",
+      "source": "sources/goat-run.png",
+      "sourceHash": "b127c777dc4788dc6627026b26455b53f063488c6075a25102bf0a8269944f49",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1330,
+        "y": 42,
+        "w": 127,
+        "h": 229
+      },
+      "sourceAnchor": {
+        "x": 1428.5,
+        "y": 269
+      },
+      "destination": {
+        "left": 66,
+        "top": 58,
+        "width": 79,
+        "height": 143
+      }
+    }
+  ]
+}

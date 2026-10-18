@@ -1,0 +1,582 @@
+{
+  "sharedSpeciesScale": 0.6194690265486725,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "wolf_b_idle_west_00",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_00.png",
+      "sha256": "6a9c9b9400cebd5fbc3aed3ad054b14e98f43f644bb682c03327d8d5d96865b5",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 16,
+        "y": 314,
+        "w": 245,
+        "h": 187
+      },
+      "sourceAnchor": {
+        "x": 132.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 56,
+        "top": 85,
+        "width": 152,
+        "height": 116
+      }
+    },
+    {
+      "name": "wolf_b_idle_west_01",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_01.png",
+      "sha256": "b415a815494519f6249825e27b25e548b2bf06cc7b091940d01332a9d3c39e65",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 269,
+        "y": 314,
+        "w": 246,
+        "h": 187
+      },
+      "sourceAnchor": {
+        "x": 388.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 54,
+        "top": 85,
+        "width": 152,
+        "height": 116
+      }
+    },
+    {
+      "name": "wolf_b_idle_west_02",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_02.png",
+      "sha256": "b6325623f7f52db6a3cd4f241a4af6bda510c7c4ea8926a8ee552b155ee5fd28",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 523,
+        "y": 315,
+        "w": 244,
+        "h": 187
+      },
+      "sourceAnchor": {
+        "x": 644.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 53,
+        "top": 85,
+        "width": 151,
+        "height": 116
+      }
+    },
+    {
+      "name": "wolf_b_idle_west_03",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_03.png",
+      "sha256": "cfd145a5c17d2b992fc0dca95897aa016b533385a17a49c31e9d14cd3ab4fcb7",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 776,
+        "y": 312,
+        "w": 247,
+        "h": 190
+      },
+      "sourceAnchor": {
+        "x": 900.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 51,
+        "top": 84,
+        "width": 153,
+        "height": 118
+      }
+    },
+    {
+      "name": "wolf_b_idle_west_04",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_04.png",
+      "sha256": "61212ffc5e5ab66f3600e2a05d2ba5bedc8a105149d0438f59554fa76edc6da6",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1034,
+        "y": 318,
+        "w": 244,
+        "h": 183
+      },
+      "sourceAnchor": {
+        "x": 1156.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 52,
+        "top": 87,
+        "width": 151,
+        "height": 113
+      }
+    },
+    {
+      "name": "wolf_b_idle_west_05",
+      "file": "animals/wolf/west/frames/wolf_b_idle_west_05.png",
+      "sha256": "ad969b22a0153a85b9d8461c961c47d0df159146e24fb24c04e5d43fe963dfbf",
+      "source": "sources/wolf-idle.png",
+      "sourceHash": "b3a622ec46da534efe354509aa50b4503570dd3216a063209e6034496c4d6b15",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1288,
+        "y": 314,
+        "w": 239,
+        "h": 187
+      },
+      "sourceAnchor": {
+        "x": 1412.5,
+        "y": 500
+      },
+      "destination": {
+        "left": 51,
+        "top": 85,
+        "width": 148,
+        "height": 116
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_00",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_00.png",
+      "sha256": "c08987c892dfc0938797b98aef19ab65a18b6754b30e039ec69fb8fe776ad818",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 14,
+        "y": 305,
+        "w": 249,
+        "h": 177
+      },
+      "sourceAnchor": {
+        "x": 134.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 53,
+        "top": 92,
+        "width": 154,
+        "height": 110
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_01",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_01.png",
+      "sha256": "81d10140bdbafaed093e7630ae2d972cf6895e12ea721db10a66c2461e6665e4",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 266,
+        "y": 305,
+        "w": 256,
+        "h": 176
+      },
+      "sourceAnchor": {
+        "x": 390.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 51,
+        "top": 92,
+        "width": 159,
+        "height": 109
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_02",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_02.png",
+      "sha256": "c981321417eee3bba2a9d29da1d58f603d103f1b51856308a762f3460fc60f8d",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 525,
+        "y": 305,
+        "w": 244,
+        "h": 177
+      },
+      "sourceAnchor": {
+        "x": 646.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 53,
+        "top": 92,
+        "width": 151,
+        "height": 110
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_03",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_03.png",
+      "sha256": "6d4077a854abce8b838b040fead39ad378d95c47dc3f14ae37377a42c8ebc440",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 774,
+        "y": 305,
+        "w": 251,
+        "h": 175
+      },
+      "sourceAnchor": {
+        "x": 902.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 48,
+        "top": 92,
+        "width": 155,
+        "height": 108
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_04",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_04.png",
+      "sha256": "1c3ce743bf2b3884273d8cde4fb66f22108e2bdab9309645bd80c1801249824c",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1030,
+        "y": 306,
+        "w": 249,
+        "h": 175
+      },
+      "sourceAnchor": {
+        "x": 1158.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 48,
+        "top": 92,
+        "width": 154,
+        "height": 108
+      }
+    },
+    {
+      "name": "wolf_b_walk_west_05",
+      "file": "animals/wolf/west/frames/wolf_b_walk_west_05.png",
+      "sha256": "d5fec44eaf1b428dc1b88b57dd1e1cf3ba656b36d6c1821abd310de02fd3af4d",
+      "source": "sources/wolf-walk.png",
+      "sourceHash": "80f8467183f0b396277d16553fe8ad1034736619cf30e5585e509d17f4c8b425",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1286,
+        "y": 305,
+        "w": 241,
+        "h": 176
+      },
+      "sourceAnchor": {
+        "x": 1414.5,
+        "y": 480
+      },
+      "destination": {
+        "left": 48,
+        "top": 92,
+        "width": 149,
+        "height": 109
+      }
+    },
+    {
+      "name": "wolf_b_run_west_00",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_00.png",
+      "sha256": "8184cce49ed82c36bb74755c7d34e42202ebdf7ae4622ac6276288fd23e10860",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 23,
+        "y": 330,
+        "w": 237,
+        "h": 167
+      },
+      "sourceAnchor": {
+        "x": 141,
+        "y": 496
+      },
+      "destination": {
+        "left": 55,
+        "top": 97,
+        "width": 147,
+        "height": 103
+      }
+    },
+    {
+      "name": "wolf_b_run_west_01",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_01.png",
+      "sha256": "31988c67b69ae0a328d5f42fc5064e0a9c72d287110d25893583d1a939de8208",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 271,
+        "y": 330,
+        "w": 233,
+        "h": 157
+      },
+      "sourceAnchor": {
+        "x": 397,
+        "y": 496
+      },
+      "destination": {
+        "left": 50,
+        "top": 97,
+        "width": 144,
+        "height": 97
+      }
+    },
+    {
+      "name": "wolf_b_run_west_02",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_02.png",
+      "sha256": "f697634df33861a4ae049f73177efe0c413b6867f25e90503ca7cf75e4db23d3",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 527,
+        "y": 331,
+        "w": 265,
+        "h": 142
+      },
+      "sourceAnchor": {
+        "x": 653,
+        "y": 496
+      },
+      "destination": {
+        "left": 50,
+        "top": 98,
+        "width": 164,
+        "height": 88
+      }
+    },
+    {
+      "name": "wolf_b_run_west_03",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_03.png",
+      "sha256": "d61aa74d84a40510958b39f5a4581e1b532a9dce37c45f61d91dc05556f3901b",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 792,
+        "y": 330,
+        "w": 240,
+        "h": 167
+      },
+      "sourceAnchor": {
+        "x": 909,
+        "y": 496
+      },
+      "destination": {
+        "left": 56,
+        "top": 97,
+        "width": 149,
+        "height": 103
+      }
+    },
+    {
+      "name": "wolf_b_run_west_04",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_04.png",
+      "sha256": "4837e863da107c10bcb0e2900ee877b7289d865fc9b2d56c43fca2a088ad5e90",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1038,
+        "y": 333,
+        "w": 246,
+        "h": 158
+      },
+      "sourceAnchor": {
+        "x": 1165,
+        "y": 496
+      },
+      "destination": {
+        "left": 49,
+        "top": 99,
+        "width": 152,
+        "height": 98
+      }
+    },
+    {
+      "name": "wolf_b_run_west_05",
+      "file": "animals/wolf/west/frames/wolf_b_run_west_05.png",
+      "sha256": "ec36f1d04678fbdb86bef02b1ebfbaecfd5853ad18bc3a9d08bd4a2b128a9775",
+      "source": "sources/wolf-run.png",
+      "sourceHash": "77fb6e8f930893511d6bb4d6c6f0e9006515afc85cf5ca79500bf8222618f5c5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1293,
+        "y": 331,
+        "w": 221,
+        "h": 166
+      },
+      "sourceAnchor": {
+        "x": 1421,
+        "y": 496
+      },
+      "destination": {
+        "left": 49,
+        "top": 98,
+        "width": 137,
+        "height": 103
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_00",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_00.png",
+      "sha256": "97980e35d6bfdea59c0a224a9d9c119d918243c92566e5b75a140be8ac57e40f",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 22,
+        "y": 326,
+        "w": 234,
+        "h": 162
+      },
+      "sourceAnchor": {
+        "x": 140,
+        "y": 487
+      },
+      "destination": {
+        "left": 55,
+        "top": 100,
+        "width": 145,
+        "height": 100
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_01",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_01.png",
+      "sha256": "71d41fb9f8d147f606ce0799d5fe43d6a797adc37710d394695a5b55c40d2053",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 275,
+        "y": 329,
+        "w": 243,
+        "h": 154
+      },
+      "sourceAnchor": {
+        "x": 396,
+        "y": 487
+      },
+      "destination": {
+        "left": 53,
+        "top": 102,
+        "width": 151,
+        "height": 95
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_02",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_02.png",
+      "sha256": "4f74081ef09e73b77738da73523d6c29a8fdf51d4e11ed531c5d4061ff8c14f9",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 531,
+        "y": 329,
+        "w": 242,
+        "h": 152
+      },
+      "sourceAnchor": {
+        "x": 652,
+        "y": 487
+      },
+      "destination": {
+        "left": 53,
+        "top": 102,
+        "width": 150,
+        "height": 94
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_03",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_03.png",
+      "sha256": "a42e363d4ce20c5961031b9a9297199ecd71bcbf72295041db35623f7f5a0031",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 791,
+        "y": 329,
+        "w": 253,
+        "h": 160
+      },
+      "sourceAnchor": {
+        "x": 908,
+        "y": 487
+      },
+      "destination": {
+        "left": 56,
+        "top": 102,
+        "width": 157,
+        "height": 99
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_04",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_04.png",
+      "sha256": "611793ac1d3e476697b79965d665778408ca29a4adff3d206cb00244897614d3",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1053,
+        "y": 330,
+        "w": 230,
+        "h": 158
+      },
+      "sourceAnchor": {
+        "x": 1164,
+        "y": 487
+      },
+      "destination": {
+        "left": 59,
+        "top": 103,
+        "width": 142,
+        "height": 98
+      }
+    },
+    {
+      "name": "wolf_b_attack_west_05",
+      "file": "animals/wolf/west/frames/wolf_b_attack_west_05.png",
+      "sha256": "b37d89f708d4035b4414e1e08b32fb1837abcd9c8558a81b21d7ef440daae2bd",
+      "source": "sources/wolf-attack.png",
+      "sourceHash": "6747cb50a8985dec36b782516880a6aa2b9e14cd17e61c494d50ad4364b35bd9",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1298,
+        "y": 326,
+        "w": 228,
+        "h": 161
+      },
+      "sourceAnchor": {
+        "x": 1420,
+        "y": 487
+      },
+      "destination": {
+        "left": 52,
+        "top": 100,
+        "width": 141,
+        "height": 100
+      }
+    }
+  ]
+}

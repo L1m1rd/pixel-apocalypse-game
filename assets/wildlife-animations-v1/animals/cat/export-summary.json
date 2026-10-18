@@ -1,0 +1,405 @@
+{
+  "fingerprint": "b198f98fa9dfef6962cbadcf71be18d2f679dc5dddac5d18ceeb83220d344e22",
+  "animal": {
+    "id": "cat",
+    "name": "Кошка",
+    "variant": "B",
+    "characterId": "cat_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/cat-b.png",
+    "baseFiles": {
+      "south": "sprites/cat/cat_b_south.png",
+      "west": "sprites/cat/cat_b_west.png",
+      "east": "sprites/cat/cat_b_east.png",
+      "north": "sprites/cat/cat_b_north.png"
+    },
+    "baseHashes": {
+      "south": "19707edcb3ef3c06b8562480b8c7cf6098e27955748437c92376329d021db266",
+      "west": "11596dc8130cbbd4047289666fe0878c808260fe4dd4a364a9b4da1658fbbc15",
+      "east": "d7c422cd8c3d803f92c12ad21972840c79df75f3f5410f824df53e6234b0be5c",
+      "north": "185f2033c602a21f0706043d29a721648ed9e1b0682d83372d482659f4de330e"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6334841628959276,
+    "suggestedWorldHeight": 16,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "small ear flicks, gentle breathing and slow tail-tip curl",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/cat-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a lean gray brown tabby cat, fine dark stripes, upright ears and a relaxed curved tail, no collar. Action: small ear flicks, gentle breathing and slow tail-tip curl. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кошка movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/cat-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cat-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "quiet graceful feline steps, hind paws follow front-paw tracks",
+        "loop": true,
+        "frameMs": 120,
+        "frames": 6,
+        "source": "sources/cat-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a lean gray brown tabby cat, fine dark stripes, upright ears and a relaxed curved tail, no collar. Action: quiet graceful feline steps, hind paws follow front-paw tracks. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кошка movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/cat-walk.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cat-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "distinct feline sprint: deeply curled then fully stretched spine, gathered hind legs and long leap",
+        "loop": true,
+        "frameMs": 70,
+        "frames": 6,
+        "source": "sources/cat-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a lean gray brown tabby cat, fine dark stripes, upright ears and a relaxed curved tail, no collar. Action: distinct feline sprint: deeply curled then fully stretched spine, gathered hind legs and long leap. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Кошка movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/cat-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/cat-run.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/cat/south/spritesheet.png",
+        "atlas": "animals/cat/south/atlas.json",
+        "config": "animals/cat/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cat_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "cat_b_idle_south_00",
+              "cat_b_idle_south_01",
+              "cat_b_idle_south_02",
+              "cat_b_idle_south_03",
+              "cat_b_idle_south_04",
+              "cat_b_idle_south_05"
+            ],
+            "files": [
+              "animals/cat/south/frames/cat_b_idle_south_00.png",
+              "animals/cat/south/frames/cat_b_idle_south_01.png",
+              "animals/cat/south/frames/cat_b_idle_south_02.png",
+              "animals/cat/south/frames/cat_b_idle_south_03.png",
+              "animals/cat/south/frames/cat_b_idle_south_04.png",
+              "animals/cat/south/frames/cat_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cat_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "cat_b_walk_south_00",
+              "cat_b_walk_south_01",
+              "cat_b_walk_south_02",
+              "cat_b_walk_south_03",
+              "cat_b_walk_south_04",
+              "cat_b_walk_south_05"
+            ],
+            "files": [
+              "animals/cat/south/frames/cat_b_walk_south_00.png",
+              "animals/cat/south/frames/cat_b_walk_south_01.png",
+              "animals/cat/south/frames/cat_b_walk_south_02.png",
+              "animals/cat/south/frames/cat_b_walk_south_03.png",
+              "animals/cat/south/frames/cat_b_walk_south_04.png",
+              "animals/cat/south/frames/cat_b_walk_south_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cat_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "cat_b_run_south_00",
+              "cat_b_run_south_01",
+              "cat_b_run_south_02",
+              "cat_b_run_south_03",
+              "cat_b_run_south_04",
+              "cat_b_run_south_05"
+            ],
+            "files": [
+              "animals/cat/south/frames/cat_b_run_south_00.png",
+              "animals/cat/south/frames/cat_b_run_south_01.png",
+              "animals/cat/south/frames/cat_b_run_south_02.png",
+              "animals/cat/south/frames/cat_b_run_south_03.png",
+              "animals/cat/south/frames/cat_b_run_south_04.png",
+              "animals/cat/south/frames/cat_b_run_south_05.png"
+            ],
+            "frameRate": 14.285714285714286,
+            "frameMs": 70,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/cat/west/spritesheet.png",
+        "atlas": "animals/cat/west/atlas.json",
+        "config": "animals/cat/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cat_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "cat_b_idle_west_00",
+              "cat_b_idle_west_01",
+              "cat_b_idle_west_02",
+              "cat_b_idle_west_03",
+              "cat_b_idle_west_04",
+              "cat_b_idle_west_05"
+            ],
+            "files": [
+              "animals/cat/west/frames/cat_b_idle_west_00.png",
+              "animals/cat/west/frames/cat_b_idle_west_01.png",
+              "animals/cat/west/frames/cat_b_idle_west_02.png",
+              "animals/cat/west/frames/cat_b_idle_west_03.png",
+              "animals/cat/west/frames/cat_b_idle_west_04.png",
+              "animals/cat/west/frames/cat_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cat_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "cat_b_walk_west_00",
+              "cat_b_walk_west_01",
+              "cat_b_walk_west_02",
+              "cat_b_walk_west_03",
+              "cat_b_walk_west_04",
+              "cat_b_walk_west_05"
+            ],
+            "files": [
+              "animals/cat/west/frames/cat_b_walk_west_00.png",
+              "animals/cat/west/frames/cat_b_walk_west_01.png",
+              "animals/cat/west/frames/cat_b_walk_west_02.png",
+              "animals/cat/west/frames/cat_b_walk_west_03.png",
+              "animals/cat/west/frames/cat_b_walk_west_04.png",
+              "animals/cat/west/frames/cat_b_walk_west_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cat_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "cat_b_run_west_00",
+              "cat_b_run_west_01",
+              "cat_b_run_west_02",
+              "cat_b_run_west_03",
+              "cat_b_run_west_04",
+              "cat_b_run_west_05"
+            ],
+            "files": [
+              "animals/cat/west/frames/cat_b_run_west_00.png",
+              "animals/cat/west/frames/cat_b_run_west_01.png",
+              "animals/cat/west/frames/cat_b_run_west_02.png",
+              "animals/cat/west/frames/cat_b_run_west_03.png",
+              "animals/cat/west/frames/cat_b_run_west_04.png",
+              "animals/cat/west/frames/cat_b_run_west_05.png"
+            ],
+            "frameRate": 14.285714285714286,
+            "frameMs": 70,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/cat/east/spritesheet.png",
+        "atlas": "animals/cat/east/atlas.json",
+        "config": "animals/cat/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cat_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "cat_b_idle_east_00",
+              "cat_b_idle_east_01",
+              "cat_b_idle_east_02",
+              "cat_b_idle_east_03",
+              "cat_b_idle_east_04",
+              "cat_b_idle_east_05"
+            ],
+            "files": [
+              "animals/cat/east/frames/cat_b_idle_east_00.png",
+              "animals/cat/east/frames/cat_b_idle_east_01.png",
+              "animals/cat/east/frames/cat_b_idle_east_02.png",
+              "animals/cat/east/frames/cat_b_idle_east_03.png",
+              "animals/cat/east/frames/cat_b_idle_east_04.png",
+              "animals/cat/east/frames/cat_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cat_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "cat_b_walk_east_00",
+              "cat_b_walk_east_01",
+              "cat_b_walk_east_02",
+              "cat_b_walk_east_03",
+              "cat_b_walk_east_04",
+              "cat_b_walk_east_05"
+            ],
+            "files": [
+              "animals/cat/east/frames/cat_b_walk_east_00.png",
+              "animals/cat/east/frames/cat_b_walk_east_01.png",
+              "animals/cat/east/frames/cat_b_walk_east_02.png",
+              "animals/cat/east/frames/cat_b_walk_east_03.png",
+              "animals/cat/east/frames/cat_b_walk_east_04.png",
+              "animals/cat/east/frames/cat_b_walk_east_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cat_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "cat_b_run_east_00",
+              "cat_b_run_east_01",
+              "cat_b_run_east_02",
+              "cat_b_run_east_03",
+              "cat_b_run_east_04",
+              "cat_b_run_east_05"
+            ],
+            "files": [
+              "animals/cat/east/frames/cat_b_run_east_00.png",
+              "animals/cat/east/frames/cat_b_run_east_01.png",
+              "animals/cat/east/frames/cat_b_run_east_02.png",
+              "animals/cat/east/frames/cat_b_run_east_03.png",
+              "animals/cat/east/frames/cat_b_run_east_04.png",
+              "animals/cat/east/frames/cat_b_run_east_05.png"
+            ],
+            "frameRate": 14.285714285714286,
+            "frameMs": 70,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/cat/north/spritesheet.png",
+        "atlas": "animals/cat/north/atlas.json",
+        "config": "animals/cat/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "cat_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "cat_b_idle_north_00",
+              "cat_b_idle_north_01",
+              "cat_b_idle_north_02",
+              "cat_b_idle_north_03",
+              "cat_b_idle_north_04",
+              "cat_b_idle_north_05"
+            ],
+            "files": [
+              "animals/cat/north/frames/cat_b_idle_north_00.png",
+              "animals/cat/north/frames/cat_b_idle_north_01.png",
+              "animals/cat/north/frames/cat_b_idle_north_02.png",
+              "animals/cat/north/frames/cat_b_idle_north_03.png",
+              "animals/cat/north/frames/cat_b_idle_north_04.png",
+              "animals/cat/north/frames/cat_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "cat_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "cat_b_walk_north_00",
+              "cat_b_walk_north_01",
+              "cat_b_walk_north_02",
+              "cat_b_walk_north_03",
+              "cat_b_walk_north_04",
+              "cat_b_walk_north_05"
+            ],
+            "files": [
+              "animals/cat/north/frames/cat_b_walk_north_00.png",
+              "animals/cat/north/frames/cat_b_walk_north_01.png",
+              "animals/cat/north/frames/cat_b_walk_north_02.png",
+              "animals/cat/north/frames/cat_b_walk_north_03.png",
+              "animals/cat/north/frames/cat_b_walk_north_04.png",
+              "animals/cat/north/frames/cat_b_walk_north_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "cat_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "cat_b_run_north_00",
+              "cat_b_run_north_01",
+              "cat_b_run_north_02",
+              "cat_b_run_north_03",
+              "cat_b_run_north_04",
+              "cat_b_run_north_05"
+            ],
+            "files": [
+              "animals/cat/north/frames/cat_b_run_north_00.png",
+              "animals/cat/north/frames/cat_b_run_north_01.png",
+              "animals/cat/north/frames/cat_b_run_north_02.png",
+              "animals/cat/north/frames/cat_b_run_north_03.png",
+              "animals/cat/north/frames/cat_b_run_north_04.png",
+              "animals/cat/north/frames/cat_b_run_north_05.png"
+            ],
+            "frameRate": 14.285714285714286,
+            "frameMs": 70,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

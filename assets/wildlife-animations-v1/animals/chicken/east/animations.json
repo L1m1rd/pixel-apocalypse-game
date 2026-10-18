@@ -1,0 +1,112 @@
+{
+  "species": "chicken",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "chicken_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "chicken_b_idle_east_00",
+        "chicken_b_idle_east_01",
+        "chicken_b_idle_east_02",
+        "chicken_b_idle_east_03",
+        "chicken_b_idle_east_04",
+        "chicken_b_idle_east_05"
+      ],
+      "files": [
+        "animals/chicken/east/frames/chicken_b_idle_east_00.png",
+        "animals/chicken/east/frames/chicken_b_idle_east_01.png",
+        "animals/chicken/east/frames/chicken_b_idle_east_02.png",
+        "animals/chicken/east/frames/chicken_b_idle_east_03.png",
+        "animals/chicken/east/frames/chicken_b_idle_east_04.png",
+        "animals/chicken/east/frames/chicken_b_idle_east_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "chicken_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "chicken_b_walk_east_00",
+        "chicken_b_walk_east_01",
+        "chicken_b_walk_east_02",
+        "chicken_b_walk_east_03",
+        "chicken_b_walk_east_04",
+        "chicken_b_walk_east_05"
+      ],
+      "files": [
+        "animals/chicken/east/frames/chicken_b_walk_east_00.png",
+        "animals/chicken/east/frames/chicken_b_walk_east_01.png",
+        "animals/chicken/east/frames/chicken_b_walk_east_02.png",
+        "animals/chicken/east/frames/chicken_b_walk_east_03.png",
+        "animals/chicken/east/frames/chicken_b_walk_east_04.png",
+        "animals/chicken/east/frames/chicken_b_walk_east_05.png"
+      ],
+      "frameRate": 8,
+      "frameMs": 125,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "chicken_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "chicken_b_run_east_00",
+        "chicken_b_run_east_01",
+        "chicken_b_run_east_02",
+        "chicken_b_run_east_03",
+        "chicken_b_run_east_04",
+        "chicken_b_run_east_05"
+      ],
+      "files": [
+        "animals/chicken/east/frames/chicken_b_run_east_00.png",
+        "animals/chicken/east/frames/chicken_b_run_east_01.png",
+        "animals/chicken/east/frames/chicken_b_run_east_02.png",
+        "animals/chicken/east/frames/chicken_b_run_east_03.png",
+        "animals/chicken/east/frames/chicken_b_run_east_04.png",
+        "animals/chicken/east/frames/chicken_b_run_east_05.png"
+      ],
+      "frameRate": 12.5,
+      "frameMs": 80,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "fly": {
+      "id": "chicken_b_fly_east",
+      "label": "Короткий перелёт",
+      "frames": [
+        "chicken_b_fly_east_00",
+        "chicken_b_fly_east_01",
+        "chicken_b_fly_east_02",
+        "chicken_b_fly_east_03",
+        "chicken_b_fly_east_04",
+        "chicken_b_fly_east_05"
+      ],
+      "files": [
+        "animals/chicken/east/frames/chicken_b_fly_east_00.png",
+        "animals/chicken/east/frames/chicken_b_fly_east_01.png",
+        "animals/chicken/east/frames/chicken_b_fly_east_02.png",
+        "animals/chicken/east/frames/chicken_b_fly_east_03.png",
+        "animals/chicken/east/frames/chicken_b_fly_east_04.png",
+        "animals/chicken/east/frames/chicken_b_fly_east_05.png"
+      ],
+      "frameRate": 10,
+      "frameMs": 100,
+      "repeat": 0,
+      "persistence": "hold-last-frame",
+      "rootMotion": false
+    }
+  }
+}

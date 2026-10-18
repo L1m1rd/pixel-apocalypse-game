@@ -20,7 +20,11 @@
     "package:weapons": "node tools/package-weapon-animations.cjs",
     "build:items": "node tools/build-item-visuals.cjs",
     "check:items": "node tools/check-item-visuals.cjs",
-    "package:items": "node tools/package-item-visuals.cjs"
+    "package:items": "node tools/package-item-visuals.cjs",
+    "build:wildlife": "node tools/build-wildlife-animations.cjs",
+    "check:wildlife": "node tools/check-wildlife-animations.cjs",
+    "preview:wildlife": "node tools/serve-wildlife-animations.cjs",
+    "package:wildlife": "node tools/build-wildlife-animations.cjs --zip"
   },
   "devDependencies": {
     "jszip": "3.10.1",

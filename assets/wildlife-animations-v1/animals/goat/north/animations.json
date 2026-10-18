@@ -1,0 +1,87 @@
+{
+  "species": "goat",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "goat_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "goat_b_idle_north_00",
+        "goat_b_idle_north_01",
+        "goat_b_idle_north_02",
+        "goat_b_idle_north_03",
+        "goat_b_idle_north_04",
+        "goat_b_idle_north_05"
+      ],
+      "files": [
+        "animals/goat/north/frames/goat_b_idle_north_00.png",
+        "animals/goat/north/frames/goat_b_idle_north_01.png",
+        "animals/goat/north/frames/goat_b_idle_north_02.png",
+        "animals/goat/north/frames/goat_b_idle_north_03.png",
+        "animals/goat/north/frames/goat_b_idle_north_04.png",
+        "animals/goat/north/frames/goat_b_idle_north_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "goat_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "goat_b_walk_north_00",
+        "goat_b_walk_north_01",
+        "goat_b_walk_north_02",
+        "goat_b_walk_north_03",
+        "goat_b_walk_north_04",
+        "goat_b_walk_north_05"
+      ],
+      "files": [
+        "animals/goat/north/frames/goat_b_walk_north_00.png",
+        "animals/goat/north/frames/goat_b_walk_north_01.png",
+        "animals/goat/north/frames/goat_b_walk_north_02.png",
+        "animals/goat/north/frames/goat_b_walk_north_03.png",
+        "animals/goat/north/frames/goat_b_walk_north_04.png",
+        "animals/goat/north/frames/goat_b_walk_north_05.png"
+      ],
+      "frameRate": 8.695652173913043,
+      "frameMs": 115,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "goat_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "goat_b_run_north_00",
+        "goat_b_run_north_01",
+        "goat_b_run_north_02",
+        "goat_b_run_north_03",
+        "goat_b_run_north_04",
+        "goat_b_run_north_05"
+      ],
+      "files": [
+        "animals/goat/north/frames/goat_b_run_north_00.png",
+        "animals/goat/north/frames/goat_b_run_north_01.png",
+        "animals/goat/north/frames/goat_b_run_north_02.png",
+        "animals/goat/north/frames/goat_b_run_north_03.png",
+        "animals/goat/north/frames/goat_b_run_north_04.png",
+        "animals/goat/north/frames/goat_b_run_north_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

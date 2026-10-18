@@ -1,0 +1,22 @@
+module.exports = [
+ ['hare','Заяц','a European brown hare, long upright ears, brown gray fur, pale belly, long hind legs',128,18],
+ ['squirrel','Белка','a Eurasian red squirrel, muted reddish brown fur, tufted ears and a bushy curled tail',128,13],
+ ['fox','Лиса','a red fox, muted rusty orange coat, dark lower legs, pale chest and white tail tip',192,24],
+ ['roe_deer','Косуля','an adult male roe deer, small slender brown body, short modest forked antlers, pale rump',256,38],
+ ['red_deer','Олень','an adult male red deer, tall sturdy brown body, branching antlers, visibly larger build than a roe deer',256,48],
+ ['wild_boar','Кабан','an adult wild boar, stocky dark brown bristly body, short legs, long snout and small visible tusks',192,31],
+ ['wolf','Волк','an adult gray wolf, gray brown coat, pointed ears, bushy low tail, lean natural proportions',192,34],
+ ['brown_bear','Медведь','an adult brown bear standing naturally on all four paws, bulky brown fur, rounded ears, heavy shoulders',256,52],
+ ['stray_dog','Бродячая собака','a medium-sized lean stray mixed-breed dog, dusty tan brown short fur, semi-erect ears, no collar',192,29],
+ ['cat','Кошка','a lean gray brown tabby cat, fine dark stripes, upright ears and a relaxed curved tail, no collar',128,16],
+ ['rat','Крыса','a brown gray rat, compact low body, small rounded ears, long thin bare tail',96,8],
+ ['crow','Ворона','a hooded crow standing on the ground, gray body, black head wings and tail, folded wings',128,14],
+ ['pigeon','Голубь','a rock pigeon standing on the ground, muted gray plumage, darker wing bars, subtle green gray neck, folded wings',96,10],
+ ['sparrow','Воробей','a small house sparrow standing on the ground, muted brown gray streaked plumage, short conical beak, folded wings',96,7],
+ ['duck','Утка','a female mallard duck standing naturally on land, mottled brown feathers, dark eye stripe, muted orange feet, folded wings',128,17],
+ ['frog','Лягушка','a small olive brown common frog in a natural crouch, darker mottled skin and folded hind legs',96,7],
+ ['fish','Рыба','one freshwater river perch, olive gray body with subtle dark vertical bars and muted orange fins, viewed from above for an underwater sprite',128,11],
+ ['chicken','Курица','a brown domestic hen standing naturally, small red comb, muted warm brown feathers and short folded wings',128,17],
+ ['goat','Коза','an adult domestic goat, muted gray brown short coat, short backward-curved horns and a small beard',192,32],
+ ['cow','Корова','an adult domestic cow, muted brown and cream pied coat with restrained patches, short horns and natural proportions',256,49]
+];

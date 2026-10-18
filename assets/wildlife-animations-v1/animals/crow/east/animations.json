@@ -1,0 +1,112 @@
+{
+  "species": "crow",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "crow_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "crow_b_idle_east_00",
+        "crow_b_idle_east_01",
+        "crow_b_idle_east_02",
+        "crow_b_idle_east_03",
+        "crow_b_idle_east_04",
+        "crow_b_idle_east_05"
+      ],
+      "files": [
+        "animals/crow/east/frames/crow_b_idle_east_00.png",
+        "animals/crow/east/frames/crow_b_idle_east_01.png",
+        "animals/crow/east/frames/crow_b_idle_east_02.png",
+        "animals/crow/east/frames/crow_b_idle_east_03.png",
+        "animals/crow/east/frames/crow_b_idle_east_04.png",
+        "animals/crow/east/frames/crow_b_idle_east_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "crow_b_walk_east",
+      "label": "Ходьба",
+      "frames": [
+        "crow_b_walk_east_00",
+        "crow_b_walk_east_01",
+        "crow_b_walk_east_02",
+        "crow_b_walk_east_03",
+        "crow_b_walk_east_04",
+        "crow_b_walk_east_05"
+      ],
+      "files": [
+        "animals/crow/east/frames/crow_b_walk_east_00.png",
+        "animals/crow/east/frames/crow_b_walk_east_01.png",
+        "animals/crow/east/frames/crow_b_walk_east_02.png",
+        "animals/crow/east/frames/crow_b_walk_east_03.png",
+        "animals/crow/east/frames/crow_b_walk_east_04.png",
+        "animals/crow/east/frames/crow_b_walk_east_05.png"
+      ],
+      "frameRate": 8,
+      "frameMs": 125,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "crow_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "crow_b_run_east_00",
+        "crow_b_run_east_01",
+        "crow_b_run_east_02",
+        "crow_b_run_east_03",
+        "crow_b_run_east_04",
+        "crow_b_run_east_05"
+      ],
+      "files": [
+        "animals/crow/east/frames/crow_b_run_east_00.png",
+        "animals/crow/east/frames/crow_b_run_east_01.png",
+        "animals/crow/east/frames/crow_b_run_east_02.png",
+        "animals/crow/east/frames/crow_b_run_east_03.png",
+        "animals/crow/east/frames/crow_b_run_east_04.png",
+        "animals/crow/east/frames/crow_b_run_east_05.png"
+      ],
+      "frameRate": 11.11111111111111,
+      "frameMs": 90,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "fly": {
+      "id": "crow_b_fly_east",
+      "label": "Полёт",
+      "frames": [
+        "crow_b_fly_east_00",
+        "crow_b_fly_east_01",
+        "crow_b_fly_east_02",
+        "crow_b_fly_east_03",
+        "crow_b_fly_east_04",
+        "crow_b_fly_east_05"
+      ],
+      "files": [
+        "animals/crow/east/frames/crow_b_fly_east_00.png",
+        "animals/crow/east/frames/crow_b_fly_east_01.png",
+        "animals/crow/east/frames/crow_b_fly_east_02.png",
+        "animals/crow/east/frames/crow_b_fly_east_03.png",
+        "animals/crow/east/frames/crow_b_fly_east_04.png",
+        "animals/crow/east/frames/crow_b_fly_east_05.png"
+      ],
+      "frameRate": 11.11111111111111,
+      "frameMs": 90,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

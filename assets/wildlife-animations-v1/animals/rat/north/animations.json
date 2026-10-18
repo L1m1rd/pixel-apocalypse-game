@@ -1,0 +1,87 @@
+{
+  "species": "rat",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "rat_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "rat_b_idle_north_00",
+        "rat_b_idle_north_01",
+        "rat_b_idle_north_02",
+        "rat_b_idle_north_03",
+        "rat_b_idle_north_04",
+        "rat_b_idle_north_05"
+      ],
+      "files": [
+        "animals/rat/north/frames/rat_b_idle_north_00.png",
+        "animals/rat/north/frames/rat_b_idle_north_01.png",
+        "animals/rat/north/frames/rat_b_idle_north_02.png",
+        "animals/rat/north/frames/rat_b_idle_north_03.png",
+        "animals/rat/north/frames/rat_b_idle_north_04.png",
+        "animals/rat/north/frames/rat_b_idle_north_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "rat_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "rat_b_walk_north_00",
+        "rat_b_walk_north_01",
+        "rat_b_walk_north_02",
+        "rat_b_walk_north_03",
+        "rat_b_walk_north_04",
+        "rat_b_walk_north_05"
+      ],
+      "files": [
+        "animals/rat/north/frames/rat_b_walk_north_00.png",
+        "animals/rat/north/frames/rat_b_walk_north_01.png",
+        "animals/rat/north/frames/rat_b_walk_north_02.png",
+        "animals/rat/north/frames/rat_b_walk_north_03.png",
+        "animals/rat/north/frames/rat_b_walk_north_04.png",
+        "animals/rat/north/frames/rat_b_walk_north_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "rat_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "rat_b_run_north_00",
+        "rat_b_run_north_01",
+        "rat_b_run_north_02",
+        "rat_b_run_north_03",
+        "rat_b_run_north_04",
+        "rat_b_run_north_05"
+      ],
+      "files": [
+        "animals/rat/north/frames/rat_b_run_north_00.png",
+        "animals/rat/north/frames/rat_b_run_north_01.png",
+        "animals/rat/north/frames/rat_b_run_north_02.png",
+        "animals/rat/north/frames/rat_b_run_north_03.png",
+        "animals/rat/north/frames/rat_b_run_north_04.png",
+        "animals/rat/north/frames/rat_b_run_north_05.png"
+      ],
+      "frameRate": 18.181818181818183,
+      "frameMs": 55,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

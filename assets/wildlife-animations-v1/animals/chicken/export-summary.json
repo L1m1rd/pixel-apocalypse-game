@@ -1,0 +1,516 @@
+{
+  "fingerprint": "acfdfe58968c0968777767f02c7e70320443f2c5fb1c28151e43fe8902b7df3c",
+  "animal": {
+    "id": "chicken",
+    "name": "Курица",
+    "variant": "B",
+    "characterId": "chicken_b",
+    "attackCapable": false,
+    "role": "passive",
+    "reference": "references/chicken-b.png",
+    "baseFiles": {
+      "south": "sprites/chicken/chicken_b_south.png",
+      "west": "sprites/chicken/chicken_b_west.png",
+      "east": "sprites/chicken/chicken_b_east.png",
+      "north": "sprites/chicken/chicken_b_north.png"
+    },
+    "baseHashes": {
+      "south": "60a9666c3618bba66b9b7e8d03c75f88b087ecf4577e396313b9b3d57480f67f",
+      "west": "f0524ba31bd87004688ed130ec72070595ebd40b48b7866f946d9288735b7fda",
+      "east": "9c408d4a1cc5cfe8b68cb76f2125ca49691e43855a6c3bbd268d65ef789ee0b6",
+      "north": "fab40da0f6b73f6cac50f61d97ce08f5c825d4b50dc575e25f5e9301cdd6c016"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6829268292682927,
+    "suggestedWorldHeight": 17,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "small head looks, breathing and feather settling",
+        "loop": true,
+        "frameMs": 170,
+        "frames": 6,
+        "source": "sources/chicken-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown domestic hen standing naturally, small red comb, muted warm brown feathers and short folded wings. Action: small head looks, breathing and feather settling. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Курица movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/chicken-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/chicken-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "head-bobbing hen steps, clear high knee and toe movement",
+        "loop": true,
+        "frameMs": 125,
+        "frames": 6,
+        "source": "sources/chicken-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown domestic hen standing naturally, small red comb, muted warm brown feathers and short folded wings. Action: head-bobbing hen steps, clear high knee and toe movement. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Курица movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/chicken-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "hurried short hen ground strides, neck forward and tail bouncing",
+        "loop": true,
+        "frameMs": 80,
+        "frames": 6,
+        "source": "sources/chicken-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown domestic hen standing naturally, small red comb, muted warm brown feathers and short folded wings. Action: hurried short hen ground strides, neck forward and tail bouncing. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Курица movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/chicken-run.gif"
+      },
+      {
+        "id": "fly",
+        "label": "Короткий перелёт",
+        "motion": "a short hen flutter: crouch, spread wings, two strong flaps with feet tucked, descend and land",
+        "loop": false,
+        "frameMs": 100,
+        "frames": 6,
+        "source": "sources/chicken-fly.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: a brown domestic hen standing naturally, small red comb, muted warm brown feathers and short folded wings. Action: a short hen flutter: crouch, spread wings, two strong flaps with feet tucked, descend and land. Six phases of a complete ONE-SHOT action from preparation through recovery/landing. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Use real bird wing/leg mechanics; ground walk/run keeps wings folded, flight shows actual changing wing poses. Resting body height about 90 source pixels so fully spread wings fit inside 210x210 pixels. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Курица movement, not a generic four-legged or humanoid cycle.",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/chicken-fly.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/chicken/south/spritesheet.png",
+        "atlas": "animals/chicken/south/atlas.json",
+        "config": "animals/chicken/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "chicken_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "chicken_b_idle_south_00",
+              "chicken_b_idle_south_01",
+              "chicken_b_idle_south_02",
+              "chicken_b_idle_south_03",
+              "chicken_b_idle_south_04",
+              "chicken_b_idle_south_05"
+            ],
+            "files": [
+              "animals/chicken/south/frames/chicken_b_idle_south_00.png",
+              "animals/chicken/south/frames/chicken_b_idle_south_01.png",
+              "animals/chicken/south/frames/chicken_b_idle_south_02.png",
+              "animals/chicken/south/frames/chicken_b_idle_south_03.png",
+              "animals/chicken/south/frames/chicken_b_idle_south_04.png",
+              "animals/chicken/south/frames/chicken_b_idle_south_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "chicken_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "chicken_b_walk_south_00",
+              "chicken_b_walk_south_01",
+              "chicken_b_walk_south_02",
+              "chicken_b_walk_south_03",
+              "chicken_b_walk_south_04",
+              "chicken_b_walk_south_05"
+            ],
+            "files": [
+              "animals/chicken/south/frames/chicken_b_walk_south_00.png",
+              "animals/chicken/south/frames/chicken_b_walk_south_01.png",
+              "animals/chicken/south/frames/chicken_b_walk_south_02.png",
+              "animals/chicken/south/frames/chicken_b_walk_south_03.png",
+              "animals/chicken/south/frames/chicken_b_walk_south_04.png",
+              "animals/chicken/south/frames/chicken_b_walk_south_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "chicken_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "chicken_b_run_south_00",
+              "chicken_b_run_south_01",
+              "chicken_b_run_south_02",
+              "chicken_b_run_south_03",
+              "chicken_b_run_south_04",
+              "chicken_b_run_south_05"
+            ],
+            "files": [
+              "animals/chicken/south/frames/chicken_b_run_south_00.png",
+              "animals/chicken/south/frames/chicken_b_run_south_01.png",
+              "animals/chicken/south/frames/chicken_b_run_south_02.png",
+              "animals/chicken/south/frames/chicken_b_run_south_03.png",
+              "animals/chicken/south/frames/chicken_b_run_south_04.png",
+              "animals/chicken/south/frames/chicken_b_run_south_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "chicken_b_fly_south",
+            "label": "Короткий перелёт",
+            "frames": [
+              "chicken_b_fly_south_00",
+              "chicken_b_fly_south_01",
+              "chicken_b_fly_south_02",
+              "chicken_b_fly_south_03",
+              "chicken_b_fly_south_04",
+              "chicken_b_fly_south_05"
+            ],
+            "files": [
+              "animals/chicken/south/frames/chicken_b_fly_south_00.png",
+              "animals/chicken/south/frames/chicken_b_fly_south_01.png",
+              "animals/chicken/south/frames/chicken_b_fly_south_02.png",
+              "animals/chicken/south/frames/chicken_b_fly_south_03.png",
+              "animals/chicken/south/frames/chicken_b_fly_south_04.png",
+              "animals/chicken/south/frames/chicken_b_fly_south_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/chicken/west/spritesheet.png",
+        "atlas": "animals/chicken/west/atlas.json",
+        "config": "animals/chicken/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "chicken_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "chicken_b_idle_west_00",
+              "chicken_b_idle_west_01",
+              "chicken_b_idle_west_02",
+              "chicken_b_idle_west_03",
+              "chicken_b_idle_west_04",
+              "chicken_b_idle_west_05"
+            ],
+            "files": [
+              "animals/chicken/west/frames/chicken_b_idle_west_00.png",
+              "animals/chicken/west/frames/chicken_b_idle_west_01.png",
+              "animals/chicken/west/frames/chicken_b_idle_west_02.png",
+              "animals/chicken/west/frames/chicken_b_idle_west_03.png",
+              "animals/chicken/west/frames/chicken_b_idle_west_04.png",
+              "animals/chicken/west/frames/chicken_b_idle_west_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "chicken_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "chicken_b_walk_west_00",
+              "chicken_b_walk_west_01",
+              "chicken_b_walk_west_02",
+              "chicken_b_walk_west_03",
+              "chicken_b_walk_west_04",
+              "chicken_b_walk_west_05"
+            ],
+            "files": [
+              "animals/chicken/west/frames/chicken_b_walk_west_00.png",
+              "animals/chicken/west/frames/chicken_b_walk_west_01.png",
+              "animals/chicken/west/frames/chicken_b_walk_west_02.png",
+              "animals/chicken/west/frames/chicken_b_walk_west_03.png",
+              "animals/chicken/west/frames/chicken_b_walk_west_04.png",
+              "animals/chicken/west/frames/chicken_b_walk_west_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "chicken_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "chicken_b_run_west_00",
+              "chicken_b_run_west_01",
+              "chicken_b_run_west_02",
+              "chicken_b_run_west_03",
+              "chicken_b_run_west_04",
+              "chicken_b_run_west_05"
+            ],
+            "files": [
+              "animals/chicken/west/frames/chicken_b_run_west_00.png",
+              "animals/chicken/west/frames/chicken_b_run_west_01.png",
+              "animals/chicken/west/frames/chicken_b_run_west_02.png",
+              "animals/chicken/west/frames/chicken_b_run_west_03.png",
+              "animals/chicken/west/frames/chicken_b_run_west_04.png",
+              "animals/chicken/west/frames/chicken_b_run_west_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "chicken_b_fly_west",
+            "label": "Короткий перелёт",
+            "frames": [
+              "chicken_b_fly_west_00",
+              "chicken_b_fly_west_01",
+              "chicken_b_fly_west_02",
+              "chicken_b_fly_west_03",
+              "chicken_b_fly_west_04",
+              "chicken_b_fly_west_05"
+            ],
+            "files": [
+              "animals/chicken/west/frames/chicken_b_fly_west_00.png",
+              "animals/chicken/west/frames/chicken_b_fly_west_01.png",
+              "animals/chicken/west/frames/chicken_b_fly_west_02.png",
+              "animals/chicken/west/frames/chicken_b_fly_west_03.png",
+              "animals/chicken/west/frames/chicken_b_fly_west_04.png",
+              "animals/chicken/west/frames/chicken_b_fly_west_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/chicken/east/spritesheet.png",
+        "atlas": "animals/chicken/east/atlas.json",
+        "config": "animals/chicken/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "chicken_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "chicken_b_idle_east_00",
+              "chicken_b_idle_east_01",
+              "chicken_b_idle_east_02",
+              "chicken_b_idle_east_03",
+              "chicken_b_idle_east_04",
+              "chicken_b_idle_east_05"
+            ],
+            "files": [
+              "animals/chicken/east/frames/chicken_b_idle_east_00.png",
+              "animals/chicken/east/frames/chicken_b_idle_east_01.png",
+              "animals/chicken/east/frames/chicken_b_idle_east_02.png",
+              "animals/chicken/east/frames/chicken_b_idle_east_03.png",
+              "animals/chicken/east/frames/chicken_b_idle_east_04.png",
+              "animals/chicken/east/frames/chicken_b_idle_east_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "chicken_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "chicken_b_walk_east_00",
+              "chicken_b_walk_east_01",
+              "chicken_b_walk_east_02",
+              "chicken_b_walk_east_03",
+              "chicken_b_walk_east_04",
+              "chicken_b_walk_east_05"
+            ],
+            "files": [
+              "animals/chicken/east/frames/chicken_b_walk_east_00.png",
+              "animals/chicken/east/frames/chicken_b_walk_east_01.png",
+              "animals/chicken/east/frames/chicken_b_walk_east_02.png",
+              "animals/chicken/east/frames/chicken_b_walk_east_03.png",
+              "animals/chicken/east/frames/chicken_b_walk_east_04.png",
+              "animals/chicken/east/frames/chicken_b_walk_east_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "chicken_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "chicken_b_run_east_00",
+              "chicken_b_run_east_01",
+              "chicken_b_run_east_02",
+              "chicken_b_run_east_03",
+              "chicken_b_run_east_04",
+              "chicken_b_run_east_05"
+            ],
+            "files": [
+              "animals/chicken/east/frames/chicken_b_run_east_00.png",
+              "animals/chicken/east/frames/chicken_b_run_east_01.png",
+              "animals/chicken/east/frames/chicken_b_run_east_02.png",
+              "animals/chicken/east/frames/chicken_b_run_east_03.png",
+              "animals/chicken/east/frames/chicken_b_run_east_04.png",
+              "animals/chicken/east/frames/chicken_b_run_east_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "chicken_b_fly_east",
+            "label": "Короткий перелёт",
+            "frames": [
+              "chicken_b_fly_east_00",
+              "chicken_b_fly_east_01",
+              "chicken_b_fly_east_02",
+              "chicken_b_fly_east_03",
+              "chicken_b_fly_east_04",
+              "chicken_b_fly_east_05"
+            ],
+            "files": [
+              "animals/chicken/east/frames/chicken_b_fly_east_00.png",
+              "animals/chicken/east/frames/chicken_b_fly_east_01.png",
+              "animals/chicken/east/frames/chicken_b_fly_east_02.png",
+              "animals/chicken/east/frames/chicken_b_fly_east_03.png",
+              "animals/chicken/east/frames/chicken_b_fly_east_04.png",
+              "animals/chicken/east/frames/chicken_b_fly_east_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/chicken/north/spritesheet.png",
+        "atlas": "animals/chicken/north/atlas.json",
+        "config": "animals/chicken/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "chicken_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "chicken_b_idle_north_00",
+              "chicken_b_idle_north_01",
+              "chicken_b_idle_north_02",
+              "chicken_b_idle_north_03",
+              "chicken_b_idle_north_04",
+              "chicken_b_idle_north_05"
+            ],
+            "files": [
+              "animals/chicken/north/frames/chicken_b_idle_north_00.png",
+              "animals/chicken/north/frames/chicken_b_idle_north_01.png",
+              "animals/chicken/north/frames/chicken_b_idle_north_02.png",
+              "animals/chicken/north/frames/chicken_b_idle_north_03.png",
+              "animals/chicken/north/frames/chicken_b_idle_north_04.png",
+              "animals/chicken/north/frames/chicken_b_idle_north_05.png"
+            ],
+            "frameRate": 5.882352941176471,
+            "frameMs": 170,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "chicken_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "chicken_b_walk_north_00",
+              "chicken_b_walk_north_01",
+              "chicken_b_walk_north_02",
+              "chicken_b_walk_north_03",
+              "chicken_b_walk_north_04",
+              "chicken_b_walk_north_05"
+            ],
+            "files": [
+              "animals/chicken/north/frames/chicken_b_walk_north_00.png",
+              "animals/chicken/north/frames/chicken_b_walk_north_01.png",
+              "animals/chicken/north/frames/chicken_b_walk_north_02.png",
+              "animals/chicken/north/frames/chicken_b_walk_north_03.png",
+              "animals/chicken/north/frames/chicken_b_walk_north_04.png",
+              "animals/chicken/north/frames/chicken_b_walk_north_05.png"
+            ],
+            "frameRate": 8,
+            "frameMs": 125,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "chicken_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "chicken_b_run_north_00",
+              "chicken_b_run_north_01",
+              "chicken_b_run_north_02",
+              "chicken_b_run_north_03",
+              "chicken_b_run_north_04",
+              "chicken_b_run_north_05"
+            ],
+            "files": [
+              "animals/chicken/north/frames/chicken_b_run_north_00.png",
+              "animals/chicken/north/frames/chicken_b_run_north_01.png",
+              "animals/chicken/north/frames/chicken_b_run_north_02.png",
+              "animals/chicken/north/frames/chicken_b_run_north_03.png",
+              "animals/chicken/north/frames/chicken_b_run_north_04.png",
+              "animals/chicken/north/frames/chicken_b_run_north_05.png"
+            ],
+            "frameRate": 12.5,
+            "frameMs": 80,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "fly": {
+            "id": "chicken_b_fly_north",
+            "label": "Короткий перелёт",
+            "frames": [
+              "chicken_b_fly_north_00",
+              "chicken_b_fly_north_01",
+              "chicken_b_fly_north_02",
+              "chicken_b_fly_north_03",
+              "chicken_b_fly_north_04",
+              "chicken_b_fly_north_05"
+            ],
+            "files": [
+              "animals/chicken/north/frames/chicken_b_fly_north_00.png",
+              "animals/chicken/north/frames/chicken_b_fly_north_01.png",
+              "animals/chicken/north/frames/chicken_b_fly_north_02.png",
+              "animals/chicken/north/frames/chicken_b_fly_north_03.png",
+              "animals/chicken/north/frames/chicken_b_fly_north_04.png",
+              "animals/chicken/north/frames/chicken_b_fly_north_05.png"
+            ],
+            "frameRate": 10,
+            "frameMs": 100,
+            "repeat": 0,
+            "persistence": "hold-last-frame",
+            "rootMotion": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "species": "wolf",
+  "variant": "B",
+  "direction": "north",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "wolf_b_idle_north",
+      "label": "Ожидание",
+      "frames": [
+        "wolf_b_idle_north_00",
+        "wolf_b_idle_north_01",
+        "wolf_b_idle_north_02",
+        "wolf_b_idle_north_03",
+        "wolf_b_idle_north_04",
+        "wolf_b_idle_north_05"
+      ],
+      "files": [
+        "animals/wolf/north/frames/wolf_b_idle_north_00.png",
+        "animals/wolf/north/frames/wolf_b_idle_north_01.png",
+        "animals/wolf/north/frames/wolf_b_idle_north_02.png",
+        "animals/wolf/north/frames/wolf_b_idle_north_03.png",
+        "animals/wolf/north/frames/wolf_b_idle_north_04.png",
+        "animals/wolf/north/frames/wolf_b_idle_north_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "wolf_b_walk_north",
+      "label": "Ходьба",
+      "frames": [
+        "wolf_b_walk_north_00",
+        "wolf_b_walk_north_01",
+        "wolf_b_walk_north_02",
+        "wolf_b_walk_north_03",
+        "wolf_b_walk_north_04",
+        "wolf_b_walk_north_05"
+      ],
+      "files": [
+        "animals/wolf/north/frames/wolf_b_walk_north_00.png",
+        "animals/wolf/north/frames/wolf_b_walk_north_01.png",
+        "animals/wolf/north/frames/wolf_b_walk_north_02.png",
+        "animals/wolf/north/frames/wolf_b_walk_north_03.png",
+        "animals/wolf/north/frames/wolf_b_walk_north_04.png",
+        "animals/wolf/north/frames/wolf_b_walk_north_05.png"
+      ],
+      "frameRate": 8.333333333333334,
+      "frameMs": 120,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "wolf_b_run_north",
+      "label": "Бег",
+      "frames": [
+        "wolf_b_run_north_00",
+        "wolf_b_run_north_01",
+        "wolf_b_run_north_02",
+        "wolf_b_run_north_03",
+        "wolf_b_run_north_04",
+        "wolf_b_run_north_05"
+      ],
+      "files": [
+        "animals/wolf/north/frames/wolf_b_run_north_00.png",
+        "animals/wolf/north/frames/wolf_b_run_north_01.png",
+        "animals/wolf/north/frames/wolf_b_run_north_02.png",
+        "animals/wolf/north/frames/wolf_b_run_north_03.png",
+        "animals/wolf/north/frames/wolf_b_run_north_04.png",
+        "animals/wolf/north/frames/wolf_b_run_north_05.png"
+      ],
+      "frameRate": 12.5,
+      "frameMs": 80,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "attack": {
+      "id": "wolf_b_attack_north",
+      "label": "Атака",
+      "frames": [
+        "wolf_b_attack_north_00",
+        "wolf_b_attack_north_01",
+        "wolf_b_attack_north_02",
+        "wolf_b_attack_north_03",
+        "wolf_b_attack_north_04",
+        "wolf_b_attack_north_05"
+      ],
+      "files": [
+        "animals/wolf/north/frames/wolf_b_attack_north_00.png",
+        "animals/wolf/north/frames/wolf_b_attack_north_01.png",
+        "animals/wolf/north/frames/wolf_b_attack_north_02.png",
+        "animals/wolf/north/frames/wolf_b_attack_north_03.png",
+        "animals/wolf/north/frames/wolf_b_attack_north_04.png",
+        "animals/wolf/north/frames/wolf_b_attack_north_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": 0,
+      "persistence": "return-to-idle",
+      "rootMotion": false,
+      "activeFrames": [
+        2,
+        3
+      ],
+      "impactFrame": 2,
+      "damageImplemented": false
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "species": "duck",
+  "variant": "B",
+  "direction": "south",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "duck_b_idle_south",
+      "label": "Ожидание",
+      "frames": [
+        "duck_b_idle_south_00",
+        "duck_b_idle_south_01",
+        "duck_b_idle_south_02",
+        "duck_b_idle_south_03",
+        "duck_b_idle_south_04",
+        "duck_b_idle_south_05"
+      ],
+      "files": [
+        "animals/duck/south/frames/duck_b_idle_south_00.png",
+        "animals/duck/south/frames/duck_b_idle_south_01.png",
+        "animals/duck/south/frames/duck_b_idle_south_02.png",
+        "animals/duck/south/frames/duck_b_idle_south_03.png",
+        "animals/duck/south/frames/duck_b_idle_south_04.png",
+        "animals/duck/south/frames/duck_b_idle_south_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "duck_b_walk_south",
+      "label": "Ходьба",
+      "frames": [
+        "duck_b_walk_south_00",
+        "duck_b_walk_south_01",
+        "duck_b_walk_south_02",
+        "duck_b_walk_south_03",
+        "duck_b_walk_south_04",
+        "duck_b_walk_south_05"
+      ],
+      "files": [
+        "animals/duck/south/frames/duck_b_walk_south_00.png",
+        "animals/duck/south/frames/duck_b_walk_south_01.png",
+        "animals/duck/south/frames/duck_b_walk_south_02.png",
+        "animals/duck/south/frames/duck_b_walk_south_03.png",
+        "animals/duck/south/frames/duck_b_walk_south_04.png",
+        "animals/duck/south/frames/duck_b_walk_south_05.png"
+      ],
+      "frameRate": 6.896551724137931,
+      "frameMs": 145,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "duck_b_run_south",
+      "label": "Бег",
+      "frames": [
+        "duck_b_run_south_00",
+        "duck_b_run_south_01",
+        "duck_b_run_south_02",
+        "duck_b_run_south_03",
+        "duck_b_run_south_04",
+        "duck_b_run_south_05"
+      ],
+      "files": [
+        "animals/duck/south/frames/duck_b_run_south_00.png",
+        "animals/duck/south/frames/duck_b_run_south_01.png",
+        "animals/duck/south/frames/duck_b_run_south_02.png",
+        "animals/duck/south/frames/duck_b_run_south_03.png",
+        "animals/duck/south/frames/duck_b_run_south_04.png",
+        "animals/duck/south/frames/duck_b_run_south_05.png"
+      ],
+      "frameRate": 10.526315789473685,
+      "frameMs": 95,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "fly": {
+      "id": "duck_b_fly_south",
+      "label": "Полёт",
+      "frames": [
+        "duck_b_fly_south_00",
+        "duck_b_fly_south_01",
+        "duck_b_fly_south_02",
+        "duck_b_fly_south_03",
+        "duck_b_fly_south_04",
+        "duck_b_fly_south_05"
+      ],
+      "files": [
+        "animals/duck/south/frames/duck_b_fly_south_00.png",
+        "animals/duck/south/frames/duck_b_fly_south_01.png",
+        "animals/duck/south/frames/duck_b_fly_south_02.png",
+        "animals/duck/south/frames/duck_b_fly_south_03.png",
+        "animals/duck/south/frames/duck_b_fly_south_04.png",
+        "animals/duck/south/frames/duck_b_fly_south_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "swim": {
+      "id": "duck_b_swim_south",
+      "label": "Плавание",
+      "frames": [
+        "duck_b_swim_south_00",
+        "duck_b_swim_south_01",
+        "duck_b_swim_south_02",
+        "duck_b_swim_south_03",
+        "duck_b_swim_south_04",
+        "duck_b_swim_south_05"
+      ],
+      "files": [
+        "animals/duck/south/frames/duck_b_swim_south_00.png",
+        "animals/duck/south/frames/duck_b_swim_south_01.png",
+        "animals/duck/south/frames/duck_b_swim_south_02.png",
+        "animals/duck/south/frames/duck_b_swim_south_03.png",
+        "animals/duck/south/frames/duck_b_swim_south_04.png",
+        "animals/duck/south/frames/duck_b_swim_south_05.png"
+      ],
+      "frameRate": 7.6923076923076925,
+      "frameMs": 130,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

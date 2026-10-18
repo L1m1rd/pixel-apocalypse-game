@@ -1,0 +1,582 @@
+{
+  "sharedSpeciesScale": 0.6829268292682927,
+  "sameScaleAcrossAllActions": true,
+  "frames": [
+    {
+      "name": "chicken_b_idle_west_00",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_00.png",
+      "sha256": "2cfbf214270ac5a446a76b3c2e23601f0e978dd4261d0f31f5597e11bf7d510f",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 32,
+        "y": 290,
+        "w": 220,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 135.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 57,
+        "top": 67,
+        "width": 150,
+        "height": 134
+      }
+    },
+    {
+      "name": "chicken_b_idle_west_01",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_01.png",
+      "sha256": "3007a5818278bf92df10a5084d340b0fed77db78da5659e5806ea08fd10a8672",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 293,
+        "y": 281,
+        "w": 211,
+        "h": 205
+      },
+      "sourceAnchor": {
+        "x": 391.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 61,
+        "top": 61,
+        "width": 144,
+        "height": 140
+      }
+    },
+    {
+      "name": "chicken_b_idle_west_02",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_02.png",
+      "sha256": "b36f6cc54d7e1854b2cb6cf0c5676c67638c7c720dcff362c581cb243588c71c",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 534,
+        "y": 304,
+        "w": 228,
+        "h": 182
+      },
+      "sourceAnchor": {
+        "x": 647.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 50,
+        "top": 76,
+        "width": 156,
+        "height": 124
+      }
+    },
+    {
+      "name": "chicken_b_idle_west_03",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_03.png",
+      "sha256": "c2cee06c12833396d58125796fa6d42ff7254d629d5717ae69e780239be30753",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 790,
+        "y": 289,
+        "w": 221,
+        "h": 197
+      },
+      "sourceAnchor": {
+        "x": 903.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 50,
+        "top": 66,
+        "width": 151,
+        "height": 135
+      }
+    },
+    {
+      "name": "chicken_b_idle_west_04",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_04.png",
+      "sha256": "7d2ed5598524550526de6283785617a76b7dfcaa3617c323b3453611281576a3",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1036,
+        "y": 305,
+        "w": 232,
+        "h": 181
+      },
+      "sourceAnchor": {
+        "x": 1159.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 44,
+        "top": 77,
+        "width": 158,
+        "height": 124
+      }
+    },
+    {
+      "name": "chicken_b_idle_west_05",
+      "file": "animals/chicken/west/frames/chicken_b_idle_west_05.png",
+      "sha256": "3c26529df69909324593fba52e15d85c7f53311f07aca5a9abb4312fa3eb6b70",
+      "source": "sources/chicken-idle.png",
+      "sourceHash": "3a1df62c962e10fc024d6f44bd7e12f82579027c5ede3ed97a464fd89414119a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1292,
+        "y": 290,
+        "w": 217,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 1415.5,
+        "y": 485
+      },
+      "destination": {
+        "left": 44,
+        "top": 67,
+        "width": 148,
+        "height": 134
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_00",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_00.png",
+      "sha256": "056c4427c144faaaadab4683b10f8bc2ce21eaa5dd0f67300f66e7fb33732b2b",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 41,
+        "y": 295,
+        "w": 214,
+        "h": 199
+      },
+      "sourceAnchor": {
+        "x": 131,
+        "y": 495
+      },
+      "destination": {
+        "left": 67,
+        "top": 63,
+        "width": 146,
+        "height": 136
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_01",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_01.png",
+      "sha256": "6f72c74c62da1e1ace005138fd807f4e3cd64a7b4f94825f40ec8a3abe07c336",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 286,
+        "y": 298,
+        "w": 220,
+        "h": 196
+      },
+      "sourceAnchor": {
+        "x": 387,
+        "y": 495
+      },
+      "destination": {
+        "left": 59,
+        "top": 65,
+        "width": 150,
+        "height": 134
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_02",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_02.png",
+      "sha256": "7cd9d3c9336e9b60fad5f905af7ebf57672455290a8df7c202004651297dcef2",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 536,
+        "y": 295,
+        "w": 215,
+        "h": 204
+      },
+      "sourceAnchor": {
+        "x": 643,
+        "y": 495
+      },
+      "destination": {
+        "left": 55,
+        "top": 63,
+        "width": 147,
+        "height": 139
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_03",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_03.png",
+      "sha256": "8f901d3e79a1440213db629533c965f4e64e0468e7694f4997b2a69bdb9962f1",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 788,
+        "y": 295,
+        "w": 219,
+        "h": 204
+      },
+      "sourceAnchor": {
+        "x": 899,
+        "y": 495
+      },
+      "destination": {
+        "left": 52,
+        "top": 63,
+        "width": 150,
+        "height": 139
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_04",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_04.png",
+      "sha256": "c5a5344326e456dd6e09ca3116572f8ee38a54141ab03fd6fe68cfc4086db41c",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1040,
+        "y": 294,
+        "w": 226,
+        "h": 195
+      },
+      "sourceAnchor": {
+        "x": 1155,
+        "y": 495
+      },
+      "destination": {
+        "left": 49,
+        "top": 63,
+        "width": 154,
+        "height": 133
+      }
+    },
+    {
+      "name": "chicken_b_walk_west_05",
+      "file": "animals/chicken/west/frames/chicken_b_walk_west_05.png",
+      "sha256": "7eeb82ea0d6c7db6457fea3d2c74afc2f88011adf4fb9b44c7e8fed52a1bbc03",
+      "source": "sources/chicken-walk.png",
+      "sourceHash": "4cd056b5acda07659d96d4bf7f3fdeac663b7ff22c2eee2726e2c989c170e8d5",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1295,
+        "y": 295,
+        "w": 215,
+        "h": 201
+      },
+      "sourceAnchor": {
+        "x": 1411,
+        "y": 495
+      },
+      "destination": {
+        "left": 49,
+        "top": 63,
+        "width": 147,
+        "height": 137
+      }
+    },
+    {
+      "name": "chicken_b_run_west_00",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_00.png",
+      "sha256": "7010bdee198bdd90888ec4a3e29f111f2f30b4415d8ae30738f84a42b846909e",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 25,
+        "y": 290,
+        "w": 231,
+        "h": 197
+      },
+      "sourceAnchor": {
+        "x": 138.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 50,
+        "top": 66,
+        "width": 158,
+        "height": 135
+      }
+    },
+    {
+      "name": "chicken_b_run_west_01",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_01.png",
+      "sha256": "d756e12d612fa9d7a2dfc640bb354ed79779212ec49a7ce54d4d9d7fb206eb84",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 280,
+        "y": 290,
+        "w": 233,
+        "h": 197
+      },
+      "sourceAnchor": {
+        "x": 394.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 50,
+        "top": 66,
+        "width": 159,
+        "height": 135
+      }
+    },
+    {
+      "name": "chicken_b_run_west_02",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_02.png",
+      "sha256": "e327bf11576fb9893c9de9630872aca25e72dcbddd6430b3b95b16250268ce1a",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 534,
+        "y": 288,
+        "w": 234,
+        "h": 199
+      },
+      "sourceAnchor": {
+        "x": 650.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 48,
+        "top": 65,
+        "width": 160,
+        "height": 136
+      }
+    },
+    {
+      "name": "chicken_b_run_west_03",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_03.png",
+      "sha256": "e3ce85f5da4a0ed1d32f002b061864847790f870e52935412c2cfb5e5d6311c7",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 789,
+        "y": 288,
+        "w": 234,
+        "h": 199
+      },
+      "sourceAnchor": {
+        "x": 906.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 48,
+        "top": 65,
+        "width": 160,
+        "height": 136
+      }
+    },
+    {
+      "name": "chicken_b_run_west_04",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_04.png",
+      "sha256": "f66bb08d2d49af3adad5898cc08314413d6f60906d3caa257e62108ced6935b3",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1044,
+        "y": 292,
+        "w": 226,
+        "h": 192
+      },
+      "sourceAnchor": {
+        "x": 1162.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 47,
+        "top": 68,
+        "width": 154,
+        "height": 131
+      }
+    },
+    {
+      "name": "chicken_b_run_west_05",
+      "file": "animals/chicken/west/frames/chicken_b_run_west_05.png",
+      "sha256": "f6b0e9ecfa66c844b26af9db52860b887ec4f418799e8b6d7674c287255bfa7a",
+      "source": "sources/chicken-run.png",
+      "sourceHash": "ced5a59d857c1c7f80a119848722f02c1b63fe89bbb61525eb16b41e8d507c8a",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1293,
+        "y": 289,
+        "w": 221,
+        "h": 197
+      },
+      "sourceAnchor": {
+        "x": 1418.5,
+        "y": 486
+      },
+      "destination": {
+        "left": 42,
+        "top": 65,
+        "width": 151,
+        "height": 135
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_00",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_00.png",
+      "sha256": "366ab57d3710227a59cf49e12e2e79f555a04bc58d893d3caee3507bca1e0062",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 44,
+        "y": 332,
+        "w": 204,
+        "h": 172
+      },
+      "sourceAnchor": {
+        "x": 135.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 66,
+        "top": 114,
+        "width": 139,
+        "height": 117
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_01",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_01.png",
+      "sha256": "88bf219b3a594cfbea1d42afb5b59cfa714d5c3bf3d502d434f91be5ed6f4082",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 303,
+        "y": 357,
+        "w": 191,
+        "h": 147
+      },
+      "sourceAnchor": {
+        "x": 391.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 68,
+        "top": 131,
+        "width": 130,
+        "height": 100
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_02",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_02.png",
+      "sha256": "d3548e33ae0cd74499062c5a98afb51196f27dcdbe805061b92b5b2377872a8e",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 549,
+        "y": 305,
+        "w": 194,
+        "h": 199
+      },
+      "sourceAnchor": {
+        "x": 647.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 61,
+        "top": 96,
+        "width": 132,
+        "height": 136
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_03",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_03.png",
+      "sha256": "9dd5b37812f0ddd99f5b455e660216a0d8efd46f47ca0deaa66a2b41d2159da1",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 804,
+        "y": 260,
+        "w": 200,
+        "h": 219
+      },
+      "sourceAnchor": {
+        "x": 903.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 60,
+        "top": 65,
+        "width": 137,
+        "height": 150
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_04",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_04.png",
+      "sha256": "961469b9d35c5d0154195bdf0792ec6715a9169325af18a45100637711b821dd",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1052,
+        "y": 320,
+        "w": 201,
+        "h": 182
+      },
+      "sourceAnchor": {
+        "x": 1159.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 55,
+        "top": 106,
+        "width": 137,
+        "height": 124
+      }
+    },
+    {
+      "name": "chicken_b_fly_west_05",
+      "file": "animals/chicken/west/frames/chicken_b_fly_west_05.png",
+      "sha256": "2e5209f3c26404632e3c88b539db0af2cf5166ea0ab3cac7ec2cf084b32c6dee",
+      "source": "sources/chicken-fly.png",
+      "sourceHash": "a7a13d70735af964a90bc6a385ac7dbc71333c043d8d199fdbd208b7b8cb7b09",
+      "sourceNormalization": 1,
+      "sourceBounds": {
+        "x": 1302,
+        "y": 332,
+        "w": 201,
+        "h": 172
+      },
+      "sourceAnchor": {
+        "x": 1415.5,
+        "y": 457.5
+      },
+      "destination": {
+        "left": 50,
+        "top": 114,
+        "width": 137,
+        "height": 117
+      }
+    }
+  ]
+}

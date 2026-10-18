@@ -1,0 +1,87 @@
+{
+  "species": "rat",
+  "variant": "B",
+  "direction": "south",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "rat_b_idle_south",
+      "label": "Ожидание",
+      "frames": [
+        "rat_b_idle_south_00",
+        "rat_b_idle_south_01",
+        "rat_b_idle_south_02",
+        "rat_b_idle_south_03",
+        "rat_b_idle_south_04",
+        "rat_b_idle_south_05"
+      ],
+      "files": [
+        "animals/rat/south/frames/rat_b_idle_south_00.png",
+        "animals/rat/south/frames/rat_b_idle_south_01.png",
+        "animals/rat/south/frames/rat_b_idle_south_02.png",
+        "animals/rat/south/frames/rat_b_idle_south_03.png",
+        "animals/rat/south/frames/rat_b_idle_south_04.png",
+        "animals/rat/south/frames/rat_b_idle_south_05.png"
+      ],
+      "frameRate": 5.555555555555555,
+      "frameMs": 180,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "rat_b_walk_south",
+      "label": "Ходьба",
+      "frames": [
+        "rat_b_walk_south_00",
+        "rat_b_walk_south_01",
+        "rat_b_walk_south_02",
+        "rat_b_walk_south_03",
+        "rat_b_walk_south_04",
+        "rat_b_walk_south_05"
+      ],
+      "files": [
+        "animals/rat/south/frames/rat_b_walk_south_00.png",
+        "animals/rat/south/frames/rat_b_walk_south_01.png",
+        "animals/rat/south/frames/rat_b_walk_south_02.png",
+        "animals/rat/south/frames/rat_b_walk_south_03.png",
+        "animals/rat/south/frames/rat_b_walk_south_04.png",
+        "animals/rat/south/frames/rat_b_walk_south_05.png"
+      ],
+      "frameRate": 11.764705882352942,
+      "frameMs": 85,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "rat_b_run_south",
+      "label": "Бег",
+      "frames": [
+        "rat_b_run_south_00",
+        "rat_b_run_south_01",
+        "rat_b_run_south_02",
+        "rat_b_run_south_03",
+        "rat_b_run_south_04",
+        "rat_b_run_south_05"
+      ],
+      "files": [
+        "animals/rat/south/frames/rat_b_run_south_00.png",
+        "animals/rat/south/frames/rat_b_run_south_01.png",
+        "animals/rat/south/frames/rat_b_run_south_02.png",
+        "animals/rat/south/frames/rat_b_run_south_03.png",
+        "animals/rat/south/frames/rat_b_run_south_04.png",
+        "animals/rat/south/frames/rat_b_run_south_05.png"
+      ],
+      "frameRate": 18.181818181818183,
+      "frameMs": 55,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}

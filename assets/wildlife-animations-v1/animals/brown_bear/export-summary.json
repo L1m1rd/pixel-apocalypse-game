@@ -1,0 +1,548 @@
+{
+  "fingerprint": "8fa7bdb9b7979a906edf4688b61943f7ea14eaa2dfb5e73a0146d906f7b01d32",
+  "animal": {
+    "id": "brown_bear",
+    "name": "Медведь",
+    "variant": "B",
+    "characterId": "brown_bear_b",
+    "attackCapable": true,
+    "role": "hostile",
+    "reference": "references/brown_bear-b.png",
+    "baseFiles": {
+      "south": "sprites/brown_bear/brown_bear_b_south.png",
+      "west": "sprites/brown_bear/brown_bear_b_west.png",
+      "east": "sprites/brown_bear/brown_bear_b_east.png",
+      "north": "sprites/brown_bear/brown_bear_b_north.png"
+    },
+    "baseHashes": {
+      "south": "fa9c4d371ba108aaf6a918547cc9a6639629632dc66eb1e7f53571038bc9ff2c",
+      "west": "26af400002ec5e48bf12b7035707b975b09cf868605f680b47c45370f9ca6c25",
+      "east": "ce0cf1ff3b42e871a3d20e522b1b3dcb17ff77e49921bbe8b5e6341534a66b27",
+      "north": "5c1e562f575e6b873f38849ae766c74b2ba0121df409c5be17fe415e579b4392"
+    },
+    "frameSize": 256,
+    "origin": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "sharedScale": 0.6222222222222222,
+    "suggestedWorldHeight": 52,
+    "actions": [
+      {
+        "id": "idle",
+        "label": "Ожидание",
+        "motion": "slow heavy breathing, slight head movement and ear twitch",
+        "loop": true,
+        "frameMs": 180,
+        "frames": 6,
+        "source": "sources/brown_bear-idle.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult brown bear standing naturally on all four paws, bulky brown fur, rounded ears, heavy shoulders. Action: slow heavy breathing, slight head movement and ear twitch. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Медведь movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/brown_bear-idle.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/brown_bear-idle.gif"
+      },
+      {
+        "id": "walk",
+        "label": "Ходьба",
+        "motion": "lumbering heavy alternating paws, shoulder roll and hip sway",
+        "loop": true,
+        "frameMs": 160,
+        "frames": 6,
+        "source": "sources/brown_bear-walk.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult brown bear standing naturally on all four paws, bulky brown fur, rounded ears, heavy shoulders. Action: lumbering heavy alternating paws, shoulder roll and hip sway. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Медведь movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/brown_bear-walk.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/brown_bear-walk.gif"
+      },
+      {
+        "id": "run",
+        "label": "Бег",
+        "motion": "powerful heavy rolling bear gallop, weight shifts through massive shoulders and planted forepaws",
+        "loop": true,
+        "frameMs": 110,
+        "frames": 6,
+        "source": "sources/brown_bear-run.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult brown bear standing naturally on all four paws, bulky brown fur, rounded ears, heavy shoulders. Action: powerful heavy rolling bear gallop, weight shifts through massive shoulders and planted forepaws. Six different phases of a seamless repeating cycle; frame 6 should lead naturally into frame 1. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Медведь movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/brown_bear-run.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/brown_bear-run.gif"
+      },
+      {
+        "id": "attack",
+        "label": "Атака",
+        "motion": "one powerful forepaw swipe: brace on three paws, raise one forepaw, swing it forward/down, plant it and recover; never human biped stance",
+        "loop": false,
+        "frameMs": 120,
+        "frames": 6,
+        "activeFrames": [
+          2,
+          3
+        ],
+        "impactFrame": 2,
+        "source": "sources/brown_bear-attack.png",
+        "status": "exported",
+        "prompt": "Use case: stylized-concept. Animate the EXACT selected variant B animal in the reference image. The reference is an identity/coat/anatomy reference showing SOUTH and WEST on its top row, EAST and NORTH on its bottom row. Preserve this individual, species, fur/feather pattern, proportions, horns/ears/tail, natural colors and crisp pixel-art style. This is a game animation sprite sheet, not a scene. TRUE transparent alpha background, no checkerboard, no painted scenery, no ground tile, no cast shadow, no text/labels/grid lines/borders. Orthographic 3/4 overhead top-down RPG camera, same camera as reference. Subject: an adult brown bear standing naturally on all four paws, bulky brown fur, rounded ears, heavy shoulders. Action: one powerful forepaw swipe: brace on three paws, raise one forepaw, swing it forward/down, plant it and recover; never human biped stance. Six-frame ONE-SHOT action: frames 1-2 prepare, frames 3-4 strike, frames 5-6 recover. No impact VFX, blood or opponent. Layout MUST be exactly SIX equal COLUMNS by FOUR equal ROWS on a 1536x1024 sheet, 24 cells of 256x256 pixels. Columns are time frames 1 through 6. Rows top to bottom are SOUTH (front, head toward viewer/down), WEST (head points LEFT), EAST (head points RIGHT), NORTH (rear, head up/away). Every row is this SAME animal B, not a different variant. Show an unmistakable articulated motion progression, not a translated/rotated idle cutout. Resting full animal silhouette should fit within about 175x175 source pixels, leaving space for the motion. Uniform anatomy and body scale in ALL 24 frames, same framing/pivot per row. Keep the entire silhouette and every tail, ear, horn, paw, hoof, wingtip or fin within its cell with at least 18 pixels of clear padding. Frame centers are x=128,384,640,896,1152,1408 and y=128,384,640,896. Animate IN PLACE: root does not travel across the cell. Ground contact baseline stays fixed; preserve real body bob, jump height and wing lift. No camera motion, zoom, mirrored wrong headings, extra animals, different variants, accessories, weapons, gore or motion streaks. Crisp discrete pixel clusters, no blur/smooth painting. This action must read as Медведь movement, not a generic four-legged or humanoid cycle.",
+        "selectedSource": "sources/brown_bear-attack.png",
+        "sourceNormalization": 1,
+        "comparison": "comparisons/brown_bear-attack.gif"
+      }
+    ],
+    "directions": {
+      "south": {
+        "spritesheet": "animals/brown_bear/south/spritesheet.png",
+        "atlas": "animals/brown_bear/south/atlas.json",
+        "config": "animals/brown_bear/south/animations.json",
+        "actions": {
+          "idle": {
+            "id": "brown_bear_b_idle_south",
+            "label": "Ожидание",
+            "frames": [
+              "brown_bear_b_idle_south_00",
+              "brown_bear_b_idle_south_01",
+              "brown_bear_b_idle_south_02",
+              "brown_bear_b_idle_south_03",
+              "brown_bear_b_idle_south_04",
+              "brown_bear_b_idle_south_05"
+            ],
+            "files": [
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_00.png",
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_01.png",
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_02.png",
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_03.png",
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_04.png",
+              "animals/brown_bear/south/frames/brown_bear_b_idle_south_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "brown_bear_b_walk_south",
+            "label": "Ходьба",
+            "frames": [
+              "brown_bear_b_walk_south_00",
+              "brown_bear_b_walk_south_01",
+              "brown_bear_b_walk_south_02",
+              "brown_bear_b_walk_south_03",
+              "brown_bear_b_walk_south_04",
+              "brown_bear_b_walk_south_05"
+            ],
+            "files": [
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_00.png",
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_01.png",
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_02.png",
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_03.png",
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_04.png",
+              "animals/brown_bear/south/frames/brown_bear_b_walk_south_05.png"
+            ],
+            "frameRate": 6.25,
+            "frameMs": 160,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "brown_bear_b_run_south",
+            "label": "Бег",
+            "frames": [
+              "brown_bear_b_run_south_00",
+              "brown_bear_b_run_south_01",
+              "brown_bear_b_run_south_02",
+              "brown_bear_b_run_south_03",
+              "brown_bear_b_run_south_04",
+              "brown_bear_b_run_south_05"
+            ],
+            "files": [
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_00.png",
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_01.png",
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_02.png",
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_03.png",
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_04.png",
+              "animals/brown_bear/south/frames/brown_bear_b_run_south_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "brown_bear_b_attack_south",
+            "label": "Атака",
+            "frames": [
+              "brown_bear_b_attack_south_00",
+              "brown_bear_b_attack_south_01",
+              "brown_bear_b_attack_south_02",
+              "brown_bear_b_attack_south_03",
+              "brown_bear_b_attack_south_04",
+              "brown_bear_b_attack_south_05"
+            ],
+            "files": [
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_00.png",
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_01.png",
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_02.png",
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_03.png",
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_04.png",
+              "animals/brown_bear/south/frames/brown_bear_b_attack_south_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "west": {
+        "spritesheet": "animals/brown_bear/west/spritesheet.png",
+        "atlas": "animals/brown_bear/west/atlas.json",
+        "config": "animals/brown_bear/west/animations.json",
+        "actions": {
+          "idle": {
+            "id": "brown_bear_b_idle_west",
+            "label": "Ожидание",
+            "frames": [
+              "brown_bear_b_idle_west_00",
+              "brown_bear_b_idle_west_01",
+              "brown_bear_b_idle_west_02",
+              "brown_bear_b_idle_west_03",
+              "brown_bear_b_idle_west_04",
+              "brown_bear_b_idle_west_05"
+            ],
+            "files": [
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_00.png",
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_01.png",
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_02.png",
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_03.png",
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_04.png",
+              "animals/brown_bear/west/frames/brown_bear_b_idle_west_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "brown_bear_b_walk_west",
+            "label": "Ходьба",
+            "frames": [
+              "brown_bear_b_walk_west_00",
+              "brown_bear_b_walk_west_01",
+              "brown_bear_b_walk_west_02",
+              "brown_bear_b_walk_west_03",
+              "brown_bear_b_walk_west_04",
+              "brown_bear_b_walk_west_05"
+            ],
+            "files": [
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_00.png",
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_01.png",
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_02.png",
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_03.png",
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_04.png",
+              "animals/brown_bear/west/frames/brown_bear_b_walk_west_05.png"
+            ],
+            "frameRate": 6.25,
+            "frameMs": 160,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "brown_bear_b_run_west",
+            "label": "Бег",
+            "frames": [
+              "brown_bear_b_run_west_00",
+              "brown_bear_b_run_west_01",
+              "brown_bear_b_run_west_02",
+              "brown_bear_b_run_west_03",
+              "brown_bear_b_run_west_04",
+              "brown_bear_b_run_west_05"
+            ],
+            "files": [
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_00.png",
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_01.png",
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_02.png",
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_03.png",
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_04.png",
+              "animals/brown_bear/west/frames/brown_bear_b_run_west_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "brown_bear_b_attack_west",
+            "label": "Атака",
+            "frames": [
+              "brown_bear_b_attack_west_00",
+              "brown_bear_b_attack_west_01",
+              "brown_bear_b_attack_west_02",
+              "brown_bear_b_attack_west_03",
+              "brown_bear_b_attack_west_04",
+              "brown_bear_b_attack_west_05"
+            ],
+            "files": [
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_00.png",
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_01.png",
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_02.png",
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_03.png",
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_04.png",
+              "animals/brown_bear/west/frames/brown_bear_b_attack_west_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "east": {
+        "spritesheet": "animals/brown_bear/east/spritesheet.png",
+        "atlas": "animals/brown_bear/east/atlas.json",
+        "config": "animals/brown_bear/east/animations.json",
+        "actions": {
+          "idle": {
+            "id": "brown_bear_b_idle_east",
+            "label": "Ожидание",
+            "frames": [
+              "brown_bear_b_idle_east_00",
+              "brown_bear_b_idle_east_01",
+              "brown_bear_b_idle_east_02",
+              "brown_bear_b_idle_east_03",
+              "brown_bear_b_idle_east_04",
+              "brown_bear_b_idle_east_05"
+            ],
+            "files": [
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_00.png",
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_01.png",
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_02.png",
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_03.png",
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_04.png",
+              "animals/brown_bear/east/frames/brown_bear_b_idle_east_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "brown_bear_b_walk_east",
+            "label": "Ходьба",
+            "frames": [
+              "brown_bear_b_walk_east_00",
+              "brown_bear_b_walk_east_01",
+              "brown_bear_b_walk_east_02",
+              "brown_bear_b_walk_east_03",
+              "brown_bear_b_walk_east_04",
+              "brown_bear_b_walk_east_05"
+            ],
+            "files": [
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_00.png",
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_01.png",
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_02.png",
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_03.png",
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_04.png",
+              "animals/brown_bear/east/frames/brown_bear_b_walk_east_05.png"
+            ],
+            "frameRate": 6.25,
+            "frameMs": 160,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "brown_bear_b_run_east",
+            "label": "Бег",
+            "frames": [
+              "brown_bear_b_run_east_00",
+              "brown_bear_b_run_east_01",
+              "brown_bear_b_run_east_02",
+              "brown_bear_b_run_east_03",
+              "brown_bear_b_run_east_04",
+              "brown_bear_b_run_east_05"
+            ],
+            "files": [
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_00.png",
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_01.png",
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_02.png",
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_03.png",
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_04.png",
+              "animals/brown_bear/east/frames/brown_bear_b_run_east_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "brown_bear_b_attack_east",
+            "label": "Атака",
+            "frames": [
+              "brown_bear_b_attack_east_00",
+              "brown_bear_b_attack_east_01",
+              "brown_bear_b_attack_east_02",
+              "brown_bear_b_attack_east_03",
+              "brown_bear_b_attack_east_04",
+              "brown_bear_b_attack_east_05"
+            ],
+            "files": [
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_00.png",
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_01.png",
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_02.png",
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_03.png",
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_04.png",
+              "animals/brown_bear/east/frames/brown_bear_b_attack_east_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      },
+      "north": {
+        "spritesheet": "animals/brown_bear/north/spritesheet.png",
+        "atlas": "animals/brown_bear/north/atlas.json",
+        "config": "animals/brown_bear/north/animations.json",
+        "actions": {
+          "idle": {
+            "id": "brown_bear_b_idle_north",
+            "label": "Ожидание",
+            "frames": [
+              "brown_bear_b_idle_north_00",
+              "brown_bear_b_idle_north_01",
+              "brown_bear_b_idle_north_02",
+              "brown_bear_b_idle_north_03",
+              "brown_bear_b_idle_north_04",
+              "brown_bear_b_idle_north_05"
+            ],
+            "files": [
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_00.png",
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_01.png",
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_02.png",
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_03.png",
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_04.png",
+              "animals/brown_bear/north/frames/brown_bear_b_idle_north_05.png"
+            ],
+            "frameRate": 5.555555555555555,
+            "frameMs": 180,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "walk": {
+            "id": "brown_bear_b_walk_north",
+            "label": "Ходьба",
+            "frames": [
+              "brown_bear_b_walk_north_00",
+              "brown_bear_b_walk_north_01",
+              "brown_bear_b_walk_north_02",
+              "brown_bear_b_walk_north_03",
+              "brown_bear_b_walk_north_04",
+              "brown_bear_b_walk_north_05"
+            ],
+            "files": [
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_00.png",
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_01.png",
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_02.png",
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_03.png",
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_04.png",
+              "animals/brown_bear/north/frames/brown_bear_b_walk_north_05.png"
+            ],
+            "frameRate": 6.25,
+            "frameMs": 160,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "run": {
+            "id": "brown_bear_b_run_north",
+            "label": "Бег",
+            "frames": [
+              "brown_bear_b_run_north_00",
+              "brown_bear_b_run_north_01",
+              "brown_bear_b_run_north_02",
+              "brown_bear_b_run_north_03",
+              "brown_bear_b_run_north_04",
+              "brown_bear_b_run_north_05"
+            ],
+            "files": [
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_00.png",
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_01.png",
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_02.png",
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_03.png",
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_04.png",
+              "animals/brown_bear/north/frames/brown_bear_b_run_north_05.png"
+            ],
+            "frameRate": 9.090909090909092,
+            "frameMs": 110,
+            "repeat": -1,
+            "persistence": "loop",
+            "rootMotion": false
+          },
+          "attack": {
+            "id": "brown_bear_b_attack_north",
+            "label": "Атака",
+            "frames": [
+              "brown_bear_b_attack_north_00",
+              "brown_bear_b_attack_north_01",
+              "brown_bear_b_attack_north_02",
+              "brown_bear_b_attack_north_03",
+              "brown_bear_b_attack_north_04",
+              "brown_bear_b_attack_north_05"
+            ],
+            "files": [
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_00.png",
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_01.png",
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_02.png",
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_03.png",
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_04.png",
+              "animals/brown_bear/north/frames/brown_bear_b_attack_north_05.png"
+            ],
+            "frameRate": 8.333333333333334,
+            "frameMs": 120,
+            "repeat": 0,
+            "persistence": "return-to-idle",
+            "rootMotion": false,
+            "activeFrames": [
+              2,
+              3
+            ],
+            "impactFrame": 2,
+            "damageImplemented": false
+          }
+        }
+      }
+    }
+  }
+}

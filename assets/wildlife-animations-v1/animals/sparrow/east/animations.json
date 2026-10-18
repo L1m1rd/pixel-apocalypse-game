@@ -1,0 +1,112 @@
+{
+  "species": "sparrow",
+  "variant": "B",
+  "direction": "east",
+  "frameSize": 256,
+  "origin": {
+    "x": 0.5,
+    "y": 0.78
+  },
+  "actions": {
+    "idle": {
+      "id": "sparrow_b_idle_east",
+      "label": "Ожидание",
+      "frames": [
+        "sparrow_b_idle_east_00",
+        "sparrow_b_idle_east_01",
+        "sparrow_b_idle_east_02",
+        "sparrow_b_idle_east_03",
+        "sparrow_b_idle_east_04",
+        "sparrow_b_idle_east_05"
+      ],
+      "files": [
+        "animals/sparrow/east/frames/sparrow_b_idle_east_00.png",
+        "animals/sparrow/east/frames/sparrow_b_idle_east_01.png",
+        "animals/sparrow/east/frames/sparrow_b_idle_east_02.png",
+        "animals/sparrow/east/frames/sparrow_b_idle_east_03.png",
+        "animals/sparrow/east/frames/sparrow_b_idle_east_04.png",
+        "animals/sparrow/east/frames/sparrow_b_idle_east_05.png"
+      ],
+      "frameRate": 5.882352941176471,
+      "frameMs": 170,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "walk": {
+      "id": "sparrow_b_walk_east",
+      "label": "Прыжки по земле",
+      "frames": [
+        "sparrow_b_walk_east_00",
+        "sparrow_b_walk_east_01",
+        "sparrow_b_walk_east_02",
+        "sparrow_b_walk_east_03",
+        "sparrow_b_walk_east_04",
+        "sparrow_b_walk_east_05"
+      ],
+      "files": [
+        "animals/sparrow/east/frames/sparrow_b_walk_east_00.png",
+        "animals/sparrow/east/frames/sparrow_b_walk_east_01.png",
+        "animals/sparrow/east/frames/sparrow_b_walk_east_02.png",
+        "animals/sparrow/east/frames/sparrow_b_walk_east_03.png",
+        "animals/sparrow/east/frames/sparrow_b_walk_east_04.png",
+        "animals/sparrow/east/frames/sparrow_b_walk_east_05.png"
+      ],
+      "frameRate": 8.695652173913043,
+      "frameMs": 115,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "run": {
+      "id": "sparrow_b_run_east",
+      "label": "Бег",
+      "frames": [
+        "sparrow_b_run_east_00",
+        "sparrow_b_run_east_01",
+        "sparrow_b_run_east_02",
+        "sparrow_b_run_east_03",
+        "sparrow_b_run_east_04",
+        "sparrow_b_run_east_05"
+      ],
+      "files": [
+        "animals/sparrow/east/frames/sparrow_b_run_east_00.png",
+        "animals/sparrow/east/frames/sparrow_b_run_east_01.png",
+        "animals/sparrow/east/frames/sparrow_b_run_east_02.png",
+        "animals/sparrow/east/frames/sparrow_b_run_east_03.png",
+        "animals/sparrow/east/frames/sparrow_b_run_east_04.png",
+        "animals/sparrow/east/frames/sparrow_b_run_east_05.png"
+      ],
+      "frameRate": 15.384615384615385,
+      "frameMs": 65,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    },
+    "fly": {
+      "id": "sparrow_b_fly_east",
+      "label": "Полёт",
+      "frames": [
+        "sparrow_b_fly_east_00",
+        "sparrow_b_fly_east_01",
+        "sparrow_b_fly_east_02",
+        "sparrow_b_fly_east_03",
+        "sparrow_b_fly_east_04",
+        "sparrow_b_fly_east_05"
+      ],
+      "files": [
+        "animals/sparrow/east/frames/sparrow_b_fly_east_00.png",
+        "animals/sparrow/east/frames/sparrow_b_fly_east_01.png",
+        "animals/sparrow/east/frames/sparrow_b_fly_east_02.png",
+        "animals/sparrow/east/frames/sparrow_b_fly_east_03.png",
+        "animals/sparrow/east/frames/sparrow_b_fly_east_04.png",
+        "animals/sparrow/east/frames/sparrow_b_fly_east_05.png"
+      ],
+      "frameRate": 15.384615384615385,
+      "frameMs": 65,
+      "repeat": -1,
+      "persistence": "loop",
+      "rootMotion": false
+    }
+  }
+}
