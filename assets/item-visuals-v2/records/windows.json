@@ -1,0 +1,126 @@
+{
+  "id": "windows",
+  "name": "Целые окна — варианты",
+  "kind": "world",
+  "index": 25,
+  "source": "sources/windows.png",
+  "sheet": "sheets/windows.png",
+  "items": [
+    {
+      "id": "windows-wood",
+      "name": "Окно деревянное",
+      "description": "one intact closed wooden window frame with four unbroken clear blue-gray panes, no wall",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/windows-wood.png",
+      "sprite": "sprites/windows-wood.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 92,
+        "top": 95,
+        "width": 349,
+        "height": 351
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ee9a66a6a9facdda9803549896c55a390a90208e014992ac2171925ad2575f64"
+    },
+    {
+      "id": "windows-double",
+      "name": "Окно двустворчатое",
+      "description": "one intact closed double-casement wooden window, unbroken glass, no wall",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/windows-double.png",
+      "sprite": "sprites/windows-double.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 571,
+        "top": 95,
+        "width": 391,
+        "height": 351
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "bab944cb7c1c4c034820fbe8af2541f61b012da2dc4cb67c463dccef6aec2bc1"
+    },
+    {
+      "id": "windows-metal",
+      "name": "Окно металлическое",
+      "description": "one intact steel-framed industrial window with six unbroken panes, no wall",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/windows-metal.png",
+      "sprite": "sprites/windows-metal.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 1069,
+        "top": 113,
+        "width": 400,
+        "height": 318
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "558ba62ce1d6e205c44c21f2fc89a6dfedc937cf973b1bffbcaf25d1ee79d655"
+    },
+    {
+      "id": "windows-white",
+      "name": "Окно белое",
+      "description": "one intact faded white plastic window frame with two unbroken panes, no wall",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/windows-white.png",
+      "sprite": "sprites/windows-white.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 78,
+        "top": 577,
+        "width": 375,
+        "height": 346
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "62f536bdd93cd840800a88d764794489f3bb64ee07fe7365c665ac4ff54f10bf"
+    },
+    {
+      "id": "windows-small",
+      "name": "Окно небольшое",
+      "description": "one intact small square wooden window with one clear pane, no wall",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/windows-small.png",
+      "sprite": "sprites/windows-small.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 621,
+        "top": 605,
+        "width": 295,
+        "height": 288
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "904785f3f77b69cde3d400898693c0ab4794bf5b683f55459d66e83846d7ec70"
+    },
+    {
+      "id": "windows-open",
+      "name": "Целое открытое окно",
+      "description": "one intact wooden casement window with one sash swung open, all glass unbroken, no wall",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/windows-open.png",
+      "sprite": "sprites/windows-open.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 1069,
+        "top": 565,
+        "width": 413,
+        "height": 364
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "d7c3263fed68f4524a570e30a2a448e394acb9d898d262dc185797ca4da0c0b1"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Целые окна — варианты. Cell contents MUST follow these positions: TOP LEFT: one intact closed wooden window frame with four unbroken clear blue-gray panes, no wall; TOP MIDDLE: one intact closed double-casement wooden window, unbroken glass, no wall; TOP RIGHT: one intact steel-framed industrial window with six unbroken panes, no wall; BOTTOM LEFT: one intact faded white plastic window frame with two unbroken panes, no wall; BOTTOM MIDDLE: one intact small square wooden window with one clear pane, no wall; BOTTOM RIGHT: one intact wooden casement window with one sash swung open, all glass unbroken, no wall.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "9b3e2856facb15ac52773ed703778076e919bed36daaf9752a6aee0d44ec7e40"
+}

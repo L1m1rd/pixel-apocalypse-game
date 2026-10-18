@@ -61,7 +61,7 @@ async function main(){
   }else{
    console.log(JSON.stringify({phase:'uploading-release-archive',name,bytes:bytes.length,sha256}));
    const endpoint=release.upload_url.split('{')[0]+'?name='+encodeURIComponent(name);
-   const response=await fetch(endpoint,{method:'POST',headers:{Authorization:auth,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'pixel-apocalypse-project-publisher','Content-Type':'application/zip','Content-Length':String(bytes.length)},body:bytes});
+   const response=await fetch(endpoint,{method:'POST',headers:{Authorization:auth,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'pixel-apocalypse-project-publisher','Content-Type':'application/zip','Content-Length':String(bytes.length)},body:bytes}).catch(error=>{throw Error('Release upload connection failed: '+(error.cause?.code||error.cause?.message||error.message));});
    const uploaded=await response.json();if(response.status!==201)throw Error('Release upload failed (HTTP '+response.status+'): '+(uploaded.message||'unknown error'));asset=uploaded;
   }
   if(asset.state!=='uploaded'||asset.size!==bytes.length||(asset.digest&&asset.digest!=='sha256:'+sha256))throw Error('Release asset integrity verification failed');
@@ -87,8 +87,13 @@ async function main(){
   }
   git(['add','--all']);
  }
- const pending=git(['diff','--cached','--name-only']);
  const configFile=path.join(ROOT,'publication-config.json');
+ if(pathsIndex!==-1&&fs.existsSync(configFile)){
+  const excluded=JSON.parse(fs.readFileSync(configFile,'utf8')).excludedLocalPaths;
+  for(const item of excluded)if(path.isAbsolute(item)||item.startsWith('-')||item.split(/[\\/]/).includes('..'))throw Error('Invalid excluded publication path');
+  git(['rm','-r','--cached','--ignore-unmatch','--',...excluded]);
+ }
+ const pending=git(['diff','--cached','--name-only']);
  if(fs.existsSync(configFile)){
   const cfg=JSON.parse(fs.readFileSync(configFile,'utf8'));
   const tracked=git(['-c','core.quotepath=false','ls-files']).split('\n');

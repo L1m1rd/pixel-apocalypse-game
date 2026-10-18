@@ -1,0 +1,138 @@
+{
+  "id": "pants-2",
+  "name": "Штаны — варианты 7–12",
+  "kind": "inventory",
+  "index": 19,
+  "source": "sources/pants-2.png",
+  "sheet": "sheets/pants-2.png",
+  "items": [
+    {
+      "id": "pants-2-v7",
+      "name": "Штаны камуфляжные",
+      "description": "one complete empty muted woodland camouflage cargo trousers, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 7,
+      "art": "art/pants-2-v7.png",
+      "sprite": "sprites/pants-2-v7.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 137,
+        "top": 40,
+        "width": 263,
+        "height": 444
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b44a67ef3aad4e887eafc922d9eb54d93118948bf53f56b321fdee57d873a1f9"
+    },
+    {
+      "id": "pants-2-v8",
+      "name": "Штаны туристические",
+      "description": "one complete empty dark teal hiking trousers with zip thigh pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 8,
+      "art": "art/pants-2-v8.png",
+      "sprite": "sprites/pants-2-v8.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 643,
+        "top": 40,
+        "width": 256,
+        "height": 444
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "6c8d17cb8e5d4df5ccac24aa0ea304df0c46d3435b3e7c41d06a294e3f2c82b1"
+    },
+    {
+      "id": "pants-2-v9",
+      "name": "Штаны спортивные",
+      "description": "one complete empty charcoal sweatpants with elastic ankles, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 9,
+      "art": "art/pants-2-v9.png",
+      "sprite": "sprites/pants-2-v9.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1150,
+        "top": 38,
+        "width": 249,
+        "height": 443
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "82af21bc4e762620b458df6a9c36d64141a795a0335455efafed4e5417b833bd"
+    },
+    {
+      "id": "pants-2-v10",
+      "name": "Штаны утеплённые",
+      "description": "one complete empty dark brown padded winter trousers, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 10,
+      "art": "art/pants-2-v10.png",
+      "sprite": "sprites/pants-2-v10.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 137,
+        "top": 534,
+        "width": 273,
+        "height": 451
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "676e628f7d52fb927cdd6981c7d4bc6cd75d7f09e80162433a895f6022a51505"
+    },
+    {
+      "id": "pants-2-v11",
+      "name": "Штаны непромокаемые",
+      "description": "one complete empty slate waterproof overtrousers with sealed seam accents, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 11,
+      "art": "art/pants-2-v11.png",
+      "sprite": "sprites/pants-2-v11.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 634,
+        "top": 533,
+        "width": 274,
+        "height": 455
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e7ab46fc922709037684f09367b17b34b7556b88a4fc88bce150e34266902043"
+    },
+    {
+      "id": "pants-2-v12",
+      "name": "Штаны охотничьи",
+      "description": "one complete empty brown hunting trousers with darker seat and knee panels, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "clothingFamily": "pants",
+      "variant": 12,
+      "art": "art/pants-2-v12.png",
+      "sprite": "sprites/pants-2-v12.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1155,
+        "top": 535,
+        "width": 253,
+        "height": 453
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "bf5eb5b96b87737d22e11cdb2b11cc8bc57dfc2b5c1b18568a7105fdd021cab7"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Штаны — варианты 7–12. Cell contents MUST follow these positions: TOP LEFT: one complete empty muted woodland camouflage cargo trousers, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP MIDDLE: one complete empty dark teal hiking trousers with zip thigh pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP RIGHT: one complete empty charcoal sweatpants with elastic ankles, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM LEFT: one complete empty dark brown padded winter trousers, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM MIDDLE: one complete empty slate waterproof overtrousers with sealed seam accents, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM RIGHT: one complete empty brown hunting trousers with darker seat and knee panels, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "1d210c2f8aff593bb882419ae11f4a97e8b12d1eaa3b514de9f68dcd1057264c"
+}

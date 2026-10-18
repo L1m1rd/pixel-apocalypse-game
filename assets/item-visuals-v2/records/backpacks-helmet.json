@@ -1,0 +1,131 @@
+{
+  "id": "backpacks-helmet",
+  "name": "Пять рюкзаков и военная каска",
+  "kind": "inventory",
+  "index": 6,
+  "source": "sources/backpacks-helmet.png",
+  "sheet": "sheets/backpacks-helmet.png",
+  "items": [
+    {
+      "id": "backpacks-helmet-pack-1",
+      "name": "Рюкзак — малый",
+      "description": "a tiny compact civilian daypack, one main pocket, no side pouches",
+      "cell": 0,
+      "iconOccupancy": 128,
+      "tier": 1,
+      "art": "art/backpacks-helmet-pack-1.png",
+      "sprite": "sprites/backpacks-helmet-pack-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 159,
+        "top": 132,
+        "width": 237,
+        "height": 263
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0a0da072c57158d74fbf8629ea3f15ec6bd153aa1859400dbc9a8ed82d5a3285"
+    },
+    {
+      "id": "backpacks-helmet-pack-2",
+      "name": "Рюкзак — малый-средний",
+      "description": "a small-to-medium daypack, two pockets and slim side pockets",
+      "cell": 1,
+      "iconOccupancy": 152,
+      "tier": 2,
+      "art": "art/backpacks-helmet-pack-2.png",
+      "sprite": "sprites/backpacks-helmet-pack-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 594,
+        "top": 73,
+        "width": 324,
+        "height": 335
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "eb3b1c0020a1394fc98de3e9656c7bebe58d274cb900a49df7321464770a3b9f"
+    },
+    {
+      "id": "backpacks-helmet-pack-3",
+      "name": "Рюкзак — средний",
+      "description": "a medium hiking backpack with chest strap and two side compartments",
+      "cell": 2,
+      "iconOccupancy": 176,
+      "tier": 3,
+      "art": "art/backpacks-helmet-pack-3.png",
+      "sprite": "sprites/backpacks-helmet-pack-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1072,
+        "top": 40,
+        "width": 387,
+        "height": 393
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "529ef09cbb20979f2b39fe21ea5b66faebd33a1aaab5f2e467852446602e1a7e"
+    },
+    {
+      "id": "backpacks-helmet-pack-4",
+      "name": "Рюкзак — большой",
+      "description": "a large expedition backpack with wide hip belt, top lid and attached bedroll",
+      "cell": 3,
+      "iconOccupancy": 200,
+      "tier": 4,
+      "art": "art/backpacks-helmet-pack-4.png",
+      "sprite": "sprites/backpacks-helmet-pack-4.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 76,
+        "top": 467,
+        "width": 415,
+        "height": 465
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0c17e2cdadc4616738d3e1875988b40ea9e04c58c35c0d16fd7a5da6b18ce6bf"
+    },
+    {
+      "id": "backpacks-helmet-pack-5",
+      "name": "Рюкзак — очень большой",
+      "description": "a very large tall expedition rucksack with external frame, many side pouches and large hip belt",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "tier": 5,
+      "art": "art/backpacks-helmet-pack-5.png",
+      "sprite": "sprites/backpacks-helmet-pack-5.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 579,
+        "top": 447,
+        "width": 400,
+        "height": 518
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a0cadf8bd1a1fe5ce8f80368183c096d6313efb80bcc0d8fd21fab88b603eef8"
+    },
+    {
+      "id": "backpacks-helmet-helmet",
+      "name": "Военная каска",
+      "description": "one recognizable worn olive military steel helmet with chin strap, no head",
+      "cell": 5,
+      "iconOccupancy": 176,
+      "art": "art/backpacks-helmet-helmet.png",
+      "sprite": "sprites/backpacks-helmet-helmet.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1087,
+        "top": 566,
+        "width": 369,
+        "height": 383
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "f3fc051fee65ee3e292dc2f778abd8800937c3db9bdd9be812bd4a5145d3e91f"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Пять рюкзаков и военная каска. Cell contents MUST follow these positions: TOP LEFT: a tiny compact civilian daypack, one main pocket, no side pouches; TOP MIDDLE: a small-to-medium daypack, two pockets and slim side pockets; TOP RIGHT: a medium hiking backpack with chest strap and two side compartments; BOTTOM LEFT: a large expedition backpack with wide hip belt, top lid and attached bedroll; BOTTOM MIDDLE: a very large tall expedition rucksack with external frame, many side pouches and large hip belt; BOTTOM RIGHT: one recognizable worn olive military steel helmet with chin strap, no head.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "d6f030e8599aac608835dde044db6b3e51e1932763d32093219cfd8c7a5f955e"
+}

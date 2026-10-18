@@ -1,0 +1,96 @@
+{
+  "id": "meat-7",
+  "name": "Мясо и рыба — Коза, Корова",
+  "kind": "inventory",
+  "index": 32,
+  "source": "sources/meat-7.png",
+  "sheet": "sheets/meat-7.png",
+  "items": [
+    {
+      "id": "meat-7-goat-raw",
+      "name": "Коза — сырое",
+      "description": "one uncooked food ingredient: one lean red goat meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "goat",
+      "foodState": "raw",
+      "art": "art/meat-7-goat-raw.png",
+      "sprite": "sprites/meat-7-goat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 59,
+        "top": 73,
+        "width": 413,
+        "height": 362
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "97e486ff0a3eabbfef35f9abdfa53d793c734de660b51f03bd4ca6f665626f91"
+    },
+    {
+      "id": "meat-7-cow-raw",
+      "name": "Корова — сырое",
+      "description": "one uncooked food ingredient: one broad marbled beef steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "cow",
+      "foodState": "raw",
+      "art": "art/meat-7-cow-raw.png",
+      "sprite": "sprites/meat-7-cow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 539,
+        "top": 114,
+        "width": 457,
+        "height": 332
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "aa9e3326a35ffd2b04991639b46adbd59c960ec2285e500df35d860131e40f66"
+    },
+    {
+      "id": "meat-7-goat-cooked",
+      "name": "Коза — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: one lean red goat meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "goat",
+      "foodState": "cooked",
+      "art": "art/meat-7-goat-cooked.png",
+      "sprite": "sprites/meat-7-goat-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 59,
+        "top": 564,
+        "width": 413,
+        "height": 366
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "da3359949d1cfac61b43f2fdd5eb2f12826db7896f9aa8fc6d7897bc2053931c"
+    },
+    {
+      "id": "meat-7-cow-cooked",
+      "name": "Корова — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: one broad marbled beef steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "cow",
+      "foodState": "cooked",
+      "art": "art/meat-7-cow-cooked.png",
+      "sprite": "sprites/meat-7-cow-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 550,
+        "top": 596,
+        "width": 457,
+        "height": 339
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "658cf44a46e6a5b85d495cd6e75af4aee9ccdfd1f4e61c53dd3a93bf082b3688"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Коза, Корова. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: one lean red goat meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: one broad marbled beef steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: one lean red goat meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: one broad marbled beef steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame. TOP RIGHT: leave completely empty and transparent. BOTTOM RIGHT: leave completely empty and transparent. Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "057e840f03cdbaf1f0ac1077fd6e8ca86a488b264716d981757e67f33431418b"
+}

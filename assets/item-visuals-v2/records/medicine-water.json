@@ -1,0 +1,129 @@
+{
+  "id": "medicine-water",
+  "name": "Медикаменты и фляга",
+  "kind": "inventory",
+  "index": 4,
+  "source": "sources/medicine-water.png",
+  "sheet": "sheets/medicine-water.png",
+  "items": [
+    {
+      "id": "medicine-water-bandage",
+      "name": "Бинт",
+      "description": "a clean rolled white gauze bandage",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/medicine-water-bandage.png",
+      "sprite": "sprites/medicine-water-bandage.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 63,
+        "top": 135,
+        "width": 433,
+        "height": 311
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "213ea1906cad80b9c5142d30819ec7189fa5d7352ed293deb9a3de56f7ec3ece"
+    },
+    {
+      "id": "medicine-water-kit-small",
+      "name": "Малая аптечка",
+      "description": "a SMALL slim olive fabric first-aid pouch, one clasp and a tiny white cross",
+      "cell": 1,
+      "iconOccupancy": 136,
+      "tier": 1,
+      "art": "art/medicine-water-kit-small.png",
+      "sprite": "sprites/medicine-water-kit-small.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 638,
+        "top": 93,
+        "width": 260,
+        "height": 332
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7f060d438e3bb0216ba319e3b6a96903cf4642544212f563ca801803657fa774"
+    },
+    {
+      "id": "medicine-water-kit-medium",
+      "name": "Средняя аптечка",
+      "description": "a MEDIUM structured olive first-aid bag, zipper, two compartments and white cross",
+      "cell": 2,
+      "iconOccupancy": 184,
+      "tier": 2,
+      "art": "art/medicine-water-kit-medium.png",
+      "sprite": "sprites/medicine-water-kit-medium.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1051,
+        "top": 49,
+        "width": 450,
+        "height": 403
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b0a83ae0a1fc17583752cf89c13b783ad9ad60a7fc0da0539726ca86644f0501"
+    },
+    {
+      "id": "medicine-water-kit-large",
+      "name": "Большая аптечка",
+      "description": "a LARGE rigid olive medical case with handle, metal corner guards and white cross",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/medicine-water-kit-large.png",
+      "sprite": "sprites/medicine-water-kit-large.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 45,
+        "top": 525,
+        "width": 565,
+        "height": 453
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "75a01ed607c0672f8ae8bba40ac2cf6477f1f74c7ea808155023b17015952e9e"
+    },
+    {
+      "id": "medicine-water-painkillers",
+      "name": "Обезболивающее",
+      "description": "one small amber medicine bottle beside a sealed small blister strip, one combined inventory item, no readable dosage or text",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/medicine-water-painkillers.png",
+      "sprite": "sprites/medicine-water-painkillers.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 728,
+        "top": 626,
+        "width": 276,
+        "height": 300
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "965059c70b3372267b32df754b1a8f4a30252448e5037500c2f29969c243e532"
+    },
+    {
+      "id": "medicine-water-canteen",
+      "name": "Фляга с водой",
+      "description": "one olive military water canteen with attached screw cap and short strap, a small blue water droplet pictogram",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/medicine-water-canteen.png",
+      "sprite": "sprites/medicine-water-canteen.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1137,
+        "top": 518,
+        "width": 347,
+        "height": 462
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a1a6f4f823c23b46b2970429820a980a66946340ce1b3b94ad9ecf9f1afd3cf6"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Медикаменты и фляга. Cell contents MUST follow these positions: TOP LEFT: a clean rolled white gauze bandage; TOP MIDDLE: a SMALL slim olive fabric first-aid pouch, one clasp and a tiny white cross; TOP RIGHT: a MEDIUM structured olive first-aid bag, zipper, two compartments and white cross; BOTTOM LEFT: a LARGE rigid olive medical case with handle, metal corner guards and white cross; BOTTOM MIDDLE: one small amber medicine bottle beside a sealed small blister strip, one combined inventory item, no readable dosage or text; BOTTOM RIGHT: one olive military water canteen with attached screw cap and short strap, a small blue water droplet pictogram.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "63b9bfad13a218fcf61e8bd842a2a96c801f5448ec2b4657798949ff01d6f613"
+}

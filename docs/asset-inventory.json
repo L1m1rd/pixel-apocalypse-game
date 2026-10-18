@@ -44,8 +44,8 @@
     "tools/package-item-visuals.cjs",
     "tools/slice-item-components.cjs"
   ],
-  "files": 18332,
-  "totalBytes": 2309521580,
+  "files": 19010,
+  "totalBytes": 2434863268,
   "entries": [
     {
       "path": ".gitattributes",
@@ -54,13 +54,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 1386,
-      "sha256": "ace815d7ea908564ec954e52fe02a141394c9da82fbcff954a53d3e8c2c6517f"
+      "bytes": 1637,
+      "sha256": "32dd9183997bd8b918a4fc03c60d70f86bca94fcfb3578312d9833bfcd7bd839"
     },
     {
       "path": "README.md",
-      "bytes": 15637,
-      "sha256": "5793c35befb2c5d577cc9adf5f51efdb6e1e986cbaeb7482b34459d08930053c"
+      "bytes": 15771,
+      "sha256": "506378740c0ffc113d9ab1e39132fa8994e74e7b903dc95af65453b76859c282"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -36786,6 +36786,3366 @@
       "path": "assets/interface-selected-v1/overview.png",
       "bytes": 3373514,
       "sha256": "33735b9cc626db7c7c353494582446a740ae090df0229fdfe2150d45ba8622d7"
+    },
+    {
+      "path": "assets/item-visuals-v2/README.md",
+      "bytes": 13828,
+      "sha256": "0a2315779ce0cb47a83b5d419a4b8d88525667d4075bc8006ab34b3fc2aeaf39"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-pistol-open.png",
+      "bytes": 86428,
+      "sha256": "bbdb9d5b18e3de57444f859e88a7f2ca6c266ca0eb616e9f0b436b45ba146498"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-pistol.png",
+      "bytes": 91988,
+      "sha256": "a6afa77176b444c54c62442300e439b23a1be5a4d62a780dd1750879f8b62178"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-rifle-open.png",
+      "bytes": 84429,
+      "sha256": "b1f4e0ce44725f76ce5d9310e7b31acae264ff1dc0000eb0aa59f134301fb3b3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-rifle.png",
+      "bytes": 55665,
+      "sha256": "40f6d4dd4ddcf42974c40e4f4a9502c1c4e94d91e903d17c04c9d00f950ac78a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-shotgun-open.png",
+      "bytes": 80776,
+      "sha256": "1260f933a4363bee7cdea91ee23c3212b4198a33dbf9e344488df8655d772db1"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/ammunition-shotgun.png",
+      "bytes": 99530,
+      "sha256": "f88c420161150f05892fed59e358c4ef863b074e8421e101cd0bd873f62a75ec"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-helmet.png",
+      "bytes": 52468,
+      "sha256": "154db7a468223b43a7b5c0606bd4b786332b775823c1e1f68351bbfdfff8d653"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-pack-1.png",
+      "bytes": 34867,
+      "sha256": "fab47b6e14b4a7be702145e9ed1dc16bf6dee9150ea808ef11a6c0b84ac688b1"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-pack-2.png",
+      "bytes": 53489,
+      "sha256": "7e7c5bf134936d854b3a3f7d4efddbd2717448a7649185ec54e417c3c1a4848c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-pack-3.png",
+      "bytes": 71016,
+      "sha256": "ec23b0564fade80f4b988d9d631c3288047406ff4e57a4cec12c2ddb6743715d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-pack-4.png",
+      "bytes": 86341,
+      "sha256": "13e5ca61ee2cbec7971a02270fd4f7555ebefeae7483921c4ec1ef7b105f985c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/backpacks-helmet-pack-5.png",
+      "bytes": 93454,
+      "sha256": "fa0ccb6b393edb469240adcb100fac0396b1bb42291e27ceae92bb76fbe4a1da"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-boots-1.png",
+      "bytes": 70983,
+      "sha256": "32dc8d4e0c8a27992ee9d6383263366c4636ecc4299fc4568abdb07110e05553"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-boots-2.png",
+      "bytes": 99472,
+      "sha256": "94222c4d55f749e1534009aff370b056d0911626d85f21ff222c0a8d9ccb326d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-boots-3.png",
+      "bytes": 92004,
+      "sha256": "8dc192a827af1d18e74422532e8c22135b9cb81ae961a0825df22ee10a794d26"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-greaves-1.png",
+      "bytes": 102930,
+      "sha256": "a131d6d90390d309a5648ef5f77bcdfedb089cda0a81ef72c17b8bbd81820197"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-greaves-2.png",
+      "bytes": 86773,
+      "sha256": "6fee0a3a66297d3acf70ea048671438a069b97895d04612aab08060527c0292c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/boots-greaves-greaves-3.png",
+      "bytes": 94043,
+      "sha256": "05749f7ffb4eddb2780a7cb1d00e24fbeb0f773a0ecaed37272ad6ef9ba00da0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/crop-plants-beet.png",
+      "bytes": 94658,
+      "sha256": "9ccdfb9f26ff3e0b4085332fc1299a52f78f81d7bb48dff160629012fd8857d1"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/crop-plants-carrot.png",
+      "bytes": 93138,
+      "sha256": "4efefea10f3dbfb81b2a556b2c80b074f1e588e6dfa4736a2faadc6b2d5e310b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/crop-plants-millet.png",
+      "bytes": 113912,
+      "sha256": "e2c3ad2aaaa281dc3345341db270487d4ad40b4f91f1d95b924cea3338cc7763"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/crop-plants-potato.png",
+      "bytes": 107360,
+      "sha256": "569e0729a9bd880c0e34526b4eb1f1e030fa838771b1e430562f02f27c61f615"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-fishing-rod.png",
+      "bytes": 36812,
+      "sha256": "40fba52cc469fbfbf56dace7d74f45b153a8158040f87beae2040876efd81210"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-gloves-1.png",
+      "bytes": 99254,
+      "sha256": "5f148da5e5efb69e7c9f91962d2e4ffa787f255db2e87f5e8fa938bc0c53587a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-gloves-2.png",
+      "bytes": 103114,
+      "sha256": "3c092105c1f7cd236dc123cb22a3c797ed38196283294195bc77e9ca141db454"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-gloves-3.png",
+      "bytes": 106233,
+      "sha256": "026b65ec1b0422dcaf51145043d220fb50fe50df46d9a827bff5b30f77b0bd94"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-hoe.png",
+      "bytes": 34940,
+      "sha256": "6b59559b60823145087a9d6a0f79756e5fb62830d17fd5828b447a281069218b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/gloves-tools-rake.png",
+      "bytes": 37330,
+      "sha256": "a276c727861e036bda94db8b1a13451f336407a52d6926ef5be9ddbc5565c146"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/harvest-beet.png",
+      "bytes": 76961,
+      "sha256": "0df27412bcbb5ae66eb370b664b07302f15bf285ef5a7be35de7d9f78d610145"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/harvest-carrot.png",
+      "bytes": 58166,
+      "sha256": "ebd89b869f57a5a7341443f4b26d98509a6c0e3a551e54164da8f8c9f2bb90ae"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/harvest-millet.png",
+      "bytes": 128831,
+      "sha256": "9f911f3a017e57204a0c2f5c806bdbd0a39b310fa86a44693972ab31269f9657"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/harvest-potato.png",
+      "bytes": 78263,
+      "sha256": "28867bcb41719577e8e324edbee5e9329d8147f036c3fe4f1c4146703ecc45aa"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-chamomile.png",
+      "bytes": 111873,
+      "sha256": "4eaaa0549bcddf6a8a9e57632634def4da38cf857e57107aef02e9cc6f98773b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-dried-herbs.png",
+      "bytes": 67196,
+      "sha256": "6078f86e5e20aca1c43f80ba569fd177266f9c5f986edaa1878940ad7119973a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-mint.png",
+      "bytes": 89340,
+      "sha256": "0121e3031af3753532ee0fca2529655e685e1932c514b9c6938a99b34906f1b9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-nettle.png",
+      "bytes": 86086,
+      "sha256": "468c02ce2089a367dd491f5358ec7d1fedadfe692993c412f30bb211476fe8d9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-plantain.png",
+      "bytes": 92096,
+      "sha256": "20950d62a8c2641a42338cab8897b3dd4e4b332a5fab1cab6fcce44b21eaf6c4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/herbs-yarrow.png",
+      "bytes": 91225,
+      "sha256": "7167b7e5d975b00e6753182bcea6c6e7d4e9b8e9a30eb6336058c7f45c79f593"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v1.png",
+      "bytes": 106028,
+      "sha256": "fb1ec26223c5e1edc01099b57388a7bcc0ac0eb40a0f659dcea920007090ceb5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v2.png",
+      "bytes": 103292,
+      "sha256": "840b0a4c37473503a6a75d6c78b082f2a4abca441407d212a4fb69adb6d5c50a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v3.png",
+      "bytes": 101600,
+      "sha256": "fedec7b3a7dde3a153415a3b980ee39a18cd7e597749102deca454058012ea1d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v4.png",
+      "bytes": 87369,
+      "sha256": "53c2f290b44a61a3abb890db81098a70987f291a81ed4203018344fd4a8049c1"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v5.png",
+      "bytes": 117308,
+      "sha256": "82c483309dbe4a16a46e2d26dfb05470dedbc0ccabdaeffe62db2d67bf6de127"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-1-v6.png",
+      "bytes": 77555,
+      "sha256": "0d20ee147b4098b329d6e3f0b04411f2c8507434f07b2981294f7c604df75ab0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v10.png",
+      "bytes": 111416,
+      "sha256": "ec3d433c5f5f81d890630770a6a922cc134edcde538ddb8101d98a5be1fea034"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v11.png",
+      "bytes": 90812,
+      "sha256": "be786dca9f3de7b83b4526f795077c77fa3cc63182a808efe5c7642966a28068"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v12.png",
+      "bytes": 102715,
+      "sha256": "801d0cb25f1b772ff88e53c1b271a979f1697742d218dd4d87debfd68d427059"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v7.png",
+      "bytes": 108376,
+      "sha256": "12320586d311dccdf7e58ef843dd1d223f8cbdebc701232205c3e04dbcf63298"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v8.png",
+      "bytes": 79718,
+      "sha256": "d9fc1bf2b9747504ecfc2d8395592d82ac2c8b85904dd4a316dc4d450f858d95"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-2-v9.png",
+      "bytes": 86274,
+      "sha256": "009e7660498b99f388b2c98eb91690cc0347f380cf3cb8aaf14f84dcc91ef6eb"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v13.png",
+      "bytes": 107994,
+      "sha256": "b888ba025b0d8c8d4f9391783cfe632020f8479e2c9ce38a384e027005dbcb96"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v14.png",
+      "bytes": 108297,
+      "sha256": "d2d27b5fa7233534ba987c53ccd03b548f93b2f55c7b772523aa0e9e0ae672a7"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v15.png",
+      "bytes": 109461,
+      "sha256": "0f7a619e6cca3589a754eeb480f1f8f2df567b94e1fa186a16bc97e1d25bcbee"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v16.png",
+      "bytes": 113521,
+      "sha256": "39f23ca90f891b7491a7ae829305fb43163f2da477428e232c5862efda5f76e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v17.png",
+      "bytes": 93643,
+      "sha256": "d07d43838b7247a8b5cde2647d87240b228b32144d86416b4fdb0846642ca331"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-3-v18.png",
+      "bytes": 102970,
+      "sha256": "c0319e44b6e6608d20b863b64723537bd046d0c14aecd1a6eabd098b3993da9c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v19.png",
+      "bytes": 106714,
+      "sha256": "0e717bf068504824aa960b67d1d4ca1ea8debc3052ec8e95051d03960a819d82"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v20.png",
+      "bytes": 85865,
+      "sha256": "45d2a03afbf632d65e44360da721b96547a9ead3f81d441d5c5be29cc2a4baeb"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v21.png",
+      "bytes": 99375,
+      "sha256": "5e36d6ccf1abacc2a37cc7d6c9e117393c7829947eab770560a879c811975671"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v22.png",
+      "bytes": 111353,
+      "sha256": "1ad3e4210c02177a4b4073901498c4b11e005bf18b69f3e331657e4c752db226"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v23.png",
+      "bytes": 104153,
+      "sha256": "d1e8940fe110f8be12082f1fb6e729968c02e3ca7f6f79a4737139cd7bc25067"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/jackets-4-v24.png",
+      "bytes": 107231,
+      "sha256": "528b29d8cfb91939ee71b378f67566e6865e44af1e166ddac5c9d166522b6c2c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-ammo.png",
+      "bytes": 107341,
+      "sha256": "5eacd3e8e460ef6248d0d4422caea597d6252b28c64fc3c0c8eca0a5cd67427f"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-armor.png",
+      "bytes": 106143,
+      "sha256": "d380cd1a9290c101c52cae801c4c7d4fb5fcceccb190df1f6e3d04b42997e0a6"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-cooking.png",
+      "bytes": 108347,
+      "sha256": "22dd684a6c2f9e3d375747d3337775cf2db1461cb2723d018e178010b94efbda"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-engineering.png",
+      "bytes": 108601,
+      "sha256": "0e29ac86baf849d3d69b25571dfcfba009b0a3eb0c22c8bb80331b086a957b33"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-farming.png",
+      "bytes": 110375,
+      "sha256": "a36cd725669e05dc2b8129c65b1168ec9dbe1eb7e128ad2ae19afc06c11a213a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/manuals-medicine.png",
+      "bytes": 110838,
+      "sha256": "e0af9b6be2a1ca80a6a489e26b677a4e8da9511ec9843bc8fe99a9c2699611b1"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-mask-1.png",
+      "bytes": 96952,
+      "sha256": "85b1da23d3283e59d78bff02deead6cc872aa32df6aa83c4fc0556bc262dbdf8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-mask-2.png",
+      "bytes": 106969,
+      "sha256": "cf55c7bbe7747ce2ad05c1745eccddd370cd991ccb342638956515756ce79702"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-mask-3.png",
+      "bytes": 120473,
+      "sha256": "a1b93606c18cb88b139566c1097d4dc2756884d6954861af7e104b86c1adfad3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-vest-1.png",
+      "bytes": 62189,
+      "sha256": "1bf380c1563e5712a08fd7b244d6b806f02e86e07862a2d5cee43d17c792a513"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-vest-2.png",
+      "bytes": 88497,
+      "sha256": "a47f5f846c37ed3cd8afd8014dd24a92f6aa9473a56528069585299599801b02"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/masks-vests-vest-3.png",
+      "bytes": 107962,
+      "sha256": "1cb613b946ba3224f8061b9132b801daa556b5e83a5fbb58491f1142c2317ff4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-fox-cooked.png",
+      "bytes": 96332,
+      "sha256": "1d47abd32bdaba160816eb35a6455e04c5c9b72eb4ad57ebf880db9c73662a9f"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-fox-raw.png",
+      "bytes": 97785,
+      "sha256": "0f0c34a002bfd0d34cf958dc5e496492e143186784dfd222177c1c1f8d254db7"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-hare-cooked.png",
+      "bytes": 103113,
+      "sha256": "c4c4e51ba7d6c1c653e21c243afe7c4749fec465f6261b5dceae5d4d72bfebb8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-hare-raw.png",
+      "bytes": 101359,
+      "sha256": "baa4ccd43876185fb23e4e9b30362c4d5d6685153ee35de3ad1182b418967cdb"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-squirrel-cooked.png",
+      "bytes": 83706,
+      "sha256": "d3dc75c805d13176af84909167bc197de0d987213eede3c28f287290923763a8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-1-squirrel-raw.png",
+      "bytes": 81490,
+      "sha256": "a9ee69bcc3330829c21b5c71c1b0a42a78dbc902bccd7b7d47540143b355c7e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-red_deer-cooked.png",
+      "bytes": 82404,
+      "sha256": "48eba4085cd558e9b77e5aeab98a85407bd01d950600bfe218131a53b036eb70"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-red_deer-raw.png",
+      "bytes": 75256,
+      "sha256": "a8d320b056bd3a14018c63c1cd6846a3b242fd725105409b2674ebcd9354493c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-roe_deer-cooked.png",
+      "bytes": 67391,
+      "sha256": "8b1b1e6eea7ab7dd15b0f3c6dd2bfc6687bfee9d6719feaa598088ff21fcabbd"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-roe_deer-raw.png",
+      "bytes": 62849,
+      "sha256": "5f809097e3b8b270418d52bb3596d605f44ccc5f130573d6bab3dcb4c024af4e"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-wild_boar-cooked.png",
+      "bytes": 90039,
+      "sha256": "dd12ff2ba31215319cd98622e5682c9c2850eb6c22fe6dacc6f7a35a16343e38"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-2-wild_boar-raw.png",
+      "bytes": 85106,
+      "sha256": "30e1f0e08584652bb5d337e4ed784682c512ba4ab1868461be4946acdc05cbbe"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-brown_bear-cooked.png",
+      "bytes": 87375,
+      "sha256": "b5343c68234b228042ab039f52a257c1650b6479aea4763e81a810d067c1b6d5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-brown_bear-raw.png",
+      "bytes": 87297,
+      "sha256": "8c11ca71ece3ea13e8f892f0ac005b381de6ec13515212a553426732bb5d3f48"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-stray_dog-cooked.png",
+      "bytes": 76771,
+      "sha256": "acad92d8e6e50385c38634b7a747cf855dde779f9364e0e7a15f64f1e3a64e36"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-stray_dog-raw.png",
+      "bytes": 73784,
+      "sha256": "5726bcad2c921ddc7ec6d8a149a5ce4540c1f71a0bd9445c08954d5702370378"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-wolf-cooked.png",
+      "bytes": 81047,
+      "sha256": "fd816c36fa84701ce4f70774de80fec4a900e952e464a59c3cc8c2928835266a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-3-wolf-raw.png",
+      "bytes": 75457,
+      "sha256": "0697c617f349d367f5cc371ef75e9ac0921b1a3552f0ce1d7b9af514ba22d2ad"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-cat-cooked.png",
+      "bytes": 82400,
+      "sha256": "06d875aff551036a9f917121bca5ccd93a3dbf0a18902b3e45b7138ea6170d51"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-cat-raw.png",
+      "bytes": 77231,
+      "sha256": "54e882921115e3a690dd8828dfdca4a5c3343a83580cb6ca8286a4f30bbaf91b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-crow-cooked.png",
+      "bytes": 86708,
+      "sha256": "956ec991f98394e377a6b6545d13960e3b707bc1575173465d77db5d19baaa1c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-crow-raw.png",
+      "bytes": 81317,
+      "sha256": "743e41c53c7eed1e3cfacbe198dc5ed1b0a5c64910616fefcdfe25cb6251f2c2"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-rat-cooked.png",
+      "bytes": 78249,
+      "sha256": "8644439541647bc50603fcd1d428cac2b838d81bce054b7929a29d9f322e40f0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-4-rat-raw.png",
+      "bytes": 78345,
+      "sha256": "8cb6e99ee756a9eb803ad7e38d13205b4c860f268f770ae9bc3b1fcd619fdddf"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-duck-cooked.png",
+      "bytes": 91757,
+      "sha256": "bd1b6ea548f7c31f4bd5de5edde5481d5a395b2d6f804c89c9b6dde8b08628e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-duck-raw.png",
+      "bytes": 82684,
+      "sha256": "d92d2f76daac80d631b16064d21f376708e2000965870388e60f6457fcafd635"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-pigeon-cooked.png",
+      "bytes": 75856,
+      "sha256": "5aca6121d4442c8f18bffb52d8a5980c3af82a36c3c1ca21a855a4ab281d66a8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-pigeon-raw.png",
+      "bytes": 74715,
+      "sha256": "0eb49b4e5f69dafb2ac8e6f123ca577ed7db4da092f47ce7912cc024de88fa00"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-sparrow-cooked.png",
+      "bytes": 89274,
+      "sha256": "f44dc00f18b9db64edf0119f7db0f216eee42d34ecfa7435f48803d571c84cae"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-5-sparrow-raw.png",
+      "bytes": 81295,
+      "sha256": "65f1697dc457b732ce53e90b5fd1190be0fc1b4943f6e8964283e053f120c607"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-chicken-cooked.png",
+      "bytes": 107239,
+      "sha256": "46550d8a3e10afebea0c3c90c5bc1526a12ba5c16f28dc8d191f6fb100dcc6a2"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-chicken-raw.png",
+      "bytes": 93645,
+      "sha256": "593acd2b795d5f748ec8dcb8938a4087cb6bc2f0bbcf5f8342a9bdaa3e431248"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-fish-cooked.png",
+      "bytes": 64833,
+      "sha256": "1fc92d539faf72cf234ccbc86fbe575aefa60fa2a0de2ea48d201e576eb264c9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-fish-raw.png",
+      "bytes": 65246,
+      "sha256": "08d789587d24b0db961d865351e6b71234be21af4a485db661481eff7c6e7527"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-frog-cooked.png",
+      "bytes": 98430,
+      "sha256": "6654adb58f3ba4ca49624cb9f2beba3d11827a9d281679b100384329c5999f9d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-6-frog-raw.png",
+      "bytes": 96325,
+      "sha256": "8a71a087e67fc93b79a812bf22c00713e9f0391ebc20ee1cc79e039d62e452a0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-7-cow-cooked.png",
+      "bytes": 89840,
+      "sha256": "a3b94a512180588e5e2a51097de71df10b52b72fbf515f6b449a3ec0e42d4615"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-7-cow-raw.png",
+      "bytes": 85847,
+      "sha256": "71dcb2c34b5daf2ac6fe73153f338d95d4b47b266abe608d764d503cd6ec02c0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-7-goat-cooked.png",
+      "bytes": 76919,
+      "sha256": "4d8a3cab61b383db4b96630a14144e97933de9af2dcfd13d5ea0775158c13027"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/meat-7-goat-raw.png",
+      "bytes": 77854,
+      "sha256": "53245a6a943f2fd4071ecdd71774c0ad1564eddc18500410e764922dfcb83ec9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-bandage.png",
+      "bytes": 68549,
+      "sha256": "3c73600f4029634da1a52bf768d5240db0e6c2a10c8a75c2f08d81f52f9b7c45"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-canteen.png",
+      "bytes": 78544,
+      "sha256": "fcd47e6ded6fca02ef8662118e67fe150ba329cb65e52d569c8354108debb5a9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-kit-large.png",
+      "bytes": 86320,
+      "sha256": "3e717a8b4f944fa796cf8c6fb60db8595cc6da0a39d0a5a4e7074f8322cb1710"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-kit-medium.png",
+      "bytes": 73203,
+      "sha256": "e16e2947d32549407a527daa1ccc1130c96594c91109d32d480c3a54100f2f02"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-kit-small.png",
+      "bytes": 40123,
+      "sha256": "d6b67e54586dda319215b8b5db09ca411d7a6749f7b52bae6174ab4dbe08b730"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/medicine-water-painkillers.png",
+      "bytes": 97507,
+      "sha256": "5a6e7f29d6f8794d0230b3576d1e57ac825f511ba16659cd93c31ba62af14f0b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-apple-tree.png",
+      "bytes": 103790,
+      "sha256": "dda9366cc5529f69c5dae62e0bb0e383db52ea60e27a8ddcdae93bcb649b1f94"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-apple.png",
+      "bytes": 108072,
+      "sha256": "2719b068963661152ab37c10e8ce55577829ad144df78f60d36a036bfabd7988"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-pear-tree.png",
+      "bytes": 73774,
+      "sha256": "ee2cc29313d1540f8c6718543d6df8dff7a409b8736e80f17eccbda431f54325"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-pear.png",
+      "bytes": 84756,
+      "sha256": "d1258d915ce1b2fbef726ebacfbeeafdfdc900ca76b9b68af14b79b5e28876f0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-plum-tree.png",
+      "bytes": 72762,
+      "sha256": "0887c4c69c2f0764dcbc9237c4c4fab03c8a10fc2ffac5d66560f1ba5a55b978"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/orchard-plum.png",
+      "bytes": 97370,
+      "sha256": "221c483b43ca176be6fd784c420d8bcea7975a8fc01e289582cd20d1cdb5da19"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v1.png",
+      "bytes": 74390,
+      "sha256": "844ac3c50ea537127719895ce120413811d780597ec653d5061aaca9f66813f7"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v2.png",
+      "bytes": 59155,
+      "sha256": "f8c9a8eac139d3f5323fa30b7ddebbd95bdd605261b20f1a9be9e5996c32b52e"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v3.png",
+      "bytes": 71470,
+      "sha256": "ad7961d7aef6bec7385b485b7b6a2d4905913d79a6588e801bbaafa66cb6611a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v4.png",
+      "bytes": 68346,
+      "sha256": "de69b19502388e8ef39d3f37284f3b4073e248a155eeab031b9406ec710a7b44"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v5.png",
+      "bytes": 71202,
+      "sha256": "dccbbe01bb05ea23057aa498fdbeead1b2a9b37eab9f8b2cf2e1928c00f544ed"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-1-v6.png",
+      "bytes": 68902,
+      "sha256": "9ee90e3d5fc3c3be738ed7ed189afc15c25bd8fca53716db8d0a8fd886b82a40"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v10.png",
+      "bytes": 64934,
+      "sha256": "00bffca9d046c48010205dba78fbd04bc812d9c47ce0feb812068ff836dcd0b5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v11.png",
+      "bytes": 63594,
+      "sha256": "985960ce840c41987ada4aedd77536beff0049d81e1037507ba6a0b2ae152faf"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v12.png",
+      "bytes": 62913,
+      "sha256": "3edb8b689bcec30b9b910685983d8d2061bc6d667374a9c5c43473887afdb0bc"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v7.png",
+      "bytes": 70782,
+      "sha256": "dc51edea8c9ee757e09cb2a040d284b8832e832a46359c4c06e49d8fc490f6a4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v8.png",
+      "bytes": 58582,
+      "sha256": "2dba3d582d97cefc917b88d561df5aada69bb89de4fc6dc683300e0535f5683a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-2-v9.png",
+      "bytes": 57536,
+      "sha256": "b5c8ae021f0597f31ec3c2f0887dd26e99af7e116b158a1d0ec091819da854b8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v13.png",
+      "bytes": 74577,
+      "sha256": "423ff2f465cef977583105e7686ddebcaa31cf911cfbc2cd7de4d274beafeb6c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v14.png",
+      "bytes": 71306,
+      "sha256": "5cfa161505cd91f0ca6e8fa9ebc4f12da03b06749c787487cda815511688dd94"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v15.png",
+      "bytes": 79867,
+      "sha256": "e87f6ecbdbcc98ca06d68d90fee712220affe9328b43ecb7f47b58b5023393dc"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v16.png",
+      "bytes": 75929,
+      "sha256": "60e5c0fcefc0f0809766567b7a5e18b2a1337c8f9b12f883acc12a9c169437b8"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v17.png",
+      "bytes": 74957,
+      "sha256": "1af2f32c38f8c9595015b966e8901b038fd388862f779109bba2061180c670fd"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-3-v18.png",
+      "bytes": 67930,
+      "sha256": "08e558ba0b8f7e35759ea03b96140629e91b8c3f0e7be3c94825f8f1dd87ac31"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v19.png",
+      "bytes": 71240,
+      "sha256": "d9cb700e6a187cfc67d508aad5f30d28930d8768af400fd2ed906e0f07bcafc4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v20.png",
+      "bytes": 56576,
+      "sha256": "ebf58b457eebac73b19216812801258acd6740d8c52f98fc1d89667b71009991"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v21.png",
+      "bytes": 71093,
+      "sha256": "ad25124d8f12e1d69c1ae4359ee3e64fbda6959842b127deb3414c16462790b9"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v22.png",
+      "bytes": 64596,
+      "sha256": "43a94fce9c78b47e38bd61f4f9c207cdfc10bf9f56d1f1f40c49187a421dd30b"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v23.png",
+      "bytes": 81507,
+      "sha256": "a036be3482dea7e7610fb42fee2d3e28d1d6bf71666b6a2b0fdd94e6bcf18fdf"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/pants-4-v24.png",
+      "bytes": 70428,
+      "sha256": "deaa2b67b5369a67649fcb1443dc7144e67039c03cdc3d57b0673846e16ef6b4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-berries.png",
+      "bytes": 72856,
+      "sha256": "6ea4d2429cb1cd5f2f94aa9a9e673561a8792e3a1c531dffd7891cb4298fc4a3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-boards.png",
+      "bytes": 77056,
+      "sha256": "486731676961a36820494df884091555afdbfc66182dd9b588c66b6949938333"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-felled-log.png",
+      "bytes": 69557,
+      "sha256": "81a7d505ca0314ab7cd8801689c910db30a386d40e9d636be17cb64f4a149f3e"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-mushrooms.png",
+      "bytes": 98240,
+      "sha256": "a76487ebfcc765ad1b7b47859fa2405a2975fd27c87a80a071915f64d3db9279"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-stone.png",
+      "bytes": 88454,
+      "sha256": "dab3f7cc6db0c811f6585a8da8a6fcdd8c257f52f5b4441b7e457e00c383f4f4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/resource-harvest-stump.png",
+      "bytes": 66540,
+      "sha256": "bdee69002afca896c9190a264aedafa6248344239655d952d53bf0a573ab09e5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/seeds-beet.png",
+      "bytes": 102699,
+      "sha256": "91653b4800d74aff7cf4a0e7bdfcc395a62c89d6363ed9b42a90d2e69262cec2"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/seeds-carrot.png",
+      "bytes": 103155,
+      "sha256": "76680bfaddca74e96bb13e128d3ada069760f39b25354e47b49c446f16ce65b5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/seeds-millet.png",
+      "bytes": 103515,
+      "sha256": "5ba1d9d277c405dc38ceacbf968d3420817ff33a5aeb9df7b794cba73a63eebb"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/seeds-potato.png",
+      "bytes": 127403,
+      "sha256": "352cd0a06ced02c8048f0213a488d88d44f561247b96247c2378eb00f234bc4d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v1.png",
+      "bytes": 95591,
+      "sha256": "e62b92d46813bd56795fdbe43b1f6a1de0a5b1b3c6b445cc1a3e08d252acf1e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v2.png",
+      "bytes": 87665,
+      "sha256": "992129e9f153da98ebb0364113345d3ff363933354fb6ed90410f44dd0e4f422"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v3.png",
+      "bytes": 90640,
+      "sha256": "ebce0998aef4ff57d12d7a05cdf3b48fe683185cbd4b7d964d80fead1fa35b7f"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v4.png",
+      "bytes": 90221,
+      "sha256": "2380d2d13df6571eefb91be3fa08064b8e50ee886a7d554deea2d684add8dce2"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v5.png",
+      "bytes": 102335,
+      "sha256": "dbb360d09bafc6b207bd739227d02277982aac2928c0cfba0d53bebe1bf3d5d6"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-1-v6.png",
+      "bytes": 100065,
+      "sha256": "2e4f10c81c8ef2f60ed4104720251846d5c2e924744265549c934ad6c597f8e7"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v10.png",
+      "bytes": 90142,
+      "sha256": "8448d7c899a1d8c9c420fbc51ba4ed7cb170731a3daede9e0476ea231ac7d5ee"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v11.png",
+      "bytes": 79657,
+      "sha256": "4824d9e5963faeb9249c834c2d5cba612f6909e24072dfe7f3094c40d012a55e"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v12.png",
+      "bytes": 94049,
+      "sha256": "edb66cf822b2eaa531349f382c16da7e45a37f6149122d5272d7e80653c45324"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v7.png",
+      "bytes": 100936,
+      "sha256": "f7727f796b68f472b4f8e5e0283233e7cdabe316b25d178e6d15fc2bdc305ec0"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v8.png",
+      "bytes": 76193,
+      "sha256": "f372db5f355ce57a6f294cece05e9744c7860f0951ffbb4e37a04f23a4d3fa62"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-2-v9.png",
+      "bytes": 85272,
+      "sha256": "9decc4a908c6426d8b34580bc0a93c4e84e6e28cfe3d6bda3a808bba20c01304"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v13.png",
+      "bytes": 121354,
+      "sha256": "17fdd9881ee5138f41ac6c342abac31582b225c426e90733d8b9eb9c9ed946f3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v14.png",
+      "bytes": 108420,
+      "sha256": "8af3478def98d8f0f94f7ab467b06b6fb7db3ee0d5e562253d5aaba31355b028"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v15.png",
+      "bytes": 108323,
+      "sha256": "d59a78910c79cb365486f553a83042de7e85a81f32fa9012467c9c071065ee23"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v16.png",
+      "bytes": 99994,
+      "sha256": "274a77b4fd0e8d6c338d10cd41ad5fd9fa91f81978fd92b6469e55ebfc702398"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v17.png",
+      "bytes": 78899,
+      "sha256": "912d5e7b99a592398a759769e74d61a3670334dbf78f46e5ec9dbe0c0f45a215"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-3-v18.png",
+      "bytes": 93627,
+      "sha256": "48de00043a9764ea423e2b5b1100c8ee7fd176a65674408b46ddbc1bf4a1f7c3"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v19.png",
+      "bytes": 92028,
+      "sha256": "baa891b590b0196fdbb7b0382d7874574d6a913985e714be46b9218f99026b04"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v20.png",
+      "bytes": 86823,
+      "sha256": "5168a6cbfc3bdcdf8c328e89458cb654cb5c3808756266410f43f36bb408a650"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v21.png",
+      "bytes": 94540,
+      "sha256": "f14134da01c49aa393df2a4f1868e0d1e697ec7b70b97205858d3dc36f9c9a36"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v22.png",
+      "bytes": 73936,
+      "sha256": "627cf5140ae17786e2a7129be1c0c0a17a36bd44e9747c3d5822207c4ed7378e"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v23.png",
+      "bytes": 80556,
+      "sha256": "e3ccd30b131b50b29171647ba0665b15e13b33a54b81ea50f41b36c45c321d86"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/shirts-4-v24.png",
+      "bytes": 96330,
+      "sha256": "f4745b36363650cd4e35e5a15ab31fcce7205d7e9c22f382952e96969ec4a2e5"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-double.png",
+      "bytes": 123489,
+      "sha256": "591d4ab7fbb9769a8172ee131a62ed78435311b2c535fda5e413b8bbfb62f8a4"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-metal.png",
+      "bytes": 108338,
+      "sha256": "90ba4d479e17b50716f07eaf70536a0e09398df6a8ac355268aa005d3e91d983"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-open.png",
+      "bytes": 86168,
+      "sha256": "2e760a3161e34f54856007c448178406aacdefaae6367b58f1b629de423e6349"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-small.png",
+      "bytes": 130153,
+      "sha256": "29047c2d0e798ee471a21b7cfc48d080062caabb0695d008c0c71b9c649552ff"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-white.png",
+      "bytes": 128142,
+      "sha256": "c3390d37ef9d860549a0efe729fe3f3d394335e319c64891e71f39c2f24a3d7a"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/windows-wood.png",
+      "bytes": 132193,
+      "sha256": "73f6f4eadaa61448f65cb271dd4867a934a915907f5892d168a0835c218e7f63"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-barbed-deployed.png",
+      "bytes": 24428,
+      "sha256": "960fbee310700ef22eda195ae003a75bef7c650b62bcb9d76234187869be6f9c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-barbed-pickup.png",
+      "bytes": 99006,
+      "sha256": "60d3670f8924c55329497d8e245612b6310123ccebcc080e164fe0da85b2284d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-exposed.png",
+      "bytes": 22158,
+      "sha256": "ccce7f631819c51eaf627613cd7448d6b5676720817075b5adcc06ebb54e9e5d"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-insulated.png",
+      "bytes": 17672,
+      "sha256": "2e9e9a2d9698225f5bc4471deb8d059d81996aff10fb1d19576da883541f044f"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-pickup.png",
+      "bytes": 72252,
+      "sha256": "1b34dcf6d3b967bb6c9a5eba807476e82f04b90a31d400337245d5f9a15fcb9c"
+    },
+    {
+      "path": "assets/item-visuals-v2/art/wires-protected.png",
+      "bytes": 20499,
+      "sha256": "6decad1975ec90e1450ee97ff49b7821dadbf2e4187714f9b33753ac7b4d20b0"
+    },
+    {
+      "path": "assets/item-visuals-v2/catalog.json",
+      "bytes": 244610,
+      "sha256": "6e88c0e9ffe7d20e6ec009f59f43514975916ffa3fc8c38893266b9ec595e18d"
+    },
+    {
+      "path": "assets/item-visuals-v2/clothing-overview.png",
+      "bytes": 1123618,
+      "sha256": "dcd82d7e19a5cb33cf406c83cc6458a47928d29946e9c620e710bad6e4175085"
+    },
+    {
+      "path": "assets/item-visuals-v2/equipment-overview.png",
+      "bytes": 317075,
+      "sha256": "dc4de95e447a7089220181d0879bba256e2866487995c80df7b42659b12dfe44"
+    },
+    {
+      "path": "assets/item-visuals-v2/farming-overview.png",
+      "bytes": 377643,
+      "sha256": "f641cf27ecf6952fae5febcef93237d1ab46a5d8778c37ae77023c678d375423"
+    },
+    {
+      "path": "assets/item-visuals-v2/food-overview.png",
+      "bytes": 576784,
+      "sha256": "3920a073c80e40752ee7575365b59e374730ba3afc8fa1f3379ade0845efdf8f"
+    },
+    {
+      "path": "assets/item-visuals-v2/game-rules.json",
+      "bytes": 5103,
+      "sha256": "bfc2f6243491a87115b44c6794a87ef33b3f5561210937b51d94a4a41fcb1318"
+    },
+    {
+      "path": "assets/item-visuals-v2/generation-prompts.json",
+      "bytes": 85486,
+      "sha256": "328c28c68ca6f1b473fa9ddaf007a7b074e15b0db76f3993cb7a53621366cbb9"
+    },
+    {
+      "path": "assets/item-visuals-v2/manifest.js",
+      "bytes": 238322,
+      "sha256": "6e9decd0ea26bf9f964899f44c9caa5e9fa2f8fee91686a491dedfbd1d7121a6"
+    },
+    {
+      "path": "assets/item-visuals-v2/manifest.json",
+      "bytes": 309780,
+      "sha256": "8690dd7e458e55bdd7d4a286a891d604c93a6d749786d9ef05872fd703dee8e1"
+    },
+    {
+      "path": "assets/item-visuals-v2/overview.png",
+      "bytes": 2934015,
+      "sha256": "ce5c6cbf5238b463802aa67f88819ddf3274ed023b4ce3c251a1bab2ee19eb87"
+    },
+    {
+      "path": "assets/item-visuals-v2/preview.html",
+      "bytes": 4477,
+      "sha256": "337f5e4139e205e90a249f2e56a7418cec7ec262474e7410e6daed45e488830c"
+    },
+    {
+      "path": "assets/item-visuals-v2/qa/fish-pair.png",
+      "bytes": 126857,
+      "sha256": "7ea3cac05a3a63c2832400174fc9c7b598ee74a742930f97d2fd43f5f5b06d75"
+    },
+    {
+      "path": "assets/item-visuals-v2/qa/wires-light-background.png",
+      "bytes": 251339,
+      "sha256": "d0c9f3a44fc487c5ccc86a25c3f0c64e4ae646f600f47844b66dcda6af36e58e"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/ammunition.json",
+      "bytes": 6759,
+      "sha256": "7224c0b8c4e4b9aa2b3220c9a2db72484c37c0b49198e0ff362019d0f6ee4984"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/backpacks-helmet.json",
+      "bytes": 6173,
+      "sha256": "470b309a1d3c272302a3b24129df10bfa166d9e1671e115d2547dc4570b48c8d"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/boots-greaves.json",
+      "bytes": 6254,
+      "sha256": "84584aaceab25613316b3a1c9ba9cff61fccc7855f53d39575c583a7e2376e12"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/crop-plants.json",
+      "bytes": 4855,
+      "sha256": "7ee940fc1de3e6bd020313b32cee49f3e6491d4eb4bf6d77c057f67ed08c0b14"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/gloves-tools.json",
+      "bytes": 6124,
+      "sha256": "a17d4e24f76d2cee11cd1868495c0004ed26ffc96bfd08cc22f3dc9cbdd2b9d1"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/harvest.json",
+      "bytes": 4324,
+      "sha256": "f1d9a6b64ad4e43ac434ad97e46845943d4c636c321b864792cdc71863e8ebaa"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/herbs.json",
+      "bytes": 5651,
+      "sha256": "effc3f58bbf4ac191e2100949481d5417e57cd32351d85eb74805a744adc71fd"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/jackets-1.json",
+      "bytes": 7292,
+      "sha256": "4b8b4df8090f5183122da8321fd05c0c839ee1184db25938a7af14d7940ce5f0"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/jackets-2.json",
+      "bytes": 7346,
+      "sha256": "a07e20a8aaeb008d9a91518b35454f5d0b131d1e0abd0c485e5f2b566ca39ed5"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/jackets-3.json",
+      "bytes": 7427,
+      "sha256": "8d3c6983608ed81838546cc0631a1fd56b7440dcca4e92b9cf7dafc2ac06e37b"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/jackets-4.json",
+      "bytes": 7548,
+      "sha256": "8bf7e8564726dc9e1bf532349c1b432470a8cc877c1c325d88d9deb553c535ca"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/manuals.json",
+      "bytes": 6044,
+      "sha256": "a21be36c84f324e15ef732de86aaa2a0f61d51ff0b49525f08b4a2aa3cbcc338"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/masks-vests.json",
+      "bytes": 6391,
+      "sha256": "7863e0c58428043de5f7ead9f2937063ac1d9e670099bada2b606fab03bd9dcd"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-1.json",
+      "bytes": 7580,
+      "sha256": "5eb930160f6fc533f94a6d9ecffea688c18a3c61dcd5acc91bc7c98ef15f17e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-2.json",
+      "bytes": 7644,
+      "sha256": "48c88e99349c482e45f64dee8569fd517401dc8b763bf3f30fb3bc1a2b8def6e"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-3.json",
+      "bytes": 7788,
+      "sha256": "986af292869a6d82eec44ef26a60b63c7e7d64573dac53ec5cccd4175b067916"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-4.json",
+      "bytes": 7540,
+      "sha256": "15080c09c2080d5d68f632d3679a6f7e055187f2f52eea2880177a0bfc214008"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-5.json",
+      "bytes": 7688,
+      "sha256": "99ea4a0850e6e6fd7a779e548d61f9ff4195d6f2bbcee8f942edbc9b82e9286a"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-6.json",
+      "bytes": 7808,
+      "sha256": "09b830645a377c178f9457d459b764c30c9ef12f6628df60a71bdc6ad7f8e32b"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/meat-7.json",
+      "bytes": 5668,
+      "sha256": "2ab6781162cd26a6ecde109a646d9a23de95cae28ef2a05cd60c7fc13229c980"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/medicine-water.json",
+      "bytes": 6192,
+      "sha256": "c99c00699c4716fe2c56c4cb450d75dedfb5160bafa4852b8350dde8e0aa9f82"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/orchard.json",
+      "bytes": 5761,
+      "sha256": "b66aa4835cfb0f5d769f3f0f4f3c87ce953bdc61f820134e591ddc0b60b28fcd"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/pants-1.json",
+      "bytes": 7236,
+      "sha256": "045404eff9263dd4eab41d69333f533d1ccb472f0b010f03b453e4903b2fb2be"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/pants-2.json",
+      "bytes": 7326,
+      "sha256": "335ad03325b3ee5a27b93ceec2015a4a7177dc190fa460555346c2aea2fc3d90"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/pants-3.json",
+      "bytes": 7395,
+      "sha256": "226b4f8c6d2d83478445647a44b07fe8a9d3871a96b744b9170d8f77fade01bd"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/pants-4.json",
+      "bytes": 7399,
+      "sha256": "6746c1a2705b746a2273402e12354f2cbcff413c186419ebf708d187229980f9"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/resource-harvest.json",
+      "bytes": 6368,
+      "sha256": "2e412dfb84287bc356afd19805df76b25e3362d2c803c3b3edda439b716db831"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/seeds.json",
+      "bytes": 4661,
+      "sha256": "d046ff72f1aff4e365e4dd0ccdaf9222699326809417b39522de7b562fdfdd95"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/shirts-1.json",
+      "bytes": 7317,
+      "sha256": "f56ebbd5db60432014d8193a7efdba2ff010f62061456ce4e62b85b6f3064f02"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/shirts-2.json",
+      "bytes": 7418,
+      "sha256": "a68bdbf5207c4040a135e9c31fae609a377167ee139a9614227f07f4bd765022"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/shirts-3.json",
+      "bytes": 7346,
+      "sha256": "3164480f3b0dcbbba0d1ac35913f7dff0cd48fb7bd6d4cc7445d24fc761557f0"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/shirts-4.json",
+      "bytes": 7478,
+      "sha256": "6bd7226490ef51e41a32c7e418d2b8c6b09ef049e85d4290558a791892a14963"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/windows.json",
+      "bytes": 5885,
+      "sha256": "66c0e4424227dfa7fe334eb6502d5c022e6eb4f6fb53250d6df0301952aa90d0"
+    },
+    {
+      "path": "assets/item-visuals-v2/records/wires.json",
+      "bytes": 6664,
+      "sha256": "eec6946afa440de3629d74dc345ce8fca4fb49990b3376e5a25bf1b56849026f"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-bedroll.png",
+      "bytes": 50898,
+      "sha256": "2e0e33816cdc2c96ec723d4e61a531b21f8341b6f094b8662bde81e1ab5c3967"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-campfire.png",
+      "bytes": 85263,
+      "sha256": "93ae670889f06f5b968ca80689f3bf2ee9f4a69df497c2b7df60d6defa37e0a3"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-rain-collector.png",
+      "bytes": 84847,
+      "sha256": "02e79f7640667b7b1bd4a4357764075986b0f597950e24c13fd22cc42e4b1341"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-stove.png",
+      "bytes": 45993,
+      "sha256": "69eb9b6b8eedd65ef6e077b60f26c63bc88b94abe74ae11cbdc77b904f6de499"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-water-filter.png",
+      "bytes": 67813,
+      "sha256": "c0a08c85ac4524dd2a8ea09c9547c43bbc303c1d44496f23c9506c8c433e253a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/base-workbench.png",
+      "bytes": 68767,
+      "sha256": "203c4b77cae9e116c538b6a9c80e01cb129fcbf7479cae86cf1fd4defe5ec9b2"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-alarm-clock.png",
+      "bytes": 82719,
+      "sha256": "72ad1d2cdfaafdeb073c9be259d348d3c029baf3342ee13e2316a16148e79470"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-empty-bottle.png",
+      "bytes": 40082,
+      "sha256": "a8bd73fe95f9df39f3378b96862132ec9e9d39c59796608659ff5f4be35c685e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-radio.png",
+      "bytes": 88131,
+      "sha256": "3fb3eff27ac3eff988c372cc70696f35c42bf95892db0d76ac32c7f52c0f900b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-throwing-stones.png",
+      "bytes": 88278,
+      "sha256": "5b1ba0a537d236bd9ca6e90ffca11a4881ac4ff864059c33f0521cab5e7d6401"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-tin-can.png",
+      "bytes": 74561,
+      "sha256": "54dfa2c98fb6bc4f359f08fb7699c6edb1469ede0063b305a73dfcb452b48793"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/distraction-whistle.png",
+      "bytes": 51768,
+      "sha256": "6f8c53aad104fe02e2a7d3347a7c7f3dd9c1de0cb0616f13833d17711ff9fa95"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-accumulator.png",
+      "bytes": 93338,
+      "sha256": "61e014d2fa60bcdd5e719073889c0ab3215fdb94d9f2b38bf69f8728da039d9a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-batteries.png",
+      "bytes": 69995,
+      "sha256": "07571607ae1058f92ed57b59cc617ad8b9b954ca3db17dfa9bad371efcf6c766"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-charger.png",
+      "bytes": 77769,
+      "sha256": "e1e6952d4110bdd837c586640438b71b94c6dc1cd38b519afe60a8ce38f8483c"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-flashlight.png",
+      "bytes": 57457,
+      "sha256": "58942650eca6094aa873771bda205673992a1f29f839a55ec6e0c6a3871acd95"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-generator.png",
+      "bytes": 111183,
+      "sha256": "8075d079c0d55c6481afe6cccbe770d1fbec013d5834a8bff8b60de28f449690"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/electricity-lamp.png",
+      "bytes": 57696,
+      "sha256": "55268db60dcebfb167df89dd7d77a18b2dd2bee32953e3700380b6a9b60fa089"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/food-canned-food.png",
+      "bytes": 128642,
+      "sha256": "3bb852809e90e63039189c592b14118bba05c35c771d798f1b17fa4e1915256b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/food-rusks.png",
+      "bytes": 104475,
+      "sha256": "3f18ca99c959aaa894d969c8a36f29eb184693c6c05c69268373862cbfe20e82"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/food-water-bottle.png",
+      "bytes": 59798,
+      "sha256": "38debe3c4e29a97ab580fd9a888d09c6358d787e5fd92a205c43b36b83b5df63"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-bed.png",
+      "bytes": 83080,
+      "sha256": "abef2d8203d066becfa82900be59a719154e50b2354a2fac524f26c8e1585af1"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-chair.png",
+      "bytes": 59748,
+      "sha256": "40a4280587730798633bb6c1acbbaf816e9117fe67517f78f187053a539eb72e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-shelving.png",
+      "bytes": 73380,
+      "sha256": "650089abeeca29a95f02f076dcc05f728565cb82b5879ec2d489c22b051614d0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-sofa.png",
+      "bytes": 83337,
+      "sha256": "632b9e611c2847fa15b80cb8abf8c4c389a29a1b4c9784cd571b6ce9db12cabd"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-table.png",
+      "bytes": 58261,
+      "sha256": "5f531415ecad63626419fd627d536fa45a9cc8cf5a061b3d2989f5704223d4bc"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/furniture-wardrobe.png",
+      "bytes": 80105,
+      "sha256": "e52a168c8896b7889bee93281423124da6ef0b3c7bb489c53afe3ae294f0b3c0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/hazards-contaminated-puddle.png",
+      "bytes": 58427,
+      "sha256": "04744e078e7d3c27c7d7c3db863ea7297981270d40d4c4946bd24fc8a07ba43b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/hazards-electrical-panel.png",
+      "bytes": 80186,
+      "sha256": "1875d72e11cdedc405bb1a2c6da15ae9190e181124d2ce20d421fbf43b6823ed"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/hazards-fungal-growth.png",
+      "bytes": 107314,
+      "sha256": "6121f8df823243cb74aed95a91d8d797eec4bf981485938565ee0e813ad5c83a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/hazards-spore-source.png",
+      "bytes": 71334,
+      "sha256": "19ac775b65b671e883a5560987a49c1ea25af00ae9c4e317089fbdeed2bbe35f"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-access-card.png",
+      "bytes": 73067,
+      "sha256": "ce2f13d6df6da64eb5a6f55c933feda863d822780d1bb491e803efa954dbbda7"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-compass.png",
+      "bytes": 69420,
+      "sha256": "7db8223399e43ef866e712807cc16e61ce1a8d35da385dd5e97a8e527318b605"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-key.png",
+      "bytes": 53264,
+      "sha256": "2ae11a811c5e3ef5f56fcc53d109fb710eaa53c5e1daf0e8c2247f9a17200a32"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-map.png",
+      "bytes": 76994,
+      "sha256": "b16748da1e57cc25ea1e1cfd06c9d3cb7ab4a448b1187c75172ba5c88e8007d0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-note.png",
+      "bytes": 82833,
+      "sha256": "d79dbab75f94648091e9d72a45afd6706c70797aaba1e2091f7b53cd4209b554"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/information-walkie-talkie.png",
+      "bytes": 41616,
+      "sha256": "b29e08259152ecdb3c1834075e482c6ef801ba66ff685614ee0c9e620f10ddf0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-cloth.png",
+      "bytes": 71672,
+      "sha256": "6949742c3fc87d4047896bd0cdfa7b9d2b1739d0104cd3005256f05b11f4f99a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-duct-tape.png",
+      "bytes": 67610,
+      "sha256": "48a123d7f80437a45c154578d922670dafc30a5617f080294e634130bd41a151"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-nails.png",
+      "bytes": 79046,
+      "sha256": "74d4672100548db50bbf506e39cf1881eb28f956e85f45bbc16c92dfe8dd29a5"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-planks.png",
+      "bytes": 73150,
+      "sha256": "5b076d39b8052126924df456247f96c9ffe87ca235907d58bc8d0a65aebd79bf"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-scrap.png",
+      "bytes": 83093,
+      "sha256": "151ff9ed8bbc8183cc52e80305ff6e654795884906c71bc69157c49f2da05f61"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/materials-wire.png",
+      "bytes": 72706,
+      "sha256": "11cf839c747056757c165717845e5768f05c698c2abcabc268da34db7fa4f20c"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/nature-berry-bush.png",
+      "bytes": 94775,
+      "sha256": "1aa8d48c0e8e747cc310b6a9e072da294261a9d03f0bdc9e8c030206ecea74fe"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/nature-boulder.png",
+      "bytes": 94170,
+      "sha256": "6f4d0ec00ae3a6deb95669fb7a913bcfc52610fffd293302a44be9dcbc0ea046"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/nature-bush.png",
+      "bytes": 85814,
+      "sha256": "4cdda266dcb56309714ad237d11678d9834572c3630705fc7d562dacc90405bb"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/nature-mushrooms.png",
+      "bytes": 105554,
+      "sha256": "873cdb9d4ea3a4d0dff29706cc0d772b312654de996d63f4ba7fc1e36d90c37e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/nature-tree.png",
+      "bytes": 83752,
+      "sha256": "375d2dd6939e4e4481003921d104a8c1bbd041c935d2aca886cdb61995de0446"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-boarded-window.png",
+      "bytes": 114370,
+      "sha256": "a1466e7082653f00676818c2554e12881285e1f3505efc4519f47080c4ce6426"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-broken-window.png",
+      "bytes": 90809,
+      "sha256": "ab5ce933b5f20570bca1d3c84c0ab5554691d4f9b63f21fcf951ad5d0f89ecf2"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-door.png",
+      "bytes": 89992,
+      "sha256": "3547297ba9cd6abffaf1b046adc8e523b4d751d35355c6e1319e6324dacbb707"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-gate.png",
+      "bytes": 88092,
+      "sha256": "b8a3ea29386feada073fd3041e72c2e55bedeb2fa5012ec59480f6b7064f662c"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-locked-door.png",
+      "bytes": 90508,
+      "sha256": "1945c05eb1a018a2c91ce5be411ade409dfaaade076ac8be3fdadc6760e0e95a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/openings-shutters.png",
+      "bytes": 136024,
+      "sha256": "1a2fbbcb5e5515dec3c6f59312fd6e53884f2ae5ae26bcd106fed26af3108ade"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-barrel.png",
+      "bytes": 94545,
+      "sha256": "993ed1bc147a59ed83f32ce6421dcad717e1047acef0c71db332985fb3315132"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-cabinet.png",
+      "bytes": 90583,
+      "sha256": "b69b3b8ca799559721d5398fe67caa4a037a3d3546c7329382c8d0bccd1c467e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-chest.png",
+      "bytes": 91682,
+      "sha256": "ce7cc2e7338945463e39412cbbc4773a2bfb7eaa4586dd982929c817a7c6c882"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-crate.png",
+      "bytes": 112517,
+      "sha256": "10825b824c16dff755917d2738f502486198624ec26c3e74810d2f758c30c3ea"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-duffel.png",
+      "bytes": 77687,
+      "sha256": "f7f39ca13d297e25312dbbf0f24389258b937eb7f546ebbee36378566ccff761"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/storage-safe.png",
+      "bytes": 96020,
+      "sha256": "0c9631f1f3bfe949df387cd740a3e0dcdcd1c28793986c6f7b9b7d1676fb5dea"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-bolt-cutters.png",
+      "bytes": 47562,
+      "sha256": "bbb696fadd94e884939c93ba6ff8cdfbc7782a2cc5fe0cefacfa5fca8457a068"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-crowbar.png",
+      "bytes": 29161,
+      "sha256": "9a5e9cf697a8aab533521c31ee728d9c9750c0758a834d79e4c8846a265b0a73"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-hammer.png",
+      "bytes": 45902,
+      "sha256": "5f22cbd0eb11456382e973689f27960b70d40f694f3b8b9b7df3cd4959f869c8"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-saw.png",
+      "bytes": 50107,
+      "sha256": "24e5d59d3065a0eb16fc6e48f29b5300aaf70991094ffb26f6f9d5c09e3e4927"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-screwdriver.png",
+      "bytes": 41174,
+      "sha256": "fd0a36df28ac1e19c0ab0ddcce83372674dbd80f69dbcbd928f009448163acfa"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/tools-shovel.png",
+      "bytes": 45027,
+      "sha256": "b4e7624cc646482257c4dfd4f4af735512f4c951911ac2a79622431f253fbf1d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-abandoned-car.png",
+      "bytes": 70092,
+      "sha256": "dc32621ce1802b90e3ca723b5a25203a99ffe33bd19f8121dfa3abe774051a4e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-bicycle.png",
+      "bytes": 63593,
+      "sha256": "6261970ca3cc4f953ace29ba3cc5d5fc03ef730eb7d07f1a2f7b3faf2b4a7683"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-car-battery.png",
+      "bytes": 106275,
+      "sha256": "8d087ff7527f52c419a577a36d8e366ded3a23b542e92df82edfa53e1ce01864"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-fuel-can.png",
+      "bytes": 87520,
+      "sha256": "a3ee4b2101efdc403faab2c04d1fcc1686fbbecc4b91555c08e6db5847272b75"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-toolbox.png",
+      "bytes": 85664,
+      "sha256": "7eec116a2de7cb43879d2e852fac3d43be647c346a91c3874be2c207f07ae43d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/transport-wheel.png",
+      "bytes": 117477,
+      "sha256": "a671c37c549fe2b0c7534e2ef05555d09a32fce1ce68348d5efeee782dedf011"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/weapons-axe.png",
+      "bytes": 41500,
+      "sha256": "0f64658afa1120c11f1eecb91fb0f14dc6439e9594f4e67281edc05aa23abc4b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/art/weapons-knife.png",
+      "bytes": 29883,
+      "sha256": "59cdf9b28bb0553f9220c934cf998dc03cb1436dc3a5d5468f3fe758d18bdc91"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-bedroll.png",
+      "bytes": 15657,
+      "sha256": "24173b9e949e2b8305bc6ec5a73951fbd768662ac1834de8410ef45a7595e1bf"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-campfire.png",
+      "bytes": 26159,
+      "sha256": "8c35b6fea6e375419ba75c2bfd5996ad6d76977a81b4d43a95c867133a7fe7ed"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-rain-collector.png",
+      "bytes": 25284,
+      "sha256": "92bd539fc1c59cdc2cb4a5deb5554c58308791ddd446bd32e268c9b022933ed6"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-stove.png",
+      "bytes": 14152,
+      "sha256": "c424ee16c539d3a7e74a6597b497274e4f04c17fa96f1dc852c3bd0df8a36a54"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-water-filter.png",
+      "bytes": 20625,
+      "sha256": "4f8a877dd1a951c932af6b5683e76625fab5bdfb4917cca36b6a7f915b2ac07c"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/base-workbench.png",
+      "bytes": 21287,
+      "sha256": "b2dc17df173d13d472846e2b4004343f942a323a34ff965456d9193c2e05f36f"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-alarm-clock.png",
+      "bytes": 6090,
+      "sha256": "94c53457373a29c306b75fe66b2aacbde603d3605ef58ceaf05ed3399c1cf950"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-empty-bottle.png",
+      "bytes": 2863,
+      "sha256": "fbf5480115bbd5a242041d067649006407cd3a431c1f5684523290ea6a72ba57"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-radio.png",
+      "bytes": 6545,
+      "sha256": "2645d47fa90cbd724ea80530d585a188daaa53e62d9bcf6b7d70601c823214d8"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-throwing-stones.png",
+      "bytes": 6519,
+      "sha256": "8edfbe1fd6b33752ff23c535a002876e0f2f9d878bd7487d5ce570ed4a82b4ac"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-tin-can.png",
+      "bytes": 5316,
+      "sha256": "4168ac3c0cd8ef1cb594fbce1f60d8baebb4692cbb4cb7735fb569325ba21daf"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/distraction-whistle.png",
+      "bytes": 3805,
+      "sha256": "75cc9653e3b6e4a2a9d084129eaba9043d6750db4193ded73b9597ecaf80ed52"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-accumulator.png",
+      "bytes": 16056,
+      "sha256": "531b3a6c5e64ef8a643bbc911970bfa1bbd5ccf558f7b4492cf3062b126f68b6"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-batteries.png",
+      "bytes": 11899,
+      "sha256": "593d6498061b6b32531d3e7ca787af32cd0853cf72928a199c738d6066621430"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-charger.png",
+      "bytes": 13065,
+      "sha256": "75e7accf1bcc4a3311a110db5c2e438569a726255e8215dd0b0826f67d50369d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-flashlight.png",
+      "bytes": 9810,
+      "sha256": "dcf878d771af2324f51bb965a3629219a7e8cee6cc5b735000a548927d0a0daf"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-generator.png",
+      "bytes": 18759,
+      "sha256": "983816e026c83d182b5cce3c02cdda4272801ca4032ea268fa289879a7f4e1bd"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/electricity-lamp.png",
+      "bytes": 9521,
+      "sha256": "9cc86e21e9f99d9fc50f15e2d7b57c256f7a29528936d29b2a23ee59d1e23a4e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/food-canned-food.png",
+      "bytes": 9468,
+      "sha256": "9add8ce6c900e080dcaa4cdb78907647ac28daa6d56372f7da61365dc8a75ad4"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/food-rusks.png",
+      "bytes": 7459,
+      "sha256": "384095ef357b1bfa04c1adb84f13bac690903c0b2c2dfe290b0c8d98e6e2336d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/food-water-bottle.png",
+      "bytes": 4169,
+      "sha256": "49e2fdb54243ffbb8b2732589cb097c4718767337f46a404c99ce9380e9fb29b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-bed.png",
+      "bytes": 25243,
+      "sha256": "16f13b9bee3d6f63e68177aa2cb8135d0103ea0839f85bd1bc2843b93ba03007"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-chair.png",
+      "bytes": 18062,
+      "sha256": "1a0162173899ee7b680b76526359055aa2f246099c12dc2492018bbb7d379b5b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-shelving.png",
+      "bytes": 21169,
+      "sha256": "06557dfc7d55daa163e4c399eb25f7188a87feb5b12ec913f4f147f26e66c8bb"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-sofa.png",
+      "bytes": 25129,
+      "sha256": "a866be53aa61bce24b43edf0bc317cd787bab8eb009959af35d51f809eb6cdb0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-table.png",
+      "bytes": 17853,
+      "sha256": "0cc0572e18028fa29e7bce7f5cb19b234db1ee96f635713651603ab928d546a5"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/furniture-wardrobe.png",
+      "bytes": 24040,
+      "sha256": "8e8125d93439a86c8853a0ba118da54e845c2d3c937780f68956314dad28b99c"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/hazards-contaminated-puddle.png",
+      "bytes": 18129,
+      "sha256": "e5da4c4a2dc3623d2e1c4351c4a6340cf3ef7e66a8b7d6404e64ca6a47d7ead7"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/hazards-electrical-panel.png",
+      "bytes": 24212,
+      "sha256": "99c1df8f776358f7ef9f6f6b5048528074cdd08c08df027d07cdc9ef0df1c463"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/hazards-fungal-growth.png",
+      "bytes": 31945,
+      "sha256": "b636d02a0eaf6a84210d9194d7370fab7e4b3642524e383430ef396b91b14b19"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/hazards-spore-source.png",
+      "bytes": 21251,
+      "sha256": "a5c48d1f247d52371727955b9eda65b066740be707937bddb4d73c6a97546678"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-access-card.png",
+      "bytes": 5447,
+      "sha256": "e3307e0bcf2cbc6bea5e719d9bc033918e143fc5bbd7af61fd9c52bccb44f596"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-compass.png",
+      "bytes": 4876,
+      "sha256": "117af18124ac134cdc65b2068537e5afaf5bf43b0b44293d5dc5c5351c3f32b7"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-key.png",
+      "bytes": 3799,
+      "sha256": "d1f29860bc953a1478686c3b13a392145d2741476cd685f253fcfe40b58ef530"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-map.png",
+      "bytes": 5486,
+      "sha256": "8055e5e20040c1e8a8be34b6e097a906816088210c4f1432e751c05fc20c1681"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-note.png",
+      "bytes": 6168,
+      "sha256": "455538c5eb51b82d5c4c42a5b852c9122fbd2ba92f6ac041ef579aa747d572d7"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/information-walkie-talkie.png",
+      "bytes": 3057,
+      "sha256": "8f1cdbaa906861fc38213405db826daf34b1c8724a6843ff0b67c15fd82c4785"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-cloth.png",
+      "bytes": 5551,
+      "sha256": "841c23ef77fbe27069553581c44697e2c7a84ed1bc3f799a5deb7bfdf43642d4"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-duct-tape.png",
+      "bytes": 5666,
+      "sha256": "57375fa395477106ebd71f9cdfa3f30c74f4940a170ff3b51ccb260ab8de20b3"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-nails.png",
+      "bytes": 6200,
+      "sha256": "542e4f8d238c2823348e72c55824d3027c8e102a7e56dff8a5eef9b7a3d502b0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-planks.png",
+      "bytes": 5513,
+      "sha256": "1f3af9f7cccc04d0d556d225bb1a45baf8b6d95493d9772d5457e3557778308b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-scrap.png",
+      "bytes": 5924,
+      "sha256": "4f7cbb6660f64a741bb900fd051ad1c158656f5b8267b593353b08f6a2c6d362"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/materials-wire.png",
+      "bytes": 5352,
+      "sha256": "5a909f31d013a9de37c3945ca43708792c98e7f15830327c1f27070deb364160"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/nature-berry-bush.png",
+      "bytes": 28865,
+      "sha256": "34fd908eec083988e4a95036cd0ad13c72476def87210b20e67cd8d7d3304dfe"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/nature-boulder.png",
+      "bytes": 29234,
+      "sha256": "a933ac50e1b9caf5db9f918ad04139e2cf05d5408b3e087901a727994c81f7f1"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/nature-bush.png",
+      "bytes": 26047,
+      "sha256": "470b73eba319820a8ac687cdcf0be771088b24d77bd8b9d8ff6bb5cffa5aa32f"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/nature-mushrooms.png",
+      "bytes": 32930,
+      "sha256": "e4aa74045442607c8ac23809b897e2fbe19f6935fa841a60d4bfb1caa187aa14"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/nature-tree.png",
+      "bytes": 25466,
+      "sha256": "fb9b061ef72fe0e8bdd90a7ccded594fc25dd6db42634df1fca109348b3d9321"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-boarded-window.png",
+      "bytes": 34064,
+      "sha256": "325a310b655a9966432b9bf228a64169ac77f2361c9d74a3a8c0f6c393389f6d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-broken-window.png",
+      "bytes": 26931,
+      "sha256": "09408ea9fb15d9e231c6b105d5fc5d1de47c2079d656208eb7f6c4a5413a8e28"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-door.png",
+      "bytes": 26563,
+      "sha256": "d492578ccf592a6a850cbb089204d59eaf0002aa25c0beb9f5328942e6491d69"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-gate.png",
+      "bytes": 26277,
+      "sha256": "d7d11d8cfbed5b6b74600bff1b14bd00f9bb2466d2ac1e802bdd8b4cc7d28273"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-locked-door.png",
+      "bytes": 26070,
+      "sha256": "8c8988f57ab10804f35aaebdc372161aa22ff8267fa957b52951656ab42e1326"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/openings-shutters.png",
+      "bytes": 40656,
+      "sha256": "359d0b22f2adaffcfb57b3b8dd10c968859a245bca98684db968c41aed5c5736"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-barrel.png",
+      "bytes": 27564,
+      "sha256": "c0f25247ea3751b0bfdd585839838eb6ceda1cf87fbb7c4eb7ad914afc62067b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-cabinet.png",
+      "bytes": 27249,
+      "sha256": "0c186802bf3193aa3871a375f312ce55102a10079dc0f24c1341f1e67680c1f4"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-chest.png",
+      "bytes": 28156,
+      "sha256": "00a0f0b17d00491e1462f99e632ceb4c958a69724ac1da5f3d6be3be39e1287a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-crate.png",
+      "bytes": 34433,
+      "sha256": "74493a2361b944aa0d6fec3c2fa2f7d7cbdd58141c929f7ee7981419dba5f234"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-duffel.png",
+      "bytes": 23792,
+      "sha256": "307e7c0218c6ec76f1ac4c5ecba4ac0045c01d0109faf254f7e75091130bed25"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/storage-safe.png",
+      "bytes": 29549,
+      "sha256": "4a7449d6a9002373f8b6dfcf0db645031255e261f910ea6e9c8f9c496fb2dd85"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-bolt-cutters.png",
+      "bytes": 3407,
+      "sha256": "5562d6c72fa48c388e24094bfea042728d48c70327496d0889b87383b62bf9b7"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-crowbar.png",
+      "bytes": 2139,
+      "sha256": "3772086292ee602d8e039d49a2e32a9b79ea0c4944437b699938d0cda4e3528b"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-hammer.png",
+      "bytes": 3215,
+      "sha256": "fafc37ef6aeef1fc7c0337aa1c7e97a08fe58ef5f930817dfcc00d798afc9d79"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-saw.png",
+      "bytes": 3578,
+      "sha256": "7c9961b87fa12e23ffc20a692dc0bbeddea0cf4b1801d5c7869e60248756f37d"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-screwdriver.png",
+      "bytes": 2869,
+      "sha256": "7a55bed6f5c439d6a702235bc2018d5c9689085853178eea2f546a85eb04347e"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/tools-shovel.png",
+      "bytes": 3197,
+      "sha256": "4f972c4aa06b83a6e4992a198c176b5253bbf7811b387d7fbd7ffa0ad9ca5f96"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-abandoned-car.png",
+      "bytes": 11447,
+      "sha256": "16fd0ecf281492724396d42d8c9a217ee812dafab455361b305f99844d24a871"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-bicycle.png",
+      "bytes": 10557,
+      "sha256": "84cecf524a127c9c6c78cbe131142678d03417c2bcb1c6df9cd9346456b64aae"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-car-battery.png",
+      "bytes": 17795,
+      "sha256": "c639655790a39f87def24581e9d1126f5b83e66ecc4cb2f9e8183f87132a6d4f"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-fuel-can.png",
+      "bytes": 14617,
+      "sha256": "71220f16e51eace564b0392260b3aa8505fcb99a4b30070c6ee1eefe43241a6a"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-toolbox.png",
+      "bytes": 14357,
+      "sha256": "ef3149421dffc707c3d00630ad1a1ce99c22133754b13ab9cf386f5b1f567299"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/transport-wheel.png",
+      "bytes": 19061,
+      "sha256": "104f26664e0288f15e15844d63508bacb54b0b2e2e357e6784901fdb36dda6c0"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/weapons-axe.png",
+      "bytes": 2965,
+      "sha256": "d6c893a8b05930dbe59ef90eefad912d581a3aab60046b6fd74d9102d6a93cdd"
+    },
+    {
+      "path": "assets/item-visuals-v2/retained/sprites/weapons-knife.png",
+      "bytes": 2255,
+      "sha256": "8e28db8b71dd586f2b732c035e9fa4923fda98c963535ee9f44f851c68a3a05e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/ammunition.png",
+      "bytes": 504385,
+      "sha256": "20d85aa2b7e99108c633210e3969d480adabe660f470a1d8d7746e473e99a09b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/backpacks-helmet.png",
+      "bytes": 386150,
+      "sha256": "74f5d0c90113dacecb67d8a6359abb6c343d167d80f755cb17d99b156602ed5c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/boots-greaves.png",
+      "bytes": 523644,
+      "sha256": "91571fc4632fe1eb2a7430c53e302fcdc415dbe54e644e04474a5b5f4120eb4b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/crop-plants.png",
+      "bytes": 374281,
+      "sha256": "e092238156e519f75313b9e1584256145c802193d81c17750ce1b884e18d8582"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/gloves-tools.png",
+      "bytes": 397893,
+      "sha256": "e1f27b1569744fdc5d298106e30331c54c637eb4d17bf5a222228ca4db4d8b82"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/harvest.png",
+      "bytes": 345338,
+      "sha256": "435755106d8a2c353528e6f424ebcd15cc7a297e2d15acaedc73d54eb655c8e6"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/herbs.png",
+      "bytes": 485626,
+      "sha256": "6f5c73124c426d32727c3f115b75d1500da6dc657a8859f6658c29a2f48dfd1e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/jackets-1.png",
+      "bytes": 597668,
+      "sha256": "f592c2d41b1cdb6b864a95ddf9090d880bb3aad8cb94072c320ccc91a6960429"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/jackets-2.png",
+      "bytes": 580015,
+      "sha256": "a7c018290432ea6de18eb139df9b5d296e1e2a6f7260e89f06ae7bd4927d4f8c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/jackets-3.png",
+      "bytes": 645316,
+      "sha256": "138a67c6e0585b8028d5f0c6144152f0c5079c21c6dfbe18fff429f8812deddb"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/jackets-4.png",
+      "bytes": 615835,
+      "sha256": "f1d087050d3a2ec4d1ee30d81716b88cc4835cad1f69390cf057da104e238d4a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/manuals.png",
+      "bytes": 647771,
+      "sha256": "fd6b88b0bfb93a3ac0e51f8e0e967110fb750d53ae4b21f56ca66e3f4b7b490d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/masks-vests.png",
+      "bytes": 565641,
+      "sha256": "776b660ea33de3370c39b35c44ba3f0d3ebe053f13904be56c741d261bf10f84"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-1.png",
+      "bytes": 547489,
+      "sha256": "f5247778567e1005c48c628fb3a48115941552ef24618dd937e4e5141c3b73e9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-2.png",
+      "bytes": 465455,
+      "sha256": "fa452133d44f80ab820881bce46917d9f942a9adec34048e0d177301d9071df9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-3.png",
+      "bytes": 478403,
+      "sha256": "7e759722103eab9a50952ca8198e602782a333f26970f6fd14a9786e54a39ec2"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-4.png",
+      "bytes": 475486,
+      "sha256": "803e95092e1fedb1ef0f9f293f00e9e60eff20a57181ca2ea903799e47e61f22"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-5.png",
+      "bytes": 498458,
+      "sha256": "27b598bb9b1518045353cc91f0324dc6c21621d88c3400d33044a3812435602d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-6.png",
+      "bytes": 514245,
+      "sha256": "2a892c9ea0d282f6208c5a363e1e93bf8c92f889069009860be8c58f401110be"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/meat-7.png",
+      "bytes": 344750,
+      "sha256": "6df3f1fbe9d5e1e5f70fdd711f4b768e7fc220b5a825cae04f63d87c247dc845"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/medicine-water.png",
+      "bytes": 459822,
+      "sha256": "556958aac6aa9f00cfa86c3b3ad036fe3176ce44a7d74520a6e71266ca321a1f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/orchard.png",
+      "bytes": 518289,
+      "sha256": "6079ed65319d16abda3f70340d9e87707a6e9d6d4c8149a2dfc03c11a109a00e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/pants-1.png",
+      "bytes": 413049,
+      "sha256": "5955f40ad9d87b53c1e460d6839866e170ebee6e2ac43164daf71058af32b912"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/pants-2.png",
+      "bytes": 380447,
+      "sha256": "dd3d64337c5568bc9b86d6cb0d1503ee5f5f0a05d07ce38477c556db65c82777"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/pants-3.png",
+      "bytes": 449447,
+      "sha256": "8f2f4cc6d03511d95c16e725e464707a054f203c15930b657460d86955ec3e90"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/pants-4.png",
+      "bytes": 432001,
+      "sha256": "da40e9a997fab83fbca85ad207b5a856a58f6e5d8811d09bd428ac7f2a3f848f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/resource-harvest.png",
+      "bytes": 468783,
+      "sha256": "a1b8d9f505ee4c4d62796685dbb8b48647307c96a086e73778b774204b9a9d81"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-base.png",
+      "bytes": 401873,
+      "sha256": "806f7ad90db666fde02ea220e0a925c198bcaf5c708add6982f8a6e85f671ec2"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-distraction.png",
+      "bytes": 425906,
+      "sha256": "01e8cbee92cf4fbe883f20355ff4ec2d24d91e31ea95f312480b59acbfa6d359"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-electricity.png",
+      "bytes": 449787,
+      "sha256": "d58187826a6474bf99b682e3a19869780a53d11a4ae063a97c755fc2d2aadd65"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-food.png",
+      "bytes": 304853,
+      "sha256": "864a7252f7fc772f38bc259690ca602e0977ed4fae4ac9b9d7d106ba442fd9e3"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-furniture.png",
+      "bytes": 422295,
+      "sha256": "44c47f1d3b00c141de62be5ec52a138bfa78e783d823ad62b022b87f811c06f0"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-hazards.png",
+      "bytes": 319248,
+      "sha256": "360cdec8dfe16ce1af4672628c17e9777408cf622c73ad1681573fbec04db317"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-information.png",
+      "bytes": 405843,
+      "sha256": "ced731b02f3415d97335b687668ded021c8efc8f0608ef8905dd1dcdc3f27527"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-materials.png",
+      "bytes": 457720,
+      "sha256": "68a07ff957d4c7b187ab119317c674f5994b71d2e66db3c996a1bddbf1045afd"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-nature.png",
+      "bytes": 439444,
+      "sha256": "e33d9c07e74ce2f722623ca9f422161b309a5ca33932ada1a746df5fe7aac499"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-openings.png",
+      "bytes": 587576,
+      "sha256": "d84a02bab31f30fb4912cfb804ed52f8e66fc3a5570de168cad43537b8c490dc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-storage.png",
+      "bytes": 565974,
+      "sha256": "cf959cde3cf6ee5c038b6c940c7aea46f8cc677479e4e0e959c18d6a6b95149d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-tools.png",
+      "bytes": 256382,
+      "sha256": "5933fe1591c5e247eb7f597e190adecc8c8f1786504a9a569d3e1f0cbb000cdd"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-transport.png",
+      "bytes": 524039,
+      "sha256": "9559dc87281c040c8c307e725f5d1e612203a95d8cfee3b1a4a33073404ece3a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/retained-weapons.png",
+      "bytes": 87719,
+      "sha256": "a1231c6e8fb1ee303e88ebcaf24d5a7ee1343d5a088f34252fc803987e80ebe8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/seeds.png",
+      "bytes": 447082,
+      "sha256": "c623dfa8c3ebea58dc501c948c827c8cfe0481ca5bf384d2ea019f0f4b673013"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/shirts-1.png",
+      "bytes": 590528,
+      "sha256": "a7df8f01a5b3f06dffa3362f6a9b8b7476ddcaccea9a6f6542f83b9c58c37f69"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/shirts-2.png",
+      "bytes": 540114,
+      "sha256": "b8b03606f9c6db5ccd0ff6165bd9428a3e8a5bb08d810c94a05e05c9632f753a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/shirts-3.png",
+      "bytes": 631584,
+      "sha256": "68f2efd61db33a7959493499bf41ba3dee0115cddc050497a8799c696a55a923"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/shirts-4.png",
+      "bytes": 536730,
+      "sha256": "f80c17076e26e725ef95e7ecf30ccd888fafe1020ec9c3c35c96940749cc40fc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/windows.png",
+      "bytes": 678415,
+      "sha256": "22e7da952a7581f18f143bda311c9ff4e7389a90403f09bd3ac29430341a32e7"
+    },
+    {
+      "path": "assets/item-visuals-v2/sheets/wires.png",
+      "bytes": 257914,
+      "sha256": "64531afdfc2b1949dfc4df644c195bae2a5ac59d3ccf6ead219a41d44a371413"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/ammunition.png",
+      "bytes": 1969142,
+      "sha256": "5d7aca0f26433a6177d343dfe16010fa0c638ab641ea6e5c345c72986c1202c1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/backpacks-helmet.png",
+      "bytes": 2169331,
+      "sha256": "d6f030e8599aac608835dde044db6b3e51e1932763d32093219cfd8c7a5f955e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/boots-greaves.png",
+      "bytes": 2327235,
+      "sha256": "97f0ca224f340ec792c9843dedb592c9e8decc742e6fab0a51972ceee8bd06d9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/crop-plants.png",
+      "bytes": 2043379,
+      "sha256": "a21087bf0316f1ea37eeb223756e73ad2874731bbfa8abc73080a5d0d696b0f5"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/gloves-tools.png",
+      "bytes": 2052516,
+      "sha256": "26cb752e4c1f377432188e3166e4845a9251bb204f5957b2a603cc877d54ec7f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/harvest.png",
+      "bytes": 1422854,
+      "sha256": "14b59aa238f3dfa68ed40db84af41edf7a52692a3e1a1cd38602348cc7b4242c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/herbs.png",
+      "bytes": 2388984,
+      "sha256": "4b68e0b2405ee7e7ca5c89ba84acbabdfd88218de49f7ba71fd2b77d0b89f8e5"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/jackets-1.png",
+      "bytes": 2240125,
+      "sha256": "cdb974461b1f4e49d8aa94dac567d5a66967c87b71650e0eaaa77db3336a7514"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/jackets-2.png",
+      "bytes": 2300999,
+      "sha256": "8f705ec84999f40dc2e55b8ef6bf2c14a937866b3265feaa0ba4248e561a2783"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/jackets-3.png",
+      "bytes": 2520110,
+      "sha256": "fcd3dff15cf2af0120af1715e2261675a791faa90ab93545df60adefc07a19f2"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/jackets-4.png",
+      "bytes": 2299215,
+      "sha256": "7cd93ee4a191f1e800e1e3c0c4221d6fb9377fc0e123b0a942b32b5a44af70ba"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/manuals.png",
+      "bytes": 2447135,
+      "sha256": "a9b77325d345f944009efb766775690e2d1e7c2b72bb9199fc9be93c2b8d4b85"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/masks-vests.png",
+      "bytes": 2564821,
+      "sha256": "fbc534c421be1fb89f4b48aa09534099f4b13b0e7665b3ae1049f2c3dde77579"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-1.png",
+      "bytes": 1734577,
+      "sha256": "db27d5c0c66e6442730c5ca20f220174bb65afb37d102b90921003f1bfe8ee75"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-2.png",
+      "bytes": 1808916,
+      "sha256": "989ebd5331641fa4481d45b6f81752069ce42fb46e9c27a8b5530928458d6da0"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-3.png",
+      "bytes": 1815768,
+      "sha256": "37614fedf39b4de900f03ba0147b7a6c721a8268a3ec6eaa05b11d52b374c995"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-4.png",
+      "bytes": 1670311,
+      "sha256": "f67d236eab0f556dfd3cf9b7fa81b92344dddc1eaa2c21c44b0f957a91718360"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-5.png",
+      "bytes": 1631037,
+      "sha256": "8c139ac1088d5935f04c908609a402aef300d11aafab06cc022c5baf80d38346"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-6.png",
+      "bytes": 1796599,
+      "sha256": "bace48a7426d3c33eef75d1862ee411971157f9a6c2b188ece3059c790c7cf2b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/meat-7.png",
+      "bytes": 1526898,
+      "sha256": "057e840f03cdbaf1f0ac1077fd6e8ca86a488b264716d981757e67f33431418b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/medicine-water.png",
+      "bytes": 2145243,
+      "sha256": "63b9bfad13a218fcf61e8bd842a2a96c801f5448ec2b4657798949ff01d6f613"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/orchard.png",
+      "bytes": 2094885,
+      "sha256": "113b5ed96a2396aedeeafc424d8a889f1167e861b931c203e477ca26c1b9d0db"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/pants-1.png",
+      "bytes": 2109129,
+      "sha256": "50135f21712c14c45b2200a203e193ee6467fd3cc0aac577a5329c7187e5a73c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/pants-2.png",
+      "bytes": 1900963,
+      "sha256": "1d210c2f8aff593bb882419ae11f4a97e8b12d1eaa3b514de9f68dcd1057264c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/pants-3.png",
+      "bytes": 2282052,
+      "sha256": "f231234c39a26034b84f2c925f96aa0d1b0e0fe05d020279ccd45b5fa948830d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/pants-4.png",
+      "bytes": 1983702,
+      "sha256": "3add5b1f7421e75f0762fdd4d43fb3420d620a9d69f6e4f0153d99a2f9dd7083"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/resource-harvest.png",
+      "bytes": 1830365,
+      "sha256": "5a263d5436f6d73dccdbfb86cac51796e3434cd4f552ad83529af161c533d86b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/seeds.png",
+      "bytes": 1837057,
+      "sha256": "4b11eb6cc1a0202a4c49c730fddb4c39b141be1625054b4993bf9fad42dd680d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/shirts-1.png",
+      "bytes": 2204689,
+      "sha256": "a62dacf277c745c03b42505fa563d8ccf2ad0fc3b0083a9fd9b8c5b2598e158d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/shirts-2.png",
+      "bytes": 2045483,
+      "sha256": "9f0598ed9400d7693e36d63a840431421bb5c4273db617f0a87f020a861f0c6e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/shirts-3.png",
+      "bytes": 2243156,
+      "sha256": "0e7157e8797bc8cffc7d700c03f857a20d83b04fbb513fc4d18d101ea5cac497"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/shirts-4.png",
+      "bytes": 2038442,
+      "sha256": "94ac0c86fe500cfc79b0ddb152548f915bcb778c7197d264c9fb6f10f83342f5"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/windows.png",
+      "bytes": 1826737,
+      "sha256": "9b3e2856facb15ac52773ed703778076e919bed36daaf9752a6aee0d44ec7e40"
+    },
+    {
+      "path": "assets/item-visuals-v2/sources/wires.png",
+      "bytes": 1592275,
+      "sha256": "b79052e0f184c6cbff4c16e368b5cb94456c0715ee5c01e0bc2ce5c9e039ed50"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-pistol-open.png",
+      "bytes": 14796,
+      "sha256": "0bafa379bc96edf005cdb925d8d5cc55b4ba1f9c5a21c2ababfa92a9074a97fa"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-pistol.png",
+      "bytes": 16108,
+      "sha256": "0159bf82120cdcdac1619ece9e056dca5e7f30a5f56df2b490965ae8717023eb"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-rifle-open.png",
+      "bytes": 14712,
+      "sha256": "152d95fb25258c8162a58dddfd325116198d51022ddad370875e7f4d0facf1d0"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-rifle.png",
+      "bytes": 9828,
+      "sha256": "6bb34e36388b2c6fce4be7ac471cb18ba61179e43097f589e568918ce3fd8890"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-shotgun-open.png",
+      "bytes": 13704,
+      "sha256": "3895e611b70157ce6ab0150d17e967a906531c006eb6b1c93fceb6ce0aa27cbc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/ammunition-shotgun.png",
+      "bytes": 17619,
+      "sha256": "17e8b8b7f86ba1aadec9bcdc05d9e2050be4c3cb7a49c49f717becb960bdf546"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-helmet.png",
+      "bytes": 8966,
+      "sha256": "f3fc051fee65ee3e292dc2f778abd8800937c3db9bdd9be812bd4a5145d3e91f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-1.png",
+      "bytes": 5828,
+      "sha256": "0a0da072c57158d74fbf8629ea3f15ec6bd153aa1859400dbc9a8ed82d5a3285"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-2.png",
+      "bytes": 8868,
+      "sha256": "eb3b1c0020a1394fc98de3e9656c7bebe58d274cb900a49df7321464770a3b9f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-3.png",
+      "bytes": 11620,
+      "sha256": "529ef09cbb20979f2b39fe21ea5b66faebd33a1aaab5f2e467852446602e1a7e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-4.png",
+      "bytes": 14241,
+      "sha256": "0c17e2cdadc4616738d3e1875988b40ea9e04c58c35c0d16fd7a5da6b18ce6bf"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-5.png",
+      "bytes": 14978,
+      "sha256": "a0cadf8bd1a1fe5ce8f80368183c096d6313efb80bcc0d8fd21fab88b603eef8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-boots-1.png",
+      "bytes": 11579,
+      "sha256": "712e5294877651d093d000307cff545575749b5e83e3d7580f13d361307f2d34"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-boots-2.png",
+      "bytes": 16240,
+      "sha256": "70621acaced4c7514068c628472739398d1181dd38e31b60d076f0046ddb7fd1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-boots-3.png",
+      "bytes": 15278,
+      "sha256": "21d491b7b0cd89de6de780b6a370f5f562b6372a4e243de273b88d4f4ca56323"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-greaves-1.png",
+      "bytes": 16893,
+      "sha256": "a8e98da081129eb920722dec76548b876a3350b658a76c823424fa6a0bf41b76"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-greaves-2.png",
+      "bytes": 14291,
+      "sha256": "55df553ce57974a69e2b83d2c862e1526314c3e3e59ed87fc71865b43009a01e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/boots-greaves-greaves-3.png",
+      "bytes": 15296,
+      "sha256": "2fa1b7c8249cda6fca9c4e7c8c143612dd98130ea2a6d47dcab4ce7671924cc1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/crop-plants-beet.png",
+      "bytes": 27766,
+      "sha256": "3c9f41f6d7dc2141297c738c9ad584029d490bb427000667b7219aa020c54c67"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/crop-plants-carrot.png",
+      "bytes": 27361,
+      "sha256": "b6c50eacfa19f1ebd796342702a87f9dbfc6b6f08bc7f6a37a9a0d31ad155937"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/crop-plants-millet.png",
+      "bytes": 33686,
+      "sha256": "47b95e15d44049cbd1ea304ce3ce73f7ccaac9768dc73440e7a430a6f64d6a71"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/crop-plants-potato.png",
+      "bytes": 31753,
+      "sha256": "8dd9a8c00730694bc481d68460e838360aa50bf023805c99fbc4b38449ea5651"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-fishing-rod.png",
+      "bytes": 6133,
+      "sha256": "1432661d050c04d16f3ef72bdbbcf569a764ed91b50d4980219c1e3b4e0ab535"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-gloves-1.png",
+      "bytes": 16176,
+      "sha256": "4d54405a9c48377097d6b49de75c924b859309abad8e7e8a9046acccfbb68c1f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-gloves-2.png",
+      "bytes": 16622,
+      "sha256": "c7b575cacb71404645b48af7f4acb2b545eb56711bd513a0f6ca5c1420760c39"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-gloves-3.png",
+      "bytes": 17461,
+      "sha256": "6f799c6e682266a81056eb2931379c0b36a7c6083154a12de2226f946bec8b73"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-hoe.png",
+      "bytes": 5880,
+      "sha256": "80f577dc8acd9d1232655fe7c768d8aab29322a5f08fca4f88d0d9fe9d79bd47"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/gloves-tools-rake.png",
+      "bytes": 6292,
+      "sha256": "12fd952a25eb85675c6f7040527a17f5cf2b2346e81fb2f5e990d0b1fa36de34"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/harvest-beet.png",
+      "bytes": 12872,
+      "sha256": "8ab19cfd5a05ec452b8fca159875fe4fd900c1d13a2bcd252deabc662e7fb7aa"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/harvest-carrot.png",
+      "bytes": 9648,
+      "sha256": "734533a7d8aa535383d2e1faafbaad4bf09fff33b435001fb670a9e1c01ef849"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/harvest-millet.png",
+      "bytes": 21458,
+      "sha256": "33ecbf7f7b9c709b57760d4c6c9cb75f1a52405d3b284898155dcd3da50c6fff"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/harvest-potato.png",
+      "bytes": 13776,
+      "sha256": "d518a5d35a9de0ce8d8a9db0bece6a190e2b116d67df0c6a9a164163a9712288"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-chamomile.png",
+      "bytes": 17959,
+      "sha256": "ec65fdc06a86d6b272ffb106a76dd37a85c90718c842fb90d1edfd59d4ab51c2"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-dried-herbs.png",
+      "bytes": 10730,
+      "sha256": "9242eb8338e121edd90fd247bb9f037eb510e66fcd2795d61b7962b008cfe623"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-mint.png",
+      "bytes": 14359,
+      "sha256": "b6650b7adafed4e879aff35a394b4bb3e344732d7bb3f4243cbe421e5c3cd70f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-nettle.png",
+      "bytes": 13687,
+      "sha256": "c98628ba23838e75b621217a2cad10fdd62c94b86b41a6998380cc7f4d40aca4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-plantain.png",
+      "bytes": 14748,
+      "sha256": "53832a335b0c121f765b5c5d20e57a806556aa53ab59e08e2276006c972b2dd1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/herbs-yarrow.png",
+      "bytes": 14880,
+      "sha256": "ce1f2bd7c7a3b770769e6f999b7491681ac6acd2bbc40ece5d0606702a3a7a83"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v1.png",
+      "bytes": 17757,
+      "sha256": "87627b9a9136169141d7053f91970832bcfead29c15b23686a8a51a1d7fa3db6"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v2.png",
+      "bytes": 16955,
+      "sha256": "d271de3342c20914d0bf0e6bf34a03ca4bacdc427cb31f5ad358fa3328f61b40"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v3.png",
+      "bytes": 17291,
+      "sha256": "19f5bf685b7a4cd7f67762a5a4336a988cdb2c9971e0388a4312ebb1bee4458f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v4.png",
+      "bytes": 15180,
+      "sha256": "8607e318c61b1a44210ad3b2271bdc61ebe242e2bbfdd754a92a39db4a66b5c6"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v5.png",
+      "bytes": 19472,
+      "sha256": "b671e495425b0195bcad764d7b6cea26e21ff7eab37ccfdb4afb893c5325c886"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-1-v6.png",
+      "bytes": 13759,
+      "sha256": "286b3b84ec85afa8c4c268aaa6b2fb7e4f107dc48781a21d8c64b67974ea8668"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v10.png",
+      "bytes": 18312,
+      "sha256": "c4c4e68778ee9bb02b72cfb159bd7d3a84c3ddf42a06b35a5cc86343f53d8e17"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v11.png",
+      "bytes": 15228,
+      "sha256": "e44708e7eda0b11cac341eeb64477fa7a3fc039b69704a65eed06dfec8952683"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v12.png",
+      "bytes": 17201,
+      "sha256": "f9972a2d9834a3a3379f44f383dd6ea2c0781b741afb753d1c1493e31711d375"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v7.png",
+      "bytes": 17542,
+      "sha256": "f15d92924a93ca2779cecdd22c22a0aae088aae727c107cc88b7e69dfa0f6120"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v8.png",
+      "bytes": 13080,
+      "sha256": "22d9ec3be5e171e07d16912b1c2268e690ed663e738e74b33a5d53e79014cc4e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-2-v9.png",
+      "bytes": 14233,
+      "sha256": "d779bcd0d495a9dd4ef25d846efe667b019d9b66f16c1789d388828b3f6fe81b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v13.png",
+      "bytes": 17773,
+      "sha256": "3648a69d466afce3a6c8e19a475aeec0b2a33daff80da2a81fdde24573ed7fe6"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v14.png",
+      "bytes": 17581,
+      "sha256": "ea2466a6385a704606ef4118dced9c552913594b570398d8fe61ddc18b84ef4b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v15.png",
+      "bytes": 18315,
+      "sha256": "b56ca98f7c462842031a05a0a2f3241f1e301c643aaed7e83436ef39efb941c9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v16.png",
+      "bytes": 18876,
+      "sha256": "e2ed61521979d87b660f5199df7eb109ab81286701f35dc97b8ee1b5c2fbbd44"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v17.png",
+      "bytes": 15760,
+      "sha256": "48a29cfa886d34e2aa0643d6fdf5e020222fa63765787229a1b8df2c6cdd014a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-3-v18.png",
+      "bytes": 17241,
+      "sha256": "9a993b488b23e2d10fa3b4bfbfd2594e956449f74b896e2832f971e7e9ef0326"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v19.png",
+      "bytes": 17927,
+      "sha256": "6eb93b396c80f769e0de4d0dcfcdb992bad10a6e330657b82c4699263f4e17f4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v20.png",
+      "bytes": 14393,
+      "sha256": "17c6f0d7b8618c474aa6fd9d4d1481830edbfd01c90fbaf30bf973fe168bf468"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v21.png",
+      "bytes": 16642,
+      "sha256": "b3f3911563ade67cf11776b7ce044c7bb3e64eb66084d109c370fc23d4de025b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v22.png",
+      "bytes": 17990,
+      "sha256": "c2f24efa7f76a04ad57a7d6406771dcbadf329082042a7555f5fb17430bcbfb8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v23.png",
+      "bytes": 17541,
+      "sha256": "88238575c78b29c46c5154b9498c0df379a9269084c9f0d8fc9193ff6358b834"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/jackets-4-v24.png",
+      "bytes": 17531,
+      "sha256": "a272e4e1f790a512307003bdd49949138c4a5502934dc5a47c099d785878c379"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-ammo.png",
+      "bytes": 17751,
+      "sha256": "c52d93fa3664c3967cd59b2a54dd3b8668304e6299400e9115f95829ebb3fac7"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-armor.png",
+      "bytes": 17455,
+      "sha256": "0ba7297ba96ad23104218abc288be0172766a6cea9e26ec039a9edc7d0af11fc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-cooking.png",
+      "bytes": 17805,
+      "sha256": "b7d7cc5e8eef64d270aa082d8e39d3161b5cd429442850dcf094eef5c8abdc6f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-engineering.png",
+      "bytes": 17705,
+      "sha256": "fa95ea8a4a55bbe2fef81342c6e856493c1fe58301e9db510b15b880a4406a93"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-farming.png",
+      "bytes": 17921,
+      "sha256": "8714ecda7eaeb0908cd2a2b91df2fa06fda6a50ac052c7c9146131cccfb8b143"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/manuals-medicine.png",
+      "bytes": 18272,
+      "sha256": "890d8f59bb99cd34c761329ca1ca6a9792a011c1642fce811dee50094303ce76"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-mask-1.png",
+      "bytes": 15618,
+      "sha256": "219941bff5aa4731af326d0b2e75ed645f8cf0741f96935f425629f4fc191a4c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-mask-2.png",
+      "bytes": 17301,
+      "sha256": "59ef7cec485a607423d76bf89fc7613a0797dd51956c161ea6f08b0a47272662"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-mask-3.png",
+      "bytes": 19688,
+      "sha256": "4d9300e17668fa64ac14ea563c882a53bf33b4dc18a7cafd0d4ae0c83be13b5a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-vest-1.png",
+      "bytes": 10220,
+      "sha256": "e665bbf1bb11fbb31b639af6e6c365426e0eb16b7aa8ab5b69d9b49ab776d990"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-vest-2.png",
+      "bytes": 14401,
+      "sha256": "e1588a25d52241a30892c319e88a8ff9170185a9720f6e381c6d46efbf393446"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/masks-vests-vest-3.png",
+      "bytes": 17464,
+      "sha256": "7f801b9cb88679743f5b86e1072c3f7402b8225865b0858a985d8bf44579bcf9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-fox-cooked.png",
+      "bytes": 15829,
+      "sha256": "fba082cc25fedbbd8052b1446c7ac052f8222321bef8b0ec1c86c454081347c4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-fox-raw.png",
+      "bytes": 16241,
+      "sha256": "c6b20048982d7099012c1a383589f8f55cfad76f2d6384c348ab894e8e2f6a66"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-hare-cooked.png",
+      "bytes": 17120,
+      "sha256": "8aa1dfc77ed29c123e821c6c550532c63466fe0b1d3d60c4ede93f26b0601411"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-hare-raw.png",
+      "bytes": 17032,
+      "sha256": "ec534bf5198cbef370b2bc42270232ebbe5e1d5a5b7b1f76bed4268f7c2c3a44"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-squirrel-cooked.png",
+      "bytes": 13980,
+      "sha256": "686d066b3ea58c4d5a39a8f3046545522f8f6e7fae10526dd936f7e561ed4277"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-1-squirrel-raw.png",
+      "bytes": 13896,
+      "sha256": "88b6d1ffc7f29b4b1f087e2b3f4e762be3e0136515b229ea63f29854575e81d4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-red_deer-cooked.png",
+      "bytes": 13459,
+      "sha256": "4eb56b87c77887dd734e7482e3fcab86c65e2a2438d6de22c9fdafbeea02f4ac"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-red_deer-raw.png",
+      "bytes": 12533,
+      "sha256": "0b12f3422e3d2357715d606934f08eabd0d738147d1f29931d8458df9517d3af"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-roe_deer-cooked.png",
+      "bytes": 10980,
+      "sha256": "8f8265595344e6c9cd01df616e030354adc9b06c6442e9703fc2a4e8247fab3f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-roe_deer-raw.png",
+      "bytes": 10415,
+      "sha256": "1f5e51c1fbf2752f7d625495f1a6ef76e73c445cf3f972c7639c0e45698572b8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-wild_boar-cooked.png",
+      "bytes": 14748,
+      "sha256": "88ba7346f707afb74f48346a99725b71dc31a959def927957272a13df266060f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-2-wild_boar-raw.png",
+      "bytes": 14111,
+      "sha256": "b72bfe08899fe13067f718c896566e75053f80ba5b79ea6ea6ff5b533496139a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-brown_bear-cooked.png",
+      "bytes": 14153,
+      "sha256": "8d6901456142e7f0504056a7adf73edbbe3329d983d1eeec702ddd6eaf77bb25"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-brown_bear-raw.png",
+      "bytes": 14349,
+      "sha256": "8b1020f50c1aec22d8cecb170df4d7c4d79b24ff5ab4de8dca17debff62cb53d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-stray_dog-cooked.png",
+      "bytes": 12395,
+      "sha256": "7e172e25e68bbffe33190360c6e42e856b1dae853fae4749ae889e577c67d5c5"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-stray_dog-raw.png",
+      "bytes": 12126,
+      "sha256": "87b64b30d7ba6d859a7d8ac5dbe06bfde95ecade64db8240a3e2bf86fd656278"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-wolf-cooked.png",
+      "bytes": 13205,
+      "sha256": "e63b4ebd6d2e0d135261e6c178c5f3d6c3edc19167cf4a9bd188e610565252c9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-3-wolf-raw.png",
+      "bytes": 12393,
+      "sha256": "d409d6a61e5285bb9682c08a30694d0553f598223aff11de131d8a88f73382f4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-cat-cooked.png",
+      "bytes": 13700,
+      "sha256": "3f27a9e1cd9ebb17b7b5c9733d3c52234d9454af05ac3c134a49217295f75229"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-cat-raw.png",
+      "bytes": 13333,
+      "sha256": "0ee8555df502c9ce71c475286360c760473e8f9642eeb2b7d109c80f82c54a72"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-crow-cooked.png",
+      "bytes": 14571,
+      "sha256": "c46162d3ceb7becc1cc97b7a169db0b08fed120928c5f8110c0de508aa27bdea"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-crow-raw.png",
+      "bytes": 13914,
+      "sha256": "ab6e16b58e2e6a2bde4ded75960bf9c6a013fb1cd6e16f65854ffbb33a48044b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-rat-cooked.png",
+      "bytes": 12948,
+      "sha256": "0cd7146eaf540cc82df3ca2bff8d3e188870c9eff69f49ccebf560a18d8f64fb"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-4-rat-raw.png",
+      "bytes": 13041,
+      "sha256": "424288c5daf295e7fe85d69e6f3fc54ab530f54dbd9b849746f9292ee8bb9f21"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-duck-cooked.png",
+      "bytes": 15046,
+      "sha256": "00e30615adf4614a681dfea07d40118519e7e6ba8e8a17c505fa14750f6b25dc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-duck-raw.png",
+      "bytes": 13984,
+      "sha256": "f949507faa099dae2e8a84c296edba113baec60d4f7696098c8b669d9a834a21"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-pigeon-cooked.png",
+      "bytes": 12588,
+      "sha256": "f53721c4239f5d14be63bc4fb5cd29fcb0d04ed5b2fab8dac1550cae714dee3d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-pigeon-raw.png",
+      "bytes": 12567,
+      "sha256": "ee8c3c19b69662ead65ef7374a9668aa06f332750b237e5020ccdba780af2e80"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-sparrow-cooked.png",
+      "bytes": 14845,
+      "sha256": "f09fa72d261ede2a82e12cafe23f9593bdc3ce7fc0e5892e9e7e93aea209f999"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-5-sparrow-raw.png",
+      "bytes": 13782,
+      "sha256": "34cf747acc2eaa78c9e47adf25ccde49e2ca607cee51244866b177092ecb3b39"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-chicken-cooked.png",
+      "bytes": 17853,
+      "sha256": "da31cfdc74b3b882bdcd8b94c2da01076e7b6cf05f4c0d4e09c0d8d122f67949"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-chicken-raw.png",
+      "bytes": 16696,
+      "sha256": "82efecd8e0c107f974065728a82202075c8eb85c97d3ffbc3e5de22c3531187a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-fish-cooked.png",
+      "bytes": 10739,
+      "sha256": "7ff251f7597fa293b25da16e11e26045b2c038c77c2702779f76e13f00f734a2"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-fish-raw.png",
+      "bytes": 10904,
+      "sha256": "a087ecd94168533e3207a2f0132ae868a3588e580f126bba765ed45713f696b9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-frog-cooked.png",
+      "bytes": 16241,
+      "sha256": "b0da6d5a039a8867cd28c1686f630a57a48b929ed459a14a5b94b8dd89470049"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-6-frog-raw.png",
+      "bytes": 16062,
+      "sha256": "3a89901dc2b8d1aadf83cbda148b77f7660d881fb58b45f2d05817e16b64d4d7"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-7-cow-cooked.png",
+      "bytes": 14695,
+      "sha256": "658cf44a46e6a5b85d495cd6e75af4aee9ccdfd1f4e61c53dd3a93bf082b3688"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-7-cow-raw.png",
+      "bytes": 14420,
+      "sha256": "aa9e3326a35ffd2b04991639b46adbd59c960ec2285e500df35d860131e40f66"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-7-goat-cooked.png",
+      "bytes": 12456,
+      "sha256": "da3359949d1cfac61b43f2fdd5eb2f12826db7896f9aa8fc6d7897bc2053931c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/meat-7-goat-raw.png",
+      "bytes": 12823,
+      "sha256": "97e486ff0a3eabbfef35f9abdfa53d793c734de660b51f03bd4ca6f665626f91"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-bandage.png",
+      "bytes": 11417,
+      "sha256": "213ea1906cad80b9c5142d30819ec7189fa5d7352ed293deb9a3de56f7ec3ece"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-canteen.png",
+      "bytes": 13055,
+      "sha256": "a1a6f4f823c23b46b2970429820a980a66946340ce1b3b94ad9ecf9f1afd3cf6"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-kit-large.png",
+      "bytes": 14742,
+      "sha256": "75a01ed607c0672f8ae8bba40ac2cf6477f1f74c7ea808155023b17015952e9e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-kit-medium.png",
+      "bytes": 12233,
+      "sha256": "b0a83ae0a1fc17583752cf89c13b783ad9ad60a7fc0da0539726ca86644f0501"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-kit-small.png",
+      "bytes": 6614,
+      "sha256": "7f060d438e3bb0216ba319e3b6a96903cf4642544212f563ca801803657fa774"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/medicine-water-painkillers.png",
+      "bytes": 16268,
+      "sha256": "965059c70b3372267b32df754b1a8f4a30252448e5037500c2f29969c243e532"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-apple-tree.png",
+      "bytes": 16658,
+      "sha256": "96f8ad397a9518ff6b94b052a8d3f6458e525fe2a0ad51a8ca7184796fd2d402"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-apple.png",
+      "bytes": 18129,
+      "sha256": "3a0496440055cfcb9197de8788840d73d3fb38979a3948f7ab9b4327e2d89988"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-pear-tree.png",
+      "bytes": 11871,
+      "sha256": "eed896efdce6ec84c796332513c138c87f64efebb554bfc379a9050b694943fb"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-pear.png",
+      "bytes": 14280,
+      "sha256": "084de1d913d974ce730dea7bf1fd601a7950e91ede9c6b16333b584b550bf94f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-plum-tree.png",
+      "bytes": 11685,
+      "sha256": "459341f8ee59bb645ae9daf0ae251f02623f2da92ad89963ab4cb74f38997e22"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/orchard-plum.png",
+      "bytes": 16568,
+      "sha256": "7c8e256af0e4f959bd30f14381f8c030681fea8c500c9d577967cecc79e64b8e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v1.png",
+      "bytes": 12234,
+      "sha256": "f1c3a78450050655a0f889c267a22106c4e69e681188b065dbffa8b82a962dc9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v2.png",
+      "bytes": 9831,
+      "sha256": "0ab4ea06c2e832accf6215d6b3eb6400011c0d41dc3bfd7f8a40d295836eda37"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v3.png",
+      "bytes": 11892,
+      "sha256": "3b69414eb876a7ee35c9d44608ffe6d2db8af3905b61f1b52925ff36899ffcd8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v4.png",
+      "bytes": 11458,
+      "sha256": "14d9607c214d052235bd11cda23050b442095e344291c9494ac8307c8b53416d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v5.png",
+      "bytes": 11629,
+      "sha256": "ae00af92fd50171b5f006628868b74f3ee027011882be1794721249b485cba72"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-1-v6.png",
+      "bytes": 11592,
+      "sha256": "eab5ccf21b38f542f3b87ef8a6cda0fb6b2c77c12771ae8a00c0331171e06112"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v10.png",
+      "bytes": 10876,
+      "sha256": "676e628f7d52fb927cdd6981c7d4bc6cd75d7f09e80162433a895f6022a51505"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v11.png",
+      "bytes": 10741,
+      "sha256": "e7ab46fc922709037684f09367b17b34b7556b88a4fc88bce150e34266902043"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v12.png",
+      "bytes": 10561,
+      "sha256": "bf5eb5b96b87737d22e11cdb2b11cc8bc57dfc2b5c1b18568a7105fdd021cab7"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v7.png",
+      "bytes": 11351,
+      "sha256": "b44a67ef3aad4e887eafc922d9eb54d93118948bf53f56b321fdee57d873a1f9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v8.png",
+      "bytes": 10005,
+      "sha256": "6c8d17cb8e5d4df5ccac24aa0ea304df0c46d3435b3e7c41d06a294e3f2c82b1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-2-v9.png",
+      "bytes": 9835,
+      "sha256": "82af21bc4e762620b458df6a9c36d64141a795a0335455efafed4e5417b833bd"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v13.png",
+      "bytes": 12183,
+      "sha256": "19f515af2c8475228801b15e5b17a447dddf87f3172c954a8aec92568bbc64f8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v14.png",
+      "bytes": 11622,
+      "sha256": "1da3650f4495a9cd053bc2a2195acf989dcbe7415e455160aa7068b919fb4f04"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v15.png",
+      "bytes": 12816,
+      "sha256": "bece3ed84183dc355022c43868cbe7d9a423d937daf51e07ffe05446d0426b8e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v16.png",
+      "bytes": 12416,
+      "sha256": "1e230ff690809b55cb9e6e49005e63c1f0148a05afd47a82954e51ea4381f0be"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v17.png",
+      "bytes": 12297,
+      "sha256": "2bc2f7f87063406e8f0ba1aab26a83c5b7dc031272bd1cec5f1a49b488926107"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-3-v18.png",
+      "bytes": 11315,
+      "sha256": "9789fc19ee04cc3060562a4566d15b15124755846287833c5eadddcff1b8828c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v19.png",
+      "bytes": 11704,
+      "sha256": "525b0620b3e6ef21de8f1c66d25408cb8add755787955f99874966fa01e07ae5"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v20.png",
+      "bytes": 9613,
+      "sha256": "78838f236bae2c7c0fc4a806638e3e285dbbe1f672650039d529236cab2457fe"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v21.png",
+      "bytes": 11832,
+      "sha256": "f9a217d29cee1ff35ced83a5ae6c0d2b20627343db58815ef6cb6cacc1351c3d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v22.png",
+      "bytes": 10929,
+      "sha256": "c9453cd1c52c03430dd50fe66caf89c68c589be441295dfb07762e9e734dc456"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v23.png",
+      "bytes": 13757,
+      "sha256": "81c3148b72160e72b2c8be7aeb72994fdefad5ebbe0d83fa3ff5e78cfd0a2f6b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/pants-4-v24.png",
+      "bytes": 11709,
+      "sha256": "2465b4ba4629d320ad2cbb09c4a6ad1d3e31fdfcef823afc679e51c17463800b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-berries.png",
+      "bytes": 11785,
+      "sha256": "1e91290a9da10ef6e7e3d0130fd1d7c71e908e74b67e45cb72b08c19b03697a4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-boards.png",
+      "bytes": 12512,
+      "sha256": "a3a500022d56945aecd9a020b17b0d8d191a5229d7190869e634da46b1aff30e"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-felled-log.png",
+      "bytes": 11342,
+      "sha256": "86ad1ba22c7cc838d608773626f2973e20c505e7197c0347ded9d032d151bde8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-mushrooms.png",
+      "bytes": 15924,
+      "sha256": "373ea6fb2d34237801caf4c5b1f6947cdd0a6f9acec99257304027d303d1eb59"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-stone.png",
+      "bytes": 14676,
+      "sha256": "bbdba9e694256bdc8021b461f19db2a6fff5b31a25caedec7003cfbe97ddc700"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/resource-harvest-stump.png",
+      "bytes": 11009,
+      "sha256": "1271c257323e85c734dc815e77f63b914aae9b5f092bdc4a3ab8206681b7f803"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/seeds-beet.png",
+      "bytes": 17332,
+      "sha256": "380bdb45e3041d05a7e8d7b48ca2ce4e2e17ecdd3e8c8508fd0fa5d22522dfdc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/seeds-carrot.png",
+      "bytes": 17325,
+      "sha256": "a7ae196761f8e63ca488c56f8902bbd99c6c10e2f59b16dbb3f3cb27b836651d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/seeds-millet.png",
+      "bytes": 17178,
+      "sha256": "329886b6af60a382a179ad254bf10e5b85732582f35deb0044b04b3a448376bc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/seeds-potato.png",
+      "bytes": 20467,
+      "sha256": "6c7ac0b6179ece3d60b8a1ce4dd9c44ecf2a23f2ffb95b42b9ecdea49b115a73"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v1.png",
+      "bytes": 15982,
+      "sha256": "9e857b88d3006afe75637807e75d197a3f2c64f24e4430215781b5e3be5ba694"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v2.png",
+      "bytes": 14828,
+      "sha256": "809e9c25de902d76189ef88622b272465b21f6c4e8be76e1ec3a4f2c28b34ca9"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v3.png",
+      "bytes": 15488,
+      "sha256": "7f4a74adc5c29f238cb2133bc1fc66e9cb1240e27b2c8b8f813bb6c3f3013f66"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v4.png",
+      "bytes": 15379,
+      "sha256": "8ca6b3bc6fe41282e277eeab907310c4af4c11d0400595d545670aa1caa1ebf8"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v5.png",
+      "bytes": 17149,
+      "sha256": "529e373f540d712d53faa93aab9b7be3084dcfab1ca4e73dfbba3e96724f262c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-1-v6.png",
+      "bytes": 16971,
+      "sha256": "82c2d41d5ad24de9f4f6cbfd2c7b0465b9b9942e1dd68b5bd65b9a239dfdd37d"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v10.png",
+      "bytes": 15577,
+      "sha256": "8133c1421b0389063d96a22ee868d759eb8208b2c21108f87e5d39612aa7664f"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v11.png",
+      "bytes": 13742,
+      "sha256": "de66b6b7b14d8355ebb64f372e3a9c00c0222353e4fd74b3aee18fc9623b3580"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v12.png",
+      "bytes": 16079,
+      "sha256": "3f61dbcc39ce773c97596e32a157cc33594c236c2e74971e1c4033342df1fa30"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v7.png",
+      "bytes": 17149,
+      "sha256": "e05860672da6732effb648349c2999947cbfa17bc8e2c7d40482211d7426aa7a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v8.png",
+      "bytes": 13289,
+      "sha256": "329afc82cface36714f8c02cfc80331e4533a3b16c1398a1810113e66652447a"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-2-v9.png",
+      "bytes": 14472,
+      "sha256": "6463e1d4c2113a5dbce626b11d77bff767f17404e98890faa371aec5f0a50dcc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v13.png",
+      "bytes": 20022,
+      "sha256": "ec5bd898f7b4cf50ef4383880b3e8b7727a6197e041cb2e935ac1b9bd1961819"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v14.png",
+      "bytes": 18382,
+      "sha256": "2990cdc8ea1249ed4e0312c1d75b92d3580bf80c2a2a0654ea96151f8aa50886"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v15.png",
+      "bytes": 18425,
+      "sha256": "713fa68c9a1499d41e01aa278f3200f946010c432c801ee2b77d847e37da1bd7"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v16.png",
+      "bytes": 16454,
+      "sha256": "b19ed2b4aaea0017d4c54b3567959dd1fe76e08adaaeb03bda22b13f2a6c699b"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v17.png",
+      "bytes": 13534,
+      "sha256": "aa3d487bd15711bc64335f52d1423e65436335a99630069f01a7e703860c1822"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-3-v18.png",
+      "bytes": 15730,
+      "sha256": "8a9daa53645727810d0917fcc7e83de61c4913df47dc7e81ac69d445379e6c1c"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v19.png",
+      "bytes": 15957,
+      "sha256": "a31547c6672bf045eb3ed498c7fa9c1e0b5e7ec78eee52567168060362bd26bc"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v20.png",
+      "bytes": 14939,
+      "sha256": "003bcb4c7ad749774ffca560fee8da20d826a927fd904c32960d6e1f23bbf486"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v21.png",
+      "bytes": 16543,
+      "sha256": "0a872f955ee10c688247294be521c20884565adce8d82375e72c6f1f20696438"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v22.png",
+      "bytes": 12808,
+      "sha256": "443dc803b545f434e939633498b004b72d3f27f2faa4f817ed866f9987bdda42"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v23.png",
+      "bytes": 14067,
+      "sha256": "4ca0a244e794c9144d19279b6b9225be2130923de77e4d610ad4d0d294ffe806"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/shirts-4-v24.png",
+      "bytes": 16442,
+      "sha256": "d09c96bf7b60702961c306c6dbee4dc4b60d8a9580c9f1cad5b2dc6c5b48c1da"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-double.png",
+      "bytes": 38371,
+      "sha256": "bab944cb7c1c4c034820fbe8af2541f61b012da2dc4cb67c463dccef6aec2bc1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-metal.png",
+      "bytes": 34015,
+      "sha256": "558ba62ce1d6e205c44c21f2fc89a6dfedc937cf973b1bffbcaf25d1ee79d655"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-open.png",
+      "bytes": 26400,
+      "sha256": "d7c3263fed68f4524a570e30a2a448e394acb9d898d262dc185797ca4da0c0b1"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-small.png",
+      "bytes": 40872,
+      "sha256": "904785f3f77b69cde3d400898693c0ab4794bf5b683f55459d66e83846d7ec70"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-white.png",
+      "bytes": 40459,
+      "sha256": "62f536bdd93cd840800a88d764794489f3bb64ee07fe7365c665ac4ff54f10bf"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/windows-wood.png",
+      "bytes": 41200,
+      "sha256": "ee9a66a6a9facdda9803549896c55a390a90208e014992ac2171925ad2575f64"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-barbed-deployed.png",
+      "bytes": 4207,
+      "sha256": "b0dda2388677b7b8c4fbe3aec2b096c2d84bd8625c9e9935a99a702a8c1234de"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-barbed-pickup.png",
+      "bytes": 15803,
+      "sha256": "c65f44bbcb5e9cbeb5f976ef477a6e94934ad242961ebbd4a13581cff01c6ea4"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-exposed.png",
+      "bytes": 3759,
+      "sha256": "7706be084ead3913779125df45d12d11fac7b692eb271a0fe2b838a3b3885d56"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-insulated.png",
+      "bytes": 3053,
+      "sha256": "aec2bcac8de91ca132af6a481dec0d924015a464f7f0182a62fd6f07f103c905"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-pickup.png",
+      "bytes": 11806,
+      "sha256": "f34f63e2926b014eebe29eab613305295c730e771802903b6e9cc66457eee339"
+    },
+    {
+      "path": "assets/item-visuals-v2/sprites/wires-protected.png",
+      "bytes": 3533,
+      "sha256": "244e4e195d4702f69a0c3bbbaa814b3533593cffdd8d7a20507c9a17dc8c68e7"
+    },
+    {
+      "path": "assets/item-visuals-v2/survival-overview.png",
+      "bytes": 453038,
+      "sha256": "2bdbf9a8465f71833becd4ac5c4dcbec938bd3e43d768bca3e07a5dd62389c71"
+    },
+    {
+      "path": "assets/item-visuals-v2/verification.json",
+      "bytes": 660,
+      "sha256": "f383e0e16769a24cadd6d9afab8895ebf6de9eef177c229786bc2e07cb36e53d"
     },
     {
       "path": "assets/main-menu-animation-v1/README.md",
@@ -91443,14 +94803,19 @@
       "sha256": "8caaf90b1900ff91adc45c117970b3118632a836cf13a9789b4d097172e7b515"
     },
     {
+      "path": "docs/items-design.md",
+      "bytes": 8031,
+      "sha256": "8159c708004963cb3db8d2c306a5e39ab5c5b20c7f577a040f91f43a8748cfb9"
+    },
+    {
       "path": "docs/survivors.md",
       "bytes": 2246,
       "sha256": "ef0bb3eab313b26d34cc613668fbc0c64d3ad76266846a2bf6bf7510ff429b90"
     },
     {
       "path": "package.json",
-      "bytes": 1792,
-      "sha256": "7edc03552cf996a9f036241d452bb275fd002904da24fe79ca4cbffca942c5b2"
+      "bytes": 1856,
+      "sha256": "4bd2c8dfcb1029e31470541c71924b2f5ce4cd528d77363846024662e3db4162"
     },
     {
       "path": "publication-config.json",
@@ -91486,6 +94851,11 @@
       "path": "tools/build-friends-animations.cjs",
       "bytes": 7363,
       "sha256": "b61f2fa3094e08bdd8ead578a46c70dad9724cd24a27f2116f3359c3658a9d95"
+    },
+    {
+      "path": "tools/build-item-revision.cjs",
+      "bytes": 5902,
+      "sha256": "7cbdf0b6636a92e976f758f20d7013c6c68d903aa8fd4c531c8e5236cd7a93b3"
     },
     {
       "path": "tools/build-main-menu-animation.cjs",
@@ -91543,6 +94913,11 @@
       "sha256": "5556e03d8af2253a18028d25976829e2e43f8b1a9c5cc136e7c97851cb862f30"
     },
     {
+      "path": "tools/check-item-revision.cjs",
+      "bytes": 6264,
+      "sha256": "d50173e7fcbfe7d1e35b3231ef32ee740a760e3cf681edca348f10392a6c8198"
+    },
+    {
       "path": "tools/check-main-menu-animation.cjs",
       "bytes": 1281,
       "sha256": "c3cea844d7f60ea36a0a7210d66cac46cf36edc941bb5c6ad105a8ccc2edcb20"
@@ -91598,6 +94973,11 @@
       "sha256": "136aa43072362d8a83b85608c8258495488c228d6fabd9bf6a6b9695a75d7848"
     },
     {
+      "path": "tools/package-item-revision.cjs",
+      "bytes": 1081,
+      "sha256": "30a400f87372ed0b56fc33e97ca5d444b5fe31ebd9431f26d4a7f0b0763316b6"
+    },
+    {
       "path": "tools/package-selected-interface.cjs",
       "bytes": 4224,
       "sha256": "4bc3cb482e9093118176f04d8bf7a64464e48945e56ac63bd0405de3aa07b37d"
@@ -91616,6 +94996,11 @@
       "path": "tools/prepare-friends-animations.cjs",
       "bytes": 11098,
       "sha256": "4514f06a85bb9c90e4829b3b6bf88ab89b5fb6630fc0bed7cff112d393afff6a"
+    },
+    {
+      "path": "tools/prepare-item-revision.cjs",
+      "bytes": 28747,
+      "sha256": "d08abb0fb5c7d22181b8645df75686a175118d8ae3fcdf43d9b6e0a92bde7dd5"
     },
     {
       "path": "tools/prepare-weapon-animations.cjs",
@@ -91654,8 +95039,8 @@
     },
     {
       "path": "tools/publish-github.cjs",
-      "bytes": 12550,
-      "sha256": "7b9973a2b94dd9936323e7601d5ad2ff6e98d1369d467fc9399e8eb91396078e"
+      "bytes": 13039,
+      "sha256": "31f276a9fced503210f715888784af6b568066a472decf63ef9e764837b5e010"
     },
     {
       "path": "tools/scan-wildlife-animation.cjs",
@@ -91681,6 +95066,11 @@
       "path": "tools/serve-wildlife-visuals.cjs",
       "bytes": 1166,
       "sha256": "399900274d50e923b5c0f5db46fbbdcc07e9c3c7bc30b44cfb18b611f50f67d1"
+    },
+    {
+      "path": "tools/slice-item-revision-components.cjs",
+      "bytes": 2573,
+      "sha256": "2531d548de34d67d98fe2afc85c20769b5867151118fee8c0e08807d2adbb1d0"
     },
     {
       "path": "tools/slice-sprite-components.cjs",

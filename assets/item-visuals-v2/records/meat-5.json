@@ -1,0 +1,138 @@
+{
+  "id": "meat-5",
+  "name": "Мясо и рыба — Голубь, Воробей, Утка",
+  "kind": "inventory",
+  "index": 30,
+  "source": "sources/meat-5.png",
+  "sheet": "sheets/meat-5.png",
+  "items": [
+    {
+      "id": "meat-5-pigeon-raw",
+      "name": "Голубь — сырое",
+      "description": "one uncooked food ingredient: small reddish pigeon breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "pigeon",
+      "foodState": "raw",
+      "art": "art/meat-5-pigeon-raw.png",
+      "sprite": "sprites/meat-5-pigeon-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 78,
+        "top": 154,
+        "width": 391,
+        "height": 299
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ee8c3c19b69662ead65ef7374a9668aa06f332750b237e5020ccdba780af2e80"
+    },
+    {
+      "id": "meat-5-sparrow-raw",
+      "name": "Воробей — сырое",
+      "description": "one uncooked food ingredient: very small bird breast portion from a sparrow, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "sparrow",
+      "foodState": "raw",
+      "art": "art/meat-5-sparrow-raw.png",
+      "sprite": "sprites/meat-5-sparrow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 631,
+        "top": 221,
+        "width": 281,
+        "height": 221
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "34cf747acc2eaa78c9e47adf25ccde49e2ca607cee51244866b177092ecb3b39"
+    },
+    {
+      "id": "meat-5-duck-raw",
+      "name": "Утка — сырое",
+      "description": "one uncooked food ingredient: dark red duck breast with pale skin edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "duck",
+      "foodState": "raw",
+      "art": "art/meat-5-duck-raw.png",
+      "sprite": "sprites/meat-5-duck-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1053,
+        "top": 119,
+        "width": 424,
+        "height": 345
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "f949507faa099dae2e8a84c296edba113baec60d4f7696098c8b669d9a834a21"
+    },
+    {
+      "id": "meat-5-pigeon-cooked",
+      "name": "Голубь — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: small reddish pigeon breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "pigeon",
+      "foodState": "cooked",
+      "art": "art/meat-5-pigeon-cooked.png",
+      "sprite": "sprites/meat-5-pigeon-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 63,
+        "top": 622,
+        "width": 401,
+        "height": 295
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "f53721c4239f5d14be63bc4fb5cd29fcb0d04ed5b2fab8dac1550cae714dee3d"
+    },
+    {
+      "id": "meat-5-sparrow-cooked",
+      "name": "Воробей — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: very small bird breast portion from a sparrow, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "sparrow",
+      "foodState": "cooked",
+      "art": "art/meat-5-sparrow-cooked.png",
+      "sprite": "sprites/meat-5-sparrow-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 631,
+        "top": 678,
+        "width": 281,
+        "height": 245
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "f09fa72d261ede2a82e12cafe23f9593bdc3ce7fc0e5892e9e7e93aea209f999"
+    },
+    {
+      "id": "meat-5-duck-cooked",
+      "name": "Утка — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: dark red duck breast with pale skin edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "duck",
+      "foodState": "cooked",
+      "art": "art/meat-5-duck-cooked.png",
+      "sprite": "sprites/meat-5-duck-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1053,
+        "top": 583,
+        "width": 424,
+        "height": 350
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "00e30615adf4614a681dfea07d40118519e7e6ba8e8a17c505fa14750f6b25dc"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Голубь, Воробей, Утка. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: small reddish pigeon breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: very small bird breast portion from a sparrow, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: dark red duck breast with pale skin edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: small reddish pigeon breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: very small bird breast portion from a sparrow, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: dark red duck breast with pale skin edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "8c139ac1088d5935f04c908609a402aef300d11aafab06cc022c5baf80d38346"
+}

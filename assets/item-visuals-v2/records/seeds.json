@@ -1,0 +1,88 @@
+{
+  "id": "seeds",
+  "name": "Семена и посадочный материал",
+  "kind": "inventory",
+  "index": 1,
+  "source": "sources/seeds.png",
+  "sheet": "sheets/seeds.png",
+  "items": [
+    {
+      "id": "seeds-carrot",
+      "name": "Семена моркови",
+      "description": "a kraft seed packet with a clear carrot pictogram and a few tiny seeds at its base",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/seeds-carrot.png",
+      "sprite": "sprites/seeds-carrot.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 88,
+        "top": 34,
+        "width": 367,
+        "height": 447
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a7ae196761f8e63ca488c56f8902bbd99c6c10e2f59b16dbb3f3cb27b836651d"
+    },
+    {
+      "id": "seeds-potato",
+      "name": "Посадочный картофель",
+      "description": "a small breathable bag with two sprouting seed potatoes, green sprouts clearly visible",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/seeds-potato.png",
+      "sprite": "sprites/seeds-potato.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 563,
+        "top": 42,
+        "width": 419,
+        "height": 420
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "6c7ac0b6179ece3d60b8a1ce4dd9c44ecf2a23f2ffb95b42b9ecdea49b115a73"
+    },
+    {
+      "id": "seeds-beet",
+      "name": "Семена свёклы",
+      "description": "a kraft seed packet with a burgundy beet pictogram and a few chunky beet seeds",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/seeds-beet.png",
+      "sprite": "sprites/seeds-beet.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1078,
+        "top": 35,
+        "width": 388,
+        "height": 450
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "380bdb45e3041d05a7e8d7b48ca2ce4e2e17ecdd3e8c8508fd0fa5d22522dfdc"
+    },
+    {
+      "id": "seeds-millet",
+      "name": "Семена проса",
+      "description": "a kraft seed packet with a golden branched millet panicle pictogram and a few round seeds",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/seeds-millet.png",
+      "sprite": "sprites/seeds-millet.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 83,
+        "top": 527,
+        "width": 384,
+        "height": 451
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "329886b6af60a382a179ad254bf10e5b85732582f35deb0044b04b3a448376bc"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Семена и посадочный материал. Cell contents MUST follow these positions: TOP LEFT: a kraft seed packet with a clear carrot pictogram and a few tiny seeds at its base; TOP MIDDLE: a small breathable bag with two sprouting seed potatoes, green sprouts clearly visible; TOP RIGHT: a kraft seed packet with a burgundy beet pictogram and a few chunky beet seeds; BOTTOM LEFT: a kraft seed packet with a golden branched millet panicle pictogram and a few round seeds. BOTTOM MIDDLE: leave completely empty and transparent. BOTTOM RIGHT: leave completely empty and transparent. Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "4b11eb6cc1a0202a4c49c730fddb4c39b141be1625054b4993bf9fad42dd680d"
+}

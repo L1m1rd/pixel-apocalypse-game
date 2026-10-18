@@ -1,0 +1,138 @@
+{
+  "id": "shirts-2",
+  "name": "Футболки — варианты 7–12",
+  "kind": "inventory",
+  "index": 15,
+  "source": "sources/shirts-2.png",
+  "sheet": "sheets/shirts-2.png",
+  "items": [
+    {
+      "id": "shirts-2-v7",
+      "name": "Футболка полосатая",
+      "description": "one complete empty muted navy and ivory horizontally striped T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 7,
+      "art": "art/shirts-2-v7.png",
+      "sprite": "sprites/shirts-2-v7.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 43,
+        "top": 38,
+        "width": 433,
+        "height": 433
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e05860672da6732effb648349c2999947cbfa17bc8e2c7d40482211d7426aa7a"
+    },
+    {
+      "id": "shirts-2-v8",
+      "name": "Поло зелёное",
+      "description": "one complete empty dark green short-sleeve polo shirt with soft collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 8,
+      "art": "art/shirts-2-v8.png",
+      "sprite": "sprites/shirts-2-v8.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 552,
+        "top": 30,
+        "width": 428,
+        "height": 449
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "329afc82cface36714f8c02cfc80331e4533a3b16c1398a1810113e66652447a"
+    },
+    {
+      "id": "shirts-2-v9",
+      "name": "Поло серое",
+      "description": "one complete empty gray short-sleeve polo shirt with chest pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 9,
+      "art": "art/shirts-2-v9.png",
+      "sprite": "sprites/shirts-2-v9.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1061,
+        "top": 29,
+        "width": 430,
+        "height": 450
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "6463e1d4c2113a5dbce626b11d77bff767f17404e98890faa371aec5f0a50dcc"
+    },
+    {
+      "id": "shirts-2-v10",
+      "name": "Футболка с кантом",
+      "description": "one complete empty muted rust ringer T-shirt with cream neck and sleeve trim, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 10,
+      "art": "art/shirts-2-v10.png",
+      "sprite": "sprites/shirts-2-v10.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 44,
+        "top": 526,
+        "width": 441,
+        "height": 448
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8133c1421b0389063d96a22ee868d759eb8208b2c21108f87e5d39612aa7664f"
+    },
+    {
+      "id": "shirts-2-v11",
+      "name": "Футболка спортивная",
+      "description": "one complete empty dark slate athletic T-shirt with subtle olive side panels, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 11,
+      "art": "art/shirts-2-v11.png",
+      "sprite": "sprites/shirts-2-v11.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 547,
+        "top": 530,
+        "width": 440,
+        "height": 446
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "de66b6b7b14d8355ebb64f372e3a9c00c0222353e4fd74b3aee18fc9623b3580"
+    },
+    {
+      "id": "shirts-2-v12",
+      "name": "Футболка ремонтная",
+      "description": "one complete empty beige T-shirt with small visible sewn patches, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 12,
+      "art": "art/shirts-2-v12.png",
+      "sprite": "sprites/shirts-2-v12.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1061,
+        "top": 530,
+        "width": 434,
+        "height": 446
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3f61dbcc39ce773c97596e32a157cc33594c236c2e74971e1c4033342df1fa30"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Футболки — варианты 7–12. Cell contents MUST follow these positions: TOP LEFT: one complete empty muted navy and ivory horizontally striped T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP MIDDLE: one complete empty dark green short-sleeve polo shirt with soft collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP RIGHT: one complete empty gray short-sleeve polo shirt with chest pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM LEFT: one complete empty muted rust ringer T-shirt with cream neck and sleeve trim, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM MIDDLE: one complete empty dark slate athletic T-shirt with subtle olive side panels, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM RIGHT: one complete empty beige T-shirt with small visible sewn patches, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "9f0598ed9400d7693e36d63a840431421bb5c4273db617f0a87f020a861f0c6e"
+}

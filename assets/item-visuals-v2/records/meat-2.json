@@ -1,0 +1,138 @@
+{
+  "id": "meat-2",
+  "name": "Мясо и рыба — Косуля, Олень, Кабан",
+  "kind": "inventory",
+  "index": 27,
+  "source": "sources/meat-2.png",
+  "sheet": "sheets/meat-2.png",
+  "items": [
+    {
+      "id": "meat-2-roe_deer-raw",
+      "name": "Косуля — сырое",
+      "description": "one uncooked food ingredient: lean red roe-deer steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "roe_deer",
+      "foodState": "raw",
+      "art": "art/meat-2-roe_deer-raw.png",
+      "sprite": "sprites/meat-2-roe_deer-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 53,
+        "top": 162,
+        "width": 406,
+        "height": 279
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "1f5e51c1fbf2752f7d625495f1a6ef76e73c445cf3f972c7639c0e45698572b8"
+    },
+    {
+      "id": "meat-2-red_deer-raw",
+      "name": "Олень — сырое",
+      "description": "one uncooked food ingredient: large deep-red venison steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "red_deer",
+      "foodState": "raw",
+      "art": "art/meat-2-red_deer-raw.png",
+      "sprite": "sprites/meat-2-red_deer-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 533,
+        "top": 124,
+        "width": 455,
+        "height": 317
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0b12f3422e3d2357715d606934f08eabd0d738147d1f29931d8458df9517d3af"
+    },
+    {
+      "id": "meat-2-wild_boar-raw",
+      "name": "Кабан — сырое",
+      "description": "one uncooked food ingredient: dark red wild-boar meat with a thin fat edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "wild_boar",
+      "foodState": "raw",
+      "art": "art/meat-2-wild_boar-raw.png",
+      "sprite": "sprites/meat-2-wild_boar-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1069,
+        "top": 130,
+        "width": 419,
+        "height": 311
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b72bfe08899fe13067f718c896566e75053f80ba5b79ea6ea6ff5b533496139a"
+    },
+    {
+      "id": "meat-2-roe_deer-cooked",
+      "name": "Косуля — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: lean red roe-deer steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "roe_deer",
+      "foodState": "cooked",
+      "art": "art/meat-2-roe_deer-cooked.png",
+      "sprite": "sprites/meat-2-roe_deer-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 53,
+        "top": 635,
+        "width": 405,
+        "height": 287
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8f8265595344e6c9cd01df616e030354adc9b06c6442e9703fc2a4e8247fab3f"
+    },
+    {
+      "id": "meat-2-red_deer-cooked",
+      "name": "Олень — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: large deep-red venison steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "red_deer",
+      "foodState": "cooked",
+      "art": "art/meat-2-red_deer-cooked.png",
+      "sprite": "sprites/meat-2-red_deer-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 534,
+        "top": 592,
+        "width": 459,
+        "height": 336
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "4eb56b87c77887dd734e7482e3fcab86c65e2a2438d6de22c9fdafbeea02f4ac"
+    },
+    {
+      "id": "meat-2-wild_boar-cooked",
+      "name": "Кабан — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: dark red wild-boar meat with a thin fat edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "wild_boar",
+      "foodState": "cooked",
+      "art": "art/meat-2-wild_boar-cooked.png",
+      "sprite": "sprites/meat-2-wild_boar-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1079,
+        "top": 608,
+        "width": 409,
+        "height": 314
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "88ba7346f707afb74f48346a99725b71dc31a959def927957272a13df266060f"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Косуля, Олень, Кабан. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: lean red roe-deer steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: large deep-red venison steak, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: dark red wild-boar meat with a thin fat edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: lean red roe-deer steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: large deep-red venison steak, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: dark red wild-boar meat with a thin fat edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "989ebd5331641fa4481d45b6f81752069ce42fb46e9c27a8b5530928458d6da0"
+}

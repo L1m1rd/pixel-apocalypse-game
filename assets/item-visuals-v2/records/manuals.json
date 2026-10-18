@@ -1,0 +1,126 @@
+{
+  "id": "manuals",
+  "name": "Методички с рецептами",
+  "kind": "inventory",
+  "index": 23,
+  "source": "sources/manuals.png",
+  "sheet": "sheets/manuals.png",
+  "items": [
+    {
+      "id": "manuals-medicine",
+      "name": "Методичка — аптечки",
+      "description": "one worn pale medical craft booklet with a large white cross on green cover and small herb pictogram",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/manuals-medicine.png",
+      "sprite": "sprites/manuals-medicine.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 77,
+        "top": 58,
+        "width": 417,
+        "height": 426
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "890d8f59bb99cd34c761329ca1ca6a9792a011c1642fce811dee50094303ce76"
+    },
+    {
+      "id": "manuals-armor",
+      "name": "Методичка — бронежилеты",
+      "description": "one worn dark olive armor craft booklet with a large vest pictogram on cover",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/manuals-armor.png",
+      "sprite": "sprites/manuals-armor.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 559,
+        "top": 47,
+        "width": 430,
+        "height": 434
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0ba7297ba96ad23104218abc288be0172766a6cea9e26ec039a9edc7d0af11fc"
+    },
+    {
+      "id": "manuals-ammo",
+      "name": "Методичка — патроны",
+      "description": "one worn brown ammunition craft booklet with a closed ammunition-box pictogram, no instructions or diagrams",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/manuals-ammo.png",
+      "sprite": "sprites/manuals-ammo.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1053,
+        "top": 50,
+        "width": 435,
+        "height": 437
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c52d93fa3664c3967cd59b2a54dd3b8668304e6299400e9115f95829ebb3fac7"
+    },
+    {
+      "id": "manuals-engineering",
+      "name": "Методичка — электричество",
+      "description": "one worn blue engineering booklet with battery and lightning pictograms",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/manuals-engineering.png",
+      "sprite": "sprites/manuals-engineering.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 72,
+        "top": 532,
+        "width": 430,
+        "height": 450
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "fa95ea8a4a55bbe2fef81342c6e856493c1fe58301e9db510b15b880a4406a93"
+    },
+    {
+      "id": "manuals-farming",
+      "name": "Методичка — земледелие",
+      "description": "one worn green gardening booklet with sprout and carrot pictograms",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/manuals-farming.png",
+      "sprite": "sprites/manuals-farming.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 559,
+        "top": 538,
+        "width": 440,
+        "height": 444
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8714ecda7eaeb0908cd2a2b91df2fa06fda6a50ac052c7c9146131cccfb8b143"
+    },
+    {
+      "id": "manuals-cooking",
+      "name": "Методичка — готовка",
+      "description": "one worn rust-red cooking booklet with cooking-pot and fish pictograms",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/manuals-cooking.png",
+      "sprite": "sprites/manuals-cooking.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1057,
+        "top": 534,
+        "width": 446,
+        "height": 458
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b7d7cc5e8eef64d270aa082d8e39d3161b5cd429442850dcf094eef5c8abdc6f"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Методички с рецептами. Cell contents MUST follow these positions: TOP LEFT: one worn pale medical craft booklet with a large white cross on green cover and small herb pictogram; TOP MIDDLE: one worn dark olive armor craft booklet with a large vest pictogram on cover; TOP RIGHT: one worn brown ammunition craft booklet with a closed ammunition-box pictogram, no instructions or diagrams; BOTTOM LEFT: one worn blue engineering booklet with battery and lightning pictograms; BOTTOM MIDDLE: one worn green gardening booklet with sprout and carrot pictograms; BOTTOM RIGHT: one worn rust-red cooking booklet with cooking-pot and fish pictograms.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "a9b77325d345f944009efb766775690e2d1e7c2b72bb9199fc9be93c2b8d4b85"
+}

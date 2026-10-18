@@ -1,0 +1,138 @@
+{
+  "id": "meat-3",
+  "name": "Мясо и рыба — Волк, Медведь, Бродячая собака",
+  "kind": "inventory",
+  "index": 28,
+  "source": "sources/meat-3.png",
+  "sheet": "sheets/meat-3.png",
+  "items": [
+    {
+      "id": "meat-3-wolf-raw",
+      "name": "Волк — сырое",
+      "description": "one uncooked food ingredient: lean dark red wolf meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "wolf",
+      "foodState": "raw",
+      "art": "art/meat-3-wolf-raw.png",
+      "sprite": "sprites/meat-3-wolf-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 62,
+        "top": 156,
+        "width": 379,
+        "height": 281
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "d409d6a61e5285bb9682c08a30694d0553f598223aff11de131d8a88f73382f4"
+    },
+    {
+      "id": "meat-3-brown_bear-raw",
+      "name": "Медведь — сырое",
+      "description": "one uncooked food ingredient: large dark bear meat portion with a pale fat edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "brown_bear",
+      "foodState": "raw",
+      "art": "art/meat-3-brown_bear-raw.png",
+      "sprite": "sprites/meat-3-brown_bear-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 532,
+        "top": 108,
+        "width": 488,
+        "height": 339
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8b1020f50c1aec22d8cecb170df4d7c4d79b24ff5ab4de8dca17debff62cb53d"
+    },
+    {
+      "id": "meat-3-stray_dog-raw",
+      "name": "Бродячая собака — сырое",
+      "description": "one uncooked food ingredient: medium lean reddish dog meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "stray_dog",
+      "foodState": "raw",
+      "art": "art/meat-3-stray_dog-raw.png",
+      "sprite": "sprites/meat-3-stray_dog-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1101,
+        "top": 156,
+        "width": 374,
+        "height": 277
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "87b64b30d7ba6d859a7d8ac5dbe06bfde95ecade64db8240a3e2bf86fd656278"
+    },
+    {
+      "id": "meat-3-wolf-cooked",
+      "name": "Волк — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: lean dark red wolf meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "wolf",
+      "foodState": "cooked",
+      "art": "art/meat-3-wolf-cooked.png",
+      "sprite": "sprites/meat-3-wolf-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 62,
+        "top": 613,
+        "width": 379,
+        "height": 302
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e63b4ebd6d2e0d135261e6c178c5f3d6c3edc19167cf4a9bd188e610565252c9"
+    },
+    {
+      "id": "meat-3-brown_bear-cooked",
+      "name": "Медведь — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: large dark bear meat portion with a pale fat edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "brown_bear",
+      "foodState": "cooked",
+      "art": "art/meat-3-brown_bear-cooked.png",
+      "sprite": "sprites/meat-3-brown_bear-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 524,
+        "top": 567,
+        "width": 500,
+        "height": 348
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8d6901456142e7f0504056a7adf73edbbe3329d983d1eeec702ddd6eaf77bb25"
+    },
+    {
+      "id": "meat-3-stray_dog-cooked",
+      "name": "Бродячая собака — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: medium lean reddish dog meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "stray_dog",
+      "foodState": "cooked",
+      "art": "art/meat-3-stray_dog-cooked.png",
+      "sprite": "sprites/meat-3-stray_dog-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1101,
+        "top": 623,
+        "width": 380,
+        "height": 280
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7e172e25e68bbffe33190360c6e42e856b1dae853fae4749ae889e577c67d5c5"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Волк, Медведь, Бродячая собака. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: lean dark red wolf meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: large dark bear meat portion with a pale fat edge, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: medium lean reddish dog meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: lean dark red wolf meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: large dark bear meat portion with a pale fat edge, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: medium lean reddish dog meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "37614fedf39b4de900f03ba0147b7a6c721a8268a3ec6eaa05b11d52b374c995"
+}

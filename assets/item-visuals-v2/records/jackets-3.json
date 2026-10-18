@@ -1,0 +1,138 @@
+{
+  "id": "jackets-3",
+  "name": "Куртки — варианты 13–18",
+  "kind": "inventory",
+  "index": 12,
+  "source": "sources/jackets-3.png",
+  "sheet": "sheets/jackets-3.png",
+  "items": [
+    {
+      "id": "jackets-3-v13",
+      "name": "Куртка рабочая",
+      "description": "one complete empty rust-orange canvas chore jacket with large patch pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 13,
+      "art": "art/jackets-3-v13.png",
+      "sprite": "sprites/jackets-3-v13.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 40,
+        "top": 45,
+        "width": 462,
+        "height": 421
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3648a69d466afce3a6c8e19a475aeec0b2a33daff80da2a81fdde24573ed7fe6"
+    },
+    {
+      "id": "jackets-3-v14",
+      "name": "Куртка камуфляжная",
+      "description": "one complete empty muted woodland camouflage field jacket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 14,
+      "art": "art/jackets-3-v14.png",
+      "sprite": "sprites/jackets-3-v14.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 541,
+        "top": 45,
+        "width": 461,
+        "height": 430
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ea2466a6385a704606ef4118dced9c552913594b570398d8fe61ddc18b84ef4b"
+    },
+    {
+      "id": "jackets-3-v15",
+      "name": "Куртка песочная",
+      "description": "one complete empty sand-colored utility jacket with rolled fabric collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 15,
+      "art": "art/jackets-3-v15.png",
+      "sprite": "sprites/jackets-3-v15.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1047,
+        "top": 42,
+        "width": 457,
+        "height": 429
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b56ca98f7c462842031a05a0a2f3241f1e301c643aaed7e83436ef39efb941c9"
+    },
+    {
+      "id": "jackets-3-v16",
+      "name": "Куртка зимняя",
+      "description": "one complete empty faded off-white insulated winter parka with fur-trimmed hood, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 16,
+      "art": "art/jackets-3-v16.png",
+      "sprite": "sprites/jackets-3-v16.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 27,
+        "top": 486,
+        "width": 486,
+        "height": 506
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e2ed61521979d87b660f5199df7eb109ab81286701f35dc97b8ee1b5c2fbbd44"
+    },
+    {
+      "id": "jackets-3-v17",
+      "name": "Куртка шерстяная",
+      "description": "one complete empty dark gray wool pea coat with double buttons, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 17,
+      "art": "art/jackets-3-v17.png",
+      "sprite": "sprites/jackets-3-v17.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 530,
+        "top": 513,
+        "width": 481,
+        "height": 469
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "48a29cfa886d34e2aa0643d6fdf5e020222fa63765787229a1b8df2c6cdd014a"
+    },
+    {
+      "id": "jackets-3-v18",
+      "name": "Анорак",
+      "description": "one complete empty faded green pullover anorak with large kangaroo pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 18,
+      "art": "art/jackets-3-v18.png",
+      "sprite": "sprites/jackets-3-v18.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1040,
+        "top": 509,
+        "width": 476,
+        "height": 469
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "9a993b488b23e2d10fa3b4bfbfd2594e956449f74b896e2832f971e7e9ef0326"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Куртки — варианты 13–18. Cell contents MUST follow these positions: TOP LEFT: one complete empty rust-orange canvas chore jacket with large patch pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP MIDDLE: one complete empty muted woodland camouflage field jacket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP RIGHT: one complete empty sand-colored utility jacket with rolled fabric collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM LEFT: one complete empty faded off-white insulated winter parka with fur-trimmed hood, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM MIDDLE: one complete empty dark gray wool pea coat with double buttons, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM RIGHT: one complete empty faded green pullover anorak with large kangaroo pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "fcd3dff15cf2af0120af1715e2261675a791faa90ab93545df60adefc07a19f2"
+}

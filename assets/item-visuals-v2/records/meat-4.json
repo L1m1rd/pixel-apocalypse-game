@@ -1,0 +1,138 @@
+{
+  "id": "meat-4",
+  "name": "Мясо и рыба — Кошка, Крыса, Ворона",
+  "kind": "inventory",
+  "index": 29,
+  "source": "sources/meat-4.png",
+  "sheet": "sheets/meat-4.png",
+  "items": [
+    {
+      "id": "meat-4-cat-raw",
+      "name": "Кошка — сырое",
+      "description": "one uncooked food ingredient: small lean pink-red cat meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "cat",
+      "foodState": "raw",
+      "art": "art/meat-4-cat-raw.png",
+      "sprite": "sprites/meat-4-cat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 49,
+        "top": 134,
+        "width": 411,
+        "height": 307
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0ee8555df502c9ce71c475286360c760473e8f9642eeb2b7d109c80f82c54a72"
+    },
+    {
+      "id": "meat-4-rat-raw",
+      "name": "Крыса — сырое",
+      "description": "one uncooked food ingredient: tiny pink-red rat meat strips, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "rat",
+      "foodState": "raw",
+      "art": "art/meat-4-rat-raw.png",
+      "sprite": "sprites/meat-4-rat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 574,
+        "top": 139,
+        "width": 410,
+        "height": 308
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "424288c5daf295e7fe85d69e6f3fc54ab530f54dbd9b849746f9292ee8bb9f21"
+    },
+    {
+      "id": "meat-4-crow-raw",
+      "name": "Ворона — сырое",
+      "description": "one uncooked food ingredient: small dark red crow breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "crow",
+      "foodState": "raw",
+      "art": "art/meat-4-crow-raw.png",
+      "sprite": "sprites/meat-4-crow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1096,
+        "top": 128,
+        "width": 394,
+        "height": 314
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ab6e16b58e2e6a2bde4ded75960bf9c6a013fb1cd6e16f65854ffbb33a48044b"
+    },
+    {
+      "id": "meat-4-cat-cooked",
+      "name": "Кошка — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: small lean pink-red cat meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "cat",
+      "foodState": "cooked",
+      "art": "art/meat-4-cat-cooked.png",
+      "sprite": "sprites/meat-4-cat-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 49,
+        "top": 606,
+        "width": 412,
+        "height": 320
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3f27a9e1cd9ebb17b7b5c9733d3c52234d9454af05ac3c134a49217295f75229"
+    },
+    {
+      "id": "meat-4-rat-cooked",
+      "name": "Крыса — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: tiny pink-red rat meat strips, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "rat",
+      "foodState": "cooked",
+      "art": "art/meat-4-rat-cooked.png",
+      "sprite": "sprites/meat-4-rat-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 574,
+        "top": 623,
+        "width": 410,
+        "height": 322
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "0cd7146eaf540cc82df3ca2bff8d3e188870c9eff69f49ccebf560a18d8f64fb"
+    },
+    {
+      "id": "meat-4-crow-cooked",
+      "name": "Ворона — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: small dark red crow breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "crow",
+      "foodState": "cooked",
+      "art": "art/meat-4-crow-cooked.png",
+      "sprite": "sprites/meat-4-crow-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1092,
+        "top": 609,
+        "width": 398,
+        "height": 322
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c46162d3ceb7becc1cc97b7a169db0b08fed120928c5f8110c0de508aa27bdea"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Кошка, Крыса, Ворона. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: small lean pink-red cat meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: tiny pink-red rat meat strips, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: small dark red crow breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: small lean pink-red cat meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: tiny pink-red rat meat strips, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: small dark red crow breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "f67d236eab0f556dfd3cf9b7fa81b92344dddc1eaa2c21c44b0f957a91718360"
+}

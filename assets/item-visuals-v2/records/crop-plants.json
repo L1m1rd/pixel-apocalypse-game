@@ -1,0 +1,88 @@
+{
+  "id": "crop-plants",
+  "name": "Культуры на грядке",
+  "kind": "world",
+  "index": 2,
+  "source": "sources/crop-plants.png",
+  "sheet": "sheets/crop-plants.png",
+  "items": [
+    {
+      "id": "crop-plants-carrot",
+      "name": "Морковь на грядке",
+      "description": "one mature carrot plant with feathery green leaves, orange root shoulder in a tiny soil mound",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/crop-plants-carrot.png",
+      "sprite": "sprites/crop-plants-carrot.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 31,
+        "top": 16,
+        "width": 448,
+        "height": 464
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b6c50eacfa19f1ebd796342702a87f9dbfc6b6f08bc7f6a37a9a0d31ad155937"
+    },
+    {
+      "id": "crop-plants-potato",
+      "name": "Картофель на грядке",
+      "description": "one compact mature potato plant with broad leaves and tiny pale flowers in a small soil mound",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/crop-plants-potato.png",
+      "sprite": "sprites/crop-plants-potato.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 557,
+        "top": 32,
+        "width": 421,
+        "height": 453
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8dd9a8c00730694bc481d68460e838360aa50bf023805c99fbc4b38449ea5651"
+    },
+    {
+      "id": "crop-plants-beet",
+      "name": "Свёкла на грядке",
+      "description": "one mature beet plant with broad burgundy-veined leaves and beet shoulder in a tiny soil mound",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/crop-plants-beet.png",
+      "sprite": "sprites/crop-plants-beet.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 1055,
+        "top": 48,
+        "width": 454,
+        "height": 443
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3c9f41f6d7dc2141297c738c9ad584029d490bb427000667b7219aa020c54c67"
+    },
+    {
+      "id": "crop-plants-millet",
+      "name": "Просо на грядке",
+      "description": "one mature tuft of millet with long green blades and branched golden seed panicles, NOT wheat ears, on a tiny soil mound",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/crop-plants-millet.png",
+      "sprite": "sprites/crop-plants-millet.png",
+      "artSize": 256,
+      "spriteSize": 128,
+      "sourceBounds": {
+        "left": 28,
+        "top": 523,
+        "width": 470,
+        "height": 470
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "47b95e15d44049cbd1ea304ce3ce73f7ccaac9768dc73440e7a430a6f64d6a71"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Культуры на грядке. Cell contents MUST follow these positions: TOP LEFT: one mature carrot plant with feathery green leaves, orange root shoulder in a tiny soil mound; TOP MIDDLE: one compact mature potato plant with broad leaves and tiny pale flowers in a small soil mound; TOP RIGHT: one mature beet plant with broad burgundy-veined leaves and beet shoulder in a tiny soil mound; BOTTOM LEFT: one mature tuft of millet with long green blades and branched golden seed panicles, NOT wheat ears, on a tiny soil mound. BOTTOM MIDDLE: leave completely empty and transparent. BOTTOM RIGHT: leave completely empty and transparent. Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "a21087bf0316f1ea37eeb223756e73ad2874731bbfa8abc73080a5d0d696b0f5"
+}

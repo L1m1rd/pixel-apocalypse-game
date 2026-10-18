@@ -1,0 +1,126 @@
+{
+  "id": "orchard",
+  "name": "Плодовые деревья и плоды",
+  "kind": "mixed",
+  "index": 3,
+  "source": "sources/orchard.png",
+  "sheet": "sheets/orchard.png",
+  "items": [
+    {
+      "id": "orchard-apple-tree",
+      "name": "Яблоня",
+      "description": "one complete compact apple tree with broad green crown, visible red apples and brown trunk",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/orchard-apple-tree.png",
+      "sprite": "sprites/orchard-apple-tree.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 35,
+        "top": 74,
+        "width": 513,
+        "height": 518
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "96f8ad397a9518ff6b94b052a8d3f6458e525fe2a0ad51a8ca7184796fd2d402"
+    },
+    {
+      "id": "orchard-plum-tree",
+      "name": "Слива",
+      "description": "one complete compact plum tree with narrow green crown, visible purple plums and brown trunk",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/orchard-plum-tree.png",
+      "sprite": "sprites/orchard-plum-tree.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 587,
+        "top": 35,
+        "width": 403,
+        "height": 557
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "459341f8ee59bb645ae9daf0ae251f02623f2da92ad89963ab4cb74f38997e22"
+    },
+    {
+      "id": "orchard-pear-tree",
+      "name": "Груша",
+      "description": "one complete compact pear tree with taller green crown, visible yellow-green pears and brown trunk",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/orchard-pear-tree.png",
+      "sprite": "sprites/orchard-pear-tree.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1071,
+        "top": 19,
+        "width": 422,
+        "height": 573
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "eed896efdce6ec84c796332513c138c87f64efebb554bfc379a9050b694943fb"
+    },
+    {
+      "id": "orchard-apple",
+      "name": "Яблоко",
+      "description": "one red orchard apple with a small green leaf",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/orchard-apple.png",
+      "sprite": "sprites/orchard-apple.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 129,
+        "top": 631,
+        "width": 313,
+        "height": 327
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3a0496440055cfcb9197de8788840d73d3fb38979a3948f7ab9b4327e2d89988"
+    },
+    {
+      "id": "orchard-plum",
+      "name": "Слива — плод",
+      "description": "two purple plums with a leaf, one inventory item pile",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/orchard-plum.png",
+      "sprite": "sprites/orchard-plum.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 604,
+        "top": 653,
+        "width": 345,
+        "height": 305
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7c8e256af0e4f959bd30f14381f8c030681fea8c500c9d577967cecc79e64b8e"
+    },
+    {
+      "id": "orchard-pear",
+      "name": "Груша — плод",
+      "description": "one yellow-green pear with tapered neck and leaf",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/orchard-pear.png",
+      "sprite": "sprites/orchard-pear.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1160,
+        "top": 636,
+        "width": 275,
+        "height": 337
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "084de1d913d974ce730dea7bf1fd601a7950e91ede9c6b16333b584b550bf94f"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Плодовые деревья и плоды. Cell contents MUST follow these positions: TOP LEFT: one complete compact apple tree with broad green crown, visible red apples and brown trunk; TOP MIDDLE: one complete compact plum tree with narrow green crown, visible purple plums and brown trunk; TOP RIGHT: one complete compact pear tree with taller green crown, visible yellow-green pears and brown trunk; BOTTOM LEFT: one red orchard apple with a small green leaf; BOTTOM MIDDLE: two purple plums with a leaf, one inventory item pile; BOTTOM RIGHT: one yellow-green pear with tapered neck and leaf.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "113b5ed96a2396aedeeafc424d8a889f1167e861b931c203e477ca26c1b9d0db"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "wires",
+  "name": "Провода и колючая проволока",
+  "kind": "mixed",
+  "index": 24,
+  "source": "sources/wires.png",
+  "sheet": "sheets/wires.png",
+  "items": [
+    {
+      "id": "wires-exposed",
+      "name": "Оголённый провод — на земле",
+      "description": "a LONG loose dark power cable lying naturally across the ground in a shallow stretched S curve, frayed exposed ends and tiny orange sparks, NOT a circular coil, no ground background",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/wires-exposed.png",
+      "sprite": "sprites/wires-exposed.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 42,
+        "top": 126,
+        "width": 461,
+        "height": 300
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7706be084ead3913779125df45d12d11fac7b692eb271a0fe2b838a3b3885d56"
+    },
+    {
+      "id": "wires-insulated",
+      "name": "Изолированный провод — на земле",
+      "description": "a LONG intact insulated cable laid loosely in a shallow stretched S curve, safe covered ends, NOT a circular coil, no ground background",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/wires-insulated.png",
+      "sprite": "sprites/wires-insulated.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 530,
+        "top": 123,
+        "width": 476,
+        "height": 293
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "aec2bcac8de91ca132af6a481dec0d924015a464f7f0182a62fd6f07f103c905"
+    },
+    {
+      "id": "wires-protected",
+      "name": "Защищённая проводка базы",
+      "description": "one straight run of installed cable inside a ribbed protective sleeve with small mounting clips, no wall background",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/wires-protected.png",
+      "sprite": "sprites/wires-protected.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1030,
+        "top": 230,
+        "width": 478,
+        "height": 109
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "244e4e195d4702f69a0c3bbbaa814b3533593cffdd8d7a20507c9a17dc8c68e7"
+    },
+    {
+      "id": "wires-pickup",
+      "name": "Провод — для переноски",
+      "description": "one neatly tied compact pickup bundle of insulated cable, rolled only for inventory transport, no sparks",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/wires-pickup.png",
+      "sprite": "sprites/wires-pickup.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 54,
+        "top": 623,
+        "width": 391,
+        "height": 268
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "f34f63e2926b014eebe29eab613305295c730e771802903b6e9cc66457eee339"
+    },
+    {
+      "id": "wires-barbed-deployed",
+      "name": "Колючая проволока — ограждение",
+      "description": "a LOW stretched section of deployed rusty barbed wire supported by two short stakes, a wide horizontal barrier, NOT a loose circular coil",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/wires-barbed-deployed.png",
+      "sprite": "sprites/wires-barbed-deployed.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 521,
+        "top": 641,
+        "width": 561,
+        "height": 229
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b0dda2388677b7b8c4fbe3aec2b096c2d84bd8625c9e9935a99a702a8c1234de"
+    },
+    {
+      "id": "wires-barbed-pickup",
+      "name": "Колючая проволока — переноска",
+      "description": "one compact tied roll of barbed wire for inventory transport, no installed stakes",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/wires-barbed-pickup.png",
+      "sprite": "sprites/wires-barbed-pickup.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1134,
+        "top": 612,
+        "width": 335,
+        "height": 291
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c65f44bbcb5e9cbeb5f976ef477a6e94934ad242961ebbd4a13581cff01c6ea4"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Провода и колючая проволока. Cell contents MUST follow these positions: TOP LEFT: a LONG loose dark power cable lying naturally across the ground in a shallow stretched S curve, frayed exposed ends and tiny orange sparks, NOT a circular coil, no ground background; TOP MIDDLE: a LONG intact insulated cable laid loosely in a shallow stretched S curve, safe covered ends, NOT a circular coil, no ground background; TOP RIGHT: one straight run of installed cable inside a ribbed protective sleeve with small mounting clips, no wall background; BOTTOM LEFT: one neatly tied compact pickup bundle of insulated cable, rolled only for inventory transport, no sparks; BOTTOM MIDDLE: a LOW stretched section of deployed rusty barbed wire supported by two short stakes, a wide horizontal barrier, NOT a loose circular coil; BOTTOM RIGHT: one compact tied roll of barbed wire for inventory transport, no installed stakes.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "b79052e0f184c6cbff4c16e368b5cb94456c0715ee5c01e0bc2ce5c9e039ed50"
+}

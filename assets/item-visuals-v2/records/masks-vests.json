@@ -1,0 +1,132 @@
+{
+  "id": "masks-vests",
+  "name": "Противогазы и бронежилеты",
+  "kind": "inventory",
+  "index": 7,
+  "source": "sources/masks-vests.png",
+  "sheet": "sheets/masks-vests.png",
+  "items": [
+    {
+      "id": "masks-vests-mask-1",
+      "name": "Противогаз — уровень 1",
+      "description": "a simple old dark rubber full-face gas mask, round lenses, one small cheek filter and thin straps",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "tier": 1,
+      "art": "art/masks-vests-mask-1.png",
+      "sprite": "sprites/masks-vests-mask-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 95,
+        "top": 48,
+        "width": 333,
+        "height": 390
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "219941bff5aa4731af326d0b2e75ed645f8cf0741f96935f425629f4fc191a4c"
+    },
+    {
+      "id": "masks-vests-mask-2",
+      "name": "Противогаз — уровень 2",
+      "description": "a reinforced olive full-face gas mask, wider lenses, two side filters and sturdy straps",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "tier": 2,
+      "art": "art/masks-vests-mask-2.png",
+      "sprite": "sprites/masks-vests-mask-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 552,
+        "top": 45,
+        "width": 432,
+        "height": 398
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "59ef7cec485a607423d76bf89fc7613a0797dd51956c161ea6f08b0a47272662"
+    },
+    {
+      "id": "masks-vests-mask-3",
+      "name": "Противогаз — уровень 3",
+      "description": "a modern heavy protective full-face mask with broad panoramic visor, reinforced frame and two large filters",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/masks-vests-mask-3.png",
+      "sprite": "sprites/masks-vests-mask-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1091,
+        "top": 49,
+        "width": 399,
+        "height": 400
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "4d9300e17668fa64ac14ea563c882a53bf33b4dc18a7cafd0d4ae0c83be13b5a"
+    },
+    {
+      "id": "masks-vests-vest-1",
+      "name": "Бронежилет — уровень 1",
+      "description": "a slim worn civilian soft armor vest, beige fabric, simple overlapping panels, no body",
+      "cell": 3,
+      "iconOccupancy": 160,
+      "tier": 1,
+      "art": "art/masks-vests-vest-1.png",
+      "sprite": "sprites/masks-vests-vest-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 69,
+        "top": 532,
+        "width": 369,
+        "height": 424
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e665bbf1bb11fbb31b639af6e6c365426e0eb16b7aa8ab5b69d9b49ab776d990"
+    },
+    {
+      "id": "masks-vests-vest-2",
+      "name": "Бронежилет — уровень 2",
+      "description": "an olive medium plate-carrier vest with visible front plate pocket and side straps, no body",
+      "cell": 4,
+      "iconOccupancy": 192,
+      "tier": 2,
+      "art": "art/masks-vests-vest-2.png",
+      "sprite": "sprites/masks-vests-vest-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 565,
+        "top": 518,
+        "width": 399,
+        "height": 426
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "e1588a25d52241a30892c319e88a8ff9170185a9720f6e381c6d46efbf393446"
+    },
+    {
+      "id": "masks-vests-vest-3",
+      "name": "Бронежилет — уровень 3",
+      "description": "a heavy dark olive armor vest with thick plate panels, broad collar and added lower abdomen flap, no body",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/masks-vests-vest-3.png",
+      "sprite": "sprites/masks-vests-vest-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1051,
+        "top": 500,
+        "width": 441,
+        "height": 469
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7f801b9cb88679743f5b86e1072c3f7402b8225865b0858a985d8bf44579bcf9"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Противогазы и бронежилеты. Cell contents MUST follow these positions: TOP LEFT: a simple old dark rubber full-face gas mask, round lenses, one small cheek filter and thin straps; TOP MIDDLE: a reinforced olive full-face gas mask, wider lenses, two side filters and sturdy straps; TOP RIGHT: a modern heavy protective full-face mask with broad panoramic visor, reinforced frame and two large filters; BOTTOM LEFT: a slim worn civilian soft armor vest, beige fabric, simple overlapping panels, no body; BOTTOM MIDDLE: an olive medium plate-carrier vest with visible front plate pocket and side straps, no body; BOTTOM RIGHT: a heavy dark olive armor vest with thick plate panels, broad collar and added lower abdomen flap, no body.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "fbc534c421be1fb89f4b48aa09534099f4b13b0e7665b3ae1049f2c3dde77579"
+}

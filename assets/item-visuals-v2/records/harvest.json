@@ -1,0 +1,88 @@
+{
+  "id": "harvest",
+  "name": "Урожай культур",
+  "kind": "inventory",
+  "index": 0,
+  "source": "sources/harvest.png",
+  "sheet": "sheets/harvest.png",
+  "items": [
+    {
+      "id": "harvest-carrot",
+      "name": "Морковь",
+      "description": "one orange carrot with green tops",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/harvest-carrot.png",
+      "sprite": "sprites/harvest-carrot.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 99,
+        "top": 50,
+        "width": 388,
+        "height": 424
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "734533a7d8aa535383d2e1faafbaad4bf09fff33b435001fb670a9e1c01ef849"
+    },
+    {
+      "id": "harvest-potato",
+      "name": "Картофель",
+      "description": "two recognizable earthy potatoes, one item pile",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/harvest-potato.png",
+      "sprite": "sprites/harvest-potato.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 581,
+        "top": 160,
+        "width": 375,
+        "height": 281
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "d518a5d35a9de0ce8d8a9db0bece6a190e2b116d67df0c6a9a164163a9712288"
+    },
+    {
+      "id": "harvest-beet",
+      "name": "Свёкла",
+      "description": "one dark burgundy beetroot with short red-green leaves",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/harvest-beet.png",
+      "sprite": "sprites/harvest-beet.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1113,
+        "top": 66,
+        "width": 354,
+        "height": 402
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8ab19cfd5a05ec452b8fca159875fe4fd900c1d13a2bcd252deabc662e7fb7aa"
+    },
+    {
+      "id": "harvest-millet",
+      "name": "Пшено — урожай проса",
+      "description": "a small open cloth sack of tiny golden yellow millet grains",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/harvest-millet.png",
+      "sprite": "sprites/harvest-millet.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 73,
+        "top": 576,
+        "width": 385,
+        "height": 382
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "33ecbf7f7b9c709b57760d4c6c9cb75f1a52405d3b284898155dcd3da50c6fff"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Урожай культур. Cell contents MUST follow these positions: TOP LEFT: one orange carrot with green tops; TOP MIDDLE: two recognizable earthy potatoes, one item pile; TOP RIGHT: one dark burgundy beetroot with short red-green leaves; BOTTOM LEFT: a small open cloth sack of tiny golden yellow millet grains. BOTTOM MIDDLE: leave completely empty and transparent. BOTTOM RIGHT: leave completely empty and transparent. Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "14b59aa238f3dfa68ed40db84af41edf7a52692a3e1a1cd38602348cc7b4242c"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "boots-greaves",
+  "name": "Ботинки и поножи",
+  "kind": "inventory",
+  "index": 8,
+  "source": "sources/boots-greaves.png",
+  "sheet": "sheets/boots-greaves.png",
+  "items": [
+    {
+      "id": "boots-greaves-boots-1",
+      "name": "Ботинки — уровень 1",
+      "description": "one pair of low worn civilian leather hiking boots with simple soles",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "tier": 1,
+      "art": "art/boots-greaves-boots-1.png",
+      "sprite": "sprites/boots-greaves-boots-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 35,
+        "top": 134,
+        "width": 446,
+        "height": 299
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "712e5294877651d093d000307cff545575749b5e83e3d7580f13d361307f2d34"
+    },
+    {
+      "id": "boots-greaves-boots-2",
+      "name": "Ботинки — уровень 2",
+      "description": "one pair of tall reinforced brown tactical boots with thick soles and protected toes",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "tier": 2,
+      "art": "art/boots-greaves-boots-2.png",
+      "sprite": "sprites/boots-greaves-boots-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 543,
+        "top": 28,
+        "width": 439,
+        "height": 413
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "70621acaced4c7514068c628472739398d1181dd38e31b60d076f0046ddb7fd1"
+    },
+    {
+      "id": "boots-greaves-boots-3",
+      "name": "Ботинки — уровень 3",
+      "description": "one pair of heavy dark protective boots with metal toe caps, ankle guards and deep soles",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/boots-greaves-boots-3.png",
+      "sprite": "sprites/boots-greaves-boots-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1046,
+        "top": 34,
+        "width": 462,
+        "height": 419
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "21d491b7b0cd89de6de780b6a370f5f562b6372a4e243de273b88d4f4ca56323"
+    },
+    {
+      "id": "boots-greaves-greaves-1",
+      "name": "Поножи — уровень 1",
+      "description": "one matched pair of simple padded fabric shin guards with straps, empty with no legs",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "tier": 1,
+      "art": "art/boots-greaves-greaves-1.png",
+      "sprite": "sprites/boots-greaves-greaves-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 87,
+        "top": 541,
+        "width": 362,
+        "height": 408
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a8e98da081129eb920722dec76548b876a3350b658a76c823424fa6a0bf41b76"
+    },
+    {
+      "id": "boots-greaves-greaves-2",
+      "name": "Поножи — уровень 2",
+      "description": "one matched pair of reinforced leather and hard-plastic shin and knee guards, no legs",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "tier": 2,
+      "art": "art/boots-greaves-greaves-2.png",
+      "sprite": "sprites/boots-greaves-greaves-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 602,
+        "top": 516,
+        "width": 353,
+        "height": 464
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "55df553ce57974a69e2b83d2c862e1526314c3e3e59ed87fc71865b43009a01e"
+    },
+    {
+      "id": "boots-greaves-greaves-3",
+      "name": "Поножи — уровень 3",
+      "description": "one matched pair of heavy segmented metal shin armor with knee plates and thick straps, no legs",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/boots-greaves-greaves-3.png",
+      "sprite": "sprites/boots-greaves-greaves-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1119,
+        "top": 516,
+        "width": 361,
+        "height": 476
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "2fa1b7c8249cda6fca9c4e7c8c143612dd98130ea2a6d47dcab4ce7671924cc1"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Ботинки и поножи. Cell contents MUST follow these positions: TOP LEFT: one pair of low worn civilian leather hiking boots with simple soles; TOP MIDDLE: one pair of tall reinforced brown tactical boots with thick soles and protected toes; TOP RIGHT: one pair of heavy dark protective boots with metal toe caps, ankle guards and deep soles; BOTTOM LEFT: one matched pair of simple padded fabric shin guards with straps, empty with no legs; BOTTOM MIDDLE: one matched pair of reinforced leather and hard-plastic shin and knee guards, no legs; BOTTOM RIGHT: one matched pair of heavy segmented metal shin armor with knee plates and thick straps, no legs.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "97f0ca224f340ec792c9843dedb592c9e8decc742e6fab0a51972ceee8bd06d9"
+}

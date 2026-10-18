@@ -1,0 +1,138 @@
+{
+  "id": "meat-6",
+  "name": "Мясо и рыба — Лягушка, Рыба, Курица",
+  "kind": "inventory",
+  "index": 31,
+  "source": "sources/meat-6.png",
+  "sheet": "sheets/meat-6.png",
+  "items": [
+    {
+      "id": "meat-6-frog-raw",
+      "name": "Лягушка — сырое",
+      "description": "one uncooked food ingredient: one paired edible frog-leg portion, no animal head or torso, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "frog",
+      "foodState": "raw",
+      "art": "art/meat-6-frog-raw.png",
+      "sprite": "sprites/meat-6-frog-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 79,
+        "top": 111,
+        "width": 372,
+        "height": 361
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "3a89901dc2b8d1aadf83cbda148b77f7660d881fb58b45f2d05817e16b64d4d7"
+    },
+    {
+      "id": "meat-6-fish-raw",
+      "name": "Рыба — сырая",
+      "description": "one uncooked food ingredient: one whole silver freshwater fish, intact food fish, no gore, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "fish",
+      "foodState": "raw",
+      "art": "art/meat-6-fish-raw.png",
+      "sprite": "sprites/meat-6-fish-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 544,
+        "top": 156,
+        "width": 466,
+        "height": 284
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a087ecd94168533e3207a2f0132ae868a3588e580f126bba765ed45713f696b9"
+    },
+    {
+      "id": "meat-6-chicken-raw",
+      "name": "Курица — сырое",
+      "description": "one uncooked food ingredient: one pale pink chicken breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "chicken",
+      "foodState": "raw",
+      "art": "art/meat-6-chicken-raw.png",
+      "sprite": "sprites/meat-6-chicken-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1096,
+        "top": 124,
+        "width": 358,
+        "height": 337
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "82efecd8e0c107f974065728a82202075c8eb85c97d3ffbc3e5de22c3531187a"
+    },
+    {
+      "id": "meat-6-frog-cooked",
+      "name": "Лягушка — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: one paired edible frog-leg portion, no animal head or torso, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "frog",
+      "foodState": "cooked",
+      "art": "art/meat-6-frog-cooked.png",
+      "sprite": "sprites/meat-6-frog-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 78,
+        "top": 583,
+        "width": 375,
+        "height": 363
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b0da6d5a039a8867cd28c1686f630a57a48b929ed459a14a5b94b8dd89470049"
+    },
+    {
+      "id": "meat-6-fish-cooked",
+      "name": "Рыба — жареная",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: one whole silver freshwater fish, intact food fish, no gore, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "fish",
+      "foodState": "cooked",
+      "art": "art/meat-6-fish-cooked.png",
+      "sprite": "sprites/meat-6-fish-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 534,
+        "top": 620,
+        "width": 483,
+        "height": 300
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7ff251f7597fa293b25da16e11e26045b2c038c77c2702779f76e13f00f734a2"
+    },
+    {
+      "id": "meat-6-chicken-cooked",
+      "name": "Курица — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: one pale pink chicken breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "chicken",
+      "foodState": "cooked",
+      "art": "art/meat-6-chicken-cooked.png",
+      "sprite": "sprites/meat-6-chicken-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1095,
+        "top": 604,
+        "width": 365,
+        "height": 331
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "da31cfdc74b3b882bdcd8b94c2da01076e7b6cf05f4c0d4e09c0d8d122f67949"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Лягушка, Рыба, Курица. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: one paired edible frog-leg portion, no animal head or torso, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: one whole silver freshwater fish, intact food fish, no gore, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: one pale pink chicken breast portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: one paired edible frog-leg portion, no animal head or torso, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: one whole silver freshwater fish, intact food fish, no gore, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: one pale pink chicken breast portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "bace48a7426d3c33eef75d1862ee411971157f9a6c2b188ece3059c790c7cf2b"
+}

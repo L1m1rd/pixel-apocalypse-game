@@ -18,9 +18,9 @@
     "build:weapons": "node tools/build-weapon-animations.cjs",
     "check:weapons": "node tools/check-weapon-animations.cjs",
     "package:weapons": "node tools/package-weapon-animations.cjs",
-    "build:items": "node tools/build-item-visuals.cjs",
-    "check:items": "node tools/check-item-visuals.cjs",
-    "package:items": "node tools/package-item-visuals.cjs",
+    "build:items": "node tools/build-item-revision.cjs",
+    "check:items": "node tools/check-item-revision.cjs",
+    "package:items": "node tools/package-item-revision.cjs",
     "build:wildlife": "node tools/build-wildlife-animations.cjs",
     "check:wildlife": "node tools/check-wildlife-animations.cjs",
     "preview:wildlife": "node tools/serve-wildlife-animations.cjs",
@@ -28,7 +28,8 @@
     "build:wildlife-loot": "node tools/build-wildlife-loot.cjs",
     "check:wildlife-loot": "node tools/check-wildlife-loot.cjs",
     "preview:wildlife-loot": "node tools/serve-wildlife-loot.cjs",
-    "package:wildlife-loot": "node tools/build-wildlife-loot.cjs --zip"
+    "package:wildlife-loot": "node tools/build-wildlife-loot.cjs --zip",
+    "prepare:items": "node tools/prepare-item-revision.cjs"
   },
   "devDependencies": {
     "jszip": "3.10.1",

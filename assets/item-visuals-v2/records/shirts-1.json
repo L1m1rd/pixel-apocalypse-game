@@ -1,0 +1,138 @@
+{
+  "id": "shirts-1",
+  "name": "Футболки — варианты 1–6",
+  "kind": "inventory",
+  "index": 14,
+  "source": "sources/shirts-1.png",
+  "sheet": "sheets/shirts-1.png",
+  "items": [
+    {
+      "id": "shirts-1-v1",
+      "name": "Футболка белая",
+      "description": "one complete empty plain faded ivory crewneck T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 1,
+      "art": "art/shirts-1-v1.png",
+      "sprite": "sprites/shirts-1-v1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 60,
+        "top": 37,
+        "width": 403,
+        "height": 425
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "9e857b88d3006afe75637807e75d197a3f2c64f24e4430215781b5e3be5ba694"
+    },
+    {
+      "id": "shirts-1-v2",
+      "name": "Футболка графитовая",
+      "description": "one complete empty plain charcoal V-neck T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 2,
+      "art": "art/shirts-1-v2.png",
+      "sprite": "sprites/shirts-1-v2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 560,
+        "top": 37,
+        "width": 419,
+        "height": 428
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "809e9c25de902d76189ef88622b272465b21f6c4e8be76e1ec3a4f2c28b34ca9"
+    },
+    {
+      "id": "shirts-1-v3",
+      "name": "Футболка оливковая",
+      "description": "one complete empty olive crewneck T-shirt with a small chest pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 3,
+      "art": "art/shirts-1-v3.png",
+      "sprite": "sprites/shirts-1-v3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1074,
+        "top": 37,
+        "width": 409,
+        "height": 425
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "7f4a74adc5c29f238cb2133bc1fc66e9cb1240e27b2c8b8f813bb6c3f3013f66"
+    },
+    {
+      "id": "shirts-1-v4",
+      "name": "Футболка бордовая",
+      "description": "one complete empty burgundy henley short-sleeve T-shirt with three collar buttons, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 4,
+      "art": "art/shirts-1-v4.png",
+      "sprite": "sprites/shirts-1-v4.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 46,
+        "top": 528,
+        "width": 435,
+        "height": 445
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8ca6b3bc6fe41282e277eeab907310c4af4c11d0400595d545670aa1caa1ebf8"
+    },
+    {
+      "id": "shirts-1-v5",
+      "name": "Футболка синяя",
+      "description": "one complete empty faded blue raglan T-shirt with darker sleeves, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 5,
+      "art": "art/shirts-1-v5.png",
+      "sprite": "sprites/shirts-1-v5.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 553,
+        "top": 535,
+        "width": 435,
+        "height": 439
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "529e373f540d712d53faa93aab9b7be3084dcfab1ca4e73dfbba3e96724f262c"
+    },
+    {
+      "id": "shirts-1-v6",
+      "name": "Футболка песочная",
+      "description": "one complete empty sand-colored heavy cotton boxy T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "clothingFamily": "shirts",
+      "variant": 6,
+      "art": "art/shirts-1-v6.png",
+      "sprite": "sprites/shirts-1-v6.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1059,
+        "top": 535,
+        "width": 438,
+        "height": 440
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "82c2d41d5ad24de9f4f6cbfd2c7b0465b9b9942e1dd68b5bd65b9a239dfdd37d"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Футболки — варианты 1–6. Cell contents MUST follow these positions: TOP LEFT: one complete empty plain faded ivory crewneck T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP MIDDLE: one complete empty plain charcoal V-neck T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP RIGHT: one complete empty olive crewneck T-shirt with a small chest pocket, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM LEFT: one complete empty burgundy henley short-sleeve T-shirt with three collar buttons, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM MIDDLE: one complete empty faded blue raglan T-shirt with darker sleeves, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM RIGHT: one complete empty sand-colored heavy cotton boxy T-shirt, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "a62dacf277c745c03b42505fa563d8ccf2ad0fc3b0083a9fd9b8c5b2598e158d"
+}

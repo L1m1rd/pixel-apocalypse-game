@@ -1,0 +1,126 @@
+{
+  "id": "herbs",
+  "name": "Лекарственные травы",
+  "kind": "mixed",
+  "index": 22,
+  "source": "sources/herbs.png",
+  "sheet": "sheets/herbs.png",
+  "items": [
+    {
+      "id": "herbs-plantain",
+      "name": "Подорожник",
+      "description": "one compact plantain herb with broad ribbed green leaves, tiny soil tuft",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/herbs-plantain.png",
+      "sprite": "sprites/herbs-plantain.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 67,
+        "top": 32,
+        "width": 451,
+        "height": 446
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "53832a335b0c121f765b5c5d20e57a806556aa53ab59e08e2276006c972b2dd1"
+    },
+    {
+      "id": "herbs-yarrow",
+      "name": "Тысячелистник",
+      "description": "one yarrow herb with feathery leaves and a small cluster of pale flowers",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/herbs-yarrow.png",
+      "sprite": "sprites/herbs-yarrow.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 589,
+        "top": 40,
+        "width": 373,
+        "height": 435
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ce1f2bd7c7a3b770769e6f999b7491681ac6acd2bbc40ece5d0606702a3a7a83"
+    },
+    {
+      "id": "herbs-chamomile",
+      "name": "Ромашка",
+      "description": "one chamomile herb clump with white-petal yellow-center flowers",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/herbs-chamomile.png",
+      "sprite": "sprites/herbs-chamomile.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1069,
+        "top": 36,
+        "width": 395,
+        "height": 443
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ec65fdc06a86d6b272ffb106a76dd37a85c90718c842fb90d1edfd59d4ab51c2"
+    },
+    {
+      "id": "herbs-nettle",
+      "name": "Крапива",
+      "description": "one small nettle herb with serrated green leaves",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/herbs-nettle.png",
+      "sprite": "sprites/herbs-nettle.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 81,
+        "top": 528,
+        "width": 384,
+        "height": 449
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c98628ba23838e75b621217a2cad10fdd62c94b86b41a6998380cc7f4d40aca4"
+    },
+    {
+      "id": "herbs-mint",
+      "name": "Мята",
+      "description": "one mint herb sprig cluster with paired textured leaves",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/herbs-mint.png",
+      "sprite": "sprites/herbs-mint.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 570,
+        "top": 523,
+        "width": 395,
+        "height": 454
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b6650b7adafed4e879aff35a394b4bb3e344732d7bb3f4243cbe421e5c3cd70f"
+    },
+    {
+      "id": "herbs-dried-herbs",
+      "name": "Сушёные травы",
+      "description": "one small tied bundle of dried medicinal herbs, hanging stems tied with twine",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/herbs-dried-herbs.png",
+      "sprite": "sprites/herbs-dried-herbs.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1113,
+        "top": 514,
+        "width": 326,
+        "height": 476
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "9242eb8338e121edd90fd247bb9f037eb510e66fcd2795d61b7962b008cfe623"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Лекарственные травы. Cell contents MUST follow these positions: TOP LEFT: one compact plantain herb with broad ribbed green leaves, tiny soil tuft; TOP MIDDLE: one yarrow herb with feathery leaves and a small cluster of pale flowers; TOP RIGHT: one chamomile herb clump with white-petal yellow-center flowers; BOTTOM LEFT: one small nettle herb with serrated green leaves; BOTTOM MIDDLE: one mint herb sprig cluster with paired textured leaves; BOTTOM RIGHT: one small tied bundle of dried medicinal herbs, hanging stems tied with twine.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "4b68e0b2405ee7e7ca5c89ba84acbabdfd88218de49f7ba71fd2b77d0b89f8e5"
+}

@@ -112,6 +112,8 @@
 
 [Полный каталог](assets/item-visuals-v2/README.md) · [Просмотрщик с поиском](assets/item-visuals-v2/preview.html) · [72 варианта одежды](assets/item-visuals-v2/clothing-overview.png) · [Мясо и рыба](assets/item-visuals-v2/food-overview.png) · [Игровые договорённости](docs/items-design.md).
 
+[Полный ZIP предметов в релизе](https://github.com/L1m1rd/pixel-apocalypse-game/releases/tag/item-visuals-v2).
+
 Это статичная графика и проект правил. Крафт, рост растений, сбор урожая, лечение, переноска, установка проводов и надевание экипировки ещё не реализованы. Прежний набор предметов заменён в текущей публикации; история Git сохранена.
 
 ## Окружение

@@ -1,0 +1,129 @@
+{
+  "id": "gloves-tools",
+  "name": "Перчатки и новые инструменты",
+  "kind": "inventory",
+  "index": 9,
+  "source": "sources/gloves-tools.png",
+  "sheet": "sheets/gloves-tools.png",
+  "items": [
+    {
+      "id": "gloves-tools-gloves-1",
+      "name": "Перчатки — уровень 1",
+      "description": "one pair of simple cloth and thin leather work gloves, no hands inside",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "tier": 1,
+      "art": "art/gloves-tools-gloves-1.png",
+      "sprite": "sprites/gloves-tools-gloves-1.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 50,
+        "top": 81,
+        "width": 423,
+        "height": 364
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "4d54405a9c48377097d6b49de75c924b859309abad8e7e8a9046acccfbb68c1f"
+    },
+    {
+      "id": "gloves-tools-gloves-2",
+      "name": "Перчатки — уровень 2",
+      "description": "one pair of reinforced brown leather gloves with padded knuckles, no hands inside",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "tier": 2,
+      "art": "art/gloves-tools-gloves-2.png",
+      "sprite": "sprites/gloves-tools-gloves-2.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 549,
+        "top": 71,
+        "width": 434,
+        "height": 379
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c7b575cacb71404645b48af7f4acb2b545eb56711bd513a0f6ca5c1420760c39"
+    },
+    {
+      "id": "gloves-tools-gloves-3",
+      "name": "Перчатки — уровень 3",
+      "description": "one pair of heavy dark protective gloves with hard segmented knuckle guards and reinforced wrists, no hands inside",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "tier": 3,
+      "art": "art/gloves-tools-gloves-3.png",
+      "sprite": "sprites/gloves-tools-gloves-3.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1067,
+        "top": 64,
+        "width": 428,
+        "height": 400
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "6f799c6e682266a81056eb2931379c0b36a7c6083154a12de2226f946bec8b73"
+    },
+    {
+      "id": "gloves-tools-hoe",
+      "name": "Мотыга",
+      "description": "one complete wooden-shaft garden hoe with a perpendicular dark steel blade",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/gloves-tools-hoe.png",
+      "sprite": "sprites/gloves-tools-hoe.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 52,
+        "top": 535,
+        "width": 399,
+        "height": 440
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "80f577dc8acd9d1232655fe7c768d8aab29322a5f08fca4f88d0d9fe9d79bd47"
+    },
+    {
+      "id": "gloves-tools-rake",
+      "name": "Грабли",
+      "description": "one complete wood-handled garden rake with a wide row of steel teeth",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/gloves-tools-rake.png",
+      "sprite": "sprites/gloves-tools-rake.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 567,
+        "top": 522,
+        "width": 386,
+        "height": 454
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "12fd952a25eb85675c6f7040527a17f5cf2b2346e81fb2f5e990d0b1fa36de34"
+    },
+    {
+      "id": "gloves-tools-fishing-rod",
+      "name": "Удочка",
+      "description": "one complete simple fishing rod with reel, short attached line and float, no person",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/gloves-tools-fishing-rod.png",
+      "sprite": "sprites/gloves-tools-fishing-rod.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1043,
+        "top": 525,
+        "width": 452,
+        "height": 427
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "1432661d050c04d16f3ef72bdbbcf569a764ed91b50d4980219c1e3b4e0ab535"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Перчатки и новые инструменты. Cell contents MUST follow these positions: TOP LEFT: one pair of simple cloth and thin leather work gloves, no hands inside; TOP MIDDLE: one pair of reinforced brown leather gloves with padded knuckles, no hands inside; TOP RIGHT: one pair of heavy dark protective gloves with hard segmented knuckle guards and reinforced wrists, no hands inside; BOTTOM LEFT: one complete wooden-shaft garden hoe with a perpendicular dark steel blade; BOTTOM MIDDLE: one complete wood-handled garden rake with a wide row of steel teeth; BOTTOM RIGHT: one complete simple fishing rod with reel, short attached line and float, no person.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "26cb752e4c1f377432188e3166e4845a9251bb204f5957b2a603cc877d54ec7f"
+}

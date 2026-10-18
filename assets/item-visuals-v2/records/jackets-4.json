@@ -1,0 +1,138 @@
+{
+  "id": "jackets-4",
+  "name": "Куртки — варианты 19–24",
+  "kind": "inventory",
+  "index": 13,
+  "source": "sources/jackets-4.png",
+  "sheet": "sheets/jackets-4.png",
+  "items": [
+    {
+      "id": "jackets-4-v19",
+      "name": "Куртка с подкладкой",
+      "description": "one complete empty brown corduroy jacket with pale shearling collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 19,
+      "art": "art/jackets-4-v19.png",
+      "sprite": "sprites/jackets-4-v19.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 51,
+        "top": 70,
+        "width": 418,
+        "height": 404
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "6eb93b396c80f769e0de4d0dcfcdb992bad10a6e330657b82c4699263f4e17f4"
+    },
+    {
+      "id": "jackets-4-v20",
+      "name": "Куртка с капюшоном",
+      "description": "one complete empty dark teal hooded canvas jacket with toggle closures, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 20,
+      "art": "art/jackets-4-v20.png",
+      "sprite": "sprites/jackets-4-v20.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 576,
+        "top": 38,
+        "width": 389,
+        "height": 453
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "17c6f0d7b8618c474aa6fd9d4d1481830edbfd01c90fbaf30bf973fe168bf468"
+    },
+    {
+      "id": "jackets-4-v21",
+      "name": "Куртка ремонтника",
+      "description": "one complete empty slate work jacket with restrained orange reflective shoulder bands, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 21,
+      "art": "art/jackets-4-v21.png",
+      "sprite": "sprites/jackets-4-v21.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1069,
+        "top": 77,
+        "width": 429,
+        "height": 392
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "b3f3911563ade67cf11776b7ce044c7bb3e64eb66084d109c370fc23d4de025b"
+    },
+    {
+      "id": "jackets-4-v22",
+      "name": "Куртка лоскутная",
+      "description": "one complete empty olive jacket repaired with visibly different brown canvas patches, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 22,
+      "art": "art/jackets-4-v22.png",
+      "sprite": "sprites/jackets-4-v22.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 41,
+        "top": 541,
+        "width": 431,
+        "height": 423
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c2f24efa7f76a04ad57a7d6406771dcbadf329082042a7555f5fb17430bcbfb8"
+    },
+    {
+      "id": "jackets-4-v23",
+      "name": "Куртка охотничья",
+      "description": "one complete empty brown hunting jacket with contrasting dark shoulder pads, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 23,
+      "art": "art/jackets-4-v23.png",
+      "sprite": "sprites/jackets-4-v23.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 550,
+        "top": 533,
+        "width": 443,
+        "height": 424
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "88238575c78b29c46c5154b9498c0df379a9269084c9f0d8fc9193ff6358b834"
+    },
+    {
+      "id": "jackets-4-v24",
+      "name": "Куртка короткая",
+      "description": "one complete empty faded blue short worker jacket with two rows of large pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "clothingFamily": "jackets",
+      "variant": 24,
+      "art": "art/jackets-4-v24.png",
+      "sprite": "sprites/jackets-4-v24.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1073,
+        "top": 554,
+        "width": 424,
+        "height": 396
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a272e4e1f790a512307003bdd49949138c4a5502934dc5a47c099d785878c379"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Куртки — варианты 19–24. Cell contents MUST follow these positions: TOP LEFT: one complete empty brown corduroy jacket with pale shearling collar, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP MIDDLE: one complete empty dark teal hooded canvas jacket with toggle closures, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; TOP RIGHT: one complete empty slate work jacket with restrained orange reflective shoulder bands, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM LEFT: one complete empty olive jacket repaired with visibly different brown canvas patches, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM MIDDLE: one complete empty brown hunting jacket with contrasting dark shoulder pads, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts; BOTTOM RIGHT: one complete empty faded blue short worker jacket with two rows of large pockets, displayed as a standalone clothing item; no human, no mannequin, no socks, no shoes, no separate body parts.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "7cd93ee4a191f1e800e1e3c0c4221d6fb9377fc0e123b0a942b32b5a44af70ba"
+}

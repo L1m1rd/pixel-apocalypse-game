@@ -1,0 +1,126 @@
+{
+  "id": "resource-harvest",
+  "name": "Собранные ресурсы и рубка дерева",
+  "kind": "mixed",
+  "index": 26,
+  "source": "sources/resource-harvest.png",
+  "sheet": "sheets/resource-harvest.png",
+  "items": [
+    {
+      "id": "resource-harvest-berries",
+      "name": "Собранные ягоды",
+      "description": "one small loose pile of dark red and purple wild berries with two small leaves, no bush and no container",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-berries.png",
+      "sprite": "sprites/resource-harvest-berries.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 88,
+        "top": 201,
+        "width": 372,
+        "height": 240
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "1e91290a9da10ef6e7e3d0130fd1d7c71e908e74b67e45cb72b08c19b03697a4"
+    },
+    {
+      "id": "resource-harvest-mushrooms",
+      "name": "Собранные грибы",
+      "description": "one small pile of three picked brown forest mushrooms with cut stems, no soil or growing patch",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-mushrooms.png",
+      "sprite": "sprites/resource-harvest-mushrooms.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 590,
+        "top": 163,
+        "width": 351,
+        "height": 291
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "373ea6fb2d34237801caf4c5b1f6947cdd0a6f9acec99257304027d303d1eb59"
+    },
+    {
+      "id": "resource-harvest-felled-log",
+      "name": "Поваленный ствол",
+      "description": "one short complete felled tree trunk section with bark, a few cut branch stubs and a clear pale cut end, no scenery",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-felled-log.png",
+      "sprite": "sprites/resource-harvest-felled-log.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1042,
+        "top": 176,
+        "width": 432,
+        "height": 282
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "86ad1ba22c7cc838d608773626f2973e20c505e7197c0347ded9d032d151bde8"
+    },
+    {
+      "id": "resource-harvest-stump",
+      "name": "Пень после рубки",
+      "description": "one low freshly cut tree stump with pale growth rings and visible roots, no whole tree or scenery",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-stump.png",
+      "sprite": "sprites/resource-harvest-stump.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 49,
+        "top": 605,
+        "width": 471,
+        "height": 322
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "1271c257323e85c734dc815e77f63b914aae9b5f092bdc4a3ab8206681b7f803"
+    },
+    {
+      "id": "resource-harvest-stone",
+      "name": "Добытый камень",
+      "description": "one small inventory pile of four rough gray stone fragments, no large boulder",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-stone.png",
+      "sprite": "sprites/resource-harvest-stone.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 590,
+        "top": 617,
+        "width": 366,
+        "height": 286
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "bbdba9e694256bdc8021b461f19db2a6fff5b31a25caedec7003cfbe97ddc700"
+    },
+    {
+      "id": "resource-harvest-boards",
+      "name": "Доски после рубки",
+      "description": "one compact tied bundle of freshly cut pale wooden planks with visible grain, no tools",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "art": "art/resource-harvest-boards.png",
+      "sprite": "sprites/resource-harvest-boards.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1041,
+        "top": 617,
+        "width": 443,
+        "height": 294
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "a3a500022d56945aecd9a020b17b0d8d191a5229d7190869e634da46b1aff30e"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Собранные ресурсы и рубка дерева. Cell contents MUST follow these positions: TOP LEFT: one small loose pile of dark red and purple wild berries with two small leaves, no bush and no container; TOP MIDDLE: one small pile of three picked brown forest mushrooms with cut stems, no soil or growing patch; TOP RIGHT: one short complete felled tree trunk section with bark, a few cut branch stubs and a clear pale cut end, no scenery; BOTTOM LEFT: one low freshly cut tree stump with pale growth rings and visible roots, no whole tree or scenery; BOTTOM MIDDLE: one small inventory pile of four rough gray stone fragments, no large boulder; BOTTOM RIGHT: one compact tied bundle of freshly cut pale wooden planks with visible grain, no tools.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "5a263d5436f6d73dccdbfb86cac51796e3434cd4f552ad83529af161c533d86b"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "meat-1",
+  "name": "Мясо и рыба — Заяц, Белка, Лиса",
+  "kind": "inventory",
+  "index": 26,
+  "source": "sources/meat-1.png",
+  "sheet": "sheets/meat-1.png",
+  "items": [
+    {
+      "id": "meat-1-hare-raw",
+      "name": "Заяц — сырое",
+      "description": "one uncooked food ingredient: small lean pink rabbit meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 0,
+      "iconOccupancy": 224,
+      "speciesId": "hare",
+      "foodState": "raw",
+      "art": "art/meat-1-hare-raw.png",
+      "sprite": "sprites/meat-1-hare-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 93,
+        "top": 123,
+        "width": 338,
+        "height": 328
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "ec534bf5198cbef370b2bc42270232ebbe5e1d5a5b7b1f76bed4268f7c2c3a44"
+    },
+    {
+      "id": "meat-1-squirrel-raw",
+      "name": "Белка — сырое",
+      "description": "one uncooked food ingredient: tiny lean reddish squirrel meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 1,
+      "iconOccupancy": 224,
+      "speciesId": "squirrel",
+      "foodState": "raw",
+      "art": "art/meat-1-squirrel-raw.png",
+      "sprite": "sprites/meat-1-squirrel-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 586,
+        "top": 156,
+        "width": 365,
+        "height": 281
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "88b6d1ffc7f29b4b1f087e2b3f4e762be3e0136515b229ea63f29854575e81d4"
+    },
+    {
+      "id": "meat-1-fox-raw",
+      "name": "Лиса — сырое",
+      "description": "one uncooked food ingredient: small dark lean fox meat strips, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face",
+      "cell": 2,
+      "iconOccupancy": 224,
+      "speciesId": "fox",
+      "foodState": "raw",
+      "art": "art/meat-1-fox-raw.png",
+      "sprite": "sprites/meat-1-fox-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1100,
+        "top": 143,
+        "width": 356,
+        "height": 308
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "c6b20048982d7099012c1a383589f8f55cfad76f2d6384c348ab894e8e2f6a66"
+    },
+    {
+      "id": "meat-1-hare-cooked",
+      "name": "Заяц — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: small lean pink rabbit meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 3,
+      "iconOccupancy": 224,
+      "speciesId": "hare",
+      "foodState": "cooked",
+      "art": "art/meat-1-hare-cooked.png",
+      "sprite": "sprites/meat-1-hare-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 89,
+        "top": 572,
+        "width": 343,
+        "height": 346
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "8aa1dfc77ed29c123e821c6c550532c63466fe0b1d3d60c4ede93f26b0601411"
+    },
+    {
+      "id": "meat-1-squirrel-cooked",
+      "name": "Белка — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: tiny lean reddish squirrel meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 4,
+      "iconOccupancy": 224,
+      "speciesId": "squirrel",
+      "foodState": "cooked",
+      "art": "art/meat-1-squirrel-cooked.png",
+      "sprite": "sprites/meat-1-squirrel-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 590,
+        "top": 628,
+        "width": 356,
+        "height": 275
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "686d066b3ea58c4d5a39a8f3046545522f8f6e7fae10526dd936f7e561ed4277"
+    },
+    {
+      "id": "meat-1-fox-cooked",
+      "name": "Лиса — жареное",
+      "description": "one cooked food ingredient matching the corresponding raw portion above: small dark lean fox meat strips, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame",
+      "cell": 5,
+      "iconOccupancy": 224,
+      "speciesId": "fox",
+      "foodState": "cooked",
+      "art": "art/meat-1-fox-cooked.png",
+      "sprite": "sprites/meat-1-fox-cooked.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "sourceBounds": {
+        "left": 1100,
+        "top": 606,
+        "width": 360,
+        "height": 312
+      },
+      "sourceEdgePixels": 0,
+      "sha256": "fba082cc25fedbbd8052b1446c7ac052f8222321bef8b0ec1c86c454081347c4"
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Create one transparent PNG source sheet 1536x1024 for a grounded post-apocalyptic pixel survival RPG. Exactly THREE columns by TWO rows of invisible 512x512 cells. Category: Мясо и рыба — Заяц, Белка, Лиса. Cell contents MUST follow these positions: TOP LEFT: one uncooked food ingredient: small lean pink rabbit meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP MIDDLE: one uncooked food ingredient: tiny lean reddish squirrel meat portion, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; TOP RIGHT: one uncooked food ingredient: small dark lean fox meat strips, isolated on a very small scrap of neutral paper, no pool of blood, no animal body or face; BOTTOM LEFT: one cooked food ingredient matching the corresponding raw portion above: small lean pink rabbit meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM MIDDLE: one cooked food ingredient matching the corresponding raw portion above: tiny lean reddish squirrel meat portion, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame; BOTTOM RIGHT: one cooked food ingredient matching the corresponding raw portion above: small dark lean fox meat strips, now clearly roasted golden brown with a few small sear marks, no pink raw surface, no plate, no flame.  Each occupied cell has exactly ONE complete isolated item silhouette or the explicitly requested matched pair; do not duplicate items. Generous 48px transparent margins inside every cell, never crop or merge neighboring items. Consistent crisp square-pixel 16-bit game art, muted olive, canvas brown, gray steel, faded cloth, dark selective pixel outlines, restrained highlights, moderate wear. Slightly elevated readable RPG inventory view; clothing shown from front with a tiny 3/4 turn, empty with no person or mannequin. Detailed but truly pixelated, no photorealism, smoothing, antialiasing, painterly gradients or 3D render. True transparent background, no floor, no ground plane, no cast shadows, no decorative backdrop, no text, no labels, no readable letters or numbers, no brands, no hands, no people. Preserve distinguishable silhouettes and tier-specific construction. No socks, guns or detachable ammunition magazines. Ammunition BOXES are allowed only in the ammunition category, and those images must not contain loose diagrams or instructions. All items must remain visibly distinct. This is artwork for a fictional game, not a real-world instruction sheet.",
+  "sourceSha256": "db27d5c0c66e6442730c5ca20f220174bb65afb37d102b90921003f1bfe8ee75"
+}
