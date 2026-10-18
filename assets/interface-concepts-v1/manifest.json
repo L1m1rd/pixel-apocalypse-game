@@ -1,0 +1,191 @@
+{
+  "status": "selection-recorded",
+  "implemented": false,
+  "previewArtworkOnly": true,
+  "placeholderContent": [
+    "portraits",
+    "world-backdrops",
+    "item-art",
+    "stats",
+    "recipes",
+    "player-names",
+    "character-traits"
+  ],
+  "preservesApprovedGameAssets": true,
+  "screens": [
+    {
+      "id": "01-hud",
+      "name": "Игровой HUD",
+      "comparison": "01-hud-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "01-hud-A.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "01-hud-B.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "01-hud-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "02-inventory",
+      "name": "Инвентарь",
+      "comparison": "02-inventory-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "02-inventory-A.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "02-inventory-B.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "02-inventory-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "03-crafting",
+      "name": "Крафт и строительство",
+      "comparison": "03-crafting-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "03-crafting-A.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "03-crafting-B.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "03-crafting-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "04-map",
+      "name": "Карта",
+      "comparison": "04-map-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "04-map-A.png",
+          "width": 1672,
+          "height": 940
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "04-map-B.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "04-map-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "05-character",
+      "name": "Выбор персонажа",
+      "comparison": "05-character-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "05-character-A.png",
+          "width": 1672,
+          "height": 940
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "05-character-B.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "05-character-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "06-lobby",
+      "name": "Лобби кооператива",
+      "comparison": "06-lobby-comparison.png",
+      "selectedVariant": "A",
+      "variants": [
+        {
+          "variant": "A",
+          "name": "Полевой",
+          "file": "06-lobby-A.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "variant": "B",
+          "name": "Бумажный",
+          "file": "06-lobby-B.png",
+          "width": 1672,
+          "height": 940
+        },
+        {
+          "variant": "C",
+          "name": "Контрастный",
+          "file": "06-lobby-C.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    }
+  ]
+}

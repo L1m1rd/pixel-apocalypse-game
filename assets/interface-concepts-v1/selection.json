@@ -1,0 +1,52 @@
+{
+  "selectedVariant": "A",
+  "selectedForAllScreens": true,
+  "approval": "Пользователь одобрил все шесть экранов A, включая правки HUD и инвентаря, и поручил загрузить их на GitHub.",
+  "scope": "visual-only",
+  "implemented": false,
+  "hud": {
+    "removeTaskPanel": true,
+    "preserve": [
+      "health",
+      "hunger",
+      "thirst",
+      "stamina",
+      "teammate-list",
+      "minimap",
+      "time-weather",
+      "bottom-hotbar",
+      "weapon-ammo"
+    ]
+  },
+  "inventory": {
+    "equipmentSlots": [
+      "helmet",
+      "bodyArmor",
+      "trousers",
+      "weapon",
+      "backpack",
+      "gasMask",
+      "gloves",
+      "boots"
+    ],
+    "equipmentLabels": [
+      "Шлем",
+      "Броня",
+      "Штаны",
+      "Оружие",
+      "Рюкзак",
+      "Противогаз",
+      "Перчатки",
+      "Ботинки"
+    ]
+  },
+  "screens": [
+    "01-hud",
+    "02-inventory",
+    "03-crafting",
+    "04-map",
+    "05-character",
+    "06-lobby"
+  ],
+  "approved": true
+}

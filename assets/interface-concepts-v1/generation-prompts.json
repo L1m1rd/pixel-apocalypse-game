@@ -1,0 +1,199 @@
+{
+  "status": "proposals-awaiting-user-selection",
+  "tool": "built-in image_gen",
+  "screens": [
+    {
+      "id": "01-hud",
+      "name": "Игровой HUD",
+      "spec": "Active gameplay screen: overhead 2D pixel survivor exploring a ruined village with grass and infected in the distance. Show readable health, hunger, thirst, stamina, selected weapon/ammo, six quick slots, small minimap, compact six-player co-op status. Gameplay remains at least 75% unobstructed. No touch controls."
+    },
+    {
+      "id": "02-inventory",
+      "name": "Инвентарь",
+      "spec": "Inventory screen over dimmed overhead gameplay. Show a pixel survivor paper doll with separate backpack, helmet, vest, gloves, boots equipment slots; backpack storage grid holding food, bandage, water flask, ammunition, resources; item detail panel for a bandage, weight/capacity and quick slots. Clear visual hierarchy."
+    },
+    {
+      "id": "03-crafting",
+      "name": "Крафт и строительство",
+      "spec": "Crafting and base building screen over dimmed gameplay. Clear category navigation for survival, medicine, tools, construction. Select bandage recipe, show cloth ingredient counts 3/2, craft button, recipe cards including barricade and campfire, one locked advanced recipe with manual icon. This is a visual proposal, not fixed gameplay rules."
+    },
+    {
+      "id": "04-map",
+      "name": "Карта",
+      "spec": "World map screen of a large forested region with villages, a ruined city, roads, lake and rivers, discovered colored areas and fog of war. Six distinct co-op player markers, shelter marker, personal waypoint, corpse retrieval marker, compact legend and zoom controls. Overhead pixel geographic map, not isometric, not satellite."
+    },
+    {
+      "id": "05-character",
+      "name": "Выбор персонажа",
+      "spec": "Character selection screen for six original young adult male survivors. Names exactly Глеб, Роман, Мирон, Егор, Тимур, Макар. Six compact portrait selectors and a large crisp full-body pixel survivor preview WITHOUT backpack or held weapon. Appearance panel and short visual placeholders for traits, confirm button. Not photorealistic portraits, not franchise characters."
+    },
+    {
+      "id": "06-lobby",
+      "name": "Лобби кооператива",
+      "spec": "Co-op lobby screen for 2–6 players. Six slots, four occupied by pixel survivor portraits and two empty; ready state per player, invite button, room name, private-room indicator, compact host world settings such as world seed and weather, chat area and start button. No browser chrome, no mobile controls."
+    }
+  ],
+  "styles": [
+    {
+      "id": "A",
+      "name": "Полевой",
+      "spec": "Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic."
+    },
+    {
+      "id": "B",
+      "name": "Бумажный",
+      "spec": "Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout."
+    },
+    {
+      "id": "C",
+      "name": "Контрастный",
+      "spec": "Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "01-hud-A",
+      "screen": "01-hud",
+      "screenName": "Игровой HUD",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Игровой HUD. Active gameplay screen: overhead 2D pixel survivor exploring a ruined village with grass and infected in the distance. Show readable health, hunger, thirst, stamina, selected weapon/ammo, six quick slots, small minimap, compact six-player co-op status. Gameplay remains at least 75% unobstructed. No touch controls. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "01-hud-B",
+      "screen": "01-hud",
+      "screenName": "Игровой HUD",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Игровой HUD. Active gameplay screen: overhead 2D pixel survivor exploring a ruined village with grass and infected in the distance. Show readable health, hunger, thirst, stamina, selected weapon/ammo, six quick slots, small minimap, compact six-player co-op status. Gameplay remains at least 75% unobstructed. No touch controls. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "01-hud-C",
+      "screen": "01-hud",
+      "screenName": "Игровой HUD",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Игровой HUD. Active gameplay screen: overhead 2D pixel survivor exploring a ruined village with grass and infected in the distance. Show readable health, hunger, thirst, stamina, selected weapon/ammo, six quick slots, small minimap, compact six-player co-op status. Gameplay remains at least 75% unobstructed. No touch controls. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "02-inventory-A",
+      "screen": "02-inventory",
+      "screenName": "Инвентарь",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Инвентарь. Inventory screen over dimmed overhead gameplay. Show a pixel survivor paper doll with separate backpack, helmet, vest, gloves, boots equipment slots; backpack storage grid holding food, bandage, water flask, ammunition, resources; item detail panel for a bandage, weight/capacity and quick slots. Clear visual hierarchy. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "02-inventory-B",
+      "screen": "02-inventory",
+      "screenName": "Инвентарь",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Инвентарь. Inventory screen over dimmed overhead gameplay. Show a pixel survivor paper doll with separate backpack, helmet, vest, gloves, boots equipment slots; backpack storage grid holding food, bandage, water flask, ammunition, resources; item detail panel for a bandage, weight/capacity and quick slots. Clear visual hierarchy. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "02-inventory-C",
+      "screen": "02-inventory",
+      "screenName": "Инвентарь",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Инвентарь. Inventory screen over dimmed overhead gameplay. Show a pixel survivor paper doll with separate backpack, helmet, vest, gloves, boots equipment slots; backpack storage grid holding food, bandage, water flask, ammunition, resources; item detail panel for a bandage, weight/capacity and quick slots. Clear visual hierarchy. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "03-crafting-A",
+      "screen": "03-crafting",
+      "screenName": "Крафт и строительство",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Крафт и строительство. Crafting and base building screen over dimmed gameplay. Clear category navigation for survival, medicine, tools, construction. Select bandage recipe, show cloth ingredient counts 3/2, craft button, recipe cards including barricade and campfire, one locked advanced recipe with manual icon. This is a visual proposal, not fixed gameplay rules. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "03-crafting-B",
+      "screen": "03-crafting",
+      "screenName": "Крафт и строительство",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Крафт и строительство. Crafting and base building screen over dimmed gameplay. Clear category navigation for survival, medicine, tools, construction. Select bandage recipe, show cloth ingredient counts 3/2, craft button, recipe cards including barricade and campfire, one locked advanced recipe with manual icon. This is a visual proposal, not fixed gameplay rules. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "03-crafting-C",
+      "screen": "03-crafting",
+      "screenName": "Крафт и строительство",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Крафт и строительство. Crafting and base building screen over dimmed gameplay. Clear category navigation for survival, medicine, tools, construction. Select bandage recipe, show cloth ingredient counts 3/2, craft button, recipe cards including barricade and campfire, one locked advanced recipe with manual icon. This is a visual proposal, not fixed gameplay rules. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "04-map-A",
+      "screen": "04-map",
+      "screenName": "Карта",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Карта. World map screen of a large forested region with villages, a ruined city, roads, lake and rivers, discovered colored areas and fog of war. Six distinct co-op player markers, shelter marker, personal waypoint, corpse retrieval marker, compact legend and zoom controls. Overhead pixel geographic map, not isometric, not satellite. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "04-map-B",
+      "screen": "04-map",
+      "screenName": "Карта",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Карта. World map screen of a large forested region with villages, a ruined city, roads, lake and rivers, discovered colored areas and fog of war. Six distinct co-op player markers, shelter marker, personal waypoint, corpse retrieval marker, compact legend and zoom controls. Overhead pixel geographic map, not isometric, not satellite. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "04-map-C",
+      "screen": "04-map",
+      "screenName": "Карта",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Карта. World map screen of a large forested region with villages, a ruined city, roads, lake and rivers, discovered colored areas and fog of war. Six distinct co-op player markers, shelter marker, personal waypoint, corpse retrieval marker, compact legend and zoom controls. Overhead pixel geographic map, not isometric, not satellite. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "05-character-A",
+      "screen": "05-character",
+      "screenName": "Выбор персонажа",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Выбор персонажа. Character selection screen for six original young adult male survivors. Names exactly Глеб, Роман, Мирон, Егор, Тимур, Макар. Six compact portrait selectors and a large crisp full-body pixel survivor preview WITHOUT backpack or held weapon. Appearance panel and short visual placeholders for traits, confirm button. Not photorealistic portraits, not franchise characters. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "05-character-B",
+      "screen": "05-character",
+      "screenName": "Выбор персонажа",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Выбор персонажа. Character selection screen for six original young adult male survivors. Names exactly Глеб, Роман, Мирон, Егор, Тимур, Макар. Six compact portrait selectors and a large crisp full-body pixel survivor preview WITHOUT backpack or held weapon. Appearance panel and short visual placeholders for traits, confirm button. Not photorealistic portraits, not franchise characters. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "05-character-C",
+      "screen": "05-character",
+      "screenName": "Выбор персонажа",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Выбор персонажа. Character selection screen for six original young adult male survivors. Names exactly Глеб, Роман, Мирон, Егор, Тимур, Макар. Six compact portrait selectors and a large crisp full-body pixel survivor preview WITHOUT backpack or held weapon. Appearance panel and short visual placeholders for traits, confirm button. Not photorealistic portraits, not franchise characters. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "06-lobby-A",
+      "screen": "06-lobby",
+      "screenName": "Лобби кооператива",
+      "variant": "A",
+      "variantName": "Полевой",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Лобби кооператива. Co-op lobby screen for 2–6 players. Six slots, four occupied by pixel survivor portraits and two empty; ready state per player, invite button, room name, private-room indicator, compact host world settings such as world seed and weather, chat area and start button. No browser chrome, no mobile controls. Visual direction A: Minimal field interface: charcoal translucent panels, muted olive accent, warm off-white typography, small square pixel icons, hairline pixel borders, compact anchored composition, maximum breathing room. Practical restrained military-survival equipment aesthetic. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"A\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "06-lobby-B",
+      "screen": "06-lobby",
+      "screenName": "Лобби кооператива",
+      "variant": "B",
+      "variantName": "Бумажный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Лобби кооператива. Co-op lobby screen for 2–6 players. Six slots, four occupied by pixel survivor portraits and two empty; ready state per player, invite button, room name, private-room indicator, compact host world settings such as world seed and weather, chat area and start button. No browser chrome, no mobile controls. Visual direction B: Scavenged field journal interface: dirty warm ivory paper panels, faded moss green canvas and rusty ochre accents, subtle taped corners, ink pixel icons and stamped headings. Tactile but still clean readable pixel game UI; no busy decoration. Distinct journal-style layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"B\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    },
+    {
+      "id": "06-lobby-C",
+      "screen": "06-lobby",
+      "screenName": "Лобби кооператива",
+      "variant": "C",
+      "variantName": "Контрастный",
+      "prompt": "Use case: ui-mockup. Create ONE polished landscape 16:9 desktop game screen mockup, edge-to-edge screenshot, for an original cooperative top-down pixel-art fungal apocalypse survival game. Screen: Лобби кооператива. Co-op lobby screen for 2–6 players. Six slots, four occupied by pixel survivor portraits and two empty; ready state per player, invite button, room name, private-room indicator, compact host world settings such as world seed and weather, chat area and start button. No browser chrome, no mobile controls. Visual direction C: Bold accessible dark interface: opaque blue-charcoal blocks, amber highlights, restrained desaturated teal secondary accent, thick crisp pixel borders, large clear pixel icons, strong grouped hierarchy and generous item spacing. Distinct clean structured layout. Strict pixel-art treatment throughout: visible square pixels, nearest-neighbor edges, no smooth vector UI, no photorealism, no 3D render. Muted atmospheric overgrown Eastern European apocalypse, readable contrast. Russian concise UI labels, clear numbers. Match game world at consistent top-down Mini DAYZ-like camera without copying an existing game UI. This is a standalone proposal for approval. Include a small clear corner label \"C\" only, no presentation board, no comparison grid, no device frame, no watermark. Prioritize coherent usable layout and legible Cyrillic text."
+    }
+  ]
+}

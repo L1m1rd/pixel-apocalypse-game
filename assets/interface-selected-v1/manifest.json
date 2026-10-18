@@ -1,0 +1,115 @@
+{
+  "status": "approved-visual-mockups",
+  "implemented": false,
+  "originalDirectionApproved": true,
+  "revisedMockupsAwaitReview": false,
+  "tool": "built-in image_gen",
+  "selection": {
+    "selectedVariant": "A",
+    "selectedForAllScreens": true,
+    "approval": "Пользователь одобрил все шесть экранов A, включая правки HUD и инвентаря, и поручил загрузить их на GitHub.",
+    "scope": "visual-only",
+    "implemented": false,
+    "hud": {
+      "removeTaskPanel": true,
+      "preserve": [
+        "health",
+        "hunger",
+        "thirst",
+        "stamina",
+        "teammate-list",
+        "minimap",
+        "time-weather",
+        "bottom-hotbar",
+        "weapon-ammo"
+      ]
+    },
+    "inventory": {
+      "equipmentSlots": [
+        "helmet",
+        "bodyArmor",
+        "trousers",
+        "weapon",
+        "backpack",
+        "gasMask",
+        "gloves",
+        "boots"
+      ],
+      "equipmentLabels": [
+        "Шлем",
+        "Броня",
+        "Штаны",
+        "Оружие",
+        "Рюкзак",
+        "Противогаз",
+        "Перчатки",
+        "Ботинки"
+      ]
+    },
+    "screens": [
+      "01-hud",
+      "02-inventory",
+      "03-crafting",
+      "04-map",
+      "05-character",
+      "06-lobby"
+    ],
+    "approved": true
+  },
+  "screens": [
+    {
+      "id": "01-hud",
+      "name": "Игровой HUD",
+      "file": "01-hud.png",
+      "variant": "A",
+      "revised": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "02-inventory",
+      "name": "Инвентарь",
+      "file": "02-inventory.png",
+      "variant": "A",
+      "revised": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "03-crafting",
+      "name": "Крафт и строительство",
+      "file": "03-crafting.png",
+      "variant": "A",
+      "revised": false,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "04-map",
+      "name": "Карта",
+      "file": "04-map.png",
+      "variant": "A",
+      "revised": false,
+      "width": 1672,
+      "height": 940
+    },
+    {
+      "id": "05-character",
+      "name": "Выбор персонажа",
+      "file": "05-character.png",
+      "variant": "A",
+      "revised": false,
+      "width": 1672,
+      "height": 940
+    },
+    {
+      "id": "06-lobby",
+      "name": "Лобби кооператива",
+      "file": "06-lobby.png",
+      "variant": "A",
+      "revised": false,
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}
