@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.21890547263681592,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_north_00",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 103,
+        "y": 769,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 42,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "60238851f00f213111c2fe9db56b9b644b0a84e8faba55b0dbb2738d115cdf55"
+    },
+    {
+      "name": "idle_north_01",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 770,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 38,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "95d0de956440a6f012a01e2e7d3ab8c0e39051f42992c4724626f336256ed071"
+    },
+    {
+      "name": "idle_north_02",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 584,
+        "y": 770,
+        "w": 114,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "9649dc3788e4b78aade66b67f93d284bf8a531c5c69710296570b4e9101c3010"
+    },
+    {
+      "name": "idle_north_03",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 770,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "4e44f8c72a076f52a88074c0fbf1594416ac464a961d551f0f7c9855bb886923"
+    },
+    {
+      "name": "idle_north_04",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 1070,
+        "y": 770,
+        "w": 117,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "bca1c256ae4c4917e075c88876f60759f5e54113487c7d65029f8fb034f09db4"
+    },
+    {
+      "name": "idle_north_05",
+      "source": "../../sources/01-gleb-idle.png",
+      "sourceBounds": {
+        "x": 1315,
+        "y": 770,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "7dcd91199d3baaa61a29d0702a079129a16e63a12f37498a2cc68b59b0511c23"
+    },
+    {
+      "name": "walk_north_00",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 95,
+        "y": 759,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "7016d4bbb77bc7ed2c92688236f84c6e716f6b741cc2b9054797a830793e8f32"
+    },
+    {
+      "name": "walk_north_01",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 347,
+        "y": 759,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "ebb88661a45622a6614dcfcb24df3333c4015a51ccac22aa322f8597bac76d65"
+    },
+    {
+      "name": "walk_north_02",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 759,
+        "w": 115,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "de290766585e36c2b8ae59c78310d6df0bdaced89517cf660b3202acd9ee920d"
+    },
+    {
+      "name": "walk_north_03",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 759,
+        "w": 117,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "3ee7bb87b36aed9f7d1df04ff3f7ebf944c1b15ae39bfea2c79ffcda8b8dad62"
+    },
+    {
+      "name": "walk_north_04",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 1071,
+        "y": 759,
+        "w": 114,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "6cd41b31e74603effc4a1e63a1e879fe09d804bf958996ea98a7f7d388c33859"
+    },
+    {
+      "name": "walk_north_05",
+      "source": "../../sources/01-gleb-walk.png",
+      "sourceBounds": {
+        "x": 1319,
+        "y": 759,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 233
+      },
+      "destination": {
+        "x": 27,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "6a5c6ef30d78c08582a038ccc8cd1edcc61e441a0c93a2907a7e600081049e72"
+    },
+    {
+      "name": "run_north_00",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 113,
+        "y": 766,
+        "w": 124,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 45,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "230bfd026a422c85aa3d2d7e3414bf328af2a1bca6502e14ec92e34447042534"
+    },
+    {
+      "name": "run_north_01",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 353,
+        "y": 766,
+        "w": 115,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 41,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "a7188c1f863101ee8d4e74dfb5f2487ec971f36b6ad443766474137d2c47e3dc"
+    },
+    {
+      "name": "run_north_02",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 765,
+        "w": 126,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 28,
+        "h": 50
+      },
+      "sha256": "1b8e0444b390ab755858d1bdc1952aa1577c0f0c13a323f262eeced60957d93b"
+    },
+    {
+      "name": "run_north_03",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 766,
+        "w": 118,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "e46a7922c1e1e7da788732f94230532478081ff8c7a2d0ac027a006628dff2c1"
+    },
+    {
+      "name": "run_north_04",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 1063,
+        "y": 765,
+        "w": 121,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "1119d8f54db58832f7712d1e1c34b0c1921a15d95ff23d13872c09a80de0beb4"
+    },
+    {
+      "name": "run_north_05",
+      "source": "../../sources/01-gleb-run.png",
+      "sourceBounds": {
+        "x": 1302,
+        "y": 765,
+        "w": 123,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 25,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "c96896525a2b505472fd5dc4c3ad1de4eca0798ddff090c90c3e73ebc3212e6a"
+    },
+    {
+      "name": "crouch_down_north_00",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 84,
+        "y": 761,
+        "w": 110,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "d362df0a7f543d2377f556e5257916c0184750d8e3deee7dccc97802abce1c75"
+    },
+    {
+      "name": "crouch_down_north_01",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 770,
+        "w": 125,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "052490e5ed796693271455991a2944394ff215816825c71b46c9b973a5aa9b3b"
+    },
+    {
+      "name": "crouch_down_north_02",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 585,
+        "y": 794,
+        "w": 126,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 34,
+        "y": 25,
+        "w": 28,
+        "h": 47
+      },
+      "sha256": "bdfb23aa596f24ea683cd535c48f2ae20415fe8265b719322f08504c7cb24882"
+    },
+    {
+      "name": "crouch_down_north_03",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 824,
+        "y": 821,
+        "w": 137,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 31,
+        "y": 31,
+        "w": 30,
+        "h": 41
+      },
+      "sha256": "44698d1ed0efc4f3e238767eb1d374130a38bbbb15f9f94bf4cb6481737ac6d3"
+    },
+    {
+      "name": "crouch_down_north_04",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 846,
+        "w": 135,
+        "h": 162
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 30,
+        "y": 37,
+        "w": 30,
+        "h": 35
+      },
+      "sha256": "6d514e0c943aef9342df0d355622f97f6d9f34462456544d02f8b92bcdfea8c3"
+    },
+    {
+      "name": "crouch_down_north_05",
+      "source": "../../sources/01-gleb-crouch_down.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 847,
+        "w": 138,
+        "h": 161
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 37,
+        "w": 30,
+        "h": 35
+      },
+      "sha256": "e4ecc2c9866e34d00a71202bbbe7d54ce3352e81217fe10d3a5267899468faf2"
+    },
+    {
+      "name": "crouch_idle_north_00",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 50,
+        "y": 785,
+        "w": 161,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 30,
+        "y": 26,
+        "w": 35,
+        "h": 46
+      },
+      "sha256": "bf2cb3e43229579c6403260055ca2fd2ec8ad733e768949233a9313a53ccd380"
+    },
+    {
+      "name": "crouch_idle_north_01",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 299,
+        "y": 808,
+        "w": 179,
+        "h": 189
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 29,
+        "y": 31,
+        "w": 39,
+        "h": 41
+      },
+      "sha256": "fc74275a878e7c9844cd1e42649907742f13fa821bd45bfedaa7522f8ae32f9d"
+    },
+    {
+      "name": "crouch_idle_north_02",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 557,
+        "y": 785,
+        "w": 164,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 36,
+        "h": 46
+      },
+      "sha256": "7d6fa8030801654719d00c72f15029ee4ac520ec1df821380e3e493685ae457d"
+    },
+    {
+      "name": "crouch_idle_north_03",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 789,
+        "w": 174,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 31,
+        "y": 27,
+        "w": 38,
+        "h": 46
+      },
+      "sha256": "905aa9aaf9012a6b0f690e5149f378dffd0c8b5bc7e399b5bb9e4d22738f3a6d"
+    },
+    {
+      "name": "crouch_idle_north_04",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1063,
+        "y": 802,
+        "w": 181,
+        "h": 195
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 28,
+        "y": 30,
+        "w": 40,
+        "h": 43
+      },
+      "sha256": "68dfa856a4762acbfbee3ab13d9c93a3f6a628439cfd7d783d6df17235fe47dc"
+    },
+    {
+      "name": "crouch_idle_north_05",
+      "source": "../../sources/01-gleb-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 785,
+        "w": 162,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 228
+      },
+      "destination": {
+        "x": 30,
+        "y": 26,
+        "w": 35,
+        "h": 46
+      },
+      "sha256": "9d830fbd27f3bd19067a41e9f92fbd5b328aa28aafe4706712a1bfa87a071363"
+    },
+    {
+      "name": "crouch_walk_north_00",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 54,
+        "y": 778,
+        "w": 156,
+        "h": 209
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 32,
+        "y": 25,
+        "w": 34,
+        "h": 46
+      },
+      "sha256": "e3cab7b3348596ead2fd5a2d2141d20c84cfc9595604cfacd44425051dfd0ccf"
+    },
+    {
+      "name": "crouch_walk_north_01",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 304,
+        "y": 773,
+        "w": 172,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 38,
+        "h": 48
+      },
+      "sha256": "f4d0e8a5e7c50f76a4e8e651df62c0964c945706df149fe2580a013e114c0dab"
+    },
+    {
+      "name": "crouch_walk_north_02",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 553,
+        "y": 773,
+        "w": 170,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 29,
+        "y": 24,
+        "w": 37,
+        "h": 48
+      },
+      "sha256": "e048d823e97097db2c25bb2c9fb605ad61f05bdbd0dd266fbb212cd0897d4c54"
+    },
+    {
+      "name": "crouch_walk_north_03",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 809,
+        "y": 773,
+        "w": 165,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 29,
+        "y": 24,
+        "w": 36,
+        "h": 49
+      },
+      "sha256": "5807129d94db7a0a6df3f31fdc558b307b971dbae10edb0a92851c33111f13c2"
+    },
+    {
+      "name": "crouch_walk_north_04",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1063,
+        "y": 773,
+        "w": 181,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 28,
+        "y": 24,
+        "w": 40,
+        "h": 49
+      },
+      "sha256": "58e83443b5d4682d09a6d88151059ae684727afdbca5aca3c5ded811486cc4b3"
+    },
+    {
+      "name": "crouch_walk_north_05",
+      "source": "../../sources/01-gleb-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 777,
+        "w": 157,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 225
+      },
+      "destination": {
+        "x": 30,
+        "y": 25,
+        "w": 34,
+        "h": 47
+      },
+      "sha256": "f3bdaf3a93c4895efc803849171e4e26f6a62c85458c2d0f6a8510b79ca8b9df"
+    },
+    {
+      "name": "stand_up_north_00",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 80,
+        "y": 861,
+        "w": 120,
+        "h": 149
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 37,
+        "y": 40,
+        "w": 26,
+        "h": 33
+      },
+      "sha256": "20a5b8550fe352d2b4779ddd5c813e272e4ada459562ada5dc132360ba70081b"
+    },
+    {
+      "name": "stand_up_north_01",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 335,
+        "y": 837,
+        "w": 107,
+        "h": 173
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 37,
+        "y": 34,
+        "w": 23,
+        "h": 38
+      },
+      "sha256": "5109a540a9b1886a7b9361cfa7eabd35487d7730b04958a0dbb3f2ba632b8669"
+    },
+    {
+      "name": "stand_up_north_02",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 824,
+        "w": 106,
+        "h": 186
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 36,
+        "y": 32,
+        "w": 23,
+        "h": 41
+      },
+      "sha256": "d5e4bfd8daba6cc9a92a4b588eefa57ebed2f9acad3125337847e4ef28e23560"
+    },
+    {
+      "name": "stand_up_north_03",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 846,
+        "y": 808,
+        "w": 106,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 36,
+        "y": 28,
+        "w": 23,
+        "h": 44
+      },
+      "sha256": "bf7667815932de796ac2e65c520b88738f532fa95a8110c0bca526cf587e699b"
+    },
+    {
+      "name": "stand_up_north_04",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 1104,
+        "y": 795,
+        "w": 104,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 37,
+        "y": 25,
+        "w": 23,
+        "h": 47
+      },
+      "sha256": "c551ab79f9009e50225e35ae4f21d4e127084b7bde8d9a909a42a848afe5daa5"
+    },
+    {
+      "name": "stand_up_north_05",
+      "source": "../../sources/01-gleb-stand_up.png",
+      "sourceBounds": {
+        "x": 1358,
+        "y": 791,
+        "w": 103,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 36,
+        "y": 24,
+        "w": 23,
+        "h": 48
+      },
+      "sha256": "091eb6ea772a3c004feefe122a6929070d6859228739139aabc6fc8dbebcdc7e"
+    },
+    {
+      "name": "pickup_north_00",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 774,
+        "w": 122,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "5f76367802a410d80aeb205001af80508cf719b2941e4a4b9ed2050a7fdc45d3"
+    },
+    {
+      "name": "pickup_north_01",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 333,
+        "y": 786,
+        "w": 135,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 34,
+        "y": 24,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "857d17c3df446829df4704c1124e178ea0f3289c3015212fcf5fcb3fceaae8b0"
+    },
+    {
+      "name": "pickup_north_02",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 823,
+        "w": 147,
+        "h": 185
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 40
+      },
+      "sha256": "68d8e627a1e9616f7ce8fff27941fabc44f44bf555d38ede25d8637fc1ce2ec0"
+    },
+    {
+      "name": "pickup_north_03",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 816,
+        "y": 844,
+        "w": 154,
+        "h": 164
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 36,
+        "w": 34,
+        "h": 36
+      },
+      "sha256": "63f18537623aaf8a01f4db8bb225205f006a7124d557058ab75bd06589615a71"
+    },
+    {
+      "name": "pickup_north_04",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 778,
+        "w": 130,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 30,
+        "y": 22,
+        "w": 28,
+        "h": 50
+      },
+      "sha256": "d04c338d824a0151cf8db979e0b85e1059cb7b33c181e779696e83162a80f3b6"
+    },
+    {
+      "name": "pickup_north_05",
+      "source": "../../sources/01-gleb-pickup.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 774,
+        "w": 122,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "931c89459893efe0dabebccc1e2988ecacfc4272bf966d90a43b14912b343f75"
+    },
+    {
+      "name": "search_north_00",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 93,
+        "y": 769,
+        "w": 114,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "efcfdbc635e4a927737490485ebe4fcb1db2ff3d33d032ceb7bc82157d473a33"
+    },
+    {
+      "name": "search_north_01",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 333,
+        "y": 799,
+        "w": 131,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 34,
+        "y": 28,
+        "w": 29,
+        "h": 44
+      },
+      "sha256": "0a805e4742c13af2d7b7ed3a546f262ae82a9658aef318779f3e20e40ead7dc2"
+    },
+    {
+      "name": "search_north_02",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 812,
+        "w": 143,
+        "h": 189
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 32,
+        "y": 31,
+        "w": 31,
+        "h": 41
+      },
+      "sha256": "1bb8961155928cfba8ba8b8a59c95faad3b3a1c7335f9187206da147b35dbc89"
+    },
+    {
+      "name": "search_north_03",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 765,
+        "w": 122,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "8d3e084e3280e112e96abf54ef799dde415e993fd7366d944d399a942b73b49e"
+    },
+    {
+      "name": "search_north_04",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 1071,
+        "y": 799,
+        "w": 133,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 27,
+        "y": 28,
+        "w": 29,
+        "h": 44
+      },
+      "sha256": "4959408ba95be6e9ffa06556495781b937f575cd7446c6c48495adba1a4f5309"
+    },
+    {
+      "name": "search_north_05",
+      "source": "../../sources/01-gleb-search.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 799,
+        "w": 114,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 232
+      },
+      "destination": {
+        "x": 30,
+        "y": 28,
+        "w": 25,
+        "h": 44
+      },
+      "sha256": "2020d7d6ce4a748009bf53e115da41acc946a717de5f6a45620afdb08fa2366a"
+    },
+    {
+      "name": "open_door_north_00",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 98,
+        "y": 765,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "f57458bf1fe8b243ccd77d43bc06a7769fe21c0d484992bd0378c0f9b586a9dd"
+    },
+    {
+      "name": "open_door_north_01",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 765,
+        "w": 135,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "87779285c0fa3f3603a52325a7ee264ab872dcf2637c5163902edd094b176e1f"
+    },
+    {
+      "name": "open_door_north_02",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 765,
+        "w": 134,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "da180a47cc21fb4e8ef06f80902ff04169d00816438e754dbfe8859563956651"
+    },
+    {
+      "name": "open_door_north_03",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 826,
+        "y": 765,
+        "w": 138,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "141eeef5bf5d908def3e2bd035f76007fee9847a106057a9c3f1d3e7fb403df2"
+    },
+    {
+      "name": "open_door_north_04",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 765,
+        "w": 116,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "b8f380280ac378611169fe917a11e5227291884b17971c7033b2de73447be637"
+    },
+    {
+      "name": "open_door_north_05",
+      "source": "../../sources/01-gleb-open_door.png",
+      "sourceBounds": {
+        "x": 1324,
+        "y": 765,
+        "w": 111,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "aa9cc09e22939b392b0b1e2234c590067d0e7fec67d1bfd7a35b7908bf9d0e76"
+    },
+    {
+      "name": "eat_north_00",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 92,
+        "y": 768,
+        "w": 112,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "ad6d1f78e10ff53f6c7592be1cd5c3f6587a221dd314badbecf2732c67c45da7"
+    },
+    {
+      "name": "eat_north_01",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 350,
+        "y": 768,
+        "w": 123,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "16ca2e05be01ad69f7d90418bd3ecc7f71a11c3158ef19dfe243534f7d9b0bac"
+    },
+    {
+      "name": "eat_north_02",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 596,
+        "y": 768,
+        "w": 120,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "65bea191bcc02676e95eaf0969621ef1351afd53c7f3b02bab148c1ba87a149f"
+    },
+    {
+      "name": "eat_north_03",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 842,
+        "y": 768,
+        "w": 111,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "9ca37080088f5cdcb83fbc6c1ef66e49a40bc64ad90c627684a84214de088b2f"
+    },
+    {
+      "name": "eat_north_04",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 1081,
+        "y": 768,
+        "w": 114,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "39352364be90d4a402e8d2a89f97aaca41b65c2b0bdee8c1d9a532a08a73d6fc"
+    },
+    {
+      "name": "eat_north_05",
+      "source": "../../sources/01-gleb-eat.png",
+      "sourceBounds": {
+        "x": 1333,
+        "y": 768,
+        "w": 111,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "eadc931e75efd9b1cb346cfdab69b57e73a889add5dd9b11c46569bcee10f0e2"
+    },
+    {
+      "name": "drink_north_00",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 82,
+        "y": 767,
+        "w": 108,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 24,
+        "h": 52
+      },
+      "sha256": "6b151432df341866fad2cff07bf5562290035861337f7be8b5d7773f4a08ae80"
+    },
+    {
+      "name": "drink_north_01",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 336,
+        "y": 767,
+        "w": 108,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 24,
+        "h": 52
+      },
+      "sha256": "019fb2e053e1eb569fb4d9fdfc70d0f09a8a8cc01ffb040f5e2c25ba70348cba"
+    },
+    {
+      "name": "drink_north_02",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 767,
+        "w": 116,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "cef14d015e11da7ab95987216be7e282935da0b41e9eba4e684aec5c97056886"
+    },
+    {
+      "name": "drink_north_03",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 844,
+        "y": 768,
+        "w": 114,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "be87aae4891cac03402e797b42b5d5defd86a1db3eba0b75ce87588a678fc7f3"
+    },
+    {
+      "name": "drink_north_04",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 1097,
+        "y": 768,
+        "w": 115,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "5bd128981e1fff4cf7f79d416692c8e0d3a401d097f4c83bd710b9e5d323154c"
+    },
+    {
+      "name": "drink_north_05",
+      "source": "../../sources/01-gleb-drink.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 767,
+        "w": 108,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 24,
+        "h": 52
+      },
+      "sha256": "90db5e111c55f8b27c9ac47bb375f0dc185dccac25dd358391251ef3cbc516bf"
+    },
+    {
+      "name": "bandage_north_00",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 84,
+        "y": 768,
+        "w": 119,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 37,
+        "y": 22,
+        "w": 26,
+        "h": 50
+      },
+      "sha256": "818e45cdf5e0ff1b145dcc9363a1962970908b628fe0e18e1010cc03e568f71d"
+    },
+    {
+      "name": "bandage_north_01",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 772,
+        "w": 127,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 37,
+        "y": 23,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "0402863274eeb14f03e4daa600763c4b77f31c402fd90bc264df633a9a1f29df"
+    },
+    {
+      "name": "bandage_north_02",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 776,
+        "w": 116,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 35,
+        "y": 24,
+        "w": 25,
+        "h": 49
+      },
+      "sha256": "ae02e754090b0df67d904f8388656e7b90ce49b4a9527534f0485d6c75f0e749"
+    },
+    {
+      "name": "bandage_north_03",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 776,
+        "w": 108,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 34,
+        "y": 24,
+        "w": 24,
+        "h": 49
+      },
+      "sha256": "fac704a42b5e2c9af4bf8a19c5e1471e00901403bd9b0a10cd57437426dd9617"
+    },
+    {
+      "name": "bandage_north_04",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 1094,
+        "y": 775,
+        "w": 109,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 24,
+        "h": 49
+      },
+      "sha256": "2a5ec8d25158535898766f3d09a48cd27fb8dd9b5f65d0af2d1abaafdf039f8c"
+    },
+    {
+      "name": "bandage_north_05",
+      "source": "../../sources/01-gleb-bandage.png",
+      "sourceBounds": {
+        "x": 1333,
+        "y": 768,
+        "w": 118,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 229
+      },
+      "destination": {
+        "x": 30,
+        "y": 22,
+        "w": 26,
+        "h": 50
+      },
+      "sha256": "a8423384d929516122167e8241192e364acd819a02680c6c411bdb36a719184e"
+    },
+    {
+      "name": "heal_ally_north_00",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 63,
+        "y": 754,
+        "w": 138,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "c66d8aaf3c623dd2ea4dae143a1c4c5a374f6c2575e1f6169c40579425c0cd2e"
+    },
+    {
+      "name": "heal_ally_north_01",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 295,
+        "y": 777,
+        "w": 210,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 28,
+        "y": 24,
+        "w": 46,
+        "h": 48
+      },
+      "sha256": "43a662aee1697e43b8c03bad9cf653adcbfe8c1a7195c05673c1074819bc7bdd"
+    },
+    {
+      "name": "heal_ally_north_02",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 554,
+        "y": 783,
+        "w": 179,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 39,
+        "h": 47
+      },
+      "sha256": "c095b173f2ca40d0ffbfc53cf9b72b54477cbeb29c8b4309f6ce27283f471613"
+    },
+    {
+      "name": "heal_ally_north_03",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 775,
+        "y": 777,
+        "w": 215,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 21,
+        "y": 24,
+        "w": 47,
+        "h": 48
+      },
+      "sha256": "ac00fe534998715dcb2ef7c818508fe08165d7aea1436ee62a18092c8259f112"
+    },
+    {
+      "name": "heal_ally_north_04",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 1059,
+        "y": 777,
+        "w": 183,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 27,
+        "y": 24,
+        "w": 40,
+        "h": 48
+      },
+      "sha256": "418b34e524fae2aab4159e420530aabf2823d9e158092d05d0dfde5d013f3957"
+    },
+    {
+      "name": "heal_ally_north_05",
+      "source": "../../sources/01-gleb-heal_ally.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 757,
+        "w": 135,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 228
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 30,
+        "h": 52
+      },
+      "sha256": "d8ef5f60946261b9f5fcbc604b498f67c26aa5101eebb06542976f24139d18a6"
+    },
+    {
+      "name": "craft_north_00",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 75,
+        "y": 768,
+        "w": 125,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "14598ef478fc80d320705aef969e1aa698c473bf292dcff8aa6f5536bd1da7db"
+    },
+    {
+      "name": "craft_north_01",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 771,
+        "w": 122,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "0d513b89b66f1ee5c28827a8d85da49e266c4a0f2efdacab1af55a8aec7a7c7e"
+    },
+    {
+      "name": "craft_north_02",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 579,
+        "y": 766,
+        "w": 130,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "2e5df3235e0e27d0285f293e4a962458338ac2783e60143cf72759073d54ca71"
+    },
+    {
+      "name": "craft_north_03",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 841,
+        "y": 768,
+        "w": 119,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "6193724c8bd06755addf908d08c61f8a72be35973d721ff684ce8df1a1920114"
+    },
+    {
+      "name": "craft_north_04",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 1092,
+        "y": 768,
+        "w": 122,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "28ccded598bf2d56b06efdec8c5a29e1b75bac2d291612456e2156ed5b91d319"
+    },
+    {
+      "name": "craft_north_05",
+      "source": "../../sources/01-gleb-craft.png",
+      "sourceBounds": {
+        "x": 1348,
+        "y": 768,
+        "w": 120,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "f2fce9b61c2581dc4682004262e0c95e9b792191cb15ae579c883c2a53633eca"
+    },
+    {
+      "name": "build_north_00",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 67,
+        "y": 768,
+        "w": 157,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 34,
+        "h": 52
+      },
+      "sha256": "9e070ab3ba06fb3f6d89c3fb84d30d8f9919efcf83fd5f4c8b047eabb0310019"
+    },
+    {
+      "name": "build_north_01",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 319,
+        "y": 781,
+        "w": 160,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 31,
+        "y": 23,
+        "w": 35,
+        "h": 49
+      },
+      "sha256": "db4bfdab245924da602910f7ad8f1e15d81aa07df516943d1690d9d1a9208956"
+    },
+    {
+      "name": "build_north_02",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 792,
+        "w": 163,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 25,
+        "w": 36,
+        "h": 47
+      },
+      "sha256": "ff6299f4432a533ef72bf7d9be1e3b771ceb54082dd09f3a1995419d4e470802"
+    },
+    {
+      "name": "build_north_03",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 768,
+        "w": 150,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 20,
+        "w": 33,
+        "h": 52
+      },
+      "sha256": "a6e6708bbc112fe49ff7841ac7d5163fb62e62a74e44022c6776208e624abcf6"
+    },
+    {
+      "name": "build_north_04",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 791,
+        "w": 165,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 36,
+        "h": 47
+      },
+      "sha256": "da4bce2d7e940f5dcbc8c96e469dc925abd0e4aa698e3390453a995fe4aad4ba"
+    },
+    {
+      "name": "build_north_05",
+      "source": "../../sources/01-gleb-build.png",
+      "sourceBounds": {
+        "x": 1329,
+        "y": 768,
+        "w": 153,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 28,
+        "y": 20,
+        "w": 33,
+        "h": 52
+      },
+      "sha256": "36f9ebbce2801ea440b4dc447cd00b3d35756e7a838f0a62d48657bbccf5f3b5"
+    },
+    {
+      "name": "repair_north_00",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 55,
+        "y": 779,
+        "w": 148,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "009e9a6a89c3bee55f5c0365f8c3df7b5f87e9adea81ee3f08080bbb2b1b3c01"
+    },
+    {
+      "name": "repair_north_01",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 311,
+        "y": 786,
+        "w": 154,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 24,
+        "w": 34,
+        "h": 48
+      },
+      "sha256": "3443e332e6e84c3e463619cc06e5acbf6b244152a3074b4ec79bb9552c2832e8"
+    },
+    {
+      "name": "repair_north_02",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 787,
+        "w": 156,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 25,
+        "w": 34,
+        "h": 48
+      },
+      "sha256": "761a9e975b60359f0b121e10e9ded031209c9df0f1e9596adba392751e5183a1"
+    },
+    {
+      "name": "repair_north_03",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 822,
+        "y": 791,
+        "w": 151,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 26,
+        "w": 33,
+        "h": 47
+      },
+      "sha256": "2e22672a8db05e0dab3682ec01f490e1eba2a67323c0e39f7a7d09b17312d52a"
+    },
+    {
+      "name": "repair_north_04",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 787,
+        "w": 149,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 31,
+        "y": 25,
+        "w": 33,
+        "h": 48
+      },
+      "sha256": "a92dad9fd32c5ae7a1ed3a5e563ac93784650829af3235916dabd5dd8bd5a90f"
+    },
+    {
+      "name": "repair_north_05",
+      "source": "../../sources/01-gleb-repair.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 779,
+        "w": 148,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "1489d377e1e90db70af1f3c70d6a303ad2415edb00287faaf80d593f5c80f4fb"
+    },
+    {
+      "name": "chop_north_00",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 68,
+        "y": 776,
+        "w": 143,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "559dddf57984cededf8458371c4eb992064eb8b018f51fa427f19e2efa961b54"
+    },
+    {
+      "name": "chop_north_01",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 776,
+        "w": 144,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "e3a5aaab8ba3a09d4afc93b7a67de8b02489a8e0f2b6ffb7de9c52f8b6628ed5"
+    },
+    {
+      "name": "chop_north_02",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 763,
+        "w": 127,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "1cea7c254e21ff0845c93bc94481d69289a8a5cb23aed834db97f299381fc6cf"
+    },
+    {
+      "name": "chop_north_03",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 809,
+        "y": 795,
+        "w": 159,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 28,
+        "y": 25,
+        "w": 35,
+        "h": 47
+      },
+      "sha256": "1eb9d4ccf48b3748c44453d46c7847764ba0328e37dfbb614cc3dd2cdbd52ab7"
+    },
+    {
+      "name": "chop_north_04",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 1064,
+        "y": 795,
+        "w": 186,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 28,
+        "y": 25,
+        "w": 41,
+        "h": 47
+      },
+      "sha256": "48df86f4830eb040f141f1ef526660f3427e991927476067b4647ee64c70b4ad"
+    },
+    {
+      "name": "chop_north_05",
+      "source": "../../sources/01-gleb-chop.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 776,
+        "w": 133,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 241
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "7596f30588146630f6d8bbec0cc4e81cc654c6056da182938de89d1e343f7b4a"
+    },
+    {
+      "name": "mine_north_00",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 794,
+        "w": 119,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 36,
+        "y": 24,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "379fba8ec2fe264bbd8c676efcd4071686c1973ec02070d62a5051ad6ceb53ff"
+    },
+    {
+      "name": "mine_north_01",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 324,
+        "y": 792,
+        "w": 124,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "39dc9dccbcd7c7a7c612c1cf02d2c59b656e883a74457f99ca78033a29ab805a"
+    },
+    {
+      "name": "mine_north_02",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 772,
+        "w": 125,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "23b76516505f98940f9a444497e2f43cec3edc18cde5950a6b442a33efb01c53"
+    },
+    {
+      "name": "mine_north_03",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 819,
+        "w": 141,
+        "h": 196
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 29,
+        "w": 31,
+        "h": 43
+      },
+      "sha256": "7b9c951e57c7291ea14b130561f6b64d876a07216ada91e6bfa09b5f452b62a1"
+    },
+    {
+      "name": "mine_north_04",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 1087,
+        "y": 817,
+        "w": 150,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 33,
+        "y": 29,
+        "w": 33,
+        "h": 43
+      },
+      "sha256": "3ed6e7e41eb65dc8a982be13ae0e02a26a03181a1ddbdefc1bc108f848846fb1"
+    },
+    {
+      "name": "mine_north_05",
+      "source": "../../sources/01-gleb-mine.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 794,
+        "w": 120,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 33,
+        "y": 24,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "c0400c5c3f77f95ad37f23768937d62f7f9123e85a77bd7234d16b20650c7ec8"
+    },
+    {
+      "name": "punch_north_00",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 87,
+        "y": 769,
+        "w": 125,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "41a9bd537dce8922cc45621b6c78455d6dcedcf5f235b7d0691cb735bd439e30"
+    },
+    {
+      "name": "punch_north_01",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 339,
+        "y": 769,
+        "w": 134,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "51269dd941839671938a151f6bd26dced493c6cab3c4d5cfc27753674d73f94d"
+    },
+    {
+      "name": "punch_north_02",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 769,
+        "w": 129,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "c0ab642b99e945492158196840d71923480fbf4b7293a7662156502f272129e1"
+    },
+    {
+      "name": "punch_north_03",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 770,
+        "w": 128,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "27ab6931ce5547fbafd783e8ad99d843b63b0f611e73479b366c98b03a9ab225"
+    },
+    {
+      "name": "punch_north_04",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 769,
+        "w": 129,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "5a4e4ca58a714d389c9496e4ae50199f980cd2432323b40b797d3025438fa76e"
+    },
+    {
+      "name": "punch_north_05",
+      "source": "../../sources/01-gleb-punch.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 769,
+        "w": 126,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 234
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "20fffbc65c71048b2a22e35faeb7e039b644e47e1cf6377c6d5ce5ad1f846552"
+    },
+    {
+      "name": "one_hand_strike_north_00",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 779,
+        "w": 133,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 24,
+        "w": 29,
+        "h": 48
+      },
+      "sha256": "5f091b5d303bf13da5376ba09944b96fc2bb9e1cc0f758bf16a6256e588f92b6"
+    },
+    {
+      "name": "one_hand_strike_north_01",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 782,
+        "w": 136,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 24,
+        "w": 30,
+        "h": 48
+      },
+      "sha256": "8746d8124e597c8ef0093afbb674462290c57e03d224f2e7c8f547a1a91d96c8"
+    },
+    {
+      "name": "one_hand_strike_north_02",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 575,
+        "y": 794,
+        "w": 149,
+        "h": 207
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 31,
+        "y": 27,
+        "w": 33,
+        "h": 45
+      },
+      "sha256": "0af22124dd4ce9c136f7ea5caa4de87a82c3e868a42780ff0b819ef018f0ecdd"
+    },
+    {
+      "name": "one_hand_strike_north_03",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 816,
+        "y": 793,
+        "w": 191,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 28,
+        "y": 27,
+        "w": 42,
+        "h": 46
+      },
+      "sha256": "da5f1d20deead162a476721197af5f76aa9ea3a77ead2e131c9a9191b9912dc8"
+    },
+    {
+      "name": "one_hand_strike_north_04",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 791,
+        "w": 160,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 31,
+        "y": 26,
+        "w": 35,
+        "h": 46
+      },
+      "sha256": "25e7ffdfdb3902ccdac0aef1412ea223579e2a8f88c1e99337617472ca501d7b"
+    },
+    {
+      "name": "one_hand_strike_north_05",
+      "source": "../../sources/01-gleb-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1349,
+        "y": 779,
+        "w": 134,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 24,
+        "w": 29,
+        "h": 48
+      },
+      "sha256": "71b3a5ace56ad09c5472ab418d1a2dd7730b997270a8ec51944b2bf6c0e13b0d"
+    },
+    {
+      "name": "two_hand_strike_north_00",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 779,
+        "w": 128,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 36,
+        "y": 23,
+        "w": 28,
+        "h": 50
+      },
+      "sha256": "25a1a9cf6794e264efb3ae42c8f9080e02e0fd4775d04e19d888dd505201acc8"
+    },
+    {
+      "name": "two_hand_strike_north_01",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 316,
+        "y": 779,
+        "w": 138,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 30,
+        "h": 50
+      },
+      "sha256": "dfd620c2ad799aa679a8185860454864ebe58624ace4ff8fed8b4a150e0ca995"
+    },
+    {
+      "name": "two_hand_strike_north_02",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 572,
+        "y": 763,
+        "w": 133,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "eb294b7df5a7211f5f7dd80b8f40ebea63370461e2e28deac4b8d7c940e17b13"
+    },
+    {
+      "name": "two_hand_strike_north_03",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 821,
+        "y": 797,
+        "w": 150,
+        "h": 209
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 26,
+        "w": 33,
+        "h": 46
+      },
+      "sha256": "d6f88fb293f36c6f4ed9d550d836d2691020688f7c9726304e010f8264abcccc"
+    },
+    {
+      "name": "two_hand_strike_north_04",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1067,
+        "y": 790,
+        "w": 163,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 30,
+        "y": 25,
+        "w": 36,
+        "h": 47
+      },
+      "sha256": "d667d9e760adba5dd2cd391c24721feb2af8102c69ba02ef88d583a7454e13d0"
+    },
+    {
+      "name": "two_hand_strike_north_05",
+      "source": "../../sources/01-gleb-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 779,
+        "w": 131,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 29,
+        "h": 50
+      },
+      "sha256": "9929511330005a6e2c19fb9ef1914d11bd662f3fe94da4f27fe96bb80607c941"
+    },
+    {
+      "name": "shove_north_00",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 79,
+        "y": 757,
+        "w": 122,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "237d7e24f37e3d1d4156d4e731b687d7829dbf180bfabd4518e6d8006a48b1d9"
+    },
+    {
+      "name": "shove_north_01",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 323,
+        "y": 759,
+        "w": 136,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 30,
+        "h": 51
+      },
+      "sha256": "880c65c469dcced5dd0303167cac3c16f1a5434d604eb79dcc2b4131389daa07"
+    },
+    {
+      "name": "shove_north_02",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 575,
+        "y": 760,
+        "w": 150,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 33,
+        "h": 50
+      },
+      "sha256": "c410d391a4988558aa8ee9fdb277c9f057f237002aa0496bb3bee37316e54bf1"
+    },
+    {
+      "name": "shove_north_03",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 819,
+        "y": 760,
+        "w": 162,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 35,
+        "h": 51
+      },
+      "sha256": "8c933f9c421a87499a64f515026a1a4f317289531bc779d1406026f652ed7d6b"
+    },
+    {
+      "name": "shove_north_04",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 760,
+        "w": 142,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "86c939fa651ee3da0af4a2c2f34b3ae2440eaf1869eb1fcaaf418d367e8910c2"
+    },
+    {
+      "name": "shove_north_05",
+      "source": "../../sources/01-gleb-shove.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 757,
+        "w": 121,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "a10949c3596c95bef1c756535830b7bef2aee18bbd30446d61dfe99db199c6fd"
+    },
+    {
+      "name": "pistol_hold_north_00",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 77,
+        "y": 776,
+        "w": 116,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 37,
+        "y": 23,
+        "w": 25,
+        "h": 49
+      },
+      "sha256": "1ba0527b501dc414f8372aebf3cfa85448caea09e50eb8d6f224f95259100d0c"
+    },
+    {
+      "name": "pistol_hold_north_01",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 317,
+        "y": 776,
+        "w": 129,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "d2763a228b496f9def83d4a2db24d46eacce300cdcc9814c2498ec7766080612"
+    },
+    {
+      "name": "pistol_hold_north_02",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 570,
+        "y": 794,
+        "w": 143,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 33,
+        "y": 27,
+        "w": 31,
+        "h": 45
+      },
+      "sha256": "95fd7cbd8fe1a6c8cc404cb1453be74c0794eec3d554297127a792e84c12e855"
+    },
+    {
+      "name": "pistol_hold_north_03",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 826,
+        "y": 776,
+        "w": 118,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "eb8c73c386a31b1babfefc15f930a77e208db0c62724bc86de883c4881e4efb4"
+    },
+    {
+      "name": "pistol_hold_north_04",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1069,
+        "y": 776,
+        "w": 146,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 30,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "ff37249ae41d700fb4f819969def7e7e38e4eabf5155f9dec00295f0358aeb5b"
+    },
+    {
+      "name": "pistol_hold_north_05",
+      "source": "../../sources/01-gleb-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1340,
+        "y": 776,
+        "w": 115,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 231
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 25,
+        "h": 49
+      },
+      "sha256": "95b2e9ebebd2c00a34a9ac261d3287d3ea70a4b02cc0be64575cee9d9838a0e5"
+    },
+    {
+      "name": "pistol_aim_north_00",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 768,
+        "w": 118,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "11b732e7e327ee4e60f255b405ff70fbc7264150a7e6fdde08aeb96ddc824d23"
+    },
+    {
+      "name": "pistol_aim_north_01",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 324,
+        "y": 768,
+        "w": 121,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "6e25fcd970eaab248bb82579ff27d784d57b154166bccb8882e0de197fc4429f"
+    },
+    {
+      "name": "pistol_aim_north_02",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 579,
+        "y": 768,
+        "w": 122,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "c684cfd5a92da8c28e268ee3302ef64551000aa7d7fef7aa55eecc18c624aaed"
+    },
+    {
+      "name": "pistol_aim_north_03",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 767,
+        "w": 122,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "5203be8cb32f6d466346b233f5aa9c31425ece30b277d74a5489dc2ea48bcadc"
+    },
+    {
+      "name": "pistol_aim_north_04",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1088,
+        "y": 767,
+        "w": 126,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "df04d44647aa84f691a61a1a7ea77f667b73632f854f734ce81dc3a228555f8f"
+    },
+    {
+      "name": "pistol_aim_north_05",
+      "source": "../../sources/01-gleb-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1348,
+        "y": 768,
+        "w": 118,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "c256c69380c7003171fd58f0f58bd4998c731504e83d359487fa4ce5732a33f3"
+    },
+    {
+      "name": "pistol_fire_north_00",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 773,
+        "w": 134,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 33,
+        "y": 20,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "f5489085fcc68f3993cd007ad5efce3240375d904a72ebc36269a9251d1b1f6c"
+    },
+    {
+      "name": "pistol_fire_north_01",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 777,
+        "w": 143,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "d32fa7efc9d8f65f9fd79848aeca61b37195cc3e1eb60148cdf96e31aa52519e"
+    },
+    {
+      "name": "pistol_fire_north_02",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 767,
+        "w": 136,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "6da136881d87fc211f0b396d60684121a0c4e38f80ebaa0dac3d371ea2dbe39e"
+    },
+    {
+      "name": "pistol_fire_north_03",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 778,
+        "w": 124,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "3bb2591bd5469ef3b27047cf6c5699d32d48b23bade2f15f8aca5671f277a50b"
+    },
+    {
+      "name": "pistol_fire_north_04",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 788,
+        "w": 141,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 23,
+        "w": 31,
+        "h": 49
+      },
+      "sha256": "1a02a7a7b43e4f36a8d68c8dc25a70ed51af190bd469732789f078ebe9253ef0"
+    },
+    {
+      "name": "pistol_fire_north_05",
+      "source": "../../sources/01-gleb-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 774,
+        "w": 130,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "60a06447659bb50036a451a9cdee9b4c802aae63b313552622b549ae408fc007"
+    },
+    {
+      "name": "pistol_reload_north_00",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 105,
+        "y": 762,
+        "w": 115,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 41,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "dd1ac552c94e1baceded338ccf3c91bdd550c1b5ddd04565740cf875d29bbb44"
+    },
+    {
+      "name": "pistol_reload_north_01",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 344,
+        "y": 762,
+        "w": 122,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "641498c35f9b43037a3d56d8c7e0473a3e871b7233ae31cf313cbcc5c3e4c45c"
+    },
+    {
+      "name": "pistol_reload_north_02",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 761,
+        "w": 119,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "92ff202ce37fd3ea653ae35ed948e3c75fead50c553e615306612e7afed03a87"
+    },
+    {
+      "name": "pistol_reload_north_03",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 762,
+        "w": 117,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "8f42252d4003b7c6476cfaa9c15db79dc8af73d5f71e61aa40752ed6d44845d0"
+    },
+    {
+      "name": "pistol_reload_north_04",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 762,
+        "w": 126,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "3a14fbd2eae9e711a52d74ea96a1c31a18e77045eddf5b1d67cf429a377365f2"
+    },
+    {
+      "name": "pistol_reload_north_05",
+      "source": "../../sources/01-gleb-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1310,
+        "y": 762,
+        "w": 119,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 240
+      },
+      "destination": {
+        "x": 25,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "43173e8f59a353f435ef8d3a7d26c9d09bda6b715d7ae670475ddd3ffee554c7"
+    },
+    {
+      "name": "longgun_hold_north_00",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 116,
+        "y": 771,
+        "w": 115,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 43,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "09e6444e71ffe1e7c4a6b4bed3a431f96cb56e790879a626faa04c3fc646e146"
+    },
+    {
+      "name": "longgun_hold_north_01",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 357,
+        "y": 769,
+        "w": 113,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 40,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "94d7bac707eadb27705c1f54db57db83a9fa2b5fdb9d55c3812239d965576f05"
+    },
+    {
+      "name": "longgun_hold_north_02",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 593,
+        "y": 766,
+        "w": 114,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "ac2929bf757f5edf17188d5b59e9a01e572ebe1106225a63d57f6ddb8718dc37"
+    },
+    {
+      "name": "longgun_hold_north_03",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 769,
+        "w": 115,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "f47f7605fdb6a9c06646b41dd65f3e4731b39776bcfb22a9597c3ce8c9d23327"
+    },
+    {
+      "name": "longgun_hold_north_04",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 767,
+        "w": 116,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "98b71d67b4e22c4f575ce5ed1226ffe4a58d7c2801ca7692d1e1f85559bbfb66"
+    },
+    {
+      "name": "longgun_hold_north_05",
+      "source": "../../sources/01-gleb-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1306,
+        "y": 769,
+        "w": 118,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 24,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "0b31eab102d0b26e7965d2f75455e13b8e0c97ecd58c23312ef4cbb58ae49e8f"
+    },
+    {
+      "name": "longgun_aim_north_00",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 65,
+        "y": 764,
+        "w": 122,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "744e742b1a6fddbf9d3f056f19f3af0e7e1ef39b619ca11af903c74c4746d546"
+    },
+    {
+      "name": "longgun_aim_north_01",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 772,
+        "w": 129,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "2d1dd0c866a56ff90030d251f6c7b70956ddaffb0199172f07d3f8339ee0d2cc"
+    },
+    {
+      "name": "longgun_aim_north_02",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 772,
+        "w": 135,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "8b5958b538475a3463a5cd4236bc81c5bdbc2bb89ea3583628d36c68d39bd42b"
+    },
+    {
+      "name": "longgun_aim_north_03",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 821,
+        "y": 772,
+        "w": 138,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "906f4d91b85cf2aad3e094e8809f62bc3d367fff9a3a1514497306c2f9f7de30"
+    },
+    {
+      "name": "longgun_aim_north_04",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 772,
+        "w": 136,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "4bc6b28b57a7625dc9845344c01be25b02766089a216002b253da0999acd79aa"
+    },
+    {
+      "name": "longgun_aim_north_05",
+      "source": "../../sources/01-gleb-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1343,
+        "y": 764,
+        "w": 123,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 125.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "0e20f6a2e0c6bc6641d5a09587782643cd5aa36d55d148ed783669d44640ead2"
+    },
+    {
+      "name": "longgun_fire_north_00",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 760,
+        "w": 126,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "89eebd2268bb3db577ba51c786039602f8cad73dde1cea28240b5e3938e0fe29"
+    },
+    {
+      "name": "longgun_fire_north_01",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 345,
+        "y": 759,
+        "w": 126,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "3caad7e0bbec81bcbc173205a1062063c3aacf0483fd9d3a484828b74ee197b5"
+    },
+    {
+      "name": "longgun_fire_north_02",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 591,
+        "y": 760,
+        "w": 142,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 31,
+        "h": 50
+      },
+      "sha256": "631ab2e078153fa588a2e5b08c1a58ba928f12264c01be6e932289ba9e187bc6"
+    },
+    {
+      "name": "longgun_fire_north_03",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 824,
+        "y": 760,
+        "w": 128,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "1af71ea2bac8e4c2e16f58779adc28e522492c80b846c1e7ab41b34fe09c1cbb"
+    },
+    {
+      "name": "longgun_fire_north_04",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 760,
+        "w": 129,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 26,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "0aa7536b40d50144cf18d9873a8a9e892e3b0ab7f459699a36f527e59ceb4422"
+    },
+    {
+      "name": "longgun_fire_north_05",
+      "source": "../../sources/01-gleb-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 760,
+        "w": 130,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 224
+      },
+      "destination": {
+        "x": 25,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "8f6ecedf5b874a26b66d65118eeb6887b41d46312e80953f6d1b7efb886c2665"
+    },
+    {
+      "name": "longgun_reload_north_00",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 95,
+        "y": 768,
+        "w": 117,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "e9a9e2de73733cf1de78a15180ae7f91df930a5e68d60424f89f2bb2a924124e"
+    },
+    {
+      "name": "longgun_reload_north_01",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 345,
+        "y": 768,
+        "w": 127,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 38,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "15397f9d7f16cf9881d84135641df0245125db99d42789e6180d79b3acf432d1"
+    },
+    {
+      "name": "longgun_reload_north_02",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 768,
+        "w": 116,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "54b1cb106d2926b950114e9be0bf760ce97de537503c0770fa0c93d26b089098"
+    },
+    {
+      "name": "longgun_reload_north_03",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 768,
+        "w": 121,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "99903578906473259bdd4c097c83b4d7072bdd945d64ff36f190beeff729b3cb"
+    },
+    {
+      "name": "longgun_reload_north_04",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 768,
+        "w": 134,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "1360b3c46383f1fbecca4be63693c7afbee1389b91fd1f2a6da55356821146f9"
+    },
+    {
+      "name": "longgun_reload_north_05",
+      "source": "../../sources/01-gleb-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 768,
+        "w": 107,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "293cc189f63eb6ecffa7660e45dd5ce31ffb47aaf4f1d40f7af2af05a411a53a"
+    },
+    {
+      "name": "throw_north_00",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 86,
+        "y": 770,
+        "w": 109,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "c7595b1e7d00f59d238f33c5b49562dd66aa2cf3dbf54298bfbf548e976d0f60"
+    },
+    {
+      "name": "throw_north_01",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 294,
+        "y": 773,
+        "w": 189,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 41,
+        "h": 51
+      },
+      "sha256": "41629b876d91d6f58abec78f1d831de06c1a6156346d5484830292d01c2961ba"
+    },
+    {
+      "name": "throw_north_02",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 767,
+        "w": 161,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 30,
+        "y": 20,
+        "w": 35,
+        "h": 52
+      },
+      "sha256": "f12c987e7ae924e513f9a5b54178847d29d2dd1a17ad5f341b3ac86b6d9b5f2b"
+    },
+    {
+      "name": "throw_north_03",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 835,
+        "y": 774,
+        "w": 181,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 22,
+        "w": 40,
+        "h": 50
+      },
+      "sha256": "3dca7f4fa8f1b49ca614b9f1b4be3bbec92941d9f1ce8b1926eeec0651ad0479"
+    },
+    {
+      "name": "throw_north_04",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 1087,
+        "y": 777,
+        "w": 165,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 31,
+        "y": 23,
+        "w": 36,
+        "h": 50
+      },
+      "sha256": "81abc5dbc6edc3e7dd97d2a6c11331227299b2d19ee2bc9660f6dfc5c7db8d6d"
+    },
+    {
+      "name": "throw_north_05",
+      "source": "../../sources/01-gleb-throw.png",
+      "sourceBounds": {
+        "x": 1345,
+        "y": 769,
+        "w": 110,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 235
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "613ffbc09e56c272b955dde843878db159849ba75fc1711772ceec284e7218b8"
+    },
+    {
+      "name": "hurt_north_00",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 81,
+        "y": 770,
+        "w": 120,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "949df471a2e7a94de004b5c8e73b4b9fa3897e8580fa52abf34da14c39094844"
+    },
+    {
+      "name": "hurt_north_01",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 324,
+        "y": 772,
+        "w": 151,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 33,
+        "h": 52
+      },
+      "sha256": "82fd5846a99c8ab8f7883f2b03e4323a3f4966711341b0c729289c59ea4db11e"
+    },
+    {
+      "name": "hurt_north_02",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 584,
+        "y": 783,
+        "w": 145,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "615eac34974c40ed8f987767e4f574fa27ef5018614775d86ab0bb9d456f656a"
+    },
+    {
+      "name": "hurt_north_03",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 824,
+        "y": 782,
+        "w": 150,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 30,
+        "y": 23,
+        "w": 33,
+        "h": 49
+      },
+      "sha256": "63d11728e929a244244e5feaac26470df1abed2e457385dcab301c9f0b120631"
+    },
+    {
+      "name": "hurt_north_04",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 1071,
+        "y": 772,
+        "w": 134,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 29,
+        "h": 52
+      },
+      "sha256": "b5faee8dd20a73bc02a592bb340b034126e32addc374ed3f8a0bd5a93b516a10"
+    },
+    {
+      "name": "hurt_north_05",
+      "source": "../../sources/01-gleb-hurt.png",
+      "sourceBounds": {
+        "x": 1334,
+        "y": 770,
+        "w": 119,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 239
+      },
+      "destination": {
+        "x": 29,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "92d2da281e395cb213220b954e0a024395822ec505539845b633811215c2106a"
+    },
+    {
+      "name": "stunned_north_00",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 105,
+        "y": 763,
+        "w": 103,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 41,
+        "y": 20,
+        "w": 23,
+        "h": 52
+      },
+      "sha256": "31834cf27d1bab9cb9a28733bc46fdfd6c04c60486345d28a6b9a3eb492fef75"
+    },
+    {
+      "name": "stunned_north_01",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 350,
+        "y": 768,
+        "w": 109,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "7a8fffd7339fea922a58a152d6257f68ac76ecc98bb4b707b3b55d9720fe8cdb"
+    },
+    {
+      "name": "stunned_north_02",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 782,
+        "w": 106,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 37,
+        "y": 24,
+        "w": 23,
+        "h": 48
+      },
+      "sha256": "6a3e503e2fcb409c2b412e9db2fb58de664a5ebdc195e62e6355cb94ad1f6b0d"
+    },
+    {
+      "name": "stunned_north_03",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 840,
+        "y": 763,
+        "w": 104,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 20,
+        "w": 23,
+        "h": 52
+      },
+      "sha256": "fb79f6c6436a6d3a77765faa8e1a57d6da8b247ad0a1b34c65c94a9babf13388"
+    },
+    {
+      "name": "stunned_north_04",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 769,
+        "w": 107,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 23,
+        "h": 51
+      },
+      "sha256": "1a59bd645c5e436e944b0cc880b23bc0cfbb6fd4770c517995c41cce130a5f4f"
+    },
+    {
+      "name": "stunned_north_05",
+      "source": "../../sources/01-gleb-stunned.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 768,
+        "w": 108,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "4e111001aa214ed6b5bfd54db5bf67ab388a990a3883b764db7e84d69b6214fd"
+    },
+    {
+      "name": "knockback_north_00",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 82,
+        "y": 771,
+        "w": 113,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "b6b631c5cc62a841a23b4a22b1dde3ed7159f2dd6c969fa9ef0257cfb949d4b6"
+    },
+    {
+      "name": "knockback_north_01",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 282,
+        "y": 776,
+        "w": 225,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 23,
+        "y": 21,
+        "w": 49,
+        "h": 51
+      },
+      "sha256": "271c1c4369c43aefef06b538b95497eb163e66489cd147add9bdaee89b210e11"
+    },
+    {
+      "name": "knockback_north_02",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 552,
+        "y": 784,
+        "w": 215,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 27,
+        "y": 22,
+        "w": 47,
+        "h": 50
+      },
+      "sha256": "f345b8c1a2bf2aa0abe3ffb2d1e40b143001fab1d03f41e5b55122fb33f25f9a"
+    },
+    {
+      "name": "knockback_north_03",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 837,
+        "w": 155,
+        "h": 174
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 34,
+        "w": 34,
+        "h": 38
+      },
+      "sha256": "92ab94ea79029c2916c4ed8c8725c92b7c7b430017717d0727f6ac85acc61f3b"
+    },
+    {
+      "name": "knockback_north_04",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 1076,
+        "y": 800,
+        "w": 173,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 38,
+        "h": 46
+      },
+      "sha256": "cefa5c4f3b0395d9b3923648fe358fd3d126074a38278e24097ce610a07679c3"
+    },
+    {
+      "name": "knockback_north_05",
+      "source": "../../sources/01-gleb-knockback.png",
+      "sourceBounds": {
+        "x": 1360,
+        "y": 771,
+        "w": 113,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "2f40798efc042c05ceb8e9ad9de175c6431f7a1ad4a8d9a516a479676af082ba"
+    },
+    {
+      "name": "death_north_00",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 77,
+        "y": 774,
+        "w": 111,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 36,
+        "y": 24,
+        "w": 24,
+        "h": 48
+      },
+      "sha256": "0a877c38657706bd1d8d2ef92fe51e4a77a8a307ae5310985e3d03443992c2f3"
+    },
+    {
+      "name": "death_north_01",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 292,
+        "y": 782,
+        "w": 163,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 27,
+        "y": 26,
+        "w": 36,
+        "h": 46
+      },
+      "sha256": "dccb7a9e31fb6dc3e23ee89cc778926b6765adc6ae52ec3ef69c346637c58724"
+    },
+    {
+      "name": "death_north_02",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 541,
+        "y": 814,
+        "w": 132,
+        "h": 180
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 25,
+        "y": 33,
+        "w": 29,
+        "h": 39
+      },
+      "sha256": "fff3cc452c40e274f63cc22f3225f62d73749fbb42c577b5f86ae7277e34f51f"
+    },
+    {
+      "name": "death_north_03",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 739,
+        "y": 858,
+        "w": 190,
+        "h": 137
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 13,
+        "y": 42,
+        "w": 42,
+        "h": 30
+      },
+      "sha256": "231281f66a623ff9cc2f549bac525c8dd494c296b33ef4bd052b9d50ba32af9c"
+    },
+    {
+      "name": "death_north_04",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 959,
+        "y": 885,
+        "w": 265,
+        "h": 108
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 5,
+        "y": 48,
+        "w": 58,
+        "h": 24
+      },
+      "sha256": "2b56882b632331f7c7ee97743b1e92995a50e6acb5a36c98afe9ec633475da6d"
+    },
+    {
+      "name": "death_north_05",
+      "source": "../../sources/01-gleb-death.png",
+      "sourceBounds": {
+        "x": 1252,
+        "y": 907,
+        "w": 252,
+        "h": 82
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 226
+      },
+      "destination": {
+        "x": 13,
+        "y": 53,
+        "w": 55,
+        "h": 18
+      },
+      "sha256": "2950da58c5328da6e7ce1699aec899e63a300af823610155b4ecc5cfe3cf3f4f"
+    }
+  ]
+}

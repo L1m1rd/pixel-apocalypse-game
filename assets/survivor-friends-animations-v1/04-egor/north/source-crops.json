@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.23140495867768596,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_north_00",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 182,
+        "y": 765,
+        "w": 108,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 51,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "3395468ec6f6320239e19f9fde9f39bdf5e79e91330520a311367a8d69c3e3c6"
+    },
+    {
+      "name": "idle_north_01",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 412,
+        "y": 765,
+        "w": 106,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 45,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "3c41146cb99261111ba725825d1c868663467881d1eed73cff63a11da74631d3"
+    },
+    {
+      "name": "idle_north_02",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 626,
+        "y": 763,
+        "w": 110,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "1b0fbd7292275b63b1ae0414a94cfa57098f991260aee196d70c8e6c00428f09"
+    },
+    {
+      "name": "idle_north_03",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 763,
+        "w": 108,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 25,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "501b7cfb570280ce8ba233ef19e0092bac9d77352cdbd465ac865a5c94dd6ec6"
+    },
+    {
+      "name": "idle_north_04",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 1053,
+        "y": 766,
+        "w": 112,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 16,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "037b6cd3a11c219fccf4cab08cbc57212348ec3ed0f643b48b3be92464fb878c"
+    },
+    {
+      "name": "idle_north_05",
+      "source": "../../sources/04-egor-idle.png",
+      "sourceBounds": {
+        "x": 1278,
+        "y": 765,
+        "w": 106,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 168.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 9,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "0d724dc4976dbcf13db89e599c9d70f9b525b3853181a62fa8d40f2858dff89b"
+    },
+    {
+      "name": "walk_north_00",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 82,
+        "y": 762,
+        "w": 112,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "11f9ba51adf9bf6a573ee12d5166ca68c98b0aa3d9e0952d62275aff84d644a1"
+    },
+    {
+      "name": "walk_north_01",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 339,
+        "y": 763,
+        "w": 111,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "39961ac6e7d7afc955710f4cc5129a0db6b28bbac69fed7186067d53b188930e"
+    },
+    {
+      "name": "walk_north_02",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 587,
+        "y": 762,
+        "w": 111,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "20f5ba7fb9c1e0dbf0111ab22530b2fc30e38405763c4023da0ce0bc0824025c"
+    },
+    {
+      "name": "walk_north_03",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 762,
+        "w": 114,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "c40031144f4c8c8caac09d41339b0f8cf3aec7dc94674010a086ff4a0f34489c"
+    },
+    {
+      "name": "walk_north_04",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 763,
+        "w": 114,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "5b47e526944783c89006e4559fea56ef9d0a95313c990e63c3f49ea81412aea6"
+    },
+    {
+      "name": "walk_north_05",
+      "source": "../../sources/04-egor-walk.png",
+      "sourceBounds": {
+        "x": 1340,
+        "y": 762,
+        "w": 113,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 233
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "cdf23b31fe9ee129d3963592dbe251bf75d04dbd7f831ba13c76fe51d7a9db0d"
+    },
+    {
+      "name": "run_north_00",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 82,
+        "y": 762,
+        "w": 119,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "4d9f64b58b3f96a1407378a40c2854e7d496a48a07d0ab1d7c539141c7f57f50"
+    },
+    {
+      "name": "run_north_01",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 763,
+        "w": 118,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "9e201c737cc2fae0d8ba27fced28cbb042da14b5f0ba567717f85558e2047167"
+    },
+    {
+      "name": "run_north_02",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 758,
+        "w": 121,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "c99a800682e3416eae18d713cd11e3a52ffda880c05e220e51613a018bc16691"
+    },
+    {
+      "name": "run_north_03",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 760,
+        "w": 127,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "067b4ebef33425fa12161ac0763fd041bea699e7b6a5fa7d8f3a4973f5100d52"
+    },
+    {
+      "name": "run_north_04",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 1081,
+        "y": 763,
+        "w": 120,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "40a5a62d77758f87fbaa2c9a893959b4049b8416405115a2fa46dd177a31c4ae"
+    },
+    {
+      "name": "run_north_05",
+      "source": "../../sources/04-egor-run.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 762,
+        "w": 121,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 222
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "8b295cd2546bae2c6cd8fcc78bb839766a007d9d51897795e5eb230890bb6f75"
+    },
+    {
+      "name": "crouch_down_north_00",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 768,
+        "w": 117,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "dae547d98fa056e27663ec0df77708d592334beadaea95b6bfcdd4486cf6b8cd"
+    },
+    {
+      "name": "crouch_down_north_01",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 778,
+        "w": 126,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "016e3ef7d311f8dfd8202f284436933787f400f65be661df2081957d37888b95"
+    },
+    {
+      "name": "crouch_down_north_02",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 798,
+        "w": 122,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 34,
+        "y": 24,
+        "w": 28,
+        "h": 48
+      },
+      "sha256": "c222379f9db690b87cf2b19de07397920c52af529d73b774ce89fd86dc96c725"
+    },
+    {
+      "name": "crouch_down_north_03",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 810,
+        "w": 134,
+        "h": 196
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 27,
+        "w": 31,
+        "h": 45
+      },
+      "sha256": "655badbfbeb91f37e454c5078659af2fa6762ba2bc28cadf4fdd4500dd06554d"
+    },
+    {
+      "name": "crouch_down_north_04",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 829,
+        "w": 156,
+        "h": 176
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 30,
+        "y": 31,
+        "w": 36,
+        "h": 41
+      },
+      "sha256": "65b9ee08008ead100c1d4b1aeb988be3e95099ef0496d288912568c8743368f9"
+    },
+    {
+      "name": "crouch_down_north_05",
+      "source": "../../sources/04-egor-crouch_down.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 850,
+        "w": 151,
+        "h": 156
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 29,
+        "y": 36,
+        "w": 35,
+        "h": 36
+      },
+      "sha256": "c0770385546a3f59536d9111e90701dc040895a5885e0341dd4a73e843e953d7"
+    },
+    {
+      "name": "crouch_idle_north_00",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 65,
+        "y": 771,
+        "w": 158,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 37,
+        "h": 52
+      },
+      "sha256": "a1578209e6c1804d4b1ff61009c314ab09d926840ac32bb7967460a0200180a6"
+    },
+    {
+      "name": "crouch_idle_north_01",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 319,
+        "y": 771,
+        "w": 161,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 30,
+        "y": 20,
+        "w": 37,
+        "h": 52
+      },
+      "sha256": "a1f4a09689e05ef4d9aa2f771f6be57cc3892e168c63b460768f33991405159c"
+    },
+    {
+      "name": "crouch_idle_north_02",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 562,
+        "y": 772,
+        "w": 173,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 27,
+        "y": 21,
+        "w": 40,
+        "h": 52
+      },
+      "sha256": "8b1c78eadc2eb9378fc63914b28a650f764cfe139e164257d41ab5dfed72b44a"
+    },
+    {
+      "name": "crouch_idle_north_03",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 770,
+        "w": 170,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 28,
+        "y": 20,
+        "w": 39,
+        "h": 52
+      },
+      "sha256": "346e001ae1cc34bdf64a556d4dd25b1b55bae05a9740ff624311710297cf5b76"
+    },
+    {
+      "name": "crouch_idle_north_04",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 774,
+        "w": 171,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 40,
+        "h": 50
+      },
+      "sha256": "eafc85bdb86d34f6f8f2a629679431d2568641cafd9f92e4270bf9b6121704b7"
+    },
+    {
+      "name": "crouch_idle_north_05",
+      "source": "../../sources/04-egor-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1319,
+        "y": 771,
+        "w": 175,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 226
+      },
+      "destination": {
+        "x": 25,
+        "y": 20,
+        "w": 40,
+        "h": 52
+      },
+      "sha256": "bcd005fe4c430232a940d170d44d0cf5f7a454d72bfb55e6f64602f7f6e4198f"
+    },
+    {
+      "name": "crouch_walk_north_00",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 61,
+        "y": 772,
+        "w": 162,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 37,
+        "h": 51
+      },
+      "sha256": "87536714a6910992e10f466fe7d8e79e6e5e501ed721cad051a62bcb09d91f11"
+    },
+    {
+      "name": "crouch_walk_north_01",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 315,
+        "y": 772,
+        "w": 156,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 36,
+        "h": 51
+      },
+      "sha256": "6f3216814cf9c2ab8eb79b7a144a8441d00d202012575df33336e081abc64a77"
+    },
+    {
+      "name": "crouch_walk_north_02",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 555,
+        "y": 772,
+        "w": 175,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 40,
+        "h": 50
+      },
+      "sha256": "2b248b7f7f73d318eb4aeab1792322c741675f0f42f26622d797aab756b07ddb"
+    },
+    {
+      "name": "crouch_walk_north_03",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 812,
+        "y": 772,
+        "w": 164,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 38,
+        "h": 51
+      },
+      "sha256": "d9bc044386bc086fcb6dc8a5306ac89e620c713d671b7b51606ebcb135d1a349"
+    },
+    {
+      "name": "crouch_walk_north_04",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1059,
+        "y": 770,
+        "w": 175,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 26,
+        "y": 21,
+        "w": 40,
+        "h": 51
+      },
+      "sha256": "4d393845677e2d634556b490447dadc7d7d38fdbaf46606b67816ebf3a8e808a"
+    },
+    {
+      "name": "crouch_walk_north_05",
+      "source": "../../sources/04-egor-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1314,
+        "y": 770,
+        "w": 157,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 224
+      },
+      "destination": {
+        "x": 26,
+        "y": 21,
+        "w": 36,
+        "h": 52
+      },
+      "sha256": "14298f981a82bbd3d003bfd6bf6f20bf3c097183a46f1c973d1ee5cea2da2608"
+    },
+    {
+      "name": "stand_up_north_00",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 86,
+        "y": 859,
+        "w": 126,
+        "h": 144
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 36,
+        "y": 38,
+        "w": 29,
+        "h": 33
+      },
+      "sha256": "3f9f967193fb6a8cffdf5970816fb513a7414c2631eaeb1fdd1c8f130e98f7c5"
+    },
+    {
+      "name": "stand_up_north_01",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 841,
+        "w": 117,
+        "h": 163
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 36,
+        "y": 34,
+        "w": 27,
+        "h": 38
+      },
+      "sha256": "18afa9dc9f5d515bad4893be353831d7f2b4e8db68f83940f2937b7ba0d94e35"
+    },
+    {
+      "name": "stand_up_north_02",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 592,
+        "y": 813,
+        "w": 121,
+        "h": 194
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 34,
+        "y": 27,
+        "w": 28,
+        "h": 45
+      },
+      "sha256": "ca3ebe0b0fad69a86fcc0c95fc445e877d34557cb33a61f48fce18581d1f355f"
+    },
+    {
+      "name": "stand_up_north_03",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 844,
+        "y": 791,
+        "w": 111,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 33,
+        "y": 22,
+        "w": 26,
+        "h": 50
+      },
+      "sha256": "4759973f6e40f5cc9d1f6ca3ae05d1e241fd04c40eea7ec0c47b5cab39d24c8f"
+    },
+    {
+      "name": "stand_up_north_04",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 1099,
+        "y": 780,
+        "w": 110,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 33,
+        "y": 20,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "7e0e53cbf78a50343d9c985dff8c330be7fc75a711d283946f7e6636d4b89ee6"
+    },
+    {
+      "name": "stand_up_north_05",
+      "source": "../../sources/04-egor-stand_up.png",
+      "sourceBounds": {
+        "x": 1348,
+        "y": 766,
+        "w": 110,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 238
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "e9da097c66ad0447a377f8bea647e5a6ff7ccbd13a72b248cd804af8f2bf761a"
+    },
+    {
+      "name": "pickup_north_00",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 99,
+        "y": 756,
+        "w": 111,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "f5362d769015b5e87d682d0866046193cfea4ff08fadf6ad45ce70a87eb354df"
+    },
+    {
+      "name": "pickup_north_01",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 337,
+        "y": 781,
+        "w": 120,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "423980610ec3ea3e96e129140accfd0f88b616898d317ee498dc2f90ba81c07f"
+    },
+    {
+      "name": "pickup_north_02",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 592,
+        "y": 824,
+        "w": 131,
+        "h": 170
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 34,
+        "y": 33,
+        "w": 30,
+        "h": 39
+      },
+      "sha256": "943caab30faa7b19b24c9f168f6c032433cfb06e5a972be925a5f499cf2d4d1b"
+    },
+    {
+      "name": "pickup_north_03",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 835,
+        "w": 130,
+        "h": 157
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 32,
+        "y": 35,
+        "w": 30,
+        "h": 36
+      },
+      "sha256": "25afd35334f4ab88a210c00699457a9f3ef414b9f27a51d4d775b36f257973af"
+    },
+    {
+      "name": "pickup_north_04",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 778,
+        "w": 126,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 29,
+        "y": 22,
+        "w": 29,
+        "h": 50
+      },
+      "sha256": "0fc2903186c1f54a82bdf3d10fc92310beb4a9794a1b2c0eaa3012dbd2a43e6e"
+    },
+    {
+      "name": "pickup_north_05",
+      "source": "../../sources/04-egor-pickup.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 756,
+        "w": 112,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "8953a8b443b4f8bf46d84737a33dac44e477ab8704627bf1bc2335965d2037ea"
+    },
+    {
+      "name": "search_north_00",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 77,
+        "y": 754,
+        "w": 119,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "d4f479e40a6573a6cccd72ce07d126775c007199b290de06a2e822003511a66c"
+    },
+    {
+      "name": "search_north_01",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 317,
+        "y": 782,
+        "w": 133,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 32,
+        "y": 24,
+        "w": 31,
+        "h": 48
+      },
+      "sha256": "f78039545106b6d1b524ced5792d94bc6a078ea4f226d1ad80c6b342d9bb17cf"
+    },
+    {
+      "name": "search_north_02",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 597,
+        "y": 798,
+        "w": 115,
+        "h": 192
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 37,
+        "y": 28,
+        "w": 27,
+        "h": 44
+      },
+      "sha256": "d268c52fce7f34cc6c52db1b36b6e8a4eb4a2455d373f9aa8cda1f33d5a6c22a"
+    },
+    {
+      "name": "search_north_03",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 770,
+        "w": 132,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "f892810d8773da9ba20c52d974f43397af5e420d77edfce177cc2c1abf0a2b5b"
+    },
+    {
+      "name": "search_north_04",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 1097,
+        "y": 798,
+        "w": 117,
+        "h": 192
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 35,
+        "y": 28,
+        "w": 27,
+        "h": 44
+      },
+      "sha256": "d9b03603dea7290eb364f579af02a6765a5346cbeb8849a8bfb013fbcfc6fad6"
+    },
+    {
+      "name": "search_north_05",
+      "source": "../../sources/04-egor-search.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 784,
+        "w": 138,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 221
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 32,
+        "h": 48
+      },
+      "sha256": "6dcfc6b3eef71f20635953f15b2253eaf6506111042e4d7ad3826b9299e1c93c"
+    },
+    {
+      "name": "open_door_north_00",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 99,
+        "y": 770,
+        "w": 118,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "9da7ba954db785d5fcebcab66a154767b171126b88d9204a6b871262813222bc"
+    },
+    {
+      "name": "open_door_north_01",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 355,
+        "y": 770,
+        "w": 127,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "3c5898b9041ddb1b196a90d2c7cd032cf6df8202bc1e8cf98d46dc792cc392b2"
+    },
+    {
+      "name": "open_door_north_02",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 611,
+        "y": 770,
+        "w": 128,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "dec45e9ad019332d91f8cf3d0faf7aac4bbb6ea0d11fcc3e24978911254cb3b4"
+    },
+    {
+      "name": "open_door_north_03",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 867,
+        "y": 770,
+        "w": 133,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "9c770289d113eea282d72ec0bc5771a1fe3d591b0421f63a422e802b4a7d768c"
+    },
+    {
+      "name": "open_door_north_04",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 1123,
+        "y": 770,
+        "w": 122,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "39580a2da91e7f9dbe6fe597775b85c3d42ee6e2fd3da534dd949d2ac50ae4bc"
+    },
+    {
+      "name": "open_door_north_05",
+      "source": "../../sources/04-egor-open_door.png",
+      "sourceBounds": {
+        "x": 1379,
+        "y": 770,
+        "w": 118,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 162,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "1530b902ed2d095821bc2afb3fec21ca982c6918d3b4ff2f29ecd50eea70e301"
+    },
+    {
+      "name": "eat_north_00",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 86,
+        "y": 762,
+        "w": 109,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "7f055fdec231458ba962973cb912585fca2c74e55699aa4067d392034e17f8f1"
+    },
+    {
+      "name": "eat_north_01",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 333,
+        "y": 765,
+        "w": 121,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "4d4254f42d944bcc75b20423abe4d39d1e1b7f940891e193d8492a74b8e1733a"
+    },
+    {
+      "name": "eat_north_02",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 584,
+        "y": 766,
+        "w": 115,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "3daf092ab32e6695a80089a466c94a7da8f566ede55f29684b6a255a70916530"
+    },
+    {
+      "name": "eat_north_03",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 837,
+        "y": 766,
+        "w": 122,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "c9dea734e853b4bb3119cffd03f40d6c2fcf338ce11c98d133d0818c55b10f11"
+    },
+    {
+      "name": "eat_north_04",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 1089,
+        "y": 763,
+        "w": 112,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "c1790a8b6b7e568909cf48a9758ac0ee23d8f9cbb4e06dd55f80ca118fcbc3fd"
+    },
+    {
+      "name": "eat_north_05",
+      "source": "../../sources/04-egor-eat.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 762,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "8b85597021a7b97a2148985e6ded3026b2f0be31ba934cfb2167fe42056173ee"
+    },
+    {
+      "name": "drink_north_00",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 775,
+        "w": 118,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "542bea26af8c4637f4c625eca9a9a4b1244ce1efbc97745d67ed00d2ff5540c6"
+    },
+    {
+      "name": "drink_north_01",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 362,
+        "y": 776,
+        "w": 123,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 39,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "282ca9ea7c24d9b97b0dc31b7b1a2451d52267752ff4bf2ec7c5fb96975a7ab1"
+    },
+    {
+      "name": "drink_north_02",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 597,
+        "y": 775,
+        "w": 119,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "0f27d24fdae99bca08712b7a49c14f1e6000671f3b33e2a4fe405669771557aa"
+    },
+    {
+      "name": "drink_north_03",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 775,
+        "w": 122,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "e5c2b5420f46da2baca8e7f41df38e413fd1ebf2bf19933033b40cb44cde631b"
+    },
+    {
+      "name": "drink_north_04",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 1082,
+        "y": 776,
+        "w": 120,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "a177c9ea5dfde1645c2bc3fc850d20576cd5c9edf7aa4da454cf73ef5b7a2dc9"
+    },
+    {
+      "name": "drink_north_05",
+      "source": "../../sources/04-egor-drink.png",
+      "sourceBounds": {
+        "x": 1315,
+        "y": 776,
+        "w": 117,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 240
+      },
+      "destination": {
+        "x": 23,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "a17ef147caa555cf9b4a68e9d14513f92832bd7a45964d0f6f47482e1cebfc65"
+    },
+    {
+      "name": "bandage_north_00",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 87,
+        "y": 756,
+        "w": 114,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 26,
+        "h": 57
+      },
+      "sha256": "0e526650104909aac20b19886ea208ff89f055af6f064889e930429fc16ef6e3"
+    },
+    {
+      "name": "bandage_north_01",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 335,
+        "y": 757,
+        "w": 126,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "aaac73992342329fb8e4c1a5967727be12e5193927b1782510c834e7236c58ec"
+    },
+    {
+      "name": "bandage_north_02",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 591,
+        "y": 757,
+        "w": 106,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "13eddd1c398695eb36af26b0e83fba9e34a7d2e4215cae92af8c7a58ce1de831"
+    },
+    {
+      "name": "bandage_north_03",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 847,
+        "y": 757,
+        "w": 105,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "970ea0f556c31417fa83b4cef284ee6f598d6c4c36f48dd7011a3449bf01e4d0"
+    },
+    {
+      "name": "bandage_north_04",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 1100,
+        "y": 757,
+        "w": 103,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "d086460661b8a3d6c65cb616bd21ff028188c3134c9fafffcfba339c16812978"
+    },
+    {
+      "name": "bandage_north_05",
+      "source": "../../sources/04-egor-bandage.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 757,
+        "w": 114,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "946a88c71a5701630f18af4bac3ae90509da18382fb21474d4a4c54ec16d5d8a"
+    },
+    {
+      "name": "heal_ally_north_00",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 767,
+        "w": 132,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "49276726c1141cce5dbf5c90a03c850788a5c629adc1a3b54c2f796e569541f8"
+    },
+    {
+      "name": "heal_ally_north_01",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 310,
+        "y": 798,
+        "w": 174,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 28,
+        "y": 28,
+        "w": 40,
+        "h": 43
+      },
+      "sha256": "a020c6ee914a65226dc7ad00888f47aaf42331aadb5d5e52c16335675c07e1da"
+    },
+    {
+      "name": "heal_ally_north_02",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 555,
+        "y": 815,
+        "w": 195,
+        "h": 173
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 26,
+        "y": 32,
+        "w": 45,
+        "h": 40
+      },
+      "sha256": "0132a859bab2ec737bb2349135d20f59e7b82c81206bd1508a55bb6a9577b4e7"
+    },
+    {
+      "name": "heal_ally_north_03",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 802,
+        "y": 782,
+        "w": 167,
+        "h": 207
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 23,
+        "y": 25,
+        "w": 39,
+        "h": 48
+      },
+      "sha256": "69fd05c7a89238d88f2431b15efbd4534473a0bab2cd7c18c21acf9a5aac3a74"
+    },
+    {
+      "name": "heal_ally_north_04",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 1064,
+        "y": 778,
+        "w": 156,
+        "h": 211
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 25,
+        "y": 24,
+        "w": 36,
+        "h": 49
+      },
+      "sha256": "d6ea08b3ef5cf19ee6635de9566e537754b0e8198077f2418bed7d6e066fb3cc"
+    },
+    {
+      "name": "heal_ally_north_05",
+      "source": "../../sources/04-egor-heal_ally.png",
+      "sourceBounds": {
+        "x": 1324,
+        "y": 763,
+        "w": 137,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 219
+      },
+      "destination": {
+        "x": 26,
+        "y": 20,
+        "w": 32,
+        "h": 52
+      },
+      "sha256": "98dbc572370ebae79dbeef1699a49b59ede6dc97f8d055af73a273afa5127376"
+    },
+    {
+      "name": "craft_north_00",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 104,
+        "y": 769,
+        "w": 116,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "8716db8398f5df87069b05d366a50735720fed9d164741a9990fa5d39b1fd95b"
+    },
+    {
+      "name": "craft_north_01",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 359,
+        "y": 771,
+        "w": 102,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "1f7d75b6802b36f62a9126a15b029d3e29fbe572cd7aa1bf0b12cac9c4e14136"
+    },
+    {
+      "name": "craft_north_02",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 604,
+        "y": 769,
+        "w": 115,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "adb93d294083dd95f99390dd885eb53bca336c879ca545a8c60782f4a7946f34"
+    },
+    {
+      "name": "craft_north_03",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 771,
+        "w": 110,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "f8cf3c0bd29259c118bf004b734c27e349ade0d19d8f576d17a9e2dbdc5abf12"
+    },
+    {
+      "name": "craft_north_04",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 771,
+        "w": 102,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "275957c984eef6249ab0d88fbca5d57ebd03b35bbf809c60c497e9d180b07b02"
+    },
+    {
+      "name": "craft_north_05",
+      "source": "../../sources/04-egor-craft.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 774,
+        "w": 117,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 222
+      },
+      "destination": {
+        "x": 24,
+        "y": 22,
+        "w": 27,
+        "h": 50
+      },
+      "sha256": "d754766e807d352feb6564c3f554dc6cec40e80d27d094b7f555e4e3722053cb"
+    },
+    {
+      "name": "build_north_00",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 73,
+        "y": 778,
+        "w": 138,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "da2e87b030b2292a9bbc9ba7db669fccbd93aa9a66a6d123fad57e5e9875ece6"
+    },
+    {
+      "name": "build_north_01",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 331,
+        "y": 792,
+        "w": 141,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 33,
+        "h": 51
+      },
+      "sha256": "0dbdd55fa30b0639f50dc172f6a998ce79f37b8b7183cdaa7625b2ff6089cac6"
+    },
+    {
+      "name": "build_north_02",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 799,
+        "w": 139,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "69ec9ff2f670aca6b0606c794b68443dad019bfd265069e06f63267e3cfc2554"
+    },
+    {
+      "name": "build_north_03",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 824,
+        "y": 778,
+        "w": 143,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "05f9a944e4d5a986d379c522c9f65e4f70083cdbaf86845ae3cddbb789667b3a"
+    },
+    {
+      "name": "build_north_04",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 797,
+        "w": 141,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 22,
+        "w": 33,
+        "h": 50
+      },
+      "sha256": "2c153991d26cdfbf4ed31368b2f1a158482dffd1c1f69c268ae43c4cef6897ee"
+    },
+    {
+      "name": "build_north_05",
+      "source": "../../sources/04-egor-build.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 778,
+        "w": 130,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "c5f7e1d7b1c70a9af2fe27732b8eeff5c90027df8faa4bfea292a98ee649ecdd"
+    },
+    {
+      "name": "repair_north_00",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 55,
+        "y": 768,
+        "w": 166,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 38,
+        "h": 56
+      },
+      "sha256": "6461c2cb7ae89c4eb75018a29dca388d45c78032abd5574937c373ea07b21835"
+    },
+    {
+      "name": "repair_north_01",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 310,
+        "y": 767,
+        "w": 159,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 37,
+        "h": 56
+      },
+      "sha256": "6b6dac264b9197bb878f964a88e5fb924fff99d4a2a247e1275c1769617b85fe"
+    },
+    {
+      "name": "repair_north_02",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 559,
+        "y": 769,
+        "w": 165,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 29,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "5ad96d860600b4494d7b38acd6b241bb42aa9dc31db3a4d259695a9337198120"
+    },
+    {
+      "name": "repair_north_03",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 813,
+        "y": 776,
+        "w": 161,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 37,
+        "h": 54
+      },
+      "sha256": "3de6dd8693109b9045bdaa15958af828beccc7fe3584ccc4433a481735ac981b"
+    },
+    {
+      "name": "repair_north_04",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 1062,
+        "y": 781,
+        "w": 164,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 27,
+        "y": 20,
+        "w": 38,
+        "h": 53
+      },
+      "sha256": "66ff913617b9a7d91ce5bd58e9fd3a840849fcbaeca7a0606f9e1e44e1558b00"
+    },
+    {
+      "name": "repair_north_05",
+      "source": "../../sources/04-egor-repair.png",
+      "sourceBounds": {
+        "x": 1311,
+        "y": 768,
+        "w": 167,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 239
+      },
+      "destination": {
+        "x": 25,
+        "y": 17,
+        "w": 39,
+        "h": 56
+      },
+      "sha256": "25ae0d19337eae94d57d53c0d2bd11595559499419c2a62937bae84d09a716aa"
+    },
+    {
+      "name": "chop_north_00",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 775,
+        "w": 129,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "5b67a3747ff4182d38be6a5abf59d40c92e56600f0c4cd22fec0610cb0c49fd7"
+    },
+    {
+      "name": "chop_north_01",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 315,
+        "y": 780,
+        "w": 135,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "051420471e2fb01c1f8ff3562cd956345c42dd0874c3a447b59fb2290bb3d63b"
+    },
+    {
+      "name": "chop_north_02",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 762,
+        "w": 134,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "a6021e8349bbe6550f133939673bf7386196849fda9483fba9ef482f868ffb95"
+    },
+    {
+      "name": "chop_north_03",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 799,
+        "y": 799,
+        "w": 161,
+        "h": 205
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 26,
+        "y": 25,
+        "w": 37,
+        "h": 47
+      },
+      "sha256": "3d35bebb200fa5cd91b17cb7f40fe30f2c5fef68e815d0ad2d3cb56c2f225e5b"
+    },
+    {
+      "name": "chop_north_04",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 1071,
+        "y": 816,
+        "w": 170,
+        "h": 189
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 30,
+        "y": 28,
+        "w": 39,
+        "h": 44
+      },
+      "sha256": "88e79fd76946f1353b94d192d7f7592f437e2ba495acc6b34b5c418463870507"
+    },
+    {
+      "name": "chop_north_05",
+      "source": "../../sources/04-egor-chop.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 775,
+        "w": 130,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 126,
+        "y": 236
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "facff6e6b2e3e8a6436046f9b51ff73c4b606121d6c0cc21f5638ec3e9a21a7e"
+    },
+    {
+      "name": "mine_north_00",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 74,
+        "y": 790,
+        "w": 112,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "03d15a450f78adda89c232cfcf4e80755d172a319f4b5eac2428c27fe1b3fb0f"
+    },
+    {
+      "name": "mine_north_01",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 329,
+        "y": 793,
+        "w": 116,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 35,
+        "y": 24,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "03104de45eb0dcbe517eba1b895e36b3a8e535478f63dc531761483ca9b46747"
+    },
+    {
+      "name": "mine_north_02",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 777,
+        "w": 120,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "40e268140188bfe53641566a92686c6ee19ae52d1d6f7a0d76f0d464eff785dc"
+    },
+    {
+      "name": "mine_north_03",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 815,
+        "y": 820,
+        "w": 140,
+        "h": 183
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 29,
+        "y": 30,
+        "w": 32,
+        "h": 42
+      },
+      "sha256": "34cc87a87258df57b17e9a79c36ce77826dd1ccf5a3c93e79fff03471c011b42"
+    },
+    {
+      "name": "mine_north_04",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 1089,
+        "y": 820,
+        "w": 145,
+        "h": 183
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 33,
+        "y": 30,
+        "w": 34,
+        "h": 42
+      },
+      "sha256": "6cd8c3de4d9508df13b32cb410937eb81d8feac00e62c949630f082707c8eaed"
+    },
+    {
+      "name": "mine_north_05",
+      "source": "../../sources/04-egor-mine.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 790,
+        "w": 111,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 234
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "6734ab2b8c1d771ab2e32c9414b99ea28ad6509f6508dc3b12bc9b089efe6775"
+    },
+    {
+      "name": "punch_north_00",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 773,
+        "w": 133,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "5573695a640779e83cef675a1a268f98054501aaa8940baf04675ceba0f4a4b7"
+    },
+    {
+      "name": "punch_north_01",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 313,
+        "y": 773,
+        "w": 167,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 39,
+        "h": 51
+      },
+      "sha256": "941928a7ffd1b4189603d50e00241bf2c63ee348f00dd096891b73fb27d3996d"
+    },
+    {
+      "name": "punch_north_02",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 773,
+        "w": 156,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 36,
+        "h": 51
+      },
+      "sha256": "e1b0a7aa708902a0f564baef69006debf835b40d3a2ab436becb4fe90401c52e"
+    },
+    {
+      "name": "punch_north_03",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 773,
+        "w": 146,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 34,
+        "h": 51
+      },
+      "sha256": "16d3c318d5999b668ad7401add4407dbba27d2895d9442dae40ce1ac6390bb48"
+    },
+    {
+      "name": "punch_north_04",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 1096,
+        "y": 773,
+        "w": 148,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 34,
+        "h": 51
+      },
+      "sha256": "f975d984c741ffe430eab84c13902bc93730b6f2ed76a488f42055c79861769e"
+    },
+    {
+      "name": "punch_north_05",
+      "source": "../../sources/04-egor-punch.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 773,
+        "w": 135,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 226
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "7341981e52afffdf57c6afdac64aed3a59e023b32ff1027ef83e07ea20bcd38c"
+    },
+    {
+      "name": "one_hand_strike_north_00",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 762,
+        "w": 146,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 34,
+        "h": 54
+      },
+      "sha256": "d6e0ab7208f6897de45b8d5a67ccfe02000bb021803731547c23c949a37ce6e1"
+    },
+    {
+      "name": "one_hand_strike_north_01",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 333,
+        "y": 765,
+        "w": 160,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 37,
+        "h": 53
+      },
+      "sha256": "fb475bb597d71ab819bb52031a2f10c5fc781fde756ca71a6d0cae3f22c5f7cb"
+    },
+    {
+      "name": "one_hand_strike_north_02",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 585,
+        "y": 769,
+        "w": 152,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "65d7622852c14ae56c6abb5065ea8af9201584409c0d721905ac2189ce6ae850"
+    },
+    {
+      "name": "one_hand_strike_north_03",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 772,
+        "w": 190,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 25,
+        "y": 20,
+        "w": 44,
+        "h": 52
+      },
+      "sha256": "3e0863394cc4aafdf0215d07ee27e3c08475b82980ae249e82b295beb6ea004d"
+    },
+    {
+      "name": "one_hand_strike_north_04",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1067,
+        "y": 776,
+        "w": 194,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 24,
+        "y": 21,
+        "w": 45,
+        "h": 51
+      },
+      "sha256": "ec3db6837f1e294178563387fbf28d5b614da4bf5b8c8a98c5d60b4e5a1f04a8"
+    },
+    {
+      "name": "one_hand_strike_north_05",
+      "source": "../../sources/04-egor-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1323,
+        "y": 763,
+        "w": 146,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 227
+      },
+      "destination": {
+        "x": 24,
+        "y": 18,
+        "w": 34,
+        "h": 54
+      },
+      "sha256": "69808c5b26ec9afcb2c2eec5a5b84b6d5283c1da3b582304f0e76d9c4dc968e6"
+    },
+    {
+      "name": "two_hand_strike_north_00",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 64,
+        "y": 780,
+        "w": 133,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "37845bf0b411a8971a2b84ac6bd1cd3622da346c756cd9d931e7c9934f866702"
+    },
+    {
+      "name": "two_hand_strike_north_01",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 317,
+        "y": 780,
+        "w": 134,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "490faa365803a745279061f9ed9561e9a647fb641fdb78deea01dba0a43e094d"
+    },
+    {
+      "name": "two_hand_strike_north_02",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 570,
+        "y": 769,
+        "w": 134,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "ae9db15ae040a60f7f58ee14d59d221a8fcb59f5f7b3042a78e21353117730df"
+    },
+    {
+      "name": "two_hand_strike_north_03",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 813,
+        "y": 807,
+        "w": 169,
+        "h": 204
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 39,
+        "h": 47
+      },
+      "sha256": "977340501dabccc514637d89de242e56a899db8e630b0cc5c842ebc558228c48"
+    },
+    {
+      "name": "two_hand_strike_north_04",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 802,
+        "w": 164,
+        "h": 209
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 38,
+        "h": 48
+      },
+      "sha256": "270b32216f068955ac7f3dca1c76da6718a738d9ed6dc2a8284fa1395fad8836"
+    },
+    {
+      "name": "two_hand_strike_north_05",
+      "source": "../../sources/04-egor-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 780,
+        "w": 134,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 242
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "ba0e56688f8fd3ae7fc615413ad16645e5f77d2f93544e060fccf1e217fe2a58"
+    },
+    {
+      "name": "shove_north_00",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 79,
+        "y": 769,
+        "w": 118,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "696a6d787fb88919dfe41e988b4f070ab258e718444edc14fc638fb6f2c1e07b"
+    },
+    {
+      "name": "shove_north_01",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 772,
+        "w": 134,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "a8fdaf64c1dafa9638d46df7e220ae3fe9404fcc1fe37885313f389a409978c7"
+    },
+    {
+      "name": "shove_north_02",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 771,
+        "w": 137,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "382b8d54e1311f5ab23d63894d26aced856ada57007c9861a9b9a71e7c4eaa25"
+    },
+    {
+      "name": "shove_north_03",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 774,
+        "w": 157,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "68f8d12ad8180529b386b54f7b5f920844c3f95effc8cb4bebb9d3a1cc11dc24"
+    },
+    {
+      "name": "shove_north_04",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 774,
+        "w": 135,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "b1e6e004a6c9aae4b4992b4e7c420f4db916d6d965f64ad3865921a5eb447909"
+    },
+    {
+      "name": "shove_north_05",
+      "source": "../../sources/04-egor-shove.png",
+      "sourceBounds": {
+        "x": 1334,
+        "y": 769,
+        "w": 120,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 236
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "0ce3dcac5f6c3ed71fbc901f7042cc4ee7be79944082d5101f832a2d41d52799"
+    },
+    {
+      "name": "pistol_hold_north_00",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 770,
+        "w": 109,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "242713fc4e75372a411f9498316ff1e03872d1e10846e9b848b610516b8f32f5"
+    },
+    {
+      "name": "pistol_hold_north_01",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 333,
+        "y": 774,
+        "w": 120,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "0e1f06656216d16cdabcefa95134fa88c71ef7237fa1d51225e088c38e481fcf"
+    },
+    {
+      "name": "pistol_hold_north_02",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 594,
+        "y": 793,
+        "w": 105,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 36,
+        "y": 23,
+        "w": 24,
+        "h": 49
+      },
+      "sha256": "9df77808484d9842da3a26c4c843e9f2840f8f4d0d56b11de64d8e63f40006e1"
+    },
+    {
+      "name": "pistol_hold_north_03",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 771,
+        "w": 111,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "9df6f5dac3c2c7a77280ee766f95a69aceb90892a4f3f67487e752d794f16cda"
+    },
+    {
+      "name": "pistol_hold_north_04",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 774,
+        "w": 120,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "666e7af663db204a00630b30aa4863024749d75426f5dfb04fd48416ab68c8ba"
+    },
+    {
+      "name": "pistol_hold_north_05",
+      "source": "../../sources/04-egor-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1340,
+        "y": 771,
+        "w": 116,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 236
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "35f77ba08d73771b62f2b2c249a1d3435fe899289f3975600de18e9431f36fd3"
+    },
+    {
+      "name": "pistol_aim_north_00",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 73,
+        "y": 764,
+        "w": 131,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "03f686683c7d6d2a19109f0246414b6502c06914d7dcb4328fed4b10df4528db"
+    },
+    {
+      "name": "pistol_aim_north_01",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 323,
+        "y": 764,
+        "w": 144,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 33,
+        "h": 56
+      },
+      "sha256": "dd3ad2711e3841bf032d520121a41225f5484add376bdc3a16025e3e40c6586c"
+    },
+    {
+      "name": "pistol_aim_north_02",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 571,
+        "y": 764,
+        "w": 142,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 33,
+        "h": 56
+      },
+      "sha256": "c72b92b532b1176b99436fd95e3c772ee93f0ca68dcf80f9cf65f76994eddccd"
+    },
+    {
+      "name": "pistol_aim_north_03",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 821,
+        "y": 768,
+        "w": 143,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 33,
+        "h": 56
+      },
+      "sha256": "562bdce3d614424c41fc94caba6c253382129ce9bf693c84435e29b5a28a6173"
+    },
+    {
+      "name": "pistol_aim_north_04",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1074,
+        "y": 765,
+        "w": 151,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 35,
+        "h": 55
+      },
+      "sha256": "033b0af6d8ca75c5e0b9b3217a214e2bb584d302232fa4fb2bdcb476d2206cfe"
+    },
+    {
+      "name": "pistol_aim_north_05",
+      "source": "../../sources/04-egor-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 764,
+        "w": 134,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "10178709790889f8569b24537c497cd09a050ecc701c2867cd7e8dea1cde8c66"
+    },
+    {
+      "name": "pistol_fire_north_00",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 761,
+        "w": 127,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "acf6522c8d018743dbbacf07a48055c8e5c6001b4c11549e79a63c1a47cc2503"
+    },
+    {
+      "name": "pistol_fire_north_01",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 761,
+        "w": 128,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "71aed36d238c99478a0429be44802cc996433658916b27b9eb9cb9a4bbe32f99"
+    },
+    {
+      "name": "pistol_fire_north_02",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 757,
+        "w": 130,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "6e30dec81bd48769351bdd79397e62ec84193e0539727fcb1faf71d6d45921b1"
+    },
+    {
+      "name": "pistol_fire_north_03",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 832,
+        "y": 761,
+        "w": 128,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "a73a7cb1e929b799baf2d513de0fad1dd1b138d9931f1b0946d7a3dce582be01"
+    },
+    {
+      "name": "pistol_fire_north_04",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 772,
+        "w": 130,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 30,
+        "h": 52
+      },
+      "sha256": "b560bee94db879b7db473d2217481268b98327947cce7101dd1af7245687924d"
+    },
+    {
+      "name": "pistol_fire_north_05",
+      "source": "../../sources/04-egor-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 766,
+        "w": 127,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 228
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "8b5d078afd07327687a9c5ddca436eb8df87e3ad11caa68a8bc21cf878b9e172"
+    },
+    {
+      "name": "pistol_reload_north_00",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 772,
+        "w": 110,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 39,
+        "y": 15,
+        "w": 25,
+        "h": 57
+      },
+      "sha256": "776a8bee26893bbd020c490aeac6979921cbc2d8036f26e498f8dfba09c6b593"
+    },
+    {
+      "name": "pistol_reload_north_01",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 343,
+        "y": 772,
+        "w": 123,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 37,
+        "y": 15,
+        "w": 28,
+        "h": 57
+      },
+      "sha256": "856a8be9dbd4271e9345876417f8525579ee24bfbf4e37d68f37a07a2ad50703"
+    },
+    {
+      "name": "pistol_reload_north_02",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 772,
+        "w": 131,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 15,
+        "w": 30,
+        "h": 57
+      },
+      "sha256": "66328e206f1ba96d504eb99de6e35a5735406c8a14c67b43b76883940b509247"
+    },
+    {
+      "name": "pistol_reload_north_03",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 772,
+        "w": 121,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 15,
+        "w": 28,
+        "h": 57
+      },
+      "sha256": "dee36bc0e3a82658fb9285510ff62203addcfffd646db14af9fad724ed00ec66"
+    },
+    {
+      "name": "pistol_reload_north_04",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 773,
+        "w": 127,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 28,
+        "y": 15,
+        "w": 29,
+        "h": 57
+      },
+      "sha256": "1b79d5d42f169821eeaf82af833310f8107da5c503dc7e450bfd009ab175cd2b"
+    },
+    {
+      "name": "pistol_reload_north_05",
+      "source": "../../sources/04-egor-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 772,
+        "w": 117,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 15,
+        "w": 27,
+        "h": 57
+      },
+      "sha256": "3c0b4215668a4a8278ae16a7751cd26e21a67bfa22502a60a949087f97791221"
+    },
+    {
+      "name": "longgun_hold_north_00",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 775,
+        "w": 120,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "bf4cb042133091b6cd12e06405ff04d51e753d0b3d63ec506fd399d7e0b03229"
+    },
+    {
+      "name": "longgun_hold_north_01",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 343,
+        "y": 775,
+        "w": 114,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "4436cbe117c1f5a5750115d7e616a96024b47bff17551cd17f15071e64520b68"
+    },
+    {
+      "name": "longgun_hold_north_02",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 775,
+        "w": 117,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "888113ae5d8afc24a91d80cc5537684d199b2dea805db16944f9f4f535fb0d8e"
+    },
+    {
+      "name": "longgun_hold_north_03",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 775,
+        "w": 121,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "4248f30e2de2927bd0ec85997a2985706d1a591d7d949952c8378dbe48f5da41"
+    },
+    {
+      "name": "longgun_hold_north_04",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 775,
+        "w": 120,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "1f270483ff68ad8b2dab7cb4fef8a1904fb52771ff31ea7ef27b5dc79d46273f"
+    },
+    {
+      "name": "longgun_hold_north_05",
+      "source": "../../sources/04-egor-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 774,
+        "w": 123,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 239
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "7a157a95339b5546e003c8dc323829a4cca843534919797207f64f017018bd19"
+    },
+    {
+      "name": "longgun_aim_north_00",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 770,
+        "w": 131,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "69636e58ad803aaec4f8fe9156e2bebd42cf96b77912948506f35bb9741f5a44"
+    },
+    {
+      "name": "longgun_aim_north_01",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 323,
+        "y": 769,
+        "w": 133,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "7e1d058aaa6ab6cfa03f08c115d69e791bdfbf0032bd608d5234e4a9861a8eeb"
+    },
+    {
+      "name": "longgun_aim_north_02",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 780,
+        "w": 136,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "b8e7da2bf532173e8d72a0d203073388df3ddf558992b51eef8939edb5ea8af6"
+    },
+    {
+      "name": "longgun_aim_north_03",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 769,
+        "w": 133,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "e0a15971859ba875a4887c4a5f15ea128f3f3a128efb3f83f19ba1f781c95375"
+    },
+    {
+      "name": "longgun_aim_north_04",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1087,
+        "y": 780,
+        "w": 133,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "46f6182ba3ec9cae24028a8a742d716da47cc6302006797f5e9c6a779a4d89a8"
+    },
+    {
+      "name": "longgun_aim_north_05",
+      "source": "../../sources/04-egor-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 769,
+        "w": 137,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 237
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "ffe3da8e34a0cfd5c20bd33a83f6f5742ca20d64e21b63614cc0bd0ac3cf2787"
+    },
+    {
+      "name": "longgun_fire_north_00",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 774,
+        "w": 139,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "b025c751913839ed5afafcafbc5b86811d679565811dcc3172dbeeade6672c30"
+    },
+    {
+      "name": "longgun_fire_north_01",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 776,
+        "w": 139,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "a45bf5e69801cd3524d1e8dc4f88c20c9e3b1de546ddebd6386578d75fd4b0ba"
+    },
+    {
+      "name": "longgun_fire_north_02",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 776,
+        "w": 141,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 33,
+        "h": 53
+      },
+      "sha256": "301a22ac091fd46383aea1768f4fd1275b6bb82746ba9cfa33c5b219cd9c2d65"
+    },
+    {
+      "name": "longgun_fire_north_03",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 776,
+        "w": 145,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 34,
+        "h": 53
+      },
+      "sha256": "f729ba2f9206f84a7dd2fb6a3143706d5feeed7fece47a500a6e95e30993dcad"
+    },
+    {
+      "name": "longgun_fire_north_04",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1095,
+        "y": 776,
+        "w": 144,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 33,
+        "h": 53
+      },
+      "sha256": "556511f752dfcf773fed6f2368648a2f314869caf91a5029b792c209e921d96a"
+    },
+    {
+      "name": "longgun_fire_north_05",
+      "source": "../../sources/04-egor-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 776,
+        "w": 139,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 238
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "24ba634d92b9c1833936a3f3c4cc80c5f3c58f2397f336211c42e81948712006"
+    },
+    {
+      "name": "longgun_reload_north_00",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 91,
+        "y": 767,
+        "w": 118,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "ab688b3c412617abbb8698d84697bef664c1df47057f0e6589905dfd4d65da93"
+    },
+    {
+      "name": "longgun_reload_north_01",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 335,
+        "y": 767,
+        "w": 126,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "4d8e738ab6b895b666c4204575f8af2f05abc75b9cf289de09b24096ba98e355"
+    },
+    {
+      "name": "longgun_reload_north_02",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 575,
+        "y": 767,
+        "w": 126,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "17c4af75392d1e41579fc336f4769b6592be973fcc43f3488ba2f33ad5ee4607"
+    },
+    {
+      "name": "longgun_reload_north_03",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 767,
+        "w": 119,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "7457cf36dfdac9d1f8e0ad40eebb87210e0f9a81df326bf08aebc5aa5827c48b"
+    },
+    {
+      "name": "longgun_reload_north_04",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 767,
+        "w": 133,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "5b954b8d7623e20741a48883736c38e3a0ccc5e5f333b8bd1c54abb659705b9c"
+    },
+    {
+      "name": "longgun_reload_north_05",
+      "source": "../../sources/04-egor-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1343,
+        "y": 767,
+        "w": 124,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 236
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "e02a121530e62d025683775d2e7bb725280ef197763ec3e20fe607c5be388b95"
+    },
+    {
+      "name": "throw_north_00",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 766,
+        "w": 134,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "05eb2f72e4adca019886f2ec42a1375300330bc146f291e24ea1b445dcd5c9b3"
+    },
+    {
+      "name": "throw_north_01",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 330,
+        "y": 766,
+        "w": 154,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 36,
+        "h": 54
+      },
+      "sha256": "42bb7534db2a5020f066fd3cd563f4d70c1253589e17cc2e996d4db2151fa8a8"
+    },
+    {
+      "name": "throw_north_02",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 538,
+        "y": 767,
+        "w": 203,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 22,
+        "y": 18,
+        "w": 47,
+        "h": 54
+      },
+      "sha256": "3c9815a29365a22971b5446a771b1832b1b3d440015807a7ed9314f59bb28eb6"
+    },
+    {
+      "name": "throw_north_03",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 832,
+        "y": 775,
+        "w": 166,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 38,
+        "h": 52
+      },
+      "sha256": "40f902f7fff2a822fc6f7c706e2c91f3e62462b2818300c39fcc75a48997931e"
+    },
+    {
+      "name": "throw_north_04",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 1057,
+        "y": 775,
+        "w": 164,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 24,
+        "y": 20,
+        "w": 38,
+        "h": 52
+      },
+      "sha256": "896ebb4648ba37834ed90d11dfa49b366b2e0ae1d54a3992190a7321ec820162"
+    },
+    {
+      "name": "throw_north_05",
+      "source": "../../sources/04-egor-throw.png",
+      "sourceBounds": {
+        "x": 1329,
+        "y": 766,
+        "w": 140,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "4daafd1b77c475ebe5f4003e65446d636f90fc85ad3e95b8e1b9e48e1922f0df"
+    },
+    {
+      "name": "hurt_north_00",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 763,
+        "w": 118,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "edf1732590493afde9e24e58e2974088113a6b640ff43d964e04c104b0111d1a"
+    },
+    {
+      "name": "hurt_north_01",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 323,
+        "y": 763,
+        "w": 134,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "bb13fecf1004e138840ece3d227b689530aebeb3a0248848dd46bbd8dc8105a5"
+    },
+    {
+      "name": "hurt_north_02",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 766,
+        "w": 142,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "366df831f7c186d1332b10275435e7241dd01401be29bc5114fcacab30b7ec1c"
+    },
+    {
+      "name": "hurt_north_03",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 831,
+        "y": 773,
+        "w": 139,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 32,
+        "h": 52
+      },
+      "sha256": "2e5a64f5d809bc31619b7dd1429ecea0eaabce6f689ca6cd398867e7dc242808"
+    },
+    {
+      "name": "hurt_north_04",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 763,
+        "w": 131,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "b03fb072cfd917a648fa107cbd1731ac36e313fd702d727141e9289055c38691"
+    },
+    {
+      "name": "hurt_north_05",
+      "source": "../../sources/04-egor-hurt.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 764,
+        "w": 119,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 229
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "1db864e0bf7d20982650431064d9639f3fc386a511d90c4190f54c02013cd8b4"
+    },
+    {
+      "name": "stunned_north_00",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 88,
+        "y": 765,
+        "w": 120,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "b62fd6b51b30217f3cc4f542567e8c71739e46f2b0b1ee9976b021dbf0f44755"
+    },
+    {
+      "name": "stunned_north_01",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 327,
+        "y": 765,
+        "w": 137,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "cbb024a820175f0502345e09b20c9e158b32967c7d6d3fe553295428e93a9875"
+    },
+    {
+      "name": "stunned_north_02",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 585,
+        "y": 780,
+        "w": 140,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "abd4b531f52671078a6f5c04d69cf863d07b292426cc253026a55efd983dc437"
+    },
+    {
+      "name": "stunned_north_03",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 831,
+        "y": 765,
+        "w": 129,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "12f448fcca76e3cc094effab059ee966f71891ff8d74962279a9ef128d06d72e"
+    },
+    {
+      "name": "stunned_north_04",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 1066,
+        "y": 768,
+        "w": 132,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 26,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "468094404a80612c6e2486ba31a118db4b40824ae4547259ded887af48adea77"
+    },
+    {
+      "name": "stunned_north_05",
+      "source": "../../sources/04-egor-stunned.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 765,
+        "w": 121,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 232
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "2424a7f3d42c4c67198ce320330696fcc76ebf7aa172ade17339e5ce285c9d4b"
+    },
+    {
+      "name": "knockback_north_00",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 766,
+        "w": 114,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "cfb94fd9972fb1bce4a764add6f88bfb1094fb995ed157e0da113ef53208ec78"
+    },
+    {
+      "name": "knockback_north_01",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 292,
+        "y": 775,
+        "w": 205,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 24,
+        "y": 19,
+        "w": 47,
+        "h": 53
+      },
+      "sha256": "d78fb361276d5e31d9479c30c0ec1b5de3fe94da4347f1e7b83f65a6e9f3cdbe"
+    },
+    {
+      "name": "knockback_north_02",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 551,
+        "y": 775,
+        "w": 210,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 25,
+        "y": 19,
+        "w": 49,
+        "h": 53
+      },
+      "sha256": "ddef3493b997d0ee0012551728671ffa830a3f86a02bfc93a5555207436fafba"
+    },
+    {
+      "name": "knockback_north_03",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 810,
+        "y": 843,
+        "w": 194,
+        "h": 158
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 26,
+        "y": 35,
+        "w": 45,
+        "h": 37
+      },
+      "sha256": "783f7342e347fadc13f6ffc8d11af62f5c57f47b69e273e3cf226cd92faaf275"
+    },
+    {
+      "name": "knockback_north_04",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 1053,
+        "y": 791,
+        "w": 197,
+        "h": 211
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 23,
+        "y": 23,
+        "w": 46,
+        "h": 49
+      },
+      "sha256": "01d7969fe44e5f8f1bb16586c0c65e3b58015c2a679fd0e81f12c7759ffd0142"
+    },
+    {
+      "name": "knockback_north_05",
+      "source": "../../sources/04-egor-knockback.png",
+      "sourceBounds": {
+        "x": 1346,
+        "y": 765,
+        "w": 115,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 234
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "0a41f4567cf76afe014c4fba3b3c12f02e4ca383c071af7db3f13fee5a8554ef"
+    },
+    {
+      "name": "death_north_00",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 767,
+        "w": 105,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "0b868797a449daaf68765f8a507e24e0c6a6bb6012e636660fb196d6b9bab777"
+    },
+    {
+      "name": "death_north_01",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 285,
+        "y": 778,
+        "w": 157,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 36,
+        "h": 50
+      },
+      "sha256": "cc1e55a99e7b7a954a86ac07b0e834bfc9b0ae2bedaae845f120472f6814b166"
+    },
+    {
+      "name": "death_north_02",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 546,
+        "y": 809,
+        "w": 133,
+        "h": 184
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 27,
+        "y": 29,
+        "w": 31,
+        "h": 43
+      },
+      "sha256": "c9406f6e0175b87986f501fc403390c6369fd5dcb6e41f6c202d5ff4575bcb31"
+    },
+    {
+      "name": "death_north_03",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 754,
+        "y": 828,
+        "w": 220,
+        "h": 154
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 16,
+        "y": 33,
+        "w": 51,
+        "h": 36
+      },
+      "sha256": "f79ecdf24910ed968fa2973e10e10bd6cba1b84e726fc80140d02e1c2b6bba93"
+    },
+    {
+      "name": "death_north_04",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 987,
+        "y": 857,
+        "w": 264,
+        "h": 112
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 11,
+        "y": 40,
+        "w": 61,
+        "h": 26
+      },
+      "sha256": "717fdc6f0081b36f8861b143cb82b70b922db7dd273cc71dbdb6322b500ff335"
+    },
+    {
+      "name": "death_north_05",
+      "source": "../../sources/04-egor-death.png",
+      "sourceBounds": {
+        "x": 1271,
+        "y": 880,
+        "w": 254,
+        "h": 85
+      },
+      "fixedSourceAnchor": {
+        "x": 123,
+        "y": 228
+      },
+      "destination": {
+        "x": 17,
+        "y": 45,
+        "w": 59,
+        "h": 20
+      },
+      "sha256": "b6545e367029cc1b784dfdac66cb6f8bc31823ef545c18fa4c0690cdd1a4304c"
+    }
+  ]
+}

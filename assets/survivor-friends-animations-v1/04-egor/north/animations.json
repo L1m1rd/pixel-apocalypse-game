@@ -1,0 +1,632 @@
+{
+  "character": "04-egor",
+  "name": "Егор",
+  "direction": "north",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "origin": {
+    "x": 0.5,
+    "y": 0.75
+  },
+  "animations": {
+    "idle": {
+      "label": "Ожидание",
+      "group": "movement",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "idle_north_00",
+        "idle_north_01",
+        "idle_north_02",
+        "idle_north_03",
+        "idle_north_04",
+        "idle_north_05"
+      ]
+    },
+    "walk": {
+      "label": "Ходьба",
+      "group": "movement",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "walk_north_00",
+        "walk_north_01",
+        "walk_north_02",
+        "walk_north_03",
+        "walk_north_04",
+        "walk_north_05"
+      ]
+    },
+    "run": {
+      "label": "Бег",
+      "group": "movement",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "run_north_00",
+        "run_north_01",
+        "run_north_02",
+        "run_north_03",
+        "run_north_04",
+        "run_north_05"
+      ]
+    },
+    "crouch_down": {
+      "label": "Присесть",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_down_north_00",
+        "crouch_down_north_01",
+        "crouch_down_north_02",
+        "crouch_down_north_03",
+        "crouch_down_north_04",
+        "crouch_down_north_05"
+      ]
+    },
+    "crouch_idle": {
+      "label": "Ожидание сидя",
+      "group": "stealth",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_idle_north_00",
+        "crouch_idle_north_01",
+        "crouch_idle_north_02",
+        "crouch_idle_north_03",
+        "crouch_idle_north_04",
+        "crouch_idle_north_05"
+      ]
+    },
+    "crouch_walk": {
+      "label": "Движение пригнувшись",
+      "group": "stealth",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_walk_north_00",
+        "crouch_walk_north_01",
+        "crouch_walk_north_02",
+        "crouch_walk_north_03",
+        "crouch_walk_north_04",
+        "crouch_walk_north_05"
+      ]
+    },
+    "stand_up": {
+      "label": "Встать",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stand_up_north_00",
+        "stand_up_north_01",
+        "stand_up_north_02",
+        "stand_up_north_03",
+        "stand_up_north_04",
+        "stand_up_north_05"
+      ]
+    },
+    "pickup": {
+      "label": "Поднять предмет",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pickup_north_00",
+        "pickup_north_01",
+        "pickup_north_02",
+        "pickup_north_03",
+        "pickup_north_04",
+        "pickup_north_05"
+      ]
+    },
+    "search": {
+      "label": "Обыск",
+      "group": "interaction",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "search_north_00",
+        "search_north_01",
+        "search_north_02",
+        "search_north_03",
+        "search_north_04",
+        "search_north_05"
+      ]
+    },
+    "open_door": {
+      "label": "Открыть дверь",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "open_door_north_00",
+        "open_door_north_01",
+        "open_door_north_02",
+        "open_door_north_03",
+        "open_door_north_04",
+        "open_door_north_05"
+      ]
+    },
+    "eat": {
+      "label": "Есть",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "eat_north_00",
+        "eat_north_01",
+        "eat_north_02",
+        "eat_north_03",
+        "eat_north_04",
+        "eat_north_05"
+      ]
+    },
+    "drink": {
+      "label": "Пить",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "drink_north_00",
+        "drink_north_01",
+        "drink_north_02",
+        "drink_north_03",
+        "drink_north_04",
+        "drink_north_05"
+      ]
+    },
+    "bandage": {
+      "label": "Перевязать себя",
+      "group": "survival",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "bandage_north_00",
+        "bandage_north_01",
+        "bandage_north_02",
+        "bandage_north_03",
+        "bandage_north_04",
+        "bandage_north_05"
+      ]
+    },
+    "heal_ally": {
+      "label": "Помочь товарищу",
+      "group": "survival",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "heal_ally_north_00",
+        "heal_ally_north_01",
+        "heal_ally_north_02",
+        "heal_ally_north_03",
+        "heal_ally_north_04",
+        "heal_ally_north_05"
+      ]
+    },
+    "craft": {
+      "label": "Крафт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "craft_north_00",
+        "craft_north_01",
+        "craft_north_02",
+        "craft_north_03",
+        "craft_north_04",
+        "craft_north_05"
+      ]
+    },
+    "build": {
+      "label": "Строительство",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "build_north_00",
+        "build_north_01",
+        "build_north_02",
+        "build_north_03",
+        "build_north_04",
+        "build_north_05"
+      ]
+    },
+    "repair": {
+      "label": "Ремонт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "repair_north_00",
+        "repair_north_01",
+        "repair_north_02",
+        "repair_north_03",
+        "repair_north_04",
+        "repair_north_05"
+      ]
+    },
+    "chop": {
+      "label": "Рубка",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "chop_north_00",
+        "chop_north_01",
+        "chop_north_02",
+        "chop_north_03",
+        "chop_north_04",
+        "chop_north_05"
+      ]
+    },
+    "mine": {
+      "label": "Добыча ресурсов",
+      "group": "work",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "mine_north_00",
+        "mine_north_01",
+        "mine_north_02",
+        "mine_north_03",
+        "mine_north_04",
+        "mine_north_05"
+      ]
+    },
+    "punch": {
+      "label": "Удар рукой",
+      "group": "combat",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "punch_north_00",
+        "punch_north_01",
+        "punch_north_02",
+        "punch_north_03",
+        "punch_north_04",
+        "punch_north_05"
+      ]
+    },
+    "one_hand_strike": {
+      "label": "Одноручный удар",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "one_hand_strike_north_00",
+        "one_hand_strike_north_01",
+        "one_hand_strike_north_02",
+        "one_hand_strike_north_03",
+        "one_hand_strike_north_04",
+        "one_hand_strike_north_05"
+      ]
+    },
+    "two_hand_strike": {
+      "label": "Двуручный удар",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "two_hand_strike_north_00",
+        "two_hand_strike_north_01",
+        "two_hand_strike_north_02",
+        "two_hand_strike_north_03",
+        "two_hand_strike_north_04",
+        "two_hand_strike_north_05"
+      ]
+    },
+    "shove": {
+      "label": "Толчок",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "shove_north_00",
+        "shove_north_01",
+        "shove_north_02",
+        "shove_north_03",
+        "shove_north_04",
+        "shove_north_05"
+      ]
+    },
+    "pistol_hold": {
+      "label": "Пистолет: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_hold_north_00",
+        "pistol_hold_north_01",
+        "pistol_hold_north_02",
+        "pistol_hold_north_03",
+        "pistol_hold_north_04",
+        "pistol_hold_north_05"
+      ]
+    },
+    "pistol_aim": {
+      "label": "Пистолет: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_aim_north_00",
+        "pistol_aim_north_01",
+        "pistol_aim_north_02",
+        "pistol_aim_north_03",
+        "pistol_aim_north_04",
+        "pistol_aim_north_05"
+      ]
+    },
+    "pistol_fire": {
+      "label": "Пистолет: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_fire_north_00",
+        "pistol_fire_north_01",
+        "pistol_fire_north_02",
+        "pistol_fire_north_03",
+        "pistol_fire_north_04",
+        "pistol_fire_north_05"
+      ]
+    },
+    "pistol_reload": {
+      "label": "Пистолет: перезарядка",
+      "group": "firearm",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_reload_north_00",
+        "pistol_reload_north_01",
+        "pistol_reload_north_02",
+        "pistol_reload_north_03",
+        "pistol_reload_north_04",
+        "pistol_reload_north_05"
+      ]
+    },
+    "longgun_hold": {
+      "label": "Длинное оружие: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_hold_north_00",
+        "longgun_hold_north_01",
+        "longgun_hold_north_02",
+        "longgun_hold_north_03",
+        "longgun_hold_north_04",
+        "longgun_hold_north_05"
+      ]
+    },
+    "longgun_aim": {
+      "label": "Длинное оружие: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_aim_north_00",
+        "longgun_aim_north_01",
+        "longgun_aim_north_02",
+        "longgun_aim_north_03",
+        "longgun_aim_north_04",
+        "longgun_aim_north_05"
+      ]
+    },
+    "longgun_fire": {
+      "label": "Длинное оружие: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_fire_north_00",
+        "longgun_fire_north_01",
+        "longgun_fire_north_02",
+        "longgun_fire_north_03",
+        "longgun_fire_north_04",
+        "longgun_fire_north_05"
+      ]
+    },
+    "longgun_reload": {
+      "label": "Длинное оружие: перезарядка",
+      "group": "firearm",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_reload_north_00",
+        "longgun_reload_north_01",
+        "longgun_reload_north_02",
+        "longgun_reload_north_03",
+        "longgun_reload_north_04",
+        "longgun_reload_north_05"
+      ]
+    },
+    "throw": {
+      "label": "Бросок",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "throw_north_00",
+        "throw_north_01",
+        "throw_north_02",
+        "throw_north_03",
+        "throw_north_04",
+        "throw_north_05"
+      ]
+    },
+    "hurt": {
+      "label": "Получение урона",
+      "group": "reaction",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "hurt_north_00",
+        "hurt_north_01",
+        "hurt_north_02",
+        "hurt_north_03",
+        "hurt_north_04",
+        "hurt_north_05"
+      ]
+    },
+    "stunned": {
+      "label": "Оглушение",
+      "group": "reaction",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stunned_north_00",
+        "stunned_north_01",
+        "stunned_north_02",
+        "stunned_north_03",
+        "stunned_north_04",
+        "stunned_north_05"
+      ]
+    },
+    "knockback": {
+      "label": "Отбрасывание",
+      "group": "reaction",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "knockback_north_00",
+        "knockback_north_01",
+        "knockback_north_02",
+        "knockback_north_03",
+        "knockback_north_04",
+        "knockback_north_05"
+      ]
+    },
+    "death": {
+      "label": "Смерть и лежащее тело",
+      "group": "reaction",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "holdLastFrame": true,
+      "frames": [
+        "death_north_00",
+        "death_north_01",
+        "death_north_02",
+        "death_north_03",
+        "death_north_04",
+        "death_north_05"
+      ],
+      "terminalFrame": "death_north_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_north_05",
+    "static": true
+  }
+}

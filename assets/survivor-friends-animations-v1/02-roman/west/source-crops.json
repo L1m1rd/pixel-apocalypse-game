@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.22564102564102564,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_west_00",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 88,
+        "y": 263,
+        "w": 88,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "fc92bda126b93bbe71395b09eb18995a8116d9b4e16a0f0555d395a2820ff2d8"
+    },
+    {
+      "name": "idle_west_01",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 337,
+        "y": 264,
+        "w": 93,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "0dc9769f82eed43cdb0f9a4ecf4fb33939280a85335e5aa2e9d8ba1d0a82f772"
+    },
+    {
+      "name": "idle_west_02",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 264,
+        "w": 90,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "4f8a45de51c7d546dde4137df868b9539f922972d6f869390c7a27630129bffd"
+    },
+    {
+      "name": "idle_west_03",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 848,
+        "y": 264,
+        "w": 91,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "d3df00b82136268ac80228050692aaec5cb1ccc6200ac7f3af2914ffb8491b3f"
+    },
+    {
+      "name": "idle_west_04",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 1104,
+        "y": 264,
+        "w": 91,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "b106ed7a94accc255c6767c0f4fb7b8c42ea48209786eb0ad8dd129a3c5a646c"
+    },
+    {
+      "name": "idle_west_05",
+      "source": "../../sources/02-roman-idle.png",
+      "sourceBounds": {
+        "x": 1356,
+        "y": 264,
+        "w": 86,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 19,
+        "h": 55
+      },
+      "sha256": "9d1493ded68c4525bfbe80f774bc0bf7d716607c488148239f045782f529b5ba"
+    },
+    {
+      "name": "walk_west_00",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 266,
+        "w": 109,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "ac9d78194ca3bd44a2aa17f765aa767d02611f86be7a06b828cca04452a33f29"
+    },
+    {
+      "name": "walk_west_01",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 266,
+        "w": 119,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "954d5aa2e9018c5938a525d2cdab0d4657c619bf80e1a9ec1ee764600ab1aa4b"
+    },
+    {
+      "name": "walk_west_02",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 266,
+        "w": 121,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "d7f4f529c3fe251c4148411efb4b10e9dcba3cff5a4c91557999f9d91a22a880"
+    },
+    {
+      "name": "walk_west_03",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 266,
+        "w": 99,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 22,
+        "h": 53
+      },
+      "sha256": "c41d88c88f97af6fa825e92abb2d77ed6f64c70cb1a9a52d61d012bb62dc6651"
+    },
+    {
+      "name": "walk_west_04",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 266,
+        "w": 114,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "fa2f67907984e59ff85cec94806aa8724d3e1cb3aa1e8342a8906a4f10e9223d"
+    },
+    {
+      "name": "walk_west_05",
+      "source": "../../sources/02-roman-walk.png",
+      "sourceBounds": {
+        "x": 1330,
+        "y": 266,
+        "w": 111,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 245
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "0e56551f2bf4ec837bf207aee346a00834be64d168b79d52d7b57430ae53dd67"
+    },
+    {
+      "name": "run_west_00",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 64,
+        "y": 264,
+        "w": 165,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 37,
+        "h": 53
+      },
+      "sha256": "8d1f7ed2b4237510e8a251bf18fafeb593301556af1f832e7717bf1193f49cdb"
+    },
+    {
+      "name": "run_west_01",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 267,
+        "w": 153,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "16676ffe5080be247b0c2c5d4e0f5dc18b7623c81bc91cda9f0d22e24f8f8cfc"
+    },
+    {
+      "name": "run_west_02",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 565,
+        "y": 265,
+        "w": 168,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 38,
+        "h": 50
+      },
+      "sha256": "a67a12f96aac5583d74a0150f69fffd12a7fa9b70ac2eb0f8e36bbc9f44f13e1"
+    },
+    {
+      "name": "run_west_03",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 267,
+        "w": 151,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 34,
+        "h": 53
+      },
+      "sha256": "f12b5f231c61030d23bd91c65fcc8e669a226b58cf17d8f58a57c81db7ab82a3"
+    },
+    {
+      "name": "run_west_04",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 264,
+        "w": 145,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "2be7335d8004acd37993b878e25597527e8c03d41024c9426b1a8e81dd07d191"
+    },
+    {
+      "name": "run_west_05",
+      "source": "../../sources/02-roman-run.png",
+      "sourceBounds": {
+        "x": 1324,
+        "y": 264,
+        "w": 160,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 27,
+        "y": 19,
+        "w": 36,
+        "h": 50
+      },
+      "sha256": "e2d2f6cb24fc188788172ed1baf3d00f10bf74321974652c3529995244bace10"
+    },
+    {
+      "name": "crouch_down_west_00",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 101,
+        "y": 266,
+        "w": 86,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 19,
+        "h": 55
+      },
+      "sha256": "48de3a946dc559b133d787bdc8b7928b72ab833c873acf58f461f5a1b539a58d"
+    },
+    {
+      "name": "crouch_down_west_01",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 350,
+        "y": 284,
+        "w": 113,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 22,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "9c4384fac89341cfc28658f3e1580b710c4a967d6e1d941ab81f1b4a4bd2491f"
+    },
+    {
+      "name": "crouch_down_west_02",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 597,
+        "y": 303,
+        "w": 119,
+        "h": 205
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 26,
+        "w": 27,
+        "h": 46
+      },
+      "sha256": "e9c0b332ede36ae20d807464a31adf7aa2761507d45195bc8d8b34dc2d414052"
+    },
+    {
+      "name": "crouch_down_west_03",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 845,
+        "y": 326,
+        "w": 125,
+        "h": 182
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 31,
+        "w": 28,
+        "h": 41
+      },
+      "sha256": "03718689e68243a48046bafc201039503e6a5e72bbd1f06bb2ba4212fcbf67ba"
+    },
+    {
+      "name": "crouch_down_west_04",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 1097,
+        "y": 347,
+        "w": 122,
+        "h": 161
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 32,
+        "y": 36,
+        "w": 28,
+        "h": 36
+      },
+      "sha256": "4b0078b4a00617598b8dbc0ac2c7fde429c29587be508c14ad2d6416e81f5ecb"
+    },
+    {
+      "name": "crouch_down_west_05",
+      "source": "../../sources/02-roman-crouch_down.png",
+      "sourceBounds": {
+        "x": 1345,
+        "y": 361,
+        "w": 119,
+        "h": 147
+      },
+      "fixedSourceAnchor": {
+        "x": 143.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 39,
+        "w": 27,
+        "h": 33
+      },
+      "sha256": "b49e70e0c076d7906c33f244d70cd1e2c46a80b763f35cbcac42120058e35817"
+    },
+    {
+      "name": "crouch_idle_west_00",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 41,
+        "y": 278,
+        "w": 172,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 29,
+        "y": 23,
+        "w": 39,
+        "h": 49
+      },
+      "sha256": "52ca50b75e4f356f272ea09d01d4a6113820f4514d75e31f82f3ed590466ddfe"
+    },
+    {
+      "name": "crouch_idle_west_01",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 286,
+        "y": 278,
+        "w": 187,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 27,
+        "y": 23,
+        "w": 42,
+        "h": 49
+      },
+      "sha256": "ff9a7f4cee661825d4bd365af5b1cfb51f407528a7f873e9b8d93cde57dbe014"
+    },
+    {
+      "name": "crouch_idle_west_02",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 546,
+        "y": 278,
+        "w": 182,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 28,
+        "y": 23,
+        "w": 41,
+        "h": 49
+      },
+      "sha256": "18b2c89d0b9ff76aa2e31e35ca9a985b5a4339c317db63e1c2e628078be9fddd"
+    },
+    {
+      "name": "crouch_idle_west_03",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 790,
+        "y": 278,
+        "w": 193,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 25,
+        "y": 23,
+        "w": 44,
+        "h": 49
+      },
+      "sha256": "fc2c576aaa53398a19a7d2db6139dbd841efceeac1b9056deedfaa0136c8df21"
+    },
+    {
+      "name": "crouch_idle_west_04",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1052,
+        "y": 280,
+        "w": 192,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 26,
+        "y": 24,
+        "w": 43,
+        "h": 48
+      },
+      "sha256": "e9126ee644a7e1f645b0c6508605dc3ac71f52b00f67f489093294aa1d2ceb6d"
+    },
+    {
+      "name": "crouch_idle_west_05",
+      "source": "../../sources/02-roman-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1315,
+        "y": 275,
+        "w": 175,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 237
+      },
+      "destination": {
+        "x": 28,
+        "y": 23,
+        "w": 39,
+        "h": 49
+      },
+      "sha256": "b400eb561028d4f369903c6b982d6e08ebf4dcbe418a571f8daf6a117276e6c4"
+    },
+    {
+      "name": "crouch_walk_west_00",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 57,
+        "y": 286,
+        "w": 164,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 37,
+        "h": 48
+      },
+      "sha256": "aaab07b1e46c820dc11db99b373da695387f475234f4689ec443a31e8bd7e878"
+    },
+    {
+      "name": "crouch_walk_west_01",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 314,
+        "y": 286,
+        "w": 161,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 36,
+        "h": 48
+      },
+      "sha256": "7142f5fb6580abced774185d88a850423e86487de11933709cacb57855a5c289"
+    },
+    {
+      "name": "crouch_walk_west_02",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 572,
+        "y": 285,
+        "w": 153,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 35,
+        "h": 49
+      },
+      "sha256": "d42bd88ac6a639438db8c570e82f263c8e6cc736c9a1fb37d521361ea2b432c3"
+    },
+    {
+      "name": "crouch_walk_west_03",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 822,
+        "y": 286,
+        "w": 174,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 24,
+        "w": 39,
+        "h": 48
+      },
+      "sha256": "92a73a4cd7375c19c81861ad75854b0b0ad5eebaa4f575cef219f06c0cb92a9a"
+    },
+    {
+      "name": "crouch_walk_west_04",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1090,
+        "y": 279,
+        "w": 153,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 22,
+        "w": 35,
+        "h": 50
+      },
+      "sha256": "a4e6b1dae9d2b2b0f7f6629514d55022bb378d79f4429e994a9813d0b0b6b2e3"
+    },
+    {
+      "name": "crouch_walk_west_05",
+      "source": "../../sources/02-roman-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 286,
+        "w": 150,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 31,
+        "y": 24,
+        "w": 34,
+        "h": 49
+      },
+      "sha256": "36c9a44a8a30ece874bb0e2b8526260cf63cce42196f5b31a221c02315031acf"
+    },
+    {
+      "name": "stand_up_west_00",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 111,
+        "y": 364,
+        "w": 129,
+        "h": 148
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 40,
+        "y": 39,
+        "w": 29,
+        "h": 33
+      },
+      "sha256": "4e937841aded9587e87102f1920a9e795e2de4594b75ead0468656f80a7bbe9f"
+    },
+    {
+      "name": "stand_up_west_01",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 360,
+        "y": 335,
+        "w": 128,
+        "h": 177
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 39,
+        "y": 32,
+        "w": 29,
+        "h": 40
+      },
+      "sha256": "6f1abf202ed6233d5e6422f87475f7576ad92d6912335f43e14c7e6ee3733a1e"
+    },
+    {
+      "name": "stand_up_west_02",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 601,
+        "y": 310,
+        "w": 115,
+        "h": 199
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 35,
+        "y": 27,
+        "w": 26,
+        "h": 45
+      },
+      "sha256": "ebae898d2dc97690ff997099c995e1969886b50b42aded126d721b74116fe623"
+    },
+    {
+      "name": "stand_up_west_03",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 288,
+        "w": 110,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 30,
+        "y": 22,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "07c217f19541500ae4040db24835945f159141ef7c07a06bd86daf804861e5b3"
+    },
+    {
+      "name": "stand_up_west_04",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 272,
+        "w": 98,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "688df9abe530e6ab6d1e439b1cca25ebcd5c3f4d5c8c5b6511803141ade34f71"
+    },
+    {
+      "name": "stand_up_west_05",
+      "source": "../../sources/02-roman-stand_up.png",
+      "sourceBounds": {
+        "x": 1308,
+        "y": 263,
+        "w": 85,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 255
+      },
+      "destination": {
+        "x": 21,
+        "y": 16,
+        "w": 19,
+        "h": 56
+      },
+      "sha256": "ca9528eaf9e1204da7df2b09ef1d3de3425a40fbff334656a5377e56e9dbccd1"
+    },
+    {
+      "name": "pickup_west_00",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 95,
+        "y": 266,
+        "w": 80,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 18,
+        "h": 54
+      },
+      "sha256": "7bc9e24fb45eabe4a52cc71632707db5b139701466e8f1ab4b9a6eaa5b973645"
+    },
+    {
+      "name": "pickup_west_01",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 296,
+        "w": 129,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 25,
+        "w": 29,
+        "h": 47
+      },
+      "sha256": "ada91567f254685a5dd4792119815851f55609c27dcd046db9ba78162b92f13b"
+    },
+    {
+      "name": "pickup_west_02",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 343,
+        "w": 140,
+        "h": 163
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 35,
+        "w": 32,
+        "h": 37
+      },
+      "sha256": "50bde9278ce3e9419b2445e257170924458c2d067b64693b7550b89b7334f7bc"
+    },
+    {
+      "name": "pickup_west_03",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 828,
+        "y": 350,
+        "w": 138,
+        "h": 156
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 37,
+        "w": 31,
+        "h": 35
+      },
+      "sha256": "c0ea459bd6a9929d2d9723f017cb44e93f09037ae16276ec4191d3d1e8778ca3"
+    },
+    {
+      "name": "pickup_west_04",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 289,
+        "w": 129,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 29,
+        "h": 49
+      },
+      "sha256": "34a0e1740a4d74e9987489e3e500dc096b4309467c9e9ef7a2b39e09f91e0857"
+    },
+    {
+      "name": "pickup_west_05",
+      "source": "../../sources/02-roman-pickup.png",
+      "sourceBounds": {
+        "x": 1348,
+        "y": 266,
+        "w": 81,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 18,
+        "h": 54
+      },
+      "sha256": "8267260650ea9123e2cdb71594d0284eef05da4e7a3ff877a787993b76bee752"
+    },
+    {
+      "name": "search_west_00",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 92,
+        "y": 270,
+        "w": 93,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 39,
+        "y": 20,
+        "w": 21,
+        "h": 52
+      },
+      "sha256": "013e57b2dfcc16b86a2e68a024314e07203d79d859e4aa922e6a68f7db7a395f"
+    },
+    {
+      "name": "search_west_01",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 312,
+        "y": 294,
+        "w": 157,
+        "h": 207
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 26,
+        "w": 35,
+        "h": 47
+      },
+      "sha256": "9339ffcd120dd02c9cad52aa8dcdc2750b8e05598042a24ca9851c6f494dc61b"
+    },
+    {
+      "name": "search_west_02",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 318,
+        "w": 156,
+        "h": 184
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 31,
+        "w": 35,
+        "h": 42
+      },
+      "sha256": "3fd0b53039f1e81675dc5826000ca9e234a56d2382f05249013b8a5423eabeed"
+    },
+    {
+      "name": "search_west_03",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 295,
+        "w": 141,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 30,
+        "y": 26,
+        "w": 32,
+        "h": 46
+      },
+      "sha256": "63c26b25bf7b9135ad4cb3f11f4514038e92562de9f8a647a0dd5606e53206a9"
+    },
+    {
+      "name": "search_west_04",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 266,
+        "w": 105,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "87b1877a87c5f80c1b0514f48e82ab8f6a8f690bd1ad9b62713f3c1b52774df3"
+    },
+    {
+      "name": "search_west_05",
+      "source": "../../sources/02-roman-search.png",
+      "sourceBounds": {
+        "x": 1312,
+        "y": 298,
+        "w": 151,
+        "h": 203
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 25,
+        "y": 26,
+        "w": 34,
+        "h": 46
+      },
+      "sha256": "4613bbce764bb69fa149e86fdc06eebffcc7e23b416cf81093a692a1b8f578c0"
+    },
+    {
+      "name": "open_door_west_00",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 110,
+        "y": 261,
+        "w": 84,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 45,
+        "y": 19,
+        "w": 19,
+        "h": 53
+      },
+      "sha256": "2bb5dfa593b27f9762bc7df8ea60c0240739cd9a2fb814366ced368585cd6289"
+    },
+    {
+      "name": "open_door_west_01",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 307,
+        "y": 262,
+        "w": 144,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "6624553989876f44f73c940e5aa0d9090fc2c69086e1adbc029bdf86823767ad"
+    },
+    {
+      "name": "open_door_west_02",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 563,
+        "y": 262,
+        "w": 139,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "748293a10d034719dbb1546bacf6f0ace215ae5e826dd4c5a22bfa5c2869e7ea"
+    },
+    {
+      "name": "open_door_west_03",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 262,
+        "w": 142,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "e5f80a0d3efa73b4680b6cbf224601ee8bc0c265cbeeecd98c1a822a83191eb6"
+    },
+    {
+      "name": "open_door_west_04",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 1113,
+        "y": 262,
+        "w": 98,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 22,
+        "h": 53
+      },
+      "sha256": "f0509645da6cca5e769118fb7abda93d5a63bd917fbbde02fcd3575c5713e868"
+    },
+    {
+      "name": "open_door_west_05",
+      "source": "../../sources/02-roman-open_door.png",
+      "sourceBounds": {
+        "x": 1353,
+        "y": 262,
+        "w": 85,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 122.5,
+        "y": 240
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 19,
+        "h": 53
+      },
+      "sha256": "bc0acefa22b4218011c60b800f3f28099daf466fa305d5bb801c7f01bcd4a2d7"
+    },
+    {
+      "name": "eat_west_00",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 96,
+        "y": 262,
+        "w": 88,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "004f4dbca17a195f3a11ce426c879e51b8a40873c168edf50cc313266b73dce6"
+    },
+    {
+      "name": "eat_west_01",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 346,
+        "y": 262,
+        "w": 89,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "da6158027f2627d0ed5060a70b9c48511b248d28a2351cd81efea4d3b2fadfd4"
+    },
+    {
+      "name": "eat_west_02",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 597,
+        "y": 262,
+        "w": 90,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "389437d4c98466d38450608708eb7cdd66c75a45ef12d7b55404117aef9b52a2"
+    },
+    {
+      "name": "eat_west_03",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 847,
+        "y": 262,
+        "w": 91,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "537ac6db15942e6eb602c6506b0718369d9a2faac382cfda517d00ac73945f1f"
+    },
+    {
+      "name": "eat_west_04",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 1100,
+        "y": 262,
+        "w": 89,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "1332043722023f543ee36ef03303d1aa0505839f1791d0d7310955ac832eb980"
+    },
+    {
+      "name": "eat_west_05",
+      "source": "../../sources/02-roman-eat.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 262,
+        "w": 88,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "62205de410e6b849a5ddeef47b6d9945d0c7fb6412794f8d6e0c409730e63fa4"
+    },
+    {
+      "name": "drink_west_00",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 260,
+        "w": 87,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 43,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "e33cc4e717541cb347be5d3007fb7a99bc54dd18d4dd528802c9a4de6a1b657c"
+    },
+    {
+      "name": "drink_west_01",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 260,
+        "w": 103,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "a928d0c3bd62584acbe31340e612bbd126a51660f7a4cacc12b88f66a823e62a"
+    },
+    {
+      "name": "drink_west_02",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 587,
+        "y": 260,
+        "w": 101,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "8de166a949529580a4befa643feeb0b979354ea48e9cc4fe9d7525c93aa34ca3"
+    },
+    {
+      "name": "drink_west_03",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 260,
+        "w": 115,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "0527dac181aefaac9439c298502ba4f1abfccc0a8e09aeb85ec37ddad5cc5c25"
+    },
+    {
+      "name": "drink_west_04",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 1087,
+        "y": 260,
+        "w": 104,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "3486bbec6e829c0b284fc6d2cbfac76c54688f368b7aad4fcef7909d872212d6"
+    },
+    {
+      "name": "drink_west_05",
+      "source": "../../sources/02-roman-drink.png",
+      "sourceBounds": {
+        "x": 1350,
+        "y": 260,
+        "w": 87,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 248
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "02e25a3b08ba012e203e8187c73bce037fb09ca7969891194ec18529761423b0"
+    },
+    {
+      "name": "bandage_west_00",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 104,
+        "y": 271,
+        "w": 81,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 42,
+        "y": 19,
+        "w": 18,
+        "h": 53
+      },
+      "sha256": "2d76e25cd1e7082de95050c8cecba4682f4d8328e7b35e026228dfa0d592fc1c"
+    },
+    {
+      "name": "bandage_west_01",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 274,
+        "w": 121,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "5e70fcf524998ec31c3e348d7434b46a929057e02506643c6aff3e08d949e0e8"
+    },
+    {
+      "name": "bandage_west_02",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 587,
+        "y": 274,
+        "w": 113,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "4edc7fedd69993246032f486b8eecac732f728afd99b61b2cfda932e72a35447"
+    },
+    {
+      "name": "bandage_west_03",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 849,
+        "y": 273,
+        "w": 104,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 23,
+        "h": 52
+      },
+      "sha256": "dc719f5d999bbeb8e4d559fcbc6fd39a7c16d906b8ed138d256327b9fcd7e255"
+    },
+    {
+      "name": "bandage_west_04",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 274,
+        "w": 113,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "7aa69116a5332c34870b49f4f2cff82a0d3b7bd34a1cad80357c9012f2a11965"
+    },
+    {
+      "name": "bandage_west_05",
+      "source": "../../sources/02-roman-bandage.png",
+      "sourceBounds": {
+        "x": 1353,
+        "y": 270,
+        "w": 79,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 248
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 18,
+        "h": 53
+      },
+      "sha256": "88dffaf17b8b4fcb34078f135330b2d831543ed08e5049d3db9a3ae56062cf5c"
+    },
+    {
+      "name": "heal_ally_west_00",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 64,
+        "y": 282,
+        "w": 163,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 37,
+        "h": 51
+      },
+      "sha256": "0fe6b176950e3f6e3eef96aea09fda7daa38a3292fbe4422c343b46d48632d6f"
+    },
+    {
+      "name": "heal_ally_west_01",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 284,
+        "y": 317,
+        "w": 216,
+        "h": 192
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 23,
+        "y": 29,
+        "w": 49,
+        "h": 43
+      },
+      "sha256": "9d88667d90a56bfc7c00436ff6d94c3c5cc8a52e83d93cb14be535f18476e853"
+    },
+    {
+      "name": "heal_ally_west_02",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 532,
+        "y": 328,
+        "w": 238,
+        "h": 181
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 21,
+        "y": 31,
+        "w": 54,
+        "h": 41
+      },
+      "sha256": "adccf0f4dd09f81df4f9cdc566b97fc85c358cee57bdb6c509cae2fc991f39aa"
+    },
+    {
+      "name": "heal_ally_west_03",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 329,
+        "w": 199,
+        "h": 180
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 28,
+        "y": 32,
+        "w": 45,
+        "h": 41
+      },
+      "sha256": "499a46b1c65352a540ad613d1aed1b351187d898305b43c3ea3b21d008410f35"
+    },
+    {
+      "name": "heal_ally_west_04",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 1063,
+        "y": 320,
+        "w": 190,
+        "h": 190
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 26,
+        "y": 30,
+        "w": 43,
+        "h": 43
+      },
+      "sha256": "0bff0c43be79e227759451e07bd0333fa9444d4d4344ec72b6ba4358b599fc28"
+    },
+    {
+      "name": "heal_ally_west_05",
+      "source": "../../sources/02-roman-heal_ally.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 287,
+        "w": 156,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 29,
+        "y": 22,
+        "w": 35,
+        "h": 50
+      },
+      "sha256": "1c22dfe6ce50bb35ae501cf0140feb8444116ceca9f5aa008912d97c2602adc9"
+    },
+    {
+      "name": "craft_west_00",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 268,
+        "w": 150,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 34,
+        "h": 55
+      },
+      "sha256": "a9f0801d57bf51f92a3c75a194bc2b7f9a1ad070bbcc5bb67b4d867e62828fc6"
+    },
+    {
+      "name": "craft_west_01",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 268,
+        "w": 131,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "ca75c9818f44abb0ee6556883d5da84bb40c27d28f5fbf46363feaeaf2cba8ba"
+    },
+    {
+      "name": "craft_west_02",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 268,
+        "w": 124,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "755b2629a4f233c96eb0ba20498cb232d3778210b741b8747329b71feb7b7e6e"
+    },
+    {
+      "name": "craft_west_03",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 268,
+        "w": 121,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "1ca511d58ac6c4a187e18e2c32a30d74f274daa97a8e39ac9a80dad4de0ecf43"
+    },
+    {
+      "name": "craft_west_04",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 263,
+        "w": 125,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "6c7cb7500278aa469653a183e14860cdbae1511e970f3672bdbca5339d5516da"
+    },
+    {
+      "name": "craft_west_05",
+      "source": "../../sources/02-roman-craft.png",
+      "sourceBounds": {
+        "x": 1320,
+        "y": 268,
+        "w": 144,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 26,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "f1ced4d1e7f1d672fab9179b9f8d90dff11a2ee682c1edf167889569671b9109"
+    },
+    {
+      "name": "build_west_00",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 86,
+        "y": 260,
+        "w": 143,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 32,
+        "h": 56
+      },
+      "sha256": "d089f8cc69ee7272d13ef2a16d142663b7212ab42013bd09b42a14c9f4b0808b"
+    },
+    {
+      "name": "build_west_01",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 346,
+        "y": 260,
+        "w": 140,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 32,
+        "h": 56
+      },
+      "sha256": "dcf4d34be4f5c70e6596346b4709e970eaa256c25e696c6fcf2c782fd26917f1"
+    },
+    {
+      "name": "build_west_02",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 278,
+        "w": 141,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 32,
+        "h": 52
+      },
+      "sha256": "cccaf5a5629392d24ee8162a046ca605f2dbb01ec2cb3cfef3408eadbb287e2d"
+    },
+    {
+      "name": "build_west_03",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 821,
+        "y": 262,
+        "w": 147,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 27,
+        "y": 16,
+        "w": 33,
+        "h": 56
+      },
+      "sha256": "e9c3e5d74eb64f329297a1ec22502b9f1909899c64f89359f5cd5db37cca69c1"
+    },
+    {
+      "name": "build_west_04",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 281,
+        "w": 144,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 26,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "817128dafb32af4ddac40013a39f1014ddaff115af36a1170059fce5151f1861"
+    },
+    {
+      "name": "build_west_05",
+      "source": "../../sources/02-roman-build.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 260,
+        "w": 142,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 146,
+        "y": 252
+      },
+      "destination": {
+        "x": 25,
+        "y": 16,
+        "w": 32,
+        "h": 56
+      },
+      "sha256": "4f5607e03f3f86cb2c0ea69a65d82b653f64233a12d654f15a1197c209aca37d"
+    },
+    {
+      "name": "repair_west_00",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 63,
+        "y": 263,
+        "w": 164,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 37,
+        "h": 55
+      },
+      "sha256": "0c77d9180e1282595f2f3866a97054963bc82d6864aaa2f0483949bf77c99fa9"
+    },
+    {
+      "name": "repair_west_01",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 316,
+        "y": 263,
+        "w": 164,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 37,
+        "h": 55
+      },
+      "sha256": "353ce0c7c617912284f99206fc92997675dc103dc82ebfeb4ebf31a9c8f40d5b"
+    },
+    {
+      "name": "repair_west_02",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 263,
+        "w": 165,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 37,
+        "h": 55
+      },
+      "sha256": "a96851133cd1ba2cd4fc293b8a822deeec179f0fa8a05fc56fee23ebce22dea2"
+    },
+    {
+      "name": "repair_west_03",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 828,
+        "y": 265,
+        "w": 158,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 36,
+        "h": 54
+      },
+      "sha256": "ebda951998918286bbff0a3cd5d8103a8a451a05fef267961f02beb92572167c"
+    },
+    {
+      "name": "repair_west_04",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 264,
+        "w": 160,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 36,
+        "h": 54
+      },
+      "sha256": "b931c1269f1895661168b87d0feb117c01974a55063d9163659892cce9e140ad"
+    },
+    {
+      "name": "repair_west_05",
+      "source": "../../sources/02-roman-repair.png",
+      "sourceBounds": {
+        "x": 1322,
+        "y": 264,
+        "w": 166,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 26,
+        "y": 18,
+        "w": 37,
+        "h": 54
+      },
+      "sha256": "40bd2021fd5bcca96102775f4759715310ff70391221ba52d588325e5c82d323"
+    },
+    {
+      "name": "chop_west_00",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 80,
+        "y": 271,
+        "w": 125,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "43c1f4596d838d63bf46f8eb468b92a2646308238af20a510ca1e007646004b9"
+    },
+    {
+      "name": "chop_west_01",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 343,
+        "y": 273,
+        "w": 138,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 38,
+        "y": 20,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "6a44e3ff6e17678063e81954824c2922f80f9860048875701e702537474039d9"
+    },
+    {
+      "name": "chop_west_02",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 576,
+        "y": 260,
+        "w": 136,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "4a6406ba950ed7ac4ef765014d8de9b2b8cd136b0c9bde50c23d7186ff968909"
+    },
+    {
+      "name": "chop_west_03",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 297,
+        "w": 150,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 25,
+        "w": 34,
+        "h": 47
+      },
+      "sha256": "dea999323cc8b534915c4b4246a75ea7daf6c625926cc03d3725652ecc461494"
+    },
+    {
+      "name": "chop_west_04",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 1076,
+        "y": 307,
+        "w": 153,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 28,
+        "w": 35,
+        "h": 45
+      },
+      "sha256": "38844896d25f87d0818d289fdcb8b671096566ce8b1f3835656acea938c95e5b"
+    },
+    {
+      "name": "chop_west_05",
+      "source": "../../sources/02-roman-chop.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 270,
+        "w": 128,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "e6ce4581a92dbca1bea6ebb29927589303c69ebcc559a43cecafe89aba0a82fa"
+    },
+    {
+      "name": "mine_west_00",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 282,
+        "w": 95,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 22,
+        "w": 21,
+        "h": 51
+      },
+      "sha256": "ee30530b42227800c19bda73343170b401cf7f94c978505c3cfa5eb987af5b48"
+    },
+    {
+      "name": "mine_west_01",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 336,
+        "y": 283,
+        "w": 107,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 36,
+        "y": 22,
+        "w": 24,
+        "h": 50
+      },
+      "sha256": "2d9240f9a0b7353e36494f4543a94c7dd9af0b213193afe58186f6484e96163d"
+    },
+    {
+      "name": "mine_west_02",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 585,
+        "y": 261,
+        "w": 118,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "978f5269840f371cd40ab5407840cd7dacc15ba9822788a9ab670afb30f93860"
+    },
+    {
+      "name": "mine_west_03",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 307,
+        "w": 148,
+        "h": 199
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 27,
+        "w": 33,
+        "h": 45
+      },
+      "sha256": "ec38b7db0db17124860503408b76b5252aafa6bd4c6591136a9b4c1f40128347"
+    },
+    {
+      "name": "mine_west_04",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 1096,
+        "y": 323,
+        "w": 144,
+        "h": 183
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 31,
+        "w": 32,
+        "h": 41
+      },
+      "sha256": "f35decaa2b1b156fe19e03cc281a4bec6f832f3afd3ba85266c57d6cb66e2b90"
+    },
+    {
+      "name": "mine_west_05",
+      "source": "../../sources/02-roman-mine.png",
+      "sourceBounds": {
+        "x": 1354,
+        "y": 281,
+        "w": 96,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 22,
+        "h": 51
+      },
+      "sha256": "66c5513683271096b7575e219f1fc1130db1a8571eb9c9845c91ab7a9d12c95c"
+    },
+    {
+      "name": "punch_west_00",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 76,
+        "y": 270,
+        "w": 143,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "bc8d9bd4f0258850303cac086638792007c8d3f81d0a9722bf2e07049ea893f0"
+    },
+    {
+      "name": "punch_west_01",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 270,
+        "w": 158,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "65ab76a2ae92decb5a86bb2a7f1f3525b8a11b00499214036f8d742dd3c46c45"
+    },
+    {
+      "name": "punch_west_02",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 570,
+        "y": 270,
+        "w": 171,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 39,
+        "h": 53
+      },
+      "sha256": "e8014af2be44247eb8c5cc87bfde20a5de07c0025f437e59136a2502ed90864f"
+    },
+    {
+      "name": "punch_west_03",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 810,
+        "y": 270,
+        "w": 195,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 25,
+        "y": 19,
+        "w": 44,
+        "h": 53
+      },
+      "sha256": "8a3cc38f75d9de5f3c786a9055efa1434d7aea57c139101c92d12fa6e3d88dbd"
+    },
+    {
+      "name": "punch_west_04",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 1098,
+        "y": 270,
+        "w": 152,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 34,
+        "h": 53
+      },
+      "sha256": "08fcab04693bcce37911e26b6822fec452c1944b6ad5f4afcaa93142c0441160"
+    },
+    {
+      "name": "punch_west_05",
+      "source": "../../sources/02-roman-punch.png",
+      "sourceBounds": {
+        "x": 1324,
+        "y": 270,
+        "w": 144,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 249
+      },
+      "destination": {
+        "x": 26,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "4fc417616e0b94975b3a1ce1a5a550b0e5283ce02d1f57bf4d29911578c677e8"
+    },
+    {
+      "name": "one_hand_strike_west_00",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 79,
+        "y": 269,
+        "w": 131,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 30,
+        "h": 52
+      },
+      "sha256": "ce53ef8fcda3950e6eac24fce65c0acb75c5041ea5a820090d74b3679351a1e1"
+    },
+    {
+      "name": "one_hand_strike_west_01",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 330,
+        "y": 269,
+        "w": 131,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 30,
+        "h": 52
+      },
+      "sha256": "e243da8e037e4c6d8c34251399c55d69e25f949d97cf22d0de1c27dafad7a91b"
+    },
+    {
+      "name": "one_hand_strike_west_02",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 271,
+        "w": 164,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 37,
+        "h": 52
+      },
+      "sha256": "959f343c8eb82ce0c7573f5ff5625fca18970701fbd252a73ac60447c6495833"
+    },
+    {
+      "name": "one_hand_strike_west_03",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 783,
+        "y": 268,
+        "w": 197,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 20,
+        "y": 20,
+        "w": 44,
+        "h": 52
+      },
+      "sha256": "57cf94abc3e93a5341782fca5105ea14b9a41fd498ea79f6cce4c34cf1d81123"
+    },
+    {
+      "name": "one_hand_strike_west_04",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 270,
+        "w": 157,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 20,
+        "w": 35,
+        "h": 52
+      },
+      "sha256": "07046adedd0891f94fb2d74fa6a9e78ac7b7c390292fc2c3ebb8fdabd0d16f5f"
+    },
+    {
+      "name": "one_hand_strike_west_05",
+      "source": "../../sources/02-roman-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1343,
+        "y": 268,
+        "w": 127,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 29,
+        "h": 52
+      },
+      "sha256": "025c436ed5233907f0e6faac45714101fb2567c6c2c0fe1fda4dff06b5ef9aed"
+    },
+    {
+      "name": "two_hand_strike_west_00",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 268,
+        "w": 137,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "a9950d094a2bfbdc7a80b6a9b28f03478e3568ef8bf2e13b572564b89b252dfb"
+    },
+    {
+      "name": "two_hand_strike_west_01",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 269,
+        "w": 147,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "8ccb497baa38505f9d3ab84be6733e0bcf4bb2026e63e4602a06e372d7696e46"
+    },
+    {
+      "name": "two_hand_strike_west_02",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 575,
+        "y": 256,
+        "w": 158,
+        "h": 252
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 15,
+        "w": 36,
+        "h": 57
+      },
+      "sha256": "2cfd21468ca0389130b15123a9a7ecc8d449444f1fc1cbbd607486f4ecf5b400"
+    },
+    {
+      "name": "two_hand_strike_west_03",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 815,
+        "y": 294,
+        "w": 179,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 27,
+        "y": 24,
+        "w": 40,
+        "h": 48
+      },
+      "sha256": "c5f3de263e29238523997cd455e9b9fe5678097220c5a72d9ad320d9025e6604"
+    },
+    {
+      "name": "two_hand_strike_west_04",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1070,
+        "y": 287,
+        "w": 179,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 27,
+        "y": 22,
+        "w": 40,
+        "h": 50
+      },
+      "sha256": "4068b8ae5dfede18f80767d5a9d6f8ffecae2525a56908723289073a49a9c054"
+    },
+    {
+      "name": "two_hand_strike_west_05",
+      "source": "../../sources/02-roman-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 268,
+        "w": 140,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "b3645be4f7514ba5995968809ae6477a5e5a7b88f14aea87538300f56376aec1"
+    },
+    {
+      "name": "shove_west_00",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 81,
+        "y": 264,
+        "w": 123,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "5b5565e8ee1b53dbf31b891231d650724241b253fae2b4633f7c962072aa204d"
+    },
+    {
+      "name": "shove_west_01",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 327,
+        "y": 265,
+        "w": 140,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "33e57b19ffb5bdf22bd210c2f1883f11b144c3afa9cfaa8254a2be3d3527aef1"
+    },
+    {
+      "name": "shove_west_02",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 560,
+        "y": 265,
+        "w": 166,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 37,
+        "h": 55
+      },
+      "sha256": "dbd2f5a51c269ec3b352c6414f08d8b80b3c2844828d385579e7a4cad3b40c19"
+    },
+    {
+      "name": "shove_west_03",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 265,
+        "w": 175,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 39,
+        "h": 55
+      },
+      "sha256": "a62ddf13d3386b92a2f30def2efd4265883b0897d12f7993600193bad6b8066a"
+    },
+    {
+      "name": "shove_west_04",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 1082,
+        "y": 265,
+        "w": 154,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 35,
+        "h": 55
+      },
+      "sha256": "15875ab8ffc78232b2fc2bded3eaeb4b871ff104254f9a6bfc86b1e70d2ff16d"
+    },
+    {
+      "name": "shove_west_05",
+      "source": "../../sources/02-roman-shove.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 264,
+        "w": 125,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 251
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "dd920c33786dca9025f8c4cd41ca5bad9dac76bb74c42f34475deb1250b4deaa"
+    },
+    {
+      "name": "pistol_hold_west_00",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 91,
+        "y": 264,
+        "w": 116,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "2426ea647f34748650811d4c12b5b123d6443edc1ab1925167dc9fcec1ab171f"
+    },
+    {
+      "name": "pistol_hold_west_01",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 264,
+        "w": 118,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "a7b8a528189c5a2b73c799ca4398234b106a1daa91c2542cbdc7271c87a4f534"
+    },
+    {
+      "name": "pistol_hold_west_02",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 273,
+        "w": 119,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "34af3f8158c8f1f523b92067ac9317c273baed2c7a7d52d9803430db887f01fc"
+    },
+    {
+      "name": "pistol_hold_west_03",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 264,
+        "w": 118,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "9fa5cf86722d13ee46230dfc7c10eaaf8f1b8858c8546062e5b9b3527c1366e3"
+    },
+    {
+      "name": "pistol_hold_west_04",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 263,
+        "w": 116,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "e86a752d5d394df2ae6c08e30ed593eec6f5ff1ea978074c40a6ffbad83886de"
+    },
+    {
+      "name": "pistol_hold_west_05",
+      "source": "../../sources/02-roman-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 264,
+        "w": 113,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 247
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "94c7624bf19b8c3f75d61303d1109405e2681c5aac22676fbe2e6b552205b56c"
+    },
+    {
+      "name": "pistol_aim_west_00",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 79,
+        "y": 259,
+        "w": 135,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "f0be4f520cd3241695b976283859d698caa7a7a432db8b0c45ff5e780cebcf29"
+    },
+    {
+      "name": "pistol_aim_west_01",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 311,
+        "y": 262,
+        "w": 161,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 36,
+        "h": 55
+      },
+      "sha256": "8d9b7c05737d86fcb9e800adbacab9187675864180dc6edfe938692e3185b9d8"
+    },
+    {
+      "name": "pistol_aim_west_02",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 554,
+        "y": 262,
+        "w": 179,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 40,
+        "h": 55
+      },
+      "sha256": "06b4535b1711fe7c98cc6e8fab3fd96dcd5d2853af90d3e50fc67743f221ea1e"
+    },
+    {
+      "name": "pistol_aim_west_03",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 812,
+        "y": 262,
+        "w": 185,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 42,
+        "h": 55
+      },
+      "sha256": "213d7687422232898aa57a50ec05bc883150c0144d69e3658661fee7928133b8"
+    },
+    {
+      "name": "pistol_aim_west_04",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 262,
+        "w": 173,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 39,
+        "h": 55
+      },
+      "sha256": "40c4cc4f5707d238035e8dda09743933b328b2f0b872faf8aa1c5db939b061e6"
+    },
+    {
+      "name": "pistol_aim_west_05",
+      "source": "../../sources/02-roman-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 262,
+        "w": 137,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "f0bfae0f34946bca3d6c3070a0cc5969a08de25c85f5d321499b531c4159e0ce"
+    },
+    {
+      "name": "pistol_fire_west_00",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 60,
+        "y": 267,
+        "w": 168,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 38,
+        "h": 54
+      },
+      "sha256": "fbff792cac834e0ff844df2e1049be958173100eebd7a82545809fdafa148f20"
+    },
+    {
+      "name": "pistol_fire_west_01",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 271,
+        "w": 159,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "fe9d725d7f04990ee79fda25559b1abac65c470e46d6216930488f2c600202ee"
+    },
+    {
+      "name": "pistol_fire_west_02",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 263,
+        "w": 137,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "1e6109508b4c2367a9ae7e31dc181a2c00b6ff8784245a5ab943817e35fd1c40"
+    },
+    {
+      "name": "pistol_fire_west_03",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 826,
+        "y": 271,
+        "w": 154,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "35a957a0135d0ac55946653050648d47f6ef31a58777eb8eef62a5941bef6acf"
+    },
+    {
+      "name": "pistol_fire_west_04",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 274,
+        "w": 153,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "6436bd1f9be05167bf9b19bdc41dfa3cc73adc609a7776761ce94f04247b9478"
+    },
+    {
+      "name": "pistol_fire_west_05",
+      "source": "../../sources/02-roman-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1314,
+        "y": 267,
+        "w": 162,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 251
+      },
+      "destination": {
+        "x": 25,
+        "y": 18,
+        "w": 37,
+        "h": 54
+      },
+      "sha256": "7b325ccf81f693d580ec5d99c58abd71b56b22682ab135d0761f6f64eb0f90ba"
+    },
+    {
+      "name": "pistol_reload_west_00",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 78,
+        "y": 261,
+        "w": 131,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "3008bda2c8a188ae6010d6cac1f270f0892e19ecebb404eacb1f0344995bad37"
+    },
+    {
+      "name": "pistol_reload_west_01",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 335,
+        "y": 260,
+        "w": 131,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "0293561e3503445069aa69ea93bb997a5d5fd997332cf83d954f0223c8c1730a"
+    },
+    {
+      "name": "pistol_reload_west_02",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 581,
+        "y": 261,
+        "w": 136,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "9e65af9a6b8bd64946f52611cdf1b58c53256e04ef2ed6fa61a55abcf611ead6"
+    },
+    {
+      "name": "pistol_reload_west_03",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 835,
+        "y": 261,
+        "w": 140,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "a11bed1ffed1a860102835c7a49626ff56b510d8ab82d1a75893ae77f5c92af5"
+    },
+    {
+      "name": "pistol_reload_west_04",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 261,
+        "w": 155,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 35,
+        "h": 55
+      },
+      "sha256": "4d4f411d3f4914e684cbd42564580eca7f430307fab203cc6d3b179c20c24270"
+    },
+    {
+      "name": "pistol_reload_west_05",
+      "source": "../../sources/02-roman-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1313,
+        "y": 261,
+        "w": 169,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 136.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 25,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "b935017277b95fd889e2ffb39d00f0b0edaabaae2aa774e57c4ab662a81987ba"
+    },
+    {
+      "name": "longgun_hold_west_00",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 263,
+        "w": 102,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "44cf281cb6f055806a675d719bc81e779e084830e794a4ad8265458e4c6ab067"
+    },
+    {
+      "name": "longgun_hold_west_01",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 264,
+        "w": 104,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "6987cb8a061e154cb31f72860448e5ecf40b782a44b653421faf24ba0832f0da"
+    },
+    {
+      "name": "longgun_hold_west_02",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 263,
+        "w": 106,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "78a62b05b457384fc34e0049eac5099fb536dd47d232ac53c7d01b58dd842b40"
+    },
+    {
+      "name": "longgun_hold_west_03",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 263,
+        "w": 106,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "0cbe2690ace236f8d54786ef761bb634d337a91b805172445710f370aefb2d03"
+    },
+    {
+      "name": "longgun_hold_west_04",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1088,
+        "y": 264,
+        "w": 109,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "77b311daa7569ed578662f045b0703157ed938080e7d96fd24b6e86db93a2b06"
+    },
+    {
+      "name": "longgun_hold_west_05",
+      "source": "../../sources/02-roman-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1339,
+        "y": 263,
+        "w": 102,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "0afbc87102cbf10dab3582d91f96b38f01065e07133e79c0f92259fc92490829"
+    },
+    {
+      "name": "longgun_aim_west_00",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 44,
+        "y": 275,
+        "w": 159,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "957dce458e736d4215136d91481d3c1aaa8e874cb001a058c5b04a618fb39254"
+    },
+    {
+      "name": "longgun_aim_west_01",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 286,
+        "y": 286,
+        "w": 171,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 39,
+        "h": 51
+      },
+      "sha256": "96eb5036af3ef2ad40d91e9322bdcac3cae6463ec05080c7f176e498e75bd0c6"
+    },
+    {
+      "name": "longgun_aim_west_02",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 542,
+        "y": 291,
+        "w": 169,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 23,
+        "w": 38,
+        "h": 50
+      },
+      "sha256": "41ab81a8a2005c4f25b1b0881d7bfa1fb04c2d5c8046559351367e90500966d1"
+    },
+    {
+      "name": "longgun_aim_west_03",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 810,
+        "y": 277,
+        "w": 160,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 36,
+        "h": 52
+      },
+      "sha256": "d000285630cd1225252253cf03ef02d5f72d7dd399fec6373977825caf6cfe15"
+    },
+    {
+      "name": "longgun_aim_west_04",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1055,
+        "y": 288,
+        "w": 171,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 22,
+        "w": 39,
+        "h": 50
+      },
+      "sha256": "c37795f191400fcc93c6a246dd26c7e4c29fe3b5bb91eeb233183bf4a9d4f069"
+    },
+    {
+      "name": "longgun_aim_west_05",
+      "source": "../../sources/02-roman-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1313,
+        "y": 275,
+        "w": 159,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "7b11b924a0903a54fb360a7a84a6304207c6a05ada2bd7e2ca7650e337eaede6"
+    },
+    {
+      "name": "longgun_fire_west_00",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 57,
+        "y": 264,
+        "w": 167,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 38,
+        "h": 54
+      },
+      "sha256": "b105af284d2110435a5203101cc32901c9748ba2288305c1a973358a84d09c4a"
+    },
+    {
+      "name": "longgun_fire_west_01",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 310,
+        "y": 264,
+        "w": 166,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 37,
+        "h": 54
+      },
+      "sha256": "74a971b522a589c352cbeff388aee5e587e8b8b516d82c06e3d0a74a9e7bc8ac"
+    },
+    {
+      "name": "longgun_fire_west_02",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 569,
+        "y": 261,
+        "w": 147,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 33,
+        "h": 55
+      },
+      "sha256": "a9253a363dbcb07bdb138acdd5e925eaee322cc81648dd61fe301d8f5c6b079a"
+    },
+    {
+      "name": "longgun_fire_west_03",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 797,
+        "y": 267,
+        "w": 174,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 25,
+        "y": 19,
+        "w": 39,
+        "h": 54
+      },
+      "sha256": "ade1484687bc8ffee969fd00345b9af5b5c2d3a6b99986717a086927ea04bd52"
+    },
+    {
+      "name": "longgun_fire_west_04",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1061,
+        "y": 264,
+        "w": 167,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 38,
+        "h": 54
+      },
+      "sha256": "508a795deb550d128bd04c1b8dcad85baeeffdf1a38fd5fcb1e73f724f1bbcf2"
+    },
+    {
+      "name": "longgun_fire_west_05",
+      "source": "../../sources/02-roman-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1302,
+        "y": 264,
+        "w": 169,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 248
+      },
+      "destination": {
+        "x": 24,
+        "y": 18,
+        "w": 38,
+        "h": 54
+      },
+      "sha256": "aea77b073ad298dd0187ee340ec5273d1b184b81d899dd87b3fb9b2d46aea9ae"
+    },
+    {
+      "name": "longgun_reload_west_00",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 73,
+        "y": 261,
+        "w": 122,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "35452d78a3a7f252c8b73846061c59a4f7df7d062cc99179e919d36922decdfe"
+    },
+    {
+      "name": "longgun_reload_west_01",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 261,
+        "w": 102,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "927616cf2369bf7d8910e295152a32d21d394e200b5812c70256550715f8e6c3"
+    },
+    {
+      "name": "longgun_reload_west_02",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 263,
+        "w": 101,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "725e45ee74d8bdf70c50808fba0f5a5ba6a56b9315a708fae429544ef7ebc280"
+    },
+    {
+      "name": "longgun_reload_west_03",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 262,
+        "w": 111,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "0381e2ddde1d1132f1a82949b4254d7d7e27c551c17a4825cb847a100050d923"
+    },
+    {
+      "name": "longgun_reload_west_04",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 261,
+        "w": 112,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "8fbe5c9d9c91240a255a5862dcb0a18cc5303840060e3b8503d5a0f0d9010fdc"
+    },
+    {
+      "name": "longgun_reload_west_05",
+      "source": "../../sources/02-roman-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1323,
+        "y": 261,
+        "w": 120,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 247
+      },
+      "destination": {
+        "x": 29,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "334653f69a4797775c85bc597812bc7275149d3b7e6e45b4fcaffdd04a9ac7e1"
+    },
+    {
+      "name": "throw_west_00",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 107,
+        "y": 274,
+        "w": 88,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 41,
+        "y": 21,
+        "w": 20,
+        "h": 51
+      },
+      "sha256": "6ecc8bcc4a264d152c8afe2d5d44397c7f9239ef8ed3c5a89a6fd7533df80851"
+    },
+    {
+      "name": "throw_west_01",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 331,
+        "y": 273,
+        "w": 142,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "3e9f1a5020c9d4be256125efd8467a0be148e3525efd574dcead5b3b1d84a857"
+    },
+    {
+      "name": "throw_west_02",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 556,
+        "y": 274,
+        "w": 164,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 27,
+        "y": 21,
+        "w": 37,
+        "h": 51
+      },
+      "sha256": "a3d5d6b2aace5f41b0344f396aed27cb0b81cc604c371a4fd13caf45b948f8ee"
+    },
+    {
+      "name": "throw_west_03",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 792,
+        "y": 278,
+        "w": 199,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 22,
+        "y": 22,
+        "w": 45,
+        "h": 49
+      },
+      "sha256": "3c544567a00038545d4bedd3ff3970d77881a70c38e8a3d90c65f5608679d85a"
+    },
+    {
+      "name": "throw_west_04",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 298,
+        "w": 172,
+        "h": 197
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 27,
+        "w": 39,
+        "h": 44
+      },
+      "sha256": "3510f9cf57e46b82ff3bf48f4c3f39cb639ed1897edbe7e7e0e0e26665840da1"
+    },
+    {
+      "name": "throw_west_05",
+      "source": "../../sources/02-roman-throw.png",
+      "sourceBounds": {
+        "x": 1359,
+        "y": 274,
+        "w": 90,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 20,
+        "h": 51
+      },
+      "sha256": "f44d041631c624743dff2c0f37255ca3de791c19a2f7e695c5f425efc3378253"
+    },
+    {
+      "name": "hurt_west_00",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 127,
+        "y": 263,
+        "w": 95,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 44,
+        "y": 17,
+        "w": 21,
+        "h": 56
+      },
+      "sha256": "07d942da8d35227922cea8b61a482bbcda1dfbe5130cb58d7ce0f048b1d6373f"
+    },
+    {
+      "name": "hurt_west_01",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 365,
+        "y": 263,
+        "w": 107,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "d049edc1a781b79f025bf37c59248ff1e712cdacf58a74b1c9bf9795ebb91a11"
+    },
+    {
+      "name": "hurt_west_02",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 278,
+        "w": 119,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "160a6ac74868e309bfe8d6a68b24fbeba07b78d746d851df9318d60a68161fb7"
+    },
+    {
+      "name": "hurt_west_03",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 269,
+        "w": 126,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "48a1e9eb13f006a8fc6e069c718801001c301c5d36e9edf07dadf38f6640239a"
+    },
+    {
+      "name": "hurt_west_04",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 1089,
+        "y": 263,
+        "w": 104,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "d5531f3170125a0f5ea7055dd95b0ddec26d5d6f1d7eee8b484f06c485220f94"
+    },
+    {
+      "name": "hurt_west_05",
+      "source": "../../sources/02-roman-hurt.png",
+      "sourceBounds": {
+        "x": 1313,
+        "y": 263,
+        "w": 94,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 251
+      },
+      "destination": {
+        "x": 23,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "3bc6116c05ae06f10ab0b39db5f00e92184e67a9d9b414ea18a7054c157f5d61"
+    },
+    {
+      "name": "stunned_west_00",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 121,
+        "y": 262,
+        "w": 97,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 45,
+        "y": 18,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "82a5be1cdcb303c56804dd3b3913b198a443fad07feababf9b9adad38baf1b99"
+    },
+    {
+      "name": "stunned_west_01",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 346,
+        "y": 273,
+        "w": 114,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 38,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "14b0063022945f8eadd53fc0b8d65f1124d3923a64dc5f4760cc30118341bfaf"
+    },
+    {
+      "name": "stunned_west_02",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 581,
+        "y": 272,
+        "w": 128,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 29,
+        "h": 52
+      },
+      "sha256": "35cccd353d7c04998190064b34d6679e8555bee0db9029923f299ee43ecc4d18"
+    },
+    {
+      "name": "stunned_west_03",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 825,
+        "y": 283,
+        "w": 127,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 31,
+        "y": 22,
+        "w": 29,
+        "h": 50
+      },
+      "sha256": "1173412d89d3534b184da3e76c8ba500c040a60fbf6382c1d8dda3c8eb56ec5b"
+    },
+    {
+      "name": "stunned_west_04",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 265,
+        "w": 117,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "97d0b994ad081ca7b78871a76e9cfac0d62b2e98eaab94c9409781102432df4b"
+    },
+    {
+      "name": "stunned_west_05",
+      "source": "../../sources/02-roman-stunned.png",
+      "sourceBounds": {
+        "x": 1310,
+        "y": 262,
+        "w": 98,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 25,
+        "y": 18,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "3bf7853d90a0451deb390dfded29d92741bd02279496d03d5805bf0d0ffa14d6"
+    },
+    {
+      "name": "knockback_west_00",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 93,
+        "y": 264,
+        "w": 89,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "c5f4ff442a71a89627e0e488bc5f6892d155a6791b930255aefc3d3621f26ab2"
+    },
+    {
+      "name": "knockback_west_01",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 304,
+        "y": 270,
+        "w": 196,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 44,
+        "h": 53
+      },
+      "sha256": "2024b87598dafd7d66d16d0498897f8e086331e482813625666f6e84cfe773e7"
+    },
+    {
+      "name": "knockback_west_02",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 551,
+        "y": 267,
+        "w": 219,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 26,
+        "y": 18,
+        "w": 49,
+        "h": 54
+      },
+      "sha256": "316100985c287700400ec383e11184fc9feda8f6393d486f9dab96378779fc4d"
+    },
+    {
+      "name": "knockback_west_03",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 819,
+        "y": 359,
+        "w": 165,
+        "h": 154
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 28,
+        "y": 38,
+        "w": 37,
+        "h": 35
+      },
+      "sha256": "07d6bba5574ad36ba7795671ee325cc2acb3bdb321bcf11f95e91f410eda2f2e"
+    },
+    {
+      "name": "knockback_west_04",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 1081,
+        "y": 311,
+        "w": 163,
+        "h": 196
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 30,
+        "y": 28,
+        "w": 37,
+        "h": 44
+      },
+      "sha256": "5bdb8bf84fdcdc5c0efb191459cfe1c8d3d0cb4827fbb540b9a2adf6e2d128f7"
+    },
+    {
+      "name": "knockback_west_05",
+      "source": "../../sources/02-roman-knockback.png",
+      "sourceBounds": {
+        "x": 1350,
+        "y": 264,
+        "w": 91,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 252
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "e2697f9e0e281417fc3385b38437ae12daee9481ae88f250f3b3bc04aff6d022"
+    },
+    {
+      "name": "death_west_00",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 103,
+        "y": 270,
+        "w": 79,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 18,
+        "h": 53
+      },
+      "sha256": "f8acdbb2396d906e446c85eae51e7995c7765650ba4b7414bd359f1c19dcd415"
+    },
+    {
+      "name": "death_west_01",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 279,
+        "w": 150,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 34,
+        "h": 50
+      },
+      "sha256": "d9069ea026e2a6a6bce23e384af10ad775cf950b300102810784748b9d7727f8"
+    },
+    {
+      "name": "death_west_02",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 551,
+        "y": 315,
+        "w": 138,
+        "h": 191
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 25,
+        "y": 29,
+        "w": 31,
+        "h": 43
+      },
+      "sha256": "41063391173377bce228ea07859b945457dab7d6438d8276a13fef79bf548198"
+    },
+    {
+      "name": "death_west_03",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 756,
+        "y": 354,
+        "w": 204,
+        "h": 145
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 13,
+        "y": 38,
+        "w": 46,
+        "h": 33
+      },
+      "sha256": "e55f1284581db19a6b6436736fc63873d69076050277c8bee249be3a1b91c12d"
+    },
+    {
+      "name": "death_west_04",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 983,
+        "y": 407,
+        "w": 246,
+        "h": 85
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 7,
+        "y": 50,
+        "w": 56,
+        "h": 19
+      },
+      "sha256": "583137f08cab1c07e8de7a4a22d19a54f01d2ed51abc45704c7552bfae9d35c4"
+    },
+    {
+      "name": "death_west_05",
+      "source": "../../sources/02-roman-death.png",
+      "sourceBounds": {
+        "x": 1248,
+        "y": 417,
+        "w": 258,
+        "h": 75
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 249
+      },
+      "destination": {
+        "x": 9,
+        "y": 52,
+        "w": 58,
+        "h": 17
+      },
+      "sha256": "bf1193d1c8767c3706f990f14b789ef4b7489a67ebe6dfb6a1cfd29cbcd1ea78"
+    }
+  ]
+}

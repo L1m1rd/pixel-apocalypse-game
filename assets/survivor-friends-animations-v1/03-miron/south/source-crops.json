@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.22672064777327935,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_south_00",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 127,
+        "y": 3,
+        "w": 95,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 46,
+        "y": 16,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "4f237b0583771f02b3cfe08a6843cd072e06763980db1de78f80823205f7c665"
+    },
+    {
+      "name": "idle_south_01",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 359,
+        "y": 3,
+        "w": 105,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "b8bb0a3125f9b096097ff9aa461dd34c36990b790790a271c1973295dda05f6d"
+    },
+    {
+      "name": "idle_south_02",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 601,
+        "y": 3,
+        "w": 99,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 16,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "1fc3a7950fe8914954f9e9529348c79bc067f864eb8d9eba6adf97fb58bdeded"
+    },
+    {
+      "name": "idle_south_03",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 3,
+        "w": 99,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "415d278c11d067b704f5758442c4117a616458ce1dd5516ac24e1640ca333fee"
+    },
+    {
+      "name": "idle_south_04",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 1073,
+        "y": 5,
+        "w": 100,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "22068c2c777ce7119769cb5f328fb7a1c74bcff2f1ad94b5340d77e78adbf57c"
+    },
+    {
+      "name": "idle_south_05",
+      "source": "../../sources/03-miron-idle.png",
+      "sourceBounds": {
+        "x": 1319,
+        "y": 3,
+        "w": 96,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 138,
+        "y": 249
+      },
+      "destination": {
+        "x": 26,
+        "y": 16,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "45e6fa8d7ef285d08e9e194119c2b7771641d682d957c711282493a73673c821"
+    },
+    {
+      "name": "walk_south_00",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 107,
+        "y": 15,
+        "w": 104,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 42,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "5fb7969d3994a4bea69ae63f1c6a27e01da889b1046195e6bd702560fa4762db"
+    },
+    {
+      "name": "walk_south_01",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 357,
+        "y": 15,
+        "w": 101,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "8f8ad469899aa068f24f25bf742d07f81adfe703c9e88cc00305be588c7f3b44"
+    },
+    {
+      "name": "walk_south_02",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 595,
+        "y": 15,
+        "w": 105,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "37ea1c5ee28abca9114b24a3a10c0238682911e67208acd6944fc0cbfd1f7ab8"
+    },
+    {
+      "name": "walk_south_03",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 15,
+        "w": 98,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "dc7149b1233c5910c591e50d8a03de50c4671b157a598e8f5e4c69b411b12074"
+    },
+    {
+      "name": "walk_south_04",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 15,
+        "w": 101,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "583770a7228f0886dfc1b485a8e9da327ddecf46c601d74bf34d58e54f71e79e"
+    },
+    {
+      "name": "walk_south_05",
+      "source": "../../sources/03-miron-walk.png",
+      "sourceBounds": {
+        "x": 1324,
+        "y": 15,
+        "w": 103,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 253
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "206165cfac2da36b5d5d5f245deed3454245c401e4729ad130dd2bc9bd8cf25b"
+    },
+    {
+      "name": "run_south_00",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 106,
+        "y": 17,
+        "w": 121,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "7db2b35e96223bf2628cb20177804197db801903cdef953d77dd102d1c5f31c3"
+    },
+    {
+      "name": "run_south_01",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 363,
+        "y": 17,
+        "w": 121,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "d01f2457c42234389039672949b8174d816afeba00eee24c510b1613258bcf0a"
+    },
+    {
+      "name": "run_south_02",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 9,
+        "w": 122,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "6faf831e1cc510395d618d241fd8da6706e7c0dd81f77efc8c330b71f4dfe0bc"
+    },
+    {
+      "name": "run_south_03",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 832,
+        "y": 17,
+        "w": 123,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "27b7804670be2ba899ff0fcca8e652e9a89379e23421570c2c4cfc63a44843a7"
+    },
+    {
+      "name": "run_south_04",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 17,
+        "w": 128,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "93047dbec14f5e320da799cde0e7793266edab5e149b13543b8fad612a58553a"
+    },
+    {
+      "name": "run_south_05",
+      "source": "../../sources/03-miron-run.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 13,
+        "w": 122,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 146.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "c53f66d551e3d2731e41a96dc5a0a67c0bf0885becb6b9614d601ea41ce211e0"
+    },
+    {
+      "name": "crouch_down_south_00",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 92,
+        "y": 18,
+        "w": 104,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "2dffd968cedfe1d5705cb01b9d327882ce56d52c6a7fa91b27e5430ac49847c6"
+    },
+    {
+      "name": "crouch_down_south_01",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 30,
+        "w": 109,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "b9fd2bca033d63d7073e9c905ba3594b1ea68ab5f7747afa806652ee9bb1ec11"
+    },
+    {
+      "name": "crouch_down_south_02",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 58,
+        "w": 113,
+        "h": 199
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 35,
+        "y": 27,
+        "w": 26,
+        "h": 45
+      },
+      "sha256": "c214b4b7adb3cf581ec0080c3beb0086c0ed0a129f8652f9f4c0df352577b222"
+    },
+    {
+      "name": "crouch_down_south_03",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 85,
+        "w": 116,
+        "h": 172
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 33,
+        "y": 33,
+        "w": 26,
+        "h": 39
+      },
+      "sha256": "2c37a278060219ac4d51d6ba6b0b80ca7310014eff9565015522c686bc4c9bfd"
+    },
+    {
+      "name": "crouch_down_south_04",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 1081,
+        "y": 106,
+        "w": 117,
+        "h": 151
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 32,
+        "y": 38,
+        "w": 27,
+        "h": 34
+      },
+      "sha256": "5b67a226bcfa2f42ded5ed5abc6af844034754ad378f0c6b98593fe184e5efdd"
+    },
+    {
+      "name": "crouch_down_south_05",
+      "source": "../../sources/03-miron-crouch_down.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 113,
+        "w": 119,
+        "h": 144
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 256
+      },
+      "destination": {
+        "x": 31,
+        "y": 40,
+        "w": 27,
+        "h": 33
+      },
+      "sha256": "0f51dc3c78fb9b15b3ec3217a756fcdc6469ab028764140bbced97d371bda929"
+    },
+    {
+      "name": "crouch_idle_south_00",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 78,
+        "y": 42,
+        "w": 143,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 36,
+        "y": 24,
+        "w": 32,
+        "h": 48
+      },
+      "sha256": "0d69c04cdeb31781737245879c616c90c5380ff550753988425e954679980621"
+    },
+    {
+      "name": "crouch_idle_south_01",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 314,
+        "y": 43,
+        "w": 157,
+        "h": 211
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 32,
+        "y": 24,
+        "w": 36,
+        "h": 48
+      },
+      "sha256": "1556f617085adb7cd2d4742a4878aad14e40d7082a1e71477ce783727c44762e"
+    },
+    {
+      "name": "crouch_idle_south_02",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 565,
+        "y": 36,
+        "w": 156,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 30,
+        "y": 23,
+        "w": 35,
+        "h": 50
+      },
+      "sha256": "0ebbba9ed1fc2a74bbcc1257251e586a593e6de2b6ade6712257a9d699978a55"
+    },
+    {
+      "name": "crouch_idle_south_03",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 815,
+        "y": 41,
+        "w": 151,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 24,
+        "w": 34,
+        "h": 49
+      },
+      "sha256": "de58bc5e29c14f0c217d7be0cc6817b3ed7da834ef46689b4ecb4d74783750cf"
+    },
+    {
+      "name": "crouch_idle_south_04",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 57,
+        "w": 144,
+        "h": 197
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 30,
+        "y": 27,
+        "w": 33,
+        "h": 45
+      },
+      "sha256": "d19edb29ad4706d2f1e7753aa275b8053cb831e262c18768bc1517e2f8a232ef"
+    },
+    {
+      "name": "crouch_idle_south_05",
+      "source": "../../sources/03-miron-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1320,
+        "y": 33,
+        "w": 143,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 27,
+        "y": 22,
+        "w": 32,
+        "h": 50
+      },
+      "sha256": "116e1c708ddc331cd5d23bb3a5c363c3f909976b270d0408c68fba06acb5be51"
+    },
+    {
+      "name": "crouch_walk_south_00",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 67,
+        "y": 23,
+        "w": 145,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 33,
+        "h": 51
+      },
+      "sha256": "ce270198bb4cbcaa17686fcd3805e4b03b12031ab3ee2ee9fac601a8cfb0862b"
+    },
+    {
+      "name": "crouch_walk_south_01",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 319,
+        "y": 29,
+        "w": 152,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 22,
+        "w": 34,
+        "h": 50
+      },
+      "sha256": "0a51c399b08e2760b0baca42796a754b0775a242133d53abd62cf247f67e59a6"
+    },
+    {
+      "name": "crouch_walk_south_02",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 30,
+        "w": 143,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 22,
+        "w": 32,
+        "h": 50
+      },
+      "sha256": "0fbb82da80c3fad58c85d8fe496364c7c72a7030614cfd5b1ed13718faeafdca"
+    },
+    {
+      "name": "crouch_walk_south_03",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 26,
+        "w": 148,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 34,
+        "h": 51
+      },
+      "sha256": "7d7b61975a3b6ea3570cbef937298515661379c2be82148e09a3dc05cf5d6c66"
+    },
+    {
+      "name": "crouch_walk_south_04",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1069,
+        "y": 30,
+        "w": 155,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 28,
+        "y": 22,
+        "w": 35,
+        "h": 50
+      },
+      "sha256": "e0f16a8a0dd12e4a2a4f3a518ea2b620d88bc33c535e5f14fb98827235641e32"
+    },
+    {
+      "name": "crouch_walk_south_05",
+      "source": "../../sources/03-miron-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1329,
+        "y": 23,
+        "w": 143,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 250
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "d5c8ab5c73beede1f4051cc0d92a4eee6e323fa7ecd3e5b3d2fb315122b83c44"
+    },
+    {
+      "name": "stand_up_south_00",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 111,
+        "w": 113,
+        "h": 135
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 35,
+        "y": 42,
+        "w": 26,
+        "h": 31
+      },
+      "sha256": "78fb47da299b71dff91f08382d6dd029f12936a2ce4a132ca72625493998813c"
+    },
+    {
+      "name": "stand_up_south_01",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 327,
+        "y": 77,
+        "w": 110,
+        "h": 169
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 35,
+        "y": 34,
+        "w": 25,
+        "h": 38
+      },
+      "sha256": "5dffc3d34fd481e30f18ce7b79ff420fc95dbb72fc8063e56b8863f3649b2ec7"
+    },
+    {
+      "name": "stand_up_south_02",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 53,
+        "w": 103,
+        "h": 193
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 36,
+        "y": 28,
+        "w": 23,
+        "h": 44
+      },
+      "sha256": "15338f6b94a5811d226422060488d2e24f24b26f306b003d750326ca3d0225d8"
+    },
+    {
+      "name": "stand_up_south_03",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 848,
+        "y": 38,
+        "w": 103,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 37,
+        "y": 25,
+        "w": 23,
+        "h": 47
+      },
+      "sha256": "88bdcc91a1d6c73037e0fa9cd11cfb90a3aeb3c7d4ff35eb2467a9039730400e"
+    },
+    {
+      "name": "stand_up_south_04",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 1105,
+        "y": 18,
+        "w": 99,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 22,
+        "h": 52
+      },
+      "sha256": "9871fc6eb1c32174d1c193d1af081075bcd48b26a4aceba179264887ccc232e2"
+    },
+    {
+      "name": "stand_up_south_05",
+      "source": "../../sources/03-miron-stand_up.png",
+      "sourceBounds": {
+        "x": 1361,
+        "y": 5,
+        "w": 95,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "70a12e1c597a4efa9b464a41555e87e6c68e32151f3155a9fb1f94c3d1ebbd6f"
+    },
+    {
+      "name": "pickup_south_00",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 16,
+        "w": 104,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "02f1dce5a7cbc3c98be943de854bf6a583ad172c7237fdb3b932e12682899cce"
+    },
+    {
+      "name": "pickup_south_01",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 339,
+        "y": 48,
+        "w": 113,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 39,
+        "y": 25,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "d51bbb09bdd549bbce3dd57cf711ff4d73a5aa5ef1956f98678b841ad283180e"
+    },
+    {
+      "name": "pickup_south_02",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 575,
+        "y": 90,
+        "w": 124,
+        "h": 172
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 34,
+        "w": 28,
+        "h": 39
+      },
+      "sha256": "13d6214c73495d37a38e9e9b56ea2ddb18dfd1ad1ec93e096ef76c76aa546514"
+    },
+    {
+      "name": "pickup_south_03",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 101,
+        "w": 123,
+        "h": 161
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 37,
+        "w": 28,
+        "h": 37
+      },
+      "sha256": "1d02eac7439372251500cc4e9cca09eca8d4e7675e97499f123264eac79c0f91"
+    },
+    {
+      "name": "pickup_south_04",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 43,
+        "w": 117,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "b3510f1bb8188f449c89198571fd5a568b9e4cee0bd57a5c2208e4b712f4fee3"
+    },
+    {
+      "name": "pickup_south_05",
+      "source": "../../sources/03-miron-pickup.png",
+      "sourceBounds": {
+        "x": 1339,
+        "y": 15,
+        "w": 103,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 124.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "042207ed99dacbf4d6505e1b2a08915507a6e349ab9a37badcb443ce33dca8a8"
+    },
+    {
+      "name": "search_south_00",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 20,
+        "w": 114,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "bf0b0432c5bf1aa43698ccc32c66c01d8a9b913cfd6986263090b8b8138dece5"
+    },
+    {
+      "name": "search_south_01",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 41,
+        "w": 116,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 25,
+        "w": 26,
+        "h": 48
+      },
+      "sha256": "004d290738ae8814756da8c95195ec81a37ca025514113ad8fc750943bbaf6ae"
+    },
+    {
+      "name": "search_south_02",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 605,
+        "y": 53,
+        "w": 104,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 37,
+        "y": 27,
+        "w": 24,
+        "h": 45
+      },
+      "sha256": "f9607d0a0957228671ae44187e599443a92c0378cbd7ef8544fb8b08bdacb792"
+    },
+    {
+      "name": "search_south_03",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 832,
+        "y": 13,
+        "w": 114,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "ac6398eb4572cc216a87a372925f76dbeb2a20b7ce0d0ae3ed4a5423d2f497f3"
+    },
+    {
+      "name": "search_south_04",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 41,
+        "w": 128,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 29,
+        "h": 48
+      },
+      "sha256": "f98bb495b22812afdd2bba04ffd9dab78d0f9aa0e4438271d9f03cd2894080ee"
+    },
+    {
+      "name": "search_south_05",
+      "source": "../../sources/03-miron-search.png",
+      "sourceBounds": {
+        "x": 1348,
+        "y": 20,
+        "w": 115,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "d0ff84ea60040ec3385013c709f94fd7e61cf2cbee651e7443c5b29ba61391ed"
+    },
+    {
+      "name": "open_door_south_00",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 122,
+        "y": 3,
+        "w": 95,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 41,
+        "y": 17,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "8abfef9864d02e5dd4f78b1bd4b0283bd11e5313c7880035f64be774c0456e6d"
+    },
+    {
+      "name": "open_door_south_01",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 367,
+        "y": 3,
+        "w": 103,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "c04f821164f1c9f7d666a8752e72d61f9d95164d2879db324dea785be10133fc"
+    },
+    {
+      "name": "open_door_south_02",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 616,
+        "y": 3,
+        "w": 99,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "797c57eee8e4a5d6d94eebb444f69a3c362aabbc3d8f443913d7aa76e8427969"
+    },
+    {
+      "name": "open_door_south_03",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 861,
+        "y": 3,
+        "w": 102,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "1fe857d7bfa8c61bc0a098fee32b8de67d640d5e9cdc335676dc50b61c03b2aa"
+    },
+    {
+      "name": "open_door_south_04",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 1100,
+        "y": 3,
+        "w": 102,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "f4630f8f27317e6d5ea0354270ba5f5ac4bdd113e0db209c5945ad6d93f6df8b"
+    },
+    {
+      "name": "open_door_south_05",
+      "source": "../../sources/03-miron-open_door.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 3,
+        "w": 96,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 246
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "eb968bd99e3ecf706c58e1a6fa91d2066ab7107ff73b48bfe20f9366f81d4271"
+    },
+    {
+      "name": "eat_south_00",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 14,
+        "w": 101,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "138ef60863350301386c3c27a0aaeff3a9ff427a44691058f3042b321ab7ed7e"
+    },
+    {
+      "name": "eat_south_01",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 14,
+        "w": 105,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "ac68c08b0387fe841eed0bf56f71a008a0a7bda37b913ca7d688b133d647000e"
+    },
+    {
+      "name": "eat_south_02",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 14,
+        "w": 104,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "ad46521c7027aa2d70f5d931b19b03f77c2bb0bd3e483f0a935c199c8b3dab37"
+    },
+    {
+      "name": "eat_south_03",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 843,
+        "y": 13,
+        "w": 104,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "eae5c68493c866c26cb84d5d5f8e792c6a2b908c91bb183089151f1aabe125e1"
+    },
+    {
+      "name": "eat_south_04",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 1094,
+        "y": 14,
+        "w": 106,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "488a84df07d80bbbe28dfb12afd778463fcf3bf96bf872db299cb3e9053f7d28"
+    },
+    {
+      "name": "eat_south_05",
+      "source": "../../sources/03-miron-eat.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 13,
+        "w": 100,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 127.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "384470c70b219236f7bb33e5ccb222ed333857fa45cf131a496172ed7622478a"
+    },
+    {
+      "name": "drink_south_00",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 110,
+        "y": 6,
+        "w": 99,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "8e465fa7cd40bd1fe4c729d7149e6f8b71bf5aa7066bd6e76a1cedd6223ae67b"
+    },
+    {
+      "name": "drink_south_01",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 369,
+        "y": 6,
+        "w": 105,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "f3805351d16ca883782c70bd2fe8cd14c29b18c03b3e41dbe6a8f46bdb82aef8"
+    },
+    {
+      "name": "drink_south_02",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 612,
+        "y": 6,
+        "w": 103,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "a23dfc25a935731e8b1179dc54fd6eb2c6017d1c3384b3dda0f9cacb91022757"
+    },
+    {
+      "name": "drink_south_03",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 5,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "6513b7c365dee173ba67bed98e25d654fe56e53d894d08bbe317b1cb26c4ac6b"
+    },
+    {
+      "name": "drink_south_04",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 6,
+        "w": 103,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "b77748c904f8464e5e0e9093b0e8944a397235f547a43bfac28852f5da6f35d1"
+    },
+    {
+      "name": "drink_south_05",
+      "source": "../../sources/03-miron-drink.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 6,
+        "w": 98,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 151,
+        "y": 248
+      },
+      "destination": {
+        "x": 24,
+        "y": 17,
+        "w": 22,
+        "h": 55
+      },
+      "sha256": "fba7a925edd928b4162cf0f26a52d73fd9179113ea5b27048be2e8419f39ea90"
+    },
+    {
+      "name": "bandage_south_00",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 121,
+        "y": 9,
+        "w": 97,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "e92072679c8fb29f855d8ccbf87b97bae0a61afe77b407f36b3ec3d7ea4142b7"
+    },
+    {
+      "name": "bandage_south_01",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 375,
+        "y": 9,
+        "w": 125,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "5e1d47febe61fe5ddc5d0fdf0018d03c27ad06ca4c4f5f26c577f462e6d912da"
+    },
+    {
+      "name": "bandage_south_02",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 615,
+        "y": 12,
+        "w": 116,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "5de0a1ec58ab3ef90a3b7172ba3916f57a4c60f2b25712b6efc9e5002e9e8f09"
+    },
+    {
+      "name": "bandage_south_03",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 853,
+        "y": 12,
+        "w": 109,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "1cf14e7258e1fa69abe3383369a23f35b0cadcf16b04a36607a0e6000e2a9fd4"
+    },
+    {
+      "name": "bandage_south_04",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 1092,
+        "y": 12,
+        "w": 104,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "e249054e59fe5d9da8c417afa56d756871582e90c89b6b7bdec87be8ca61fe9d"
+    },
+    {
+      "name": "bandage_south_05",
+      "source": "../../sources/03-miron-bandage.png",
+      "sourceBounds": {
+        "x": 1330,
+        "y": 9,
+        "w": 96,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 160.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 23,
+        "y": 17,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "1904594afc37ab7bab1965fc03394e62ad8ea65954f55d64d7eb9517c70d1663"
+    },
+    {
+      "name": "heal_ally_south_00",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 78,
+        "y": 24,
+        "w": 130,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "cf950bf2389153b282cb480f54373a0d99290027aaf9d5745f5fc5716b88e868"
+    },
+    {
+      "name": "heal_ally_south_01",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 295,
+        "y": 55,
+        "w": 185,
+        "h": 204
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 26,
+        "y": 26,
+        "w": 42,
+        "h": 46
+      },
+      "sha256": "f6fd8e2ddcc508a859ffb57b7fd2b6e2ca986642ea6bdee5701061fa3db6b590"
+    },
+    {
+      "name": "heal_ally_south_02",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 556,
+        "y": 81,
+        "w": 185,
+        "h": 180
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 27,
+        "y": 32,
+        "w": 42,
+        "h": 41
+      },
+      "sha256": "98dcbcc409e37c5c9e8ae75ab9c38a16d4bd800166a77ff40a7c5ddfc1a64462"
+    },
+    {
+      "name": "heal_ally_south_03",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 82,
+        "w": 165,
+        "h": 177
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 31,
+        "y": 32,
+        "w": 37,
+        "h": 40
+      },
+      "sha256": "e067671424870c07a3326a0c76f05cff27dc32a02f02c4cf99ddba41703ba2aa"
+    },
+    {
+      "name": "heal_ally_south_04",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 40,
+        "w": 134,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 31,
+        "y": 23,
+        "w": 30,
+        "h": 50
+      },
+      "sha256": "2f4bad4f26766c50281ead74332dd8b989ffc1248e53df46554ef6d6e6431ef7"
+    },
+    {
+      "name": "heal_ally_south_05",
+      "source": "../../sources/03-miron-heal_ally.png",
+      "sourceBounds": {
+        "x": 1327,
+        "y": 26,
+        "w": 130,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 258
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "06518097156818686bca9792be623d7bfc22a8dc52798d3018b33da842f6497b"
+    },
+    {
+      "name": "craft_south_00",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 87,
+        "y": 7,
+        "w": 128,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "3dfc7bdd541be67356269964f354f1e9e2ccb058c2745b1c79abbe058782a196"
+    },
+    {
+      "name": "craft_south_01",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 353,
+        "y": 7,
+        "w": 114,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "4e049d23d685c6c66d6226c58b9e4cf9277a426f1c567ce4d18aade53c47d16d"
+    },
+    {
+      "name": "craft_south_02",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 597,
+        "y": 7,
+        "w": 114,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "8afdce888be1f5f24ac89f3166d7f97246e3dba4a78352403ba5adb840175ae9"
+    },
+    {
+      "name": "craft_south_03",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 840,
+        "y": 7,
+        "w": 111,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "6f95efb65f4956ed0f35735cdb53e73c860454b680ec70776fd4f1d96cc91b51"
+    },
+    {
+      "name": "craft_south_04",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 1094,
+        "y": 7,
+        "w": 114,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "ef3fb2b650cb4423c6ff0fba81ac40e66787ee0772f1c91fe5761fe327f6b0ac"
+    },
+    {
+      "name": "craft_south_05",
+      "source": "../../sources/03-miron-craft.png",
+      "sourceBounds": {
+        "x": 1330,
+        "y": 6,
+        "w": 124,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 247
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "18082462e788e39c4835ec37fbdf987d8c237f571a1e6137fb9675f00ea6dc3e"
+    },
+    {
+      "name": "build_south_00",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 81,
+        "y": 9,
+        "w": 118,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "9cdb27e3c7d40fa638e0d5c7aec5cca21a22f9779ad8b7f229c83a471682e62d"
+    },
+    {
+      "name": "build_south_01",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 344,
+        "y": 12,
+        "w": 109,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "b1c9b5cb3b608e4f8892cce5b948f9481f6f585f8af31be65114a031cdfe6ae2"
+    },
+    {
+      "name": "build_south_02",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 593,
+        "y": 24,
+        "w": 110,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "07ce95695af6516cbc7ec8074302759928fc98e445d15833f4e5c3cebb2f5fc4"
+    },
+    {
+      "name": "build_south_03",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 9,
+        "w": 119,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "47a3a913feac4f0ab0eaecb3bf42c62d47e5613cef49416e698b06ab7c9cf0bc"
+    },
+    {
+      "name": "build_south_04",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 1096,
+        "y": 20,
+        "w": 115,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "9aea445c9db20455eaddb423585058fe2a00cda1d11b7dc67f103ce38afb179d"
+    },
+    {
+      "name": "build_south_05",
+      "source": "../../sources/03-miron-build.png",
+      "sourceBounds": {
+        "x": 1345,
+        "y": 27,
+        "w": 113,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "7d5f7204741976499af567006c3ccba99cb9eaf2910dee72689797b7b5303ea9"
+    },
+    {
+      "name": "repair_south_00",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 12,
+        "w": 120,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "f702face736e7028b9a4424dfdea3cfc778d557c2e7a3c34dc7e1cba692d0b8e"
+    },
+    {
+      "name": "repair_south_01",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 327,
+        "y": 17,
+        "w": 115,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "2691af20cb9da99fe9b1cbbbd9933c76c8e39d759f858e7dfd127d0f6b4dfd87"
+    },
+    {
+      "name": "repair_south_02",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 581,
+        "y": 17,
+        "w": 116,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "cebf066e9f70764c0931d96d90510d3d6c4fd1c9bb13fc00759f8bde3ed4c4ab"
+    },
+    {
+      "name": "repair_south_03",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 24,
+        "w": 121,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "43f023fccb5b1330c801df2b0e8adba889424cb9607c070e61308d7af68cb4c7"
+    },
+    {
+      "name": "repair_south_04",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 14,
+        "w": 120,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "ee88e13afc01047a4b7ce47a50f357a844da94e874cfcc72f3c0b6cc0c87b147"
+    },
+    {
+      "name": "repair_south_05",
+      "source": "../../sources/03-miron-repair.png",
+      "sourceBounds": {
+        "x": 1341,
+        "y": 14,
+        "w": 119,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 126.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "da4442695857033b2f7211b20480adf2ed3fcc937ba82552afa30608489fc8ae"
+    },
+    {
+      "name": "chop_south_00",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 130,
+        "y": 15,
+        "w": 123,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 43,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "3ba2def12a1cd6c0d09fd2719365cb807d6d2ebc5e60b99e32081ffaa54b6522"
+    },
+    {
+      "name": "chop_south_01",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 361,
+        "y": 15,
+        "w": 135,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "b50a4fdc5da070b9fdc07cc561d8defbcef28e23ebdbb67b9178895eb17ebc70"
+    },
+    {
+      "name": "chop_south_02",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 596,
+        "y": 9,
+        "w": 138,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "45885a9445fb05e7cc7b1c3f44f3e53dbfc46c4e91d942f3111775985126f9bd"
+    },
+    {
+      "name": "chop_south_03",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 805,
+        "y": 61,
+        "w": 155,
+        "h": 197
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 22,
+        "y": 28,
+        "w": 35,
+        "h": 45
+      },
+      "sha256": "06568e06ba33bc911f7877f1583d1416f45b83f6e73903dc3ef78a25dff6662c"
+    },
+    {
+      "name": "chop_south_04",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 1034,
+        "y": 71,
+        "w": 153,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 16,
+        "y": 30,
+        "w": 35,
+        "h": 42
+      },
+      "sha256": "e3ccc8b34b731c378c99dfd90d97e5fc83e4681ee5f79e6a5bbd672086bdbd38"
+    },
+    {
+      "name": "chop_south_05",
+      "source": "../../sources/03-miron-chop.png",
+      "sourceBounds": {
+        "x": 1281,
+        "y": 15,
+        "w": 124,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 152.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 14,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "b0fc54d22f6faa302be1024c0cf3eb41ac885395aea1c1fa02aa9c5a57960f52"
+    },
+    {
+      "name": "mine_south_00",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 99,
+        "y": 17,
+        "w": 116,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 41,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "8a2853268e61ceaf4cbf7a469e74ab239d65f782473b8ae0630daa79413977ce"
+    },
+    {
+      "name": "mine_south_01",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 24,
+        "w": 111,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "57281c137224cf2186de6ca24c07fb40c2a6fc6cfafa42e139abd2079630dd93"
+    },
+    {
+      "name": "mine_south_02",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 1,
+        "w": 121,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "8a1226acae259a9b77e64a9fe3cb0e59cb5fbe8ac931442c0d63e1c4e3403c83"
+    },
+    {
+      "name": "mine_south_03",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 46,
+        "w": 132,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 30,
+        "y": 26,
+        "w": 30,
+        "h": 47
+      },
+      "sha256": "d51c7f2163c649c2eafa420066c2e0e8145d503bb5c001ebe1b4876fcbd0052f"
+    },
+    {
+      "name": "mine_south_04",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 1062,
+        "y": 74,
+        "w": 136,
+        "h": 177
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 27,
+        "y": 32,
+        "w": 31,
+        "h": 40
+      },
+      "sha256": "61cb9764d995ac08bbdc9e25f57482165af02d1ad5d727fd7f2f1cbaf14c7358"
+    },
+    {
+      "name": "mine_south_05",
+      "source": "../../sources/03-miron-mine.png",
+      "sourceBounds": {
+        "x": 1320,
+        "y": 17,
+        "w": 117,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 249
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "33b2483fae11bf0a511a34df59d6a4e442b30c480661bb0342c0b10302007e31"
+    },
+    {
+      "name": "punch_south_00",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 8,
+        "w": 123,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "30768f3e7a94ac2d596751fe040cb4aa634de8cd570eeecd930356ccc995eb39"
+    },
+    {
+      "name": "punch_south_01",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 9,
+        "w": 139,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "98a02a586ec71b1227f011b10c6461c08a0559b085ba8b9fdebad72bd5d1d844"
+    },
+    {
+      "name": "punch_south_02",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 9,
+        "w": 127,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "b8387d96bc61af5f9b6241cc7977a1ba5f40b21175cf0912e6a5d5b11a9d496c"
+    },
+    {
+      "name": "punch_south_03",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 835,
+        "y": 9,
+        "w": 131,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "733a575d98d303884015e48b40532f5bd319a7324fd8d701b628d4d8c8ac25dc"
+    },
+    {
+      "name": "punch_south_04",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 1092,
+        "y": 9,
+        "w": 132,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "52710392d516fba7cdce948709a98c8463a79436f869176fc81fb4b54cc7b01e"
+    },
+    {
+      "name": "punch_south_05",
+      "source": "../../sources/03-miron-punch.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 8,
+        "w": 124,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "ef9ff8c1a3643367cc981c5bdfda67dd11df35968b84192b6b5a2fffc593179c"
+    },
+    {
+      "name": "one_hand_strike_south_00",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 80,
+        "y": 20,
+        "w": 127,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "34667c6825c59ba68e7f88837e6735e18b22ba68ec6eea487923352cfac4ad5b"
+    },
+    {
+      "name": "one_hand_strike_south_01",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 329,
+        "y": 18,
+        "w": 135,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "572660ae21f5f9d8052b9c1f2e0b94234fde31884a7c2003b4b3b10c87ec3d1f"
+    },
+    {
+      "name": "one_hand_strike_south_02",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 579,
+        "y": 30,
+        "w": 137,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 31,
+        "h": 49
+      },
+      "sha256": "5c9a8ce1404dc315218101ddeaac399a1e889f22590fd2543fa7653f92bb6ded"
+    },
+    {
+      "name": "one_hand_strike_south_03",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 809,
+        "y": 32,
+        "w": 191,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 26,
+        "y": 24,
+        "w": 43,
+        "h": 49
+      },
+      "sha256": "511b6187f6f8c22c422cfc0826c113e00afe6ea585a8cf8c6bb679c614a7b0e0"
+    },
+    {
+      "name": "one_hand_strike_south_04",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1060,
+        "y": 26,
+        "w": 170,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 25,
+        "y": 22,
+        "w": 39,
+        "h": 50
+      },
+      "sha256": "a8dc1bba9ec9cacdda99c304f9a6754b5cc66da3887fce74e847504126a102f5"
+    },
+    {
+      "name": "one_hand_strike_south_05",
+      "source": "../../sources/03-miron-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 20,
+        "w": 131,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 245
+      },
+      "destination": {
+        "x": 27,
+        "y": 21,
+        "w": 30,
+        "h": 51
+      },
+      "sha256": "c90cb4874f33567db6c6986c42e41d6c8c06f593f31ec1f0d306582f6d37a3f8"
+    },
+    {
+      "name": "two_hand_strike_south_00",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 20,
+        "w": 135,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "30d8c7c8ada6e6a37d1a36249faad3c4f34d13cc0fb325079bb507e9441697c8"
+    },
+    {
+      "name": "two_hand_strike_south_01",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 345,
+        "y": 24,
+        "w": 135,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "5550834ba79a0f07eaee1a6d90979639e7048e28f7f79e8acdcdb477f17b849d"
+    },
+    {
+      "name": "two_hand_strike_south_02",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 6,
+        "w": 146,
+        "h": 253
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 32,
+        "y": 15,
+        "w": 33,
+        "h": 57
+      },
+      "sha256": "c87c8008a1637eeabf47e237390e05280550b074679a7361e1288cf6a50c5e15"
+    },
+    {
+      "name": "two_hand_strike_south_03",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 803,
+        "y": 43,
+        "w": 164,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 25,
+        "y": 23,
+        "w": 37,
+        "h": 49
+      },
+      "sha256": "f615f6f2fb98bc67ccba6b5f8ecddbee8eb489ef4dd40c8962ec6be077bc3201"
+    },
+    {
+      "name": "two_hand_strike_south_04",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1048,
+        "y": 43,
+        "w": 167,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 22,
+        "y": 23,
+        "w": 38,
+        "h": 49
+      },
+      "sha256": "0d9b09bf0fbcca271d4f9f589d84e77e50bb233a388a122fe3635234ac02e933"
+    },
+    {
+      "name": "two_hand_strike_south_05",
+      "source": "../../sources/03-miron-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1312,
+        "y": 20,
+        "w": 134,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 24,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "b7711c41bf0d6b7e681281c0d5260e67cfe7b870fca7646ac6afb15a087505b9"
+    },
+    {
+      "name": "shove_south_00",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 10,
+        "w": 119,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "e7b315a3c315ab9e4bfa395bd9385b43e71e1725eb134714a3ab8ad622656a4b"
+    },
+    {
+      "name": "shove_south_01",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 321,
+        "y": 10,
+        "w": 125,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "b59938064712daf4f546efed52986bc20866575b8480e75497f7d24b4fff9794"
+    },
+    {
+      "name": "shove_south_02",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 576,
+        "y": 10,
+        "w": 127,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "f78a792ca592e3c1052aa4b4f7f57465acf657ebd9b8f9e035aa6e5388e491db"
+    },
+    {
+      "name": "shove_south_03",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 826,
+        "y": 10,
+        "w": 139,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "209c6474a09dc7448baedeb369c3ec9b8ed88d9eac52ccd1cec9dafec5c3051f"
+    },
+    {
+      "name": "shove_south_04",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 10,
+        "w": 141,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "66a2c07108f8c441438c3ad64a66e3f9f0601fb53b08491113b0139095c90719"
+    },
+    {
+      "name": "shove_south_05",
+      "source": "../../sources/03-miron-shove.png",
+      "sourceBounds": {
+        "x": 1349,
+        "y": 10,
+        "w": 122,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "4f511965d897ca9607159a6e111d3c02a653c3f96ef71b560190e165ca06745c"
+    },
+    {
+      "name": "pistol_hold_south_00",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 15,
+        "w": 116,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "91a76c0921c62712f46e55592a78b396010d0537d7ac883f867681cd014f06f6"
+    },
+    {
+      "name": "pistol_hold_south_01",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 13,
+        "w": 111,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "759f4dcf0aad72b20eca149899fee09c22a713ea9e27f5cda60bc46f624d5afe"
+    },
+    {
+      "name": "pistol_hold_south_02",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 15,
+        "w": 113,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "a4b4672b733f17c200339e18a605f2f7b0534695b4c15402a54cef8d4d3c0d3f"
+    },
+    {
+      "name": "pistol_hold_south_03",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 841,
+        "y": 15,
+        "w": 110,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "d1e50f9e1eaafd2542e13e93ba575c4c298402dff3af38da635cdca508cf8e44"
+    },
+    {
+      "name": "pistol_hold_south_04",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1097,
+        "y": 14,
+        "w": 111,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 35,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "f93e1474b3903b55b9160197df3f341e522f325a0c1c355156283b4411dd9082"
+    },
+    {
+      "name": "pistol_hold_south_05",
+      "source": "../../sources/03-miron-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1338,
+        "y": 15,
+        "w": 114,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 132,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "8cab5a083368aecf72a3fa16ac54fe0c4d7ab68893cb36de897e08934e6cb901"
+    },
+    {
+      "name": "pistol_aim_south_00",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 91,
+        "y": 8,
+        "w": 119,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "4298b11886f0213e2ec4a375e404139d96081d4bf3482f8daf59743268ce3184"
+    },
+    {
+      "name": "pistol_aim_south_01",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 8,
+        "w": 123,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "37cfc9fc84ee06d962f504e4a237def05e954895169f72e99756882f7ca1b8db"
+    },
+    {
+      "name": "pistol_aim_south_02",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 586,
+        "y": 12,
+        "w": 122,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "de4e6a9487146761a3be897e1a5db059525068bd15a4fe6dc615cd41ad3cb440"
+    },
+    {
+      "name": "pistol_aim_south_03",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 828,
+        "y": 13,
+        "w": 129,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "ea2f6438c6b8d5f2a7d23a03c2f199f44050303f0f87b5a2e67f0a702f4a9a2c"
+    },
+    {
+      "name": "pistol_aim_south_04",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1076,
+        "y": 15,
+        "w": 115,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "94025876bb2c66b21d274b23d3c69bbcfad3fcaa997ddbad180a627ef4020765"
+    },
+    {
+      "name": "pistol_aim_south_05",
+      "source": "../../sources/03-miron-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 8,
+        "w": 119,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "eac7180522632961da4e21a969250e4740a0a07480634d9769e7c53fa6ac1a2e"
+    },
+    {
+      "name": "pistol_fire_south_00",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 107,
+        "y": 5,
+        "w": 130,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "3353a40b1f87d4a476373b93d62aad1da705a664c0cb97aa9d88456340eba44c"
+    },
+    {
+      "name": "pistol_fire_south_01",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 346,
+        "y": 5,
+        "w": 132,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "466b2452da74b0e615416b49dbcc8864d21a219499fa8f61e10884b14deeb2ad"
+    },
+    {
+      "name": "pistol_fire_south_02",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 5,
+        "w": 133,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "92495183ccfa6e02054042f301ea0538e1d6bb8f3a5e1fd0eda2ee55006d3655"
+    },
+    {
+      "name": "pistol_fire_south_03",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 16,
+        "w": 136,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 26,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "6826e539539acc06d212c784683dbba80cc6289ae225f863a4161c1743dd5dd4"
+    },
+    {
+      "name": "pistol_fire_south_04",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1059,
+        "y": 19,
+        "w": 134,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 23,
+        "y": 20,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "59fc43e533190ef9f0959825839c4ea4f706fc127efdb5deaa8660a182e3d67a"
+    },
+    {
+      "name": "pistol_fire_south_05",
+      "source": "../../sources/03-miron-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1297,
+        "y": 19,
+        "w": 135,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 144,
+        "y": 250
+      },
+      "destination": {
+        "x": 19,
+        "y": 20,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "ff1228331278fd3734c00a076db8078af48a6c5b8fc1feb99979d2b03d1a5bf9"
+    },
+    {
+      "name": "pistol_reload_south_00",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 10,
+        "w": 111,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "c343729c7db5128570d857903848f9dfd5661a630d617a2c1be43461ea238615"
+    },
+    {
+      "name": "pistol_reload_south_01",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 335,
+        "y": 11,
+        "w": 114,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "91e8d525f1d1a8086e9cec0a4a8c6cb1c66a44286b705314d9ffa7dacae3a333"
+    },
+    {
+      "name": "pistol_reload_south_02",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 584,
+        "y": 11,
+        "w": 117,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "f6bd9ae0fd6d3842fdbbbb4bd143226a0fda30a26ad68b08829c35a370c8cfa9"
+    },
+    {
+      "name": "pistol_reload_south_03",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 847,
+        "y": 14,
+        "w": 114,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "846819109711e59a03d14dd7a67203f53a45916f802674f3a2ee5c39c07e5695"
+    },
+    {
+      "name": "pistol_reload_south_04",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1088,
+        "y": 11,
+        "w": 127,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "ecc710a5f2626772e41ce1fa841e72a5ae454714636c2f4dd59c22644ba0bd31"
+    },
+    {
+      "name": "pistol_reload_south_05",
+      "source": "../../sources/03-miron-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1357,
+        "y": 11,
+        "w": 109,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "f25f7b04f31eff96c5cf2e4e0b2e6193c699818e29a7061c1ce62db7afffb475"
+    },
+    {
+      "name": "longgun_hold_south_00",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 91,
+        "y": 8,
+        "w": 109,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "2896af879d69a44e9bd0a8ae2cc5b7c9bb89dcee08bf5c11bb8ef04500db42db"
+    },
+    {
+      "name": "longgun_hold_south_01",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 8,
+        "w": 110,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "1052e864edfd734d916ad094baaeb090f2bb42f3c4934065b1c3210a88689b09"
+    },
+    {
+      "name": "longgun_hold_south_02",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 592,
+        "y": 8,
+        "w": 111,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "e8adc5d256d84977a51cd4ebaf9f0b1204680f64dffa431454561f8aec54603a"
+    },
+    {
+      "name": "longgun_hold_south_03",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 8,
+        "w": 112,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "cb84ff7201e744228b9f140b72d4cf3d34f19910714377934d17a92cb042f8ca"
+    },
+    {
+      "name": "longgun_hold_south_04",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 14,
+        "w": 113,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "6a4c291a21d63bb49d40015e9421831c978107493a7690f23f5bcc9712abeeb7"
+    },
+    {
+      "name": "longgun_hold_south_05",
+      "source": "../../sources/03-miron-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1334,
+        "y": 8,
+        "w": 110,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 249
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 25,
+        "h": 55
+      },
+      "sha256": "0bda54ddca025034e21d645ad07faa7cbaffa1bcb6c1ded83ef015fb49870850"
+    },
+    {
+      "name": "longgun_aim_south_00",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 104,
+        "y": 14,
+        "w": 112,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 45,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "69929b5cf5f090b3cc7243a89a68e594473e12841ca168cc9781a819bf8e0792"
+    },
+    {
+      "name": "longgun_aim_south_01",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 22,
+        "w": 126,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 39,
+        "y": 22,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "27eba90c6d8e38c84b70ddefb13c1142d2f00092cc32f0d051777823a488bd0e"
+    },
+    {
+      "name": "longgun_aim_south_02",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 28,
+        "w": 121,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "d61860d4ec41f4c644df804a4d4d27696677fb27316ae1cf2fc2604796445e72"
+    },
+    {
+      "name": "longgun_aim_south_03",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 39,
+        "w": 126,
+        "h": 205
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 33,
+        "y": 26,
+        "w": 29,
+        "h": 46
+      },
+      "sha256": "21a46ef7b79161336737a9009fc174685d082dcd75eb85b396481425b8011b3a"
+    },
+    {
+      "name": "longgun_aim_south_04",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1060,
+        "y": 22,
+        "w": 126,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 22,
+        "w": 29,
+        "h": 50
+      },
+      "sha256": "c273ea37da2f77309a39f7e6a2f7b138d610618e2a16c15234c4afeebbc39c04"
+    },
+    {
+      "name": "longgun_aim_south_05",
+      "source": "../../sources/03-miron-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1311,
+        "y": 13,
+        "w": 116,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 116,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "7a9e9684092da69ba9b4394a6dcf946ae6f3aaa892119fa2670eaa4c6af89ac0"
+    },
+    {
+      "name": "longgun_fire_south_00",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 93,
+        "y": 16,
+        "w": 119,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "d5fe2e148ef43ec37d732a897ab3829d84239edededceb71ffbbd8d989e50973"
+    },
+    {
+      "name": "longgun_fire_south_01",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 17,
+        "w": 118,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "38c1f2e7ff9d0b0250d55b07786e29ac3eee35aa47f87b1c38f19c11949da548"
+    },
+    {
+      "name": "longgun_fire_south_02",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 7,
+        "w": 124,
+        "h": 251
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 15,
+        "w": 28,
+        "h": 57
+      },
+      "sha256": "0b2f93957eb9ca4f5223b25f6947b4cab67a34496fbf724524e13a1fe3d5ae00"
+    },
+    {
+      "name": "longgun_fire_south_03",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 16,
+        "w": 119,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "9fbc7960018a47ebe7e9fd3de65663ddfc5a73b1f5d8dfef6d64c10a16b64fda"
+    },
+    {
+      "name": "longgun_fire_south_04",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1090,
+        "y": 16,
+        "w": 119,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "705a1d5429a7b2b48adc75ee20ccb26f67b6f338ba43df8d73572754853d6f47"
+    },
+    {
+      "name": "longgun_fire_south_05",
+      "source": "../../sources/03-miron-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 16,
+        "w": 116,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 257
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "050a1e98ae455636c2b37ed890ac6a0b22dfe094a83f697d86579292f0f81e8e"
+    },
+    {
+      "name": "longgun_reload_south_00",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 6,
+        "w": 105,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 39,
+        "y": 13,
+        "w": 24,
+        "h": 59
+      },
+      "sha256": "1c195479769fb671fd5ad0b57f09946275cf73fc7c2845a54eea752f69541c36"
+    },
+    {
+      "name": "longgun_reload_south_01",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 336,
+        "y": 6,
+        "w": 117,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 36,
+        "y": 13,
+        "w": 27,
+        "h": 59
+      },
+      "sha256": "4568d4fbb5409fef01a3e2942627dd5d94a9585f4a5eb6e7e1337915d1df6940"
+    },
+    {
+      "name": "longgun_reload_south_02",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 6,
+        "w": 122,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 34,
+        "y": 13,
+        "w": 28,
+        "h": 59
+      },
+      "sha256": "99d43a5e16836a71bcf7ee11f86e9f8106a5180d6e129a0c6a207cb81bc40459"
+    },
+    {
+      "name": "longgun_reload_south_03",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 842,
+        "y": 6,
+        "w": 118,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 35,
+        "y": 13,
+        "w": 27,
+        "h": 59
+      },
+      "sha256": "3221467c411c3a983a822e29848c62554601b37effec700d075db396bac037d9"
+    },
+    {
+      "name": "longgun_reload_south_04",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 6,
+        "w": 125,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 30,
+        "y": 13,
+        "w": 28,
+        "h": 59
+      },
+      "sha256": "0fae7ec6d01ad51285423bc6da044c9548e000601366c4d52434e668fc0776e3"
+    },
+    {
+      "name": "longgun_reload_south_05",
+      "source": "../../sources/03-miron-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1340,
+        "y": 6,
+        "w": 115,
+        "h": 262
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 267
+      },
+      "destination": {
+        "x": 32,
+        "y": 13,
+        "w": 26,
+        "h": 59
+      },
+      "sha256": "52b08495d228ba7dee7a09579be029df6d650bc62f027bee4f10468b1dc626fa"
+    },
+    {
+      "name": "throw_south_00",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 117,
+        "y": 15,
+        "w": 98,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 43,
+        "y": 18,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "607501f23c51f5748dc506b7a2bf4c68b36b9758d61d207078d07215909d26fb"
+    },
+    {
+      "name": "throw_south_01",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 23,
+        "w": 136,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "9af292bb6ff21c3adc5118a56218fa3b6e875c33345d74be0f4d2b2e573fd4f4"
+    },
+    {
+      "name": "throw_south_02",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 19,
+        "w": 165,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 37,
+        "h": 54
+      },
+      "sha256": "c1dbc38e031e37cb7091006985efb79424bb120eb1bcff7d1b873a700b204628"
+    },
+    {
+      "name": "throw_south_03",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 806,
+        "y": 19,
+        "w": 191,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 26,
+        "y": 19,
+        "w": 43,
+        "h": 54
+      },
+      "sha256": "31b3f3fc54033d9dc8809dbc381ace228b104fc7daa3b546cd49c7835b81705f"
+    },
+    {
+      "name": "throw_south_04",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 1049,
+        "y": 28,
+        "w": 202,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 23,
+        "y": 21,
+        "w": 46,
+        "h": 51
+      },
+      "sha256": "776469d06e52fdbc189a57645316e944b9aa305f8c27e98e81c288e9cb2213a9"
+    },
+    {
+      "name": "throw_south_05",
+      "source": "../../sources/03-miron-throw.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 15,
+        "w": 100,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 137,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "dcdba5e9cd3ac6959908d513998fdd5e66c9fb16c6e91cf00ae45e4bb8e558f4"
+    },
+    {
+      "name": "hurt_south_00",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 109,
+        "y": 12,
+        "w": 102,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 40,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "bebd4864576b10f305b2cef3593fd942c496eeffc5c8a499a5e61c32fa2bae62"
+    },
+    {
+      "name": "hurt_south_01",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 339,
+        "y": 11,
+        "w": 130,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "ef028ec6f0dc9a93db35e62c52e1240992f63a0a7dd4bfc3f49d178b0d062ee0"
+    },
+    {
+      "name": "hurt_south_02",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 18,
+        "w": 145,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "f1351dded61f25caad95602690d32c453cf94e2a824ce8343501f5cf699aa3a3"
+    },
+    {
+      "name": "hurt_south_03",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 23,
+        "w": 147,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 29,
+        "y": 20,
+        "w": 33,
+        "h": 53
+      },
+      "sha256": "bb5ddb802da6211fdf0b80aa1b11e9b9fca064dbb6e5e609a2a884ea2f17a8b2"
+    },
+    {
+      "name": "hurt_south_04",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 30,
+        "w": 117,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "71e79e70f152fec62da62189fa2aaed0d2a424243640877f313583c834e825c8"
+    },
+    {
+      "name": "hurt_south_05",
+      "source": "../../sources/03-miron-hurt.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 12,
+        "w": 102,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 254
+      },
+      "destination": {
+        "x": 26,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "199bbb15eb5b98a156551ed4a567874c8be4e351202ec868895ac8a73531731a"
+    },
+    {
+      "name": "stunned_south_00",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 101,
+        "y": 12,
+        "w": 105,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 41,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "53fd2b1757592d95ad1fcdd36469a55d6c883f47e95ef28a8be8bf54b11fd7a1"
+    },
+    {
+      "name": "stunned_south_01",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 326,
+        "y": 16,
+        "w": 154,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 35,
+        "h": 54
+      },
+      "sha256": "115ab63fe14af83628973078267faa54027a65c5b5fe95801886ffa8b504d59e"
+    },
+    {
+      "name": "stunned_south_02",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 38,
+        "w": 132,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 33,
+        "y": 23,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "d9ae9eb00a1f01a3869aaf5e82a4bc7a11f4be1e0560a2eff5431f674e963705"
+    },
+    {
+      "name": "stunned_south_03",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 814,
+        "y": 16,
+        "w": 138,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "05e8d438ab7eae51625c84d1d95a0962b2d2a063ea9a659f3abe918d09f8dc41"
+    },
+    {
+      "name": "stunned_south_04",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 1049,
+        "y": 16,
+        "w": 158,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 24,
+        "y": 18,
+        "w": 36,
+        "h": 54
+      },
+      "sha256": "ecf70846c98156013aa21cc25139b3dc2056bfb8fad8da6decd0b3ed3869920a"
+    },
+    {
+      "name": "stunned_south_05",
+      "source": "../../sources/03-miron-stunned.png",
+      "sourceBounds": {
+        "x": 1326,
+        "y": 11,
+        "w": 105,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 29,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "9b7f069495abbe227fa59c10bf6211b25d268a63bdcffe7c7731373ffcf23b53"
+    },
+    {
+      "name": "knockback_south_00",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 88,
+        "y": 16,
+        "w": 97,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "74dbd5b81b5fafca79d5fdef9d82bfe5c57dd715f65e65e4705c877cab8e124a"
+    },
+    {
+      "name": "knockback_south_01",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 296,
+        "y": 23,
+        "w": 204,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 26,
+        "y": 20,
+        "w": 46,
+        "h": 52
+      },
+      "sha256": "50984506ef22bdd848006cb5c47e917e3a5e6d59643cde84a789f452a026c95e"
+    },
+    {
+      "name": "knockback_south_02",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 533,
+        "y": 23,
+        "w": 204,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 22,
+        "y": 20,
+        "w": 46,
+        "h": 52
+      },
+      "sha256": "ceac32e4b1a387f26ed90331716393a132c44803970cc58315131d2c8c5105fb"
+    },
+    {
+      "name": "knockback_south_03",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 804,
+        "y": 91,
+        "w": 197,
+        "h": 161
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 25,
+        "y": 36,
+        "w": 45,
+        "h": 37
+      },
+      "sha256": "7d97e81681b073e6417f6bdba34fcc6d9a28cea426a60c0e100eafaf58ecab38"
+    },
+    {
+      "name": "knockback_south_04",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 46,
+        "w": 149,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 26,
+        "w": 34,
+        "h": 47
+      },
+      "sha256": "8bb8bc3004c95cf3115c0fe84184535d1da6ec051e4e2a2b32b4fd2b1f3d1f6d"
+    },
+    {
+      "name": "knockback_south_05",
+      "source": "../../sources/03-miron-knockback.png",
+      "sourceBounds": {
+        "x": 1346,
+        "y": 16,
+        "w": 97,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 251
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "252f4cb9bdb31ae67c7bb7b63270d621945ab88af42022c2bea3a5e5933fda3d"
+    },
+    {
+      "name": "death_south_00",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 89,
+        "y": 9,
+        "w": 98,
+        "h": 250
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 37,
+        "y": 16,
+        "w": 22,
+        "h": 57
+      },
+      "sha256": "f0ea958a6b92afb823bc850935c76c3818d3ea4eb9811208b57678869b8b98ee"
+    },
+    {
+      "name": "death_south_01",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 299,
+        "y": 28,
+        "w": 183,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 27,
+        "y": 20,
+        "w": 41,
+        "h": 52
+      },
+      "sha256": "d7c0c78acae108268d4831250441eb84111003dce2a19eb15b97f74ca8471c7d"
+    },
+    {
+      "name": "death_south_02",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 548,
+        "y": 68,
+        "w": 169,
+        "h": 191
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 25,
+        "y": 29,
+        "w": 38,
+        "h": 43
+      },
+      "sha256": "a0c76455cebae36bc83886809e480eef6370077a6551051d2e90d67ecca8e4d2"
+    },
+    {
+      "name": "death_south_03",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 804,
+        "y": 121,
+        "w": 163,
+        "h": 138
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 25,
+        "y": 41,
+        "w": 37,
+        "h": 31
+      },
+      "sha256": "51d2cf5e4a9ec1d78874f0517d7706bede7bcdc167c3016a45bb89b245e78a4d"
+    },
+    {
+      "name": "death_south_04",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 1011,
+        "y": 147,
+        "w": 233,
+        "h": 112
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 14,
+        "y": 47,
+        "w": 53,
+        "h": 25
+      },
+      "sha256": "4c018f624e551a851d22eb118816c3922d437806d8f8b4dbb55e545ff1679e0a"
+    },
+    {
+      "name": "death_south_05",
+      "source": "../../sources/03-miron-death.png",
+      "sourceBounds": {
+        "x": 1273,
+        "y": 182,
+        "w": 246,
+        "h": 77
+      },
+      "fixedSourceAnchor": {
+        "x": 137.5,
+        "y": 258
+      },
+      "destination": {
+        "x": 15,
+        "y": 55,
+        "w": 56,
+        "h": 17
+      },
+      "sha256": "38cdf40db58d3d8268d497c310ec9f415de198665fcfab2af13f5cb6a627f7b4"
+    }
+  ]
+}

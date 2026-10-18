@@ -1,5 +1,6 @@
 // Exports generated artwork only. No gameplay, AI, damage, physics or networking.
 const fs=require('node:fs/promises'),path=require('node:path'),crypto=require('node:crypto');
+const originalWrite=fs.writeFile.bind(fs);fs.writeFile=async(...args)=>{for(let attempt=0;;attempt++){try{return await originalWrite(...args);}catch(e){if(attempt>=12)throw e;await new Promise(r=>setTimeout(r,200+attempt*150));}}};
 const sharp=require('sharp'),JSZip=require('jszip'),scan=require('./slice-sprite-components.cjs');
 const ROOT=path.resolve(__dirname,'..'),OUT=path.join(ROOT,'assets/survivor-friends-animations-v1');
 const read=async f=>JSON.parse(await fs.readFile(f,'utf8')),json=async(f,v)=>fs.writeFile(f,JSON.stringify(v,null,2)+'\n'),hash=b=>crypto.createHash('sha256').update(b).digest('hex'),median=a=>a.slice().sort((a,b)=>a-b)[Math.floor(a.length/2)];
@@ -9,7 +10,7 @@ async function gif(frames,ms,hold=0){const images=await Promise.all(frames.map(b
 async function character(c,plan){
  const size=c.frameSize,origin=c.origin,groups=[];
  for(const state of c.frameOrder){const source=path.join(OUT,'sources',c.id+'-'+state+'.png'),cells=await scan(source);for(const[row,dir]of plan.directions.entries()){
-  const cc=cells.filter(k=>k.row===row),first=cc[0];const anchorX=state==='death'?(first.x0+first.x1)/2:median(cc.map(k=>(k.x0+k.x1)/2-k.col*256)),anchorY=state==='death'?first.y1-row*256:median(cc.map(k=>k.y1-row*256));groups.push({state,row,dir,cells:cc,anchorX,anchorY});
+  const sourceRow=c.sourceDirectionRows?.[state]?.[dir]??row;const cc=cells.filter(k=>k.row===sourceRow),first=cc[0];const anchorX=state==='death'?(first.x0+first.x1)/2:median(cc.map(k=>(k.x0+k.x1)/2-k.col*256)),anchorY=state==='death'?first.y1-row*256:median(cc.map(k=>k.y1-sourceRow*256));groups.push({state,row:sourceRow,dir,cells:cc,anchorX,anchorY});
  }}
  const idleHeight=median(groups.filter(g=>g.state==='idle').flatMap(g=>g.cells.map(k=>k.y1-k.y0+1)));let scale=56/idleHeight;
  const foot=Math.round(size*origin.y),destX=Math.round(size*.5);

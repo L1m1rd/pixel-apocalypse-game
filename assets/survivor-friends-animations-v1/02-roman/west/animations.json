@@ -1,0 +1,632 @@
+{
+  "character": "02-roman",
+  "name": "Роман",
+  "direction": "west",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "origin": {
+    "x": 0.5,
+    "y": 0.75
+  },
+  "animations": {
+    "idle": {
+      "label": "Ожидание",
+      "group": "movement",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "idle_west_00",
+        "idle_west_01",
+        "idle_west_02",
+        "idle_west_03",
+        "idle_west_04",
+        "idle_west_05"
+      ]
+    },
+    "walk": {
+      "label": "Ходьба",
+      "group": "movement",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "walk_west_00",
+        "walk_west_01",
+        "walk_west_02",
+        "walk_west_03",
+        "walk_west_04",
+        "walk_west_05"
+      ]
+    },
+    "run": {
+      "label": "Бег",
+      "group": "movement",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "run_west_00",
+        "run_west_01",
+        "run_west_02",
+        "run_west_03",
+        "run_west_04",
+        "run_west_05"
+      ]
+    },
+    "crouch_down": {
+      "label": "Присесть",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_down_west_00",
+        "crouch_down_west_01",
+        "crouch_down_west_02",
+        "crouch_down_west_03",
+        "crouch_down_west_04",
+        "crouch_down_west_05"
+      ]
+    },
+    "crouch_idle": {
+      "label": "Ожидание сидя",
+      "group": "stealth",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_idle_west_00",
+        "crouch_idle_west_01",
+        "crouch_idle_west_02",
+        "crouch_idle_west_03",
+        "crouch_idle_west_04",
+        "crouch_idle_west_05"
+      ]
+    },
+    "crouch_walk": {
+      "label": "Движение пригнувшись",
+      "group": "stealth",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_walk_west_00",
+        "crouch_walk_west_01",
+        "crouch_walk_west_02",
+        "crouch_walk_west_03",
+        "crouch_walk_west_04",
+        "crouch_walk_west_05"
+      ]
+    },
+    "stand_up": {
+      "label": "Встать",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stand_up_west_00",
+        "stand_up_west_01",
+        "stand_up_west_02",
+        "stand_up_west_03",
+        "stand_up_west_04",
+        "stand_up_west_05"
+      ]
+    },
+    "pickup": {
+      "label": "Поднять предмет",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pickup_west_00",
+        "pickup_west_01",
+        "pickup_west_02",
+        "pickup_west_03",
+        "pickup_west_04",
+        "pickup_west_05"
+      ]
+    },
+    "search": {
+      "label": "Обыск",
+      "group": "interaction",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "search_west_00",
+        "search_west_01",
+        "search_west_02",
+        "search_west_03",
+        "search_west_04",
+        "search_west_05"
+      ]
+    },
+    "open_door": {
+      "label": "Открыть дверь",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "open_door_west_00",
+        "open_door_west_01",
+        "open_door_west_02",
+        "open_door_west_03",
+        "open_door_west_04",
+        "open_door_west_05"
+      ]
+    },
+    "eat": {
+      "label": "Есть",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "eat_west_00",
+        "eat_west_01",
+        "eat_west_02",
+        "eat_west_03",
+        "eat_west_04",
+        "eat_west_05"
+      ]
+    },
+    "drink": {
+      "label": "Пить",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "drink_west_00",
+        "drink_west_01",
+        "drink_west_02",
+        "drink_west_03",
+        "drink_west_04",
+        "drink_west_05"
+      ]
+    },
+    "bandage": {
+      "label": "Перевязать себя",
+      "group": "survival",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "bandage_west_00",
+        "bandage_west_01",
+        "bandage_west_02",
+        "bandage_west_03",
+        "bandage_west_04",
+        "bandage_west_05"
+      ]
+    },
+    "heal_ally": {
+      "label": "Помочь товарищу",
+      "group": "survival",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "heal_ally_west_00",
+        "heal_ally_west_01",
+        "heal_ally_west_02",
+        "heal_ally_west_03",
+        "heal_ally_west_04",
+        "heal_ally_west_05"
+      ]
+    },
+    "craft": {
+      "label": "Крафт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "craft_west_00",
+        "craft_west_01",
+        "craft_west_02",
+        "craft_west_03",
+        "craft_west_04",
+        "craft_west_05"
+      ]
+    },
+    "build": {
+      "label": "Строительство",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "build_west_00",
+        "build_west_01",
+        "build_west_02",
+        "build_west_03",
+        "build_west_04",
+        "build_west_05"
+      ]
+    },
+    "repair": {
+      "label": "Ремонт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "repair_west_00",
+        "repair_west_01",
+        "repair_west_02",
+        "repair_west_03",
+        "repair_west_04",
+        "repair_west_05"
+      ]
+    },
+    "chop": {
+      "label": "Рубка",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "chop_west_00",
+        "chop_west_01",
+        "chop_west_02",
+        "chop_west_03",
+        "chop_west_04",
+        "chop_west_05"
+      ]
+    },
+    "mine": {
+      "label": "Добыча ресурсов",
+      "group": "work",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "mine_west_00",
+        "mine_west_01",
+        "mine_west_02",
+        "mine_west_03",
+        "mine_west_04",
+        "mine_west_05"
+      ]
+    },
+    "punch": {
+      "label": "Удар рукой",
+      "group": "combat",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "punch_west_00",
+        "punch_west_01",
+        "punch_west_02",
+        "punch_west_03",
+        "punch_west_04",
+        "punch_west_05"
+      ]
+    },
+    "one_hand_strike": {
+      "label": "Одноручный удар",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "one_hand_strike_west_00",
+        "one_hand_strike_west_01",
+        "one_hand_strike_west_02",
+        "one_hand_strike_west_03",
+        "one_hand_strike_west_04",
+        "one_hand_strike_west_05"
+      ]
+    },
+    "two_hand_strike": {
+      "label": "Двуручный удар",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "two_hand_strike_west_00",
+        "two_hand_strike_west_01",
+        "two_hand_strike_west_02",
+        "two_hand_strike_west_03",
+        "two_hand_strike_west_04",
+        "two_hand_strike_west_05"
+      ]
+    },
+    "shove": {
+      "label": "Толчок",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "shove_west_00",
+        "shove_west_01",
+        "shove_west_02",
+        "shove_west_03",
+        "shove_west_04",
+        "shove_west_05"
+      ]
+    },
+    "pistol_hold": {
+      "label": "Пистолет: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_hold_west_00",
+        "pistol_hold_west_01",
+        "pistol_hold_west_02",
+        "pistol_hold_west_03",
+        "pistol_hold_west_04",
+        "pistol_hold_west_05"
+      ]
+    },
+    "pistol_aim": {
+      "label": "Пистолет: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_aim_west_00",
+        "pistol_aim_west_01",
+        "pistol_aim_west_02",
+        "pistol_aim_west_03",
+        "pistol_aim_west_04",
+        "pistol_aim_west_05"
+      ]
+    },
+    "pistol_fire": {
+      "label": "Пистолет: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_fire_west_00",
+        "pistol_fire_west_01",
+        "pistol_fire_west_02",
+        "pistol_fire_west_03",
+        "pistol_fire_west_04",
+        "pistol_fire_west_05"
+      ]
+    },
+    "pistol_reload": {
+      "label": "Пистолет: перезарядка",
+      "group": "firearm",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_reload_west_00",
+        "pistol_reload_west_01",
+        "pistol_reload_west_02",
+        "pistol_reload_west_03",
+        "pistol_reload_west_04",
+        "pistol_reload_west_05"
+      ]
+    },
+    "longgun_hold": {
+      "label": "Длинное оружие: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_hold_west_00",
+        "longgun_hold_west_01",
+        "longgun_hold_west_02",
+        "longgun_hold_west_03",
+        "longgun_hold_west_04",
+        "longgun_hold_west_05"
+      ]
+    },
+    "longgun_aim": {
+      "label": "Длинное оружие: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_aim_west_00",
+        "longgun_aim_west_01",
+        "longgun_aim_west_02",
+        "longgun_aim_west_03",
+        "longgun_aim_west_04",
+        "longgun_aim_west_05"
+      ]
+    },
+    "longgun_fire": {
+      "label": "Длинное оружие: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_fire_west_00",
+        "longgun_fire_west_01",
+        "longgun_fire_west_02",
+        "longgun_fire_west_03",
+        "longgun_fire_west_04",
+        "longgun_fire_west_05"
+      ]
+    },
+    "longgun_reload": {
+      "label": "Длинное оружие: перезарядка",
+      "group": "firearm",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_reload_west_00",
+        "longgun_reload_west_01",
+        "longgun_reload_west_02",
+        "longgun_reload_west_03",
+        "longgun_reload_west_04",
+        "longgun_reload_west_05"
+      ]
+    },
+    "throw": {
+      "label": "Бросок",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "throw_west_00",
+        "throw_west_01",
+        "throw_west_02",
+        "throw_west_03",
+        "throw_west_04",
+        "throw_west_05"
+      ]
+    },
+    "hurt": {
+      "label": "Получение урона",
+      "group": "reaction",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "hurt_west_00",
+        "hurt_west_01",
+        "hurt_west_02",
+        "hurt_west_03",
+        "hurt_west_04",
+        "hurt_west_05"
+      ]
+    },
+    "stunned": {
+      "label": "Оглушение",
+      "group": "reaction",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stunned_west_00",
+        "stunned_west_01",
+        "stunned_west_02",
+        "stunned_west_03",
+        "stunned_west_04",
+        "stunned_west_05"
+      ]
+    },
+    "knockback": {
+      "label": "Отбрасывание",
+      "group": "reaction",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "knockback_west_00",
+        "knockback_west_01",
+        "knockback_west_02",
+        "knockback_west_03",
+        "knockback_west_04",
+        "knockback_west_05"
+      ]
+    },
+    "death": {
+      "label": "Смерть и лежащее тело",
+      "group": "reaction",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "holdLastFrame": true,
+      "frames": [
+        "death_west_00",
+        "death_west_01",
+        "death_west_02",
+        "death_west_03",
+        "death_west_04",
+        "death_west_05"
+      ],
+      "terminalFrame": "death_west_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_west_05",
+    "static": true
+  }
+}

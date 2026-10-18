@@ -1,0 +1,21 @@
+{
+  "method": "Visual review of west/east profiles for all 216 actions, with full source-sheet inspection of suspect rows.",
+  "actionsReviewed": 216,
+  "correctedRowAssignments": {
+    "01-gleb": [
+      "bandage",
+      "shove",
+      "pistol_aim",
+      "pistol_fire"
+    ],
+    "04-egor": [
+      "idle",
+      "crouch_down",
+      "pickup",
+      "pistol_aim",
+      "longgun_fire"
+    ]
+  },
+  "artworkMirrored": false,
+  "correction": "Map actual left-facing source row to west and right-facing source row to east; preserve original artwork."
+}

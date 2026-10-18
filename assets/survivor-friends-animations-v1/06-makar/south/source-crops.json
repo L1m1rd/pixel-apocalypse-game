@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.22857142857142856,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_south_00",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 96,
+        "y": 7,
+        "w": 109,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "a483556820582637c2a5c6d0fe2544f50de002147f86d47ea1325735c18f58ae"
+    },
+    {
+      "name": "idle_south_01",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 7,
+        "w": 109,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "217554bccb0c72e5644b87bc3d0122f5c12df770d431400a21af1f83ec533b80"
+    },
+    {
+      "name": "idle_south_02",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 7,
+        "w": 111,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "aede441acd6bd976abce160d33984ab041750b28c17ac997071d4ddb9d7c4db5"
+    },
+    {
+      "name": "idle_south_03",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 836,
+        "y": 7,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "304405bf437919198716241e33fed71efd46629ec8321a31d8c894390eb4f8ce"
+    },
+    {
+      "name": "idle_south_04",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 6,
+        "w": 107,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "3aa0d6c12d29f2cf6693a48e1aa4686d5d193190fe731f960f7891308d57c27b"
+    },
+    {
+      "name": "idle_south_05",
+      "source": "../../sources/06-makar-idle.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 7,
+        "w": 109,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "14ab8e871b3af242c2b4e4849f34f67cb5eb929a925797ec6392c4456989aded"
+    },
+    {
+      "name": "walk_south_00",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 92,
+        "y": 19,
+        "w": 92,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 40,
+        "y": 20,
+        "w": 21,
+        "h": 52
+      },
+      "sha256": "ae9a2ac67fc4994d2d9b9034d7086f82ff483f6cc38b816b98f6ed4ea4c6a5c9"
+    },
+    {
+      "name": "walk_south_01",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 19,
+        "w": 98,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 38,
+        "y": 20,
+        "w": 22,
+        "h": 52
+      },
+      "sha256": "a7ec410d7b14d616f867eb24ec76ed5fb3ba91e627b67b4ff61519b3bc51d065"
+    },
+    {
+      "name": "walk_south_02",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 20,
+        "w": 87,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 20,
+        "h": 52
+      },
+      "sha256": "feabcca71e7b07548e1bc4ad693a7bb492c43ddd48355b7f8928c0df9d3191c7"
+    },
+    {
+      "name": "walk_south_03",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 848,
+        "y": 19,
+        "w": 93,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 21,
+        "h": 52
+      },
+      "sha256": "f353889917c2969fd9d569955697a03b4b61aec08b9343fe69d295689488e30c"
+    },
+    {
+      "name": "walk_south_04",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 1102,
+        "y": 19,
+        "w": 88,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 20,
+        "h": 52
+      },
+      "sha256": "37140a3af5723711db0a0d6b0b7afaba9ea066ba525f75d902890845a76e1281"
+    },
+    {
+      "name": "walk_south_05",
+      "source": "../../sources/06-makar-walk.png",
+      "sourceBounds": {
+        "x": 1358,
+        "y": 19,
+        "w": 87,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 129,
+        "y": 245
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 20,
+        "h": 52
+      },
+      "sha256": "8127d8660d01fbf6ec6d868c668a3b8aa8f526db866b36f826d9c4b517894319"
+    },
+    {
+      "name": "run_south_00",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 105,
+        "y": 19,
+        "w": 112,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 41,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "ada84d35daea146e5bb3bbe1f3dad9e769f55f54ca000284e26184912085b964"
+    },
+    {
+      "name": "run_south_01",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 356,
+        "y": 18,
+        "w": 113,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 40,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "56923162c9761cf2484dcd28e728c4ff4a50e8e4e991df010d2050c36105411e"
+    },
+    {
+      "name": "run_south_02",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 587,
+        "y": 15,
+        "w": 121,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 28,
+        "h": 48
+      },
+      "sha256": "de6d2c1a498469b5d8fbf2e0b23b57f06a8efebb02a14b8ac6a3934d00e1df53"
+    },
+    {
+      "name": "run_south_03",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 840,
+        "y": 19,
+        "w": 112,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "91438bf6df8ebe8d60317b1f69a0aa78122c15c3ed20cd68b14f50c27224530b"
+    },
+    {
+      "name": "run_south_04",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 1086,
+        "y": 18,
+        "w": 123,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "7e96bb97f674d931a38faec0741218ba90ae683e8addbffd7935ab991f474591"
+    },
+    {
+      "name": "run_south_05",
+      "source": "../../sources/06-makar-run.png",
+      "sourceBounds": {
+        "x": 1321,
+        "y": 15,
+        "w": 121,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 241
+      },
+      "destination": {
+        "x": 27,
+        "y": 20,
+        "w": 28,
+        "h": 48
+      },
+      "sha256": "d3914e8cf9a7547d5a5e4bfc1cc149da31e65a73bf8755acaa42564d028c149c"
+    },
+    {
+      "name": "crouch_down_south_00",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 103,
+        "y": 13,
+        "w": 102,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "fef7cc264fab7bd5d3f6cbc9026e9c397346330dd0c286d0d992c85eae7a972d"
+    },
+    {
+      "name": "crouch_down_south_01",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 362,
+        "y": 32,
+        "w": 109,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "1d064086884c1fb7d7500337ff1c4d441bbf28ce863172a16252f92f183f0302"
+    },
+    {
+      "name": "crouch_down_south_02",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 607,
+        "y": 54,
+        "w": 114,
+        "h": 201
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 35,
+        "y": 26,
+        "w": 26,
+        "h": 46
+      },
+      "sha256": "19ef3f19f5a1529e2a35ef90da00be2043d4091c6c2ae2a9e35e9b08a3f02968"
+    },
+    {
+      "name": "crouch_down_south_03",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 853,
+        "y": 75,
+        "w": 121,
+        "h": 180
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 33,
+        "y": 31,
+        "w": 28,
+        "h": 41
+      },
+      "sha256": "61021c0f95531ef9d2398f22c23da10578b81bf03324ae14be3de4e18907aaeb"
+    },
+    {
+      "name": "crouch_down_south_04",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 1101,
+        "y": 97,
+        "w": 118,
+        "h": 158
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 31,
+        "y": 36,
+        "w": 27,
+        "h": 36
+      },
+      "sha256": "cf3907c5ee01a6d02ac39a8731d57977acc065ec8a3f42d0b59f22a7bb941672"
+    },
+    {
+      "name": "crouch_down_south_05",
+      "source": "../../sources/06-makar-crouch_down.png",
+      "sourceBounds": {
+        "x": 1345,
+        "y": 115,
+        "w": 118,
+        "h": 140
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 28,
+        "y": 40,
+        "w": 27,
+        "h": 32
+      },
+      "sha256": "b9c583b65a741868e3b2f81ecf39b491286949c5d39aeab0770e49070c86ed43"
+    },
+    {
+      "name": "crouch_idle_south_00",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 58,
+        "y": 38,
+        "w": 169,
+        "h": 203
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 29,
+        "y": 26,
+        "w": 39,
+        "h": 46
+      },
+      "sha256": "52210df377ec3e7cb7c9608d1933978880a756e9b0acd0f150b3795b6c945dc2"
+    },
+    {
+      "name": "crouch_idle_south_01",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 320,
+        "y": 37,
+        "w": 151,
+        "h": 204
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 31,
+        "y": 26,
+        "w": 35,
+        "h": 47
+      },
+      "sha256": "46fc5ad1e9f61e4d01fdb1a818057fa70c4a281b1c0f749a2fa25f1a2eea9a03"
+    },
+    {
+      "name": "crouch_idle_south_02",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 561,
+        "y": 38,
+        "w": 174,
+        "h": 200
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 27,
+        "y": 26,
+        "w": 40,
+        "h": 46
+      },
+      "sha256": "b647d0200a6c8dea9bc1031577ca45aad13aae41ed5556f1c48132d4d956dd61"
+    },
+    {
+      "name": "crouch_idle_south_03",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 829,
+        "y": 38,
+        "w": 165,
+        "h": 203
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 30,
+        "y": 26,
+        "w": 38,
+        "h": 46
+      },
+      "sha256": "a4b10054b33d53a96d68bbbde93215a25b90fd739967bee7893efbdaaa21909c"
+    },
+    {
+      "name": "crouch_idle_south_04",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1073,
+        "y": 41,
+        "w": 165,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 27,
+        "y": 27,
+        "w": 38,
+        "h": 45
+      },
+      "sha256": "c81b4d66ae4523e5c3bd770855df340f83bfcf324d203219869f20c402a19ddd"
+    },
+    {
+      "name": "crouch_idle_south_05",
+      "source": "../../sources/06-makar-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1306,
+        "y": 38,
+        "w": 170,
+        "h": 203
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 240
+      },
+      "destination": {
+        "x": 22,
+        "y": 26,
+        "w": 39,
+        "h": 46
+      },
+      "sha256": "518eb5aa63d295a0a1a6896cb8950277cd6360e29d3eb44d15d969e67ffee427"
+    },
+    {
+      "name": "crouch_walk_south_00",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 78,
+        "y": 30,
+        "w": 156,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 36,
+        "h": 50
+      },
+      "sha256": "5f629a0d66ef422175e076a4ecc79ae938f6c2dbe39f2f84c215103e8f62819f"
+    },
+    {
+      "name": "crouch_walk_south_01",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 331,
+        "y": 30,
+        "w": 136,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 31,
+        "h": 48
+      },
+      "sha256": "557ae25cb24a48c7cb2ba3da6e7da362061427e0d7c056b1c209200765731ac6"
+    },
+    {
+      "name": "crouch_walk_south_02",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 573,
+        "y": 32,
+        "w": 146,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 31,
+        "y": 23,
+        "w": 33,
+        "h": 49
+      },
+      "sha256": "637d61a3988e671168e13519f629e75f27ec641084b457bf5a391dc3e3e0053d"
+    },
+    {
+      "name": "crouch_walk_south_03",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 30,
+        "w": 150,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 29,
+        "y": 23,
+        "w": 34,
+        "h": 50
+      },
+      "sha256": "b93a9ca6624aa400df5b1785cd9c95689d596ee1e5cb77d8ae876ce681d767ba"
+    },
+    {
+      "name": "crouch_walk_south_04",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 31,
+        "w": 142,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 28,
+        "y": 23,
+        "w": 32,
+        "h": 49
+      },
+      "sha256": "7d1ca05023d71585a306aed7ca8409a5cf874a58840d5094a780fda5a030a121"
+    },
+    {
+      "name": "crouch_walk_south_05",
+      "source": "../../sources/06-makar-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1312,
+        "y": 30,
+        "w": 148,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 25,
+        "y": 23,
+        "w": 34,
+        "h": 50
+      },
+      "sha256": "ee6e0bb0ceb34ef8402260f3f99cf5db8baf4516f3789dd62dba0137bc7df8ee"
+    },
+    {
+      "name": "stand_up_south_00",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 74,
+        "y": 100,
+        "w": 117,
+        "h": 150
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 38,
+        "w": 27,
+        "h": 34
+      },
+      "sha256": "5150d8964fabaca558c56091ef65c5c4efc4b9729933080bb0c8f5f0a1b8a89a"
+    },
+    {
+      "name": "stand_up_south_01",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 332,
+        "y": 76,
+        "w": 116,
+        "h": 174
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 32,
+        "w": 27,
+        "h": 40
+      },
+      "sha256": "3c62bf757be38a631535af3b998a932434fa1cbd94f61afe8d243c422b2a99c2"
+    },
+    {
+      "name": "stand_up_south_02",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 57,
+        "w": 117,
+        "h": 193
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 28,
+        "w": 27,
+        "h": 44
+      },
+      "sha256": "258abd19667b7c2f84d8e275d31d8d7ff36575a29ebeea1deacc7fd114f64ce3"
+    },
+    {
+      "name": "stand_up_south_03",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 845,
+        "y": 36,
+        "w": 115,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "4937e0a31c3d32e33ef4f0c46f59d60c53e39de960f1d954fc52e4af2ea6e048"
+    },
+    {
+      "name": "stand_up_south_04",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 1101,
+        "y": 16,
+        "w": 112,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "049692aebbd0b03c6698d6d81e66609371a5ad53b3bcab6f039c64f6f0febf95"
+    },
+    {
+      "name": "stand_up_south_05",
+      "source": "../../sources/06-makar-stand_up.png",
+      "sourceBounds": {
+        "x": 1361,
+        "y": 1,
+        "w": 102,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 133.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 36,
+        "y": 15,
+        "w": 23,
+        "h": 57
+      },
+      "sha256": "6adb46cdfc015f3ebb84987f3a3cbe02c8976837240c68c3e66a5f9e26a8dacf"
+    },
+    {
+      "name": "pickup_south_00",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 114,
+        "y": 7,
+        "w": 111,
+        "h": 260
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 40,
+        "y": 12,
+        "w": 25,
+        "h": 59
+      },
+      "sha256": "4e317d4836cc5d689ed0377df640750e338e000e4ae635ac23e2639d9463ed33"
+    },
+    {
+      "name": "pickup_south_01",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 373,
+        "y": 45,
+        "w": 112,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 41,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "6638a7cf97ec34ace3f8c2bbf28c09e77be9bd99ec80541d053ec83b523a8b91"
+    },
+    {
+      "name": "pickup_south_02",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 595,
+        "y": 103,
+        "w": 130,
+        "h": 166
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 33,
+        "y": 34,
+        "w": 30,
+        "h": 38
+      },
+      "sha256": "c700d2f36f86de695f173098d541f2e4c1e747acf32635f9bc20ea8fd5030a1a"
+    },
+    {
+      "name": "pickup_south_03",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 841,
+        "y": 114,
+        "w": 116,
+        "h": 158
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 31,
+        "y": 37,
+        "w": 27,
+        "h": 36
+      },
+      "sha256": "c01c6cf6e11e1f41057751ca1c1ffc969d32d01f12b25dd571d67722d1dc7642"
+    },
+    {
+      "name": "pickup_south_04",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 1088,
+        "y": 42,
+        "w": 115,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 29,
+        "y": 20,
+        "w": 26,
+        "h": 52
+      },
+      "sha256": "b97984fa130e5b9da69cf2424e24f6c522c269f73b155c869479dd598b11d64c"
+    },
+    {
+      "name": "pickup_south_05",
+      "source": "../../sources/06-makar-pickup.png",
+      "sourceBounds": {
+        "x": 1311,
+        "y": 8,
+        "w": 111,
+        "h": 259
+      },
+      "fixedSourceAnchor": {
+        "x": 147.5,
+        "y": 268
+      },
+      "destination": {
+        "x": 21,
+        "y": 13,
+        "w": 25,
+        "h": 59
+      },
+      "sha256": "90b7e20ca3b0a0f8ac25b42e7ed58458e394c1395c80001dfc36c8742b533059"
+    },
+    {
+      "name": "search_south_00",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 57,
+        "y": 17,
+        "w": 153,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "8bf09a30ac965145a63fc41d28a36c17844731de108bc0aabe3be0f853d9bdfd"
+    },
+    {
+      "name": "search_south_01",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 325,
+        "y": 37,
+        "w": 134,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 24,
+        "w": 31,
+        "h": 49
+      },
+      "sha256": "d7bee3a63614ac830473cdbb05eee1658ae415264a66a209bb4e8c166d6cca30"
+    },
+    {
+      "name": "search_south_02",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 40,
+        "w": 130,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 24,
+        "w": 30,
+        "h": 48
+      },
+      "sha256": "0d64bb803e7e986729b089f9f5ca818e37df30029ad564d1cb1e6779ab255e98"
+    },
+    {
+      "name": "search_south_03",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 815,
+        "y": 14,
+        "w": 134,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "9afc5da167a446520e5b487891f656483deffece795cdba31aee1ceca54aa97c"
+    },
+    {
+      "name": "search_south_04",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 1089,
+        "y": 40,
+        "w": 134,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 24,
+        "w": 31,
+        "h": 48
+      },
+      "sha256": "054dd68e3c91f4f71957587ac58ebebf75f1ee30be5607b97a4bc552dfe84010"
+    },
+    {
+      "name": "search_south_05",
+      "source": "../../sources/06-makar-search.png",
+      "sourceBounds": {
+        "x": 1306,
+        "y": 18,
+        "w": 152,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 24,
+        "y": 19,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "739c83c2eedaece76d2f4dea792bdbda2240c0f2c2d97cd30edc7e3fc70eda73"
+    },
+    {
+      "name": "open_door_south_00",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 92,
+        "y": 11,
+        "w": 105,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 39,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "8c2e061e6c3cdc785aece8098bc7575fa8d85aac170e510a974a856731e6a088"
+    },
+    {
+      "name": "open_door_south_01",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 343,
+        "y": 11,
+        "w": 99,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "ee0054bd14d322ed9d1cd9d060fde271e7f976237b9ac6f1e5b2edf9d2b3c7b7"
+    },
+    {
+      "name": "open_door_south_02",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 591,
+        "y": 11,
+        "w": 102,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "e0b9b09f206c7944ba21d4a4728cc2b0372016a9ccbb43af3f1c91d307481302"
+    },
+    {
+      "name": "open_door_south_03",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 841,
+        "y": 11,
+        "w": 107,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "949ef49db90dab45d0a9d1e1e0cad9e5b300a59e3007bf916dd4e5d2ba37cd92"
+    },
+    {
+      "name": "open_door_south_04",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 1104,
+        "y": 11,
+        "w": 104,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "eccede437207ac2ae94f3228e9607e1b88f7fa9ed058fed7d744a406696c08b4"
+    },
+    {
+      "name": "open_door_south_05",
+      "source": "../../sources/06-makar-open_door.png",
+      "sourceBounds": {
+        "x": 1338,
+        "y": 11,
+        "w": 106,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 131.5,
+        "y": 254
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "978a37b41438ccb44190f8d0a1c9ae661df5b75ffefa35d37f2a4dda3d2c16dc"
+    },
+    {
+      "name": "eat_south_00",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 139,
+        "y": 7,
+        "w": 92,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 46,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "bb0ce81f13f3c19c047673b9e3e3d729b8909e81c048034397d0e2cea55b75a2"
+    },
+    {
+      "name": "eat_south_01",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 378,
+        "y": 7,
+        "w": 90,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 42,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "3d1a9bb94a6630ef2c5768ac7a0e853c37cb2ec6787fb40c0d698e5037209186"
+    },
+    {
+      "name": "eat_south_02",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 614,
+        "y": 7,
+        "w": 91,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "cb835c5828594016cdfe64fb33ab8ee7eac00cc54c09bed7263583564817d7d2"
+    },
+    {
+      "name": "eat_south_03",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 844,
+        "y": 8,
+        "w": 91,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "461167132ffef6612051597d0d348f88547c508d4a542b02b23d19a37d042016"
+    },
+    {
+      "name": "eat_south_04",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 8,
+        "w": 91,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 27,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "9724f9a2a610d2d8333f673cb30dbe981a2a0ab42e43708032e25cf7952eddad"
+    },
+    {
+      "name": "eat_south_05",
+      "source": "../../sources/06-makar-eat.png",
+      "sourceBounds": {
+        "x": 1312,
+        "y": 7,
+        "w": 90,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 248
+      },
+      "destination": {
+        "x": 22,
+        "y": 17,
+        "w": 21,
+        "h": 55
+      },
+      "sha256": "426228cb87743353fdd8000958a89d7ac859755a37f922ddfc77d1f2d2a5c219"
+    },
+    {
+      "name": "drink_south_00",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 89,
+        "y": 12,
+        "w": 102,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "bae87265732aa9d76403c67f5622309e92cc4b7399e5a1aa9c128915bd6db9b6"
+    },
+    {
+      "name": "drink_south_01",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 344,
+        "y": 12,
+        "w": 102,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "a3cf9599ba1cf501c42793bccfe154450b345947305aaea7bd5f641e0f1d58b3"
+    },
+    {
+      "name": "drink_south_02",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 12,
+        "w": 100,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "fd1379686d342c7a6f12c6eb9d2dbbdd9374639d9ff057b400a6666aa4753905"
+    },
+    {
+      "name": "drink_south_03",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 836,
+        "y": 10,
+        "w": 117,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "4d833a3b0f9c0c09944d00e5808c132bdc3cd0a555a08b0eb79963aff6bef9d0"
+    },
+    {
+      "name": "drink_south_04",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 1104,
+        "y": 12,
+        "w": 100,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "0b70b0ccc88cfdaf4c929e1ec56e0fc095324e4a16f0e3394608f605c379cf9f"
+    },
+    {
+      "name": "drink_south_05",
+      "source": "../../sources/06-makar-drink.png",
+      "sourceBounds": {
+        "x": 1356,
+        "y": 12,
+        "w": 102,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "87c3b6314a45a157783c1a6382a682deec23d0f60cba80494551d798b8b5e41e"
+    },
+    {
+      "name": "bandage_south_00",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 110,
+        "y": 4,
+        "w": 120,
+        "h": 252
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 41,
+        "y": 15,
+        "w": 27,
+        "h": 58
+      },
+      "sha256": "267d3adaf40c12ef7562933a419385bbaa0f8c88bc9e77a2737177f20d2c38cb"
+    },
+    {
+      "name": "bandage_south_01",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 367,
+        "y": 7,
+        "w": 106,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 41,
+        "y": 15,
+        "w": 24,
+        "h": 57
+      },
+      "sha256": "433b65636effe62f8eadd15f38101b93c912b99656112d7f8b46e2b19a3ee2ad"
+    },
+    {
+      "name": "bandage_south_02",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 604,
+        "y": 7,
+        "w": 100,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 37,
+        "y": 15,
+        "w": 23,
+        "h": 57
+      },
+      "sha256": "ad239414b6f23d9eceae394489f5aa025542a0605361faf3eb79befe3c2bca37"
+    },
+    {
+      "name": "bandage_south_03",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 7,
+        "w": 108,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 30,
+        "y": 15,
+        "w": 25,
+        "h": 57
+      },
+      "sha256": "f2090e13a621927fff7c747deafd46446a84797b6cdcc437048f7f23e0024e59"
+    },
+    {
+      "name": "bandage_south_04",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 1073,
+        "y": 7,
+        "w": 104,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 27,
+        "y": 15,
+        "w": 24,
+        "h": 57
+      },
+      "sha256": "49ecaa286e23aa44a35df443193ba19e3f73af86329283ce1a477b7b317d780a"
+    },
+    {
+      "name": "bandage_south_05",
+      "source": "../../sources/06-makar-bandage.png",
+      "sourceBounds": {
+        "x": 1314,
+        "y": 4,
+        "w": 122,
+        "h": 252
+      },
+      "fixedSourceAnchor": {
+        "x": 141.5,
+        "y": 255
+      },
+      "destination": {
+        "x": 23,
+        "y": 15,
+        "w": 28,
+        "h": 58
+      },
+      "sha256": "e0f386e9185e4a45de11e9aa2342e3fbc88640190d688985e1615a96961b3227"
+    },
+    {
+      "name": "heal_ally_south_00",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 77,
+        "y": 26,
+        "w": 135,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 31,
+        "h": 51
+      },
+      "sha256": "011e44332f31ae177a70e0d9af48f0d06955c68945584fa8c64aace704c59c4a"
+    },
+    {
+      "name": "heal_ally_south_01",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 337,
+        "y": 44,
+        "w": 138,
+        "h": 207
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 33,
+        "y": 25,
+        "w": 32,
+        "h": 47
+      },
+      "sha256": "94e8b4db916f6176d6fcaae16c64b037f1bc86e9b29e92e80079accc35baf4d9"
+    },
+    {
+      "name": "heal_ally_south_02",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 60,
+        "w": 150,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 29,
+        "w": 34,
+        "h": 43
+      },
+      "sha256": "d12dacf15aaa8c4eef5f88353fefe59399b706a1af31016ae420bfaed689a4db"
+    },
+    {
+      "name": "heal_ally_south_03",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 841,
+        "y": 60,
+        "w": 152,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 31,
+        "y": 29,
+        "w": 35,
+        "h": 43
+      },
+      "sha256": "878d742d0f4fd05d8aaa6666fdfaa1b476b9488d71fdf46c268b735a57b03ec6"
+    },
+    {
+      "name": "heal_ally_south_04",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 1092,
+        "y": 53,
+        "w": 150,
+        "h": 194
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 27,
+        "w": 34,
+        "h": 44
+      },
+      "sha256": "3bd8cebaeea4d4503f52b0ce22f951fdb7e601ff28001cd23e8ef5c02e6cf7e0"
+    },
+    {
+      "name": "heal_ally_south_05",
+      "source": "../../sources/06-makar-heal_ally.png",
+      "sourceBounds": {
+        "x": 1343,
+        "y": 36,
+        "w": 132,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 148.5,
+        "y": 250
+      },
+      "destination": {
+        "x": 28,
+        "y": 23,
+        "w": 30,
+        "h": 49
+      },
+      "sha256": "c84d2f7144ae421edcbce2c97f8c0ff5a9b405f2b5c7437c87c4cd5afc3503db"
+    },
+    {
+      "name": "craft_south_00",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 100,
+        "y": 17,
+        "w": 110,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "ea88e905fca6e4fcf161ce389ced4abb0cf3aacdaaeb8a2a5fddaddbc755bf88"
+    },
+    {
+      "name": "craft_south_01",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 369,
+        "y": 17,
+        "w": 106,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 40,
+        "y": 21,
+        "w": 24,
+        "h": 52
+      },
+      "sha256": "85d5b8129302bd231dbc59b78f259cfe2cc226f306a386960af600b4133ed402"
+    },
+    {
+      "name": "craft_south_02",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 607,
+        "y": 17,
+        "w": 105,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 24,
+        "h": 52
+      },
+      "sha256": "d951e5752c651aa44e160b0a1ad2654b588b4232b465f69b3cc612d0a5504696"
+    },
+    {
+      "name": "craft_south_03",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 854,
+        "y": 15,
+        "w": 108,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "7863bcec6b50c6d06361221f85a9fd77362df277f7407be45718ae6b15e90304"
+    },
+    {
+      "name": "craft_south_04",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 1090,
+        "y": 17,
+        "w": 118,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "19b62c64068ec27e0f24bf9e8f804b63632930a7cde3c6546bdbce9e4f8666e7"
+    },
+    {
+      "name": "craft_south_05",
+      "source": "../../sources/06-makar-craft.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 17,
+        "w": 111,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 242
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "31ec09dcf4cb8feedcbfc11fb26164c92a1dd4c49f1d45b1dc79ab2906c012a4"
+    },
+    {
+      "name": "build_south_00",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 126,
+        "y": 7,
+        "w": 122,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 43,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "97a5aa018ea609dae7c8cda37938bebf7b6b900cb3ef257567fc90cc667c68f6"
+    },
+    {
+      "name": "build_south_01",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 369,
+        "y": 7,
+        "w": 128,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "1a4738e6faa8618efd1226d88f8c7f603312b0f6d3cb721199ba8b018095194f"
+    },
+    {
+      "name": "build_south_02",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 598,
+        "y": 17,
+        "w": 128,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 29,
+        "h": 52
+      },
+      "sha256": "13f64affaa47b933ce74b3688fee35c0eab8f6231051ad3029fd0c4c34528f4c"
+    },
+    {
+      "name": "build_south_03",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 831,
+        "y": 7,
+        "w": 128,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "c7ed5a8d7a67b7b5df77f5609e887a3a047e4507ff8d706c5efab60a5108c7e0"
+    },
+    {
+      "name": "build_south_04",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 1055,
+        "y": 17,
+        "w": 126,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 21,
+        "y": 21,
+        "w": 29,
+        "h": 52
+      },
+      "sha256": "2f20c835fc231fbcd626102c64efbdb7dd5546568b801d41f71c7ee9b489c921"
+    },
+    {
+      "name": "build_south_05",
+      "source": "../../sources/06-makar-build.png",
+      "sourceBounds": {
+        "x": 1286,
+        "y": 7,
+        "w": 121,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 149.5,
+        "y": 242
+      },
+      "destination": {
+        "x": 15,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "a7baeaed578fec60c1ba0de34c5da2d021fdb43d3d403276bbc2cc140bac2132"
+    },
+    {
+      "name": "repair_south_00",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 12,
+        "w": 128,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "56fabb2751de4b0e790e00e7d1d074cc10a005239ef3f5ba1c9b9889a7172b10"
+    },
+    {
+      "name": "repair_south_01",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 13,
+        "w": 122,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "d41f448512075618c0cdd7263d87f2f2fdeea365f56157512748a4a3a75465b8"
+    },
+    {
+      "name": "repair_south_02",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 15,
+        "w": 133,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "f1081f34abbc26a2956903daa000276b085408a3327a97eaac44f954421cbdc0"
+    },
+    {
+      "name": "repair_south_03",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 17,
+        "w": 121,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "7ad25d30730db7c9112b4e8be6ee08a26f4bfe3605291c26fbfa6b78e0d13b4f"
+    },
+    {
+      "name": "repair_south_04",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 1087,
+        "y": 17,
+        "w": 123,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "e64b14dad3df6ea27fc99d6fc150fe1939bc4bbd6f3ea83e0669e5c29931c146"
+    },
+    {
+      "name": "repair_south_05",
+      "source": "../../sources/06-makar-repair.png",
+      "sourceBounds": {
+        "x": 1336,
+        "y": 12,
+        "w": 129,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "1316d380af3c3e0add7672c016e97bb6dd57f55949d56ddb8bae620c0ec0c03c"
+    },
+    {
+      "name": "chop_south_00",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 88,
+        "y": 40,
+        "w": 112,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 39,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "af65927a6ac5c5a63f59350fea96dc9d5e03475106f7a8881f98fc602e0c3f49"
+    },
+    {
+      "name": "chop_south_01",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 330,
+        "y": 40,
+        "w": 127,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 23,
+        "w": 29,
+        "h": 49
+      },
+      "sha256": "d2e2abe19ca1b72733eceacd508d5ffa4ee7bd4485d557a0099a2a8aa0b3f7b2"
+    },
+    {
+      "name": "chop_south_02",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 24,
+        "w": 126,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "4e7fb717cd74a4e4e853d54fd072826f613631a3e52e87e8e5ea4e86086fa294"
+    },
+    {
+      "name": "chop_south_03",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 814,
+        "y": 68,
+        "w": 135,
+        "h": 186
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 29,
+        "y": 30,
+        "w": 31,
+        "h": 43
+      },
+      "sha256": "21bab4627680d65e3f4514efec494c4a3849e9478334cb6e996ecb7c5879f59c"
+    },
+    {
+      "name": "chop_south_04",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 1063,
+        "y": 83,
+        "w": 141,
+        "h": 171
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 28,
+        "y": 33,
+        "w": 32,
+        "h": 39
+      },
+      "sha256": "612f6019470bbc8c930f34c9742ebc9f95e13ec2779f95bd8384a620efcc4018"
+    },
+    {
+      "name": "chop_south_05",
+      "source": "../../sources/06-makar-chop.png",
+      "sourceBounds": {
+        "x": 1338,
+        "y": 40,
+        "w": 112,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 253
+      },
+      "destination": {
+        "x": 32,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "2593573d5b86fe3b05ce8bbdf45f2ae169bd7e44593ca6862b15eb9ec09ff0f7"
+    },
+    {
+      "name": "mine_south_00",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 80,
+        "y": 29,
+        "w": 125,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 21,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "3fc687c1f2a3f669060d4806852bd4a57cd755ee12267f6c9e75a1133b71b994"
+    },
+    {
+      "name": "mine_south_01",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 14,
+        "w": 119,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "f97be94f96bdd3b68d201b9367ec57625d527db345f4339f0a4b33be1ad00e7e"
+    },
+    {
+      "name": "mine_south_02",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 4,
+        "w": 121,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 28,
+        "h": 57
+      },
+      "sha256": "57d639f4dacef4e544f9c493bba034958af8b53606cd86e804c23012f827b7f6"
+    },
+    {
+      "name": "mine_south_03",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 826,
+        "y": 64,
+        "w": 132,
+        "h": 188
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 32,
+        "y": 29,
+        "w": 30,
+        "h": 43
+      },
+      "sha256": "3f9158e42a2a565a471d1434c49346c9d7add6ecfaed6a088851c969ce2cca3c"
+    },
+    {
+      "name": "mine_south_04",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 1062,
+        "y": 76,
+        "w": 156,
+        "h": 176
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 27,
+        "y": 32,
+        "w": 36,
+        "h": 40
+      },
+      "sha256": "4c5b3451a8c769a0f2f495c0f7f013c8d3718304145042d2da33abdd2df4ec0a"
+    },
+    {
+      "name": "mine_south_05",
+      "source": "../../sources/06-makar-mine.png",
+      "sourceBounds": {
+        "x": 1332,
+        "y": 29,
+        "w": 125,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 29,
+        "h": 51
+      },
+      "sha256": "76079a6fa5ad1f68b7a4be8941b48c9d8b5ebf16eb3722d20062bd1a73713dab"
+    },
+    {
+      "name": "punch_south_00",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 101,
+        "y": 14,
+        "w": 131,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 30,
+        "h": 57
+      },
+      "sha256": "315ff39bde4346c73c4b21ad2e886fb8f6252354655ee646a9a69d86a5b1844b"
+    },
+    {
+      "name": "punch_south_01",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 331,
+        "y": 22,
+        "w": 148,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 34,
+        "h": 55
+      },
+      "sha256": "734e7834a6c10d76b1cc0497b4f7631f7047591d000d7bf2555ee5cef558043c"
+    },
+    {
+      "name": "punch_south_02",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 18,
+        "w": 141,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 32,
+        "h": 56
+      },
+      "sha256": "487eca401ad6fd3e5ff553bc58fe1820514afeaacb92198735c29a35e2437507"
+    },
+    {
+      "name": "punch_south_03",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 831,
+        "y": 18,
+        "w": 139,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 32,
+        "h": 56
+      },
+      "sha256": "876673f8b873d869d468d5f260316b835bbf44c6bc2c8557f63f936c7e22dcf7"
+    },
+    {
+      "name": "punch_south_04",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 24,
+        "w": 140,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 32,
+        "h": 54
+      },
+      "sha256": "411f6254a248df5a4dfa8d64ebba7e043280f5f3e4a359791ed083a1fe7a8cb2"
+    },
+    {
+      "name": "punch_south_05",
+      "source": "../../sources/06-makar-punch.png",
+      "sourceBounds": {
+        "x": 1322,
+        "y": 15,
+        "w": 133,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 135,
+        "y": 261
+      },
+      "destination": {
+        "x": 27,
+        "y": 16,
+        "w": 30,
+        "h": 56
+      },
+      "sha256": "c1c4d2f5724a3e79ce1fa3ddb3464390e2825bbfe12df0b4e0f5ba7ff2ac533c"
+    },
+    {
+      "name": "one_hand_strike_south_00",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 88,
+        "y": 19,
+        "w": 122,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "7c13ecdfaf9bdfdff722f6d58dbb81a486877e249210c206de4d288f0fe75055"
+    },
+    {
+      "name": "one_hand_strike_south_01",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 328,
+        "y": 23,
+        "w": 146,
+        "h": 223
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 33,
+        "h": 51
+      },
+      "sha256": "2ed48ea6d711b21b1c25d1f2cb77c9820306930995476eb646acb15e2ee8376b"
+    },
+    {
+      "name": "one_hand_strike_south_02",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 31,
+        "w": 157,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 28,
+        "y": 23,
+        "w": 36,
+        "h": 49
+      },
+      "sha256": "9def2813b51386e532820a780b15b448522f00c58831535500180faa68cf2eec"
+    },
+    {
+      "name": "one_hand_strike_south_03",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 816,
+        "y": 37,
+        "w": 189,
+        "h": 209
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 27,
+        "y": 24,
+        "w": 43,
+        "h": 48
+      },
+      "sha256": "d6fe4283fbc5bb746eee7c7b1e71be00eb25c6587f7dec3226a1191a76dcb4a7"
+    },
+    {
+      "name": "one_hand_strike_south_04",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1067,
+        "y": 38,
+        "w": 172,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 25,
+        "y": 24,
+        "w": 39,
+        "h": 48
+      },
+      "sha256": "5ad418b22e69f1ceccb7469dd76d8cd6e701d2d71a195a24ecb33696bb4380d8"
+    },
+    {
+      "name": "one_hand_strike_south_05",
+      "source": "../../sources/06-makar-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1327,
+        "y": 20,
+        "w": 123,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 247
+      },
+      "destination": {
+        "x": 26,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "aa566972a51b5666cf4d7d5479759230bab9ee847080d6bfb0c855af20153d0c"
+    },
+    {
+      "name": "two_hand_strike_south_00",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 18,
+        "w": 132,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 30,
+        "h": 53
+      },
+      "sha256": "440bf02a939b969851fc93aab37f9cfcf8def48547c94646c0552380819aad53"
+    },
+    {
+      "name": "two_hand_strike_south_01",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 19,
+        "w": 137,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "c55b64c8db115bc4ff96a9038df38fffead9290d4d8f6a276eb6e6a8948bb81c"
+    },
+    {
+      "name": "two_hand_strike_south_02",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 6,
+        "w": 136,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "9471eef4a62ed6706375b0f24fee869483b23995099ffa5be3a301bc48316e21"
+    },
+    {
+      "name": "two_hand_strike_south_03",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 823,
+        "y": 34,
+        "w": 156,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 28,
+        "y": 22,
+        "w": 36,
+        "h": 50
+      },
+      "sha256": "3113567e1c3f305ca01f19c8ec7a3a19f6128b0e9a733523d089e94df29ad630"
+    },
+    {
+      "name": "two_hand_strike_south_04",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1074,
+        "y": 19,
+        "w": 147,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 26,
+        "y": 19,
+        "w": 34,
+        "h": 53
+      },
+      "sha256": "2ca716349b77a94a7b332217d3c7993a8e5735cbcb7d8b28d5038a69e4fb8b64"
+    },
+    {
+      "name": "two_hand_strike_south_05",
+      "source": "../../sources/06-makar-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1316,
+        "y": 15,
+        "w": 135,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 144.5,
+        "y": 252
+      },
+      "destination": {
+        "x": 23,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "4d05e21e3c0e59994256ac52032b661eacd31cbdccf5909ff7ffc717a2bc599c"
+    },
+    {
+      "name": "shove_south_00",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 6,
+        "w": 113,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "61bd2ac3c0ffa717fddf266d9870043d60ea5a39e25a75cc77ca31b053faf7fa"
+    },
+    {
+      "name": "shove_south_01",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 6,
+        "w": 129,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "af690ae20bf36e73b97b0417467e063665d275419161bd20c6f648c704e20c70"
+    },
+    {
+      "name": "shove_south_02",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 583,
+        "y": 6,
+        "w": 130,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "e870a0d3b455a856d4550eb853df6d688a7d914b288c190c49ae9257719d213d"
+    },
+    {
+      "name": "shove_south_03",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 824,
+        "y": 6,
+        "w": 143,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 33,
+        "h": 54
+      },
+      "sha256": "65d4b79e3b9abbb9936c1597f13a2930503763e79dc2974216870307c175d775"
+    },
+    {
+      "name": "shove_south_04",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 1078,
+        "y": 6,
+        "w": 132,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "e9971f82257893447e9044bff6a8d2fe31621d0f6847444d964e1ddd7153e2bf"
+    },
+    {
+      "name": "shove_south_05",
+      "source": "../../sources/06-makar-shove.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 6,
+        "w": 117,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 135.5,
+        "y": 241
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "9f50a807d13c5c1919fad909262ddf9c8adc6acf1e54587e981d3ce960cf6c89"
+    },
+    {
+      "name": "pistol_hold_south_00",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 95,
+        "y": 9,
+        "w": 102,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "9a942a1da2ca1c6c24f90370c5dfcb29d7d566463a11858bda2b8a0ed6870e02"
+    },
+    {
+      "name": "pistol_hold_south_01",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 354,
+        "y": 9,
+        "w": 103,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "643eef4c99d63f740434e8a6061324d9a0ac97daa6d9b7f7f42a2438b7f3edb1"
+    },
+    {
+      "name": "pistol_hold_south_02",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 599,
+        "y": 20,
+        "w": 109,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "7306ab34ec51e5c4b35985c1176a4b1fd251216379ad266e16c9a7effd3d801f"
+    },
+    {
+      "name": "pistol_hold_south_03",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 844,
+        "y": 9,
+        "w": 103,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "ba380479ed8121e493b73af2c03f84ce1b1d53a49345ce1ac2990abeb74f2369"
+    },
+    {
+      "name": "pistol_hold_south_04",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1097,
+        "y": 10,
+        "w": 107,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "508f6b001280709a59f3f61c75e2d0d3ed1d694c8576f289cb27464a073705ce"
+    },
+    {
+      "name": "pistol_hold_south_05",
+      "source": "../../sources/06-makar-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1355,
+        "y": 9,
+        "w": 103,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 141,
+        "y": 246
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 24,
+        "h": 54
+      },
+      "sha256": "d211522e4a7ed2f9e9bcddb0767c959e317203a510b09446019045c26a0e5358"
+    },
+    {
+      "name": "pistol_aim_south_00",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 94,
+        "y": 20,
+        "w": 108,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 25,
+        "h": 53
+      },
+      "sha256": "308dd26f94035f5bfbd1aca68f8fc558a2ed86db4f119cbe722f71a3a52251d3"
+    },
+    {
+      "name": "pistol_aim_south_01",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 344,
+        "y": 20,
+        "w": 115,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "7de305295e3d96164b6d9b175006bd12ca438f81cf4a322e5d52b2d58184380f"
+    },
+    {
+      "name": "pistol_aim_south_02",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 581,
+        "y": 35,
+        "w": 124,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 23,
+        "w": 28,
+        "h": 49
+      },
+      "sha256": "d1f3bb7be832d7a06c8c44eb7ef321c77f9b525cea182f1d3fbb5455feac3e53"
+    },
+    {
+      "name": "pistol_aim_south_03",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 23,
+        "w": 123,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 32,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "0fb652b0d7000cb53d17b90ae87d21487561ab05b235fc72a2fa59d72545b41c"
+    },
+    {
+      "name": "pistol_aim_south_04",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1079,
+        "y": 30,
+        "w": 117,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "967122416d6ffd4eb155e594ab23d455dfd5abc18fbf5021060dcb9bf91b8416"
+    },
+    {
+      "name": "pistol_aim_south_05",
+      "source": "../../sources/06-makar-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1329,
+        "y": 20,
+        "w": 114,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "58312b10b8742e3944f502a8045d853316dcd238c434558c51c525de0724ec94"
+    },
+    {
+      "name": "pistol_fire_south_00",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 112,
+        "y": 16,
+        "w": 98,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "ae51e939b44a25e6c06103cac99de5deacb5c67187f9e2de65815ca04d32cb60"
+    },
+    {
+      "name": "pistol_fire_south_01",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 355,
+        "y": 17,
+        "w": 99,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "8ef9d7c811be6f4993fde877fdadc316199a74e9f59e4c604185b1913c8a3821"
+    },
+    {
+      "name": "pistol_fire_south_02",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 603,
+        "y": 13,
+        "w": 109,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 36,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "f2ae8eb62bc09d5226bfc5c9a362548ebd09e394990f6af9ef049674f1c11a2b"
+    },
+    {
+      "name": "pistol_fire_south_03",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 839,
+        "y": 16,
+        "w": 99,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "0d0f56a1a5d1af9ab14c224a4f303ff78fc531f9615d3f29e5b288c93c9b50fa"
+    },
+    {
+      "name": "pistol_fire_south_04",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 18,
+        "w": 100,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "2a8b01032192737719a37e0d4d154af75925e3d625e930aea80dc73c12cca2e7"
+    },
+    {
+      "name": "pistol_fire_south_05",
+      "source": "../../sources/06-makar-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 17,
+        "w": 100,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 26,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "974f31d7da20f482a30bd555919f633675f284fe9274a0d402c759909b181780"
+    },
+    {
+      "name": "pistol_reload_south_00",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 131,
+        "y": 13,
+        "w": 113,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 44,
+        "y": 17,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "f6e34b1da88f3c82354d269b76c8e843ed213873d9ff0bfa0e2e1b61e63a918a"
+    },
+    {
+      "name": "pistol_reload_south_01",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 366,
+        "y": 14,
+        "w": 124,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "e0c23dc31f484f25cc6589ab8551422c9a4388721af9993bace06de89ceafe12"
+    },
+    {
+      "name": "pistol_reload_south_02",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 602,
+        "y": 14,
+        "w": 119,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "8f9c3172e50500326e092bbfb1023ee7f6b41995cccfe6e7c89fc11196869f73"
+    },
+    {
+      "name": "pistol_reload_south_03",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 830,
+        "y": 16,
+        "w": 112,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 26,
+        "h": 55
+      },
+      "sha256": "f72f06a7c527ce6d9c1f4038621bf62b3f8ea010a0c668123a74f1de60155a7a"
+    },
+    {
+      "name": "pistol_reload_south_04",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1059,
+        "y": 13,
+        "w": 125,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 22,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "0ec9a2f74150649293cd8f11d59593e1ba337bf269d95455c530412d598fe8e4"
+    },
+    {
+      "name": "pistol_reload_south_05",
+      "source": "../../sources/06-makar-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1299,
+        "y": 14,
+        "w": 116,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 149,
+        "y": 253
+      },
+      "destination": {
+        "x": 18,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "d05dac675a39e574fe49d319da1e3f0b05394ac2b0430f3cb8f1c6939f94bc14"
+    },
+    {
+      "name": "longgun_hold_south_00",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 19,
+        "w": 100,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 43,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "1ce15e114e84fa6e0f59544eb6f59ad47ab4e356baadecf4ffc579d9c40e38bb"
+    },
+    {
+      "name": "longgun_hold_south_01",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 344,
+        "y": 20,
+        "w": 103,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "b7536b752a8736e1d712d250330e402ac2ab7d4ea62b2ac6bd0016e335eff68f"
+    },
+    {
+      "name": "longgun_hold_south_02",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 586,
+        "y": 20,
+        "w": 103,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "1292cfe17625be87883898bf19322e90915c6e2daf70a5baa79ce57ba0b85a3a"
+    },
+    {
+      "name": "longgun_hold_south_03",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 20,
+        "w": 105,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "b6a4ca0b0c879b4375889a289b0b4936562b104f2dbd5cfe7ec103740adc1cfd"
+    },
+    {
+      "name": "longgun_hold_south_04",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1077,
+        "y": 20,
+        "w": 106,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "776248d7ce6a7900741b37637abdbc6eead6978eb1396cf1a2a499682910838f"
+    },
+    {
+      "name": "longgun_hold_south_05",
+      "source": "../../sources/06-makar-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 19,
+        "w": 101,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 125,
+        "y": 252
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "71d27f990b7cd351ce6e4d24847314a9518551f0ba8a08c740e7118e17abd8eb"
+    },
+    {
+      "name": "longgun_aim_south_00",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 21,
+        "w": 117,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 20,
+        "w": 27,
+        "h": 52
+      },
+      "sha256": "cf466b2db8643d912443c5c4e4ab6d70129e5e27a7bfc86e65068c35e7c641b3"
+    },
+    {
+      "name": "longgun_aim_south_01",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 24,
+        "w": 132,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 30,
+        "h": 51
+      },
+      "sha256": "7b322b49c8422bb4b85df40aac27d5193914f125560072eb81763f70cd203032"
+    },
+    {
+      "name": "longgun_aim_south_02",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 587,
+        "y": 26,
+        "w": 131,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 30,
+        "h": 51
+      },
+      "sha256": "69a8bf84ab62bed3ee1d8b0a944dad441af2f0a138b37baf723b1211d1886244"
+    },
+    {
+      "name": "longgun_aim_south_03",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 835,
+        "y": 22,
+        "w": 123,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "f180ac1ba0a1da70aaf63107757133eea57d8056a4e500b6cc101328eddcaad6"
+    },
+    {
+      "name": "longgun_aim_south_04",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1076,
+        "y": 22,
+        "w": 136,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 28,
+        "y": 20,
+        "w": 31,
+        "h": 52
+      },
+      "sha256": "d618f5db47bc9bf8a6e7aa5e068fc0c1abf678f7304dc9777e9171a9be4f77cf"
+    },
+    {
+      "name": "longgun_aim_south_05",
+      "source": "../../sources/06-makar-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1330,
+        "y": 22,
+        "w": 123,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 140,
+        "y": 249
+      },
+      "destination": {
+        "x": 27,
+        "y": 20,
+        "w": 28,
+        "h": 52
+      },
+      "sha256": "e4eb7d4eb67481f2bb63907481a8cd9d12a6fb8b15c2705ca4352178fd38d6fb"
+    },
+    {
+      "name": "longgun_fire_south_00",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 12,
+        "w": 125,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "99b2384585dccb9f6e7f050957ece960ffdf6313a96a8e283b3ac7afdb09d949"
+    },
+    {
+      "name": "longgun_fire_south_01",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 342,
+        "y": 12,
+        "w": 125,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "b5018e71f5470fb9d3ce54c887c5153189a8fd4a8c18dc003a6ef040c2eafd9c"
+    },
+    {
+      "name": "longgun_fire_south_02",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 590,
+        "y": 12,
+        "w": 127,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "6c99e1d1336955a1af23d0d76d1ce47bc2c71598c6e2391c2d6456231dda7e68"
+    },
+    {
+      "name": "longgun_fire_south_03",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 851,
+        "y": 11,
+        "w": 126,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "ca75d4a4efa91dbeef1ba0d8eb41b32783e56b5b1e7fe908a438a11f910d9b20"
+    },
+    {
+      "name": "longgun_fire_south_04",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1106,
+        "y": 12,
+        "w": 128,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "5cb9a37c46dd1be1d5603a360d8f7de5b14fba2335bc00488ee4c212abcea14d"
+    },
+    {
+      "name": "longgun_fire_south_05",
+      "source": "../../sources/06-makar-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1362,
+        "y": 12,
+        "w": 128,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 145.5,
+        "y": 245
+      },
+      "destination": {
+        "x": 33,
+        "y": 19,
+        "w": 29,
+        "h": 53
+      },
+      "sha256": "e4f6d865ea993ec51240c8aaa817c8f7bab2fff609152d9b2d5e9274a4d4616f"
+    },
+    {
+      "name": "longgun_reload_south_00",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 117,
+        "y": 8,
+        "w": 112,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "23bf2f9ea8c76c67c8aafccd6739810665ba16d0d8aaa3a720e86eb498ed5496"
+    },
+    {
+      "name": "longgun_reload_south_01",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 370,
+        "y": 8,
+        "w": 116,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 40,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "d556d599946f1ee948fbac1a7543e3e5f112a84f18c4f39816bad73630370450"
+    },
+    {
+      "name": "longgun_reload_south_02",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 608,
+        "y": 8,
+        "w": 109,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "76b5eae7b02841a252c02214ce056ec56f429ceb908c82a729cedcff2ef1df96"
+    },
+    {
+      "name": "longgun_reload_south_03",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 8,
+        "w": 111,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "d618d9cecfdba667f9f5be77c16a0adef8403921c8ee1d7a5f373326e87c023c"
+    },
+    {
+      "name": "longgun_reload_south_04",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 8,
+        "w": 128,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 25,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "4eae021e097a23443bb421c01da3d97d361de3b48cf8f760c03569267a3feb2f"
+    },
+    {
+      "name": "longgun_reload_south_05",
+      "source": "../../sources/06-makar-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1311,
+        "y": 8,
+        "w": 112,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 150,
+        "y": 252
+      },
+      "destination": {
+        "x": 21,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "8ced6b5bf186aa7a44f1a2310273203908bfa279d08bc5c9dec65217220709cb"
+    },
+    {
+      "name": "throw_south_00",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 89,
+        "y": 13,
+        "w": 107,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 36,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "4670f2555d34a31e2c812434debd5b90cb6077248a888ce60c6fc58dde9cf713"
+    },
+    {
+      "name": "throw_south_01",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 338,
+        "y": 17,
+        "w": 143,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 20,
+        "w": 33,
+        "h": 53
+      },
+      "sha256": "27ae29d8e5e07f50b1a54c96e159226638435f978adad5c262afb509338aeea6"
+    },
+    {
+      "name": "throw_south_02",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 577,
+        "y": 16,
+        "w": 137,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 31,
+        "h": 53
+      },
+      "sha256": "fea5619218e38e02729f420f48ab0ad1b33ad8b9068c72d02efa7f8b74640457"
+    },
+    {
+      "name": "throw_south_03",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 810,
+        "y": 17,
+        "w": 201,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 25,
+        "y": 20,
+        "w": 46,
+        "h": 53
+      },
+      "sha256": "4c159cd4662130eaa45779d1b5ff7c99484cbfa46634ef582ba943263af45793"
+    },
+    {
+      "name": "throw_south_04",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 1065,
+        "y": 23,
+        "w": 144,
+        "h": 224
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 25,
+        "y": 21,
+        "w": 33,
+        "h": 51
+      },
+      "sha256": "dde3558fc5dda3ad8d94926acd9a2a214999e88b172e96bff778b52b66655818"
+    },
+    {
+      "name": "throw_south_05",
+      "source": "../../sources/06-makar-throw.png",
+      "sourceBounds": {
+        "x": 1338,
+        "y": 13,
+        "w": 107,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 142,
+        "y": 246
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 24,
+        "h": 53
+      },
+      "sha256": "c85c4db7fc714dfb647697bfb03978a2f5289917ee825484906c9365cc074083"
+    },
+    {
+      "name": "hurt_south_00",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 91,
+        "y": 14,
+        "w": 105,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "db46fe02253b83e9e832df2a4062943fe17fb2c6e8528284f164880d0e12d9ba"
+    },
+    {
+      "name": "hurt_south_01",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 329,
+        "y": 17,
+        "w": 132,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 30,
+        "h": 54
+      },
+      "sha256": "7e54db8cd250c5791641f0a1f5bc42e9e7591a4e726b708112244e417b7a8db2"
+    },
+    {
+      "name": "hurt_south_02",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 574,
+        "y": 29,
+        "w": 139,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 32,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "4e6cff4c5ed785921701f19e33bf5661a22f07228a799a3c2d3123297d8150d4"
+    },
+    {
+      "name": "hurt_south_03",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 840,
+        "y": 34,
+        "w": 123,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 34,
+        "y": 22,
+        "w": 28,
+        "h": 50
+      },
+      "sha256": "38a8bbb14e6dad98b07a15b0b15cc6256966c9af71b03d8d35c996a873077248"
+    },
+    {
+      "name": "hurt_south_04",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 1102,
+        "y": 33,
+        "w": 106,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 35,
+        "y": 22,
+        "w": 24,
+        "h": 51
+      },
+      "sha256": "e832f447a541b0eb4a2794a88aa98319dc8c3b08f52fa5dd82d6c84ba9628a07"
+    },
+    {
+      "name": "hurt_south_05",
+      "source": "../../sources/06-makar-hurt.png",
+      "sourceBounds": {
+        "x": 1340,
+        "y": 14,
+        "w": 105,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 133,
+        "y": 253
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 24,
+        "h": 55
+      },
+      "sha256": "9d355b04d935851b4accf6437bc9f8dd7430e4ac4836ae0b7297f2a6e0012f42"
+    },
+    {
+      "name": "stunned_south_00",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 121,
+        "y": 15,
+        "w": 112,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 46,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "2a7f65193b41060b77848ca4200e806e29dd25bbb001f3b0b4f5fc7aac3d27bf"
+    },
+    {
+      "name": "stunned_south_01",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 350,
+        "y": 14,
+        "w": 108,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "15ddeebb743b066b6723c689bd6a39ad2ff33fb2b16b9a3d75890ba56939388b"
+    },
+    {
+      "name": "stunned_south_02",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 588,
+        "y": 24,
+        "w": 109,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 36,
+        "y": 20,
+        "w": 25,
+        "h": 52
+      },
+      "sha256": "89cce186725c45bef61093471c3ffa343ddba07a0953732b674299bcf93733d5"
+    },
+    {
+      "name": "stunned_south_03",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 14,
+        "w": 109,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "33cac02170f8d90e48bb5be9bcda7ab3acf69a9198fd46af352c705d997622d7"
+    },
+    {
+      "name": "stunned_south_04",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 1073,
+        "y": 14,
+        "w": 113,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 29,
+        "y": 18,
+        "w": 26,
+        "h": 54
+      },
+      "sha256": "c60706280ebab4d265a4e2c8ed517853d5ed3f54994b829bde8308d17cd7f386"
+    },
+    {
+      "name": "stunned_south_05",
+      "source": "../../sources/06-makar-stunned.png",
+      "sourceBounds": {
+        "x": 1310,
+        "y": 14,
+        "w": 109,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 130,
+        "y": 251
+      },
+      "destination": {
+        "x": 25,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "574094485e1e30c7b8c4984ac566eb11a0d4bbd06b6d8ad4f86621d063076482"
+    },
+    {
+      "name": "knockback_south_00",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 93,
+        "y": 7,
+        "w": 102,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "cf62c6fe0ee3c18f9f7547d234abb7e542409873c0de24b35171bbaff31c659d"
+    },
+    {
+      "name": "knockback_south_01",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 318,
+        "y": 19,
+        "w": 181,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 41,
+        "h": 52
+      },
+      "sha256": "f93f4e86ebcb618c6cd67ed49428f2806da4c24449590141fa460da36194c518"
+    },
+    {
+      "name": "knockback_south_02",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 571,
+        "y": 20,
+        "w": 196,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 27,
+        "y": 21,
+        "w": 45,
+        "h": 51
+      },
+      "sha256": "e788254cd5f8ad388f3c0b97cdea3b6bd9ebdedddd596151976d45c22594b2a0"
+    },
+    {
+      "name": "knockback_south_03",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 76,
+        "w": 196,
+        "h": 169
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 25,
+        "y": 34,
+        "w": 45,
+        "h": 39
+      },
+      "sha256": "c1d612d749c0a2f7dc874230c1655309816b39fdb81ed8c0ce6f9fa93b86f2b1"
+    },
+    {
+      "name": "knockback_south_04",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 1090,
+        "y": 46,
+        "w": 172,
+        "h": 199
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 27,
+        "w": 39,
+        "h": 45
+      },
+      "sha256": "d96d0e2d3791cd8d4106c143c7bd59362ecc82d9aaf8b3949197b007a59f4d20"
+    },
+    {
+      "name": "knockback_south_05",
+      "source": "../../sources/06-makar-knockback.png",
+      "sourceBounds": {
+        "x": 1353,
+        "y": 7,
+        "w": 102,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "73fe8d9d81fa8803bef4d7c525296fdee1788713ddcadd0c76555b7dc9c9314b"
+    },
+    {
+      "name": "death_south_00",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 87,
+        "y": 19,
+        "w": 104,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "d3efbea8c23d868696a48846b38cfac6dd10008612e55884621877398298ef06"
+    },
+    {
+      "name": "death_south_01",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 302,
+        "y": 36,
+        "w": 172,
+        "h": 228
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 27,
+        "y": 20,
+        "w": 39,
+        "h": 52
+      },
+      "sha256": "89746a824eac23e89f8f63117fffc32424d6581a41af4243cd0ee3efdc0657fc"
+    },
+    {
+      "name": "death_south_02",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 532,
+        "y": 80,
+        "w": 153,
+        "h": 184
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 21,
+        "y": 30,
+        "w": 35,
+        "h": 42
+      },
+      "sha256": "c5a8c4a4e4113a3d210bd7c532693e7744ffe6d67104621dea24f383da1ba463"
+    },
+    {
+      "name": "death_south_03",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 755,
+        "y": 125,
+        "w": 175,
+        "h": 139
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 13,
+        "y": 40,
+        "w": 40,
+        "h": 32
+      },
+      "sha256": "441ef306556f86f4cc79a396f5952f6032c5eb344fd955d5e50f13f25403fd98"
+    },
+    {
+      "name": "death_south_04",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 990,
+        "y": 148,
+        "w": 233,
+        "h": 115
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 9,
+        "y": 46,
+        "w": 53,
+        "h": 26
+      },
+      "sha256": "eab2f48d60b942f1976fef46dca94e3cb72741c9139cbf6137ba061968e07366"
+    },
+    {
+      "name": "death_south_05",
+      "source": "../../sources/06-makar-death.png",
+      "sourceBounds": {
+        "x": 1259,
+        "y": 181,
+        "w": 246,
+        "h": 80
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 263
+      },
+      "destination": {
+        "x": 12,
+        "y": 53,
+        "w": 56,
+        "h": 18
+      },
+      "sha256": "ca01f0b75169895d0a55000075d069020a0cc5873a20c8b92522abb34663912d"
+    }
+  ]
+}

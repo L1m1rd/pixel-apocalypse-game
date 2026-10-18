@@ -1,0 +1,4542 @@
+{
+  "sharedCharacterScale": 0.23140495867768596,
+  "allActionsSameScale": true,
+  "frames": [
+    {
+      "name": "idle_east_00",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 144,
+        "y": 517,
+        "w": 76,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 50,
+        "y": 16,
+        "w": 18,
+        "h": 56
+      },
+      "sha256": "4b8db4251a0ba7256c3aedbff40fa2d6e9ddea2e2caa097b1b4518fbd96644d4"
+    },
+    {
+      "name": "idle_east_01",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 371,
+        "y": 517,
+        "w": 83,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 44,
+        "y": 16,
+        "w": 19,
+        "h": 56
+      },
+      "sha256": "e64e37969f740f8885d6b379ff4800a062eae4caad934058c8a0e409550dad92"
+    },
+    {
+      "name": "idle_east_02",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 604,
+        "y": 517,
+        "w": 85,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 20,
+        "h": 56
+      },
+      "sha256": "3f42a31a024698e06b3f6bb28c830f8f9631977726f4da682c8478bcb596fc63"
+    },
+    {
+      "name": "idle_east_03",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 846,
+        "y": 517,
+        "w": 77,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 18,
+        "h": 56
+      },
+      "sha256": "04adf05b91c961f5d5c5e951ca0544cccabdcab408a997503e9bbdfe5c2ab4b5"
+    },
+    {
+      "name": "idle_east_04",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 1074,
+        "y": 516,
+        "w": 82,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 29,
+        "y": 16,
+        "w": 19,
+        "h": 56
+      },
+      "sha256": "d6b3ba2bfa337ec1a7a7c85c32cf3bcaf17017d11c235ac97718ef9a3fc1cca5"
+    },
+    {
+      "name": "idle_east_05",
+      "source": "../../sources/05-timur-idle.png",
+      "sourceBounds": {
+        "x": 1318,
+        "y": 516,
+        "w": 76,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 246
+      },
+      "destination": {
+        "x": 26,
+        "y": 16,
+        "w": 18,
+        "h": 56
+      },
+      "sha256": "1ed54d1dabc9cdd7349a48ee1186668147567889590dbb54a6c7be97fd9ad720"
+    },
+    {
+      "name": "walk_east_00",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 100,
+        "y": 517,
+        "w": 118,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 41,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "ac4a9bc3124a0781b6d679708d0f7b323c5280eb9872a614114495ef683f3f82"
+    },
+    {
+      "name": "walk_east_01",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 517,
+        "w": 131,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "0f5c7567c57ecd00a13781175a79cbab528f63720a2f1f0290b8e89fce82d0bb"
+    },
+    {
+      "name": "walk_east_02",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 579,
+        "y": 517,
+        "w": 129,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 30,
+        "h": 55
+      },
+      "sha256": "5ffc5458bc6c7acae56852b6c8d8b53bfa53cdec1d74ace48f8f2f8c96cb6c57"
+    },
+    {
+      "name": "walk_east_03",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 828,
+        "y": 517,
+        "w": 119,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "e260f1c7e0a05beedcc4da99b6879c0883fbcda6551c299bf222f39955a6cd89"
+    },
+    {
+      "name": "walk_east_04",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 1054,
+        "y": 517,
+        "w": 135,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 25,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "fe870f81f3f1fc491d1c7bb741bd6ba90595dd28c334c154ab06ce36b04d8bfe"
+    },
+    {
+      "name": "walk_east_05",
+      "source": "../../sources/05-timur-walk.png",
+      "sourceBounds": {
+        "x": 1308,
+        "y": 517,
+        "w": 127,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 131,
+        "y": 243
+      },
+      "destination": {
+        "x": 24,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "36ea85822977457c5b1f17c009d8fe839f6bac6962d404250743fb1e7c124ca0"
+    },
+    {
+      "name": "run_east_00",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 56,
+        "y": 524,
+        "w": 153,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 35,
+        "h": 56
+      },
+      "sha256": "356d655e2aeec94dc2a399a06248e3dbc269ac20c2530f19dc4cdd3a67e630e9"
+    },
+    {
+      "name": "run_east_01",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 312,
+        "y": 524,
+        "w": 148,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 34,
+        "h": 53
+      },
+      "sha256": "e40a55b608e69e04cef40b99201bb215a813adb557af6527c1b17ce0002f1f85"
+    },
+    {
+      "name": "run_east_02",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 552,
+        "y": 519,
+        "w": 155,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "aa930db7c490e8914696693145e8876b84aa3eb2f608a01da0d868d9263b279d"
+    },
+    {
+      "name": "run_east_03",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 813,
+        "y": 524,
+        "w": 143,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 33,
+        "h": 56
+      },
+      "sha256": "1ca1ea95a1a04f3d77ba5675de1935d98cc14afe326b669efd2050cd7390ca15"
+    },
+    {
+      "name": "run_east_04",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 1048,
+        "y": 519,
+        "w": 155,
+        "h": 245
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 26,
+        "y": 16,
+        "w": 36,
+        "h": 57
+      },
+      "sha256": "efa231f117cff334c9278a53fb1d2637bb6d2ec9a11cca8d4587c2997b05b0a2"
+    },
+    {
+      "name": "run_east_05",
+      "source": "../../sources/05-timur-run.png",
+      "sourceBounds": {
+        "x": 1300,
+        "y": 519,
+        "w": 150,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 117,
+        "y": 251
+      },
+      "destination": {
+        "x": 26,
+        "y": 16,
+        "w": 35,
+        "h": 53
+      },
+      "sha256": "d0d6a00a841450701158a9e045234e97256b46534ce62606ef801325e1de1b5e"
+    },
+    {
+      "name": "crouch_down_east_00",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 100,
+        "y": 526,
+        "w": 73,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 39,
+        "y": 19,
+        "w": 17,
+        "h": 53
+      },
+      "sha256": "08a4bbca6b9f213f2bddf3af9e386e3a615f70b2a352eb536fa91220929c7945"
+    },
+    {
+      "name": "crouch_down_east_01",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 360,
+        "y": 547,
+        "w": 96,
+        "h": 209
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 40,
+        "y": 24,
+        "w": 22,
+        "h": 48
+      },
+      "sha256": "8c81ab8564746cd2dc030827215d8699e2959f652ca38621307b2cf0ab21eb15"
+    },
+    {
+      "name": "crouch_down_east_02",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 603,
+        "y": 572,
+        "w": 110,
+        "h": 184
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 37,
+        "y": 30,
+        "w": 25,
+        "h": 43
+      },
+      "sha256": "408a079079e92358077b7572bacffd7b58f458aac7ef96b4a8a6b95375d76d6f"
+    },
+    {
+      "name": "crouch_down_east_03",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 849,
+        "y": 589,
+        "w": 119,
+        "h": 167
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 34,
+        "w": 28,
+        "h": 39
+      },
+      "sha256": "07e314338b7e3c5458aa3adc266890405970b895c7a53e9dfb5099c2a112a739"
+    },
+    {
+      "name": "crouch_down_east_04",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 1104,
+        "y": 612,
+        "w": 122,
+        "h": 144
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 34,
+        "y": 39,
+        "w": 28,
+        "h": 33
+      },
+      "sha256": "fdebbcc128f38c3597fab8f89d9e9636e30b0a294feec2e160c9257dedd49721"
+    },
+    {
+      "name": "crouch_down_east_05",
+      "source": "../../sources/05-timur-crouch_down.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 623,
+        "w": 124,
+        "h": 133
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 41,
+        "w": 29,
+        "h": 31
+      },
+      "sha256": "bf1fe52c5fa13865ac66019a48c1191aa813b6bf3c528c69a134048e478c367f"
+    },
+    {
+      "name": "crouch_idle_east_00",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 42,
+        "y": 525,
+        "w": 195,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 45,
+        "h": 50
+      },
+      "sha256": "2e0a57d4c667e22708766832e56857fbc6d21fd0728b9bd7f8d418288036c31f"
+    },
+    {
+      "name": "crouch_idle_east_01",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 305,
+        "y": 526,
+        "w": 184,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 27,
+        "y": 22,
+        "w": 43,
+        "h": 50
+      },
+      "sha256": "ef585b7f10fc76618cfa9f4da2e26a05837772734d9ba7a49e5ec5117088850b"
+    },
+    {
+      "name": "crouch_idle_east_02",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 558,
+        "y": 525,
+        "w": 190,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 44,
+        "h": 50
+      },
+      "sha256": "e31c5ef855390f3c1f6eb68a6fc109c6f61bf95f7a564fd823e19691d96f52c5"
+    },
+    {
+      "name": "crouch_idle_east_03",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 800,
+        "y": 524,
+        "w": 193,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 23,
+        "y": 22,
+        "w": 45,
+        "h": 50
+      },
+      "sha256": "5dd2d20e0befb23711fcd6a13370718182d9aa9e4128b20f3a7eaa167cd86da7"
+    },
+    {
+      "name": "crouch_idle_east_04",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1066,
+        "y": 524,
+        "w": 182,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 42,
+        "h": 50
+      },
+      "sha256": "f8d97a46fa0d35e34b6be59c74915642a9e44c000dc7f57c57a2b0fda9ebca56"
+    },
+    {
+      "name": "crouch_idle_east_05",
+      "source": "../../sources/05-timur-crouch_idle.png",
+      "sourceBounds": {
+        "x": 1314,
+        "y": 525,
+        "w": 190,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 228
+      },
+      "destination": {
+        "x": 24,
+        "y": 22,
+        "w": 44,
+        "h": 50
+      },
+      "sha256": "5d79a4432d9fd6656a56ce5e8792a8242ebbec297b3f951a06828a93aef52911"
+    },
+    {
+      "name": "crouch_walk_east_00",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 47,
+        "y": 524,
+        "w": 175,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 40,
+        "h": 51
+      },
+      "sha256": "5c2458ef4fbf37e32c0ec9df22131eb1c378a266972ce748dd41084ca58a4c80"
+    },
+    {
+      "name": "crouch_walk_east_01",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 296,
+        "y": 523,
+        "w": 189,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 26,
+        "y": 21,
+        "w": 44,
+        "h": 51
+      },
+      "sha256": "c4bb51cacca195571c8e929c4d1f73d32f5d47273d315eda06530c4ec7fd92ca"
+    },
+    {
+      "name": "crouch_walk_east_02",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 563,
+        "y": 523,
+        "w": 161,
+        "h": 218
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 37,
+        "h": 50
+      },
+      "sha256": "4ab84118afcfcab9ef443290a6638cf26a2d57c9ff8b805c463b145011309923"
+    },
+    {
+      "name": "crouch_walk_east_03",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 816,
+        "y": 524,
+        "w": 177,
+        "h": 217
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 28,
+        "y": 21,
+        "w": 41,
+        "h": 50
+      },
+      "sha256": "d044acc2ee82e7ad2441e3245d85a28ec59d01f0860c3cadc05c9e5953ece46f"
+    },
+    {
+      "name": "crouch_walk_east_04",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 522,
+        "w": 174,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 40,
+        "h": 51
+      },
+      "sha256": "2162909b70a7191cce0bfd7e30d7ba275a1872b01b54ba2e05033c5fd378e0a4"
+    },
+    {
+      "name": "crouch_walk_east_05",
+      "source": "../../sources/05-timur-crouch_walk.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 523,
+        "w": 155,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 134,
+        "y": 232
+      },
+      "destination": {
+        "x": 30,
+        "y": 21,
+        "w": 36,
+        "h": 51
+      },
+      "sha256": "48ac94868c49bc2963b5ddd4f891c073d9a25ec05a494c7be177ecbf4cb31bb4"
+    },
+    {
+      "name": "stand_up_east_00",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 85,
+        "y": 642,
+        "w": 123,
+        "h": 133
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 38,
+        "y": 41,
+        "w": 28,
+        "h": 31
+      },
+      "sha256": "0a3d622b91a86ddb6e15c93624cbef7f31a4a46f6f00c4adb48be3f49861679e"
+    },
+    {
+      "name": "stand_up_east_01",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 319,
+        "y": 615,
+        "w": 134,
+        "h": 160
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 33,
+        "y": 35,
+        "w": 31,
+        "h": 37
+      },
+      "sha256": "dae0a8d53df30d093342c9fda71af450df0e7ad9787f556d74a04a998846c5c0"
+    },
+    {
+      "name": "stand_up_east_02",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 580,
+        "y": 585,
+        "w": 133,
+        "h": 192
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 34,
+        "y": 28,
+        "w": 31,
+        "h": 44
+      },
+      "sha256": "2f1ed02e832fe47eef3c9e72c96878ccde11a3dacd4cd0ac03a613b3aaf45f69"
+    },
+    {
+      "name": "stand_up_east_03",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 840,
+        "y": 566,
+        "w": 115,
+        "h": 211
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 35,
+        "y": 23,
+        "w": 27,
+        "h": 49
+      },
+      "sha256": "f08c86b9adf468ed0f0184f6e853ad29c87dd9af550f2e916e818475dcc3953d"
+    },
+    {
+      "name": "stand_up_east_04",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 1099,
+        "y": 543,
+        "w": 107,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 25,
+        "h": 54
+      },
+      "sha256": "0015eeba4859c705f681399533118c1ce1069b6e37c9918a5a2ee08c9f3c8fa0"
+    },
+    {
+      "name": "stand_up_east_05",
+      "source": "../../sources/05-timur-stand_up.png",
+      "sourceBounds": {
+        "x": 1370,
+        "y": 528,
+        "w": 73,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 129.5,
+        "y": 264
+      },
+      "destination": {
+        "x": 39,
+        "y": 15,
+        "w": 17,
+        "h": 58
+      },
+      "sha256": "c64e91acd964b49e04de9d1f95b2d60b702da99231b93e697565a019d863bfca"
+    },
+    {
+      "name": "pickup_east_00",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 122,
+        "y": 517,
+        "w": 71,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 44,
+        "y": 16,
+        "w": 16,
+        "h": 56
+      },
+      "sha256": "f6841377599ab96d50aa218e3824b3be6afe744dd997371ab62eae740ffe34f9"
+    },
+    {
+      "name": "pickup_east_01",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 537,
+        "w": 121,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 21,
+        "w": 28,
+        "h": 51
+      },
+      "sha256": "23cc9579a0655b9007090f27d8bd389b91b8a77f532e91f2e17e4dce3905f500"
+    },
+    {
+      "name": "pickup_east_02",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 582,
+        "y": 588,
+        "w": 140,
+        "h": 171
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 33,
+        "w": 32,
+        "h": 40
+      },
+      "sha256": "6874ef0543bcc01be253c25e07de2ae0abcb676c347a41aa6182f97c14d00e69"
+    },
+    {
+      "name": "pickup_east_03",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 612,
+        "w": 131,
+        "h": 147
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 38,
+        "w": 30,
+        "h": 34
+      },
+      "sha256": "5f437c76576f36b2fade7f20e6e96b36fcf67827d50b6f84426a4aafb6dc9467"
+    },
+    {
+      "name": "pickup_east_04",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 1084,
+        "y": 540,
+        "w": 116,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 30,
+        "y": 22,
+        "w": 27,
+        "h": 51
+      },
+      "sha256": "5de7b4222e6eb57adaf591fb5eb59b297a35142dbf2a25bc61d88d2280997421"
+    },
+    {
+      "name": "pickup_east_05",
+      "source": "../../sources/05-timur-pickup.png",
+      "sourceBounds": {
+        "x": 1351,
+        "y": 516,
+        "w": 72,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "fccc614bc61fb1d16d24320d0a98d1fa9b4deb05111cd6eb0c4dfa978c3335c6"
+    },
+    {
+      "name": "search_east_00",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 112,
+        "y": 517,
+        "w": 89,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 21,
+        "h": 54
+      },
+      "sha256": "566b7d22865c2bf2e5699b629c16ad397f852a4469694c10d756072289856448"
+    },
+    {
+      "name": "search_east_01",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 541,
+        "w": 155,
+        "h": 211
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 30,
+        "y": 23,
+        "w": 36,
+        "h": 49
+      },
+      "sha256": "674260041668c55fa6fc93becce83f8ccafb0dd89a9178f57d0c98ce6934c6da"
+    },
+    {
+      "name": "search_east_02",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 600,
+        "y": 579,
+        "w": 163,
+        "h": 174
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 31,
+        "y": 32,
+        "w": 38,
+        "h": 40
+      },
+      "sha256": "8703bebf6ae0e17a56ccd3dc9d9edf7eb25692a348f2b7359194379efc4b4fcd"
+    },
+    {
+      "name": "search_east_03",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 870,
+        "y": 517,
+        "w": 126,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 29,
+        "h": 54
+      },
+      "sha256": "fe96c1a0f3409f79bd46a6e745e638b4c35d0a688298afbf9c3a01f775baaf93"
+    },
+    {
+      "name": "search_east_04",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 1082,
+        "y": 569,
+        "w": 161,
+        "h": 183
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 24,
+        "y": 30,
+        "w": 37,
+        "h": 42
+      },
+      "sha256": "bb0ac54fae35cfb78c6e1f185406235d201115f5edfe58a4e3634a8b306c9c19"
+    },
+    {
+      "name": "search_east_05",
+      "source": "../../sources/05-timur-search.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 517,
+        "w": 121,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 239
+      },
+      "destination": {
+        "x": 25,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "84cc309517204f76adbb87db7c5982b82f4956fd094a5f2f9adbe079b8c2548f"
+    },
+    {
+      "name": "open_door_east_00",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 110,
+        "y": 521,
+        "w": 72,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "549e49a103b275e0ea5e6edcce17fbb905f717f67e04dba13aa6653d61871e9e"
+    },
+    {
+      "name": "open_door_east_01",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 366,
+        "y": 521,
+        "w": 124,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "8321627b08d479239964f35c4f078f34f3a27eebf728ec7450e16de2149191ad"
+    },
+    {
+      "name": "open_door_east_02",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 621,
+        "y": 521,
+        "w": 116,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "b338e243b66437747d2ed52e9691e6bf19c5cca0d16d1d2d22763ebb5732c870"
+    },
+    {
+      "name": "open_door_east_03",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 877,
+        "y": 521,
+        "w": 112,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "58ed67afb5d46728f3f83ce66ea0ba30c21e49999bd50dd1c5d1f6c0ef514ca8"
+    },
+    {
+      "name": "open_door_east_04",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 1133,
+        "y": 521,
+        "w": 78,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 18,
+        "h": 56
+      },
+      "sha256": "a5809660ebee804a88c6961bec17a26afd593cea17e248133ae40d9ba9f1b73a"
+    },
+    {
+      "name": "open_door_east_05",
+      "source": "../../sources/05-timur-open_door.png",
+      "sourceBounds": {
+        "x": 1389,
+        "y": 521,
+        "w": 73,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 164.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "7ddfd077b2e381df3e65e816f7bcb4f128019d499f6209702b90181a4b162629"
+    },
+    {
+      "name": "eat_east_00",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 118,
+        "y": 518,
+        "w": 90,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 43,
+        "y": 18,
+        "w": 21,
+        "h": 54
+      },
+      "sha256": "8bff72775b0d7732df3bbfdd576080281845cb9d729ecf04e448cc19b763b495"
+    },
+    {
+      "name": "eat_east_01",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 370,
+        "y": 517,
+        "w": 87,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 42,
+        "y": 18,
+        "w": 20,
+        "h": 54
+      },
+      "sha256": "9e482f7b81491b3438c8d2ff98f2bdfb7f0ac529acda83e6477d6f17617c9aac"
+    },
+    {
+      "name": "eat_east_02",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 607,
+        "y": 517,
+        "w": 89,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 38,
+        "y": 18,
+        "w": 21,
+        "h": 54
+      },
+      "sha256": "cde4f5dda43db8a9415a944f1d35934661f481244167eeb52867262b0d46071c"
+    },
+    {
+      "name": "eat_east_03",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 851,
+        "y": 518,
+        "w": 92,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 21,
+        "h": 54
+      },
+      "sha256": "699aed9ce17c0483528a774bae48e13c38171437abf511c30695f763dd31d7d7"
+    },
+    {
+      "name": "eat_east_04",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 1106,
+        "y": 517,
+        "w": 93,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 22,
+        "h": 54
+      },
+      "sha256": "d4cfffcbbf01478a9d14396cfeeb395787471ec65d0c6923396a47fca2f046b0"
+    },
+    {
+      "name": "eat_east_05",
+      "source": "../../sources/05-timur-eat.png",
+      "sourceBounds": {
+        "x": 1359,
+        "y": 517,
+        "w": 89,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139,
+        "y": 239
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 21,
+        "h": 54
+      },
+      "sha256": "5433b32d998c574f3634a048b4ddb95c3b64fd40de086f99ffd80427e57253ab"
+    },
+    {
+      "name": "drink_east_00",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 106,
+        "y": 519,
+        "w": 75,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "3e8601b2fafccb38437151c7f2c2514bf99594fe358103dd99bee3de088f131b"
+    },
+    {
+      "name": "drink_east_01",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 375,
+        "y": 519,
+        "w": 98,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 42,
+        "y": 17,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "b97f5fa2370cbf919486c0e39f89797c1740e85bab709f5ae0e3b4b4eeab1dbc"
+    },
+    {
+      "name": "drink_east_02",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 618,
+        "y": 519,
+        "w": 89,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 39,
+        "y": 17,
+        "w": 21,
+        "h": 56
+      },
+      "sha256": "fe314efd011bcff6fff706260e6abd803c9f0539b1a238c49d651f1a2b696a67"
+    },
+    {
+      "name": "drink_east_03",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 853,
+        "y": 517,
+        "w": 103,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "b3465a4410c45fbbdf6352cb9fa87f604aa8dce5855770ca232124cf57bd70bd"
+    },
+    {
+      "name": "drink_east_04",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 1109,
+        "y": 519,
+        "w": 96,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "f96da56a761d65b39469efc0e4209372c47de154f22384ec831c41ec190277b1"
+    },
+    {
+      "name": "drink_east_05",
+      "source": "../../sources/05-timur-drink.png",
+      "sourceBounds": {
+        "x": 1354,
+        "y": 519,
+        "w": 75,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 143,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "bcba59e0a6d8324606877e6189b5592277c6283adf3e1a8fbda91b22b5735292"
+    },
+    {
+      "name": "bandage_east_00",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 109,
+        "y": 523,
+        "w": 74,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 42,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "19ccf9d31a1e5f878c722fd035976819960895672f18597bd4f17efc7af01b82"
+    },
+    {
+      "name": "bandage_east_01",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 330,
+        "y": 523,
+        "w": 122,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "14c150d4563cd29fc77b310a2bf4a002d9daa869ac828c4d6adb908eff28bc96"
+    },
+    {
+      "name": "bandage_east_02",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 602,
+        "y": 524,
+        "w": 96,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 17,
+        "w": 22,
+        "h": 56
+      },
+      "sha256": "80a0fe9726306f5acb44f346ab6b4660ced57ecef925f29ed8b5b2a4de413a24"
+    },
+    {
+      "name": "bandage_east_03",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 524,
+        "w": 101,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 23,
+        "h": 56
+      },
+      "sha256": "dcb9e161209fe30e511eaf28f31b7b4eac7b28c208b692a7c10d9272ee0cc21d"
+    },
+    {
+      "name": "bandage_east_04",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 1082,
+        "y": 524,
+        "w": 106,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "a0acaae3c3bf9a3766559917575453e5e99c7268cd50b1944d49f60576fcd34c"
+    },
+    {
+      "name": "bandage_east_05",
+      "source": "../../sources/05-timur-bandage.png",
+      "sourceBounds": {
+        "x": 1353,
+        "y": 523,
+        "w": 73,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 134.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "399af0f477372141348c0857fa9584429d1dd82dfb6e1492753ddc40bbf27e64"
+    },
+    {
+      "name": "heal_ally_east_00",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 54,
+        "y": 516,
+        "w": 150,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 31,
+        "y": 19,
+        "w": 35,
+        "h": 54
+      },
+      "sha256": "1d2ad0af271ac148eb9caa935d61a915a2906a323c641ed82c7a8529e5a3b688"
+    },
+    {
+      "name": "heal_ally_east_01",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 271,
+        "y": 545,
+        "w": 228,
+        "h": 199
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 22,
+        "y": 25,
+        "w": 53,
+        "h": 46
+      },
+      "sha256": "b5d091c9691a7d3d1464930cb2bcc569a4a2f6462b09214c8fd00c4036d87472"
+    },
+    {
+      "name": "heal_ally_east_02",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 558,
+        "y": 561,
+        "w": 200,
+        "h": 187
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 29,
+        "y": 29,
+        "w": 46,
+        "h": 43
+      },
+      "sha256": "0f2d10b5d28e9c9c564a8f38c4303d0a2ee09de7d8bcc0271afeccb6219a1374"
+    },
+    {
+      "name": "heal_ally_east_03",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 805,
+        "y": 550,
+        "w": 182,
+        "h": 198
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 27,
+        "y": 26,
+        "w": 42,
+        "h": 46
+      },
+      "sha256": "2642d971a0285895dc1803c8630fbe658f5b9d5d79e5a7ee4633572d30f29302"
+    },
+    {
+      "name": "heal_ally_east_04",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 1044,
+        "y": 556,
+        "w": 229,
+        "h": 192
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 23,
+        "y": 28,
+        "w": 53,
+        "h": 44
+      },
+      "sha256": "b72ed8de0296df30e4f49b192455286f227d336e7e3a51148c515bf0b6310655"
+    },
+    {
+      "name": "heal_ally_east_05",
+      "source": "../../sources/05-timur-heal_ally.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 515,
+        "w": 148,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128.5,
+        "y": 235
+      },
+      "destination": {
+        "x": 30,
+        "y": 18,
+        "w": 34,
+        "h": 54
+      },
+      "sha256": "a0ea92a3f719f317f765fc6917ad019fc0e7b1214cf17aad2d99c5c97a57a02a"
+    },
+    {
+      "name": "craft_east_00",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 119,
+        "y": 517,
+        "w": 112,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 40,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "39ed94543d47515fb2f66bead9c8764e86de7f07c7a42a569beb31e6bff2b5cf"
+    },
+    {
+      "name": "craft_east_01",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 367,
+        "y": 517,
+        "w": 111,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 38,
+        "y": 21,
+        "w": 26,
+        "h": 51
+      },
+      "sha256": "2feb89c11c8d776e2dee1e0ba8bd9078261401c6c4d4e4f87b4d179dc6e42e52"
+    },
+    {
+      "name": "craft_east_02",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 614,
+        "y": 517,
+        "w": 108,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 36,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "cc444c59505ea2139435ad8020ecf4ad2b2630f9000bfe3be767972c0e986168"
+    },
+    {
+      "name": "craft_east_03",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 851,
+        "y": 517,
+        "w": 109,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 31,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "6c4cd32a3f836c5440d9ab3da9d15091ba552c950a7f0bdbd7ff209f6cc8dd31"
+    },
+    {
+      "name": "craft_east_04",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 1096,
+        "y": 517,
+        "w": 110,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 29,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "4a6f9b99eccdefdc88f32ff43556fad723617cd496893ea592753aa700657e72"
+    },
+    {
+      "name": "craft_east_05",
+      "source": "../../sources/05-timur-craft.png",
+      "sourceBounds": {
+        "x": 1338,
+        "y": 517,
+        "w": 109,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 155.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 25,
+        "y": 21,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "eadaf9bfc587a203c73de05944d96b526bd0a9e6af8a04d63306bcfd0d75a05d"
+    },
+    {
+      "name": "build_east_00",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 81,
+        "y": 520,
+        "w": 151,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 35,
+        "h": 55
+      },
+      "sha256": "468e783c3ad1c39e4734223cc1d0c3ea93a11a02cfdfc9c2debec6a045b735b9"
+    },
+    {
+      "name": "build_east_01",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 337,
+        "y": 520,
+        "w": 157,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 17,
+        "w": 36,
+        "h": 55
+      },
+      "sha256": "74ae7a965f504c50102caa134e69fd7e0b126cabd55373ae5b7f12cc73ed105e"
+    },
+    {
+      "name": "build_east_02",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 544,
+        "w": 170,
+        "h": 214
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 28,
+        "y": 22,
+        "w": 39,
+        "h": 50
+      },
+      "sha256": "485c12bcdf5da979868213917ce53723ca2d6870d41ff936da4f4cc22bfb96cd"
+    },
+    {
+      "name": "build_east_03",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 822,
+        "y": 552,
+        "w": 172,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 26,
+        "y": 24,
+        "w": 40,
+        "h": 48
+      },
+      "sha256": "9130f9e245381b952182f2b761cf0787201f9533ec5ebd804a89426de21028d3"
+    },
+    {
+      "name": "build_east_04",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 1074,
+        "y": 519,
+        "w": 150,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 25,
+        "y": 17,
+        "w": 35,
+        "h": 56
+      },
+      "sha256": "eee066806691d78b714b8bc437d41075dbdfb826c888da2461b10dfab9975494"
+    },
+    {
+      "name": "build_east_05",
+      "source": "../../sources/05-timur-build.png",
+      "sourceBounds": {
+        "x": 1330,
+        "y": 519,
+        "w": 150,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 150.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 25,
+        "y": 17,
+        "w": 35,
+        "h": 56
+      },
+      "sha256": "4ec5715883917b2846bc9e4a07f0dc1d5533887b02c7752913ad74757dbc3c27"
+    },
+    {
+      "name": "repair_east_00",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 55,
+        "y": 523,
+        "w": 165,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "bda02bfe14a46baaffeb9b396097910ba1b77ecf835e3f611c6961012f5ac71d"
+    },
+    {
+      "name": "repair_east_01",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 310,
+        "y": 523,
+        "w": 165,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "3aa1c25335b6398ef2137c2e1afcbec41322617eea39fd61c74eea206e58a8ec"
+    },
+    {
+      "name": "repair_east_02",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 522,
+        "w": 166,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "2daad2a89e4298b905840e5fd28df09c6dbe274679d28562251ab28a3bd266c3"
+    },
+    {
+      "name": "repair_east_03",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 523,
+        "w": 164,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 29,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "33aab1c9982f8b6beb622ed27be49ed235242d5d375e25d4d73903089c5d278c"
+    },
+    {
+      "name": "repair_east_04",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 523,
+        "w": 166,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "db04644fac6ec657fdb2b85e1892e7ebd9ca722c0379dab7afb7d06f9c4d3b82"
+    },
+    {
+      "name": "repair_east_05",
+      "source": "../../sources/05-timur-repair.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 523,
+        "w": 165,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 140.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 38,
+        "h": 55
+      },
+      "sha256": "e984c6472983d42fda824e12bb8b5ad043e5b82e0bdd14a5c70a841c888fc441"
+    },
+    {
+      "name": "chop_east_00",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 70,
+        "y": 547,
+        "w": 109,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 22,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "7654cac3080f75ab47879b82477add4c2f7916a52cd94107367c5d4487640af4"
+    },
+    {
+      "name": "chop_east_01",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 316,
+        "y": 546,
+        "w": 140,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 33,
+        "y": 21,
+        "w": 32,
+        "h": 51
+      },
+      "sha256": "69c03c6f1eb7973738bc835b9cdb678478ab3f1c9930012bc5faf73fe1ab24a8"
+    },
+    {
+      "name": "chop_east_02",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 570,
+        "y": 524,
+        "w": 136,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 31,
+        "h": 56
+      },
+      "sha256": "2eb49be81c388a25356b69c265952abed28eb0c0cca77d3d1b610b8387a6c1ae"
+    },
+    {
+      "name": "chop_east_03",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 796,
+        "y": 571,
+        "w": 163,
+        "h": 195
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 26,
+        "y": 27,
+        "w": 38,
+        "h": 45
+      },
+      "sha256": "36bac054baefd562f4c6a45ddc10d109f3114ffd36f5be0b01fe7b0edeac2837"
+    },
+    {
+      "name": "chop_east_04",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 1064,
+        "y": 586,
+        "w": 154,
+        "h": 180
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 29,
+        "y": 31,
+        "w": 36,
+        "h": 42
+      },
+      "sha256": "152b23692ea119205c13c770da1e2539d7b2f23eade4956bc37f807214f53920"
+    },
+    {
+      "name": "chop_east_05",
+      "source": "../../sources/05-timur-chop.png",
+      "sourceBounds": {
+        "x": 1350,
+        "y": 547,
+        "w": 109,
+        "h": 219
+      },
+      "fixedSourceAnchor": {
+        "x": 124,
+        "y": 253
+      },
+      "destination": {
+        "x": 36,
+        "y": 22,
+        "w": 25,
+        "h": 51
+      },
+      "sha256": "e2ad00ddb563c4a3eca1f148c58d67109f4d44643eaa8bc97802431db6269323"
+    },
+    {
+      "name": "mine_east_00",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 83,
+        "y": 549,
+        "w": 112,
+        "h": 212
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 37,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "2fc9492b31ffddf34ba7e26e6b17521ae4b981d35dae4953620435fd62db1093"
+    },
+    {
+      "name": "mine_east_01",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 334,
+        "y": 522,
+        "w": 135,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 35,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "7944f1678b327f7ac820162ee494110cb4b0e4238e0c636079ea5a33a4f9e875"
+    },
+    {
+      "name": "mine_east_02",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 573,
+        "y": 507,
+        "w": 142,
+        "h": 254
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 31,
+        "y": 13,
+        "w": 33,
+        "h": 59
+      },
+      "sha256": "2b9a9e5152ef5f381a3027204f882b38bee74b8909c68f5b973f95ee83e78d1f"
+    },
+    {
+      "name": "mine_east_03",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 817,
+        "y": 559,
+        "w": 144,
+        "h": 202
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 33,
+        "h": 47
+      },
+      "sha256": "5d96ae80cac848fd59fa0f59fd8a2df2d5a12a12cc4952709b123d63614e99c0"
+    },
+    {
+      "name": "mine_east_04",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 595,
+        "w": 154,
+        "h": 166
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 30,
+        "y": 34,
+        "w": 36,
+        "h": 38
+      },
+      "sha256": "4437741f35b9fb66e54e1637c9aa40560885896157d253517b35148321ed8ac5"
+    },
+    {
+      "name": "mine_east_05",
+      "source": "../../sources/05-timur-mine.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 550,
+        "w": 112,
+        "h": 210
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 248
+      },
+      "destination": {
+        "x": 29,
+        "y": 23,
+        "w": 26,
+        "h": 49
+      },
+      "sha256": "d1f08e4d1f610ec3d3a07730c7d04b0545d696e4779524ecd58ef9bb8693782d"
+    },
+    {
+      "name": "punch_east_00",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 67,
+        "y": 516,
+        "w": 146,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 30,
+        "y": 15,
+        "w": 34,
+        "h": 57
+      },
+      "sha256": "da1a2d79cacbeb6f1291f3ea5aeba86049234dfa869128146ccddf68323d8b79"
+    },
+    {
+      "name": "punch_east_01",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 317,
+        "y": 517,
+        "w": 169,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 29,
+        "y": 15,
+        "w": 39,
+        "h": 57
+      },
+      "sha256": "eae5f69ca6fc9225df963ce25d6c0fa40334d91183d4bd989ab804dff5bbac2d"
+    },
+    {
+      "name": "punch_east_02",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 570,
+        "y": 516,
+        "w": 201,
+        "h": 247
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 28,
+        "y": 15,
+        "w": 47,
+        "h": 57
+      },
+      "sha256": "490783bed14b887701088e07d2691989a63fb43dac2127d78440502049529bb1"
+    },
+    {
+      "name": "punch_east_03",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 517,
+        "w": 209,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 26,
+        "y": 15,
+        "w": 48,
+        "h": 57
+      },
+      "sha256": "422de53e207cda8c247a20ccdf1b9ddd40432aa0f07750d06b36402e429abc68"
+    },
+    {
+      "name": "punch_east_04",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 1080,
+        "y": 517,
+        "w": 166,
+        "h": 246
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 27,
+        "y": 15,
+        "w": 38,
+        "h": 57
+      },
+      "sha256": "113f497e7d109e8601b9d6c1549913726630364dab64abfbb1fe2dcfd24a789f"
+    },
+    {
+      "name": "punch_east_05",
+      "source": "../../sources/05-timur-punch.png",
+      "sourceBounds": {
+        "x": 1325,
+        "y": 516,
+        "w": 144,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 145,
+        "y": 250
+      },
+      "destination": {
+        "x": 25,
+        "y": 15,
+        "w": 33,
+        "h": 57
+      },
+      "sha256": "a7d5eb296686e2d0702abd2f399b4793516ea593c47dd41ee0e5fcf2e843cb6e"
+    },
+    {
+      "name": "one_hand_strike_east_00",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 57,
+        "y": 518,
+        "w": 136,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 17,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "cbf980036e05c7b8b247ef098a3bfb269b1fa99afaf08ace99426cbccad03f99"
+    },
+    {
+      "name": "one_hand_strike_east_01",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 307,
+        "y": 519,
+        "w": 152,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 35,
+        "h": 55
+      },
+      "sha256": "c2e4bd87a94b1c920dd59cb899e7d2214ff65e9fdab18f1ca569561d2900ae98"
+    },
+    {
+      "name": "one_hand_strike_east_02",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 558,
+        "y": 526,
+        "w": 181,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 27,
+        "y": 19,
+        "w": 42,
+        "h": 53
+      },
+      "sha256": "d0cd80c41c48e4ab6584c828e7dad78e9a14c0899ae9e77a563a7b13f0de2ceb"
+    },
+    {
+      "name": "one_hand_strike_east_03",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 818,
+        "y": 526,
+        "w": 201,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 47,
+        "h": 53
+      },
+      "sha256": "29db44c902e8f98faa49ad4c50aa972352bc9e26086051ccd84b6f9b1dfca6f6"
+    },
+    {
+      "name": "one_hand_strike_east_04",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 529,
+        "w": 155,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 30,
+        "y": 20,
+        "w": 36,
+        "h": 53
+      },
+      "sha256": "f2bf9001bf0ef3e0e7dcee09ebdc76f03efd05598e997604b8fda78bb6379cc1"
+    },
+    {
+      "name": "one_hand_strike_east_05",
+      "source": "../../sources/05-timur-one_hand_strike.png",
+      "sourceBounds": {
+        "x": 1335,
+        "y": 518,
+        "w": 137,
+        "h": 238
+      },
+      "fixedSourceAnchor": {
+        "x": 136,
+        "y": 243
+      },
+      "destination": {
+        "x": 29,
+        "y": 17,
+        "w": 32,
+        "h": 55
+      },
+      "sha256": "d5db3dc6582eeaca3541ce3de01a67ba0ebc34129661ff9dc282011e5cb8c300"
+    },
+    {
+      "name": "two_hand_strike_east_00",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 67,
+        "y": 530,
+        "w": 121,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 35,
+        "y": 19,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "1f3923b46539e5b313be5f1c29753228dfcc6841884dd2b71ef39c4727c5fe6e"
+    },
+    {
+      "name": "two_hand_strike_east_01",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 312,
+        "y": 529,
+        "w": 135,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 18,
+        "w": 31,
+        "h": 54
+      },
+      "sha256": "9cff711bc9cf1141868e16a5f27de765cdd775057bb58f71cb45da2520db9b66"
+    },
+    {
+      "name": "two_hand_strike_east_02",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 568,
+        "y": 510,
+        "w": 135,
+        "h": 251
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 14,
+        "w": 31,
+        "h": 58
+      },
+      "sha256": "ec732041760e61e714d543bccde8b0a38abf8b916a85a6da515338d0a92f344f"
+    },
+    {
+      "name": "two_hand_strike_east_03",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 798,
+        "y": 556,
+        "w": 170,
+        "h": 206
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 26,
+        "y": 25,
+        "w": 39,
+        "h": 48
+      },
+      "sha256": "9c31ab059f54fd3792631a18fc0a9ed2a487ca8a76dfda64f6fdd39f5ceca2cc"
+    },
+    {
+      "name": "two_hand_strike_east_04",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 555,
+        "w": 167,
+        "h": 208
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 30,
+        "y": 24,
+        "w": 39,
+        "h": 48
+      },
+      "sha256": "89b07dabc277cb5edd9fa1da285fc22bdb3231c5af49333b1bd5da6cde308e0d"
+    },
+    {
+      "name": "two_hand_strike_east_05",
+      "source": "../../sources/05-timur-two_hand_strike.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 529,
+        "w": 120,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 123.5,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 18,
+        "w": 28,
+        "h": 54
+      },
+      "sha256": "aa0792b275b0dabfabbd52bdbb0e3f978a5fbddaf20f4d283094bf9037df33d6"
+    },
+    {
+      "name": "shove_east_00",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 80,
+        "y": 512,
+        "w": 128,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 37,
+        "y": 15,
+        "w": 30,
+        "h": 57
+      },
+      "sha256": "91b029fa30a0045317e15f5a96b6c9c7b33e45ea6ae99ca82c611df0e125d39c"
+    },
+    {
+      "name": "shove_east_01",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 320,
+        "y": 512,
+        "w": 133,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 33,
+        "y": 15,
+        "w": 31,
+        "h": 57
+      },
+      "sha256": "06ae67ddb3f622ea0eb3dccd073a4d6531fbf966d1f89d065fc5251e413b2bc8"
+    },
+    {
+      "name": "shove_east_02",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 560,
+        "y": 512,
+        "w": 159,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 30,
+        "y": 15,
+        "w": 37,
+        "h": 57
+      },
+      "sha256": "3634ae1066e21a956790b1a9cf300a72fda8416cd8f353573ad5191b8f1ec39f"
+    },
+    {
+      "name": "shove_east_03",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 809,
+        "y": 512,
+        "w": 170,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 28,
+        "y": 15,
+        "w": 39,
+        "h": 57
+      },
+      "sha256": "c0184f7a2852de4e5b9158668764b257e9128d4fb5f77243044a074e304ad882"
+    },
+    {
+      "name": "shove_east_04",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 1073,
+        "y": 512,
+        "w": 144,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 30,
+        "y": 15,
+        "w": 33,
+        "h": 57
+      },
+      "sha256": "9e8361ad4a03404d3c56f5c2085dd6dd5962933a1037c8268d7b346318304ed7"
+    },
+    {
+      "name": "shove_east_05",
+      "source": "../../sources/05-timur-shove.png",
+      "sourceBounds": {
+        "x": 1327,
+        "y": 512,
+        "w": 128,
+        "h": 248
+      },
+      "fixedSourceAnchor": {
+        "x": 127,
+        "y": 247
+      },
+      "destination": {
+        "x": 29,
+        "y": 15,
+        "w": 30,
+        "h": 57
+      },
+      "sha256": "7f0e31fc4c87604b2b526629c7d70934e8eb8d0c1d52a445588b4d0ae2214999"
+    },
+    {
+      "name": "pistol_hold_east_00",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 78,
+        "y": 521,
+        "w": 106,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 36,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "36668aede399a87fb5c141a37fbb599a61a9144e90927c7dca7c57907d3554a7"
+    },
+    {
+      "name": "pistol_hold_east_01",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 324,
+        "y": 521,
+        "w": 121,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "646b3e0f6d983ac64acc8c2aba0ac2e05a8a7b885962d25b5a075589d82fea9d"
+    },
+    {
+      "name": "pistol_hold_east_02",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 579,
+        "y": 540,
+        "w": 131,
+        "h": 222
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 21,
+        "w": 30,
+        "h": 51
+      },
+      "sha256": "aff7ae6016a04c235ba63f988fbf092f438e3b7956d4f65230132a9384e2ac66"
+    },
+    {
+      "name": "pistol_hold_east_03",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 833,
+        "y": 521,
+        "w": 117,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "ed1996139819b2e27e010ce1625a77292a93790b4787452d27439998c65e0823"
+    },
+    {
+      "name": "pistol_hold_east_04",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1083,
+        "y": 521,
+        "w": 119,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "4715a79ec107f169bde8425dc4996b369b013927b821f3c1db47e6c256d1da85"
+    },
+    {
+      "name": "pistol_hold_east_05",
+      "source": "../../sources/05-timur-pistol_hold.png",
+      "sourceBounds": {
+        "x": 1342,
+        "y": 520,
+        "w": 105,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 249
+      },
+      "destination": {
+        "x": 33,
+        "y": 16,
+        "w": 24,
+        "h": 56
+      },
+      "sha256": "02b875c7a843e29be715e1e0ffa22578f804d475cbc20509d5a6ad098866be06"
+    },
+    {
+      "name": "pistol_aim_east_00",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 71,
+        "y": 530,
+        "w": 121,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "aa80fe6a9a5cb2c91146b2962df6e15e66966ba90b220dd55de811d95d065464"
+    },
+    {
+      "name": "pistol_aim_east_01",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 309,
+        "y": 533,
+        "w": 160,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 30,
+        "y": 20,
+        "w": 37,
+        "h": 52
+      },
+      "sha256": "c53d51a11bb8f9f13ca1e21a702a66ad14e599dff4ab2bc9002562c792047e71"
+    },
+    {
+      "name": "pistol_aim_east_02",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 566,
+        "y": 531,
+        "w": 177,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 30,
+        "y": 19,
+        "w": 41,
+        "h": 53
+      },
+      "sha256": "86480b785524acd5e0d6fb673df0a4afbdb9128d152a160836711c28c0376e8a"
+    },
+    {
+      "name": "pistol_aim_east_03",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 820,
+        "y": 531,
+        "w": 183,
+        "h": 226
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 29,
+        "y": 19,
+        "w": 42,
+        "h": 52
+      },
+      "sha256": "08dc740843063d38b845516abca8c6ef61bd967b4416c538be3373932c0fea41"
+    },
+    {
+      "name": "pistol_aim_east_04",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1068,
+        "y": 533,
+        "w": 167,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 28,
+        "y": 20,
+        "w": 39,
+        "h": 52
+      },
+      "sha256": "4d7ec5c54b25c6a3bbbdc7d54e604dc278f3924d39c133b4fde3a34dc3914805"
+    },
+    {
+      "name": "pistol_aim_east_05",
+      "source": "../../sources/05-timur-pistol_aim.png",
+      "sourceBounds": {
+        "x": 1344,
+        "y": 530,
+        "w": 117,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 246
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 27,
+        "h": 53
+      },
+      "sha256": "8214ffe86bc5365548d6ae56dfb5afd589ff99a3f0a3539497ee06b24d1051d7"
+    },
+    {
+      "name": "pistol_fire_east_00",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 74,
+        "y": 518,
+        "w": 170,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 30,
+        "y": 16,
+        "w": 39,
+        "h": 56
+      },
+      "sha256": "cc442ecf4839f55a6447789fd708c47f685581bb0d28c24c850eb10902af92cd"
+    },
+    {
+      "name": "pistol_fire_east_01",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 347,
+        "y": 518,
+        "w": 166,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 38,
+        "h": 56
+      },
+      "sha256": "04e8fbf171dd654878a325240bc70163d9a62a823b10a7ba47f7d5fe88fcaeee"
+    },
+    {
+      "name": "pistol_fire_east_02",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 593,
+        "y": 517,
+        "w": 145,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 34,
+        "h": 56
+      },
+      "sha256": "42ec0dc9dcb33edaaea59f77a83b1f673986d1afde301e49f17217c4a8c37aa1"
+    },
+    {
+      "name": "pistol_fire_east_03",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 827,
+        "y": 520,
+        "w": 157,
+        "h": 240
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 26,
+        "y": 17,
+        "w": 36,
+        "h": 56
+      },
+      "sha256": "eee13a5b116192e7673adaa6eee9683e748c040ae2c75a71cd724e288eb9a495"
+    },
+    {
+      "name": "pistol_fire_east_04",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1067,
+        "y": 521,
+        "w": 144,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 23,
+        "y": 17,
+        "w": 33,
+        "h": 55
+      },
+      "sha256": "c8c5f100eef352a44da7f98b7e89933bcfa5a4fd1dbfc61569e5eac19eb4f9d2"
+    },
+    {
+      "name": "pistol_fire_east_05",
+      "source": "../../sources/05-timur-pistol_fire.png",
+      "sourceBounds": {
+        "x": 1318,
+        "y": 519,
+        "w": 169,
+        "h": 241
+      },
+      "fixedSourceAnchor": {
+        "x": 153,
+        "y": 247
+      },
+      "destination": {
+        "x": 21,
+        "y": 16,
+        "w": 39,
+        "h": 56
+      },
+      "sha256": "e211f17c4f4d101df75b40bc70592d2bda5fae4a5c415f72fde468f33ee17ceb"
+    },
+    {
+      "name": "pistol_reload_east_00",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 72,
+        "y": 520,
+        "w": 162,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 31,
+        "y": 16,
+        "w": 37,
+        "h": 56
+      },
+      "sha256": "94bc32b2a1aabbf494ac74176af4285d47a9dd34e35c6a6ec189bf34ac1fb426"
+    },
+    {
+      "name": "pistol_reload_east_01",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 357,
+        "y": 520,
+        "w": 121,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 37,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "6c03403642d376dc502f4d814f2296fbebdc3416919114b49542beedfc942455"
+    },
+    {
+      "name": "pistol_reload_east_02",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 599,
+        "y": 520,
+        "w": 121,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "25deef00fe45b802b8f1fe1365f303ecf8ca73cf2ccc2992036eb0cfd3d274e2"
+    },
+    {
+      "name": "pistol_reload_east_03",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 520,
+        "w": 121,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 29,
+        "y": 16,
+        "w": 28,
+        "h": 56
+      },
+      "sha256": "d1f96adea2e56bb76e0bfff6b0629e307415a27fef7927e536d49aa94fd8f50a"
+    },
+    {
+      "name": "pistol_reload_east_04",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1085,
+        "y": 520,
+        "w": 125,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 28,
+        "y": 16,
+        "w": 29,
+        "h": 56
+      },
+      "sha256": "a24e7c8c9a390f78703ae6277fb3fbb757bb5880873bc500aadc3173b4393a60"
+    },
+    {
+      "name": "pistol_reload_east_05",
+      "source": "../../sources/05-timur-pistol_reload.png",
+      "sourceBounds": {
+        "x": 1320,
+        "y": 520,
+        "w": 163,
+        "h": 242
+      },
+      "fixedSourceAnchor": {
+        "x": 147,
+        "y": 249
+      },
+      "destination": {
+        "x": 23,
+        "y": 16,
+        "w": 38,
+        "h": 56
+      },
+      "sha256": "7a12c741238966b1905b42e4af78dd95143f870ecdfb7e5289ca191e9b3b085b"
+    },
+    {
+      "name": "longgun_hold_east_00",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 118,
+        "y": 512,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 43,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "1ee21a57a3eff0867e00ce05807f2d8365178213f8ca75c3994d38b75d048694"
+    },
+    {
+      "name": "longgun_hold_east_01",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 354,
+        "y": 512,
+        "w": 115,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 39,
+        "y": 16,
+        "w": 27,
+        "h": 56
+      },
+      "sha256": "8d6b6de9288d28ac80c6803dd6a1151b9e808e29d0aad0017bdd4d303a50d00c"
+    },
+    {
+      "name": "longgun_hold_east_02",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 593,
+        "y": 521,
+        "w": 116,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 35,
+        "y": 18,
+        "w": 27,
+        "h": 54
+      },
+      "sha256": "e920424726e82820fc4f290514ea988735eca8cca24c5d202c5d1c8f7647bf7a"
+    },
+    {
+      "name": "longgun_hold_east_03",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 838,
+        "y": 512,
+        "w": 111,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 26,
+        "h": 56
+      },
+      "sha256": "6c678502e4a810b88dd286f55dd7f02b082a499f98567e169f540de3ce6f78b4"
+    },
+    {
+      "name": "longgun_hold_east_04",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1076,
+        "y": 519,
+        "w": 115,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 28,
+        "y": 17,
+        "w": 27,
+        "h": 55
+      },
+      "sha256": "2cc8d96f6d0cfeb00e8b29cfc8dbeefdfee8f13d5be8b7ac46c59eef372c54c4"
+    },
+    {
+      "name": "longgun_hold_east_05",
+      "source": "../../sources/05-timur-longgun_hold.png",
+      "sourceBounds": {
+        "x": 1319,
+        "y": 512,
+        "w": 110,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 138.5,
+        "y": 243
+      },
+      "destination": {
+        "x": 25,
+        "y": 16,
+        "w": 25,
+        "h": 56
+      },
+      "sha256": "8ef124dd5091acc5b7f732281f99a6f613e0044d02389faa948abac3bdab87e0"
+    },
+    {
+      "name": "longgun_aim_east_00",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 90,
+        "y": 513,
+        "w": 172,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 34,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "914bc37807e63ee1f2824326d81222e14ae726128a36b4c45e3f7a335bc5aed8"
+    },
+    {
+      "name": "longgun_aim_east_01",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 340,
+        "y": 513,
+        "w": 172,
+        "h": 233
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "206388c289f4dfa883ef881a228aaac5b6509b3594d9b7a7be243694886eed8a"
+    },
+    {
+      "name": "longgun_aim_east_02",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 578,
+        "y": 513,
+        "w": 172,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 28,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "b057d6dd05b95225f90ab405879b52c556a9302f1b0924aed557befd1a12077a"
+    },
+    {
+      "name": "longgun_aim_east_03",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 816,
+        "y": 513,
+        "w": 175,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 24,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "f622c77fd4728267f45050e6fbac88f9ac17e3067a5623e2daee60b2f265c16d"
+    },
+    {
+      "name": "longgun_aim_east_04",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1061,
+        "y": 513,
+        "w": 172,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 22,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "157ba7516c1a334cfec6218ce86ec580ebf1f245ead5e5190c6f71dbbe8521c0"
+    },
+    {
+      "name": "longgun_aim_east_05",
+      "source": "../../sources/05-timur-longgun_aim.png",
+      "sourceBounds": {
+        "x": 1303,
+        "y": 513,
+        "w": 173,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 151.5,
+        "y": 232
+      },
+      "destination": {
+        "x": 18,
+        "y": 19,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "5d1412a1fa433ee65a7b486fa9fbbd1ffa1f4486402ec0e1bcca531b6fbe0406"
+    },
+    {
+      "name": "longgun_fire_east_00",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 54,
+        "y": 523,
+        "w": 174,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 40,
+        "h": 54
+      },
+      "sha256": "e3318b249ffe7a9d3f6830106feada3a34853498f41b034e93fa51ef0ac5a54c"
+    },
+    {
+      "name": "longgun_fire_east_01",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 307,
+        "y": 521,
+        "w": 172,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 40,
+        "h": 55
+      },
+      "sha256": "558520e19fbda2ed7c933f8b10a4fae777ad22712372af55176128a3f79f2ddd"
+    },
+    {
+      "name": "longgun_fire_east_02",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 518,
+        "w": 126,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 29,
+        "h": 55
+      },
+      "sha256": "a45767fa2c8a53e373c87c59344766e91e40812ab9664ecacad183866f7e9473"
+    },
+    {
+      "name": "longgun_fire_east_03",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 815,
+        "y": 522,
+        "w": 181,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 27,
+        "y": 18,
+        "w": 42,
+        "h": 54
+      },
+      "sha256": "0e2bd91b434ee2529c59581727fa30fa33c802d9d0a76f6a49161679ed6c3f6f"
+    },
+    {
+      "name": "longgun_fire_east_04",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1075,
+        "y": 521,
+        "w": 178,
+        "h": 236
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 41,
+        "h": 55
+      },
+      "sha256": "6bc3b5a0869a3207596bf94d71a41319603c2d0a5754d0994ce21d70d1664d34"
+    },
+    {
+      "name": "longgun_fire_east_05",
+      "source": "../../sources/05-timur-longgun_fire.png",
+      "sourceBounds": {
+        "x": 1331,
+        "y": 522,
+        "w": 177,
+        "h": 235
+      },
+      "fixedSourceAnchor": {
+        "x": 139.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 28,
+        "y": 18,
+        "w": 41,
+        "h": 54
+      },
+      "sha256": "8274c6ace9b7c1a7b076d3604818ff3f6316160ec167ef73e3c2f2da4f5c189e"
+    },
+    {
+      "name": "longgun_reload_east_00",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 520,
+        "w": 85,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 41,
+        "y": 17,
+        "w": 20,
+        "h": 55
+      },
+      "sha256": "1338af9dbbbfa4411308fd7985248d37178935c5a7c49db6b06206bbcbbf3cc1"
+    },
+    {
+      "name": "longgun_reload_east_01",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 341,
+        "y": 520,
+        "w": 99,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 37,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "1298c3f5e1bc49754b61f66098ccfd59edc7270d1ee756efc8777a32b0c1c28e"
+    },
+    {
+      "name": "longgun_reload_east_02",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 589,
+        "y": 520,
+        "w": 99,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "e448b17d0859590c836c71ac63195049fa7e3832890a5419d35617f93b389114"
+    },
+    {
+      "name": "longgun_reload_east_03",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 845,
+        "y": 520,
+        "w": 101,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 36,
+        "y": 17,
+        "w": 23,
+        "h": 55
+      },
+      "sha256": "988643d996f14291529e6f95a1246bc145ad078cbb749ab4994da3f496ef3c9e"
+    },
+    {
+      "name": "longgun_reload_east_04",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1095,
+        "y": 520,
+        "w": 120,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 34,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "35dbdd510470d4576698ac43e1329b011e31c6c5dfe89c2cdf3ec1be6ad7d7ba"
+    },
+    {
+      "name": "longgun_reload_east_05",
+      "source": "../../sources/05-timur-longgun_reload.png",
+      "sourceBounds": {
+        "x": 1337,
+        "y": 520,
+        "w": 123,
+        "h": 237
+      },
+      "fixedSourceAnchor": {
+        "x": 130.5,
+        "y": 244
+      },
+      "destination": {
+        "x": 31,
+        "y": 17,
+        "w": 28,
+        "h": 55
+      },
+      "sha256": "991e41ff5845d733775a62d32665582ed4a5b0cd90ee1c0a90ebc446748bef24"
+    },
+    {
+      "name": "throw_east_00",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 511,
+        "w": 111,
+        "h": 230
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 39,
+        "y": 20,
+        "w": 26,
+        "h": 53
+      },
+      "sha256": "91e6ca181d8ac17f3eddf81f89a3e0cd528e5d64e3924313b34af991db33fa5c"
+    },
+    {
+      "name": "throw_east_01",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 329,
+        "y": 510,
+        "w": 140,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 32,
+        "y": 19,
+        "w": 32,
+        "h": 53
+      },
+      "sha256": "06f63e9f8b9736f449c61c48af58825adbc73eabdb25c0ec7ec70453ba9448a9"
+    },
+    {
+      "name": "throw_east_02",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 567,
+        "y": 513,
+        "w": 171,
+        "h": 225
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 28,
+        "y": 20,
+        "w": 40,
+        "h": 52
+      },
+      "sha256": "5dc462c7cc974f06043810e02c72512dfed49dd92e295bad397d59f23c99150a"
+    },
+    {
+      "name": "throw_east_03",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 813,
+        "y": 517,
+        "w": 203,
+        "h": 221
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 25,
+        "y": 21,
+        "w": 47,
+        "h": 51
+      },
+      "sha256": "4f1f95249248393078d38413181901642e509316646e11059d1699152760ca71"
+    },
+    {
+      "name": "throw_east_04",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 1054,
+        "y": 521,
+        "w": 184,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 22,
+        "y": 22,
+        "w": 43,
+        "h": 50
+      },
+      "sha256": "f78ffd8c26fd81fbd37a18926164db87e63834d548ceb809086ea0650cf88d82"
+    },
+    {
+      "name": "throw_east_05",
+      "source": "../../sources/05-timur-throw.png",
+      "sourceBounds": {
+        "x": 1318,
+        "y": 511,
+        "w": 120,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 142.5,
+        "y": 225
+      },
+      "destination": {
+        "x": 24,
+        "y": 20,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "40f37deeb8531ed37285fecafc299e953781069fbe1ff088bb05bd2d779208e8"
+    },
+    {
+      "name": "hurt_east_00",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 160,
+        "y": 514,
+        "w": 75,
+        "h": 250
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 48,
+        "y": 15,
+        "w": 17,
+        "h": 58
+      },
+      "sha256": "d73755e98a2371d1f16d6e82ccde488aa0f1f5970a94b87f9ab10f07ae711c70"
+    },
+    {
+      "name": "hurt_east_01",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 384,
+        "y": 514,
+        "w": 115,
+        "h": 249
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 40,
+        "y": 15,
+        "w": 27,
+        "h": 58
+      },
+      "sha256": "225392e0451705be12f820ac8de7e88154d51c607dbf363ed205ac1d5f7b19ed"
+    },
+    {
+      "name": "hurt_east_02",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 606,
+        "y": 522,
+        "w": 135,
+        "h": 239
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 32,
+        "y": 16,
+        "w": 31,
+        "h": 55
+      },
+      "sha256": "11dcefff3e52a95e39436610367ee977bc38c1bf3118f634b9874bb55ddc0443"
+    },
+    {
+      "name": "hurt_east_03",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 834,
+        "y": 545,
+        "w": 138,
+        "h": 216
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 26,
+        "y": 22,
+        "w": 32,
+        "h": 50
+      },
+      "sha256": "794503b4b6b5d1388bae6492262fafdcf221b31f2967cb743862905a41461481"
+    },
+    {
+      "name": "hurt_east_04",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 1072,
+        "y": 534,
+        "w": 123,
+        "h": 229
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 22,
+        "y": 19,
+        "w": 28,
+        "h": 53
+      },
+      "sha256": "33c3b62efc5cf754d980e1a9da4de65217da17dfb8225a5148995c3513c5bf71"
+    },
+    {
+      "name": "hurt_east_05",
+      "source": "../../sources/05-timur-hurt.png",
+      "sourceBounds": {
+        "x": 1328,
+        "y": 514,
+        "w": 76,
+        "h": 250
+      },
+      "fixedSourceAnchor": {
+        "x": 161,
+        "y": 250
+      },
+      "destination": {
+        "x": 22,
+        "y": 15,
+        "w": 18,
+        "h": 58
+      },
+      "sha256": "b9b579bb6775f3326cd32e6a64ded3378ae87871ecf2891bab4547c59bf21336"
+    },
+    {
+      "name": "stunned_east_00",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 111,
+        "y": 520,
+        "w": 73,
+        "h": 244
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 43,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "5e41917d347282cb01b29029c777128ebeb940f218289ebf8ac3d4385e8ecaaf"
+    },
+    {
+      "name": "stunned_east_01",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 353,
+        "y": 534,
+        "w": 99,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 40,
+        "y": 19,
+        "w": 23,
+        "h": 53
+      },
+      "sha256": "831fda2e527f1c0c2bb089ab66b0ac1e105608bcdd7006add17d4f7a02aab0e9"
+    },
+    {
+      "name": "stunned_east_02",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 599,
+        "y": 528,
+        "w": 92,
+        "h": 231
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 37,
+        "y": 18,
+        "w": 21,
+        "h": 53
+      },
+      "sha256": "8bf9ae1e17e9791e85a85f83489f98974858af6c8870f2a69dd455a1f5c1eef6"
+    },
+    {
+      "name": "stunned_east_03",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 856,
+        "y": 521,
+        "w": 73,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 38,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "69727f04ddb62d3387cde624bf89cc94b4c185e3ed9887a6c152504cc743b2d0"
+    },
+    {
+      "name": "stunned_east_04",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 1093,
+        "y": 527,
+        "w": 99,
+        "h": 232
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 33,
+        "y": 17,
+        "w": 23,
+        "h": 54
+      },
+      "sha256": "d234792c2681d1d9a6792e96c860455c0253a88c204172302abdfb9466bc0888"
+    },
+    {
+      "name": "stunned_east_05",
+      "source": "../../sources/05-timur-stunned.png",
+      "sourceBounds": {
+        "x": 1352,
+        "y": 521,
+        "w": 74,
+        "h": 243
+      },
+      "fixedSourceAnchor": {
+        "x": 132.5,
+        "y": 251
+      },
+      "destination": {
+        "x": 34,
+        "y": 16,
+        "w": 17,
+        "h": 56
+      },
+      "sha256": "5e10589d208df7f7176e8f35be3667a15952677c9a34af054673bc5cb8ba2c74"
+    },
+    {
+      "name": "knockback_east_00",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 102,
+        "y": 522,
+        "w": 76,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 42,
+        "y": 19,
+        "w": 18,
+        "h": 54
+      },
+      "sha256": "ea273fa6645ec1ddb80ce14386237527be60eebf10b752586dcaebe2555db536"
+    },
+    {
+      "name": "knockback_east_01",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 294,
+        "y": 534,
+        "w": 181,
+        "h": 220
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 27,
+        "y": 21,
+        "w": 42,
+        "h": 51
+      },
+      "sha256": "cf3d0112322108e99af25801242c2f7876ad3afdcfae20475cc8385af2d02f09"
+    },
+    {
+      "name": "knockback_east_02",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 542,
+        "y": 539,
+        "w": 205,
+        "h": 215
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 25,
+        "y": 22,
+        "w": 47,
+        "h": 50
+      },
+      "sha256": "04197984618d8c6ec778f8138d8052d74ba5a86f45d0d65881d55371c9164a96"
+    },
+    {
+      "name": "knockback_east_03",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 788,
+        "y": 596,
+        "w": 170,
+        "h": 158
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 23,
+        "y": 36,
+        "w": 39,
+        "h": 37
+      },
+      "sha256": "b729cd408168120c52740094763e8621f75727922e92e83c9f51da6cb0523772"
+    },
+    {
+      "name": "knockback_east_04",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 1070,
+        "y": 550,
+        "w": 155,
+        "h": 203
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 29,
+        "y": 25,
+        "w": 36,
+        "h": 47
+      },
+      "sha256": "420f6cadc126ab756dfe97dc3acd636203001bc1f0a63bb4ee3d7a08b6435c5f"
+    },
+    {
+      "name": "knockback_east_05",
+      "source": "../../sources/05-timur-knockback.png",
+      "sourceBounds": {
+        "x": 1360,
+        "y": 522,
+        "w": 75,
+        "h": 234
+      },
+      "fixedSourceAnchor": {
+        "x": 128,
+        "y": 241
+      },
+      "destination": {
+        "x": 37,
+        "y": 19,
+        "w": 17,
+        "h": 54
+      },
+      "sha256": "d3264cb18442fb6b696a37be6ab45308f4edfa19eff6faec9ae04bfe23ba008d"
+    },
+    {
+      "name": "death_east_00",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 82,
+        "y": 532,
+        "w": 79,
+        "h": 227
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 39,
+        "y": 20,
+        "w": 18,
+        "h": 53
+      },
+      "sha256": "0a50195f18701408cc9f10fca8ac32affc78569ff35968f3643f56cb1296184b"
+    },
+    {
+      "name": "death_east_01",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 254,
+        "y": 542,
+        "w": 175,
+        "h": 213
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 20,
+        "y": 22,
+        "w": 40,
+        "h": 49
+      },
+      "sha256": "1a8e72f93512ed6a569c28507c4bc633b09024b7df7626cbd0ace099fe04e42d"
+    },
+    {
+      "name": "death_east_02",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 530,
+        "y": 572,
+        "w": 158,
+        "h": 181
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 24,
+        "y": 29,
+        "w": 37,
+        "h": 42
+      },
+      "sha256": "af30c00e2666294b477769964a89fcf86d95074f6adc530ebbe79a528261e6bd"
+    },
+    {
+      "name": "death_east_03",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 744,
+        "y": 613,
+        "w": 202,
+        "h": 142
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 14,
+        "y": 38,
+        "w": 47,
+        "h": 33
+      },
+      "sha256": "2f6e9264af98d68a095b154bc75960d739f32e26b4275d7e39e5d615c131ca0a"
+    },
+    {
+      "name": "death_east_04",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 991,
+        "y": 643,
+        "w": 226,
+        "h": 111
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 12,
+        "y": 45,
+        "w": 52,
+        "h": 26
+      },
+      "sha256": "5f626078c474a2891173913184042259f77bf4edd7a8b6806a22bfdf28d34c49"
+    },
+    {
+      "name": "death_east_05",
+      "source": "../../sources/05-timur-death.png",
+      "sourceBounds": {
+        "x": 1257,
+        "y": 670,
+        "w": 240,
+        "h": 80
+      },
+      "fixedSourceAnchor": {
+        "x": 121,
+        "y": 246
+      },
+      "destination": {
+        "x": 15,
+        "y": 52,
+        "w": 56,
+        "h": 19
+      },
+      "sha256": "ee3ba8754421a289e380aabd29f9ea13cce12686761974bd246bf274306b1dce"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "generator": "built-in image_gen",
+  "corrections": [
+    {
+      "source": "sources/01-gleb-stand_up.png",
+      "reason": "Top hair touched outer canvas edge; regenerated with extra clear margins.",
+      "promptSuffix": "CRITICAL FIT: EVERY sprite including the final standing poses MUST be SMALLER, with at least 20 transparent pixels above hair and below shoes INSIDE EACH 256x256 CELL. Max full body height 180 pixels, never touch canvas edges. No backdrop whatsoever."
+    },
+    {
+      "source": "sources/05-timur-crouch_down.png",
+      "reason": "Silhouette separation failed; regenerated with smaller sprites and wider transparent gutters.",
+      "promptSuffix": "CRITICAL LAYOUT: render ALL 24 bodies smaller, full standing height at most 170 pixels, horizontally centered EXACTLY x128,384,640,896,1152,1408. Rows ground anchors y218,474,730,986. Maximum width150 pixels. At least30 empty transparent pixels separating ALL adjacent silhouettes in both axes. Keep feet on constant baseline as knees bend, do not move figure into adjacent cells. No background gradients, only transparent empty space."
+    },
+    {
+      "source": "sources/06-makar-chop.png",
+      "reason": "Raised hand touched upper canvas edge; regenerated with clear margins.",
+      "promptSuffix": "CRITICAL FIT: make EVERY full-body sprite including raised hands smaller. At least24 empty transparent pixels ABOVE the highest raised fingertip in every cell and below shoes. Maximum entire pose height185 pixels. Never touch the outer canvas. Generous empty gutters; no background."
+    }
+  ]
+}

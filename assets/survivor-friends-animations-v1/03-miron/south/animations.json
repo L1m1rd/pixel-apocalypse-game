@@ -1,0 +1,632 @@
+{
+  "character": "03-miron",
+  "name": "Мирон",
+  "direction": "south",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "origin": {
+    "x": 0.5,
+    "y": 0.75
+  },
+  "animations": {
+    "idle": {
+      "label": "Ожидание",
+      "group": "movement",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "idle_south_00",
+        "idle_south_01",
+        "idle_south_02",
+        "idle_south_03",
+        "idle_south_04",
+        "idle_south_05"
+      ]
+    },
+    "walk": {
+      "label": "Ходьба",
+      "group": "movement",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "walk_south_00",
+        "walk_south_01",
+        "walk_south_02",
+        "walk_south_03",
+        "walk_south_04",
+        "walk_south_05"
+      ]
+    },
+    "run": {
+      "label": "Бег",
+      "group": "movement",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "run_south_00",
+        "run_south_01",
+        "run_south_02",
+        "run_south_03",
+        "run_south_04",
+        "run_south_05"
+      ]
+    },
+    "crouch_down": {
+      "label": "Присесть",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_down_south_00",
+        "crouch_down_south_01",
+        "crouch_down_south_02",
+        "crouch_down_south_03",
+        "crouch_down_south_04",
+        "crouch_down_south_05"
+      ]
+    },
+    "crouch_idle": {
+      "label": "Ожидание сидя",
+      "group": "stealth",
+      "durationMs": 220,
+      "frameRate": 4.545454545454546,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_idle_south_00",
+        "crouch_idle_south_01",
+        "crouch_idle_south_02",
+        "crouch_idle_south_03",
+        "crouch_idle_south_04",
+        "crouch_idle_south_05"
+      ]
+    },
+    "crouch_walk": {
+      "label": "Движение пригнувшись",
+      "group": "stealth",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "crouch_walk_south_00",
+        "crouch_walk_south_01",
+        "crouch_walk_south_02",
+        "crouch_walk_south_03",
+        "crouch_walk_south_04",
+        "crouch_walk_south_05"
+      ]
+    },
+    "stand_up": {
+      "label": "Встать",
+      "group": "stealth",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stand_up_south_00",
+        "stand_up_south_01",
+        "stand_up_south_02",
+        "stand_up_south_03",
+        "stand_up_south_04",
+        "stand_up_south_05"
+      ]
+    },
+    "pickup": {
+      "label": "Поднять предмет",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pickup_south_00",
+        "pickup_south_01",
+        "pickup_south_02",
+        "pickup_south_03",
+        "pickup_south_04",
+        "pickup_south_05"
+      ]
+    },
+    "search": {
+      "label": "Обыск",
+      "group": "interaction",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "search_south_00",
+        "search_south_01",
+        "search_south_02",
+        "search_south_03",
+        "search_south_04",
+        "search_south_05"
+      ]
+    },
+    "open_door": {
+      "label": "Открыть дверь",
+      "group": "interaction",
+      "durationMs": 120,
+      "frameRate": 8.333333333333334,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "open_door_south_00",
+        "open_door_south_01",
+        "open_door_south_02",
+        "open_door_south_03",
+        "open_door_south_04",
+        "open_door_south_05"
+      ]
+    },
+    "eat": {
+      "label": "Есть",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "eat_south_00",
+        "eat_south_01",
+        "eat_south_02",
+        "eat_south_03",
+        "eat_south_04",
+        "eat_south_05"
+      ]
+    },
+    "drink": {
+      "label": "Пить",
+      "group": "survival",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "drink_south_00",
+        "drink_south_01",
+        "drink_south_02",
+        "drink_south_03",
+        "drink_south_04",
+        "drink_south_05"
+      ]
+    },
+    "bandage": {
+      "label": "Перевязать себя",
+      "group": "survival",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "bandage_south_00",
+        "bandage_south_01",
+        "bandage_south_02",
+        "bandage_south_03",
+        "bandage_south_04",
+        "bandage_south_05"
+      ]
+    },
+    "heal_ally": {
+      "label": "Помочь товарищу",
+      "group": "survival",
+      "durationMs": 160,
+      "frameRate": 6.25,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "heal_ally_south_00",
+        "heal_ally_south_01",
+        "heal_ally_south_02",
+        "heal_ally_south_03",
+        "heal_ally_south_04",
+        "heal_ally_south_05"
+      ]
+    },
+    "craft": {
+      "label": "Крафт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "craft_south_00",
+        "craft_south_01",
+        "craft_south_02",
+        "craft_south_03",
+        "craft_south_04",
+        "craft_south_05"
+      ]
+    },
+    "build": {
+      "label": "Строительство",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "build_south_00",
+        "build_south_01",
+        "build_south_02",
+        "build_south_03",
+        "build_south_04",
+        "build_south_05"
+      ]
+    },
+    "repair": {
+      "label": "Ремонт",
+      "group": "work",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "repair_south_00",
+        "repair_south_01",
+        "repair_south_02",
+        "repair_south_03",
+        "repair_south_04",
+        "repair_south_05"
+      ]
+    },
+    "chop": {
+      "label": "Рубка",
+      "group": "work",
+      "durationMs": 130,
+      "frameRate": 7.6923076923076925,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "chop_south_00",
+        "chop_south_01",
+        "chop_south_02",
+        "chop_south_03",
+        "chop_south_04",
+        "chop_south_05"
+      ]
+    },
+    "mine": {
+      "label": "Добыча ресурсов",
+      "group": "work",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "mine_south_00",
+        "mine_south_01",
+        "mine_south_02",
+        "mine_south_03",
+        "mine_south_04",
+        "mine_south_05"
+      ]
+    },
+    "punch": {
+      "label": "Удар рукой",
+      "group": "combat",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "punch_south_00",
+        "punch_south_01",
+        "punch_south_02",
+        "punch_south_03",
+        "punch_south_04",
+        "punch_south_05"
+      ]
+    },
+    "one_hand_strike": {
+      "label": "Одноручный удар",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "one_hand_strike_south_00",
+        "one_hand_strike_south_01",
+        "one_hand_strike_south_02",
+        "one_hand_strike_south_03",
+        "one_hand_strike_south_04",
+        "one_hand_strike_south_05"
+      ]
+    },
+    "two_hand_strike": {
+      "label": "Двуручный удар",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "two_hand_strike_south_00",
+        "two_hand_strike_south_01",
+        "two_hand_strike_south_02",
+        "two_hand_strike_south_03",
+        "two_hand_strike_south_04",
+        "two_hand_strike_south_05"
+      ]
+    },
+    "shove": {
+      "label": "Толчок",
+      "group": "combat",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "shove_south_00",
+        "shove_south_01",
+        "shove_south_02",
+        "shove_south_03",
+        "shove_south_04",
+        "shove_south_05"
+      ]
+    },
+    "pistol_hold": {
+      "label": "Пистолет: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_hold_south_00",
+        "pistol_hold_south_01",
+        "pistol_hold_south_02",
+        "pistol_hold_south_03",
+        "pistol_hold_south_04",
+        "pistol_hold_south_05"
+      ]
+    },
+    "pistol_aim": {
+      "label": "Пистолет: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_aim_south_00",
+        "pistol_aim_south_01",
+        "pistol_aim_south_02",
+        "pistol_aim_south_03",
+        "pistol_aim_south_04",
+        "pistol_aim_south_05"
+      ]
+    },
+    "pistol_fire": {
+      "label": "Пистолет: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_fire_south_00",
+        "pistol_fire_south_01",
+        "pistol_fire_south_02",
+        "pistol_fire_south_03",
+        "pistol_fire_south_04",
+        "pistol_fire_south_05"
+      ]
+    },
+    "pistol_reload": {
+      "label": "Пистолет: перезарядка",
+      "group": "firearm",
+      "durationMs": 140,
+      "frameRate": 7.142857142857143,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "pistol_reload_south_00",
+        "pistol_reload_south_01",
+        "pistol_reload_south_02",
+        "pistol_reload_south_03",
+        "pistol_reload_south_04",
+        "pistol_reload_south_05"
+      ]
+    },
+    "longgun_hold": {
+      "label": "Длинное оружие: удержание",
+      "group": "firearm",
+      "durationMs": 200,
+      "frameRate": 5,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_hold_south_00",
+        "longgun_hold_south_01",
+        "longgun_hold_south_02",
+        "longgun_hold_south_03",
+        "longgun_hold_south_04",
+        "longgun_hold_south_05"
+      ]
+    },
+    "longgun_aim": {
+      "label": "Длинное оружие: прицеливание",
+      "group": "firearm",
+      "durationMs": 170,
+      "frameRate": 5.882352941176471,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_aim_south_00",
+        "longgun_aim_south_01",
+        "longgun_aim_south_02",
+        "longgun_aim_south_03",
+        "longgun_aim_south_04",
+        "longgun_aim_south_05"
+      ]
+    },
+    "longgun_fire": {
+      "label": "Длинное оружие: выстрел",
+      "group": "firearm",
+      "durationMs": 90,
+      "frameRate": 11.11111111111111,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_fire_south_00",
+        "longgun_fire_south_01",
+        "longgun_fire_south_02",
+        "longgun_fire_south_03",
+        "longgun_fire_south_04",
+        "longgun_fire_south_05"
+      ]
+    },
+    "longgun_reload": {
+      "label": "Длинное оружие: перезарядка",
+      "group": "firearm",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "longgun_reload_south_00",
+        "longgun_reload_south_01",
+        "longgun_reload_south_02",
+        "longgun_reload_south_03",
+        "longgun_reload_south_04",
+        "longgun_reload_south_05"
+      ]
+    },
+    "throw": {
+      "label": "Бросок",
+      "group": "combat",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "throw_south_00",
+        "throw_south_01",
+        "throw_south_02",
+        "throw_south_03",
+        "throw_south_04",
+        "throw_south_05"
+      ]
+    },
+    "hurt": {
+      "label": "Получение урона",
+      "group": "reaction",
+      "durationMs": 100,
+      "frameRate": 10,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "hurt_south_00",
+        "hurt_south_01",
+        "hurt_south_02",
+        "hurt_south_03",
+        "hurt_south_04",
+        "hurt_south_05"
+      ]
+    },
+    "stunned": {
+      "label": "Оглушение",
+      "group": "reaction",
+      "durationMs": 180,
+      "frameRate": 5.555555555555555,
+      "repeat": -1,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "stunned_south_00",
+        "stunned_south_01",
+        "stunned_south_02",
+        "stunned_south_03",
+        "stunned_south_04",
+        "stunned_south_05"
+      ]
+    },
+    "knockback": {
+      "label": "Отбрасывание",
+      "group": "reaction",
+      "durationMs": 110,
+      "frameRate": 9.090909090909092,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "frames": [
+        "knockback_south_00",
+        "knockback_south_01",
+        "knockback_south_02",
+        "knockback_south_03",
+        "knockback_south_04",
+        "knockback_south_05"
+      ]
+    },
+    "death": {
+      "label": "Смерть и лежащее тело",
+      "group": "reaction",
+      "durationMs": 150,
+      "frameRate": 6.666666666666667,
+      "repeat": 0,
+      "rootMotion": false,
+      "equipment": "separate_layer",
+      "holdLastFrame": true,
+      "frames": [
+        "death_south_00",
+        "death_south_01",
+        "death_south_02",
+        "death_south_03",
+        "death_south_04",
+        "death_south_05"
+      ],
+      "terminalFrame": "death_south_05"
+    }
+  },
+  "corpse": {
+    "image": "corpse.png",
+    "frame": "death_south_05",
+    "static": true
+  }
+}

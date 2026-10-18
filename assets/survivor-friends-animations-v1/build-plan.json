@@ -1,5 +1,5 @@
 {
-  "status": "local visual review only",
+  "status": "approved for GitHub publication",
   "directions": [
     "south",
     "west",
@@ -384,6 +384,32 @@
           "rootMotion": false,
           "equipment": "separate_layer",
           "holdLastFrame": true
+        }
+      },
+      "sourceDirectionRows": {
+        "bandage": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "shove": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "pistol_aim": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "pistol_fire": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
         }
       }
     },
@@ -1509,6 +1535,38 @@
           "rootMotion": false,
           "equipment": "separate_layer",
           "holdLastFrame": true
+        }
+      },
+      "sourceDirectionRows": {
+        "idle": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "crouch_down": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "pickup": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "pistol_aim": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
+        },
+        "longgun_fire": {
+          "south": 0,
+          "west": 2,
+          "east": 1,
+          "north": 3
         }
       }
     },
