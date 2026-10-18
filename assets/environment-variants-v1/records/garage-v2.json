@@ -1,0 +1,10 @@
+{
+  "id": "garage",
+  "status": "background-cleanup",
+  "tool": "built-in image_gen",
+  "prompt": "Edit target: the attached sheet with THREE pixel-art garages. Precise background removal only. Preserve all three garage objects, their pixels, wear, colors, scale, camera angle, full silhouettes, and positions EXACTLY. Remove ALL the black/brown gradient backdrop, blurred brown halo and any ground-plane/background/shadow pixels around and between the three garages. Replace the ENTIRE backdrop with genuinely transparent alpha=0, including gaps between buildings and above/below them. Keep vegetation attached at the base of each garage. No gray background, no checkerboard, no new ground tile, no glow, no border, no added objects, no text. Three intact separate garage sprites on fully transparent background, evenly spaced, with clear empty transparent margins, same 1536x1024 canvas.",
+  "source": "sources/garage-v2.png",
+  "reference": "sources/garage.png",
+  "originalFile": "C:\\Users\\posto\\.codex\\generated_images\\01a14c16-255c-7ef3-8412-88685e26b996\\exec-0fbfc0a0-d6a8-43d2-9946-3159c2666eb6.png",
+  "createdAt": "2026-10-17T23:22:13.498Z"
+}

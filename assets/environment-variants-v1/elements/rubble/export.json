@@ -1,0 +1,72 @@
+{
+  "element": "rubble",
+  "source": "sources/rubble.png",
+  "sourceCells": [
+    {
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 0,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 27,
+        "y0": 407,
+        "x1": 511,
+        "y1": 668,
+        "count": 74991,
+        "edge": 15,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 512,
+        "top": 0,
+        "width": 512,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 0,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 32,
+        "y0": 411,
+        "x1": 479,
+        "y1": 675,
+        "count": 71555,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 0,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 9,
+        "y0": 408,
+        "x1": 480,
+        "y1": 672,
+        "count": 79511,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    }
+  ],
+  "warnings": [
+    "Visible source pixels touch a grid boundary: inspect framing."
+  ]
+}

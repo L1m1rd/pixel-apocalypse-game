@@ -1,0 +1,72 @@
+{
+  "element": "car_abandoned",
+  "source": "sources/car_abandoned.png",
+  "sourceCells": [
+    {
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 514,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 0,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 7,
+        "y0": 290,
+        "x1": 513,
+        "y1": 701,
+        "count": 128581,
+        "edge": 14,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 514,
+        "top": 0,
+        "width": 511,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 1,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 9,
+        "y0": 289,
+        "x1": 511,
+        "y1": 701,
+        "count": 128202,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 1025,
+        "top": 0,
+        "width": 511,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 1,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 9,
+        "y0": 289,
+        "x1": 506,
+        "y1": 701,
+        "count": 125892,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    }
+  ],
+  "warnings": [
+    "Visible source pixels touch a grid boundary: inspect framing."
+  ]
+}

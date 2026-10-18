@@ -14,7 +14,13 @@
 
 [Отдельные образы](assets/survivor-friends-pixel-v1/art) · [Прозрачные спрайты](assets/survivor-friends-pixel-v1/sprites) · [Описание состава](docs/survivors.md)
 
-Готовы статичные пиксельные модели и реалистичные референсы. Анимации находятся в работе: [исходные листы](assets/survivor-friends-animations-v1/sources), [план действий](assets/survivor-friends-animations-v1/build-plan.json). Числа в плане обозначают целевой объём, а не количество готовых анимаций.
+Готовы статичные модели, реалистичные референсы и **864 анимации, 5184 прозрачных кадра и 24 лежащих тела**: 36 действий для каждого героя, спереди, сзади и с обоих боков. Движение, стелс, взаимодействия, выживание, работа, бой, оружейные хваты, реакции и смерть.
+
+![Все шесть выживших — бег в четырёх направлениях](assets/survivor-friends-animations-v1/all-run.gif)
+
+[Полный набор](assets/survivor-friends-animations-v1/README.md) · [Все анимации — ZIP](assets/survivor-friends-animations-v1/downloads/all.zip) · [Просмотрщик](assets/survivor-friends-animations-v1/preview.html) · [Проверки](assets/survivor-friends-animations-v1/verification.json)
+
+Оружие, инструменты, расходники и рюкзаки добавляются отдельными слоями. Здесь подготовлены движения тела и хваты; игровой код не добавлен.
 
 ## Заражённые — 18 новых образов
 
@@ -64,7 +70,11 @@
 
 [Готовые элементы](assets/environment-variants-v1/elements) · [Манифест готовности](assets/environment-variants-v1/manifest.json) · [Локальный просмотрщик](assets/environment-variants-v1/preview.html)
 
-Набор пополняется. Манифест отделяет запланированные элементы от экспортированных. Стыковка тайлов и освещение потребуют проверки в игровом движке.
+Готовы **119 элементов по три близких варианта — 357 вариантов**: 258 статичных изображений, 90 анимаций на 540 кадров и 9 референсов освещения. Все варианты одного элемента предназначены для совместного использования на карте. Сохранены исходники, запросы генерации, отдельные PNG, спрайт-листы, JSON-атласы и GIF.
+
+[Описание полного набора](assets/environment-variants-v1/README.md) · [Общий ZIP в релизе](https://github.com/L1m1rd/pixel-apocalypse-game/releases/tag/environment-variants-v1)
+
+Проверка файлов и просмотрщика пройдена. Стыковка покрытий, соединения дорог и отмеченные края кадров требуют проверки в игровом движке; сцены освещения служат референсами.
 
 ## Эффекты боя
 
@@ -79,6 +89,7 @@
 PNG/GIF доступны прямо на GitHub. HTML-просмотрщики открываются локально после скачивания или клонирования проекта:
 
 - Заражённые: `assets/infected-redesign-animations-v1/preview.html`.
+- Выжившие: `assets/survivor-friends-animations-v1/preview.html`.
 - Эффекты: `assets/combat-vfx-v1/preview.html`.
 - Окружение: `assets/environment-variants-v1/preview.html`.
 

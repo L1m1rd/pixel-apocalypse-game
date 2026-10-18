@@ -1,0 +1,72 @@
+{
+  "element": "infected_remains",
+  "source": "sources/infected_remains.png",
+  "sourceCells": [
+    {
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 516,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 0,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 10,
+        "y0": 257,
+        "x1": 515,
+        "y1": 815,
+        "count": 146330,
+        "edge": 19,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 516,
+        "top": 0,
+        "width": 508,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 4,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 45,
+        "y0": 254,
+        "x1": 475,
+        "y1": 826,
+        "count": 142224,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    },
+    {
+      "rect": {
+        "left": 1024,
+        "top": 0,
+        "width": 512,
+        "height": 1024
+      },
+      "normalizedOffset": {
+        "left": 2,
+        "top": 0
+      },
+      "alpha": {
+        "x0": 62,
+        "y0": 254,
+        "x1": 510,
+        "y1": 849,
+        "count": 139686,
+        "edge": 0,
+        "hasTransparency": true
+      }
+    }
+  ],
+  "warnings": [
+    "Visible source pixels touch a grid boundary: inspect framing."
+  ]
+}

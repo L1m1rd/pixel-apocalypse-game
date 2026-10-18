@@ -1,0 +1,14 @@
+{
+  "status": "reviewed-as-generated-art",
+  "elements": 119,
+  "variants": 357,
+  "reviewed": ["overview-01.png", "overview-02.png", "overview-03.png", "overview-04.png", "overview-05.png", "overview-06.png", "storyboard-01.png", "storyboard-02.png", "storyboard-03.png", "storyboard-04.png"],
+  "scope": "Visual inspection of static variants and every exported animation frame on contact sheets; composition, subject, palette, three-variant consistency and action progression.",
+  "notes": [
+    "Three variants per element share the same visual family and are intended to be used together.",
+    "Garage revision v2 was selected after inspecting source transparency.",
+    "Automatic source-grid boundary warnings remain in verification.json. Inspected overview/storyboard exports show complete main subjects; small edge particles and fringes require a final check at the chosen in-game scale.",
+    "Terrain seams and road connector alignment require an assembled-map test.",
+    "Lighting scene panels are references. Engine lighting and gameplay logic are not implemented."
+  ]
+}

@@ -42,6 +42,31 @@ async function main(){
   git(['remote','add','origin',repo.clone_url]);
  }
  console.log(JSON.stringify({repository:repo.html_url,private:repo.private,phase:'repository-ready'}));
+ const releaseIndex=process.argv.indexOf('--release-asset');
+ if(releaseIndex!==-1){
+  const relative=process.argv[releaseIndex+1],tagIndex=process.argv.indexOf('--release-tag'),tag=tagIndex===-1?'environment-variants-v1':process.argv[tagIndex+1];
+  if(!relative||path.isAbsolute(relative)||relative.split(/[\\/]/).includes('..')||!tag||!/^[a-zA-Z0-9._-]+$/.test(tag))throw Error('Invalid release asset path or tag');
+  const file=path.join(ROOT,relative),bytes=fs.readFileSync(file),name=path.basename(file),sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+  const current=await api('/repos/'+repo.full_name+'/releases/tags/'+encodeURIComponent(tag));let release;
+  if(current.status===200)release=current.data;
+  else if(current.status===404){
+   const made=await api('/repos/'+repo.full_name+'/releases','POST',{tag_name:tag,target_commitish:git(['rev-parse','HEAD']),name:'Окружение и эффекты — 119 элементов × 3 варианта',body:'357 близких вариантов окружения и эффектов: 258 статичных изображений, 90 анимаций на 540 кадров и 9 референсов освещения. В ZIP включены исходники, запросы генерации, отдельные PNG, спрайт-листы, атласы, GIF и локальный просмотрщик. Проверки файлов и просмотрщика пройдены. Стыки покрытий, соединения дорог и отмеченные края кадров требуют проверки в игровом движке.',draft:true,prerelease:true});
+   if(made.status!==201)throw Error('Cannot create asset release (HTTP '+made.status+')');release=made.data;
+  }else throw Error('Cannot read asset release (HTTP '+current.status+')');
+  const existing=release.assets?.find(a=>a.name===name);let asset;
+  if(existing){
+   if(existing.size!==bytes.length||existing.digest!=='sha256:'+sha256)throw Error('An existing release asset differs; it was not overwritten');asset=existing;
+  }else{
+   console.log(JSON.stringify({phase:'uploading-release-archive',name,bytes:bytes.length,sha256}));
+   const endpoint=release.upload_url.split('{')[0]+'?name='+encodeURIComponent(name);
+   const response=await fetch(endpoint,{method:'POST',headers:{Authorization:auth,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'pixel-apocalypse-project-publisher','Content-Type':'application/zip','Content-Length':String(bytes.length)},body:bytes});
+   const uploaded=await response.json();if(response.status!==201)throw Error('Release upload failed (HTTP '+response.status+'): '+(uploaded.message||'unknown error'));asset=uploaded;
+  }
+  if(asset.state!=='uploaded'||asset.size!==bytes.length||(asset.digest&&asset.digest!=='sha256:'+sha256))throw Error('Release asset integrity verification failed');
+  const published=await api('/repos/'+repo.full_name+'/releases/'+release.id,'PATCH',{draft:false});if(published.status!==200||published.data.draft)throw Error('Cannot publish completed asset release');
+  const checked=await api('/repos/'+repo.full_name+'/releases/assets/'+asset.id);if(checked.status!==200||checked.data.size!==bytes.length||checked.data.digest&&checked.data.digest!=='sha256:'+sha256)throw Error('Published archive verification failed');
+  console.log(JSON.stringify({release:published.data.html_url,archive:checked.data.browser_download_url,bytes:bytes.length,sha256,verified:true,private:true}));return;
+ }
  const pathsIndex=process.argv.indexOf('--paths');
  if(pathsIndex!==-1){
   const selected=process.argv.slice(pathsIndex+1);
