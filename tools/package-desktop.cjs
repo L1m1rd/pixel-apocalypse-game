@@ -1,0 +1,11 @@
+const fs=require('fs');const path=require('path');
+const ROOT=path.resolve(__dirname,'..');const version=require('../desktop/package.json').version;const dest=path.join(ROOT,'output',`PixelApocalypse-test-v${version}-win32-x64`);
+fs.mkdirSync(dest,{recursive:true});
+const runtime=path.join(ROOT,'desktop/node_modules/electron/dist');
+if(!fs.existsSync(path.join(runtime,'electron.exe')))throw Error('Install desktop dependencies first: npm --prefix desktop install');
+fs.cpSync(runtime,dest,{recursive:true});
+const app=path.join(dest,'resources/app');fs.mkdirSync(app,{recursive:true});
+for(const name of ['package.json','main.cjs','save.cjs','preload.cjs','core.mjs','index.html','style.css','renderer.mjs','media'])fs.cpSync(path.join(ROOT,'desktop',name),path.join(app,name),{recursive:true});
+const exe=path.join(dest,'PixelApocalypse.exe');if(fs.existsSync(exe))fs.unlinkSync(exe);fs.renameSync(path.join(dest,'electron.exe'),exe);
+fs.writeFileSync(path.join(dest,'КАК ИГРАТЬ.txt'),'Pixel Apocalypse — тестовая версия 0.2\r\n\r\nЗапуск: PixelApocalypse.exe. Оставьте остальные файлы рядом с ним.\r\nСоздать мир → выбрать героя → указать название → Создать мир.\r\nWASD или стрелки — движение. Shift — бег. C или Ctrl — присесть / встать. Esc — пауза. F11 — полный экран.\r\nМир сохраняется автоматически; кнопка Продолжить возвращает выбранного героя на сохранённое место.\r\nПока в мире только трава и герой. Подключение и настройки недоступны.\r\n');
+console.log(JSON.stringify({executable:exe}));

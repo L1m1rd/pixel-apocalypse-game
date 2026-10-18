@@ -1,0 +1,14 @@
+{
+  "name": "pixel-apocalypse-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Minimal offline desktop movement prototype",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "node ../tools/package-desktop.cjs"
+  },
+  "devDependencies": {
+    "electron": "^44.9.0"
+  }
+}

@@ -1,0 +1,12 @@
+const sharp=require('sharp');
+module.exports=async function slice(file,cols=8,rows=2){
+ const {data,info}=await sharp(file).ensureAlpha().raw().toBuffer({resolveWithObject:true});const W=info.width,H=info.height,N=W*H,labels=new Int32Array(N),queue=new Int32Array(N),components=[null];
+ for(let seed=0;seed<N;seed++){if(labels[seed]||data[seed*4+3]<96)continue;const id=components.length;let head=0,tail=1,sx=0,sy=0,left=W,right=0,top=H,bottom=0;queue[0]=seed;labels[seed]=id;while(head<tail){const p=queue[head++],x=p%W,y=Math.floor(p/W);sx+=x;sy+=y;left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){const xx=x+dx,yy=y+dy;if(xx<0||xx>=W||yy<0||yy>=H)continue;const q=yy*W+xx;if(!labels[q]&&data[q*4+3]>=96){labels[q]=id;queue[tail++]=q;}}}components.push({id,n:tail,cx:sx/tail,cy:sy/tail,left,right,top,bottom});}
+ const mains=Array(cols*rows).fill(null);for(const c of components.slice(1)){const slot=Math.min(rows-1,Math.floor(c.cy/H*rows))*cols+Math.min(cols-1,Math.floor(c.cx/W*cols));if(!mains[slot]||mains[slot].n<c.n)mains[slot]=c;}
+ if(mains.some(c=>!c||c.n<200))throw Error('Cannot identify all '+cols*rows+' figures in '+file);
+ const owners=new Int16Array(components.length);for(const c of components.slice(1)){let owner=mains.indexOf(c);if(owner<0){if(c.n<6)continue;let best=Infinity;for(let k=0;k<mains.length;k++){const m=mains[k],dx=Math.max(m.left-c.cx,0,c.cx-m.right),dy=Math.max(m.top-c.cy,0,c.cy-m.bottom),distance=dx*dx+dy*dy+.001*((m.cx-c.cx)**2+(m.cy-c.cy)**2);if(distance<best){owner=k;best=distance;}}if(best>400)continue;}owners[c.id]=owner+1;}
+ const cells=Array.from({length:cols*rows},(_,i)=>({row:Math.floor(i/cols),col:i%cols,left:W,top:H,right:-1,bottom:-1}));
+ for(let p=0;p<N;p++){const owner=owners[labels[p]];if(!owner)continue;const c=cells[owner-1],x=p%W,y=Math.floor(p/W);c.left=Math.min(c.left,x);c.top=Math.min(c.top,y);c.right=Math.max(c.right,x);c.bottom=Math.max(c.bottom,y);}
+ for(let k=0;k<cells.length;k++){const c=cells[k],w=c.right-c.left+1,h=c.bottom-c.top+1;if(w>W/cols*1.5||h>H/rows*.98)throw Error('Merged or clipped figures '+file+'/'+k);const pixels=Buffer.alloc(w*h*4);for(let y=c.top;y<=c.bottom;y++)for(let x=c.left;x<=c.right;x++){const p=y*W+x;if(owners[labels[p]]===k+1)data.copy(pixels,((y-c.top)*w+x-c.left)*4,p*4,p*4+4);}c.image=await sharp(pixels,{raw:{width:w,height:h,channels:4}}).png().toBuffer();c.width=w;c.height=h;}
+ return cells;
+};

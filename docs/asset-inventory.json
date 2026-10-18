@@ -127,8 +127,8 @@
     "assets/wildlife-loot-v1/sources/fish-fillet.png",
     "assets/wildlife-loot-v1/records/fish-fillet.json"
   ],
-  "files": 18937,
-  "totalBytes": 2426759359,
+  "files": 19075,
+  "totalBytes": 2441533388,
   "entries": [
     {
       "path": ".gitattributes",
@@ -137,8 +137,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 6142,
-      "sha256": "edd0093af8f68a6cd0cf98a75d49af4f8d411081438f902cfb07e2160f08000c"
+      "bytes": 6157,
+      "sha256": "08cd63a70b840485214ae57c163214c69061c968dea7ffd5fb490442eb62295e"
     },
     {
       "path": "AGENTS.md",
@@ -146,9 +146,14 @@
       "sha256": "e4105896da66d6ca5e9e1ace9352c4f4fba904b1b7366b42c675f5d9ae0c97b9"
     },
     {
+      "path": "CHANGELOG.md",
+      "bytes": 1900,
+      "sha256": "64e91ab88f4aefb5cd732c3d4e620459bc32ad2a89ba4f398da8f38710f91ddd"
+    },
+    {
       "path": "README.md",
-      "bytes": 16235,
-      "sha256": "d49b0d5c9cec5339fa217364b96c10b3e7556aaa1d615dd56fabec9349a9ab30"
+      "bytes": 20254,
+      "sha256": "edc0bdfa8222829ffb6d53b15f2acf4a66729b6edacbd8092738148962887de1"
     },
     {
       "path": "asset-ownership.json",
@@ -94456,6 +94461,611 @@
       "sha256": "78f63127b6d404780587692458651898422707b45c22a2da6a4b8400fedd6633"
     },
     {
+      "path": "desktop/README.md",
+      "bytes": 6125,
+      "sha256": "5a8abcc23e26e22f5716f9476059dbe1c61d7f455c014943074bc9bfefdc0fca"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-0.png",
+      "bytes": 3410,
+      "sha256": "47e9a57bd7dc93226ac799b40ed049f7ffbbc5b6c3d074e5a007494e36756c5a"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-1.png",
+      "bytes": 3260,
+      "sha256": "7ee5cfe65264023c3255432e0b370764a440fc6b7b0db5aab5dda5a47a85c61e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-2.png",
+      "bytes": 3193,
+      "sha256": "28925f152527999de22f97caebc553aa95e6ca7a6af04c68d5c5e515a9d4856b"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-3.png",
+      "bytes": 3487,
+      "sha256": "4ff0b8665433cfedb813f9281e364e9b2cb7d4c50fd6a30c81a1068d532ff535"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-4.png",
+      "bytes": 3289,
+      "sha256": "0061bc1f959e4bed9e09f3c58e5ca2d62fb37ff457d2d1a65c56ef92c215735e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-5.png",
+      "bytes": 3319,
+      "sha256": "1ebbbc80b34c174b62b353ea10f5cdce9a84c3d74ebc695223c1a887211eb870"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-6.png",
+      "bytes": 3165,
+      "sha256": "554ba4d17b514c35bb46cee28b0ba5be00930f8aeea12f12bbe0407eba3acf43"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/east/run-7.png",
+      "bytes": 3298,
+      "sha256": "b9e1a8677aaa50761d05df376772131ac3f20d3fb819732adc9b4e300fc6fbd2"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-0.png",
+      "bytes": 3211,
+      "sha256": "276aded13af39ac3d0bb9f1de3f5067f2097463f039074a4b317680d589c8f98"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-1.png",
+      "bytes": 3374,
+      "sha256": "6abe4f95ffd6c063a490662a817f8cc446425f94cc0cab248b70e1cb21465e67"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-2.png",
+      "bytes": 3047,
+      "sha256": "96781f15b48be89fab8c0d73d900c041fb16dbd2dce588a55e4e0fef2afc586f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-3.png",
+      "bytes": 3274,
+      "sha256": "fa0ad8c70f6a78f6e01326af01b8e0cb1449c3dccab0f850e9eb3b3e40ec079f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-4.png",
+      "bytes": 3130,
+      "sha256": "99f36b372e430284765a9ffa407fa9d093092eb7ad825fb09145c5e6e274e94a"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-5.png",
+      "bytes": 3125,
+      "sha256": "cb57d5fcafc779988fe8fdb388879a8c5f014ce2e0bfb2d9640b9fc90c841aeb"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-6.png",
+      "bytes": 3015,
+      "sha256": "da45c53515edaaa63a3bd724503d8b1b7e5e6a0ba86fe2a1e9236147aa2d7508"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/01-gleb/west/run-7.png",
+      "bytes": 3301,
+      "sha256": "554edfb6fb7097fa9580cde82b21bb7d63e64602283f0bfb3a91ba8bbc47ad33"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-0.png",
+      "bytes": 3080,
+      "sha256": "cc4f98bd10392a5e4589edfe639028db7badc9c23ce64b4c9455537cb13a4e95"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-1.png",
+      "bytes": 2882,
+      "sha256": "699ed099fc18ed01ece2132cdbc6475d1029ba6fd2cc6d4b1adcf7ee69ad5e30"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-2.png",
+      "bytes": 3063,
+      "sha256": "5e049f6dc355562914ed1524b35d3786c53ddc0d87dcc83679dcc3e96203d2e0"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-3.png",
+      "bytes": 3032,
+      "sha256": "b18f93cb8f71f391342600dd0d108529c60154726ed1b6fe9ae51292137af42d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-4.png",
+      "bytes": 2984,
+      "sha256": "88f91d023692b3fe0c8ebb117a59fcf98e0bd605e1068a805b1b3f02aaa00dd5"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-5.png",
+      "bytes": 3121,
+      "sha256": "cdec043fe4d7b1b29e20e057e97243efa0d588f9b59787f3c34fd1993e958f6d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-6.png",
+      "bytes": 2923,
+      "sha256": "cb4db81e7907b90dad59884f1f24c18b5b756d3269850e65b923ab1fee9ca093"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/east/run-7.png",
+      "bytes": 3008,
+      "sha256": "b2d902db75049d3ee59b61cad6ad39551a30640bc717f1f53e7b8fbddf67a2e4"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-0.png",
+      "bytes": 3002,
+      "sha256": "7d22ce552300d35be93182ea7b1acb6c490ad7d86694e99026b17cc942f1cc0f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-1.png",
+      "bytes": 2844,
+      "sha256": "3ca31739ba8db16baf0c605236e0962d49bde3e32008c1a88ac41de1542d4191"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-2.png",
+      "bytes": 3133,
+      "sha256": "bd59f51b3987d4a8b7989fa24c95a3c8f5ab8bd56aecffadf6d1d41c09b02daa"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-3.png",
+      "bytes": 2943,
+      "sha256": "02d23d5a0a39086895a37cd2bc2b77ee4510a6a60627c9063bb875df4f059f6e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-4.png",
+      "bytes": 3061,
+      "sha256": "b0eaf92a8246d19fa209996e6d4b817e1f5890ae4ad1ffe8b42c018a1e3bdfbe"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-5.png",
+      "bytes": 3082,
+      "sha256": "40ba78089e50d4576ccbf57b53dbfcba2c919cfc7fe0e99745c70eb164752d48"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-6.png",
+      "bytes": 2930,
+      "sha256": "c54b69d9d2c3a5cf1c12cf0a19810585b9902832c6d02a0a40480f2248d3893b"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/02-roman/west/run-7.png",
+      "bytes": 3054,
+      "sha256": "b2ca84fc400963f597873b0643236271d1052e57aa2e0535440a6cb15331b7ed"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-0.png",
+      "bytes": 3002,
+      "sha256": "89eff5264784c56ea7984e31d44ce731d6a14d599e50d19d1bfd843c6a5eda0d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-1.png",
+      "bytes": 3084,
+      "sha256": "e1307f84043ea75bd841dbe7626298401215466dbeda96684b4d8d99032e840d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-2.png",
+      "bytes": 3079,
+      "sha256": "4f3cb950cd487eeca1050718b0361cb8f257af2ef5d2f8871c98d7c899cd9c4f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-3.png",
+      "bytes": 3090,
+      "sha256": "c38a32f6ba27a2ba496d8a943f734581a721ebffd7f8db5078e26d278f0e8077"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-4.png",
+      "bytes": 2953,
+      "sha256": "30ada8192339d1e974eaaaeb87a9e8b4e16166f30fe3895c4a61edcafe505d8e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-5.png",
+      "bytes": 3161,
+      "sha256": "99a7ffab8d6b620d0ca05cfb01c184a6c3bad57fb360ad7e1afcd8b36736d55b"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-6.png",
+      "bytes": 3025,
+      "sha256": "c29ce5d38b425c5f77b628cffcfe1872f78974b95dfed6be261b75f7c828f0bb"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/east/run-7.png",
+      "bytes": 3127,
+      "sha256": "306aacdb99cad5e35c8ef56bb9000486b3e83e67a2c27809a607bd5fc040caad"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-0.png",
+      "bytes": 2966,
+      "sha256": "d80e8456f6a25bb1608660bf3b9e2bace05cc6c1e5244d394b8e927279db44fd"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-1.png",
+      "bytes": 2985,
+      "sha256": "8efe4ef34db3fe0adbb634afd6359831d8c4dad8ab97891a9deed7c8eba6e252"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-2.png",
+      "bytes": 3062,
+      "sha256": "024934021a74c246ba98356830acfde15495538a3fcabb8841291970834b8c01"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-3.png",
+      "bytes": 2861,
+      "sha256": "855853985f76e5483885d7692a6a5a679cdd0248e0e5287eefd73398ac8a994d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-4.png",
+      "bytes": 3055,
+      "sha256": "190d5e906e1f0839d6bc84f9ae0c1d1c9090940788dbc1b39f43edfb530b6d4e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-5.png",
+      "bytes": 3128,
+      "sha256": "88a717831072655c4b43897e6dab4a0f41923c3c361a8d3b741b9be4d5eae8df"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-6.png",
+      "bytes": 3148,
+      "sha256": "33ac487fb8418fdd0873e809797628b37c78cfcc76831abd79c90920c2042a00"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/03-miron/west/run-7.png",
+      "bytes": 2964,
+      "sha256": "7b01aa493f52be377d2a036136aba18260bd7b3730fc44e36f4f19e7ccee77f0"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-0.png",
+      "bytes": 3351,
+      "sha256": "a75a210dc90cdcdca4423b80a40c4643f9cb9f4db218dafe70c2c9d700859363"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-1.png",
+      "bytes": 2882,
+      "sha256": "29f963040144dad5800be4188eb63a8209de4e9c89bd61940cc6ccbe677b6508"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-2.png",
+      "bytes": 3257,
+      "sha256": "aa48e400c4d449fd8062e69e87b715b2e9ab61a1985c1142e01abe43ded5931a"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-3.png",
+      "bytes": 3155,
+      "sha256": "eb8921f5b189d08c8ac4dc3669b2b68b5e9a130559d6bb13e13e4dbfa5013067"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-4.png",
+      "bytes": 3396,
+      "sha256": "7ea43dabdaa90798a740e469edfd3622a5bd0bd26f7daeb35ca4383448f27237"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-5.png",
+      "bytes": 3132,
+      "sha256": "6f4d91c4b02bf8aaddded912306a413b99bcdddd8c9ba94d80bc58754a569f35"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-6.png",
+      "bytes": 3365,
+      "sha256": "dfb06be0da8820a35a8b5008d498476163de2720d225be94173234722ae592e5"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/east/run-7.png",
+      "bytes": 3360,
+      "sha256": "aaa7516d2b8499b085957c55d84a129d5819bce425cec1525cd29eb73ac053a8"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-0.png",
+      "bytes": 3441,
+      "sha256": "d499b7d4f30b0d5d2bae70f1e45822135b3644819e0cf132f06813b697aee4ca"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-1.png",
+      "bytes": 2843,
+      "sha256": "19f3257c1fbbcf7ecfcb8c5d7de19481b4cf3bb2111ba4d50ecb6bef2b478953"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-2.png",
+      "bytes": 3247,
+      "sha256": "7e3c5055c4b98972d023d468a9cecfdce43557a5071f25db36be0862a4eb3471"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-3.png",
+      "bytes": 3062,
+      "sha256": "4aad0426cebb0fafdf6408fe00394d938faf46b90b1ac8dfdcd86aaa03d7710b"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-4.png",
+      "bytes": 3401,
+      "sha256": "d6daf67973875f4b6b4f02f2fbf199d0686eef58377a2c336829400b285da3b6"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-5.png",
+      "bytes": 3054,
+      "sha256": "d6c0b4cb692ea8854238dd905bcff56757b894cf11cfcfc51646752c90ecf297"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-6.png",
+      "bytes": 3328,
+      "sha256": "30fbf697fd567f247ba61289da40599cd09152999f0d00fef35f7d5b234e1e55"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/04-egor/west/run-7.png",
+      "bytes": 3393,
+      "sha256": "8952d7d93b1eabbccb306c09ff2b46f81d341255ffcd505c3007a0bdb924bbd9"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-0.png",
+      "bytes": 3542,
+      "sha256": "17703cc6893c896005b71791398406f66b69118369e0b8dc29dfb51c843e20ec"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-1.png",
+      "bytes": 3557,
+      "sha256": "be4ffd740148a568e08824fee9a0c715e3f7083679076dc9985693afbd818011"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-2.png",
+      "bytes": 3397,
+      "sha256": "d9152cfdc64a457d79df6e6137992d2543016f46c2070ffc605d39975360fa4f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-3.png",
+      "bytes": 3265,
+      "sha256": "095bd32b45948436e608f9df27b41fb31ced799679102b25ce5ee16a5211b2fa"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-4.png",
+      "bytes": 3551,
+      "sha256": "93633e2cf1164b3dfa83f595861f4b1c7238d2df548fea425fca6ee85c27fdfd"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-5.png",
+      "bytes": 3616,
+      "sha256": "cc4c91190904513309c1869d748e604a97390660b471616a1bc7f525f44bb680"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-6.png",
+      "bytes": 3436,
+      "sha256": "2b6bb47fa359e4874c52cbfc99e8e8627b0384e22788adfc8de26778b820c0f1"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/east/run-7.png",
+      "bytes": 3322,
+      "sha256": "ba73b250b9f8b4832dcb2ee81e92d61ce9da38b597a68e923f3afda7c5898985"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-0.png",
+      "bytes": 3457,
+      "sha256": "abcfedc663c3106ecb0f9e07dcfd528818ad0baf1e6d6a9c77cfa9425646f826"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-1.png",
+      "bytes": 3493,
+      "sha256": "5f9c9950f6fd156399843c601d2edbcb6f24f09a8b47773f5d2d964c94b2e504"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-2.png",
+      "bytes": 3419,
+      "sha256": "32b4ca79ed8a28315f3694fc39e11ecb8713c4a2efbf8979e8ca841e71e0696f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-3.png",
+      "bytes": 3160,
+      "sha256": "b72c3754e43ce651755c87aa76b05b4a6be5f42151cd996bfcb1bae16a580b86"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-4.png",
+      "bytes": 3453,
+      "sha256": "af6641fad5f69dd0e40c0e6e33030ee6bbe31c1f4831c9ec6afc28046a2a3d87"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-5.png",
+      "bytes": 3572,
+      "sha256": "e392b182a0418a7976626c93a23caac5d02c66df7eac9a28ae032c215b513f8a"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-6.png",
+      "bytes": 3435,
+      "sha256": "5e531a483e07fd63c23936072543a5cbc04a1098bba8640cb7d3de7a9b5c2ed2"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/05-timur/west/run-7.png",
+      "bytes": 3087,
+      "sha256": "fe401f7fca1848c5eec98cf5b06d92b611cbc58d4189cd80ec08ba341fe18d04"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-0.png",
+      "bytes": 3375,
+      "sha256": "03121b1c8a53ef5077cf0f56b1e30d16589a02c0371a95b51e5cb9c511e86272"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-1.png",
+      "bytes": 3066,
+      "sha256": "fecdb15633e9a090b4b1da6cc8a76085d31e8fbc7befd9f2ba06834b330baf26"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-2.png",
+      "bytes": 3415,
+      "sha256": "2e933a1e06efdb972ae7a59e637ad49fd5efe08eb6d214e27a52ddf6a7cd9a38"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-3.png",
+      "bytes": 3459,
+      "sha256": "209f308d77b82a9c462e2ff2235fde8924a5a99687c8f6134ed1a1aea40ad5df"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-4.png",
+      "bytes": 3437,
+      "sha256": "88e454b5ef3042b6cb3b130eec453732bc6044e496c601d09676b872b9a8a923"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-5.png",
+      "bytes": 3244,
+      "sha256": "3d0f5f021da3bffb1e61b56c39170d892887fce1bf6a240731f654f2b17c6b95"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-6.png",
+      "bytes": 3352,
+      "sha256": "7c4f3f94d5f2176eadea571c5e71b421e0a487fcc9cdb7c110a2b3d1b8d5ff74"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/east/run-7.png",
+      "bytes": 3371,
+      "sha256": "b3b6deb3e371320f821984144bddf42885fcc4d589172a4a1fd5e7cba87a71c2"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-0.png",
+      "bytes": 3430,
+      "sha256": "88c176e6571df231c45407978a3915e6ed5648c3fcaf8a0b529d9a127c98a177"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-1.png",
+      "bytes": 3109,
+      "sha256": "90379f53282b1ff51e0cdc03a2c2cb86202d730038ca4f2786dc78df97a5e73d"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-2.png",
+      "bytes": 3309,
+      "sha256": "c3270beabb8eaf6a8fbcbbe1a7e1d7db7d85925d4f84b526bef9a64248b0edf7"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-3.png",
+      "bytes": 3392,
+      "sha256": "2dbd8271b37be26e6f85bc103979596cd2991c89a1e19e1bccd586ab76b27e41"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-4.png",
+      "bytes": 3529,
+      "sha256": "c17e687b04117bc466b003ff86a7dd411ea56640cccd483841e6cd87ecceb613"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-5.png",
+      "bytes": 3186,
+      "sha256": "061e4a3073768937ec82bc3a68aaa29d220ebfe25bcca0990db647f81cf70c74"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-6.png",
+      "bytes": 3262,
+      "sha256": "1c23a2a88aa8272557cbeb1a52b98da61dbb91133933f508772ba66ce46426dc"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/06-makar/west/run-7.png",
+      "bytes": 3258,
+      "sha256": "f429748f3574968cbec23deb1d7cece9935901176a43b0b3b9487e204c4f5585"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/export.json",
+      "bytes": 23814,
+      "sha256": "0c126755cf96398342239c199cc0605b752e0478ab65e42c257004bebd3a5035"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/generation-records.json",
+      "bytes": 13480,
+      "sha256": "aeb762fe2c78184478ba64d379830eecf14e588f15bcc72fd1c3bc685b23c7b3"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/01-gleb.png",
+      "bytes": 1749479,
+      "sha256": "ab0b81ff5edfbab75dca03a65f580a9141d7e886c3d170b51326fbf9548d5916"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/02-roman.png",
+      "bytes": 1155703,
+      "sha256": "ac180c0ec448503c09dd751a3e155cee4e236db58e576b0a5d12189cda0fbd72"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/03-miron.png",
+      "bytes": 1205079,
+      "sha256": "34e9e965c60ea238aacbb7d0fc34edfcc5e394debee636e13f41892c9b8d2bee"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/04-egor.png",
+      "bytes": 1155805,
+      "sha256": "e3edf68c3ffaa30be2ff42a9bd410260d803c771da726485e298712d24c8675f"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/05-timur.png",
+      "bytes": 1099876,
+      "sha256": "da4aaaa8a870b072834e88798c918e971644551a7543efc99a580bcf0a7fa54e"
+    },
+    {
+      "path": "desktop/art/locomotion-v2/sources/06-makar.png",
+      "bytes": 1108227,
+      "sha256": "2df0160d556d3b52f12912163f287cd14d51df43a0d34a728af2d7a898c38b0b"
+    },
+    {
+      "path": "desktop/art/menu-clouds/clouds.png",
+      "bytes": 367005,
+      "sha256": "0127780ade958b7704457ff0e589281090fa41bb4aba51d83eeae683ac7b4e8b"
+    },
+    {
+      "path": "desktop/art/menu-clouds/foreground-extraction.json",
+      "bytes": 935,
+      "sha256": "d389dd529f599c1f8798e543a216a3410b674b9f769ec0350bd63cf10a612446"
+    },
+    {
+      "path": "desktop/art/menu-clouds/foreground-extraction.png",
+      "bytes": 2617066,
+      "sha256": "fb0103f68f5b193462a2394bf7f34c071e6c78355b4dda4dea604b9271a16bb1"
+    },
+    {
+      "path": "desktop/art/menu-clouds/motion.json",
+      "bytes": 392,
+      "sha256": "4bfedb63f57275617958affa6eba933e94ae0a4fc0875236143fa81d58f0ce87"
+    },
+    {
+      "path": "desktop/art/menu-clouds/sky-mask.png",
+      "bytes": 7404,
+      "sha256": "5ca146e287f0a87670b2130ca17a7003b282649c0aad740dc16c8304da90f93e"
+    },
+    {
+      "path": "desktop/art/menu-clouds/source.png",
+      "bytes": 1417478,
+      "sha256": "676d612a81e6bd081685d4dcffd70e3feb970dbc132b793b894348bd8db1b8aa"
+    },
+    {
+      "path": "desktop/core.mjs",
+      "bytes": 1397,
+      "sha256": "6464d5f572f3608ab270fe45c9e8be189797d54ea78a815e154db0b4ce97f52f"
+    },
+    {
+      "path": "desktop/core.test.mjs",
+      "bytes": 2261,
+      "sha256": "03fbda5dc560a5c3bcb64ef6b2d666353fab7e04f53a6b7fd399d433f728fb64"
+    },
+    {
+      "path": "desktop/index.html",
+      "bytes": 4451,
+      "sha256": "93ffc941db12e26ffb138942efc3a69f7dbc639bca6be68f2d683015530c7921"
+    },
+    {
+      "path": "desktop/main.cjs",
+      "bytes": 2110,
+      "sha256": "310e7f38ba8f494a5bd624f1ad309242283b406cff90b66ff620c94d1d78061a"
+    },
+    {
+      "path": "desktop/package-lock.json",
+      "bytes": 5790,
+      "sha256": "aa0303556d7f991a87261865106c208e8d5fdc62c0f49c542b4326c081dd9193"
+    },
+    {
+      "path": "desktop/package.json",
+      "bytes": 319,
+      "sha256": "8b8b83c5067a6aee739a8ad7970a62c9051ebc8dd34e967c80c0e8576218963b"
+    },
+    {
+      "path": "desktop/preload.cjs",
+      "bytes": 314,
+      "sha256": "cad442be088b50970b4f3c3e007df26de83906c3489275b0d95fc31f5c4d4d07"
+    },
+    {
+      "path": "desktop/renderer.mjs",
+      "bytes": 9170,
+      "sha256": "4abe6c8601630da024aacd6eaa5d0dabab2b5e2394d9f11bae6745dabb9521a9"
+    },
+    {
+      "path": "desktop/save.cjs",
+      "bytes": 622,
+      "sha256": "7f31cdc8deb4c87b162c00201057185dca6a3b648b1945a5128a0ea66112e73b"
+    },
+    {
+      "path": "desktop/style.css",
+      "bytes": 5453,
+      "sha256": "095c82f9005e1e38d87e3a0f51112e3b1b3754f782316b54a50a104d9bc8bf02"
+    },
+    {
       "path": "docs/asset-catalog.md",
       "bytes": 6145,
       "sha256": "431a69839b22a05e3e820c641c51c545d9a9651e33ea3adb6339a3d06ad74abc"
@@ -94487,8 +95097,8 @@
     },
     {
       "path": "docs/game-direction.md",
-      "bytes": 2416,
-      "sha256": "c8359446101fe76f3bc908410bed87a28af5a4ced35f59a3cac8c7f9a7fd5d47"
+      "bytes": 2968,
+      "sha256": "26905ddc758e71e8cbb1ce8c117b1621d60764bc6388e9a398f0307620cbcd45"
     },
     {
       "path": "docs/infected.md",
@@ -94506,14 +95116,39 @@
       "sha256": "2152f8ffbea6dd61f18f8fbb8a34fc853091ccc57d6ffe735858072e262ea04b"
     },
     {
+      "path": "docs/prototype-v0.2/images/character-selection.png",
+      "bytes": 226944,
+      "sha256": "05edec12c74a0b04f3b86452cfe8f0f189d174840a5a330fba52e3c0ad1f26de"
+    },
+    {
+      "path": "docs/prototype-v0.2/images/grass-world.png",
+      "bytes": 219897,
+      "sha256": "4b4c57d65597b0ef1dc3e27826bc3a3af2c255513cee360e06a52f152f66c0b7"
+    },
+    {
+      "path": "docs/prototype-v0.2/images/main-menu.png",
+      "bytes": 2023901,
+      "sha256": "e0957582f270e51fb9a2f6edd20c1274efed93d8db478e3ef716c3dd3d105435"
+    },
+    {
+      "path": "docs/prototype-v0.2/release-metadata.json",
+      "bytes": 1981,
+      "sha256": "46ca7d6894069b259466ce784698d46f5d00afa133dc29ba7c25ceef04fbf629"
+    },
+    {
+      "path": "docs/prototype-v0.2/verification.json",
+      "bytes": 837,
+      "sha256": "5b80b6a5927856b2427fe130904b4670da6ad3619e0a3d2117fde24046150fcc"
+    },
+    {
       "path": "docs/survivors.md",
       "bytes": 2246,
       "sha256": "ef0bb3eab313b26d34cc613668fbc0c64d3ad76266846a2bf6bf7510ff429b90"
     },
     {
       "path": "package.json",
-      "bytes": 1982,
-      "sha256": "62a99e9cd4fa82eb261e201cde2a08035b628825d3eb96e9aa482b67b7a305b2"
+      "bytes": 2274,
+      "sha256": "46bf5bf687fa84e4763b774c674098b131c7eeece4e96b2b80fb8491b2a71028"
     },
     {
       "path": "publication-config.json",
@@ -94606,6 +95241,11 @@
       "sha256": "2a35bcf06d3c237452960123ebb14a90a7b8e1fb5b6b7976b878e59c58d3934e"
     },
     {
+      "path": "tools/check-desktop-motion.cjs",
+      "bytes": 2328,
+      "sha256": "e8904b63c4a078e58c0cddbe0c1ee952c5bbc7d1322a1bfec327d40313d351a2"
+    },
+    {
       "path": "tools/check-environment-variants.cjs",
       "bytes": 2966,
       "sha256": "778280b57f9e36419d675d105aa0088c7a0cfe05689a17a3611889254a07e004"
@@ -94661,9 +95301,34 @@
       "sha256": "144daf23c42eb8442319fc5b9390e3b69b708bdfc97328cb314fa1c3b5b7917c"
     },
     {
+      "path": "tools/export-locomotion-fixes.cjs",
+      "bytes": 1513,
+      "sha256": "c6f2e65c7091bea6bee1880b8cd146dc0a3f33435a24739e9b3ac5c728322496"
+    },
+    {
       "path": "tools/inspect-sprite-components.cjs",
       "bytes": 898,
       "sha256": "dd7ae6aa705205ed7f3f6a3e6af4c4556d505da7be32596dc8361ce1e3eb9e10"
+    },
+    {
+      "path": "tools/launch-desktop.cjs",
+      "bytes": 382,
+      "sha256": "425fe187e999f8cbb08d751bc777e3ec63adaf9907b6c561aeb31890d61372b0"
+    },
+    {
+      "path": "tools/normalize-locomotion.cjs",
+      "bytes": 1666,
+      "sha256": "f4c7c36e0cd00662157dd77d522dad14d3a460d411a5e63d4664e46a1a801880"
+    },
+    {
+      "path": "tools/package-desktop-release.cjs",
+      "bytes": 1491,
+      "sha256": "55880b49eb6286509c7b44724343e0886afb65bab8743cfeb0225725360575e6"
+    },
+    {
+      "path": "tools/package-desktop.cjs",
+      "bytes": 1829,
+      "sha256": "bb198c3a2d9734e4eadc8dbd78db566451e4b142571f236ff98b795667730c47"
     },
     {
       "path": "tools/package-infected-pixel.cjs",
@@ -94706,6 +95371,11 @@
       "sha256": "0072163fe0703065ba6c04356774f038a83a56fdd2b887f57bc1e2ddfa44b01a"
     },
     {
+      "path": "tools/prepare-desktop-assets.cjs",
+      "bytes": 4737,
+      "sha256": "27a27b1a6e44749d8e0c9e233922f7e4f969554aa0ea2c571ae8e4a8f581fab5"
+    },
+    {
       "path": "tools/prepare-friends-animations.cjs",
       "bytes": 11098,
       "sha256": "4514f06a85bb9c90e4829b3b6bf88ab89b5fb6630fc0bed7cff112d393afff6a"
@@ -94714,6 +95384,11 @@
       "path": "tools/prepare-item-revision.cjs",
       "bytes": 28967,
       "sha256": "6a02307a7bc11e3ff9a85a7498942cb5f7455def3d9a6fe9895d5939ae0472a5"
+    },
+    {
+      "path": "tools/prepare-menu-clouds.cjs",
+      "bytes": 1984,
+      "sha256": "927b80191ba538731f218ac602fa806b8f23d2292bfb399fe59115d728b6a944"
     },
     {
       "path": "tools/prepare-weapon-animations.cjs",
@@ -94786,6 +95461,11 @@
       "sha256": "399900274d50e923b5c0f5db46fbbdcc07e9c3c7bc30b44cfb18b611f50f67d1"
     },
     {
+      "path": "tools/slice-grid-silhouettes.cjs",
+      "bytes": 2501,
+      "sha256": "aa769f37b749afde3a0038190457888b691d69be2cbf819d442a0946713bbbd9"
+    },
+    {
       "path": "tools/slice-item-revision-components.cjs",
       "bytes": 2573,
       "sha256": "2531d548de34d67d98fe2afc85c20769b5867151118fee8c0e08807d2adbb1d0"
@@ -94794,6 +95474,11 @@
       "path": "tools/slice-sprite-components.cjs",
       "bytes": 3415,
       "sha256": "680bd3d36b7384c1c17d18ef0e5eab8dcfeb64271943c6a4de635c5c08d11109"
+    },
+    {
+      "path": "tools/test-desktop.cjs",
+      "bytes": 6931,
+      "sha256": "47c3469305367a9b68758964b9d4e20cbca40e6ecd93d3dd7895f4deecee5ae3"
     },
     {
       "path": "tools/watch-friends-animation-build.cjs",
@@ -94814,6 +95499,11 @@
       "path": "tools/wildlife-loot-catalog.cjs",
       "bytes": 8517,
       "sha256": "57a966cf4bbd77eae928f404fffaf02f5627545487effcb9f33e069e5449a845"
+    },
+    {
+      "path": "Запустить игру.cmd",
+      "bytes": 221,
+      "sha256": "c031ef42991d06ae9451a72008f5da4eeda742d34ea7eaa3392c398232388af4"
     }
   ]
 }

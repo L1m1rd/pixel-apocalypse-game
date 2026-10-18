@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "packaged": true,
+  "checks": [
+    "menu navigation",
+    "six characters",
+    "character rotation preview",
+    "world creation validation",
+    "single grass terrain",
+    "walk and run",
+    "four directions",
+    "crouch and crouch walk",
+    "pause",
+    "focus loss",
+    "continue",
+    "save survives restart",
+    "960x640 window",
+    "no renderer exceptions",
+    "moving clouds behind foreground",
+    "idle position remains fixed",
+    "vertical movement without horizontal drift"
+  ],
+  "version": "0.2.0",
+  "motion": {
+    "passed": true,
+    "characters": 6,
+    "registeredFrames": 1032,
+    "sequences": 168,
+    "maxHorizontalHeadDriftBefore": 44.078573048931354,
+    "maxHorizontalHeadDriftAfter": 0.9903563023224891,
+    "idleVerticalDrift": 0,
+    "sideRunFrames": 8,
+    "errors": []
+  }
+}

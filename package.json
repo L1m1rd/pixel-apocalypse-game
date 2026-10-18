@@ -7,6 +7,11 @@
     "node": ">=24"
   },
   "scripts": {
+    "start": "node tools/launch-desktop.cjs",
+    "prepare:desktop": "node tools/prepare-desktop-assets.cjs",
+    "build:desktop": "node tools/package-desktop.cjs",
+    "package:desktop": "node tools/package-desktop-release.cjs",
+    "test:desktop-core": "node --test desktop/core.test.mjs",
     "check:assets": "node tools/check-asset-files.cjs",
     "check:redesigned": "node tools/check-redesigned-animations.cjs",
     "check:combat-vfx": "node tools/check-combat-vfx.cjs",
