@@ -42,10 +42,93 @@
     "tools/build-item-visuals.cjs",
     "tools/check-item-visuals.cjs",
     "tools/package-item-visuals.cjs",
-    "tools/slice-item-components.cjs"
+    "tools/slice-item-components.cjs",
+    "assets/item-visuals-v2/retained/art/nature-tree.png",
+    "assets/item-visuals-v2/retained/sprites/nature-tree.png",
+    "assets/item-visuals-v2/retained/art/nature-bush.png",
+    "assets/item-visuals-v2/retained/sprites/nature-bush.png",
+    "assets/item-visuals-v2/art/resource-harvest-stump.png",
+    "assets/item-visuals-v2/sprites/resource-harvest-stump.png",
+    "assets/item-visuals-v2/art/resource-harvest-felled-log.png",
+    "assets/item-visuals-v2/sprites/resource-harvest-felled-log.png",
+    "assets/item-visuals-v2/retained/art/openings-door.png",
+    "assets/item-visuals-v2/retained/sprites/openings-door.png",
+    "assets/item-visuals-v2/retained/art/openings-gate.png",
+    "assets/item-visuals-v2/retained/sprites/openings-gate.png",
+    "assets/item-visuals-v2/retained/art/openings-broken-window.png",
+    "assets/item-visuals-v2/retained/sprites/openings-broken-window.png",
+    "assets/item-visuals-v2/retained/art/openings-boarded-window.png",
+    "assets/item-visuals-v2/retained/sprites/openings-boarded-window.png",
+    "assets/item-visuals-v2/retained/art/furniture-table.png",
+    "assets/item-visuals-v2/retained/sprites/furniture-table.png",
+    "assets/item-visuals-v2/retained/art/furniture-wardrobe.png",
+    "assets/item-visuals-v2/retained/sprites/furniture-wardrobe.png",
+    "assets/item-visuals-v2/retained/art/furniture-bed.png",
+    "assets/item-visuals-v2/retained/sprites/furniture-bed.png",
+    "assets/item-visuals-v2/retained/art/furniture-shelving.png",
+    "assets/item-visuals-v2/retained/sprites/furniture-shelving.png",
+    "assets/item-visuals-v2/retained/art/storage-crate.png",
+    "assets/item-visuals-v2/retained/sprites/storage-crate.png",
+    "assets/item-visuals-v2/retained/art/storage-barrel.png",
+    "assets/item-visuals-v2/retained/sprites/storage-barrel.png",
+    "assets/item-visuals-v2/retained/art/transport-abandoned-car.png",
+    "assets/item-visuals-v2/retained/sprites/transport-abandoned-car.png",
+    "assets/item-visuals-v2/retained/art/hazards-fungal-growth.png",
+    "assets/item-visuals-v2/retained/sprites/hazards-fungal-growth.png",
+    "assets/item-visuals-v2/retained/art/hazards-spore-source.png",
+    "assets/item-visuals-v2/retained/sprites/hazards-spore-source.png",
+    "assets/item-visuals-v2/retained/art/base-campfire.png",
+    "assets/item-visuals-v2/retained/sprites/base-campfire.png",
+    "assets/item-visuals-v2/retained/art/materials-planks.png",
+    "assets/item-visuals-v2/retained/sprites/materials-planks.png",
+    "assets/wildlife-loot-v1/art/small-game-meat.png",
+    "assets/wildlife-loot-v1/sprites/small-game-meat.png",
+    "assets/wildlife-loot-v1/ground/small-game-meat.png",
+    "assets/wildlife-loot-v1/sources/small-game-meat.png",
+    "assets/wildlife-loot-v1/records/small-game-meat.json",
+    "assets/wildlife-loot-v1/art/venison.png",
+    "assets/wildlife-loot-v1/sprites/venison.png",
+    "assets/wildlife-loot-v1/ground/venison.png",
+    "assets/wildlife-loot-v1/sources/venison.png",
+    "assets/wildlife-loot-v1/records/venison.json",
+    "assets/wildlife-loot-v1/art/boar-meat.png",
+    "assets/wildlife-loot-v1/sprites/boar-meat.png",
+    "assets/wildlife-loot-v1/ground/boar-meat.png",
+    "assets/wildlife-loot-v1/sources/boar-meat.png",
+    "assets/wildlife-loot-v1/records/boar-meat.json",
+    "assets/wildlife-loot-v1/art/bear-meat.png",
+    "assets/wildlife-loot-v1/sprites/bear-meat.png",
+    "assets/wildlife-loot-v1/ground/bear-meat.png",
+    "assets/wildlife-loot-v1/sources/bear-meat.png",
+    "assets/wildlife-loot-v1/records/bear-meat.json",
+    "assets/wildlife-loot-v1/art/poultry-meat.png",
+    "assets/wildlife-loot-v1/sprites/poultry-meat.png",
+    "assets/wildlife-loot-v1/ground/poultry-meat.png",
+    "assets/wildlife-loot-v1/sources/poultry-meat.png",
+    "assets/wildlife-loot-v1/records/poultry-meat.json",
+    "assets/wildlife-loot-v1/art/red-meat.png",
+    "assets/wildlife-loot-v1/sprites/red-meat.png",
+    "assets/wildlife-loot-v1/ground/red-meat.png",
+    "assets/wildlife-loot-v1/sources/red-meat.png",
+    "assets/wildlife-loot-v1/records/red-meat.json",
+    "assets/wildlife-loot-v1/art/tiny-game-meat.png",
+    "assets/wildlife-loot-v1/sprites/tiny-game-meat.png",
+    "assets/wildlife-loot-v1/ground/tiny-game-meat.png",
+    "assets/wildlife-loot-v1/sources/tiny-game-meat.png",
+    "assets/wildlife-loot-v1/records/tiny-game-meat.json",
+    "assets/wildlife-loot-v1/art/frog-legs.png",
+    "assets/wildlife-loot-v1/sprites/frog-legs.png",
+    "assets/wildlife-loot-v1/ground/frog-legs.png",
+    "assets/wildlife-loot-v1/sources/frog-legs.png",
+    "assets/wildlife-loot-v1/records/frog-legs.json",
+    "assets/wildlife-loot-v1/art/fish-fillet.png",
+    "assets/wildlife-loot-v1/sprites/fish-fillet.png",
+    "assets/wildlife-loot-v1/ground/fish-fillet.png",
+    "assets/wildlife-loot-v1/sources/fish-fillet.png",
+    "assets/wildlife-loot-v1/records/fish-fillet.json"
   ],
-  "files": 19010,
-  "totalBytes": 2434863326,
+  "files": 18937,
+  "totalBytes": 2426759359,
   "entries": [
     {
       "path": ".gitattributes",
@@ -54,13 +137,23 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 1637,
-      "sha256": "32dd9183997bd8b918a4fc03c60d70f86bca94fcfb3578312d9833bfcd7bd839"
+      "bytes": 6142,
+      "sha256": "edd0093af8f68a6cd0cf98a75d49af4f8d411081438f902cfb07e2160f08000c"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1712,
+      "sha256": "e4105896da66d6ca5e9e1ace9352c4f4fba904b1b7366b42c675f5d9ae0c97b9"
     },
     {
       "path": "README.md",
-      "bytes": 15771,
-      "sha256": "506378740c0ffc113d9ab1e39132fa8994e74e7b903dc95af65453b76859c282"
+      "bytes": 16235,
+      "sha256": "d49b0d5c9cec5339fa217364b96c10b3e7556aaa1d615dd56fabec9349a9ab30"
+    },
+    {
+      "path": "asset-ownership.json",
+      "bytes": 1924,
+      "sha256": "fdc5d688d8bf111abc15228e259d89170c0988fca1c7dd582b59cc48ea24c114"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -36789,8 +36882,8 @@
     },
     {
       "path": "assets/item-visuals-v2/README.md",
-      "bytes": 13828,
-      "sha256": "0a2315779ce0cb47a83b5d419a4b8d88525667d4075bc8006ab34b3fc2aeaf39"
+      "bytes": 14768,
+      "sha256": "e5519c0a30c8ad2b9c00c757e7a5ad1e23f8f15dc1e52dc9aaae0b026680a660"
     },
     {
       "path": "assets/item-visuals-v2/art/ammunition-pistol-open.png",
@@ -37553,11 +37646,6 @@
       "sha256": "486731676961a36820494df884091555afdbfc66182dd9b588c66b6949938333"
     },
     {
-      "path": "assets/item-visuals-v2/art/resource-harvest-felled-log.png",
-      "bytes": 69557,
-      "sha256": "81a7d505ca0314ab7cd8801689c910db30a386d40e9d636be17cb64f4a149f3e"
-    },
-    {
       "path": "assets/item-visuals-v2/art/resource-harvest-mushrooms.png",
       "bytes": 98240,
       "sha256": "a76487ebfcc765ad1b7b47859fa2405a2975fd27c87a80a071915f64d3db9279"
@@ -37566,11 +37654,6 @@
       "path": "assets/item-visuals-v2/art/resource-harvest-stone.png",
       "bytes": 88454,
       "sha256": "dab3f7cc6db0c811f6585a8da8a6fcdd8c257f52f5b4441b7e457e00c383f4f4"
-    },
-    {
-      "path": "assets/item-visuals-v2/art/resource-harvest-stump.png",
-      "bytes": 66540,
-      "sha256": "bdee69002afca896c9190a264aedafa6248344239655d952d53bf0a573ab09e5"
     },
     {
       "path": "assets/item-visuals-v2/art/seeds-beet.png",
@@ -37774,8 +37857,8 @@
     },
     {
       "path": "assets/item-visuals-v2/catalog.json",
-      "bytes": 244610,
-      "sha256": "6e88c0e9ffe7d20e6ec009f59f43514975916ffa3fc8c38893266b9ec595e18d"
+      "bytes": 248831,
+      "sha256": "258e17f68bd93b50eed28887cf6c37ffff06d7ee7be492e22699597032f24f3f"
     },
     {
       "path": "assets/item-visuals-v2/clothing-overview.png",
@@ -37809,33 +37892,33 @@
     },
     {
       "path": "assets/item-visuals-v2/manifest.js",
-      "bytes": 238322,
-      "sha256": "6e9decd0ea26bf9f964899f44c9caa5e9fa2f8fee91686a491dedfbd1d7121a6"
+      "bytes": 241057,
+      "sha256": "2fd1b2f8818e6db4f5ab94a9620694aa4c5177751df93ae4eeeb49a148b9a360"
     },
     {
       "path": "assets/item-visuals-v2/manifest.json",
-      "bytes": 309780,
-      "sha256": "8690dd7e458e55bdd7d4a286a891d604c93a6d749786d9ef05872fd703dee8e1"
+      "bytes": 313702,
+      "sha256": "b1a4593aff602b1630edb484d3e98f3f4084699e4b4439d68af13cbdcf50b961"
     },
     {
       "path": "assets/item-visuals-v2/overview.png",
-      "bytes": 2934015,
-      "sha256": "ce5c6cbf5238b463802aa67f88819ddf3274ed023b4ce3c251a1bab2ee19eb87"
+      "bytes": 2937933,
+      "sha256": "0b90e78e08c87eb408e56ec280fbd2cb4cb82b650972e2544884aa2f88c92623"
     },
     {
       "path": "assets/item-visuals-v2/preview.html",
-      "bytes": 4477,
-      "sha256": "337f5e4139e205e90a249f2e56a7418cec7ec262474e7410e6daed45e488830c"
+      "bytes": 4666,
+      "sha256": "10b49d9be70ad8e87d450966a43abe0bbf971724a8d02c4832f3c18af42bc654"
     },
     {
       "path": "assets/item-visuals-v2/qa/fish-pair.png",
-      "bytes": 126857,
-      "sha256": "7ea3cac05a3a63c2832400174fc9c7b598ee74a742930f97d2fd43f5f5b06d75"
+      "bytes": 129525,
+      "sha256": "9d53302c2bc0cff4e96d78e41a6bac91c298d0db0ddd4eb7ff0b110c8fbc6bc6"
     },
     {
       "path": "assets/item-visuals-v2/qa/wires-light-background.png",
-      "bytes": 251339,
-      "sha256": "d0c9f3a44fc487c5ccc86a25c3f0c64e4ae646f600f47844b66dcda6af36e58e"
+      "bytes": 253933,
+      "sha256": "883aa47b20dff813a4d9aa32c4ead3008cdc33483e4ff6243da172a548c141e0"
     },
     {
       "path": "assets/item-visuals-v2/records/ammunition.json",
@@ -37969,8 +38052,8 @@
     },
     {
       "path": "assets/item-visuals-v2/records/resource-harvest.json",
-      "bytes": 6368,
-      "sha256": "2e412dfb84287bc356afd19805df76b25e3362d2c803c3b3edda439b716db831"
+      "bytes": 6798,
+      "sha256": "e567767035ee03109ced55b5d04d0e86766a244f6c068041edf35eafdcb69a2b"
     },
     {
       "path": "assets/item-visuals-v2/records/seeds.json",
@@ -38011,11 +38094,6 @@
       "path": "assets/item-visuals-v2/retained/art/base-bedroll.png",
       "bytes": 50898,
       "sha256": "2e0e33816cdc2c96ec723d4e61a531b21f8341b6f094b8662bde81e1ab5c3967"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/base-campfire.png",
-      "bytes": 85263,
-      "sha256": "93ae670889f06f5b968ca80689f3bf2ee9f4a69df497c2b7df60d6defa37e0a3"
     },
     {
       "path": "assets/item-visuals-v2/retained/art/base-rain-collector.png",
@@ -38113,34 +38191,14 @@
       "sha256": "38debe3c4e29a97ab580fd9a888d09c6358d787e5fd92a205c43b36b83b5df63"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/furniture-bed.png",
-      "bytes": 83080,
-      "sha256": "abef2d8203d066becfa82900be59a719154e50b2354a2fac524f26c8e1585af1"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/furniture-chair.png",
       "bytes": 59748,
       "sha256": "40a4280587730798633bb6c1acbbaf816e9117fe67517f78f187053a539eb72e"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/furniture-shelving.png",
-      "bytes": 73380,
-      "sha256": "650089abeeca29a95f02f076dcc05f728565cb82b5879ec2d489c22b051614d0"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/furniture-sofa.png",
       "bytes": 83337,
       "sha256": "632b9e611c2847fa15b80cb8abf8c4c389a29a1b4c9784cd571b6ce9db12cabd"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/furniture-table.png",
-      "bytes": 58261,
-      "sha256": "5f531415ecad63626419fd627d536fa45a9cc8cf5a061b3d2989f5704223d4bc"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/furniture-wardrobe.png",
-      "bytes": 80105,
-      "sha256": "e52a168c8896b7889bee93281423124da6ef0b3c7bb489c53afe3ae294f0b3c0"
     },
     {
       "path": "assets/item-visuals-v2/retained/art/hazards-contaminated-puddle.png",
@@ -38151,16 +38209,6 @@
       "path": "assets/item-visuals-v2/retained/art/hazards-electrical-panel.png",
       "bytes": 80186,
       "sha256": "1875d72e11cdedc405bb1a2c6da15ae9190e181124d2ce20d421fbf43b6823ed"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/hazards-fungal-growth.png",
-      "bytes": 107314,
-      "sha256": "6121f8df823243cb74aed95a91d8d797eec4bf981485938565ee0e813ad5c83a"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/hazards-spore-source.png",
-      "bytes": 71334,
-      "sha256": "19ac775b65b671e883a5560987a49c1ea25af00ae9c4e317089fbdeed2bbe35f"
     },
     {
       "path": "assets/item-visuals-v2/retained/art/information-access-card.png",
@@ -38208,11 +38256,6 @@
       "sha256": "74d4672100548db50bbf506e39cf1881eb28f956e85f45bbc16c92dfe8dd29a5"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/materials-planks.png",
-      "bytes": 73150,
-      "sha256": "5b076d39b8052126924df456247f96c9ffe87ca235907d58bc8d0a65aebd79bf"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/materials-scrap.png",
       "bytes": 83093,
       "sha256": "151ff9ed8bbc8183cc52e80305ff6e654795884906c71bc69157c49f2da05f61"
@@ -38233,39 +38276,9 @@
       "sha256": "6f4d0ec00ae3a6deb95669fb7a913bcfc52610fffd293302a44be9dcbc0ea046"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/nature-bush.png",
-      "bytes": 85814,
-      "sha256": "4cdda266dcb56309714ad237d11678d9834572c3630705fc7d562dacc90405bb"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/nature-mushrooms.png",
       "bytes": 105554,
       "sha256": "873cdb9d4ea3a4d0dff29706cc0d772b312654de996d63f4ba7fc1e36d90c37e"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/nature-tree.png",
-      "bytes": 83752,
-      "sha256": "375d2dd6939e4e4481003921d104a8c1bbd041c935d2aca886cdb61995de0446"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/openings-boarded-window.png",
-      "bytes": 114370,
-      "sha256": "a1466e7082653f00676818c2554e12881285e1f3505efc4519f47080c4ce6426"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/openings-broken-window.png",
-      "bytes": 90809,
-      "sha256": "ab5ce933b5f20570bca1d3c84c0ab5554691d4f9b63f21fcf951ad5d0f89ecf2"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/openings-door.png",
-      "bytes": 89992,
-      "sha256": "3547297ba9cd6abffaf1b046adc8e523b4d751d35355c6e1319e6324dacbb707"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/openings-gate.png",
-      "bytes": 88092,
-      "sha256": "b8a3ea29386feada073fd3041e72c2e55bedeb2fa5012ec59480f6b7064f662c"
     },
     {
       "path": "assets/item-visuals-v2/retained/art/openings-locked-door.png",
@@ -38278,11 +38291,6 @@
       "sha256": "1a2fbbcb5e5515dec3c6f59312fd6e53884f2ae5ae26bcd106fed26af3108ade"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/storage-barrel.png",
-      "bytes": 94545,
-      "sha256": "993ed1bc147a59ed83f32ce6421dcad717e1047acef0c71db332985fb3315132"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/storage-cabinet.png",
       "bytes": 90583,
       "sha256": "b69b3b8ca799559721d5398fe67caa4a037a3d3546c7329382c8d0bccd1c467e"
@@ -38291,11 +38299,6 @@
       "path": "assets/item-visuals-v2/retained/art/storage-chest.png",
       "bytes": 91682,
       "sha256": "ce7cc2e7338945463e39412cbbc4773a2bfb7eaa4586dd982929c817a7c6c882"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/art/storage-crate.png",
-      "bytes": 112517,
-      "sha256": "10825b824c16dff755917d2738f502486198624ec26c3e74810d2f758c30c3ea"
     },
     {
       "path": "assets/item-visuals-v2/retained/art/storage-duffel.png",
@@ -38338,11 +38341,6 @@
       "sha256": "b4e7624cc646482257c4dfd4f4af735512f4c951911ac2a79622431f253fbf1d"
     },
     {
-      "path": "assets/item-visuals-v2/retained/art/transport-abandoned-car.png",
-      "bytes": 70092,
-      "sha256": "dc32621ce1802b90e3ca723b5a25203a99ffe33bd19f8121dfa3abe774051a4e"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/art/transport-bicycle.png",
       "bytes": 63593,
       "sha256": "6261970ca3cc4f953ace29ba3cc5d5fc03ef730eb7d07f1a2f7b3faf2b4a7683"
@@ -38381,11 +38379,6 @@
       "path": "assets/item-visuals-v2/retained/sprites/base-bedroll.png",
       "bytes": 15657,
       "sha256": "24173b9e949e2b8305bc6ec5a73951fbd768662ac1834de8410ef45a7595e1bf"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/base-campfire.png",
-      "bytes": 26159,
-      "sha256": "8c35b6fea6e375419ba75c2bfd5996ad6d76977a81b4d43a95c867133a7fe7ed"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/base-rain-collector.png",
@@ -38483,34 +38476,14 @@
       "sha256": "49e2fdb54243ffbb8b2732589cb097c4718767337f46a404c99ce9380e9fb29b"
     },
     {
-      "path": "assets/item-visuals-v2/retained/sprites/furniture-bed.png",
-      "bytes": 25243,
-      "sha256": "16f13b9bee3d6f63e68177aa2cb8135d0103ea0839f85bd1bc2843b93ba03007"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/sprites/furniture-chair.png",
       "bytes": 18062,
       "sha256": "1a0162173899ee7b680b76526359055aa2f246099c12dc2492018bbb7d379b5b"
     },
     {
-      "path": "assets/item-visuals-v2/retained/sprites/furniture-shelving.png",
-      "bytes": 21169,
-      "sha256": "06557dfc7d55daa163e4c399eb25f7188a87feb5b12ec913f4f147f26e66c8bb"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/sprites/furniture-sofa.png",
       "bytes": 25129,
       "sha256": "a866be53aa61bce24b43edf0bc317cd787bab8eb009959af35d51f809eb6cdb0"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/furniture-table.png",
-      "bytes": 17853,
-      "sha256": "0cc0572e18028fa29e7bce7f5cb19b234db1ee96f635713651603ab928d546a5"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/furniture-wardrobe.png",
-      "bytes": 24040,
-      "sha256": "8e8125d93439a86c8853a0ba118da54e845c2d3c937780f68956314dad28b99c"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/hazards-contaminated-puddle.png",
@@ -38521,16 +38494,6 @@
       "path": "assets/item-visuals-v2/retained/sprites/hazards-electrical-panel.png",
       "bytes": 24212,
       "sha256": "99c1df8f776358f7ef9f6f6b5048528074cdd08c08df027d07cdc9ef0df1c463"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/hazards-fungal-growth.png",
-      "bytes": 31945,
-      "sha256": "b636d02a0eaf6a84210d9194d7370fab7e4b3642524e383430ef396b91b14b19"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/hazards-spore-source.png",
-      "bytes": 21251,
-      "sha256": "a5c48d1f247d52371727955b9eda65b066740be707937bddb4d73c6a97546678"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/information-access-card.png",
@@ -38578,11 +38541,6 @@
       "sha256": "542e4f8d238c2823348e72c55824d3027c8e102a7e56dff8a5eef9b7a3d502b0"
     },
     {
-      "path": "assets/item-visuals-v2/retained/sprites/materials-planks.png",
-      "bytes": 5513,
-      "sha256": "1f3af9f7cccc04d0d556d225bb1a45baf8b6d95493d9772d5457e3557778308b"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/sprites/materials-scrap.png",
       "bytes": 5924,
       "sha256": "4f7cbb6660f64a741bb900fd051ad1c158656f5b8267b593353b08f6a2c6d362"
@@ -38603,39 +38561,9 @@
       "sha256": "a933ac50e1b9caf5db9f918ad04139e2cf05d5408b3e087901a727994c81f7f1"
     },
     {
-      "path": "assets/item-visuals-v2/retained/sprites/nature-bush.png",
-      "bytes": 26047,
-      "sha256": "470b73eba319820a8ac687cdcf0be771088b24d77bd8b9d8ff6bb5cffa5aa32f"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/sprites/nature-mushrooms.png",
       "bytes": 32930,
       "sha256": "e4aa74045442607c8ac23809b897e2fbe19f6935fa841a60d4bfb1caa187aa14"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/nature-tree.png",
-      "bytes": 25466,
-      "sha256": "fb9b061ef72fe0e8bdd90a7ccded594fc25dd6db42634df1fca109348b3d9321"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/openings-boarded-window.png",
-      "bytes": 34064,
-      "sha256": "325a310b655a9966432b9bf228a64169ac77f2361c9d74a3a8c0f6c393389f6d"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/openings-broken-window.png",
-      "bytes": 26931,
-      "sha256": "09408ea9fb15d9e231c6b105d5fc5d1de47c2079d656208eb7f6c4a5413a8e28"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/openings-door.png",
-      "bytes": 26563,
-      "sha256": "d492578ccf592a6a850cbb089204d59eaf0002aa25c0beb9f5328942e6491d69"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/openings-gate.png",
-      "bytes": 26277,
-      "sha256": "d7d11d8cfbed5b6b74600bff1b14bd00f9bb2466d2ac1e802bdd8b4cc7d28273"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/openings-locked-door.png",
@@ -38648,11 +38576,6 @@
       "sha256": "359d0b22f2adaffcfb57b3b8dd10c968859a245bca98684db968c41aed5c5736"
     },
     {
-      "path": "assets/item-visuals-v2/retained/sprites/storage-barrel.png",
-      "bytes": 27564,
-      "sha256": "c0f25247ea3751b0bfdd585839838eb6ceda1cf87fbb7c4eb7ad914afc62067b"
-    },
-    {
       "path": "assets/item-visuals-v2/retained/sprites/storage-cabinet.png",
       "bytes": 27249,
       "sha256": "0c186802bf3193aa3871a375f312ce55102a10079dc0f24c1341f1e67680c1f4"
@@ -38661,11 +38584,6 @@
       "path": "assets/item-visuals-v2/retained/sprites/storage-chest.png",
       "bytes": 28156,
       "sha256": "00a0f0b17d00491e1462f99e632ceb4c958a69724ac1da5f3d6be3be39e1287a"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/storage-crate.png",
-      "bytes": 34433,
-      "sha256": "74493a2361b944aa0d6fec3c2fa2f7d7cbdd58141c929f7ee7981419dba5f234"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/storage-duffel.png",
@@ -38706,11 +38624,6 @@
       "path": "assets/item-visuals-v2/retained/sprites/tools-shovel.png",
       "bytes": 3197,
       "sha256": "4f972c4aa06b83a6e4992a198c176b5253bbf7811b387d7fbd7ffa0ad9ca5f96"
-    },
-    {
-      "path": "assets/item-visuals-v2/retained/sprites/transport-abandoned-car.png",
-      "bytes": 11447,
-      "sha256": "16fd0ecf281492724396d42d8c9a217ee812dafab455361b305f99844d24a871"
     },
     {
       "path": "assets/item-visuals-v2/retained/sprites/transport-bicycle.png",
@@ -38879,13 +38792,13 @@
     },
     {
       "path": "assets/item-visuals-v2/sheets/resource-harvest.png",
-      "bytes": 468783,
-      "sha256": "a1b8d9f505ee4c4d62796685dbb8b48647307c96a086e73778b774204b9a9d81"
+      "bytes": 392816,
+      "sha256": "5bcee6e28dd94b93695a03b4f7070e7ef5dd7b1316be205636f716941abaa813"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-base.png",
-      "bytes": 401873,
-      "sha256": "806f7ad90db666fde02ea220e0a925c198bcaf5c708add6982f8a6e85f671ec2"
+      "bytes": 355021,
+      "sha256": "13dc96051183f9543e5dc9e63045a565d7fbc142c09d0d8d54129481db43860f"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-distraction.png",
@@ -38904,13 +38817,13 @@
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-furniture.png",
-      "bytes": 422295,
-      "sha256": "44c47f1d3b00c141de62be5ec52a138bfa78e783d823ad62b022b87f811c06f0"
+      "bytes": 261468,
+      "sha256": "bc89dff2722dd3e0992eb107b8606243a85556ad23d4b41fe081928c38d568ce"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-hazards.png",
-      "bytes": 319248,
-      "sha256": "360cdec8dfe16ce1af4672628c17e9777408cf622c73ad1681573fbec04db317"
+      "bytes": 218970,
+      "sha256": "4cfa599b67085294051ba5d9f04271761027ce72f2de265875a6eadf38f73a95"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-information.png",
@@ -38919,23 +38832,23 @@
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-materials.png",
-      "bytes": 457720,
-      "sha256": "68a07ff957d4c7b187ab119317c674f5994b71d2e66db3c996a1bddbf1045afd"
+      "bytes": 386324,
+      "sha256": "f194056d81be2bd20f221a555b95140b771fb0a907c99b77cc8e0fa83bd67f73"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-nature.png",
-      "bytes": 439444,
-      "sha256": "e33d9c07e74ce2f722623ca9f422161b309a5ca33932ada1a746df5fe7aac499"
+      "bytes": 400031,
+      "sha256": "cb6a0cf3f3b35ea8fec315004fc0a27c2e9298ae7f59886b52ebf36fc29d91d6"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-openings.png",
-      "bytes": 587576,
-      "sha256": "d84a02bab31f30fb4912cfb804ed52f8e66fc3a5570de168cad43537b8c490dc"
+      "bytes": 391608,
+      "sha256": "372ac946087cb3ccf0732b463fdaac7de60cac4bc7c1ae1bb774fc21e4e45fa8"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-storage.png",
-      "bytes": 565974,
-      "sha256": "cf959cde3cf6ee5c038b6c940c7aea46f8cc677479e4e0e959c18d6a6b95149d"
+      "bytes": 436491,
+      "sha256": "241ccbbf857418186a7543be71fb180ee2c2ef66bf273127b210fa648ac7f978"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-tools.png",
@@ -38944,8 +38857,8 @@
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-transport.png",
-      "bytes": 524039,
-      "sha256": "9559dc87281c040c8c307e725f5d1e612203a95d8cfee3b1a4a33073404ece3a"
+      "bytes": 517807,
+      "sha256": "c0a8a3a8908a9a3e5385a5968c4eade131e274f3888cae8263537e76612bc50b"
     },
     {
       "path": "assets/item-visuals-v2/sheets/retained-weapons.png",
@@ -39918,11 +39831,6 @@
       "sha256": "a3a500022d56945aecd9a020b17b0d8d191a5229d7190869e634da46b1aff30e"
     },
     {
-      "path": "assets/item-visuals-v2/sprites/resource-harvest-felled-log.png",
-      "bytes": 11342,
-      "sha256": "86ad1ba22c7cc838d608773626f2973e20c505e7197c0347ded9d032d151bde8"
-    },
-    {
       "path": "assets/item-visuals-v2/sprites/resource-harvest-mushrooms.png",
       "bytes": 15924,
       "sha256": "373ea6fb2d34237801caf4c5b1f6947cdd0a6f9acec99257304027d303d1eb59"
@@ -39931,11 +39839,6 @@
       "path": "assets/item-visuals-v2/sprites/resource-harvest-stone.png",
       "bytes": 14676,
       "sha256": "bbdba9e694256bdc8021b461f19db2a6fff5b31a25caedec7003cfbe97ddc700"
-    },
-    {
-      "path": "assets/item-visuals-v2/sprites/resource-harvest-stump.png",
-      "bytes": 11009,
-      "sha256": "1271c257323e85c734dc815e77f63b914aae9b5f092bdc4a3ab8206681b7f803"
     },
     {
       "path": "assets/item-visuals-v2/sprites/seeds-beet.png",
@@ -40144,8 +40047,8 @@
     },
     {
       "path": "assets/item-visuals-v2/verification.json",
-      "bytes": 660,
-      "sha256": "f383e0e16769a24cadd6d9afab8895ebf6de9eef177c229786bc2e07cb36e53d"
+      "bytes": 691,
+      "sha256": "1ecf217be94e924e60e3b10ec522f90931ef6ebdc181337d8867da310c369334"
     },
     {
       "path": "assets/main-menu-animation-v1/README.md",
@@ -74019,8 +73922,8 @@
     },
     {
       "path": "assets/survivor-friends-pixel-v1/manifest.json",
-      "bytes": 12959,
-      "sha256": "23e48edfb0366f1b74e487c0ce15bbfe0ecc4bd59691b12147236aa6495dda05"
+      "bytes": 12600,
+      "sha256": "f1aa4fe7a7fdc26fe869d5f7e1be2c4ff3c9aae46dbe4ff10d874e5d45d8e625"
     },
     {
       "path": "assets/survivor-friends-pixel-v1/overview.png",
@@ -91309,8 +91212,8 @@
     },
     {
       "path": "assets/wildlife-loot-v1/README.md",
-      "bytes": 5873,
-      "sha256": "6e6caee60ae0942c296314db3db7b1e204f947b9bb965b2cc0e5c5da435b032e"
+      "bytes": 7512,
+      "sha256": "c152f1d73ca9fd8c5be747a105469bd3db026083cd21667e3c6cbb09a910d87a"
     },
     {
       "path": "assets/wildlife-loot-v1/art/animal-fat.png",
@@ -91323,11 +91226,6 @@
       "sha256": "b93528f983e91696b8213804fb76ff02d61bc33ad8689e11fdcf743982b8b961"
     },
     {
-      "path": "assets/wildlife-loot-v1/art/bear-meat.png",
-      "bytes": 78215,
-      "sha256": "4b8f63bef8a2da53b5ca7e5c10e5d95089619787407be57700cfd2691a98e531"
-    },
-    {
       "path": "assets/wildlife-loot-v1/art/bear-pelt.png",
       "bytes": 62533,
       "sha256": "d686b379e511ff0492272e4231607ac27b049d2a1c74f29afcb30736a68f6887"
@@ -91336,11 +91234,6 @@
       "path": "assets/wildlife-loot-v1/art/boar-hide.png",
       "bytes": 65850,
       "sha256": "f5aab557dd67cd5628466c0e72d5c1233697e79b86c1710319f040eb6ed4e2b4"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/art/boar-meat.png",
-      "bytes": 75001,
-      "sha256": "a53c4216d34558399cc9b6ca3c1994c637a8f85325a8d7044c7a3e3a544550ce"
     },
     {
       "path": "assets/wildlife-loot-v1/art/boar-tusks.png",
@@ -91388,11 +91281,6 @@
       "sha256": "edd41cb61b35b92d74977ef2e8cae55406e5e7b3768aff0e5633063b71e8f64c"
     },
     {
-      "path": "assets/wildlife-loot-v1/art/fish-fillet.png",
-      "bytes": 54803,
-      "sha256": "417ea0746e7348e64ec5654b98f667b87e0e6712a33b1d2323a19d6d3dbaf6c2"
-    },
-    {
       "path": "assets/wildlife-loot-v1/art/fish-scales.png",
       "bytes": 82152,
       "sha256": "ad52cc3d7de3aca86e6a8dd9aed9ef6514d6c9cd4622302eddeab1503e489f70"
@@ -91401,11 +91289,6 @@
       "path": "assets/wildlife-loot-v1/art/fox-pelt.png",
       "bytes": 66854,
       "sha256": "54b34517c18a5c1dbe761e9adcfbc29a730c888e16bbf1d064f51b17ea18c7eb"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/art/frog-legs.png",
-      "bytes": 70416,
-      "sha256": "98922fa7149f05cc42a28caf8d4fd98235b65ec6b46018029aa5a33d7862bce9"
     },
     {
       "path": "assets/wildlife-loot-v1/art/frog-skin.png",
@@ -91438,11 +91321,6 @@
       "sha256": "334875f9e4a60cde3e2389639d0b56dbfe34561f1b5067d454364ebd5c978492"
     },
     {
-      "path": "assets/wildlife-loot-v1/art/poultry-meat.png",
-      "bytes": 69673,
-      "sha256": "946c06e11aba389b787dde8934fc975cf44350706686ff46cf9528bd6e24d2e2"
-    },
-    {
       "path": "assets/wildlife-loot-v1/art/rat-pelt.png",
       "bytes": 64419,
       "sha256": "f68347d035c0ab93e4957576c42c0c78c1428d32eff193337c1c80f4148efc0f"
@@ -91451,11 +91329,6 @@
       "path": "assets/wildlife-loot-v1/art/red-deer-hide.png",
       "bytes": 63596,
       "sha256": "8b8e6cc1fa50d4da186868b3f6b37561ac95824f175ca55886bc8cfaf90be818"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/art/red-meat.png",
-      "bytes": 74058,
-      "sha256": "f63104c48ec871296c82c4c92d80f1c82d5a66a5916e9edc81b0e45f62d0e63c"
     },
     {
       "path": "assets/wildlife-loot-v1/art/roe-antlers.png",
@@ -91473,11 +91346,6 @@
       "sha256": "2c77ff6c9aaf613a5ab4d4e045bd5b4ee677d1b9980eed1f49e922614a06cf98"
     },
     {
-      "path": "assets/wildlife-loot-v1/art/small-game-meat.png",
-      "bytes": 69164,
-      "sha256": "60269c3adeb687116bae97f2604312f91ba19e569413dc67838ea20aef339b98"
-    },
-    {
       "path": "assets/wildlife-loot-v1/art/sparrow-feathers.png",
       "bytes": 85154,
       "sha256": "7555950491a613b148c5d1fc3c4bcc4f15c0a1119f2915c6205b5ebc2a657803"
@@ -91493,16 +91361,6 @@
       "sha256": "9c7102221d182c2fc3097c3eb992a475529892efaf996b04ca99147f81fd9549"
     },
     {
-      "path": "assets/wildlife-loot-v1/art/tiny-game-meat.png",
-      "bytes": 79591,
-      "sha256": "a95092d55e1ff1a66f7f755513926853f48f48d84a3f5049540e9cc2db908f62"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/art/venison.png",
-      "bytes": 71922,
-      "sha256": "99fd9c0ce9fa8b235733e1c981bd8ec5a30ddc69f99b2b91fec7a4e488956bad"
-    },
-    {
       "path": "assets/wildlife-loot-v1/art/wolf-fangs.png",
       "bytes": 62884,
       "sha256": "a935ea6b2724873ec6737fece4d6dea63a4ba5b7668facc0c70690c96a93478b"
@@ -91514,43 +91372,43 @@
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/art.json",
-      "bytes": 12075,
-      "sha256": "af633b0bf9c593d571e0f8647b804eff958154f4bb14ff197e475d2b76c3b264"
+      "bytes": 9378,
+      "sha256": "84b25d1049d7ec4f5ccc53104540789d61ceb1b10acf60f686921e12e46d7f88"
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/art.png",
-      "bytes": 3030708,
-      "sha256": "4e8c3ec5d6e9c4e06399e8de2939185662e9721a2573bafce3bdbb809b8984bf"
+      "bytes": 2321719,
+      "sha256": "794c8ef15075b815e111e94adb2c23c7b1ad0d3724dc0f5890a850d3d9c2032c"
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/ground.json",
-      "bytes": 12475,
-      "sha256": "421e36a67192fb1ca378fbeaa486a0ff87b6cc2b9ca39e87bc889368756de78b"
+      "bytes": 9693,
+      "sha256": "50003fa6d7187ab2ad1c115f4a368973088d2bfdb2915615d9ab157f041d899c"
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/ground.png",
-      "bytes": 265746,
-      "sha256": "0aaa545ca660cfc5a3e93be6d7d1c5e3f8ea7cc131e12933835bc8eec13d30cc"
+      "bytes": 202982,
+      "sha256": "1a9f2afdfd842f672655cfd504548f05258dcfc62e64d909453c02daa4650d67"
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/sprite.json",
-      "bytes": 11875,
-      "sha256": "617171dccc36fa44ca660ed30a9261985632960d0ad722f28acafb9e6ec93639"
+      "bytes": 9228,
+      "sha256": "12b53b327be58dd1c7dbb2c0352d45c6604cdb77207889aceb61711ec11a2bf6"
     },
     {
       "path": "assets/wildlife-loot-v1/atlases/sprite.png",
-      "bytes": 202696,
-      "sha256": "ef8a6b8852fca51ad95ee5a536083ecc8acaebfb8b2025a9daed0c64a3ab79a5"
+      "bytes": 154490,
+      "sha256": "8f8e82c8bc558808f204001aee5546c3ca8e0a39d0fa915c8550e27062a06903"
     },
     {
       "path": "assets/wildlife-loot-v1/browser-verification.json",
-      "bytes": 279,
-      "sha256": "e47d1361f33e0ecf9816d98b445cdefe5885b137bd5045ee1e3e4e3ddccfe49c"
+      "bytes": 280,
+      "sha256": "f799863becbb9db907c209a79c9798e8c00cc9350eb761331f964817a74fcc6a"
     },
     {
       "path": "assets/wildlife-loot-v1/generation-plan.json",
-      "bytes": 79396,
-      "sha256": "a188f05cfebe52fea9ef1329dd28305d180a92b7c4a4353e59d9cc3582cc2506"
+      "bytes": 79567,
+      "sha256": "00ac4a85ffa5786f3f87111f510b8aba9de3188f90d2f611657fb8a174becb24"
     },
     {
       "path": "assets/wildlife-loot-v1/ground/animal-fat.png",
@@ -91563,11 +91421,6 @@
       "sha256": "d3059aefae727a75da675fbaf38cc958256eb96072b1f6ae1288aeaf05f5b31f"
     },
     {
-      "path": "assets/wildlife-loot-v1/ground/bear-meat.png",
-      "bytes": 7408,
-      "sha256": "6334dad1f763dfd7ebe976f09aaf150fdc6bddd028571ea7a40ea6aebfaa8505"
-    },
-    {
       "path": "assets/wildlife-loot-v1/ground/bear-pelt.png",
       "bytes": 6174,
       "sha256": "4f0e7118fb2bc7656825c92723c615fefd1a214b3f3648ee3e9c6bb9b0fa0106"
@@ -91576,11 +91429,6 @@
       "path": "assets/wildlife-loot-v1/ground/boar-hide.png",
       "bytes": 6261,
       "sha256": "010c351c3bc9ddd6cf8cc91c3829eba31350a6cd4a7faa3221d8fa0e338fdd27"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/ground/boar-meat.png",
-      "bytes": 7151,
-      "sha256": "ce842cf0938440325cbab1cdce0dc93d57a6f8405ad2b2c2cb2932211fcb52da"
     },
     {
       "path": "assets/wildlife-loot-v1/ground/boar-tusks.png",
@@ -91628,11 +91476,6 @@
       "sha256": "d25bf512c5a7f37b16cff2dbb2cf888528c5ed05cb80f95feab1c33d0bdb3814"
     },
     {
-      "path": "assets/wildlife-loot-v1/ground/fish-fillet.png",
-      "bytes": 5197,
-      "sha256": "8d5c82f12e63bbcba2a6aa91caf9e40eb96238d02aa4fcbe4e61a8a03c4ee3af"
-    },
-    {
       "path": "assets/wildlife-loot-v1/ground/fish-scales.png",
       "bytes": 7446,
       "sha256": "fb8dfa44710e563e5d9d1c79dbe424db6eae693953a7162d22cd8f215af4d510"
@@ -91641,11 +91484,6 @@
       "path": "assets/wildlife-loot-v1/ground/fox-pelt.png",
       "bytes": 6320,
       "sha256": "1001136d3b443d919c079d4bebb8166fc058baf919d0338cb8751ba9c0e789ce"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/ground/frog-legs.png",
-      "bytes": 6357,
-      "sha256": "3d8888d0917593e4e9204833e2e217c969bb4fea9c33ba0f9a00ea05de119135"
     },
     {
       "path": "assets/wildlife-loot-v1/ground/frog-skin.png",
@@ -91678,11 +91516,6 @@
       "sha256": "5c8bcd40adcd016fc0608805fe24daae119946d12dd3f4a985930044fdddb7fb"
     },
     {
-      "path": "assets/wildlife-loot-v1/ground/poultry-meat.png",
-      "bytes": 6945,
-      "sha256": "d08ea0e3f67eb314cc762247e6592a328baec2632ec9c7e29c71d4fed2ed35bd"
-    },
-    {
       "path": "assets/wildlife-loot-v1/ground/rat-pelt.png",
       "bytes": 6352,
       "sha256": "96c9ea69db3f2b74dfd1f70aeb406f1cde98b014e8648d6d3bde6901b137baff"
@@ -91691,11 +91524,6 @@
       "path": "assets/wildlife-loot-v1/ground/red-deer-hide.png",
       "bytes": 6192,
       "sha256": "957513ef4d0ff573235cc5de5bc8aea155fb3476a80779a6ad44c052f142b2c2"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/ground/red-meat.png",
-      "bytes": 6967,
-      "sha256": "4e12c0a550652d696e28b554048fbac2c58fe1160947177bbed90b5ff6751edb"
     },
     {
       "path": "assets/wildlife-loot-v1/ground/roe-antlers.png",
@@ -91713,11 +91541,6 @@
       "sha256": "00937df38593406728ab0eb49520fa1692e96656ec5c8bbf7506693885b08bc0"
     },
     {
-      "path": "assets/wildlife-loot-v1/ground/small-game-meat.png",
-      "bytes": 6930,
-      "sha256": "6e719e90468cf6fd2c6bf3dc2dbf82fba9131b2b8687b8f50ff26d09bb3e2fbd"
-    },
-    {
       "path": "assets/wildlife-loot-v1/ground/sparrow-feathers.png",
       "bytes": 7894,
       "sha256": "8e7e2cad48fe750903cb45d1519b8ce8d7552af9aa32e4af23a31db39859ba2d"
@@ -91733,16 +91556,6 @@
       "sha256": "30868628cbd0eeb347e6178a5674bd2ab2debc10835120b62409e4d6808955b0"
     },
     {
-      "path": "assets/wildlife-loot-v1/ground/tiny-game-meat.png",
-      "bytes": 7928,
-      "sha256": "35b505b999c57ad44f975c3e4a6d94d8373d83871731a6d36ee2f6de5cdd3fb6"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/ground/venison.png",
-      "bytes": 6898,
-      "sha256": "19601b81febbc7fc44320071aa0717ea3c921abb13da15c908e125b2752382dd"
-    },
-    {
       "path": "assets/wildlife-loot-v1/ground/wolf-fangs.png",
       "bytes": 5936,
       "sha256": "00e7027415c40c348bbb31facfcaeb4a7cf636b52809678456d31adb5414fdb8"
@@ -91754,28 +91567,28 @@
     },
     {
       "path": "assets/wildlife-loot-v1/loot-table.json",
-      "bytes": 3721,
-      "sha256": "1eff3578c6c744b751f6e0b52d759d24205f17395dc0470a4de87526bc0fbdf4"
+      "bytes": 3929,
+      "sha256": "606a52949671a58812a7df243dea7b01b6244baf14492fa946e96cef607fe25c"
     },
     {
       "path": "assets/wildlife-loot-v1/manifest.js",
-      "bytes": 90503,
-      "sha256": "b05c2b77315832785de21656de6ec319693c49ef69c3be75457c745791836903"
+      "bytes": 83799,
+      "sha256": "86c7a7abdcb5274b32c382f68f726a803eb513c9f060cef12ddac24cdcd81bfc"
     },
     {
       "path": "assets/wildlife-loot-v1/manifest.json",
-      "bytes": 102302,
-      "sha256": "9c5869a418bc4b32a1319f1b653dd0e8abf51b19872a4adf6873ceb464c234fd"
+      "bytes": 97552,
+      "sha256": "11a20d62dcbcf827d860656182ce3fe08c72bf3115913fa684318e6415d0a4fb"
     },
     {
       "path": "assets/wildlife-loot-v1/overview.png",
-      "bytes": 1075401,
-      "sha256": "3b39f75a2c7b41bd9e3546fa3517ab08e0bb392325e79704480c631f4683af7d"
+      "bytes": 1411406,
+      "sha256": "39f206bf99f6cab22c39d7d333b740b6bb5a402d8ca4854d6345f25244939bcd"
     },
     {
       "path": "assets/wildlife-loot-v1/preview.html",
-      "bytes": 6546,
-      "sha256": "e30807aac7cb904aa56d3d3d132175f88ad355043995c880dbf88b0186215237"
+      "bytes": 6731,
+      "sha256": "783e35fc3dd2286a7d9672dbca04e0538b5239291d5313f5c5c19c159c04239a"
     },
     {
       "path": "assets/wildlife-loot-v1/records/animal-fat.json",
@@ -91788,11 +91601,6 @@
       "sha256": "47bb66e46cdf012cd485081f71cfb93e085f7bf065e5f9bbe2a616d27f81e200"
     },
     {
-      "path": "assets/wildlife-loot-v1/records/bear-meat.json",
-      "bytes": 1639,
-      "sha256": "5ea96621daa4fe23fd185ab88fa2ed44f4ef3687eff3f4ce40476a2861b2785d"
-    },
-    {
       "path": "assets/wildlife-loot-v1/records/bear-pelt.json",
       "bytes": 1655,
       "sha256": "0f4480da3486e8a2472531b2e4b3665bd0d30b7e78594f82840e59bf85c52a8d"
@@ -91801,11 +91609,6 @@
       "path": "assets/wildlife-loot-v1/records/boar-hide.json",
       "bytes": 1645,
       "sha256": "ee61232a445e58e0e90397981cdef0091a7501d2145eaea5aa0e63f1a2c8ebde"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/records/boar-meat.json",
-      "bytes": 1637,
-      "sha256": "cd8aa47660f58bfe58a341a9e86ce6288ea79f163e49a895d9f37379e7de798e"
     },
     {
       "path": "assets/wildlife-loot-v1/records/boar-tusks.json",
@@ -91853,11 +91656,6 @@
       "sha256": "f89e14ec5a40dab1bfb4ff567080d441a6f14e5b9546d15731289b000a5a2f3d"
     },
     {
-      "path": "assets/wildlife-loot-v1/records/fish-fillet.json",
-      "bytes": 1661,
-      "sha256": "d56bce3c0f13e0c85c8f72ab0b10a1bdb085c0125aa2a48a372832621e4548b6"
-    },
-    {
       "path": "assets/wildlife-loot-v1/records/fish-scales.json",
       "bytes": 1681,
       "sha256": "462a9eb1356a97205340c76871360b0bcb0c9af6923c50bdc3b7cc3ae4e04b58"
@@ -91866,11 +91664,6 @@
       "path": "assets/wildlife-loot-v1/records/fox-pelt.json",
       "bytes": 1635,
       "sha256": "8c249f28491a7acf9ed8e078c794bf34136b95255073883c44c164bff964dd6d"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/records/frog-legs.json",
-      "bytes": 1670,
-      "sha256": "81e8408e9062f424a6eaac4dea38e37a69e980f4bad03410d64e0ef7d318e7f2"
     },
     {
       "path": "assets/wildlife-loot-v1/records/frog-skin.json",
@@ -91903,11 +91696,6 @@
       "sha256": "056f66a273b4a42d8292eda65fb46e6759b089c392efa92a30f51f559f44b7ed"
     },
     {
-      "path": "assets/wildlife-loot-v1/records/poultry-meat.json",
-      "bytes": 1661,
-      "sha256": "b84465d1d5aa914ec68b4567c3f85f04f9fb370b6f00741683797ce219411d9a"
-    },
-    {
       "path": "assets/wildlife-loot-v1/records/rat-pelt.json",
       "bytes": 1631,
       "sha256": "c3212dc4375ca6fa104d8181332dfeb7839547e0c230f2051d0bc712d53d408b"
@@ -91916,11 +91704,6 @@
       "path": "assets/wildlife-loot-v1/records/red-deer-hide.json",
       "bytes": 1634,
       "sha256": "c46fc051869a73689fb10b2d05b9d1867c540b5efcab66e3a4c1323d2b1ce20d"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/records/red-meat.json",
-      "bytes": 1648,
-      "sha256": "21c6ce1501aad86006ec2306e89b01dcf0c60a9112d715881a484caa747e8e7d"
     },
     {
       "path": "assets/wildlife-loot-v1/records/roe-antlers.json",
@@ -91938,11 +91721,6 @@
       "sha256": "3fe3b2839b68b2458c646aef3ec8dd0c273197429af57489892798ecadff2416"
     },
     {
-      "path": "assets/wildlife-loot-v1/records/small-game-meat.json",
-      "bytes": 1658,
-      "sha256": "a759feaa84bf20ca395c143556ae6264cd0d9fe78fe5da2b258c3b347f373653"
-    },
-    {
       "path": "assets/wildlife-loot-v1/records/sparrow-feathers.json",
       "bytes": 1656,
       "sha256": "c6642e5dfc2b1b679bf192181d6616a416f848c0dc44d037f84316587ccfe906"
@@ -91956,16 +91734,6 @@
       "path": "assets/wildlife-loot-v1/records/tendons.json",
       "bytes": 1646,
       "sha256": "16205b22f881bdc06c80a2c8fcb2367a378a7ce4daffffc8e423c7e8d86cfa39"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/records/tiny-game-meat.json",
-      "bytes": 1650,
-      "sha256": "8cbfce124ff91be502aa5f88aee11b875a9c6a1033bdbe06d6b711eefe8954ab"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/records/venison.json",
-      "bytes": 1646,
-      "sha256": "aa8b9ea58f2772f164146a713fa2d13d45651f38634a263ed56ed67b241962c0"
     },
     {
       "path": "assets/wildlife-loot-v1/records/wolf-fangs.json",
@@ -92089,13 +91857,18 @@
     },
     {
       "path": "assets/wildlife-loot-v1/sheets/catalog-1.png",
-      "bytes": 1502198,
-      "sha256": "44c04a1a9e498b590e3ef3da1456dcf548fb27705d67abecb84b0bd77e369f9a"
+      "bytes": 1495147,
+      "sha256": "e4257671c855d3930221aa9c6cd88720474d9299be84866800362e98c3259241"
     },
     {
       "path": "assets/wildlife-loot-v1/sheets/catalog-2.png",
-      "bytes": 1399485,
-      "sha256": "a446bdea94061fee289a17b1535e27304a3db057263393d578d787b66e11e0a9"
+      "bytes": 1445641,
+      "sha256": "86e48f49047aadbacef19c538f82e8392e2bc8e7ae8de35a806708acbf6f60b9"
+    },
+    {
+      "path": "assets/wildlife-loot-v1/sheets/catalog-3.png",
+      "bytes": 876786,
+      "sha256": "772b0eed449cb3d5836611f7769294a3f3dee09a6b34b0a35cde2ce0f5b75634"
     },
     {
       "path": "assets/wildlife-loot-v1/sources/animal-fat.png",
@@ -92108,11 +91881,6 @@
       "sha256": "71c90c31ed96ac9674da43d9da8e5a15ce9ce2d7a6239638c963f64cbef54e28"
     },
     {
-      "path": "assets/wildlife-loot-v1/sources/bear-meat.png",
-      "bytes": 667365,
-      "sha256": "5702079693ad7b7b5119bd02f0d334cec9f8e8f295e6275adfdc138685f2a5de"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sources/bear-pelt.png",
       "bytes": 758533,
       "sha256": "15ae4abd13d8e5b485db3471b40b6e3eb6f71d710115d7919197beeb46ede859"
@@ -92121,11 +91889,6 @@
       "path": "assets/wildlife-loot-v1/sources/boar-hide.png",
       "bytes": 842554,
       "sha256": "eb09a0bd1d76858f92871c5a687149d660a0f71d587954a339a13fb3bd097eea"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sources/boar-meat.png",
-      "bytes": 861262,
-      "sha256": "0eae9e9115fdbbfa0d5f8d5ccb8643eb185cbd302265bc9a1e967e8bdc6ecbf0"
     },
     {
       "path": "assets/wildlife-loot-v1/sources/boar-tusks.png",
@@ -92173,11 +91936,6 @@
       "sha256": "e3e1abd70158f0f9233422132abb3f623d4b527bc51130fae3ea6d158f9a309a"
     },
     {
-      "path": "assets/wildlife-loot-v1/sources/fish-fillet.png",
-      "bytes": 687169,
-      "sha256": "66b946524d6f91bee9fbb4a3f0f8ca76ceb44b4fce40be2a7236806d53ddad5c"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sources/fish-scales.png",
       "bytes": 464245,
       "sha256": "2936d4224cd48b3d81fc3a21df65ee7b684c5dca9cab5b47383dbd15be87e85e"
@@ -92186,11 +91944,6 @@
       "path": "assets/wildlife-loot-v1/sources/fox-pelt.png",
       "bytes": 682173,
       "sha256": "c2211ff23242497dd1d3dcbe93465e029ca705021c326c6abf046b5ed947770f"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sources/frog-legs.png",
-      "bytes": 580044,
-      "sha256": "07be716fdfc7e78906381ed7923d86d0d63edb6571dfa54e1a5579eb6fcb42eb"
     },
     {
       "path": "assets/wildlife-loot-v1/sources/frog-skin.png",
@@ -92223,11 +91976,6 @@
       "sha256": "8845475f8b4c439f211fa89b8c338603afb52e4c0fdfd0ca27efaa06fc55f7e1"
     },
     {
-      "path": "assets/wildlife-loot-v1/sources/poultry-meat.png",
-      "bytes": 445891,
-      "sha256": "7f37939bfb63426692887eff478d6d6b5d57cce940be8e9649dfc670ad6813fb"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sources/rat-pelt.png",
       "bytes": 701810,
       "sha256": "f3b62d345f6f85c95b984de4cfcae508ede5f8d070a89cd402d6830de342e54c"
@@ -92236,11 +91984,6 @@
       "path": "assets/wildlife-loot-v1/sources/red-deer-hide.png",
       "bytes": 819474,
       "sha256": "0bc2e2b8fd32f504576131304baf7053e0d108e5c25c661043ecc060cfc430a9"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sources/red-meat.png",
-      "bytes": 730137,
-      "sha256": "7304335491c0665c4438f71ef2af07cf6e72cbde7c1d5f876e6dc3045284847c"
     },
     {
       "path": "assets/wildlife-loot-v1/sources/roe-antlers.png",
@@ -92258,11 +92001,6 @@
       "sha256": "21785a8dc31ba2ea7476074c35677fb6555a3da22791f391954048610fc27138"
     },
     {
-      "path": "assets/wildlife-loot-v1/sources/small-game-meat.png",
-      "bytes": 538437,
-      "sha256": "46e580f24f65387b82af5fdc32c433bf3359d7185cd97da34d78254dd5b3b09a"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sources/sparrow-feathers.png",
       "bytes": 534338,
       "sha256": "683b032647ab7e286cc8e3e48c15e213115ded38e2663a80440673f4b35da2f8"
@@ -92276,16 +92014,6 @@
       "path": "assets/wildlife-loot-v1/sources/tendons.png",
       "bytes": 826893,
       "sha256": "447a768440dc3ed3221f5f44015e572ba384e7b481bb7d1190bbe44c8ec1d42d"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sources/tiny-game-meat.png",
-      "bytes": 328350,
-      "sha256": "1710016ecb8fe1c925ddac80f48905ddb4ac9b9e505904ea62df090a99f69b59"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sources/venison.png",
-      "bytes": 482873,
-      "sha256": "c9f4c897e7d4fff28a1860d5d4addb96e1c4f8f216a59508878c4db5d4d3f803"
     },
     {
       "path": "assets/wildlife-loot-v1/sources/wolf-fangs.png",
@@ -92308,11 +92036,6 @@
       "sha256": "0ff1e9d7f456ed9652093888582df6190024f7d3a40a43d1ccbb6b6176196cc3"
     },
     {
-      "path": "assets/wildlife-loot-v1/sprites/bear-meat.png",
-      "bytes": 5709,
-      "sha256": "67282e34ab17527b8d3c7a0b54d64ecb490f90f62563af22e0907c41db6028fc"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sprites/bear-pelt.png",
       "bytes": 4629,
       "sha256": "fc5deb4ba661e1c2d45e7bcf6f6639870e20355f73e8e6d143665431a1b8a008"
@@ -92321,11 +92044,6 @@
       "path": "assets/wildlife-loot-v1/sprites/boar-hide.png",
       "bytes": 4818,
       "sha256": "c791dbdeada9ed17abbca5ed515e0dfc154ee81866169f6db549772dabf31af8"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sprites/boar-meat.png",
-      "bytes": 5570,
-      "sha256": "e8d351c462dfd94ea231d65efb27c8ceb03997617330144d88fa95cc661bc540"
     },
     {
       "path": "assets/wildlife-loot-v1/sprites/boar-tusks.png",
@@ -92373,11 +92091,6 @@
       "sha256": "66faef019fe5ad8205ed50cb246abc006c7fccbbdccb4ac685ec0ccff7c51568"
     },
     {
-      "path": "assets/wildlife-loot-v1/sprites/fish-fillet.png",
-      "bytes": 4104,
-      "sha256": "ff42fc5fb0981c5bf3bb8baac89e45b71d1bf691d389355538ffb5bb29c64c6d"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sprites/fish-scales.png",
       "bytes": 5697,
       "sha256": "5f33a488a129775fbb66a216b629ad1f692221353ef34e94a184c22cb65407c2"
@@ -92386,11 +92099,6 @@
       "path": "assets/wildlife-loot-v1/sprites/fox-pelt.png",
       "bytes": 4854,
       "sha256": "ab8a41bb4afa990f3baabd390a787906c2fb1b4b69ff9c4c2367d3062e516eee"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sprites/frog-legs.png",
-      "bytes": 4887,
-      "sha256": "8c899693e6f80b3174d56131334020ab1c7fcbc46beb2557a3a9c4c9672a289b"
     },
     {
       "path": "assets/wildlife-loot-v1/sprites/frog-skin.png",
@@ -92423,11 +92131,6 @@
       "sha256": "75c876fe971d8f55ced7290914c6ec57f55e99606eb608e07f41b8b87609db22"
     },
     {
-      "path": "assets/wildlife-loot-v1/sprites/poultry-meat.png",
-      "bytes": 5336,
-      "sha256": "efc4c9ababfae93697b844f211f8fd53dd4febf754f46b322c9d046e9fd5dbc8"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sprites/rat-pelt.png",
       "bytes": 4806,
       "sha256": "c572b08f567777ac2cc61dd266c5dd5e79a8f28ec025e95adf2fc8ffac334611"
@@ -92436,11 +92139,6 @@
       "path": "assets/wildlife-loot-v1/sprites/red-deer-hide.png",
       "bytes": 4810,
       "sha256": "d143fdd1db1d42f565d963ce437e8553d04995ff52db0a4e188ee196180c86ca"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sprites/red-meat.png",
-      "bytes": 5402,
-      "sha256": "ad18c7f33c1cec9cb6be0f0cfd6b5e7a6565fec177581a7b6e7fee908705f302"
     },
     {
       "path": "assets/wildlife-loot-v1/sprites/roe-antlers.png",
@@ -92458,11 +92156,6 @@
       "sha256": "04aacc6f438e77a9f079a5d67acd90eceaa020a83bbc0f88a85e16a81421870c"
     },
     {
-      "path": "assets/wildlife-loot-v1/sprites/small-game-meat.png",
-      "bytes": 5356,
-      "sha256": "1b80e554da13a21f342903c508b97ba7ded3d0b812c0bed59d6cd454b1e017a8"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sprites/sparrow-feathers.png",
       "bytes": 6037,
       "sha256": "0636219d8390f9a69b6a9376780a217aeb3f329d8fe041bdce06a7dd16a72575"
@@ -92478,16 +92171,6 @@
       "sha256": "754b4a3733299b1ac339b18ced6754bcd41befb35231a3ccf28d43249949ae96"
     },
     {
-      "path": "assets/wildlife-loot-v1/sprites/tiny-game-meat.png",
-      "bytes": 6140,
-      "sha256": "8351566dacb2d3e7df0504ca274747ecc2f3f174c3d6860fbaa3906fa15fc2bd"
-    },
-    {
-      "path": "assets/wildlife-loot-v1/sprites/venison.png",
-      "bytes": 5306,
-      "sha256": "c7deaa2e28d24e4b6f63c46733d28e54482a622fe0463417b3acea7c82d243b6"
-    },
-    {
       "path": "assets/wildlife-loot-v1/sprites/wolf-fangs.png",
       "bytes": 4537,
       "sha256": "3e496215706ccbfcc8417c0b2c196b4ce7279293ef65dd7a1510da3826bf742e"
@@ -92499,8 +92182,8 @@
     },
     {
       "path": "assets/wildlife-loot-v1/verification.json",
-      "bytes": 229,
-      "sha256": "c148a95189690f6664c86d8733d8647bc33a6c3594128c14935a5d584cdcdfae"
+      "bytes": 316,
+      "sha256": "48a37f7a932c4b5b028aecac87b706d0a951ebef870707ec2f9283f2ee690fd4"
     },
     {
       "path": "assets/wildlife-loot-v1/visual-review.json",
@@ -94774,8 +94457,23 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 5788,
-      "sha256": "79dde9d2a896c28c8637d94041ac11557c029835c711e35ebba45ce680e5aaaa"
+      "bytes": 6145,
+      "sha256": "431a69839b22a05e3e820c641c51c545d9a9651e33ea3adb6339a3d06ad74abc"
+    },
+    {
+      "path": "docs/asset-conflicts.md",
+      "bytes": 5660,
+      "sha256": "017b7421ce49559adf5262578edc99e6bb4e9ba2bfedf10d352246df1f9eb87f"
+    },
+    {
+      "path": "docs/asset-consistency-report.json",
+      "bytes": 8023,
+      "sha256": "109a0fa04bc67216c3f545052580abe33b792bc38a5ea67b3bf2485a30066d1c"
+    },
+    {
+      "path": "docs/asset-registry.json",
+      "bytes": 360141,
+      "sha256": "1f93e0191ad7f754719063310f1e03318557717aa130cdb30900ce1592fe66f0"
     },
     {
       "path": "docs/combat-design.md",
@@ -94804,8 +94502,8 @@
     },
     {
       "path": "docs/items-design.md",
-      "bytes": 8031,
-      "sha256": "8159c708004963cb3db8d2c306a5e39ab5c5b20c7f577a040f91f43a8748cfb9"
+      "bytes": 8316,
+      "sha256": "2152f8ffbea6dd61f18f8fbb8a34fc853091ccc57d6ffe735858072e262ea04b"
     },
     {
       "path": "docs/survivors.md",
@@ -94814,18 +94512,23 @@
     },
     {
       "path": "package.json",
-      "bytes": 1856,
-      "sha256": "4bd2c8dfcb1029e31470541c71924b2f5ce4cd528d77363846024662e3db4162"
+      "bytes": 1982,
+      "sha256": "62a99e9cd4fa82eb261e201cde2a08035b628825d3eb96e9aa482b67b7a305b2"
     },
     {
       "path": "publication-config.json",
-      "bytes": 2371,
-      "sha256": "a6b9c5ce6e5955f53ede4e3f7036eade9c01677cac0d0ee1d7ef60c867ac6d34"
+      "bytes": 7301,
+      "sha256": "d639d80c746eec8a458aa17e1c21aeb4f3cdf613d4d4e2fea10b7f9099a9c88c"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
       "bytes": 6354,
       "sha256": "d5b8924e2472ea2c6d646f901aad1e949ae8868e52e585b95ec44d0ddfa1c87f"
+    },
+    {
+      "path": "tools/asset-ownership.cjs",
+      "bytes": 1666,
+      "sha256": "69679dca874561c22d42922f96f7780fcdea9caf4fecaa7899a225cd2a2109cb"
     },
     {
       "path": "tools/audit-redesigned-animation-sources.cjs",
@@ -94854,8 +94557,8 @@
     },
     {
       "path": "tools/build-item-revision.cjs",
-      "bytes": 5902,
-      "sha256": "7cbdf0b6636a92e976f758f20d7013c6c68d903aa8fd4c531c8e5236cd7a93b3"
+      "bytes": 6513,
+      "sha256": "e13e78ba4d7367f61df6f1eef222fe83ad9e0caf553514260e205c198b49f73e"
     },
     {
       "path": "tools/build-main-menu-animation.cjs",
@@ -94879,13 +94582,18 @@
     },
     {
       "path": "tools/build-wildlife-loot.cjs",
-      "bytes": 9673,
-      "sha256": "835a5e64b307eac0d9ff1566598a0f412388849276cf02131a807296967ce47b"
+      "bytes": 10186,
+      "sha256": "c8bc4871c29542cd963b0791eabac2d175e7519cf85c2d06fe1212812d36eee3"
     },
     {
       "path": "tools/build-wildlife-visuals.cjs",
       "bytes": 12828,
       "sha256": "e0e6a61adb710deaca1515501b251210305b50e7e16ec2d9e31f1965c035168a"
+    },
+    {
+      "path": "tools/check-asset-consistency.cjs",
+      "bytes": 9843,
+      "sha256": "7e7b0318ffb3c51bb41361025a114f7f9f09836fc10e131c722324fcaf7978e2"
     },
     {
       "path": "tools/check-asset-files.cjs",
@@ -94914,8 +94622,8 @@
     },
     {
       "path": "tools/check-item-revision.cjs",
-      "bytes": 6264,
-      "sha256": "d50173e7fcbfe7d1e35b3231ef32ee740a760e3cf681edca348f10392a6c8198"
+      "bytes": 6851,
+      "sha256": "b22acc39ec29c1154ab85bb0200a85cd5229bf267cc6ffd5573e5cc15f04e558"
     },
     {
       "path": "tools/check-main-menu-animation.cjs",
@@ -94939,8 +94647,8 @@
     },
     {
       "path": "tools/check-wildlife-loot.cjs",
-      "bytes": 3064,
-      "sha256": "97a73c82859462c491ef6feb24f0b1f98f02fdad34be07c0a97637307bc9d893"
+      "bytes": 4098,
+      "sha256": "4e520b4646a980449c8bcd4374035041e64b0cf4baaabf0cc920292e5d7ddea7"
     },
     {
       "path": "tools/check-wildlife-visuals.cjs",
@@ -94974,13 +94682,18 @@
     },
     {
       "path": "tools/package-item-revision.cjs",
-      "bytes": 1081,
-      "sha256": "30a400f87372ed0b56fc33e97ca5d444b5fe31ebd9431f26d4a7f0b0763316b6"
+      "bytes": 90,
+      "sha256": "878199269afcc0d797777615c529c195b529a0adc65f0601c4ce0f53fb319b30"
     },
     {
       "path": "tools/package-selected-interface.cjs",
       "bytes": 4224,
       "sha256": "4bc3cb482e9093118176f04d8bf7a64464e48945e56ac63bd0405de3aa07b37d"
+    },
+    {
+      "path": "tools/package-shared-items.cjs",
+      "bytes": 3120,
+      "sha256": "2127de88f6ac750f2dedd8b0115d2e42f24e4c7c0bf8a33c734ae8bef34764ef"
     },
     {
       "path": "tools/package-weapon-animations.cjs",
@@ -94999,8 +94712,8 @@
     },
     {
       "path": "tools/prepare-item-revision.cjs",
-      "bytes": 28747,
-      "sha256": "d08abb0fb5c7d22181b8645df75686a175118d8ae3fcdf43d9b6e0a92bde7dd5"
+      "bytes": 28967,
+      "sha256": "6a02307a7bc11e3ff9a85a7498942cb5f7455def3d9a6fe9895d5939ae0472a5"
     },
     {
       "path": "tools/prepare-weapon-animations.cjs",
@@ -95014,8 +94727,8 @@
     },
     {
       "path": "tools/prepare-wildlife-loot.cjs",
-      "bytes": 2486,
-      "sha256": "176aadcd05a7d43a08b1f0697e24b122f3ed21e0443713637d8d4c1f8b06a56b"
+      "bytes": 2664,
+      "sha256": "779130d6553ffa7ab33c021209c15bd00576062902bc2960870b4db19ed2b990"
     },
     {
       "path": "tools/preview-environment-variants.cjs",
@@ -95029,8 +94742,8 @@
     },
     {
       "path": "tools/preview-wildlife-loot.cjs",
-      "bytes": 3255,
-      "sha256": "399533c827c3db851e8abb696657724773925754d6d498ee0a860683b74b50e2"
+      "bytes": 3344,
+      "sha256": "1cd5c8e0e4b51241dbda0ae713c5509abd546286f8b499daa2afb23ec497b50f"
     },
     {
       "path": "tools/preview-wildlife-visuals.cjs",
@@ -95041,6 +94754,11 @@
       "path": "tools/publish-github.cjs",
       "bytes": 13097,
       "sha256": "58b718c347343d613e87f9d471a287d841e02bcaa7cdc9c7dd0a70422fc0ddc0"
+    },
+    {
+      "path": "tools/reconcile-assets.cjs",
+      "bytes": 2205,
+      "sha256": "f796a257a0a2110736b45cc318aa6b21cc76f9bfe4104323fd1b81009abea5ea"
     },
     {
       "path": "tools/scan-wildlife-animation.cjs",
@@ -95094,8 +94812,8 @@
     },
     {
       "path": "tools/wildlife-loot-catalog.cjs",
-      "bytes": 8092,
-      "sha256": "9be1f2d4ed3b50a33c9207b8ac7ce37e80fe62df8b08f5dfd68ce048b6f78473"
+      "bytes": 8517,
+      "sha256": "57a966cf4bbd77eae928f404fffaf02f5627545487effcb9f33e069e5449a845"
     }
   ]
 }

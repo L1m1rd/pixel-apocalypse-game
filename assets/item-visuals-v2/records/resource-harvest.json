@@ -50,10 +50,10 @@
       "description": "one short complete felled tree trunk section with bark, a few cut branch stubs and a clear pale cut end, no scenery",
       "cell": 2,
       "iconOccupancy": 224,
-      "art": "art/resource-harvest-felled-log.png",
-      "sprite": "sprites/resource-harvest-felled-log.png",
-      "artSize": 256,
-      "spriteSize": 96,
+      "art": "../environment-variants-v1/elements/fallen_log/fallen_log_a.png",
+      "sprite": "../environment-variants-v1/elements/fallen_log/fallen_log_a.png",
+      "artSize": 128,
+      "spriteSize": 128,
       "sourceBounds": {
         "left": 1042,
         "top": 176,
@@ -61,7 +61,13 @@
         "height": 282
       },
       "sourceEdgePixels": 0,
-      "sha256": "86ad1ba22c7cc838d608773626f2973e20c505e7197c0347ded9d032d151bde8"
+      "sha256": "2a57d1a89f7f71a5345b2bbe3fc71813da2df38227fb9b64c9b8129d6cba4f41",
+      "sharedAssetRef": {
+        "pack": "environment-variants-v1",
+        "id": "fallen_log",
+        "variant": "A",
+        "canonicalId": "world/fallen_log"
+      }
     },
     {
       "id": "resource-harvest-stump",
@@ -69,10 +75,10 @@
       "description": "one low freshly cut tree stump with pale growth rings and visible roots, no whole tree or scenery",
       "cell": 3,
       "iconOccupancy": 224,
-      "art": "art/resource-harvest-stump.png",
-      "sprite": "sprites/resource-harvest-stump.png",
-      "artSize": 256,
-      "spriteSize": 96,
+      "art": "../environment-variants-v1/elements/stump/stump_a.png",
+      "sprite": "../environment-variants-v1/elements/stump/stump_a.png",
+      "artSize": 128,
+      "spriteSize": 128,
       "sourceBounds": {
         "left": 49,
         "top": 605,
@@ -80,7 +86,13 @@
         "height": 322
       },
       "sourceEdgePixels": 0,
-      "sha256": "1271c257323e85c734dc815e77f63b914aae9b5f092bdc4a3ab8206681b7f803"
+      "sha256": "038ec41caeb3e1498982c202fc02bbedd96ee68771b927156163db01af3f5f9e",
+      "sharedAssetRef": {
+        "pack": "environment-variants-v1",
+        "id": "stump",
+        "variant": "A",
+        "canonicalId": "world/stump"
+      }
     },
     {
       "id": "resource-harvest-stone",

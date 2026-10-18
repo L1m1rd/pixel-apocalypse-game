@@ -29,7 +29,9 @@
     "check:wildlife-loot": "node tools/check-wildlife-loot.cjs",
     "preview:wildlife-loot": "node tools/serve-wildlife-loot.cjs",
     "package:wildlife-loot": "node tools/build-wildlife-loot.cjs --zip",
-    "prepare:items": "node tools/prepare-item-revision.cjs"
+    "prepare:items": "node tools/prepare-item-revision.cjs",
+    "check:consistency": "node tools/check-asset-consistency.cjs",
+    "reconcile:assets": "node tools/reconcile-assets.cjs"
   },
   "devDependencies": {
     "jszip": "3.10.1",

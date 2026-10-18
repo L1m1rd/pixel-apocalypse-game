@@ -2,7 +2,9 @@
   "version": 1,
   "tool": "built-in image_gen",
   "status": "planned",
-  "itemCount": 40,
+  "itemCount": 51,
+  "ownedItemCount": 31,
+  "sharedItemCount": 20,
   "speciesCount": 20,
   "items": [
     {
@@ -147,105 +149,6 @@
       "sprite": "sprites/cow-hide.png",
       "ground": "ground/cow-hide.png",
       "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one folded broad brown-and-cream patched cow hide with thick tan leather inner side, no head, horns or hooves. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "small-game-meat",
-      "name": "Мясо мелкой дичи",
-      "category": "food",
-      "subject": "one small clean raw game-meat portion, reddish pink muscle with a narrow pale fat edge, no packaging or blood",
-      "source": "sources/small-game-meat.png",
-      "art": "art/small-game-meat.png",
-      "sprite": "sprites/small-game-meat.png",
-      "ground": "ground/small-game-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one small clean raw game-meat portion, reddish pink muscle with a narrow pale fat edge, no packaging or blood. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "venison",
-      "name": "Оленина",
-      "category": "food",
-      "subject": "one clean lean dark red venison cut with very little pale fat, compact irregular oval slab, no blood or packaging",
-      "source": "sources/venison.png",
-      "art": "art/venison.png",
-      "sprite": "sprites/venison.png",
-      "ground": "ground/venison.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one clean lean dark red venison cut with very little pale fat, compact irregular oval slab, no blood or packaging. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "boar-meat",
-      "name": "Мясо кабана",
-      "category": "food",
-      "subject": "one clean raw boar meat cut, deep red muscle with a thick pale cream fat edge, no blood or packaging",
-      "source": "sources/boar-meat.png",
-      "art": "art/boar-meat.png",
-      "sprite": "sprites/boar-meat.png",
-      "ground": "ground/boar-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one clean raw boar meat cut, deep red muscle with a thick pale cream fat edge, no blood or packaging. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "bear-meat",
-      "name": "Мясо медведя",
-      "category": "food",
-      "subject": "one clean thick raw dark-red bear meat portion with a broad warm cream fat seam, no blood or packaging",
-      "source": "sources/bear-meat.png",
-      "art": "art/bear-meat.png",
-      "sprite": "sprites/bear-meat.png",
-      "ground": "ground/bear-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one clean thick raw dark-red bear meat portion with a broad warm cream fat seam, no blood or packaging. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "poultry-meat",
-      "name": "Мясо птицы",
-      "category": "food",
-      "subject": "one small clean pale pink raw poultry breast portion, curved muscle lobes, no whole bird, blood, packaging or feathers",
-      "source": "sources/poultry-meat.png",
-      "art": "art/poultry-meat.png",
-      "sprite": "sprites/poultry-meat.png",
-      "ground": "ground/poultry-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one small clean pale pink raw poultry breast portion, curved muscle lobes, no whole bird, blood, packaging or feathers. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "red-meat",
-      "name": "Красное мясо",
-      "category": "food",
-      "subject": "one clean red raw red-meat steak with subtle pale marbling and an irregular fat edge, no bone, blood or packaging",
-      "source": "sources/red-meat.png",
-      "art": "art/red-meat.png",
-      "sprite": "sprites/red-meat.png",
-      "ground": "ground/red-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one clean red raw red-meat steak with subtle pale marbling and an irregular fat edge, no bone, blood or packaging. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "tiny-game-meat",
-      "name": "Мелкая порция мяса",
-      "category": "food",
-      "subject": "one tiny clean dark pink raw meat portion, compact two-lobed shape, no blood, fur, packaging or carcass",
-      "source": "sources/tiny-game-meat.png",
-      "art": "art/tiny-game-meat.png",
-      "sprite": "sprites/tiny-game-meat.png",
-      "ground": "ground/tiny-game-meat.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one tiny clean dark pink raw meat portion, compact two-lobed shape, no blood, fur, packaging or carcass. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "frog-legs",
-      "name": "Лягушачьи лапки",
-      "category": "food",
-      "subject": "one neat pair of skinned pale pink frog hind legs as a cooking ingredient, joined at the small upper thigh portion, no blood or torso",
-      "source": "sources/frog-legs.png",
-      "art": "art/frog-legs.png",
-      "sprite": "sprites/frog-legs.png",
-      "ground": "ground/frog-legs.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one neat pair of skinned pale pink frog hind legs as a cooking ingredient, joined at the small upper thigh portion, no blood or torso. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
-    },
-    {
-      "id": "fish-fillet",
-      "name": "Рыбное филе",
-      "category": "food",
-      "subject": "one raw pale peach fish fillet with fine readable muscle bands and a narrow silver-gray skin edge, no blood or packaging",
-      "source": "sources/fish-fillet.png",
-      "art": "art/fish-fillet.png",
-      "sprite": "sprites/fish-fillet.png",
-      "ground": "ground/fish-fillet.png",
-      "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one raw pale peach fish fillet with fine readable muscle bands and a narrow silver-gray skin edge, no blood or packaging. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
     },
     {
       "id": "crow-feathers",
@@ -446,6 +349,448 @@
       "prompt": "Use case: stylized-concept. Asset type: ONE transparent game loot item sprite for Pixel Apocalypse. Reference image 1 is STYLE ONLY: match its grounded survival-RPG pixel materials, palette and selective outlines. Do not reproduce its grid, labels or other objects. Primary subject: one small folded olive ocher frog skin patch with dark brown speckles and a pale yellow inner side, no frog body, face, legs or blood. Exactly ONE inventory resource icon; paired or gathered parts explicitly described above form that one resource stack. Center the complete isolated silhouette on a 1024x1024 canvas, inside a 720x720 box with generous empty alpha padding. Slightly elevated top-down three-quarter view for a 2D survival RPG; thick readable square pixel clusters, restrained 16-bit palette, deliberate crisp edges and small upper-left highlights. Natural worn browns, muted ivory, gray, olive and desaturated raw-meat reds as relevant. No photorealism, smooth vector shapes, scenery, characters, interface, text, labels, border, numbers, logos or watermark. True transparent alpha background. No gradients, glow, haze, shadow, ground plane, plates, bags or wrapping. No detached extra object beyond the named resource stack. No blood, gore, carcass or intact animal. Sprite must read at 64 pixels. Do not change the requested material or add any unrelated resource."
     }
   ],
+  "sharedItems": [
+    {
+      "id": "meat-1-hare-raw",
+      "name": "Заяц — сырое",
+      "category": "food",
+      "speciesId": "hare",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-1-hare-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-1-hare-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-1-hare-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-1-hare-raw",
+        "canonicalId": "food/hare"
+      },
+      "sha256": {
+        "sprite": "ec534bf5198cbef370b2bc42270232ebbe5e1d5a5b7b1f76bed4268f7c2c3a44",
+        "ground": "ec534bf5198cbef370b2bc42270232ebbe5e1d5a5b7b1f76bed4268f7c2c3a44"
+      }
+    },
+    {
+      "id": "meat-1-squirrel-raw",
+      "name": "Белка — сырое",
+      "category": "food",
+      "speciesId": "squirrel",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-1-squirrel-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-1-squirrel-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-1-squirrel-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-1-squirrel-raw",
+        "canonicalId": "food/squirrel"
+      },
+      "sha256": {
+        "sprite": "88b6d1ffc7f29b4b1f087e2b3f4e762be3e0136515b229ea63f29854575e81d4",
+        "ground": "88b6d1ffc7f29b4b1f087e2b3f4e762be3e0136515b229ea63f29854575e81d4"
+      }
+    },
+    {
+      "id": "meat-1-fox-raw",
+      "name": "Лиса — сырое",
+      "category": "food",
+      "speciesId": "fox",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-1-fox-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-1-fox-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-1-fox-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-1-fox-raw",
+        "canonicalId": "food/fox"
+      },
+      "sha256": {
+        "sprite": "c6b20048982d7099012c1a383589f8f55cfad76f2d6384c348ab894e8e2f6a66",
+        "ground": "c6b20048982d7099012c1a383589f8f55cfad76f2d6384c348ab894e8e2f6a66"
+      }
+    },
+    {
+      "id": "meat-2-roe_deer-raw",
+      "name": "Косуля — сырое",
+      "category": "food",
+      "speciesId": "roe_deer",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-2-roe_deer-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-2-roe_deer-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-2-roe_deer-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-2-roe_deer-raw",
+        "canonicalId": "food/roe_deer"
+      },
+      "sha256": {
+        "sprite": "1f5e51c1fbf2752f7d625495f1a6ef76e73c445cf3f972c7639c0e45698572b8",
+        "ground": "1f5e51c1fbf2752f7d625495f1a6ef76e73c445cf3f972c7639c0e45698572b8"
+      }
+    },
+    {
+      "id": "meat-2-red_deer-raw",
+      "name": "Олень — сырое",
+      "category": "food",
+      "speciesId": "red_deer",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-2-red_deer-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-2-red_deer-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-2-red_deer-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-2-red_deer-raw",
+        "canonicalId": "food/red_deer"
+      },
+      "sha256": {
+        "sprite": "0b12f3422e3d2357715d606934f08eabd0d738147d1f29931d8458df9517d3af",
+        "ground": "0b12f3422e3d2357715d606934f08eabd0d738147d1f29931d8458df9517d3af"
+      }
+    },
+    {
+      "id": "meat-2-wild_boar-raw",
+      "name": "Кабан — сырое",
+      "category": "food",
+      "speciesId": "wild_boar",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-2-wild_boar-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-2-wild_boar-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-2-wild_boar-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-2-wild_boar-raw",
+        "canonicalId": "food/wild_boar"
+      },
+      "sha256": {
+        "sprite": "b72bfe08899fe13067f718c896566e75053f80ba5b79ea6ea6ff5b533496139a",
+        "ground": "b72bfe08899fe13067f718c896566e75053f80ba5b79ea6ea6ff5b533496139a"
+      }
+    },
+    {
+      "id": "meat-3-wolf-raw",
+      "name": "Волк — сырое",
+      "category": "food",
+      "speciesId": "wolf",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-3-wolf-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-3-wolf-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-3-wolf-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-3-wolf-raw",
+        "canonicalId": "food/wolf"
+      },
+      "sha256": {
+        "sprite": "d409d6a61e5285bb9682c08a30694d0553f598223aff11de131d8a88f73382f4",
+        "ground": "d409d6a61e5285bb9682c08a30694d0553f598223aff11de131d8a88f73382f4"
+      }
+    },
+    {
+      "id": "meat-3-brown_bear-raw",
+      "name": "Медведь — сырое",
+      "category": "food",
+      "speciesId": "brown_bear",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-3-brown_bear-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-3-brown_bear-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-3-brown_bear-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-3-brown_bear-raw",
+        "canonicalId": "food/brown_bear"
+      },
+      "sha256": {
+        "sprite": "8b1020f50c1aec22d8cecb170df4d7c4d79b24ff5ab4de8dca17debff62cb53d",
+        "ground": "8b1020f50c1aec22d8cecb170df4d7c4d79b24ff5ab4de8dca17debff62cb53d"
+      }
+    },
+    {
+      "id": "meat-3-stray_dog-raw",
+      "name": "Бродячая собака — сырое",
+      "category": "food",
+      "speciesId": "stray_dog",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-3-stray_dog-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-3-stray_dog-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-3-stray_dog-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-3-stray_dog-raw",
+        "canonicalId": "food/stray_dog"
+      },
+      "sha256": {
+        "sprite": "87b64b30d7ba6d859a7d8ac5dbe06bfde95ecade64db8240a3e2bf86fd656278",
+        "ground": "87b64b30d7ba6d859a7d8ac5dbe06bfde95ecade64db8240a3e2bf86fd656278"
+      }
+    },
+    {
+      "id": "meat-4-cat-raw",
+      "name": "Кошка — сырое",
+      "category": "food",
+      "speciesId": "cat",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-4-cat-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-4-cat-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-4-cat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-4-cat-raw",
+        "canonicalId": "food/cat"
+      },
+      "sha256": {
+        "sprite": "0ee8555df502c9ce71c475286360c760473e8f9642eeb2b7d109c80f82c54a72",
+        "ground": "0ee8555df502c9ce71c475286360c760473e8f9642eeb2b7d109c80f82c54a72"
+      }
+    },
+    {
+      "id": "meat-4-rat-raw",
+      "name": "Крыса — сырое",
+      "category": "food",
+      "speciesId": "rat",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-4-rat-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-4-rat-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-4-rat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-4-rat-raw",
+        "canonicalId": "food/rat"
+      },
+      "sha256": {
+        "sprite": "424288c5daf295e7fe85d69e6f3fc54ab530f54dbd9b849746f9292ee8bb9f21",
+        "ground": "424288c5daf295e7fe85d69e6f3fc54ab530f54dbd9b849746f9292ee8bb9f21"
+      }
+    },
+    {
+      "id": "meat-4-crow-raw",
+      "name": "Ворона — сырое",
+      "category": "food",
+      "speciesId": "crow",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-4-crow-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-4-crow-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-4-crow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-4-crow-raw",
+        "canonicalId": "food/crow"
+      },
+      "sha256": {
+        "sprite": "ab6e16b58e2e6a2bde4ded75960bf9c6a013fb1cd6e16f65854ffbb33a48044b",
+        "ground": "ab6e16b58e2e6a2bde4ded75960bf9c6a013fb1cd6e16f65854ffbb33a48044b"
+      }
+    },
+    {
+      "id": "meat-5-pigeon-raw",
+      "name": "Голубь — сырое",
+      "category": "food",
+      "speciesId": "pigeon",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-5-pigeon-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-5-pigeon-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-5-pigeon-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-5-pigeon-raw",
+        "canonicalId": "food/pigeon"
+      },
+      "sha256": {
+        "sprite": "ee8c3c19b69662ead65ef7374a9668aa06f332750b237e5020ccdba780af2e80",
+        "ground": "ee8c3c19b69662ead65ef7374a9668aa06f332750b237e5020ccdba780af2e80"
+      }
+    },
+    {
+      "id": "meat-5-sparrow-raw",
+      "name": "Воробей — сырое",
+      "category": "food",
+      "speciesId": "sparrow",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-5-sparrow-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-5-sparrow-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-5-sparrow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-5-sparrow-raw",
+        "canonicalId": "food/sparrow"
+      },
+      "sha256": {
+        "sprite": "34cf747acc2eaa78c9e47adf25ccde49e2ca607cee51244866b177092ecb3b39",
+        "ground": "34cf747acc2eaa78c9e47adf25ccde49e2ca607cee51244866b177092ecb3b39"
+      }
+    },
+    {
+      "id": "meat-5-duck-raw",
+      "name": "Утка — сырое",
+      "category": "food",
+      "speciesId": "duck",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-5-duck-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-5-duck-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-5-duck-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-5-duck-raw",
+        "canonicalId": "food/duck"
+      },
+      "sha256": {
+        "sprite": "f949507faa099dae2e8a84c296edba113baec60d4f7696098c8b669d9a834a21",
+        "ground": "f949507faa099dae2e8a84c296edba113baec60d4f7696098c8b669d9a834a21"
+      }
+    },
+    {
+      "id": "meat-6-frog-raw",
+      "name": "Лягушка — сырое",
+      "category": "food",
+      "speciesId": "frog",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-6-frog-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-6-frog-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-6-frog-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-6-frog-raw",
+        "canonicalId": "food/frog"
+      },
+      "sha256": {
+        "sprite": "3a89901dc2b8d1aadf83cbda148b77f7660d881fb58b45f2d05817e16b64d4d7",
+        "ground": "3a89901dc2b8d1aadf83cbda148b77f7660d881fb58b45f2d05817e16b64d4d7"
+      }
+    },
+    {
+      "id": "meat-6-fish-raw",
+      "name": "Рыба — сырая",
+      "category": "food",
+      "speciesId": "fish",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-6-fish-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-6-fish-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-6-fish-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-6-fish-raw",
+        "canonicalId": "food/fish"
+      },
+      "sha256": {
+        "sprite": "a087ecd94168533e3207a2f0132ae868a3588e580f126bba765ed45713f696b9",
+        "ground": "a087ecd94168533e3207a2f0132ae868a3588e580f126bba765ed45713f696b9"
+      }
+    },
+    {
+      "id": "meat-6-chicken-raw",
+      "name": "Курица — сырое",
+      "category": "food",
+      "speciesId": "chicken",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-6-chicken-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-6-chicken-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-6-chicken-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-6-chicken-raw",
+        "canonicalId": "food/chicken"
+      },
+      "sha256": {
+        "sprite": "82efecd8e0c107f974065728a82202075c8eb85c97d3ffbc3e5de22c3531187a",
+        "ground": "82efecd8e0c107f974065728a82202075c8eb85c97d3ffbc3e5de22c3531187a"
+      }
+    },
+    {
+      "id": "meat-7-goat-raw",
+      "name": "Коза — сырое",
+      "category": "food",
+      "speciesId": "goat",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-7-goat-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-7-goat-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-7-goat-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-7-goat-raw",
+        "canonicalId": "food/goat"
+      },
+      "sha256": {
+        "sprite": "97e486ff0a3eabbfef35f9abdfa53d793c734de660b51f03bd4ca6f665626f91",
+        "ground": "97e486ff0a3eabbfef35f9abdfa53d793c734de660b51f03bd4ca6f665626f91"
+      }
+    },
+    {
+      "id": "meat-7-cow-raw",
+      "name": "Корова — сырое",
+      "category": "food",
+      "speciesId": "cow",
+      "foodState": "raw",
+      "art": "../item-visuals-v2/art/meat-7-cow-raw.png",
+      "sprite": "../item-visuals-v2/sprites/meat-7-cow-raw.png",
+      "ground": "../item-visuals-v2/sprites/meat-7-cow-raw.png",
+      "artSize": 256,
+      "spriteSize": 96,
+      "groundSize": 96,
+      "sharedAssetRef": {
+        "pack": "item-visuals-v2",
+        "id": "meat-7-cow-raw",
+        "canonicalId": "food/cow"
+      },
+      "sha256": {
+        "sprite": "aa9e3326a35ffd2b04991639b46adbd59c960ec2285e500df35d860131e40f66",
+        "ground": "aa9e3326a35ffd2b04991639b46adbd59c960ec2285e500df35d860131e40f66"
+      }
+    }
+  ],
   "species": [
     {
       "id": "hare",
@@ -453,7 +798,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "small-game-meat",
+          "itemId": "meat-1-hare-raw",
           "source": "animal-harvest"
         },
         {
@@ -472,7 +817,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "small-game-meat",
+          "itemId": "meat-1-squirrel-raw",
           "source": "animal-harvest"
         },
         {
@@ -490,6 +835,10 @@
       "name": "Лиса",
       "selectedVariant": "B",
       "loot": [
+        {
+          "itemId": "meat-1-fox-raw",
+          "source": "animal-harvest"
+        },
         {
           "itemId": "fox-pelt",
           "source": "animal-harvest"
@@ -510,7 +859,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "venison",
+          "itemId": "meat-2-roe_deer-raw",
           "source": "animal-harvest"
         },
         {
@@ -529,7 +878,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "venison",
+          "itemId": "meat-2-red_deer-raw",
           "source": "animal-harvest"
         },
         {
@@ -548,7 +897,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "boar-meat",
+          "itemId": "meat-2-wild_boar-raw",
           "source": "animal-harvest"
         },
         {
@@ -570,6 +919,10 @@
       "name": "Волк",
       "selectedVariant": "B",
       "loot": [
+        {
+          "itemId": "meat-3-wolf-raw",
+          "source": "animal-harvest"
+        },
         {
           "itemId": "wolf-pelt",
           "source": "animal-harvest"
@@ -594,7 +947,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "bear-meat",
+          "itemId": "meat-3-brown_bear-raw",
           "source": "animal-harvest"
         },
         {
@@ -617,6 +970,10 @@
       "selectedVariant": "B",
       "loot": [
         {
+          "itemId": "meat-3-stray_dog-raw",
+          "source": "animal-harvest"
+        },
+        {
           "itemId": "dog-hide",
           "source": "animal-harvest"
         },
@@ -635,6 +992,10 @@
       "name": "Кошка",
       "selectedVariant": "B",
       "loot": [
+        {
+          "itemId": "meat-4-cat-raw",
+          "source": "animal-harvest"
+        },
         {
           "itemId": "cat-pelt",
           "source": "animal-harvest"
@@ -655,7 +1016,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "tiny-game-meat",
+          "itemId": "meat-4-rat-raw",
           "source": "animal-harvest"
         },
         {
@@ -674,7 +1035,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "poultry-meat",
+          "itemId": "meat-4-crow-raw",
           "source": "animal-harvest"
         },
         {
@@ -693,7 +1054,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "poultry-meat",
+          "itemId": "meat-5-pigeon-raw",
           "source": "animal-harvest"
         },
         {
@@ -712,7 +1073,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "poultry-meat",
+          "itemId": "meat-5-sparrow-raw",
           "source": "animal-harvest"
         },
         {
@@ -731,7 +1092,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "poultry-meat",
+          "itemId": "meat-5-duck-raw",
           "source": "animal-harvest"
         },
         {
@@ -750,7 +1111,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "frog-legs",
+          "itemId": "meat-6-frog-raw",
           "source": "animal-harvest"
         },
         {
@@ -769,7 +1130,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "fish-fillet",
+          "itemId": "meat-6-fish-raw",
           "source": "animal-harvest"
         },
         {
@@ -788,7 +1149,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "poultry-meat",
+          "itemId": "meat-6-chicken-raw",
           "source": "animal-harvest"
         },
         {
@@ -807,7 +1168,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "red-meat",
+          "itemId": "meat-7-goat-raw",
           "source": "animal-harvest"
         },
         {
@@ -826,7 +1187,7 @@
       "selectedVariant": "B",
       "loot": [
         {
-          "itemId": "red-meat",
+          "itemId": "meat-7-cow-raw",
           "source": "animal-harvest"
         },
         {

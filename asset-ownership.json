@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "description": "One owner per game entity. Other catalogs reference the owner instead of exporting a second asset.",
+  "itemAliases": {"materials-planks": "resource-harvest-boards"},
+  "sharedWorldItems": {
+    "nature-tree": "tree_deciduous",
+    "nature-bush": "bush_small",
+    "resource-harvest-stump": "stump",
+    "resource-harvest-felled-log": "fallen_log",
+    "openings-door": "door",
+    "openings-gate": "gate",
+    "openings-broken-window": "window_broken",
+    "openings-boarded-window": "window_boarded",
+    "furniture-table": "table",
+    "furniture-wardrobe": "wardrobe",
+    "furniture-bed": "bed",
+    "furniture-shelving": "shelves",
+    "storage-crate": "crate",
+    "storage-barrel": "barrel",
+    "transport-abandoned-car": "car_abandoned",
+    "hazards-fungal-growth": "fungal_cluster",
+    "hazards-spore-source": "spore_source",
+    "base-campfire": "campfire"
+  },
+  "environmentItemRepresentations": {
+    "boards": "resource-harvest-boards",
+    "window": "windows-wood"
+  },
+  "retiredLootFood": ["small-game-meat", "venison", "boar-meat", "bear-meat", "poultry-meat", "red-meat", "tiny-game-meat", "frog-legs", "fish-fillet"],
+  "effectFamilies": {
+    "combat-vfx-v1/spore_cloud_dense": "spore-cloud",
+    "special-vfx-v1/spore_cloud": "spore-cloud"
+  },
+  "intentionalDifferences": [
+    "Raw and cooked food are states of the same species food entity.",
+    "Open and closed ammunition boxes are states of one ammunition family.",
+    "Equipment tiers and explicitly requested clothing styles are distinct variants.",
+    "Environment A/B/C are approved visual variants of one world entity.",
+    "Inventory boards and boards on the map are representations of one resource.",
+    "Animation frames, corpses, static designs, concept references and UI mockups are not extra inventory items.",
+    "The flashlight item and its beam effect are different asset roles."
+  ]
+}

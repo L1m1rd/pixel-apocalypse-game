@@ -1849,8 +1849,18 @@
           "description": "one short complete felled tree trunk section with bark, a few cut branch stubs and a clear pale cut end, no scenery",
           "cell": 2,
           "iconOccupancy": 224,
-          "art": "art/resource-harvest-felled-log.png",
-          "sprite": "sprites/resource-harvest-felled-log.png"
+          "art": "../environment-variants-v1/elements/fallen_log/fallen_log_a.png",
+          "sprite": "../environment-variants-v1/elements/fallen_log/fallen_log_a.png",
+          "artSize": 128,
+          "spriteSize": 128,
+          "sha256": "2a57d1a89f7f71a5345b2bbe3fc71813da2df38227fb9b64c9b8129d6cba4f41",
+          "sourceEdgePixels": 0,
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "fallen_log",
+            "variant": "A",
+            "canonicalId": "world/fallen_log"
+          }
         },
         {
           "id": "resource-harvest-stump",
@@ -1858,8 +1868,18 @@
           "description": "one low freshly cut tree stump with pale growth rings and visible roots, no whole tree or scenery",
           "cell": 3,
           "iconOccupancy": 224,
-          "art": "art/resource-harvest-stump.png",
-          "sprite": "sprites/resource-harvest-stump.png"
+          "art": "../environment-variants-v1/elements/stump/stump_a.png",
+          "sprite": "../environment-variants-v1/elements/stump/stump_a.png",
+          "artSize": 128,
+          "spriteSize": 128,
+          "sha256": "038ec41caeb3e1498982c202fc02bbedd96ee68771b927156163db01af3f5f9e",
+          "sourceEdgePixels": 0,
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "stump",
+            "variant": "A",
+            "canonicalId": "world/stump"
+          }
         },
         {
           "id": "resource-harvest-stone",
@@ -2673,28 +2693,6 @@
       "kind": "inventory",
       "items": [
         {
-          "id": "materials-planks",
-          "key": "planks",
-          "name": "Доски",
-          "description": "a small neatly stacked bundle of three rough wooden planks",
-          "cell": 0,
-          "art": "retained/art/materials-planks.png",
-          "sprite": "retained/sprites/materials-planks.png",
-          "kind": "inventory",
-          "artSize": 256,
-          "spriteSize": 64,
-          "sourceBounds": {
-            "left": 57,
-            "top": 145,
-            "width": 430,
-            "height": 337
-          },
-          "visibleSourcePixels": 91596,
-          "sourceEdgePixels": 0,
-          "sha256": "1f3af9f7cccc04d0d556d225bb1a45baf8b6d95493d9772d5457e3557778308b",
-          "retainedFrom": "assets/item-visuals-v1/art/materials-planks.png"
-        },
-        {
           "id": "materials-nails",
           "key": "nails",
           "name": "Гвозди",
@@ -2958,10 +2956,10 @@
           "name": "Ящик",
           "description": "one closed wooden supply crate with reinforced corners",
           "cell": 0,
-          "art": "retained/art/storage-crate.png",
-          "sprite": "retained/sprites/storage-crate.png",
+          "art": "../environment-variants-v1/elements/crate/crate_a.png",
+          "sprite": "../environment-variants-v1/elements/crate/crate_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 42,
@@ -2971,8 +2969,14 @@
           },
           "visibleSourcePixels": 145562,
           "sourceEdgePixels": 0,
-          "sha256": "74493a2361b944aa0d6fec3c2fa2f7d7cbdd58141c929f7ee7981419dba5f234",
-          "retainedFrom": "assets/item-visuals-v1/art/storage-crate.png"
+          "sha256": "3c5972dfeea94d30b0de8950d32b29b3fe1bbfcdc41915b77d7a004630d59d5c",
+          "retainedFrom": "assets/item-visuals-v1/art/storage-crate.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "crate",
+            "variant": "A",
+            "canonicalId": "world/crate"
+          }
         },
         {
           "id": "storage-cabinet",
@@ -3024,10 +3028,10 @@
           "name": "Бочка",
           "description": "one weathered closed blue metal storage barrel",
           "cell": 3,
-          "art": "retained/art/storage-barrel.png",
-          "sprite": "retained/sprites/storage-barrel.png",
+          "art": "../environment-variants-v1/elements/barrel/barrel_a.png",
+          "sprite": "../environment-variants-v1/elements/barrel/barrel_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 109,
@@ -3037,8 +3041,14 @@
           },
           "visibleSourcePixels": 116472,
           "sourceEdgePixels": 0,
-          "sha256": "c0f25247ea3751b0bfdd585839838eb6ceda1cf87fbb7c4eb7ad914afc62067b",
-          "retainedFrom": "assets/item-visuals-v1/art/storage-barrel.png"
+          "sha256": "b8d25f75c9791b6d4c0d15a073acb9551baf5d8e0d8bc42c1af7e7060c1ce533",
+          "retainedFrom": "assets/item-visuals-v1/art/storage-barrel.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "barrel",
+            "variant": "A",
+            "canonicalId": "world/barrel"
+          }
         },
         {
           "id": "storage-duffel",
@@ -3098,10 +3108,10 @@
           "name": "Дверь",
           "description": "a single plain closed wooden door in a minimal freestanding doorframe, no wall beyond frame",
           "cell": 0,
-          "art": "retained/art/openings-door.png",
-          "sprite": "retained/sprites/openings-door.png",
+          "art": "../environment-variants-v1/elements/door/door_a.png",
+          "sprite": "../environment-variants-v1/elements/door/door_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 153,
@@ -3111,8 +3121,14 @@
           },
           "visibleSourcePixels": 92702,
           "sourceEdgePixels": 0,
-          "sha256": "d492578ccf592a6a850cbb089204d59eaf0002aa25c0beb9f5328942e6491d69",
-          "retainedFrom": "assets/item-visuals-v1/art/openings-door.png"
+          "sha256": "182febcf3ea00fdf111959761b4671cab7695dad6396e63a446a79a93de712cb",
+          "retainedFrom": "assets/item-visuals-v1/art/openings-door.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "door",
+            "variant": "A",
+            "canonicalId": "world/door"
+          }
         },
         {
           "id": "openings-gate",
@@ -3120,11 +3136,11 @@
           "name": "Ворота",
           "description": "one closed double-leaf rusty metal yard gate with two simple posts",
           "cell": 1,
-          "art": "retained/art/openings-gate.png",
-          "sprite": "retained/sprites/openings-gate.png",
+          "art": "../environment-variants-v1/elements/gate/gate_a.png",
+          "sprite": "../environment-variants-v1/elements/gate/gate_a.png",
           "kind": "world",
-          "artSize": 256,
-          "spriteSize": 128,
+          "artSize": 192,
+          "spriteSize": 192,
           "sourceBounds": {
             "left": 541,
             "top": 107,
@@ -3133,8 +3149,14 @@
           },
           "visibleSourcePixels": 113552,
           "sourceEdgePixels": 0,
-          "sha256": "d7d11d8cfbed5b6b74600bff1b14bd00f9bb2466d2ac1e802bdd8b4cc7d28273",
-          "retainedFrom": "assets/item-visuals-v1/art/openings-gate.png"
+          "sha256": "775ae3b0bc1f3dd80a3481ab7eb70abf0ce8383a1772ce14ac14e391f1da014e",
+          "retainedFrom": "assets/item-visuals-v1/art/openings-gate.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "gate",
+            "variant": "A",
+            "canonicalId": "world/gate"
+          }
         },
         {
           "id": "openings-shutters",
@@ -3164,10 +3186,10 @@
           "name": "Разбитое окно",
           "description": "one freestanding window frame with jagged remaining glass, no wall and no loose shards outside cell",
           "cell": 3,
-          "art": "retained/art/openings-broken-window.png",
-          "sprite": "retained/sprites/openings-broken-window.png",
+          "art": "../environment-variants-v1/elements/window_broken/window_broken_a.png",
+          "sprite": "../environment-variants-v1/elements/window_broken/window_broken_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 124,
@@ -3177,8 +3199,14 @@
           },
           "visibleSourcePixels": 73835,
           "sourceEdgePixels": 0,
-          "sha256": "09408ea9fb15d9e231c6b105d5fc5d1de47c2079d656208eb7f6c4a5413a8e28",
-          "retainedFrom": "assets/item-visuals-v1/art/openings-broken-window.png"
+          "sha256": "57e0eea3dbe435295345aebea18dadb9952c6a1cf82dbd36e52df15092b196dc",
+          "retainedFrom": "assets/item-visuals-v1/art/openings-broken-window.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "window_broken",
+            "variant": "A",
+            "canonicalId": "world/window_broken"
+          }
         },
         {
           "id": "openings-boarded-window",
@@ -3186,10 +3214,10 @@
           "name": "Заколоченное окно",
           "description": "one window frame covered with three rough diagonal wooden boards, no wall",
           "cell": 4,
-          "art": "retained/art/openings-boarded-window.png",
-          "sprite": "retained/sprites/openings-boarded-window.png",
+          "art": "../environment-variants-v1/elements/window_boarded/window_boarded_a.png",
+          "sprite": "../environment-variants-v1/elements/window_boarded/window_boarded_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 597,
@@ -3199,8 +3227,14 @@
           },
           "visibleSourcePixels": 109900,
           "sourceEdgePixels": 0,
-          "sha256": "325a310b655a9966432b9bf228a64169ac77f2361c9d74a3a8c0f6c393389f6d",
-          "retainedFrom": "assets/item-visuals-v1/art/openings-boarded-window.png"
+          "sha256": "0f67a610601a0e2726adf03c68456d5dde90e0115c9abd858ebde552a6b3a8e8",
+          "retainedFrom": "assets/item-visuals-v1/art/openings-boarded-window.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "window_boarded",
+            "variant": "A",
+            "canonicalId": "world/window_boarded"
+          }
         },
         {
           "id": "openings-locked-door",
@@ -3238,10 +3272,10 @@
           "name": "Стол",
           "description": "one worn rectangular wooden table, no objects on top",
           "cell": 0,
-          "art": "retained/art/furniture-table.png",
-          "sprite": "retained/sprites/furniture-table.png",
+          "art": "../environment-variants-v1/elements/table/table_a.png",
+          "sprite": "../environment-variants-v1/elements/table/table_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 53,
@@ -3251,8 +3285,14 @@
           },
           "visibleSourcePixels": 66785,
           "sourceEdgePixels": 0,
-          "sha256": "0cc0572e18028fa29e7bce7f5cb19b234db1ee96f635713651603ab928d546a5",
-          "retainedFrom": "assets/item-visuals-v1/art/furniture-table.png"
+          "sha256": "ff8902ef1ee601a3ac1c1070c7a3d522cbf568bff69ac9763fe3d76264533ae9",
+          "retainedFrom": "assets/item-visuals-v1/art/furniture-table.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "table",
+            "variant": "A",
+            "canonicalId": "world/table"
+          }
         },
         {
           "id": "furniture-wardrobe",
@@ -3260,10 +3300,10 @@
           "name": "Шкаф",
           "description": "one tall closed wooden wardrobe with two doors",
           "cell": 1,
-          "art": "retained/art/furniture-wardrobe.png",
-          "sprite": "retained/sprites/furniture-wardrobe.png",
+          "art": "../environment-variants-v1/elements/wardrobe/wardrobe_a.png",
+          "sprite": "../environment-variants-v1/elements/wardrobe/wardrobe_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 625,
@@ -3273,8 +3313,14 @@
           },
           "visibleSourcePixels": 105324,
           "sourceEdgePixels": 0,
-          "sha256": "8e8125d93439a86c8853a0ba118da54e845c2d3c937780f68956314dad28b99c",
-          "retainedFrom": "assets/item-visuals-v1/art/furniture-wardrobe.png"
+          "sha256": "5b04dbe67d5003717499fae131d413fdd7dd4a38717411f9afceb6d75fbd84b1",
+          "retainedFrom": "assets/item-visuals-v1/art/furniture-wardrobe.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "wardrobe",
+            "variant": "A",
+            "canonicalId": "world/wardrobe"
+          }
         },
         {
           "id": "furniture-sofa",
@@ -3304,10 +3350,10 @@
           "name": "Кровать",
           "description": "one simple narrow metal-frame bed with thin mattress and folded blanket",
           "cell": 3,
-          "art": "retained/art/furniture-bed.png",
-          "sprite": "retained/sprites/furniture-bed.png",
+          "art": "../environment-variants-v1/elements/bed/bed_a.png",
+          "sprite": "../environment-variants-v1/elements/bed/bed_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 65,
@@ -3317,8 +3363,14 @@
           },
           "visibleSourcePixels": 83036,
           "sourceEdgePixels": 0,
-          "sha256": "16f13b9bee3d6f63e68177aa2cb8135d0103ea0839f85bd1bc2843b93ba03007",
-          "retainedFrom": "assets/item-visuals-v1/art/furniture-bed.png"
+          "sha256": "1e63d6706364d8b6cd8ad7517a3522fcfeb675ffef1365bfafbd1a573f89683c",
+          "retainedFrom": "assets/item-visuals-v1/art/furniture-bed.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "bed",
+            "variant": "A",
+            "canonicalId": "world/bed"
+          }
         },
         {
           "id": "furniture-shelving",
@@ -3326,10 +3378,10 @@
           "name": "Стеллаж",
           "description": "one worn freestanding open metal shelving unit with empty shelves",
           "cell": 4,
-          "art": "retained/art/furniture-shelving.png",
-          "sprite": "retained/sprites/furniture-shelving.png",
+          "art": "../environment-variants-v1/elements/shelves/shelves_a.png",
+          "sprite": "../environment-variants-v1/elements/shelves/shelves_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 615,
@@ -3339,8 +3391,14 @@
           },
           "visibleSourcePixels": 87308,
           "sourceEdgePixels": 0,
-          "sha256": "06557dfc7d55daa163e4c399eb25f7188a87feb5b12ec913f4f147f26e66c8bb",
-          "retainedFrom": "assets/item-visuals-v1/art/furniture-shelving.png"
+          "sha256": "510aab831879473f208cb61df0a7d45a94f7aca1c2947c36a9df379fbcb9400b",
+          "retainedFrom": "assets/item-visuals-v1/art/furniture-shelving.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "shelves",
+            "variant": "A",
+            "canonicalId": "world/shelves"
+          }
         },
         {
           "id": "furniture-chair",
@@ -3422,11 +3480,11 @@
           "name": "Костёр",
           "description": "one small stone-ring campfire with three logs and modest stylized flame, no smoke trail",
           "cell": 2,
-          "art": "retained/art/base-campfire.png",
-          "sprite": "retained/sprites/base-campfire.png",
+          "art": "../environment-variants-v1/elements/campfire/campfire_a_00.png",
+          "sprite": "../environment-variants-v1/elements/campfire/campfire_a_00.png",
           "kind": "world",
-          "artSize": 256,
-          "spriteSize": 128,
+          "artSize": 192,
+          "spriteSize": 192,
           "sourceBounds": {
             "left": 1127,
             "top": 124,
@@ -3435,8 +3493,15 @@
           },
           "visibleSourcePixels": 59065,
           "sourceEdgePixels": 0,
-          "sha256": "8c35b6fea6e375419ba75c2bfd5996ad6d76977a81b4d43a95c867133a7fe7ed",
-          "retainedFrom": "assets/item-visuals-v1/art/base-campfire.png"
+          "sha256": "818ff6b206d1ccf2099ec80cff9d417a63f9c2ff4d823644d77acf25747f73d9",
+          "retainedFrom": "assets/item-visuals-v1/art/base-campfire.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "campfire",
+            "variant": "A",
+            "canonicalId": "world/campfire"
+          },
+          "worldAnimation": "../environment-variants-v1/elements/campfire/campfire_a.gif"
         },
         {
           "id": "base-bedroll",
@@ -3658,11 +3723,11 @@
           "name": "Дерево",
           "description": "one compact full deciduous tree with muted green crown and brown trunk, entire crown and roots fit",
           "cell": 0,
-          "art": "retained/art/nature-tree.png",
-          "sprite": "retained/sprites/nature-tree.png",
+          "art": "../environment-variants-v1/elements/tree_deciduous/tree_deciduous_a.png",
+          "sprite": "../environment-variants-v1/elements/tree_deciduous/tree_deciduous_a.png",
           "kind": "world",
           "artSize": 256,
-          "spriteSize": 128,
+          "spriteSize": 256,
           "sourceBounds": {
             "left": 77,
             "top": 39,
@@ -3671,8 +3736,14 @@
           },
           "visibleSourcePixels": 110694,
           "sourceEdgePixels": 0,
-          "sha256": "fb9b061ef72fe0e8bdd90a7ccded594fc25dd6db42634df1fca109348b3d9321",
-          "retainedFrom": "assets/item-visuals-v1/art/nature-tree.png"
+          "sha256": "a13707b0f954bb10d2a5fbbf9a235d03153d89765378dcfcf91a2a91424b5811",
+          "retainedFrom": "assets/item-visuals-v1/art/nature-tree.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "tree_deciduous",
+            "variant": "A",
+            "canonicalId": "world/tree_deciduous"
+          }
         },
         {
           "id": "nature-bush",
@@ -3680,10 +3751,10 @@
           "name": "Куст",
           "description": "one small leafy green bush",
           "cell": 1,
-          "art": "retained/art/nature-bush.png",
-          "sprite": "retained/sprites/nature-bush.png",
+          "art": "../environment-variants-v1/elements/bush_small/bush_small_a.png",
+          "sprite": "../environment-variants-v1/elements/bush_small/bush_small_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 578,
@@ -3693,8 +3764,14 @@
           },
           "visibleSourcePixels": 72930,
           "sourceEdgePixels": 0,
-          "sha256": "470b73eba319820a8ac687cdcf0be771088b24d77bd8b9d8ff6bb5cffa5aa32f",
-          "retainedFrom": "assets/item-visuals-v1/art/nature-bush.png"
+          "sha256": "81c2c4164b15402a813b0f96af4b77870f6db8fed86eb0513ddf5d5608762673",
+          "retainedFrom": "assets/item-visuals-v1/art/nature-bush.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "bush_small",
+            "variant": "A",
+            "canonicalId": "world/bush_small"
+          }
         },
         {
           "id": "nature-boulder",
@@ -3776,11 +3853,11 @@
           "name": "Заброшенная машина",
           "description": "one complete abandoned compact sedan, faded olive paint, dirty glass and flat tires, no plants or scenery",
           "cell": 0,
-          "art": "retained/art/transport-abandoned-car.png",
-          "sprite": "retained/sprites/transport-abandoned-car.png",
+          "art": "../environment-variants-v1/elements/car_abandoned/car_abandoned_a.png",
+          "sprite": "../environment-variants-v1/elements/car_abandoned/car_abandoned_a.png",
           "kind": "mixed",
-          "artSize": 256,
-          "spriteSize": 96,
+          "artSize": 192,
+          "spriteSize": 192,
           "sourceBounds": {
             "left": 19,
             "top": 84,
@@ -3789,8 +3866,14 @@
           },
           "visibleSourcePixels": 139035,
           "sourceEdgePixels": 0,
-          "sha256": "16fd0ecf281492724396d42d8c9a217ee812dafab455361b305f99844d24a871",
-          "retainedFrom": "assets/item-visuals-v1/art/transport-abandoned-car.png"
+          "sha256": "59f3c71c9696cb9fd90383726d0cb77965231a0bdb2ea26ed813229d985242dd",
+          "retainedFrom": "assets/item-visuals-v1/art/transport-abandoned-car.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "car_abandoned",
+            "variant": "A",
+            "canonicalId": "world/car_abandoned"
+          }
         },
         {
           "id": "transport-bicycle",
@@ -4056,10 +4139,10 @@
           "name": "Грибной нарост",
           "description": "one irregular fleshy tan and ochre fungal growth attached to a small broken concrete fragment, no body or gore",
           "cell": 0,
-          "art": "retained/art/hazards-fungal-growth.png",
-          "sprite": "retained/sprites/hazards-fungal-growth.png",
+          "art": "../environment-variants-v1/elements/fungal_cluster/fungal_cluster_a.png",
+          "sprite": "../environment-variants-v1/elements/fungal_cluster/fungal_cluster_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 73,
@@ -4069,8 +4152,14 @@
           },
           "visibleSourcePixels": 97537,
           "sourceEdgePixels": 0,
-          "sha256": "b636d02a0eaf6a84210d9194d7370fab7e4b3642524e383430ef396b91b14b19",
-          "retainedFrom": "assets/item-visuals-v1/art/hazards-fungal-growth.png"
+          "sha256": "e2cdde244e8ec0d064c2a275ee200fa02c5d95a9ed57a79e05cfe4b592c75250",
+          "retainedFrom": "assets/item-visuals-v1/art/hazards-fungal-growth.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "fungal_cluster",
+            "variant": "A",
+            "canonicalId": "world/fungal_cluster"
+          }
         },
         {
           "id": "hazards-spore-source",
@@ -4078,10 +4167,10 @@
           "name": "Источник спор",
           "description": "one bulbous fungal spore pod with a small contained cluster of pale green spores hovering immediately above it",
           "cell": 1,
-          "art": "retained/art/hazards-spore-source.png",
-          "sprite": "retained/sprites/hazards-spore-source.png",
+          "art": "../environment-variants-v1/elements/spore_source/spore_source_a.png",
+          "sprite": "../environment-variants-v1/elements/spore_source/spore_source_a.png",
           "kind": "world",
-          "artSize": 256,
+          "artSize": 128,
           "spriteSize": 128,
           "sourceBounds": {
             "left": 614,
@@ -4091,8 +4180,14 @@
           },
           "visibleSourcePixels": 79910,
           "sourceEdgePixels": 0,
-          "sha256": "a5c48d1f247d52371727955b9eda65b066740be707937bddb4d73c6a97546678",
-          "retainedFrom": "assets/item-visuals-v1/art/hazards-spore-source.png"
+          "sha256": "ea1ff9aa28f4156015d49c9a5c4a3f7e67711d96b66fe65452de2a6f339d8bdb",
+          "retainedFrom": "assets/item-visuals-v1/art/hazards-spore-source.png",
+          "sharedAssetRef": {
+            "pack": "environment-variants-v1",
+            "id": "spore_source",
+            "variant": "A",
+            "canonicalId": "world/spore_source"
+          }
         },
         {
           "id": "hazards-electrical-panel",
@@ -4143,10 +4238,12 @@
     }
   ],
   "newVisuals": 196,
-  "retainedVisuals": 74,
+  "retainedVisuals": 73,
   "notes": [
     "Current item collection; v1 is historical.",
     "No socks, firearm models or detachable ammunition magazines added.",
-    "Artwork and design intent only; no item gameplay implemented."
+    "Artwork and design intent only; no item gameplay implemented.",
+    "Shared world objects resolve to environment-variants-v1; do not generate additional copies.",
+    "materials-planks is a compatibility alias of resource-harvest-boards, not a second item."
   ]
 }
