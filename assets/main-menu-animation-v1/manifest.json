@@ -1,0 +1,254 @@
+{
+  "status": "approved-visual-prototype",
+  "selectedMenu": "C",
+  "implementedInGame": false,
+  "width": 1672,
+  "height": 941,
+  "frameCount": 48,
+  "fps": 10,
+  "durationMs": 4800,
+  "repeat": -1,
+  "rootMotion": false,
+  "cameraMotion": false,
+  "uiMotion": false,
+  "preview": "preview.gif",
+  "animatedWebp": "main-menu.webp",
+  "frames": [
+    {
+      "file": "frames/menu-000.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-001.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-002.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-003.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-004.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-005.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-006.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-007.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-008.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-009.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-010.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-011.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-012.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-013.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-014.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-015.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-016.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-017.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-018.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-019.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-020.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-021.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-022.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-023.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-024.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-025.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-026.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-027.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-028.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-029.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-030.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-031.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-032.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-033.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-034.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-035.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-036.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-037.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-038.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-039.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-040.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-041.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-042.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-043.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-044.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-045.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-046.png",
+      "durationMs": 100
+    },
+    {
+      "file": "frames/menu-047.png",
+      "durationMs": 100
+    }
+  ],
+  "layeredSource": {
+    "background": "layers/background.png",
+    "ivy": "layers/ivy.png",
+    "fireFrames": [
+      [
+        "layers/lantern-0.png",
+        "layers/lantern-1.png",
+        "layers/lantern-2.png",
+        "layers/lantern-3.png",
+        "layers/lantern-4.png",
+        "layers/lantern-5.png"
+      ],
+      [
+        "layers/stove-0.png",
+        "layers/stove-1.png",
+        "layers/stove-2.png",
+        "layers/stove-3.png",
+        "layers/stove-4.png",
+        "layers/stove-5.png"
+      ]
+    ]
+  },
+  "motion": {
+    "ivy": {
+      "x": 765,
+      "y": 5,
+      "pivot": "top",
+      "periodMs": 4800,
+      "maxHorizontalDisplacementPx": 3
+    },
+    "lantern": {
+      "x": 590,
+      "y": 220,
+      "frameDurationMs": 200
+    },
+    "stove": {
+      "x": 128,
+      "y": 488,
+      "frameDurationMs": 200,
+      "phaseOffsetFrames": 2
+    },
+    "lighting": "Low-amplitude periodic warm glow; integer harmonic periods close the loop."
+  },
+  "publication": "publication-status.json"
+}

@@ -36,10 +36,16 @@
     "tools/refresh-current-publication.cjs",
     "assets/decorative-corpses-v1",
     "tools/build-decorative-corpses.cjs",
-    "tools/prepare-decorative-corpses.cjs"
+    "tools/prepare-decorative-corpses.cjs",
+    "assets/item-visuals-v1",
+    "tools/prepare-item-visuals.cjs",
+    "tools/build-item-visuals.cjs",
+    "tools/check-item-visuals.cjs",
+    "tools/package-item-visuals.cjs",
+    "tools/slice-item-components.cjs"
   ],
-  "files": 18485,
-  "totalBytes": 2164965205,
+  "files": 18332,
+  "totalBytes": 2309521580,
   "entries": [
     {
       "path": ".gitattributes",
@@ -53,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13801,
-      "sha256": "3e95edabc75d4b2a903b0c8ac605e1a9a38cfb2b6f7bb264293b415821e0304b"
+      "bytes": 15637,
+      "sha256": "5793c35befb2c5d577cc9adf5f51efdb6e1e986cbaeb7482b34459d08930053c"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -36782,1159 +36788,409 @@
       "sha256": "33735b9cc626db7c7c353494582446a740ae090df0229fdfe2150d45ba8622d7"
     },
     {
-      "path": "assets/item-visuals-v1/README.md",
-      "bytes": 4553,
-      "sha256": "43489f0476b3f9b16bb503f06d4930b5aeacbac1c92d2557784f787f7919dfab"
+      "path": "assets/main-menu-animation-v1/README.md",
+      "bytes": 1670,
+      "sha256": "bcf83b6c7e4f630d41140a8c9ea829611bb79a591e06b0e5d70041b9693c589a"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-bedroll.png",
-      "bytes": 50898,
-      "sha256": "2e0e33816cdc2c96ec723d4e61a531b21f8341b6f094b8662bde81e1ab5c3967"
+      "path": "assets/main-menu-animation-v1/frames/menu-000.png",
+      "bytes": 3539451,
+      "sha256": "02852d198a0e1314280c2ac9f064a81e4b25e707d47f6dddc1a6af9ceb5d9f62"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-campfire.png",
-      "bytes": 85263,
-      "sha256": "93ae670889f06f5b968ca80689f3bf2ee9f4a69df497c2b7df60d6defa37e0a3"
+      "path": "assets/main-menu-animation-v1/frames/menu-001.png",
+      "bytes": 3539453,
+      "sha256": "46965d4e5063aff14b63ad107d7d1bc7a1cb7248307bdf9665935b6cbe0b1733"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-rain-collector.png",
-      "bytes": 84847,
-      "sha256": "02e79f7640667b7b1bd4a4357764075986b0f597950e24c13fd22cc42e4b1341"
+      "path": "assets/main-menu-animation-v1/frames/menu-002.png",
+      "bytes": 3539442,
+      "sha256": "cf7b62feeeadda449650819696efb7ea70fdccb05b6d4c6ccf60ce60b2e53b0d"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-stove.png",
-      "bytes": 45993,
-      "sha256": "69eb9b6b8eedd65ef6e077b60f26c63bc88b94abe74ae11cbdc77b904f6de499"
+      "path": "assets/main-menu-animation-v1/frames/menu-003.png",
+      "bytes": 3539453,
+      "sha256": "7955b172abe8b9e445bf8bbf650ad15dd4755094391931c5d4faae92174397f6"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-water-filter.png",
-      "bytes": 67813,
-      "sha256": "c0a08c85ac4524dd2a8ea09c9547c43bbc303c1d44496f23c9506c8c433e253a"
+      "path": "assets/main-menu-animation-v1/frames/menu-004.png",
+      "bytes": 3539384,
+      "sha256": "41a64b8f5d1c94916945086930748f23849f7852e43b5be03b5efdbf1ca98376"
     },
     {
-      "path": "assets/item-visuals-v1/art/base-workbench.png",
-      "bytes": 68767,
-      "sha256": "203c4b77cae9e116c538b6a9c80e01cb129fcbf7479cae86cf1fd4defe5ec9b2"
+      "path": "assets/main-menu-animation-v1/frames/menu-005.png",
+      "bytes": 3539379,
+      "sha256": "621a6b2bab89a8d5da415e6db118ee15a443b1b065355e2c38cc098a97ecfd78"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-alarm-clock.png",
-      "bytes": 82719,
-      "sha256": "72ad1d2cdfaafdeb073c9be259d348d3c029baf3342ee13e2316a16148e79470"
+      "path": "assets/main-menu-animation-v1/frames/menu-006.png",
+      "bytes": 3539457,
+      "sha256": "503ce20798fc820274795da4dd392a7508d1db7a3fda11496e3d49860bd43593"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-empty-bottle.png",
-      "bytes": 40082,
-      "sha256": "a8bd73fe95f9df39f3378b96862132ec9e9d39c59796608659ff5f4be35c685e"
+      "path": "assets/main-menu-animation-v1/frames/menu-007.png",
+      "bytes": 3539438,
+      "sha256": "7aea34ea949f3922de91b098935d6e4f90aa1fb1159779c0e49a0530078fea8b"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-radio.png",
-      "bytes": 88131,
-      "sha256": "3fb3eff27ac3eff988c372cc70696f35c42bf95892db0d76ac32c7f52c0f900b"
+      "path": "assets/main-menu-animation-v1/frames/menu-008.png",
+      "bytes": 3539412,
+      "sha256": "215ef61aaa8feabb9609c6c22ed1765f854a5529141c3c0f94a464ce1271016b"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-throwing-stones.png",
-      "bytes": 88278,
-      "sha256": "5b1ba0a537d236bd9ca6e90ffca11a4881ac4ff864059c33f0521cab5e7d6401"
+      "path": "assets/main-menu-animation-v1/frames/menu-009.png",
+      "bytes": 3539411,
+      "sha256": "082ec851d31fa7d06ff82b45ba60220653f5c3b05ef4a24d2b35597e1ee07cf0"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-tin-can.png",
-      "bytes": 74561,
-      "sha256": "54dfa2c98fb6bc4f359f08fb7699c6edb1469ede0063b305a73dfcb452b48793"
+      "path": "assets/main-menu-animation-v1/frames/menu-010.png",
+      "bytes": 3539338,
+      "sha256": "12a03d615ed5f7cca58a81b08b79cf962a33eec366cacfc7860be2e092394d54"
     },
     {
-      "path": "assets/item-visuals-v1/art/distraction-whistle.png",
-      "bytes": 51768,
-      "sha256": "6f8c53aad104fe02e2a7d3347a7c7f3dd9c1de0cb0616f13833d17711ff9fa95"
+      "path": "assets/main-menu-animation-v1/frames/menu-011.png",
+      "bytes": 3539358,
+      "sha256": "567a93918a6975944c9c72c366769786b7dcd6f3e70a577b8c4b0a12166047fe"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-accumulator.png",
-      "bytes": 93338,
-      "sha256": "61e014d2fa60bcdd5e719073889c0ab3215fdb94d9f2b38bf69f8728da039d9a"
+      "path": "assets/main-menu-animation-v1/frames/menu-012.png",
+      "bytes": 3539456,
+      "sha256": "e3d9faaeb5d821e6b641ccb2cc561ecbedf42174354281c83edc1ed8dc185df5"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-batteries.png",
-      "bytes": 69995,
-      "sha256": "07571607ae1058f92ed57b59cc617ad8b9b954ca3db17dfa9bad371efcf6c766"
+      "path": "assets/main-menu-animation-v1/frames/menu-013.png",
+      "bytes": 3539464,
+      "sha256": "a16808d62894d6e82719cccc4633f0ae0615d482f5bb7bcea2b2d4fb8f71713b"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-charger.png",
-      "bytes": 77769,
-      "sha256": "e1e6952d4110bdd837c586640438b71b94c6dc1cd38b519afe60a8ce38f8483c"
+      "path": "assets/main-menu-animation-v1/frames/menu-014.png",
+      "bytes": 3539436,
+      "sha256": "d0b5e0811c8f881a5a6cdb6c34c5fc30766cab1ca0f2cac9dfc2d78aa0bcb8e9"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-flashlight.png",
-      "bytes": 57457,
-      "sha256": "58942650eca6094aa873771bda205673992a1f29f839a55ec6e0c6a3871acd95"
+      "path": "assets/main-menu-animation-v1/frames/menu-015.png",
+      "bytes": 3539431,
+      "sha256": "bf2192efe4f782ada4a1f8ab84492f757447f574d7649f5393dad531b11f5e90"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-generator.png",
-      "bytes": 111183,
-      "sha256": "8075d079c0d55c6481afe6cccbe770d1fbec013d5834a8bff8b60de28f449690"
+      "path": "assets/main-menu-animation-v1/frames/menu-016.png",
+      "bytes": 3539382,
+      "sha256": "da075c868e6c15f2a3232f09eff5a0c16efa84f7809ec323582c979c7cb8d054"
     },
     {
-      "path": "assets/item-visuals-v1/art/electricity-lamp.png",
-      "bytes": 57696,
-      "sha256": "55268db60dcebfb167df89dd7d77a18b2dd2bee32953e3700380b6a9b60fa089"
+      "path": "assets/main-menu-animation-v1/frames/menu-017.png",
+      "bytes": 3539385,
+      "sha256": "da2238f18b3e0051875da33bc9dc66efa724ded907a491b746cef416b5d102cb"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-backpack.png",
-      "bytes": 112112,
-      "sha256": "d0a69016947535501af0cd5c4bd8cfbf9633383bbab0e34a16ac466fa095f00a"
+      "path": "assets/main-menu-animation-v1/frames/menu-018.png",
+      "bytes": 3539459,
+      "sha256": "1644d14b74be4da3fd99967697f6ec7e3c72f7b953eceb2b1b8e87f746d4377b"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-boots.png",
-      "bytes": 86372,
-      "sha256": "0053cabfab9f5c5e7b1141edb2aa57961907b5ed000442fc3b955c617c7d0276"
+      "path": "assets/main-menu-animation-v1/frames/menu-019.png",
+      "bytes": 3539437,
+      "sha256": "8ff5bae7cdb4aee07c358a185cd3a0f33a97e3c49c2021a04b1da5510d8a4a5b"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-gas-mask.png",
-      "bytes": 88741,
-      "sha256": "96ca947928b11d24c7265491b587495a834f06e26623323ca2f08409f351b887"
+      "path": "assets/main-menu-animation-v1/frames/menu-020.png",
+      "bytes": 3539421,
+      "sha256": "93d5da89435cf4549fddd73320f7783c1a70556c6eb3c4b770cfdd22bc1d71e7"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-gloves.png",
-      "bytes": 75599,
-      "sha256": "99ecd02e7e48221483d1e2f7e8ce44254bf3f36c2393fe7b6592f8ff2d34b89e"
+      "path": "assets/main-menu-animation-v1/frames/menu-021.png",
+      "bytes": 3539419,
+      "sha256": "e9bd839743be54a41e5f0348633440063db018b10da3b2062ba7e4c06963cc81"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-helmet.png",
-      "bytes": 86652,
-      "sha256": "2ba426a45fdebf75d941db05bed30024bc5defe85fa495e4db15cdedf0c59842"
+      "path": "assets/main-menu-animation-v1/frames/menu-022.png",
+      "bytes": 3539354,
+      "sha256": "727a3df2d4471a9eee2a7ca7a37c37d2dc6f564e8996edb2b704caefb230ebf5"
     },
     {
-      "path": "assets/item-visuals-v1/art/equipment-jacket.png",
-      "bytes": 95573,
-      "sha256": "a4dc3d69003ae56e061d59ab97b79c5ef99292eb0ec0d080e58eafdf238ec81e"
+      "path": "assets/main-menu-animation-v1/frames/menu-023.png",
+      "bytes": 3539348,
+      "sha256": "3ca0c31c582490cb237e34892a7ef82eef9a221c1681e10c6a2fae6d4b09398b"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-apple.png",
-      "bytes": 108286,
-      "sha256": "4661a5e224fbf16af3b88fb60d1ad7d22dd12c3603ded3f0c9b50c10db581514"
+      "path": "assets/main-menu-animation-v1/frames/menu-024.png",
+      "bytes": 3539421,
+      "sha256": "023c16832035370efb5e5e281bfe872bcb7f4b23f208b1386dca08cbe356301f"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-canned-food.png",
-      "bytes": 128642,
-      "sha256": "3bb852809e90e63039189c592b14118bba05c35c771d798f1b17fa4e1915256b"
+      "path": "assets/main-menu-animation-v1/frames/menu-025.png",
+      "bytes": 3539430,
+      "sha256": "19ef5d7d3c0c37cce9316061a73783a7cbc7f14666eb5cc72eaeaac83c7fc63d"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-raw-meat.png",
-      "bytes": 86567,
-      "sha256": "d9fcd04ae524d41c9c3f77a542f77b3598babf6e89675c8873a8ec2a61acc71e"
+      "path": "assets/main-menu-animation-v1/frames/menu-026.png",
+      "bytes": 3539432,
+      "sha256": "1fe7104aa5ccbf151409c0524d4075290475b17f730cb392847d61792d99b3f2"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-rusks.png",
-      "bytes": 104475,
-      "sha256": "3f18ca99c959aaa894d969c8a36f29eb184693c6c05c69268373862cbfe20e82"
+      "path": "assets/main-menu-animation-v1/frames/menu-027.png",
+      "bytes": 3539405,
+      "sha256": "b00ad1fb74e57a084b7659a3b35d766782f5e677623aa6343e422ef951fe95dd"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-vegetables.png",
-      "bytes": 96550,
-      "sha256": "14fcadbf111820c00a750f90f551a21daf1b5ab91b17b0f7b787106b647fef9e"
+      "path": "assets/main-menu-animation-v1/frames/menu-028.png",
+      "bytes": 3539360,
+      "sha256": "79f20a0668798803b6cfa4f3cb00a5bdd596eb0380701b2acb005ecb8c3960d5"
     },
     {
-      "path": "assets/item-visuals-v1/art/food-water-bottle.png",
-      "bytes": 59798,
-      "sha256": "38debe3c4e29a97ab580fd9a888d09c6358d787e5fd92a205c43b36b83b5df63"
+      "path": "assets/main-menu-animation-v1/frames/menu-029.png",
+      "bytes": 3539355,
+      "sha256": "77366eb181e93f017a1a366761b41008790d7437083dada68241043474133c7d"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-bed.png",
-      "bytes": 83080,
-      "sha256": "abef2d8203d066becfa82900be59a719154e50b2354a2fac524f26c8e1585af1"
+      "path": "assets/main-menu-animation-v1/frames/menu-030.png",
+      "bytes": 3539423,
+      "sha256": "2808094f88757a0796aea6249a67e7ff6c6979b6964a304206fbc74300dd790d"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-chair.png",
-      "bytes": 59748,
-      "sha256": "40a4280587730798633bb6c1acbbaf816e9117fe67517f78f187053a539eb72e"
+      "path": "assets/main-menu-animation-v1/frames/menu-031.png",
+      "bytes": 3539426,
+      "sha256": "fe542178db70c68156fa2f2a6ee88af51ef95b6c14df32b25554e773e11dfa75"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-shelving.png",
-      "bytes": 73380,
-      "sha256": "650089abeeca29a95f02f076dcc05f728565cb82b5879ec2d489c22b051614d0"
+      "path": "assets/main-menu-animation-v1/frames/menu-032.png",
+      "bytes": 3539400,
+      "sha256": "f4a5d8f7d315b740b42b39ecb60a2e86aea5c6bf5284c542d25c7e364c22b642"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-sofa.png",
-      "bytes": 83337,
-      "sha256": "632b9e611c2847fa15b80cb8abf8c4c389a29a1b4c9784cd571b6ce9db12cabd"
+      "path": "assets/main-menu-animation-v1/frames/menu-033.png",
+      "bytes": 3539402,
+      "sha256": "88a7d5fb737b3f27c858ba56375c6644d05f1990ec4925fe2729d5f48dedfec0"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-table.png",
-      "bytes": 58261,
-      "sha256": "5f531415ecad63626419fd627d536fa45a9cc8cf5a061b3d2989f5704223d4bc"
+      "path": "assets/main-menu-animation-v1/frames/menu-034.png",
+      "bytes": 3539353,
+      "sha256": "24d88f7cbfa93b998a5cbd562b44a9cbc46de02f3cd3f0ed0d4a1b5b09a0910d"
     },
     {
-      "path": "assets/item-visuals-v1/art/furniture-wardrobe.png",
-      "bytes": 80105,
-      "sha256": "e52a168c8896b7889bee93281423124da6ef0b3c7bb489c53afe3ae294f0b3c0"
+      "path": "assets/main-menu-animation-v1/frames/menu-035.png",
+      "bytes": 3539355,
+      "sha256": "f4dfaf428c1854db42e09015fe554d50624b5c1e38eafc297724db3f8f5cfebc"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-barbed-wire.png",
-      "bytes": 87277,
-      "sha256": "92d903a5160b6a297a26222bf7c4add3c3a3a0591e7d52c7a7a16fe05c91edf6"
+      "path": "assets/main-menu-animation-v1/frames/menu-036.png",
+      "bytes": 3539442,
+      "sha256": "ee4cc00a91039273ba552277ba8de400a07cbc8bfae865bd35772d1338d36dd9"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-contaminated-puddle.png",
-      "bytes": 58427,
-      "sha256": "04744e078e7d3c27c7d7c3db863ea7297981270d40d4c4946bd24fc8a07ba43b"
+      "path": "assets/main-menu-animation-v1/frames/menu-037.png",
+      "bytes": 3539433,
+      "sha256": "0539923b15562490556444efbee35dbb4049e675b69211d1aa081bbf648a39d6"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-damaged-cable.png",
-      "bytes": 76614,
-      "sha256": "5ae138dc9a7f544671f633dca1f6a8fecfa160b37a171fc154069ffffdcc58be"
+      "path": "assets/main-menu-animation-v1/frames/menu-038.png",
+      "bytes": 3539430,
+      "sha256": "edc573c982d3ab4785ea7cc84239e4ab8549eed4bde68426e7b72b8a79ee9e59"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-electrical-panel.png",
-      "bytes": 80186,
-      "sha256": "1875d72e11cdedc405bb1a2c6da15ae9190e181124d2ce20d421fbf43b6823ed"
+      "path": "assets/main-menu-animation-v1/frames/menu-039.png",
+      "bytes": 3539403,
+      "sha256": "6fd5d4388a005a69ade176fa2a17bddc20c8b2c28fb1a8265c0b01197bdce076"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-fungal-growth.png",
-      "bytes": 107314,
-      "sha256": "6121f8df823243cb74aed95a91d8d797eec4bf981485938565ee0e813ad5c83a"
+      "path": "assets/main-menu-animation-v1/frames/menu-040.png",
+      "bytes": 3539342,
+      "sha256": "3459238dedc008fa1fcbce0382dab01183c5ef70e48ab1abb105fbc2c0482bba"
     },
     {
-      "path": "assets/item-visuals-v1/art/hazards-spore-source.png",
-      "bytes": 71334,
-      "sha256": "19ac775b65b671e883a5560987a49c1ea25af00ae9c4e317089fbdeed2bbe35f"
+      "path": "assets/main-menu-animation-v1/frames/menu-041.png",
+      "bytes": 3539353,
+      "sha256": "0a335390f23301af5303e2a775c7fee53b0dcbcbde1461632cce874047157c96"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-access-card.png",
-      "bytes": 73067,
-      "sha256": "ce2f13d6df6da64eb5a6f55c933feda863d822780d1bb491e803efa954dbbda7"
+      "path": "assets/main-menu-animation-v1/frames/menu-042.png",
+      "bytes": 3539442,
+      "sha256": "95767666bef7b8a264271c4b00bc948225c3cab66ad39fc246fdd90b71fcfe01"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-compass.png",
-      "bytes": 69420,
-      "sha256": "7db8223399e43ef866e712807cc16e61ce1a8d35da385dd5e97a8e527318b605"
+      "path": "assets/main-menu-animation-v1/frames/menu-043.png",
+      "bytes": 3539437,
+      "sha256": "8ff5bae7cdb4aee07c358a185cd3a0f33a97e3c49c2021a04b1da5510d8a4a5b"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-key.png",
-      "bytes": 53264,
-      "sha256": "2ae11a811c5e3ef5f56fcc53d109fb710eaa53c5e1daf0e8c2247f9a17200a32"
+      "path": "assets/main-menu-animation-v1/frames/menu-044.png",
+      "bytes": 3539421,
+      "sha256": "93d5da89435cf4549fddd73320f7783c1a70556c6eb3c4b770cfdd22bc1d71e7"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-map.png",
-      "bytes": 76994,
-      "sha256": "b16748da1e57cc25ea1e1cfd06c9d3cb7ab4a448b1187c75172ba5c88e8007d0"
+      "path": "assets/main-menu-animation-v1/frames/menu-045.png",
+      "bytes": 3539421,
+      "sha256": "ddaecf59351b482d1beaf7da252184dacda0d5a3d8ab6c962505167d0dc4456f"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-note.png",
-      "bytes": 82833,
-      "sha256": "d79dbab75f94648091e9d72a45afd6706c70797aaba1e2091f7b53cd4209b554"
+      "path": "assets/main-menu-animation-v1/frames/menu-046.png",
+      "bytes": 3539369,
+      "sha256": "d51f4d7d8d51df6821c8d672e09fa987a30daec06aa7256853c8703501c208b0"
     },
     {
-      "path": "assets/item-visuals-v1/art/information-walkie-talkie.png",
-      "bytes": 41616,
-      "sha256": "b29e08259152ecdb3c1834075e482c6ef801ba66ff685614ee0c9e620f10ddf0"
+      "path": "assets/main-menu-animation-v1/frames/menu-047.png",
+      "bytes": 3539361,
+      "sha256": "f448ca564db8f0689f8f97f0917e35174e16dd0bbfe565b95580a664e5492ae5"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-cloth.png",
-      "bytes": 71672,
-      "sha256": "6949742c3fc87d4047896bd0cdfa7b9d2b1739d0104cd3005256f05b11f4f99a"
+      "path": "assets/main-menu-animation-v1/generation-records.json",
+      "bytes": 3327,
+      "sha256": "8ce618917f8f4757054b484fee903bc5fba5e2c2c250bf1d8fd7373586a63514"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-duct-tape.png",
-      "bytes": 67610,
-      "sha256": "48a123d7f80437a45c154578d922670dafc30a5617f080294e634130bd41a151"
+      "path": "assets/main-menu-animation-v1/layers/background.png",
+      "bytes": 3536929,
+      "sha256": "7466fae72c14569476a859768f57c727189a3f1c053c0b18bef2b2a78d244930"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-nails.png",
-      "bytes": 79046,
-      "sha256": "74d4672100548db50bbf506e39cf1881eb28f956e85f45bbc16c92dfe8dd29a5"
+      "path": "assets/main-menu-animation-v1/layers/ivy.png",
+      "bytes": 15268,
+      "sha256": "f4fba0da15f96a6195acca56ed6d8f50dd0b2c46f186541cf564c15cbf04999e"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-planks.png",
-      "bytes": 73150,
-      "sha256": "5b076d39b8052126924df456247f96c9ffe87ca235907d58bc8d0a65aebd79bf"
+      "path": "assets/main-menu-animation-v1/layers/lantern-0.png",
+      "bytes": 1039,
+      "sha256": "fcd3811bc5d3bd7986281784c49e947cb2ed7aaa02f1b9ae84dc4ead75304d42"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-scrap.png",
-      "bytes": 83093,
-      "sha256": "151ff9ed8bbc8183cc52e80305ff6e654795884906c71bc69157c49f2da05f61"
+      "path": "assets/main-menu-animation-v1/layers/lantern-1.png",
+      "bytes": 1141,
+      "sha256": "66854721fc6146a1308f32624a2d9827b8e653d04c64eb2923bbab8049f63c0d"
     },
     {
-      "path": "assets/item-visuals-v1/art/materials-wire.png",
-      "bytes": 72706,
-      "sha256": "11cf839c747056757c165717845e5768f05c698c2abcabc268da34db7fa4f20c"
+      "path": "assets/main-menu-animation-v1/layers/lantern-2.png",
+      "bytes": 1001,
+      "sha256": "b6f3c4c62fe4a8288644711b944742ac1604951d22573dfe84db3ff4c6bbb546"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-antiseptic.png",
-      "bytes": 66000,
-      "sha256": "614cc8e27851e9ff86931f84e9a793fc068c55c0379cf112b4fd92478d35db22"
+      "path": "assets/main-menu-animation-v1/layers/lantern-3.png",
+      "bytes": 1104,
+      "sha256": "bf2405f5cb387b09957a178c528fac6a0d786ceb90ee390b6263897c99f53b0f"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-bandage.png",
-      "bytes": 78483,
-      "sha256": "9c47381e077b298e373a8b172394fec08d46c3d9bfe24345b6e229d8792d1f59"
+      "path": "assets/main-menu-animation-v1/layers/lantern-4.png",
+      "bytes": 1091,
+      "sha256": "ff79713f4421ebe81ba2eaa8e89c6c1518c7fa049a6cbf1c4f10cdc5efc89863"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-first-aid.png",
-      "bytes": 90517,
-      "sha256": "383f9ea80ffea5f62e6bda846f1b7c0a3ba00dc591fc3894635c92c3aff5f8cd"
+      "path": "assets/main-menu-animation-v1/layers/lantern-5.png",
+      "bytes": 1080,
+      "sha256": "edca3f73ff8c88876192a49889366808bb83b9f7bcf84dfdf57aac5e1908d9ba"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-medical-pouch.png",
-      "bytes": 101697,
-      "sha256": "15574543a796ca7922e109281c90a0d09fe2a0985f9acce71465e4cff9989d0d"
+      "path": "assets/main-menu-animation-v1/layers/stove-0.png",
+      "bytes": 1539,
+      "sha256": "92cd23839960621ad570176b5f1d68e9f1df2a148e62aef9d3b564cea47672d2"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-painkillers.png",
-      "bytes": 88062,
-      "sha256": "12a7a7234f2af7a7e41a9edb5941987b150be25debf5d9585a2f14c9c8a26f26"
+      "path": "assets/main-menu-animation-v1/layers/stove-1.png",
+      "bytes": 1574,
+      "sha256": "58c72b2a9a99726560cde6c81db38f31848626ef7497a6d7ea7f0717832ffccf"
     },
     {
-      "path": "assets/item-visuals-v1/art/medicine-splint.png",
-      "bytes": 79077,
-      "sha256": "570bd0b8c640662819a0afcf8d4c4d30dd7a7b3b3b085f21a48dc9680a4ad8ac"
+      "path": "assets/main-menu-animation-v1/layers/stove-2.png",
+      "bytes": 1843,
+      "sha256": "e328e577f59b35ba1ff81e66d11bec9e1424abbbc1fbcf3c23418eeb0e7f6532"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-berry-bush.png",
-      "bytes": 94775,
-      "sha256": "1aa8d48c0e8e747cc310b6a9e072da294261a9d03f0bdc9e8c030206ecea74fe"
+      "path": "assets/main-menu-animation-v1/layers/stove-3.png",
+      "bytes": 1602,
+      "sha256": "23b4a972987511bd0b5c0a9ae5e56a418fcd0482189738073a8cce26f25c95c5"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-boulder.png",
-      "bytes": 94170,
-      "sha256": "6f4d0ec00ae3a6deb95669fb7a913bcfc52610fffd293302a44be9dcbc0ea046"
+      "path": "assets/main-menu-animation-v1/layers/stove-4.png",
+      "bytes": 1352,
+      "sha256": "d7d809a8735c8bcc2c7d29491e2ec9315a07c37330e7280c4bd03d7f52988b68"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-bush.png",
-      "bytes": 85814,
-      "sha256": "4cdda266dcb56309714ad237d11678d9834572c3630705fc7d562dacc90405bb"
+      "path": "assets/main-menu-animation-v1/layers/stove-5.png",
+      "bytes": 1403,
+      "sha256": "af4102c4336baa07d70ffbad8d48aec53faf5addb4556bd6725f60f6711237fc"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-herb.png",
-      "bytes": 81601,
-      "sha256": "bc14f10cb512e3b4a6352e48c0199dc63786cf304af3fb546a210866c8a273fb"
+      "path": "assets/main-menu-animation-v1/main-menu.webp",
+      "bytes": 510466,
+      "sha256": "a6642f5e835f098b7f107b5179e462d7fc5298976d4f5ce88200150fc661efe9"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-mushrooms.png",
-      "bytes": 105554,
-      "sha256": "873cdb9d4ea3a4d0dff29706cc0d772b312654de996d63f4ba7fc1e36d90c37e"
+      "path": "assets/main-menu-animation-v1/manifest.json",
+      "bytes": 4920,
+      "sha256": "0d7baa5f62c4ba187f4acca6e75efa0705f8e2a37086e507e10508b06c8f6d0a"
     },
     {
-      "path": "assets/item-visuals-v1/art/nature-tree.png",
-      "bytes": 83752,
-      "sha256": "375d2dd6939e4e4481003921d104a8c1bbd041c935d2aca886cdb61995de0446"
+      "path": "assets/main-menu-animation-v1/poster.png",
+      "bytes": 3539451,
+      "sha256": "02852d198a0e1314280c2ac9f064a81e4b25e707d47f6dddc1a6af9ceb5d9f62"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-boarded-window.png",
-      "bytes": 114370,
-      "sha256": "a1466e7082653f00676818c2554e12881285e1f3505efc4519f47080c4ce6426"
+      "path": "assets/main-menu-animation-v1/preview.gif",
+      "bytes": 492009,
+      "sha256": "1817825a337887993c53363339d41cd0933bc84f80a7ca786542f557dc6e039f"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-broken-window.png",
-      "bytes": 90809,
-      "sha256": "ab5ce933b5f20570bca1d3c84c0ab5554691d4f9b63f21fcf951ad5d0f89ecf2"
+      "path": "assets/main-menu-animation-v1/publication-status.json",
+      "bytes": 222,
+      "sha256": "7f7d0455ad2254b51657ef14944c5f3605247383d306b086f18db875126284d6"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-door.png",
-      "bytes": 89992,
-      "sha256": "3547297ba9cd6abffaf1b046adc8e523b4d751d35355c6e1319e6324dacbb707"
+      "path": "assets/main-menu-animation-v1/references/approved-menu-C.png",
+      "bytes": 2419022,
+      "sha256": "a120ec175a26581e931687b481cac9ccfd543242b67b4788331997d5d15eb77a"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-gate.png",
-      "bytes": 88092,
-      "sha256": "b8a3ea29386feada073fd3041e72c2e55bedeb2fa5012ec59480f6b7064f662c"
+      "path": "assets/main-menu-animation-v1/release-metadata.json",
+      "bytes": 831,
+      "sha256": "c822ed2e17e1f0f7073bbff807f76791ce7ab9d9c331003dba6d8133d78653d8"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-locked-door.png",
-      "bytes": 90508,
-      "sha256": "1945c05eb1a018a2c91ce5be411ade409dfaaade076ac8be3fdadc6760e0e95a"
+      "path": "assets/main-menu-animation-v1/sources/clean-background.png",
+      "bytes": 2318343,
+      "sha256": "98245febfe776c373fea4be2c74faf38b53bf2c41df61ff747ff80f5d12f0537"
     },
     {
-      "path": "assets/item-visuals-v1/art/openings-shutters.png",
-      "bytes": 136024,
-      "sha256": "1a2fbbcb5e5515dec3c6f59312fd6e53884f2ae5ae26bcd106fed26af3108ade"
+      "path": "assets/main-menu-animation-v1/sources/fire-sheet.png",
+      "bytes": 413470,
+      "sha256": "c58af4b32519fb9b3d83852f306be6190fce736fb36bf85578623732c8ee5fcd"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-barrel.png",
-      "bytes": 94545,
-      "sha256": "993ed1bc147a59ed83f32ce6421dcad717e1047acef0c71db332985fb3315132"
+      "path": "assets/main-menu-animation-v1/sources/ivy-layer.png",
+      "bytes": 331102,
+      "sha256": "5dc1db34233adee8499f226593634347e4e9e02d5041ad8c18ee016286d0f156"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-cabinet.png",
-      "bytes": 90583,
-      "sha256": "b69b3b8ca799559721d5398fe67caa4a037a3d3546c7329382c8d0bccd1c467e"
+      "path": "assets/main-menu-animation-v1/verification.json",
+      "bytes": 730,
+      "sha256": "0bac35cbf8ff500d495f42a14b1a57869923a9ac5c15501a559d63ce2dad3649"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-chest.png",
-      "bytes": 91682,
-      "sha256": "ce7cc2e7338945463e39412cbbc4773a2bfb7eaa4586dd982929c817a7c6c882"
+      "path": "assets/main-menu-concepts-v1/README.md",
+      "bytes": 1517,
+      "sha256": "74b6cad4058389c2b7495b30152f4cf8a07fa5ce828ec9c079c48d136c14fcb5"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-crate.png",
-      "bytes": 112517,
-      "sha256": "10825b824c16dff755917d2738f502486198624ec26c3e74810d2f758c30c3ea"
+      "path": "assets/main-menu-concepts-v1/generation-prompts.json",
+      "bytes": 6387,
+      "sha256": "59c1ece237f48f8b88866f796c3559b44c611e8a0a2d760857c114c15dc66d83"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-duffel.png",
-      "bytes": 77687,
-      "sha256": "f7f39ca13d297e25312dbbf0f24389258b937eb7f546ebbee36378566ccff761"
+      "path": "assets/main-menu-concepts-v1/main-menu-A.png",
+      "bytes": 3143914,
+      "sha256": "d62548f3aa747dd7a4da51c8172a7b555324289f3c44f75429073a64e2129ff4"
     },
     {
-      "path": "assets/item-visuals-v1/art/storage-safe.png",
-      "bytes": 96020,
-      "sha256": "0c9631f1f3bfe949df387cd740a3e0dcdcd1c28793986c6f7b9b7d1676fb5dea"
+      "path": "assets/main-menu-concepts-v1/main-menu-B.png",
+      "bytes": 2850365,
+      "sha256": "6b7bc7960e0d48611c922809a69404f3d87a65783bfbdae4ce7095577aab2975"
     },
     {
-      "path": "assets/item-visuals-v1/art/tools-bolt-cutters.png",
-      "bytes": 47562,
-      "sha256": "bbb696fadd94e884939c93ba6ff8cdfbc7782a2cc5fe0cefacfa5fca8457a068"
+      "path": "assets/main-menu-concepts-v1/main-menu-C.png",
+      "bytes": 2419022,
+      "sha256": "a120ec175a26581e931687b481cac9ccfd543242b67b4788331997d5d15eb77a"
     },
     {
-      "path": "assets/item-visuals-v1/art/tools-crowbar.png",
-      "bytes": 29161,
-      "sha256": "9a5e9cf697a8aab533521c31ee728d9c9750c0758a834d79e4c8846a265b0a73"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/tools-hammer.png",
-      "bytes": 45902,
-      "sha256": "5f22cbd0eb11456382e973689f27960b70d40f694f3b8b9b7df3cd4959f869c8"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/tools-saw.png",
-      "bytes": 50107,
-      "sha256": "24e5d59d3065a0eb16fc6e48f29b5300aaf70991094ffb26f6f9d5c09e3e4927"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/tools-screwdriver.png",
-      "bytes": 41174,
-      "sha256": "fd0a36df28ac1e19c0ab0ddcce83372674dbd80f69dbcbd928f009448163acfa"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/tools-shovel.png",
-      "bytes": 45027,
-      "sha256": "b4e7624cc646482257c4dfd4f4af735512f4c951911ac2a79622431f253fbf1d"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-abandoned-car.png",
-      "bytes": 70092,
-      "sha256": "dc32621ce1802b90e3ca723b5a25203a99ffe33bd19f8121dfa3abe774051a4e"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-bicycle.png",
-      "bytes": 63593,
-      "sha256": "6261970ca3cc4f953ace29ba3cc5d5fc03ef730eb7d07f1a2f7b3faf2b4a7683"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-car-battery.png",
-      "bytes": 106275,
-      "sha256": "8d087ff7527f52c419a577a36d8e366ded3a23b542e92df82edfa53e1ce01864"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-fuel-can.png",
-      "bytes": 87520,
-      "sha256": "a3ee4b2101efdc403faab2c04d1fcc1686fbbecc4b91555c08e6db5847272b75"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-toolbox.png",
-      "bytes": 85664,
-      "sha256": "7eec116a2de7cb43879d2e852fac3d43be647c346a91c3874be2c207f07ae43d"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/transport-wheel.png",
-      "bytes": 117477,
-      "sha256": "a671c37c549fe2b0c7534e2ef05555d09a32fce1ce68348d5efeee782dedf011"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-ammo-box.png",
-      "bytes": 77384,
-      "sha256": "481f0c99b6b9ca589f1dcc24eb34ae4ece22889882fcd2c08a8214d680ed9977"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-axe.png",
-      "bytes": 41500,
-      "sha256": "0f64658afa1120c11f1eecb91fb0f14dc6439e9594f4e67281edc05aa23abc4b"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-knife.png",
-      "bytes": 29883,
-      "sha256": "59cdf9b28bb0553f9220c934cf998dc03cb1436dc3a5d5468f3fe758d18bdc91"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-magazine.png",
-      "bytes": 49485,
-      "sha256": "b4b9b0a731ea93bfbdc685d16224be3b38daae8773366718ca2031ace854442b"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-pistol.png",
-      "bytes": 59174,
-      "sha256": "f4c02a7aa702876e2875e05b2bab2544e0af66649c006a4bc3ba4642b3739eeb"
-    },
-    {
-      "path": "assets/item-visuals-v1/art/weapons-rifle.png",
-      "bytes": 19868,
-      "sha256": "8c17d088f57b8677da738b63a4d8bdd4e4db2c4b7a7dda10a925120f1628d3f9"
-    },
-    {
-      "path": "assets/item-visuals-v1/catalog.json",
-      "bytes": 73995,
-      "sha256": "d806c502788fbf62f9439f0f05352e96d2751e2f17d52aa5dfc207d0c9fcddb0"
-    },
-    {
-      "path": "assets/item-visuals-v1/generation-prompts.json",
-      "bytes": 36542,
-      "sha256": "825d0406fcb4b97c466dcf10a46c9404f06a01d8501bfa888577a62d48ce2470"
-    },
-    {
-      "path": "assets/item-visuals-v1/manifest.js",
-      "bytes": 84776,
-      "sha256": "43899624d5c0bb3147e608563dff45c67fc61dacd6648e35857d3682fc58645f"
-    },
-    {
-      "path": "assets/item-visuals-v1/manifest.json",
-      "bytes": 110644,
-      "sha256": "87ca04ff41c3732985a4beaf78ced7d7133d619b91eeba58bfd83d3424057d8f"
-    },
-    {
-      "path": "assets/item-visuals-v1/overview.png",
-      "bytes": 1499064,
-      "sha256": "48cc2386be52c03aa4c1b6cf5e69ba68612d756b5b95f66c774cc4f6110afbd2"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/base.png",
-      "bytes": 406601,
-      "sha256": "38999f54f6a60cc7cccf33b80c81cd9fd9151f9e877c491cd8e1eb858d85e441"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/distraction.png",
-      "bytes": 429987,
-      "sha256": "ab2055b03639be46b06173db11dd23f758e4382c5a04f00ed595366002b21711"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/electricity.png",
-      "bytes": 452822,
-      "sha256": "396979fc0fb1e655eae08b10684f6c240f6a06af784b41623278b2750a620077"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/equipment.png",
-      "bytes": 531536,
-      "sha256": "849e50e7f2b8580d7452384c8364edeb1fe9e337948aeb7c6b6846d99cf3bbf4"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/food.png",
-      "bytes": 591014,
-      "sha256": "56b7a0401e2950e95a346a2e00762fb485ebf75bfc50d9c9248d1bd37825287a"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/furniture.png",
-      "bytes": 426449,
-      "sha256": "f0167584e329c83b06c9a227c53ee04693f2c30f5cbd6e7a82376ea7faa49b1f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/hazards.png",
-      "bytes": 466641,
-      "sha256": "a55feb310c293921c9b664b0a41d6ebfe9112b00320ebd7f334bf9225b0efecd"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/information.png",
-      "bytes": 409879,
-      "sha256": "4c19f6372a2556970167ccb159058cdf6c78f346b509f0e7dca8360990d795ad"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/materials.png",
-      "bytes": 461257,
-      "sha256": "4235d54365881cf71a8763a2211770d1b067c9962f6fb48b2b1da4a592c4da58"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/medicine.png",
-      "bytes": 531301,
-      "sha256": "02486ad596dfa200aab73827306faa9f56e1012a3fc8f33f32727d39179ce3cc"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/nature.png",
-      "bytes": 510285,
-      "sha256": "463f5241e48dcd253b832721b27d971894480d2a27f24107bcfd546240c07428"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/openings.png",
-      "bytes": 591420,
-      "sha256": "7a84f4b5fd8e5313f01e22fbcf391d69e7ea9fcbf55e25a89879da1c5132327f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/storage.png",
-      "bytes": 570069,
-      "sha256": "2e553c2d1789ec51daab7ce6fdf749fb075987ab0e87fdcf3a911dbf6f91d989"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/tools.png",
-      "bytes": 260089,
-      "sha256": "d12df989306259b1eec89f469a3e1cae08836320af7b799177a8f93c0578ccb3"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/transport.png",
-      "bytes": 528638,
-      "sha256": "ea6ab1e452612a08cc29f0a437e3608dca2eda3386c3cd11d398da9f312f0f76"
-    },
-    {
-      "path": "assets/item-visuals-v1/sheets/weapons.png",
-      "bytes": 291233,
-      "sha256": "26cf1cb109444df59e5abdd2faf66b2af5c5076ad12377c0c28f430363e13358"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/base.png",
-      "bytes": 1769605,
-      "sha256": "9b5a3c245a6202e9d60b4605c5a94eb6fe8fa8105aa7d9af50ff3bf8a59959c8"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/distraction.png",
-      "bytes": 1611657,
-      "sha256": "7741c4d10169b2b6d80ef2d6906709238c8e2dc8d7a5050ac543ef91f6633d22"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/electricity.png",
-      "bytes": 1901134,
-      "sha256": "b3259fca4752519639450ca478faa1f2d1eaa6de4d5af6035d611837226fb150"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/equipment.png",
-      "bytes": 2047573,
-      "sha256": "2889ec7c26be63a292fc93968b62ec819044db5340d7e43776fc4aa777bdc059"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/food.png",
-      "bytes": 1773414,
-      "sha256": "d867cb607b0782d4d82f35e19943d0ce849dc7fe44f94003babd31cc509f19b1"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/furniture.png",
-      "bytes": 1948757,
-      "sha256": "46d317051d7de4f5e5407d2356bdbce53e8a5da38919c47449bb7ba62dbcfa2a"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/hazards.png",
-      "bytes": 1881834,
-      "sha256": "12bd0c37a5634c46bcf47161b09ba35e5117ab0dc261225a17f82f5acf802053"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/information.png",
-      "bytes": 1650035,
-      "sha256": "8536f0ac1513170a7918005e7246d38591e9168b610dd3a5b5f542cd93c39a47"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/materials.png",
-      "bytes": 1665119,
-      "sha256": "005a2e324016cc2eebe487c1c5c6e756cdb8445316bccbc83eafa385499c3de5"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/medicine.png",
-      "bytes": 1812730,
-      "sha256": "a2fb9db9f10102674bc305936f19326ecb7e939558878714f388de07c833c62e"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/nature.png",
-      "bytes": 1718017,
-      "sha256": "61a6ad370f77c07b6ad4d3e4ac889d5bc0bc9c1d18f2dc9d60e7c1ae8d748184"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/openings.png",
-      "bytes": 2000893,
-      "sha256": "d5b8096db79ed04125635dd2a7af94849064e77fcffdbc7864e3dbc3beae1f05"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/storage.png",
-      "bytes": 2103751,
-      "sha256": "753dbe90887fda824b1bff64c5167d2201b0736c0745f7778ead88ef145c1892"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/tools.png",
-      "bytes": 1661085,
-      "sha256": "7a1ced652d6afd9dc64f9b76629e9638a1875d7f1e9fef8e6aa28fc8220fa51b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/transport.png",
-      "bytes": 2202617,
-      "sha256": "c23fb7b2abbe74691d9ce25357e88c4e89e05603019a58e21c4873664355630d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sources/weapons.png",
-      "bytes": 1518711,
-      "sha256": "58bb62331f838820c3857f02080e211148f1549e54b59c66e96341b7655293b7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-bedroll.png",
-      "bytes": 15657,
-      "sha256": "24173b9e949e2b8305bc6ec5a73951fbd768662ac1834de8410ef45a7595e1bf"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-campfire.png",
-      "bytes": 26159,
-      "sha256": "8c35b6fea6e375419ba75c2bfd5996ad6d76977a81b4d43a95c867133a7fe7ed"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-rain-collector.png",
-      "bytes": 25284,
-      "sha256": "92bd539fc1c59cdc2cb4a5deb5554c58308791ddd446bd32e268c9b022933ed6"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-stove.png",
-      "bytes": 14152,
-      "sha256": "c424ee16c539d3a7e74a6597b497274e4f04c17fa96f1dc852c3bd0df8a36a54"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-water-filter.png",
-      "bytes": 20625,
-      "sha256": "4f8a877dd1a951c932af6b5683e76625fab5bdfb4917cca36b6a7f915b2ac07c"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/base-workbench.png",
-      "bytes": 21287,
-      "sha256": "b2dc17df173d13d472846e2b4004343f942a323a34ff965456d9193c2e05f36f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-alarm-clock.png",
-      "bytes": 6090,
-      "sha256": "94c53457373a29c306b75fe66b2aacbde603d3605ef58ceaf05ed3399c1cf950"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-empty-bottle.png",
-      "bytes": 2863,
-      "sha256": "fbf5480115bbd5a242041d067649006407cd3a431c1f5684523290ea6a72ba57"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-radio.png",
-      "bytes": 6545,
-      "sha256": "2645d47fa90cbd724ea80530d585a188daaa53e62d9bcf6b7d70601c823214d8"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-throwing-stones.png",
-      "bytes": 6519,
-      "sha256": "8edfbe1fd6b33752ff23c535a002876e0f2f9d878bd7487d5ce570ed4a82b4ac"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-tin-can.png",
-      "bytes": 5316,
-      "sha256": "4168ac3c0cd8ef1cb594fbce1f60d8baebb4692cbb4cb7735fb569325ba21daf"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/distraction-whistle.png",
-      "bytes": 3805,
-      "sha256": "75cc9653e3b6e4a2a9d084129eaba9043d6750db4193ded73b9597ecaf80ed52"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-accumulator.png",
-      "bytes": 16056,
-      "sha256": "531b3a6c5e64ef8a643bbc911970bfa1bbd5ccf558f7b4492cf3062b126f68b6"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-batteries.png",
-      "bytes": 11899,
-      "sha256": "593d6498061b6b32531d3e7ca787af32cd0853cf72928a199c738d6066621430"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-charger.png",
-      "bytes": 13065,
-      "sha256": "75e7accf1bcc4a3311a110db5c2e438569a726255e8215dd0b0826f67d50369d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-flashlight.png",
-      "bytes": 9810,
-      "sha256": "dcf878d771af2324f51bb965a3629219a7e8cee6cc5b735000a548927d0a0daf"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-generator.png",
-      "bytes": 18759,
-      "sha256": "983816e026c83d182b5cce3c02cdda4272801ca4032ea268fa289879a7f4e1bd"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/electricity-lamp.png",
-      "bytes": 9521,
-      "sha256": "9cc86e21e9f99d9fc50f15e2d7b57c256f7a29528936d29b2a23ee59d1e23a4e"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-backpack.png",
-      "bytes": 7981,
-      "sha256": "60a8b3d8e479fdd4e5d507479b17aece220fab91a70001af6e4d7e9e1b3d850e"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-boots.png",
-      "bytes": 6176,
-      "sha256": "6f678a071ca66547527489af8f2e5d9688e378d3a78dced984c6730114ee972d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-gas-mask.png",
-      "bytes": 6276,
-      "sha256": "68ee3aec4d846dcebb58f97921fb7597926318eaa91e3d776c2fd937fde6e096"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-gloves.png",
-      "bytes": 5416,
-      "sha256": "5c4423f1a6c2266c4cac771052df45ef42347c9fdc687649271705c810a153a8"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-helmet.png",
-      "bytes": 6390,
-      "sha256": "d47d684c2a35658f0fdc605fbafd6fb908ea96209241fc8cef46c2ecf7efcd58"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/equipment-jacket.png",
-      "bytes": 6954,
-      "sha256": "8839d510b269fc0ee62170dbdfe1e408f6da89b2e555ad99af5179c16ce9fea6"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-apple.png",
-      "bytes": 7560,
-      "sha256": "146837a74f776c48cd66e583a215873a9cce77ae689b313a053b9ed97a8b3f6c"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-canned-food.png",
-      "bytes": 9468,
-      "sha256": "9add8ce6c900e080dcaa4cdb78907647ac28daa6d56372f7da61365dc8a75ad4"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-raw-meat.png",
-      "bytes": 6073,
-      "sha256": "8059dc10fe9a34bbd5204b598c8084a6136c5f784d37294e699f26e7dd77349c"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-rusks.png",
-      "bytes": 7459,
-      "sha256": "384095ef357b1bfa04c1adb84f13bac690903c0b2c2dfe290b0c8d98e6e2336d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-vegetables.png",
-      "bytes": 6729,
-      "sha256": "5999a76099abf37d62530331a699ee2e0b3c6b0021b6a8d0b964f5eb95753385"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/food-water-bottle.png",
-      "bytes": 4169,
-      "sha256": "49e2fdb54243ffbb8b2732589cb097c4718767337f46a404c99ce9380e9fb29b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-bed.png",
-      "bytes": 25243,
-      "sha256": "16f13b9bee3d6f63e68177aa2cb8135d0103ea0839f85bd1bc2843b93ba03007"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-chair.png",
-      "bytes": 18062,
-      "sha256": "1a0162173899ee7b680b76526359055aa2f246099c12dc2492018bbb7d379b5b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-shelving.png",
-      "bytes": 21169,
-      "sha256": "06557dfc7d55daa163e4c399eb25f7188a87feb5b12ec913f4f147f26e66c8bb"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-sofa.png",
-      "bytes": 25129,
-      "sha256": "a866be53aa61bce24b43edf0bc317cd787bab8eb009959af35d51f809eb6cdb0"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-table.png",
-      "bytes": 17853,
-      "sha256": "0cc0572e18028fa29e7bce7f5cb19b234db1ee96f635713651603ab928d546a5"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/furniture-wardrobe.png",
-      "bytes": 24040,
-      "sha256": "8e8125d93439a86c8853a0ba118da54e845c2d3c937780f68956314dad28b99c"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-barbed-wire.png",
-      "bytes": 26030,
-      "sha256": "9e73cd2ce95625c2f3becd8764ccdfc14e36edc6027746d2accd2f614e14b216"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-contaminated-puddle.png",
-      "bytes": 18129,
-      "sha256": "e5da4c4a2dc3623d2e1c4351c4a6340cf3ef7e66a8b7d6404e64ca6a47d7ead7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-damaged-cable.png",
-      "bytes": 22881,
-      "sha256": "031c4aa6b54dfd55ef4b6e9fda3e7cb61b795857fcfb3810c914fae88a2d7df4"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-electrical-panel.png",
-      "bytes": 24212,
-      "sha256": "99c1df8f776358f7ef9f6f6b5048528074cdd08c08df027d07cdc9ef0df1c463"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-fungal-growth.png",
-      "bytes": 31945,
-      "sha256": "b636d02a0eaf6a84210d9194d7370fab7e4b3642524e383430ef396b91b14b19"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/hazards-spore-source.png",
-      "bytes": 21251,
-      "sha256": "a5c48d1f247d52371727955b9eda65b066740be707937bddb4d73c6a97546678"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-access-card.png",
-      "bytes": 5447,
-      "sha256": "e3307e0bcf2cbc6bea5e719d9bc033918e143fc5bbd7af61fd9c52bccb44f596"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-compass.png",
-      "bytes": 4876,
-      "sha256": "117af18124ac134cdc65b2068537e5afaf5bf43b0b44293d5dc5c5351c3f32b7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-key.png",
-      "bytes": 3799,
-      "sha256": "d1f29860bc953a1478686c3b13a392145d2741476cd685f253fcfe40b58ef530"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-map.png",
-      "bytes": 5486,
-      "sha256": "8055e5e20040c1e8a8be34b6e097a906816088210c4f1432e751c05fc20c1681"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-note.png",
-      "bytes": 6168,
-      "sha256": "455538c5eb51b82d5c4c42a5b852c9122fbd2ba92f6ac041ef579aa747d572d7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/information-walkie-talkie.png",
-      "bytes": 3057,
-      "sha256": "8f1cdbaa906861fc38213405db826daf34b1c8724a6843ff0b67c15fd82c4785"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-cloth.png",
-      "bytes": 5551,
-      "sha256": "841c23ef77fbe27069553581c44697e2c7a84ed1bc3f799a5deb7bfdf43642d4"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-duct-tape.png",
-      "bytes": 5666,
-      "sha256": "57375fa395477106ebd71f9cdfa3f30c74f4940a170ff3b51ccb260ab8de20b3"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-nails.png",
-      "bytes": 6200,
-      "sha256": "542e4f8d238c2823348e72c55824d3027c8e102a7e56dff8a5eef9b7a3d502b0"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-planks.png",
-      "bytes": 5513,
-      "sha256": "1f3af9f7cccc04d0d556d225bb1a45baf8b6d95493d9772d5457e3557778308b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-scrap.png",
-      "bytes": 5924,
-      "sha256": "4f7cbb6660f64a741bb900fd051ad1c158656f5b8267b593353b08f6a2c6d362"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/materials-wire.png",
-      "bytes": 5352,
-      "sha256": "5a909f31d013a9de37c3945ca43708792c98e7f15830327c1f27070deb364160"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-antiseptic.png",
-      "bytes": 4759,
-      "sha256": "b4490d42dd9428da840940d1e1d30c76355008d06f818b99fa64d3861b9f48b7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-bandage.png",
-      "bytes": 5907,
-      "sha256": "15f3991de9581787a13c8626cf1cd83be543002f7e0c6bd44bd0f3c2431a7219"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-first-aid.png",
-      "bytes": 6712,
-      "sha256": "d2949a53e51ced4cb4cc5106ea1d8d31453eb50208b6eaa59b20b619a965421c"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-medical-pouch.png",
-      "bytes": 7698,
-      "sha256": "0d7e16cb53d31733eca494acd977f061fa44ee008d3665651f967259d1c4d578"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-painkillers.png",
-      "bytes": 6234,
-      "sha256": "8b864d0c084231a07fae480616a5b0b44fb66fba28b34e694be4f975e6aee632"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/medicine-splint.png",
-      "bytes": 5583,
-      "sha256": "db48f9fb868d855dc6736808c25272842a49d84d7c6beed8576a9c528837337f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-berry-bush.png",
-      "bytes": 28865,
-      "sha256": "34fd908eec083988e4a95036cd0ad13c72476def87210b20e67cd8d7d3304dfe"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-boulder.png",
-      "bytes": 29234,
-      "sha256": "a933ac50e1b9caf5db9f918ad04139e2cf05d5408b3e087901a727994c81f7f1"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-bush.png",
-      "bytes": 26047,
-      "sha256": "470b73eba319820a8ac687cdcf0be771088b24d77bd8b9d8ff6bb5cffa5aa32f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-herb.png",
-      "bytes": 25282,
-      "sha256": "0fd3e284dd68d20f81b22aaee17d70a4c7ebae908aa0b0c3be325d3f30554ad1"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-mushrooms.png",
-      "bytes": 32930,
-      "sha256": "e4aa74045442607c8ac23809b897e2fbe19f6935fa841a60d4bfb1caa187aa14"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/nature-tree.png",
-      "bytes": 25466,
-      "sha256": "fb9b061ef72fe0e8bdd90a7ccded594fc25dd6db42634df1fca109348b3d9321"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-boarded-window.png",
-      "bytes": 34064,
-      "sha256": "325a310b655a9966432b9bf228a64169ac77f2361c9d74a3a8c0f6c393389f6d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-broken-window.png",
-      "bytes": 26931,
-      "sha256": "09408ea9fb15d9e231c6b105d5fc5d1de47c2079d656208eb7f6c4a5413a8e28"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-door.png",
-      "bytes": 26563,
-      "sha256": "d492578ccf592a6a850cbb089204d59eaf0002aa25c0beb9f5328942e6491d69"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-gate.png",
-      "bytes": 26277,
-      "sha256": "d7d11d8cfbed5b6b74600bff1b14bd00f9bb2466d2ac1e802bdd8b4cc7d28273"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-locked-door.png",
-      "bytes": 26070,
-      "sha256": "8c8988f57ab10804f35aaebdc372161aa22ff8267fa957b52951656ab42e1326"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/openings-shutters.png",
-      "bytes": 40656,
-      "sha256": "359d0b22f2adaffcfb57b3b8dd10c968859a245bca98684db968c41aed5c5736"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-barrel.png",
-      "bytes": 27564,
-      "sha256": "c0f25247ea3751b0bfdd585839838eb6ceda1cf87fbb7c4eb7ad914afc62067b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-cabinet.png",
-      "bytes": 27249,
-      "sha256": "0c186802bf3193aa3871a375f312ce55102a10079dc0f24c1341f1e67680c1f4"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-chest.png",
-      "bytes": 28156,
-      "sha256": "00a0f0b17d00491e1462f99e632ceb4c958a69724ac1da5f3d6be3be39e1287a"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-crate.png",
-      "bytes": 34433,
-      "sha256": "74493a2361b944aa0d6fec3c2fa2f7d7cbdd58141c929f7ee7981419dba5f234"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-duffel.png",
-      "bytes": 23792,
-      "sha256": "307e7c0218c6ec76f1ac4c5ecba4ac0045c01d0109faf254f7e75091130bed25"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/storage-safe.png",
-      "bytes": 29549,
-      "sha256": "4a7449d6a9002373f8b6dfcf0db645031255e261f910ea6e9c8f9c496fb2dd85"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-bolt-cutters.png",
-      "bytes": 3407,
-      "sha256": "5562d6c72fa48c388e24094bfea042728d48c70327496d0889b87383b62bf9b7"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-crowbar.png",
-      "bytes": 2139,
-      "sha256": "3772086292ee602d8e039d49a2e32a9b79ea0c4944437b699938d0cda4e3528b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-hammer.png",
-      "bytes": 3215,
-      "sha256": "fafc37ef6aeef1fc7c0337aa1c7e97a08fe58ef5f930817dfcc00d798afc9d79"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-saw.png",
-      "bytes": 3578,
-      "sha256": "7c9961b87fa12e23ffc20a692dc0bbeddea0cf4b1801d5c7869e60248756f37d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-screwdriver.png",
-      "bytes": 2869,
-      "sha256": "7a55bed6f5c439d6a702235bc2018d5c9689085853178eea2f546a85eb04347e"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/tools-shovel.png",
-      "bytes": 3197,
-      "sha256": "4f972c4aa06b83a6e4992a198c176b5253bbf7811b387d7fbd7ffa0ad9ca5f96"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-abandoned-car.png",
-      "bytes": 11447,
-      "sha256": "16fd0ecf281492724396d42d8c9a217ee812dafab455361b305f99844d24a871"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-bicycle.png",
-      "bytes": 10557,
-      "sha256": "84cecf524a127c9c6c78cbe131142678d03417c2bcb1c6df9cd9346456b64aae"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-car-battery.png",
-      "bytes": 17795,
-      "sha256": "c639655790a39f87def24581e9d1126f5b83e66ecc4cb2f9e8183f87132a6d4f"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-fuel-can.png",
-      "bytes": 14617,
-      "sha256": "71220f16e51eace564b0392260b3aa8505fcb99a4b30070c6ee1eefe43241a6a"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-toolbox.png",
-      "bytes": 14357,
-      "sha256": "ef3149421dffc707c3d00630ad1a1ce99c22133754b13ab9cf386f5b1f567299"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/transport-wheel.png",
-      "bytes": 19061,
-      "sha256": "104f26664e0288f15e15844d63508bacb54b0b2e2e357e6784901fdb36dda6c0"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-ammo-box.png",
-      "bytes": 5950,
-      "sha256": "deb549bab4ba1715f062295319b490c4904d6a93c9460fdb7c895dcebf4376d3"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-axe.png",
-      "bytes": 2965,
-      "sha256": "d6c893a8b05930dbe59ef90eefad912d581a3aab60046b6fd74d9102d6a93cdd"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-knife.png",
-      "bytes": 2255,
-      "sha256": "8e28db8b71dd586f2b732c035e9fa4923fda98c963535ee9f44f851c68a3a05e"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-magazine.png",
-      "bytes": 3555,
-      "sha256": "e421a01475907453814b15610b2efdf2b63aae03cd57cde8d5e67c7a73991a7b"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-pistol.png",
-      "bytes": 4369,
-      "sha256": "9564627ac7628d47e7c465572bceca6fae4ea91fb2ad7386ded16d3f497bcd0d"
-    },
-    {
-      "path": "assets/item-visuals-v1/sprites/weapons-rifle.png",
-      "bytes": 1486,
-      "sha256": "a1479977d00da94e4e77dfecb42a864777d4f109d100850c330884f323dd42f9"
-    },
-    {
-      "path": "assets/item-visuals-v1/verification.json",
-      "bytes": 399,
-      "sha256": "551c55fb87d423668e510c84b1d702c85688cbdf3948add5e90542563715f656"
+      "path": "assets/main-menu-concepts-v1/manifest.json",
+      "bytes": 977,
+      "sha256": "d69f8ded620180afb4115bfa35737a2957f45b9aca40bb05319d08accbad8d4e"
     },
     {
       "path": "assets/special-vfx-v1/README.md",
@@ -92158,8 +91414,8 @@
     },
     {
       "path": "docs/asset-catalog.md",
-      "bytes": 5210,
-      "sha256": "713cd57ffad20bb76a6c512bcddf9ef4125d7a00de101950ab7439509d0b93ae"
+      "bytes": 5788,
+      "sha256": "79dde9d2a896c28c8637d94041ac11557c029835c711e35ebba45ce680e5aaaa"
     },
     {
       "path": "docs/combat-design.md",
@@ -92183,8 +91439,8 @@
     },
     {
       "path": "docs/interface-direction.md",
-      "bytes": 2000,
-      "sha256": "6df2a4abecf325f79cf009ed07386676cfcdda4e0c8e222791f30c853c417dc8"
+      "bytes": 2741,
+      "sha256": "8caaf90b1900ff91adc45c117970b3118632a836cf13a9789b4d097172e7b515"
     },
     {
       "path": "docs/survivors.md",
@@ -92198,8 +91454,8 @@
     },
     {
       "path": "publication-config.json",
-      "bytes": 2095,
-      "sha256": "c330b77cc324e4c4099461ea165f6df4c401cb6148c5fcb333d9202acadd8ff9"
+      "bytes": 2371,
+      "sha256": "a6b9c5ce6e5955f53ede4e3f7036eade9c01677cac0d0ee1d7ef60c867ac6d34"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
@@ -92232,9 +91488,9 @@
       "sha256": "b61f2fa3094e08bdd8ead578a46c70dad9724cd24a27f2116f3359c3658a9d95"
     },
     {
-      "path": "tools/build-item-visuals.cjs",
-      "bytes": 5397,
-      "sha256": "9e27774824d2930592597e271125bb01bb95bc7d938e88dcab1f86c3b8d0694a"
+      "path": "tools/build-main-menu-animation.cjs",
+      "bytes": 9782,
+      "sha256": "8c692cbc37a1dc4875591e9157d2ae96d585493782382b94b9d1e4bbea3f2201"
     },
     {
       "path": "tools/build-redesigned-animations.cjs",
@@ -92287,9 +91543,9 @@
       "sha256": "5556e03d8af2253a18028d25976829e2e43f8b1a9c5cc136e7c97851cb862f30"
     },
     {
-      "path": "tools/check-item-visuals.cjs",
-      "bytes": 2197,
-      "sha256": "cc97db2157b08737b146116cb24a0e619d1b1d99f15fcdc3f5971904a19fe7e0"
+      "path": "tools/check-main-menu-animation.cjs",
+      "bytes": 1281,
+      "sha256": "c3cea844d7f60ea36a0a7210d66cac46cf36edc941bb5c6ad105a8ccc2edcb20"
     },
     {
       "path": "tools/check-redesigned-animations.cjs",
@@ -92342,11 +91598,6 @@
       "sha256": "136aa43072362d8a83b85608c8258495488c228d6fabd9bf6a6b9695a75d7848"
     },
     {
-      "path": "tools/package-item-visuals.cjs",
-      "bytes": 1065,
-      "sha256": "605cb695c11a4040fef274dccdc7b19a5c3b7dc18f0784c0d19ae2b9fc2a618e"
-    },
-    {
       "path": "tools/package-selected-interface.cjs",
       "bytes": 4224,
       "sha256": "4bc3cb482e9093118176f04d8bf7a64464e48945e56ac63bd0405de3aa07b37d"
@@ -92365,11 +91616,6 @@
       "path": "tools/prepare-friends-animations.cjs",
       "bytes": 11098,
       "sha256": "4514f06a85bb9c90e4829b3b6bf88ab89b5fb6630fc0bed7cff112d393afff6a"
-    },
-    {
-      "path": "tools/prepare-item-visuals.cjs",
-      "bytes": 13675,
-      "sha256": "e43a21625afbc6605001ec64eed0cf72908e449d73a81ded236e6dfd06c41777"
     },
     {
       "path": "tools/prepare-weapon-animations.cjs",
@@ -92435,11 +91681,6 @@
       "path": "tools/serve-wildlife-visuals.cjs",
       "bytes": 1166,
       "sha256": "399900274d50e923b5c0f5db46fbbdcc07e9c3c7bc30b44cfb18b611f50f67d1"
-    },
-    {
-      "path": "tools/slice-item-components.cjs",
-      "bytes": 2430,
-      "sha256": "0c6c1a9a8068b8838310dbc6aec7fe0c6f4c8cb5dca9d6e3e2494e019b0b9ea8"
     },
     {
       "path": "tools/slice-sprite-components.cjs",

@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "references/approved-menu-C.png",
+  "jobs": [
+    {
+      "id": "clean-background",
+      "transparent": false,
+      "prompt": "Edit the provided approved main-menu screenshot as an animation clean plate. Preserve the composition, pixel artwork, every object, right-side buttons and text exactly. Extinguish ONLY the little flame inside the hanging oil lantern on the workbench and the flames visible behind the stove grille at bottom-left; keep lantern and stove metal/glass unchanged. Remove ONLY the ivy hanging down into the window opening near its upper-left corner and across the top edge, so these few leaves can be overlaid as an animated separate layer later. Reconstruct window frame, boards, sky and scenery behind that small ivy naturally. Keep all other foliage in the room. No changes to UI, perspective, furniture, lighting mood or resolution. Output one full 16:9 clean plate screenshot, not spritesheet.",
+      "source": "C:\\Users\\posto\\.codex\\generated_images\\01a14b0e-2954-72d1-ac8c-258f03644dfc\\exec-7273e610-19c4-4f38-beda-46e63332e259.png"
+    },
+    {
+      "id": "fire-sheet",
+      "transparent": true,
+      "prompt": "Use the reference screenshot solely for the warm golden pixel fire style. Create a transparent-background animation spritesheet, exactly SIX columns and TWO rows of equal square cells, evenly spaced with blank transparent gutters; no text, no borders. Each cell contains ONLY animated flames, no lantern casing, no stove, no wood, no background, no glow halo. Row 1: six consecutive looping frames of a single tiny oil-lamp flame, warm golden orange with cream core, narrow teardrop varying very gently, identical baseline at bottom center, consistent scale. Row 2: six consecutive looping frames of a small cluster of 3 wood-stove flames behind an imaginary grate, low broad fire, matching palette, consistent base and scale. All twelve silhouettes fully inside their cells. Crisp 2D low-resolution pixel art, visible blocks, nearest-neighbor look, no blur or antialiasing. Frame 6 should flow into frame 1. Large transparent margins around each flame. Faithful modest flame sizes, no explosion.",
+      "source": "C:\\Users\\posto\\.codex\\generated_images\\01a14b0e-2954-72d1-ac8c-258f03644dfc\\exec-59e0595b-af87-4be3-9101-95aff2084eec.png"
+    },
+    {
+      "id": "ivy-layer",
+      "transparent": true,
+      "prompt": "Use the approved screenshot as a style and foliage reference only. Extract/recreate a single modest trailing ivy cluster from the upper-left/top of the shelter's boarded window: small muted olive and yellow-green angular leaves, thin brown flexible vine, hanging from the top edge and trailing down and slightly left. Output ONLY one isolated ivy sprig on a genuinely transparent background, no room, no window, no sky, no text, no UI, no panel. Preserve gritty crisp pixel art, distinct square pixels, modest simple silhouette, dark stems and a few light leaf highlights, no smooth gradients or glowing outline. Attachment point near the upper center. This small foreground overlay will sway gently; it must not be a large bush or tree.",
+      "source": "C:\\Users\\posto\\.codex\\generated_images\\01a14b0e-2954-72d1-ac8c-258f03644dfc\\exec-347fc86c-1c4e-45f4-923d-ec8b425528b4.png"
+    }
+  ]
+}
