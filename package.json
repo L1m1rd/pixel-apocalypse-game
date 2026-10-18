@@ -24,7 +24,11 @@
     "build:wildlife": "node tools/build-wildlife-animations.cjs",
     "check:wildlife": "node tools/check-wildlife-animations.cjs",
     "preview:wildlife": "node tools/serve-wildlife-animations.cjs",
-    "package:wildlife": "node tools/build-wildlife-animations.cjs --zip"
+    "package:wildlife": "node tools/build-wildlife-animations.cjs --zip",
+    "build:wildlife-loot": "node tools/build-wildlife-loot.cjs",
+    "check:wildlife-loot": "node tools/check-wildlife-loot.cjs",
+    "preview:wildlife-loot": "node tools/serve-wildlife-loot.cjs",
+    "package:wildlife-loot": "node tools/build-wildlife-loot.cjs --zip"
   },
   "devDependencies": {
     "jszip": "3.10.1",
