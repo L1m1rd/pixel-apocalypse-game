@@ -1,0 +1,1150 @@
+{
+  "status": "complete-static-visual-prototype",
+  "tool": "built-in image_gen",
+  "categories": [
+    {
+      "id": "food",
+      "name": "Еда и напитки",
+      "kind": "inventory",
+      "index": 0,
+      "source": "sources/food.png",
+      "sheet": "sheets/food.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Еда и напитки. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a closed dented food tin with a faded unlabeled paper band; 2. a small open paper packet with a few golden rusks inside; 3. a clear capped plastic drinking-water bottle, pale blue water visible; 4. one slightly weathered red apple with a small leaf; 5. one wrapped portion of raw meat on folded brown paper, no gore; 6. a small cloth pouch containing a carrot and two potatoes. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "food-canned-food",
+          "key": "canned-food",
+          "name": "Консервы",
+          "description": "a closed dented food tin with a faded unlabeled paper band",
+          "cell": 0,
+          "art": "art/food-canned-food.png",
+          "sprite": "sprites/food-canned-food.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "food-rusks",
+          "key": "rusks",
+          "name": "Сухари",
+          "description": "a small open paper packet with a few golden rusks inside",
+          "cell": 1,
+          "art": "art/food-rusks.png",
+          "sprite": "sprites/food-rusks.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "food-water-bottle",
+          "key": "water-bottle",
+          "name": "Бутылка воды",
+          "description": "a clear capped plastic drinking-water bottle, pale blue water visible",
+          "cell": 2,
+          "art": "art/food-water-bottle.png",
+          "sprite": "sprites/food-water-bottle.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "food-apple",
+          "key": "apple",
+          "name": "Яблоко",
+          "description": "one slightly weathered red apple with a small leaf",
+          "cell": 3,
+          "art": "art/food-apple.png",
+          "sprite": "sprites/food-apple.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "food-raw-meat",
+          "key": "raw-meat",
+          "name": "Сырое мясо",
+          "description": "one wrapped portion of raw meat on folded brown paper, no gore",
+          "cell": 4,
+          "art": "art/food-raw-meat.png",
+          "sprite": "sprites/food-raw-meat.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "food-vegetables",
+          "key": "vegetables",
+          "name": "Овощи",
+          "description": "a small cloth pouch containing a carrot and two potatoes",
+          "cell": 5,
+          "art": "art/food-vegetables.png",
+          "sprite": "sprites/food-vegetables.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "Медицинские предметы",
+      "kind": "inventory",
+      "index": 1,
+      "source": "sources/medicine.png",
+      "sheet": "sheets/medicine.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Медицинские предметы. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a rolled clean white gauze bandage with a short loose end; 2. a compact worn olive first aid box with a plain white cross; 3. a simple medical limb splint with padded fabric straps, no body; 4. a small brown antiseptic bottle with a white cap, unreadable plain label; 5. a silver blister pack of white tablets, no readable writing; 6. a zipped beige fabric medical pouch with a small white cross. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "medicine-bandage",
+          "key": "bandage",
+          "name": "Бинт",
+          "description": "a rolled clean white gauze bandage with a short loose end",
+          "cell": 0,
+          "art": "art/medicine-bandage.png",
+          "sprite": "sprites/medicine-bandage.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "medicine-first-aid",
+          "key": "first-aid",
+          "name": "Аптечка",
+          "description": "a compact worn olive first aid box with a plain white cross",
+          "cell": 1,
+          "art": "art/medicine-first-aid.png",
+          "sprite": "sprites/medicine-first-aid.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "medicine-splint",
+          "key": "splint",
+          "name": "Шина",
+          "description": "a simple medical limb splint with padded fabric straps, no body",
+          "cell": 2,
+          "art": "art/medicine-splint.png",
+          "sprite": "sprites/medicine-splint.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "medicine-antiseptic",
+          "key": "antiseptic",
+          "name": "Антисептик",
+          "description": "a small brown antiseptic bottle with a white cap, unreadable plain label",
+          "cell": 3,
+          "art": "art/medicine-antiseptic.png",
+          "sprite": "sprites/medicine-antiseptic.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "medicine-painkillers",
+          "key": "painkillers",
+          "name": "Обезболивающее",
+          "description": "a silver blister pack of white tablets, no readable writing",
+          "cell": 4,
+          "art": "art/medicine-painkillers.png",
+          "sprite": "sprites/medicine-painkillers.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "medicine-medical-pouch",
+          "key": "medical-pouch",
+          "name": "Медицинская сумка",
+          "description": "a zipped beige fabric medical pouch with a small white cross",
+          "cell": 5,
+          "art": "art/medicine-medical-pouch.png",
+          "sprite": "sprites/medicine-medical-pouch.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "weapons",
+      "name": "Оружие и боеприпасы",
+      "kind": "inventory",
+      "index": 2,
+      "source": "sources/weapons.png",
+      "sheet": "sheets/weapons.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Оружие и боеприпасы. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a compact dark steel PM-style pistol with brown grip, side view facing right; 2. one worn utility knife with steel blade and dark handle; 3. one wood-handled chopping axe with a steel head; 4. one detached dark curved rifle magazine; 5. one small olive cardboard ammunition box, closed with a plain icon band, no readable writing; 6. one wood-stock SKS-style carbine, side view facing right. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "weapons-pistol",
+          "key": "pistol",
+          "name": "Пистолет",
+          "description": "a compact dark steel PM-style pistol with brown grip, side view facing right",
+          "cell": 0,
+          "art": "art/weapons-pistol.png",
+          "sprite": "sprites/weapons-pistol.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "weapons-knife",
+          "key": "knife",
+          "name": "Нож",
+          "description": "one worn utility knife with steel blade and dark handle",
+          "cell": 1,
+          "art": "art/weapons-knife.png",
+          "sprite": "sprites/weapons-knife.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "weapons-axe",
+          "key": "axe",
+          "name": "Топор",
+          "description": "one wood-handled chopping axe with a steel head",
+          "cell": 2,
+          "art": "art/weapons-axe.png",
+          "sprite": "sprites/weapons-axe.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "weapons-magazine",
+          "key": "magazine",
+          "name": "Магазин",
+          "description": "one detached dark curved rifle magazine",
+          "cell": 3,
+          "art": "art/weapons-magazine.png",
+          "sprite": "sprites/weapons-magazine.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "weapons-ammo-box",
+          "key": "ammo-box",
+          "name": "Коробка патронов",
+          "description": "one small olive cardboard ammunition box, closed with a plain icon band, no readable writing",
+          "cell": 4,
+          "art": "art/weapons-ammo-box.png",
+          "sprite": "sprites/weapons-ammo-box.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "weapons-rifle",
+          "key": "rifle",
+          "name": "Карабин",
+          "description": "one wood-stock SKS-style carbine, side view facing right",
+          "cell": 5,
+          "art": "art/weapons-rifle.png",
+          "sprite": "sprites/weapons-rifle.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "equipment",
+      "name": "Одежда и снаряжение",
+      "kind": "inventory",
+      "index": 3,
+      "source": "sources/equipment.png",
+      "sheet": "sheets/equipment.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Одежда и снаряжение. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. an olive civilian jacket displayed without a body, patched elbow and zipper; 2. one matching pair of rugged brown worn boots; 3. one matching pair of practical dark work gloves; 4. a worn olive civilian backpack with front pocket and straps; 5. a dark rubber full-face respirator with round lenses and one filter, no head; 6. a simple weathered olive protective helmet, no head. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "equipment-jacket",
+          "key": "jacket",
+          "name": "Куртка",
+          "description": "an olive civilian jacket displayed without a body, patched elbow and zipper",
+          "cell": 0,
+          "art": "art/equipment-jacket.png",
+          "sprite": "sprites/equipment-jacket.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "equipment-boots",
+          "key": "boots",
+          "name": "Ботинки",
+          "description": "one matching pair of rugged brown worn boots",
+          "cell": 1,
+          "art": "art/equipment-boots.png",
+          "sprite": "sprites/equipment-boots.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "equipment-gloves",
+          "key": "gloves",
+          "name": "Перчатки",
+          "description": "one matching pair of practical dark work gloves",
+          "cell": 2,
+          "art": "art/equipment-gloves.png",
+          "sprite": "sprites/equipment-gloves.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "equipment-backpack",
+          "key": "backpack",
+          "name": "Рюкзак",
+          "description": "a worn olive civilian backpack with front pocket and straps",
+          "cell": 3,
+          "art": "art/equipment-backpack.png",
+          "sprite": "sprites/equipment-backpack.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "equipment-gas-mask",
+          "key": "gas-mask",
+          "name": "Противогаз",
+          "description": "a dark rubber full-face respirator with round lenses and one filter, no head",
+          "cell": 4,
+          "art": "art/equipment-gas-mask.png",
+          "sprite": "sprites/equipment-gas-mask.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "equipment-helmet",
+          "key": "helmet",
+          "name": "Шлем",
+          "description": "a simple weathered olive protective helmet, no head",
+          "cell": 5,
+          "art": "art/equipment-helmet.png",
+          "sprite": "sprites/equipment-helmet.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Инструменты",
+      "kind": "inventory",
+      "index": 4,
+      "source": "sources/tools.png",
+      "sheet": "sheets/tools.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Инструменты. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one worn claw hammer with wooden handle; 2. one flathead screwdriver with faded red handle; 3. one bent-end steel crowbar with chipped red paint; 4. one wooden-shaft shovel with steel blade and D grip; 5. one hand saw with brown handle and broad toothed steel blade; 6. one pair of heavy bolt cutters with dark red handles. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "tools-hammer",
+          "key": "hammer",
+          "name": "Молоток",
+          "description": "one worn claw hammer with wooden handle",
+          "cell": 0,
+          "art": "art/tools-hammer.png",
+          "sprite": "sprites/tools-hammer.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "tools-screwdriver",
+          "key": "screwdriver",
+          "name": "Отвёртка",
+          "description": "one flathead screwdriver with faded red handle",
+          "cell": 1,
+          "art": "art/tools-screwdriver.png",
+          "sprite": "sprites/tools-screwdriver.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "tools-crowbar",
+          "key": "crowbar",
+          "name": "Лом",
+          "description": "one bent-end steel crowbar with chipped red paint",
+          "cell": 2,
+          "art": "art/tools-crowbar.png",
+          "sprite": "sprites/tools-crowbar.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "tools-shovel",
+          "key": "shovel",
+          "name": "Лопата",
+          "description": "one wooden-shaft shovel with steel blade and D grip",
+          "cell": 3,
+          "art": "art/tools-shovel.png",
+          "sprite": "sprites/tools-shovel.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "tools-saw",
+          "key": "saw",
+          "name": "Пила",
+          "description": "one hand saw with brown handle and broad toothed steel blade",
+          "cell": 4,
+          "art": "art/tools-saw.png",
+          "sprite": "sprites/tools-saw.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "tools-bolt-cutters",
+          "key": "bolt-cutters",
+          "name": "Кусачки",
+          "description": "one pair of heavy bolt cutters with dark red handles",
+          "cell": 5,
+          "art": "art/tools-bolt-cutters.png",
+          "sprite": "sprites/tools-bolt-cutters.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "Материалы для крафта",
+      "kind": "inventory",
+      "index": 5,
+      "source": "sources/materials.png",
+      "sheet": "sheets/materials.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Материалы для крафта. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a small neatly stacked bundle of three rough wooden planks; 2. a small open cardboard box containing iron nails, no readable label; 3. a folded piece of faded beige cloth with frayed edges; 4. one coiled length of thin dull metal wire; 5. a compact pile of three rusty scrap metal pieces, clearly one collectible pile; 6. one gray duct tape roll with a short peeled end. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "materials-planks",
+          "key": "planks",
+          "name": "Доски",
+          "description": "a small neatly stacked bundle of three rough wooden planks",
+          "cell": 0,
+          "art": "art/materials-planks.png",
+          "sprite": "sprites/materials-planks.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "materials-nails",
+          "key": "nails",
+          "name": "Гвозди",
+          "description": "a small open cardboard box containing iron nails, no readable label",
+          "cell": 1,
+          "art": "art/materials-nails.png",
+          "sprite": "sprites/materials-nails.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "materials-cloth",
+          "key": "cloth",
+          "name": "Ткань",
+          "description": "a folded piece of faded beige cloth with frayed edges",
+          "cell": 2,
+          "art": "art/materials-cloth.png",
+          "sprite": "sprites/materials-cloth.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "materials-wire",
+          "key": "wire",
+          "name": "Проволока",
+          "description": "one coiled length of thin dull metal wire",
+          "cell": 3,
+          "art": "art/materials-wire.png",
+          "sprite": "sprites/materials-wire.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "materials-scrap",
+          "key": "scrap",
+          "name": "Металлолом",
+          "description": "a compact pile of three rusty scrap metal pieces, clearly one collectible pile",
+          "cell": 4,
+          "art": "art/materials-scrap.png",
+          "sprite": "sprites/materials-scrap.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "materials-duct-tape",
+          "key": "duct-tape",
+          "name": "Скотч",
+          "description": "one gray duct tape roll with a short peeled end",
+          "cell": 5,
+          "art": "art/materials-duct-tape.png",
+          "sprite": "sprites/materials-duct-tape.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "name": "Свет и электричество",
+      "kind": "mixed",
+      "index": 6,
+      "source": "sources/electricity.png",
+      "sheet": "sheets/electricity.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Свет и электричество. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a handheld black flashlight, switched off; 2. a paired pack of two small cylindrical batteries with plain color bands; 3. a practical hanging work light with protective metal cage, switched off; 4. a compact portable rechargeable battery pack in olive housing with handle; 5. a small weathered portable fuel generator inside a black tubular frame, no exhaust; 6. a compact battery charger with a neatly coiled cable. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "electricity-flashlight",
+          "key": "flashlight",
+          "name": "Фонарик",
+          "description": "a handheld black flashlight, switched off",
+          "cell": 0,
+          "art": "art/electricity-flashlight.png",
+          "sprite": "sprites/electricity-flashlight.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "electricity-batteries",
+          "key": "batteries",
+          "name": "Батарейки",
+          "description": "a paired pack of two small cylindrical batteries with plain color bands",
+          "cell": 1,
+          "art": "art/electricity-batteries.png",
+          "sprite": "sprites/electricity-batteries.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "electricity-lamp",
+          "key": "lamp",
+          "name": "Лампа",
+          "description": "a practical hanging work light with protective metal cage, switched off",
+          "cell": 2,
+          "art": "art/electricity-lamp.png",
+          "sprite": "sprites/electricity-lamp.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "electricity-accumulator",
+          "key": "accumulator",
+          "name": "Аккумулятор",
+          "description": "a compact portable rechargeable battery pack in olive housing with handle",
+          "cell": 3,
+          "art": "art/electricity-accumulator.png",
+          "sprite": "sprites/electricity-accumulator.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "electricity-generator",
+          "key": "generator",
+          "name": "Генератор",
+          "description": "a small weathered portable fuel generator inside a black tubular frame, no exhaust",
+          "cell": 4,
+          "art": "art/electricity-generator.png",
+          "sprite": "sprites/electricity-generator.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "electricity-charger",
+          "key": "charger",
+          "name": "Зарядное устройство",
+          "description": "a compact battery charger with a neatly coiled cable",
+          "cell": 5,
+          "art": "art/electricity-charger.png",
+          "sprite": "sprites/electricity-charger.png",
+          "kind": "mixed"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Ёмкости и хранилища",
+      "kind": "world",
+      "index": 7,
+      "source": "sources/storage.png",
+      "sheet": "sheets/storage.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Ёмкости и хранилища. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one closed wooden supply crate with reinforced corners; 2. one battered short metal storage locker with closed doors; 3. one small heavy gray floor safe, closed dial door; 4. one weathered closed blue metal storage barrel; 5. one olive zippered duffel bag with carrying handles; 6. one wooden storage chest with flat lid and simple metal latch. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "storage-crate",
+          "key": "crate",
+          "name": "Ящик",
+          "description": "one closed wooden supply crate with reinforced corners",
+          "cell": 0,
+          "art": "art/storage-crate.png",
+          "sprite": "sprites/storage-crate.png",
+          "kind": "world"
+        },
+        {
+          "id": "storage-cabinet",
+          "key": "cabinet",
+          "name": "Шкафчик",
+          "description": "one battered short metal storage locker with closed doors",
+          "cell": 1,
+          "art": "art/storage-cabinet.png",
+          "sprite": "sprites/storage-cabinet.png",
+          "kind": "world"
+        },
+        {
+          "id": "storage-safe",
+          "key": "safe",
+          "name": "Сейф",
+          "description": "one small heavy gray floor safe, closed dial door",
+          "cell": 2,
+          "art": "art/storage-safe.png",
+          "sprite": "sprites/storage-safe.png",
+          "kind": "world"
+        },
+        {
+          "id": "storage-barrel",
+          "key": "barrel",
+          "name": "Бочка",
+          "description": "one weathered closed blue metal storage barrel",
+          "cell": 3,
+          "art": "art/storage-barrel.png",
+          "sprite": "sprites/storage-barrel.png",
+          "kind": "world"
+        },
+        {
+          "id": "storage-duffel",
+          "key": "duffel",
+          "name": "Сумка",
+          "description": "one olive zippered duffel bag with carrying handles",
+          "cell": 4,
+          "art": "art/storage-duffel.png",
+          "sprite": "sprites/storage-duffel.png",
+          "kind": "world"
+        },
+        {
+          "id": "storage-chest",
+          "key": "chest",
+          "name": "Сундук",
+          "description": "one wooden storage chest with flat lid and simple metal latch",
+          "cell": 5,
+          "art": "art/storage-chest.png",
+          "sprite": "sprites/storage-chest.png",
+          "kind": "world"
+        }
+      ]
+    },
+    {
+      "id": "openings",
+      "name": "Двери и окна",
+      "kind": "world",
+      "index": 8,
+      "source": "sources/openings.png",
+      "sheet": "sheets/openings.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Двери и окна. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. a single plain closed wooden door in a minimal freestanding doorframe, no wall beyond frame; 2. one closed double-leaf rusty metal yard gate with two simple posts; 3. one small framed window with closed wooden shutters, no surrounding building; 4. one freestanding window frame with jagged remaining glass, no wall and no loose shards outside cell; 5. one window frame covered with three rough diagonal wooden boards, no wall; 6. one closed reinforced metal door in minimal frame with a visible padlocked hasp, no surrounding wall. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "openings-door",
+          "key": "door",
+          "name": "Дверь",
+          "description": "a single plain closed wooden door in a minimal freestanding doorframe, no wall beyond frame",
+          "cell": 0,
+          "art": "art/openings-door.png",
+          "sprite": "sprites/openings-door.png",
+          "kind": "world"
+        },
+        {
+          "id": "openings-gate",
+          "key": "gate",
+          "name": "Ворота",
+          "description": "one closed double-leaf rusty metal yard gate with two simple posts",
+          "cell": 1,
+          "art": "art/openings-gate.png",
+          "sprite": "sprites/openings-gate.png",
+          "kind": "world"
+        },
+        {
+          "id": "openings-shutters",
+          "key": "shutters",
+          "name": "Ставни",
+          "description": "one small framed window with closed wooden shutters, no surrounding building",
+          "cell": 2,
+          "art": "art/openings-shutters.png",
+          "sprite": "sprites/openings-shutters.png",
+          "kind": "world"
+        },
+        {
+          "id": "openings-broken-window",
+          "key": "broken-window",
+          "name": "Разбитое окно",
+          "description": "one freestanding window frame with jagged remaining glass, no wall and no loose shards outside cell",
+          "cell": 3,
+          "art": "art/openings-broken-window.png",
+          "sprite": "sprites/openings-broken-window.png",
+          "kind": "world"
+        },
+        {
+          "id": "openings-boarded-window",
+          "key": "boarded-window",
+          "name": "Заколоченное окно",
+          "description": "one window frame covered with three rough diagonal wooden boards, no wall",
+          "cell": 4,
+          "art": "art/openings-boarded-window.png",
+          "sprite": "sprites/openings-boarded-window.png",
+          "kind": "world"
+        },
+        {
+          "id": "openings-locked-door",
+          "key": "locked-door",
+          "name": "Запертая дверь",
+          "description": "one closed reinforced metal door in minimal frame with a visible padlocked hasp, no surrounding wall",
+          "cell": 5,
+          "art": "art/openings-locked-door.png",
+          "sprite": "sprites/openings-locked-door.png",
+          "kind": "world"
+        }
+      ]
+    },
+    {
+      "id": "furniture",
+      "name": "Мебель и укрытия",
+      "kind": "world",
+      "index": 9,
+      "source": "sources/furniture.png",
+      "sheet": "sheets/furniture.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Мебель и укрытия. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one worn rectangular wooden table, no objects on top; 2. one tall closed wooden wardrobe with two doors; 3. one faded green two-seat sofa with patched upholstery; 4. one simple narrow metal-frame bed with thin mattress and folded blanket; 5. one worn freestanding open metal shelving unit with empty shelves; 6. one worn wooden dining chair. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "furniture-table",
+          "key": "table",
+          "name": "Стол",
+          "description": "one worn rectangular wooden table, no objects on top",
+          "cell": 0,
+          "art": "art/furniture-table.png",
+          "sprite": "sprites/furniture-table.png",
+          "kind": "world"
+        },
+        {
+          "id": "furniture-wardrobe",
+          "key": "wardrobe",
+          "name": "Шкаф",
+          "description": "one tall closed wooden wardrobe with two doors",
+          "cell": 1,
+          "art": "art/furniture-wardrobe.png",
+          "sprite": "sprites/furniture-wardrobe.png",
+          "kind": "world"
+        },
+        {
+          "id": "furniture-sofa",
+          "key": "sofa",
+          "name": "Диван",
+          "description": "one faded green two-seat sofa with patched upholstery",
+          "cell": 2,
+          "art": "art/furniture-sofa.png",
+          "sprite": "sprites/furniture-sofa.png",
+          "kind": "world"
+        },
+        {
+          "id": "furniture-bed",
+          "key": "bed",
+          "name": "Кровать",
+          "description": "one simple narrow metal-frame bed with thin mattress and folded blanket",
+          "cell": 3,
+          "art": "art/furniture-bed.png",
+          "sprite": "sprites/furniture-bed.png",
+          "kind": "world"
+        },
+        {
+          "id": "furniture-shelving",
+          "key": "shelving",
+          "name": "Стеллаж",
+          "description": "one worn freestanding open metal shelving unit with empty shelves",
+          "cell": 4,
+          "art": "art/furniture-shelving.png",
+          "sprite": "sprites/furniture-shelving.png",
+          "kind": "world"
+        },
+        {
+          "id": "furniture-chair",
+          "key": "chair",
+          "name": "Стул",
+          "description": "one worn wooden dining chair",
+          "cell": 5,
+          "art": "art/furniture-chair.png",
+          "sprite": "sprites/furniture-chair.png",
+          "kind": "world"
+        }
+      ]
+    },
+    {
+      "id": "base",
+      "name": "Оборудование базы",
+      "kind": "world",
+      "index": 10,
+      "source": "sources/base.png",
+      "sheet": "sheets/base.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Оборудование базы. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one practical wooden workbench with attached small vise and lower shelf, no scattered objects; 2. one compact black cast-iron wood stove with a short stovepipe, closed door; 3. one small stone-ring campfire with three logs and modest stylized flame, no smoke trail; 4. one unrolled olive sleeping bag on a thin ground mat; 5. one improvised rainwater collection barrel topped with a wide collecting funnel; 6. one compact gravity water-filter unit with two stacked containers and short hose. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "base-workbench",
+          "key": "workbench",
+          "name": "Верстак",
+          "description": "one practical wooden workbench with attached small vise and lower shelf, no scattered objects",
+          "cell": 0,
+          "art": "art/base-workbench.png",
+          "sprite": "sprites/base-workbench.png",
+          "kind": "world"
+        },
+        {
+          "id": "base-stove",
+          "key": "stove",
+          "name": "Печь",
+          "description": "one compact black cast-iron wood stove with a short stovepipe, closed door",
+          "cell": 1,
+          "art": "art/base-stove.png",
+          "sprite": "sprites/base-stove.png",
+          "kind": "world"
+        },
+        {
+          "id": "base-campfire",
+          "key": "campfire",
+          "name": "Костёр",
+          "description": "one small stone-ring campfire with three logs and modest stylized flame, no smoke trail",
+          "cell": 2,
+          "art": "art/base-campfire.png",
+          "sprite": "sprites/base-campfire.png",
+          "kind": "world"
+        },
+        {
+          "id": "base-bedroll",
+          "key": "bedroll",
+          "name": "Спальное место",
+          "description": "one unrolled olive sleeping bag on a thin ground mat",
+          "cell": 3,
+          "art": "art/base-bedroll.png",
+          "sprite": "sprites/base-bedroll.png",
+          "kind": "world"
+        },
+        {
+          "id": "base-rain-collector",
+          "key": "rain-collector",
+          "name": "Сборник дождевой воды",
+          "description": "one improvised rainwater collection barrel topped with a wide collecting funnel",
+          "cell": 4,
+          "art": "art/base-rain-collector.png",
+          "sprite": "sprites/base-rain-collector.png",
+          "kind": "world"
+        },
+        {
+          "id": "base-water-filter",
+          "key": "water-filter",
+          "name": "Фильтр для воды",
+          "description": "one compact gravity water-filter unit with two stacked containers and short hose",
+          "cell": 5,
+          "art": "art/base-water-filter.png",
+          "sprite": "sprites/base-water-filter.png",
+          "kind": "world"
+        }
+      ]
+    },
+    {
+      "id": "distraction",
+      "name": "Предметы для отвлечения",
+      "kind": "inventory",
+      "index": 11,
+      "source": "sources/distraction.png",
+      "sheet": "sheets/distraction.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Предметы для отвлечения. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one empty green glass bottle with no label; 2. one empty open tin can, dull metal and no contents; 3. one battered red twin-bell alarm clock with a simple face, no legible numerals needed; 4. one portable old transistor radio with short antenna and speaker grille; 5. a tight group of three small hand-sized gray stones, clearly one item bundle; 6. one small metal whistle with a short loop of cord. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "distraction-empty-bottle",
+          "key": "empty-bottle",
+          "name": "Пустая бутылка",
+          "description": "one empty green glass bottle with no label",
+          "cell": 0,
+          "art": "art/distraction-empty-bottle.png",
+          "sprite": "sprites/distraction-empty-bottle.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "distraction-tin-can",
+          "key": "tin-can",
+          "name": "Пустая банка",
+          "description": "one empty open tin can, dull metal and no contents",
+          "cell": 1,
+          "art": "art/distraction-tin-can.png",
+          "sprite": "sprites/distraction-tin-can.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "distraction-alarm-clock",
+          "key": "alarm-clock",
+          "name": "Будильник",
+          "description": "one battered red twin-bell alarm clock with a simple face, no legible numerals needed",
+          "cell": 2,
+          "art": "art/distraction-alarm-clock.png",
+          "sprite": "sprites/distraction-alarm-clock.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "distraction-radio",
+          "key": "radio",
+          "name": "Радио",
+          "description": "one portable old transistor radio with short antenna and speaker grille",
+          "cell": 3,
+          "art": "art/distraction-radio.png",
+          "sprite": "sprites/distraction-radio.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "distraction-throwing-stones",
+          "key": "throwing-stones",
+          "name": "Камни",
+          "description": "a tight group of three small hand-sized gray stones, clearly one item bundle",
+          "cell": 4,
+          "art": "art/distraction-throwing-stones.png",
+          "sprite": "sprites/distraction-throwing-stones.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "distraction-whistle",
+          "key": "whistle",
+          "name": "Свисток",
+          "description": "one small metal whistle with a short loop of cord",
+          "cell": 5,
+          "art": "art/distraction-whistle.png",
+          "sprite": "sprites/distraction-whistle.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Природные ресурсы",
+      "kind": "world",
+      "index": 12,
+      "source": "sources/nature.png",
+      "sheet": "sheets/nature.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Природные ресурсы. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one compact full deciduous tree with muted green crown and brown trunk, entire crown and roots fit; 2. one small leafy green bush; 3. one medium gray rough boulder with a few moss pixels; 4. one small clump of broad-leaf wild herb with visible green stems; 5. one compact wild bush bearing a few small red berries; 6. one small cluster of three muted brown forest mushrooms growing from a tiny soil clump. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "nature-tree",
+          "key": "tree",
+          "name": "Дерево",
+          "description": "one compact full deciduous tree with muted green crown and brown trunk, entire crown and roots fit",
+          "cell": 0,
+          "art": "art/nature-tree.png",
+          "sprite": "sprites/nature-tree.png",
+          "kind": "world"
+        },
+        {
+          "id": "nature-bush",
+          "key": "bush",
+          "name": "Куст",
+          "description": "one small leafy green bush",
+          "cell": 1,
+          "art": "art/nature-bush.png",
+          "sprite": "sprites/nature-bush.png",
+          "kind": "world"
+        },
+        {
+          "id": "nature-boulder",
+          "key": "boulder",
+          "name": "Камень",
+          "description": "one medium gray rough boulder with a few moss pixels",
+          "cell": 2,
+          "art": "art/nature-boulder.png",
+          "sprite": "sprites/nature-boulder.png",
+          "kind": "world"
+        },
+        {
+          "id": "nature-herb",
+          "key": "herb",
+          "name": "Растение",
+          "description": "one small clump of broad-leaf wild herb with visible green stems",
+          "cell": 3,
+          "art": "art/nature-herb.png",
+          "sprite": "sprites/nature-herb.png",
+          "kind": "world"
+        },
+        {
+          "id": "nature-berry-bush",
+          "key": "berry-bush",
+          "name": "Ягодный куст",
+          "description": "one compact wild bush bearing a few small red berries",
+          "cell": 4,
+          "art": "art/nature-berry-bush.png",
+          "sprite": "sprites/nature-berry-bush.png",
+          "kind": "world"
+        },
+        {
+          "id": "nature-mushrooms",
+          "key": "mushrooms",
+          "name": "Грибы",
+          "description": "one small cluster of three muted brown forest mushrooms growing from a tiny soil clump",
+          "cell": 5,
+          "art": "art/nature-mushrooms.png",
+          "sprite": "sprites/nature-mushrooms.png",
+          "kind": "world"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Транспорт и детали",
+      "kind": "mixed",
+      "index": 13,
+      "source": "sources/transport.png",
+      "sheet": "sheets/transport.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Транспорт и детали. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one complete abandoned compact sedan, faded olive paint, dirty glass and flat tires, no plants or scenery; 2. one complete worn practical bicycle with luggage rack, both wheels visible; 3. one closed red metal fuel jerrycan with handle; 4. one spare automobile wheel with rubber tire and steel rim; 5. one heavy rectangular car battery with two terminals and carrying handle; 6. one closed red metal mechanic toolbox with handle and latches. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "transport-abandoned-car",
+          "key": "abandoned-car",
+          "name": "Заброшенная машина",
+          "description": "one complete abandoned compact sedan, faded olive paint, dirty glass and flat tires, no plants or scenery",
+          "cell": 0,
+          "art": "art/transport-abandoned-car.png",
+          "sprite": "sprites/transport-abandoned-car.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "transport-bicycle",
+          "key": "bicycle",
+          "name": "Велосипед",
+          "description": "one complete worn practical bicycle with luggage rack, both wheels visible",
+          "cell": 1,
+          "art": "art/transport-bicycle.png",
+          "sprite": "sprites/transport-bicycle.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "transport-fuel-can",
+          "key": "fuel-can",
+          "name": "Канистра",
+          "description": "one closed red metal fuel jerrycan with handle",
+          "cell": 2,
+          "art": "art/transport-fuel-can.png",
+          "sprite": "sprites/transport-fuel-can.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "transport-wheel",
+          "key": "wheel",
+          "name": "Колесо",
+          "description": "one spare automobile wheel with rubber tire and steel rim",
+          "cell": 3,
+          "art": "art/transport-wheel.png",
+          "sprite": "sprites/transport-wheel.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "transport-car-battery",
+          "key": "car-battery",
+          "name": "Автомобильный аккумулятор",
+          "description": "one heavy rectangular car battery with two terminals and carrying handle",
+          "cell": 4,
+          "art": "art/transport-car-battery.png",
+          "sprite": "sprites/transport-car-battery.png",
+          "kind": "mixed"
+        },
+        {
+          "id": "transport-toolbox",
+          "key": "toolbox",
+          "name": "Ящик с инструментами",
+          "description": "one closed red metal mechanic toolbox with handle and latches",
+          "cell": 5,
+          "art": "art/transport-toolbox.png",
+          "sprite": "sprites/transport-toolbox.png",
+          "kind": "mixed"
+        }
+      ]
+    },
+    {
+      "id": "information",
+      "name": "Информация и доступ",
+      "kind": "inventory",
+      "index": 14,
+      "source": "sources/information.png",
+      "sheet": "sheets/information.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Информация и доступ. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one unfolded worn paper map with abstract roads and a few colored marks, no readable text; 2. one folded handwritten paper note with illegible short lines; 3. one small old brass door key with a plain keyring; 4. one worn rectangular access card with a plain color stripe, no face and no readable text; 5. one dark handheld walkie-talkie with antenna and push-to-talk button; 6. one open round brass pocket compass with a red needle, no readable letters needed. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "information-map",
+          "key": "map",
+          "name": "Карта",
+          "description": "one unfolded worn paper map with abstract roads and a few colored marks, no readable text",
+          "cell": 0,
+          "art": "art/information-map.png",
+          "sprite": "sprites/information-map.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "information-note",
+          "key": "note",
+          "name": "Записка",
+          "description": "one folded handwritten paper note with illegible short lines",
+          "cell": 1,
+          "art": "art/information-note.png",
+          "sprite": "sprites/information-note.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "information-key",
+          "key": "key",
+          "name": "Ключ",
+          "description": "one small old brass door key with a plain keyring",
+          "cell": 2,
+          "art": "art/information-key.png",
+          "sprite": "sprites/information-key.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "information-access-card",
+          "key": "access-card",
+          "name": "Пропуск",
+          "description": "one worn rectangular access card with a plain color stripe, no face and no readable text",
+          "cell": 3,
+          "art": "art/information-access-card.png",
+          "sprite": "sprites/information-access-card.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "information-walkie-talkie",
+          "key": "walkie-talkie",
+          "name": "Рация",
+          "description": "one dark handheld walkie-talkie with antenna and push-to-talk button",
+          "cell": 4,
+          "art": "art/information-walkie-talkie.png",
+          "sprite": "sprites/information-walkie-talkie.png",
+          "kind": "inventory"
+        },
+        {
+          "id": "information-compass",
+          "key": "compass",
+          "name": "Компас",
+          "description": "one open round brass pocket compass with a red needle, no readable letters needed",
+          "cell": 5,
+          "art": "art/information-compass.png",
+          "sprite": "sprites/information-compass.png",
+          "kind": "inventory"
+        }
+      ]
+    },
+    {
+      "id": "hazards",
+      "name": "Опасные объекты",
+      "kind": "world",
+      "index": 15,
+      "source": "sources/hazards.png",
+      "sheet": "sheets/hazards.png",
+      "prompt": "Use case: stylized-concept. Asset: a transparent source sheet of six static interactable-item sprites for the videogame Pixel Apocalypse. Category: Опасные объекты. Create a 1536x1024 image with exactly THREE columns and TWO rows of equal 512x512 invisible cells. Each cell contains ONE complete isolated item from this ordered list, row-major left to right: 1. one irregular fleshy tan and ochre fungal growth attached to a small broken concrete fragment, no body or gore; 2. one bulbous fungal spore pod with a small contained cluster of pale green spores hovering immediately above it; 3. one short coiled damaged power cable with frayed insulation and a few tiny orange sparks at exposed end; 4. one battered freestanding metal electrical panel with ajar cover and tiny warning symbol, no text; 5. one contained shallow murky green puddle with fungal flecks, no surrounding floor; 6. one compact low coil of rusty barbed wire, no fence or scenery. Exactly six items, never add or duplicate a seventh. Center each item within its own cell with at least 48px transparent padding on every side. No item may cross into another cell. Full silhouette visible, no cropping. Style: coherent detailed low-resolution 16-bit PIXEL ART, chunky square pixel clusters, selective dark outlines, restrained palette of worn olive, brown wood, gray steel, faded cloth, muted blue and rust, with small readable highlights. Slightly elevated top-down 3/4 view for a 2D survival RPG, consistent overhead camera, NOT a photorealistic render, not a technical diagram. Inventory items may use a flatter readable display angle. Medium wear, useful and recognizable objects, not destroyed garbage. Match the grounded post-apocalyptic pixel game aesthetic of our weapon and survivor assets. Keep every item cleanly separable as a sprite. Transparent background with genuine alpha, no gradients, no ground plane, no cast shadows, no contact shadows or glow haze. NO cell borders, no visible grid, no text, letters, labels, brands, logos, numbers, hands, characters or scenery. Colored part surfaces may contain tiny symbolic icons only where requested. Do not include anything except the six specified item silhouettes. Crisp pixel edges, no smoothing or antialiasing. This is a visual prototype, not gameplay or a how-to guide.",
+      "items": [
+        {
+          "id": "hazards-fungal-growth",
+          "key": "fungal-growth",
+          "name": "Грибной нарост",
+          "description": "one irregular fleshy tan and ochre fungal growth attached to a small broken concrete fragment, no body or gore",
+          "cell": 0,
+          "art": "art/hazards-fungal-growth.png",
+          "sprite": "sprites/hazards-fungal-growth.png",
+          "kind": "world"
+        },
+        {
+          "id": "hazards-spore-source",
+          "key": "spore-source",
+          "name": "Источник спор",
+          "description": "one bulbous fungal spore pod with a small contained cluster of pale green spores hovering immediately above it",
+          "cell": 1,
+          "art": "art/hazards-spore-source.png",
+          "sprite": "sprites/hazards-spore-source.png",
+          "kind": "world"
+        },
+        {
+          "id": "hazards-damaged-cable",
+          "key": "damaged-cable",
+          "name": "Повреждённый провод",
+          "description": "one short coiled damaged power cable with frayed insulation and a few tiny orange sparks at exposed end",
+          "cell": 2,
+          "art": "art/hazards-damaged-cable.png",
+          "sprite": "sprites/hazards-damaged-cable.png",
+          "kind": "world"
+        },
+        {
+          "id": "hazards-electrical-panel",
+          "key": "electrical-panel",
+          "name": "Электрощиток",
+          "description": "one battered freestanding metal electrical panel with ajar cover and tiny warning symbol, no text",
+          "cell": 3,
+          "art": "art/hazards-electrical-panel.png",
+          "sprite": "sprites/hazards-electrical-panel.png",
+          "kind": "world"
+        },
+        {
+          "id": "hazards-contaminated-puddle",
+          "key": "contaminated-puddle",
+          "name": "Заражённая лужа",
+          "description": "one contained shallow murky green puddle with fungal flecks, no surrounding floor",
+          "cell": 4,
+          "art": "art/hazards-contaminated-puddle.png",
+          "sprite": "sprites/hazards-contaminated-puddle.png",
+          "kind": "world"
+        },
+        {
+          "id": "hazards-barbed-wire",
+          "key": "barbed-wire",
+          "name": "Колючая проволока",
+          "description": "one compact low coil of rusty barbed wire, no fence or scenery",
+          "cell": 5,
+          "art": "art/hazards-barbed-wire.png",
+          "sprite": "sprites/hazards-barbed-wire.png",
+          "kind": "world"
+        }
+      ]
+    }
+  ],
+  "totalCategories": 16,
+  "totalItems": 96,
+  "animations": 0,
+  "gameplayImplemented": false,
+  "notes": [
+    "Static visual prototypes; no item interactions implemented.",
+    "Sprite sizes are presentation sizes, not final world-scale dimensions."
+  ]
+}

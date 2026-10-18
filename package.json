@@ -17,7 +17,10 @@
     "build:friends": "node tools/build-friends-animations.cjs",
     "build:weapons": "node tools/build-weapon-animations.cjs",
     "check:weapons": "node tools/check-weapon-animations.cjs",
-    "package:weapons": "node tools/package-weapon-animations.cjs"
+    "package:weapons": "node tools/package-weapon-animations.cjs",
+    "build:items": "node tools/build-item-visuals.cjs",
+    "check:items": "node tools/check-item-visuals.cjs",
+    "package:items": "node tools/package-item-visuals.cjs"
   },
   "devDependencies": {
     "jszip": "3.10.1",
