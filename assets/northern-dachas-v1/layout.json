@@ -1,0 +1,141 @@
+{
+  "location": "Северные дачи",
+  "role": "design-layout-not-runtime-geometry",
+  "baseRegion": "Северные дачи на карте «Кольцо вокруг города»",
+  "north": "top",
+  "entrances": [
+    {
+      "id": "south",
+      "purpose": "Основной вход по грунтовому проезду"
+    },
+    {
+      "id": "west",
+      "purpose": "Пешеходный выход в лес"
+    },
+    {
+      "id": "east",
+      "purpose": "Выход на кольцевую дорогу"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "blue-house",
+      "name": "Синий дом",
+      "position": "southwest",
+      "canonicalId": "world/house"
+    },
+    {
+      "id": "plaster-house",
+      "name": "Соседняя дача",
+      "position": "southeast",
+      "canonicalId": "world/house"
+    },
+    {
+      "id": "greenhouses",
+      "name": "Старые теплицы",
+      "position": "west-center",
+      "role": "integrated-reference-decoration"
+    },
+    {
+      "id": "well",
+      "name": "Общий колодец",
+      "position": "center",
+      "role": "reference-landmark-not-registered-entity"
+    },
+    {
+      "id": "orchard",
+      "name": "Яблоневый сад",
+      "position": "northwest",
+      "role": "reference-vegetation-group"
+    },
+    {
+      "id": "sheds",
+      "name": "Дачные сараи",
+      "position": "northeast",
+      "canonicalId": "world/garage"
+    }
+  ],
+  "routes": [
+    [
+      "south",
+      "blue-house",
+      "well"
+    ],
+    [
+      "south",
+      "plaster-house",
+      "east"
+    ],
+    [
+      "well",
+      "greenhouses",
+      "west"
+    ],
+    [
+      "well",
+      "orchard",
+      "sheds",
+      "east"
+    ]
+  ],
+  "visualRules": {
+    "camera": "Fixed elevated oblique orthographic view; validate sprite projection against runtime before integration.",
+    "lighting": "Soft upper-left afternoon light, cool lower-right shadows.",
+    "density": "Keep walking routes open; concentrate fine debris, weeds and foliage at plot edges.",
+    "scale": "Cottage approximately 6×5 m, shed approximately 3×2.5 m; runtime sprite sizes remain to be established."
+  },
+  "reuseCanonical": [
+    "world/barrel",
+    "world/crate",
+    "world/bench",
+    "world/bush_small",
+    "world/branches",
+    "world/utility_pole",
+    "world/car_abandoned"
+  ],
+  "integrationRemaining": [
+    "Translate expanded district masterplan into calibrated world dimensions, parcel placements and a validated road graph.",
+    "Prepare and validate seamless terrain and transitions from source swatches.",
+    "Build runtime geometry, collisions, entrances and object anchors.",
+    "Create matching separable roof, walls and door states for buildings.",
+    "Check sprite silhouettes over actual ground at target game scale.",
+    "Implement lighting and test real gameplay camera against reference."
+  ],
+  "primaryDistrictMap": "references/06-expanded-district.png",
+  "previousLocalMap": {
+    "file": "references/03-local-map.png",
+    "scope": "One small neighborhood inside the full district; not the full Northern Dachas."
+  },
+  "scalePlan": {
+    "relativeAreaTarget": 2,
+    "relativeTo": "Northern Dachas district on the world-map reference supplied by user",
+    "calibration": "Visual estimate; world-map image has no metric scale.",
+    "targetPlots": 80,
+    "targetCottages": 60,
+    "targetStreetRange": [
+      7,
+      9
+    ],
+    "countsAre": "Planning targets, not validated counts in generated image",
+    "objectScale": "Original cottages, characters and lane widths retain their physical scale."
+  },
+  "sectors": [
+    "Старые дачи",
+    "Берёзовая улица",
+    "Северные участки",
+    "Яблоневые сады",
+    "Тепличный сектор",
+    "Дачные сараи",
+    "Заброшенные участки",
+    "Южный въезд"
+  ],
+  "geography": {
+    "north": "Birch and pine forest",
+    "west": "River and wooded banks",
+    "south": "Ring road; ruined city beyond it",
+    "east": "Feeder road and greenhouse plots"
+  },
+  "landmarkScope": "Previous landmarks and routes describe the initial small neighborhood; they are not a complete road graph for the expanded district.",
+  "productionManifest": "manifest.json",
+  "sectorPalettes": "sector-palettes.json"
+}

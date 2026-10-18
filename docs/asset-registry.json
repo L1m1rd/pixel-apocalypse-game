@@ -102,9 +102,14 @@
       "pack": "item-visuals-v2",
       "manifest": "assets/item-visuals-v2/manifest.json",
       "role": "game-visual"
+    },
+    {
+      "pack": "northern-dachas-v1",
+      "manifest": "assets/northern-dachas-v1/manifest.json",
+      "role": "game-style-variant"
     }
   ],
-  "entityCount": 475,
+  "entityCount": 478,
   "aliases": {
     "item-visuals-v2/materials-planks": "item/resource-harvest-boards"
   },
@@ -423,6 +428,7 @@
     "item-visuals-v2/resource-harvest-berries": "item/resource-harvest-berries",
     "item-visuals-v2/resource-harvest-boards": "item/resource-harvest-boards",
     "environment-variants-v1/boards": "item/resource-harvest-boards",
+    "northern-dachas-v1/boards": "item/resource-harvest-boards",
     "item-visuals-v2/resource-harvest-mushrooms": "item/resource-harvest-mushrooms",
     "item-visuals-v2/resource-harvest-stone": "item/resource-harvest-stone",
     "item-visuals-v2/seeds-beet": "item/seeds-beet",
@@ -514,13 +520,16 @@
     "weapon-animations-v1/winchester-1897": "weapon/winchester-1897",
     "weapon-animations-v1/winchester-70": "weapon/winchester-70",
     "environment-variants-v1/asphalt": "world/asphalt",
+    "northern-dachas-v1/asphalt": "world/asphalt",
     "environment-variants-v1/asphalt_weeds": "world/asphalt_weeds",
     "item-visuals-v2/storage-barrel": "world/barrel",
     "environment-variants-v1/barrel": "world/barrel",
+    "northern-dachas-v1/barrel": "world/barrel",
     "environment-variants-v1/barricade": "world/barricade",
     "item-visuals-v2/furniture-bed": "world/bed",
     "environment-variants-v1/bed": "world/bed",
     "environment-variants-v1/bench": "world/bench",
+    "northern-dachas-v1/bench": "world/bench",
     "environment-variants-v1/boarded_passage": "world/boarded_passage",
     "environment-variants-v1/branches": "world/branches",
     "environment-variants-v1/branches_sway": "world/branches_sway",
@@ -532,16 +541,19 @@
     "environment-variants-v1/bush_large": "world/bush_large",
     "item-visuals-v2/nature-bush": "world/bush_small",
     "environment-variants-v1/bush_small": "world/bush_small",
+    "northern-dachas-v1/bush_small": "world/bush_small",
     "environment-variants-v1/bush_sway": "world/bush_sway",
     "item-visuals-v2/base-campfire": "world/campfire",
     "environment-variants-v1/campfire": "world/campfire",
     "environment-variants-v1/campfire_light": "world/campfire_light",
     "item-visuals-v2/transport-abandoned-car": "world/car_abandoned",
     "environment-variants-v1/car_abandoned": "world/car_abandoned",
+    "northern-dachas-v1/car_abandoned": "world/car_abandoned",
     "environment-variants-v1/car_wreck": "world/car_wreck",
     "environment-variants-v1/container": "world/container",
     "item-visuals-v2/storage-crate": "world/crate",
     "environment-variants-v1/crate": "world/crate",
+    "northern-dachas-v1/crate": "world/crate",
     "environment-variants-v1/crosswalk": "world/crosswalk",
     "environment-variants-v1/curb": "world/curb",
     "environment-variants-v1/daylight": "world/daylight",
@@ -558,13 +570,17 @@
     "item-visuals-v2/resource-harvest-felled-log": "world/fallen_log",
     "environment-variants-v1/fallen_log": "world/fallen_log",
     "environment-variants-v1/fence_mesh": "world/fence_mesh",
+    "northern-dachas-v1/fence_mesh": "world/fence_mesh",
     "environment-variants-v1/fence_metal": "world/fence_metal",
     "environment-variants-v1/fence_wood": "world/fence_wood",
+    "northern-dachas-v1/fence_wood": "world/fence_wood",
     "environment-variants-v1/fire": "world/fire",
     "environment-variants-v1/flashlight": "world/flashlight",
     "environment-variants-v1/floor_concrete": "world/floor_concrete",
+    "northern-dachas-v1/floor_concrete": "world/floor_concrete",
     "environment-variants-v1/floor_tile": "world/floor_tile",
     "environment-variants-v1/floor_wood": "world/floor_wood",
+    "northern-dachas-v1/floor_wood": "world/floor_wood",
     "environment-variants-v1/fog": "world/fog",
     "environment-variants-v1/footstep_splash": "world/footstep_splash",
     "environment-variants-v1/forest_path": "world/forest_path",
@@ -574,18 +590,28 @@
     "environment-variants-v1/fungus_tree": "world/fungus_tree",
     "environment-variants-v1/fungus_wall": "world/fungus_wall",
     "environment-variants-v1/garage": "world/garage",
+    "northern-dachas-v1/garage": "world/garage",
+    "northern-dachas-v1/garden_bed": "world/garden_bed",
     "item-visuals-v2/openings-gate": "world/gate",
     "environment-variants-v1/gate": "world/gate",
+    "northern-dachas-v1/gate": "world/gate",
     "environment-variants-v1/gate_open": "world/gate_open",
     "environment-variants-v1/glass_shards": "world/glass_shards",
     "environment-variants-v1/grass_short": "world/grass_short",
+    "northern-dachas-v1/grass_short": "world/grass_short",
     "environment-variants-v1/grass_sway": "world/grass_sway",
     "environment-variants-v1/grass_tall": "world/grass_tall",
+    "northern-dachas-v1/grass_tall": "world/grass_tall",
     "environment-variants-v1/gravel": "world/gravel",
+    "northern-dachas-v1/gravel": "world/gravel",
+    "northern-dachas-v1/greenhouse": "world/greenhouse",
     "environment-variants-v1/hit_glass": "world/hit_glass",
     "environment-variants-v1/hit_soil": "world/hit_soil",
     "environment-variants-v1/hit_wood": "world/hit_wood",
     "environment-variants-v1/house": "world/house",
+    "northern-dachas-v1/house": "world/house",
+    "northern-dachas-v1/house-plaster": "world/house",
+    "northern-dachas-v1/house-abandoned": "world/house",
     "environment-variants-v1/infected_floor": "world/infected_floor",
     "environment-variants-v1/infected_remains": "world/infected_remains",
     "environment-variants-v1/ivy": "world/ivy",
@@ -594,11 +620,13 @@
     "environment-variants-v1/litter": "world/litter",
     "environment-variants-v1/moss": "world/moss",
     "environment-variants-v1/mud": "world/mud",
+    "northern-dachas-v1/mud": "world/mud",
     "environment-variants-v1/muzzle_flash": "world/muzzle_flash",
     "environment-variants-v1/night": "world/night",
     "environment-variants-v1/pallet": "world/pallet",
     "environment-variants-v1/pothole": "world/pothole",
     "environment-variants-v1/puddle": "world/puddle",
+    "northern-dachas-v1/puddle": "world/puddle",
     "environment-variants-v1/rain": "world/rain",
     "environment-variants-v1/road_broken_edge": "world/road_broken_edge",
     "environment-variants-v1/road_crossroads": "world/road_crossroads",
@@ -608,7 +636,9 @@
     "environment-variants-v1/road_straight": "world/road_straight",
     "environment-variants-v1/road_turn": "world/road_turn",
     "environment-variants-v1/roof": "world/roof",
+    "northern-dachas-v1/roof": "world/roof",
     "environment-variants-v1/rubble": "world/rubble",
+    "northern-dachas-v1/rubble": "world/rubble",
     "environment-variants-v1/run_dust": "world/run_dust",
     "environment-variants-v1/sand": "world/sand",
     "environment-variants-v1/sandbags": "world/sandbags",
@@ -620,6 +650,7 @@
     "environment-variants-v1/slats": "world/slats",
     "environment-variants-v1/smoke": "world/smoke",
     "environment-variants-v1/soil": "world/soil",
+    "northern-dachas-v1/soil": "world/soil",
     "item-visuals-v2/hazards-spore-source": "world/spore_source",
     "environment-variants-v1/spore_source": "world/spore_source",
     "environment-variants-v1/streetlamp": "world/streetlamp",
@@ -630,18 +661,26 @@
     "environment-variants-v1/table": "world/table",
     "environment-variants-v1/trash_bin": "world/trash_bin",
     "environment-variants-v1/tree_conifer": "world/tree_conifer",
+    "northern-dachas-v1/tree_conifer": "world/tree_conifer",
     "environment-variants-v1/tree_dead": "world/tree_dead",
     "item-visuals-v2/nature-tree": "world/tree_deciduous",
     "environment-variants-v1/tree_deciduous": "world/tree_deciduous",
+    "northern-dachas-v1/tree_deciduous": "world/tree_deciduous",
+    "northern-dachas-v1/tree-apple": "world/tree_deciduous",
     "environment-variants-v1/utility_pole": "world/utility_pole",
+    "northern-dachas-v1/utility_pole": "world/utility_pole",
     "environment-variants-v1/wall_brick": "world/wall_brick",
+    "northern-dachas-v1/wall_brick": "world/wall_brick",
     "environment-variants-v1/wall_wood": "world/wall_wood",
+    "northern-dachas-v1/wall_wood": "world/wall_wood",
     "item-visuals-v2/furniture-wardrobe": "world/wardrobe",
     "environment-variants-v1/wardrobe": "world/wardrobe",
     "environment-variants-v1/warehouse": "world/warehouse",
     "environment-variants-v1/water": "world/water",
+    "northern-dachas-v1/water": "world/water",
     "environment-variants-v1/water_ring": "world/water_ring",
     "environment-variants-v1/water_ripple": "world/water_ripple",
+    "northern-dachas-v1/well": "world/well",
     "environment-variants-v1/wicket": "world/wicket",
     "environment-variants-v1/wind": "world/wind",
     "item-visuals-v2/openings-boarded-window": "world/window_boarded",
@@ -6465,6 +6504,15 @@
             "assets/environment-variants-v1/elements/boards/boards_b.png",
             "assets/environment-variants-v1/elements/boards/boards_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "boards",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/boards.png"
+          ]
         }
       ],
       "owner": {
@@ -8253,6 +8301,15 @@
             "assets/environment-variants-v1/elements/asphalt/asphalt_b.png",
             "assets/environment-variants-v1/elements/asphalt/asphalt_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "asphalt",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/asphalt.png"
+          ]
         }
       ],
       "owner": {
@@ -8303,6 +8360,15 @@
             "assets/environment-variants-v1/elements/barrel/barrel_a.png",
             "assets/environment-variants-v1/elements/barrel/barrel_b.png",
             "assets/environment-variants-v1/elements/barrel/barrel_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "barrel",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/barrel.png"
           ]
         }
       ],
@@ -8375,6 +8441,15 @@
             "assets/environment-variants-v1/elements/bench/bench_a.png",
             "assets/environment-variants-v1/elements/bench/bench_b.png",
             "assets/environment-variants-v1/elements/bench/bench_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "bench",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/bench.png"
           ]
         }
       ],
@@ -8670,6 +8745,15 @@
             "assets/environment-variants-v1/elements/bush_small/bush_small_b.png",
             "assets/environment-variants-v1/elements/bush_small/bush_small_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "bush_small",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/bush_small.png"
+          ]
         }
       ],
       "owner": {
@@ -8817,6 +8901,15 @@
             "assets/environment-variants-v1/elements/car_abandoned/car_abandoned_b.png",
             "assets/environment-variants-v1/elements/car_abandoned/car_abandoned_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "car_abandoned",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/car_abandoned.png"
+          ]
         }
       ],
       "owner": {
@@ -8888,6 +8981,15 @@
             "assets/environment-variants-v1/elements/crate/crate_a.png",
             "assets/environment-variants-v1/elements/crate/crate_b.png",
             "assets/environment-variants-v1/elements/crate/crate_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "crate",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/crate.png"
           ]
         }
       ],
@@ -9231,6 +9333,15 @@
             "assets/environment-variants-v1/elements/fence_mesh/fence_mesh_b.png",
             "assets/environment-variants-v1/elements/fence_mesh/fence_mesh_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "fence_mesh",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/fence_mesh.png"
+          ]
         }
       ],
       "owner": {
@@ -9272,6 +9383,15 @@
             "assets/environment-variants-v1/elements/fence_wood/fence_wood_a.png",
             "assets/environment-variants-v1/elements/fence_wood/fence_wood_b.png",
             "assets/environment-variants-v1/elements/fence_wood/fence_wood_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "fence_wood",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/fence_wood.png"
           ]
         }
       ],
@@ -9366,6 +9486,15 @@
             "assets/environment-variants-v1/elements/floor_concrete/floor_concrete_b.png",
             "assets/environment-variants-v1/elements/floor_concrete/floor_concrete_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "floor_concrete",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/floor_concrete.png"
+          ]
         }
       ],
       "owner": {
@@ -9407,6 +9536,15 @@
             "assets/environment-variants-v1/elements/floor_wood/floor_wood_a.png",
             "assets/environment-variants-v1/elements/floor_wood/floor_wood_b.png",
             "assets/environment-variants-v1/elements/floor_wood/floor_wood_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "floor_wood",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/floor_wood.png"
           ]
         }
       ],
@@ -9615,11 +9753,39 @@
             "assets/environment-variants-v1/elements/garage/garage_b.png",
             "assets/environment-variants-v1/elements/garage/garage_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "garage",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/garage.png"
+          ]
         }
       ],
       "owner": {
         "pack": "environment-variants-v1",
         "id": "garage"
+      }
+    },
+    {
+      "id": "world/garden_bed",
+      "name": "Заросшая грядка",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "garden_bed",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/garden_bed.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "garden_bed"
       }
     },
     {
@@ -9644,6 +9810,15 @@
             "assets/environment-variants-v1/elements/gate/gate_a.png",
             "assets/environment-variants-v1/elements/gate/gate_b.png",
             "assets/environment-variants-v1/elements/gate/gate_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "gate",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/gate.png"
           ]
         }
       ],
@@ -9723,6 +9898,15 @@
             "assets/environment-variants-v1/elements/grass_short/grass_short_b.png",
             "assets/environment-variants-v1/elements/grass_short/grass_short_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass_short",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/grass_short.png"
+          ]
         }
       ],
       "owner": {
@@ -9780,6 +9964,15 @@
             "assets/environment-variants-v1/elements/grass_tall/grass_tall_b.png",
             "assets/environment-variants-v1/elements/grass_tall/grass_tall_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass_tall",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/grass_tall.png"
+          ]
         }
       ],
       "owner": {
@@ -9801,11 +9994,39 @@
             "assets/environment-variants-v1/elements/gravel/gravel_b.png",
             "assets/environment-variants-v1/elements/gravel/gravel_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "gravel",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/gravel.png"
+          ]
         }
       ],
       "owner": {
         "pack": "environment-variants-v1",
         "id": "gravel"
+      }
+    },
+    {
+      "id": "world/greenhouse",
+      "name": "Старая теплица",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "greenhouse",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/greenhouse.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "greenhouse"
       }
     },
     {
@@ -9929,6 +10150,33 @@
             "assets/environment-variants-v1/elements/house/house_a.png",
             "assets/environment-variants-v1/elements/house/house_b.png",
             "assets/environment-variants-v1/elements/house/house_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "house",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/house.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "house-plaster",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/house-plaster.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "house-abandoned",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/house-abandoned.png"
           ]
         }
       ],
@@ -10128,6 +10376,15 @@
             "assets/environment-variants-v1/elements/mud/mud_b.png",
             "assets/environment-variants-v1/elements/mud/mud_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "mud",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/mud.png"
+          ]
         }
       ],
       "owner": {
@@ -10247,6 +10504,15 @@
             "assets/environment-variants-v1/elements/puddle/puddle_a.png",
             "assets/environment-variants-v1/elements/puddle/puddle_b.png",
             "assets/environment-variants-v1/elements/puddle/puddle_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "puddle",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/puddle.png"
           ]
         }
       ],
@@ -10452,6 +10718,15 @@
             "assets/environment-variants-v1/elements/roof/roof_b.png",
             "assets/environment-variants-v1/elements/roof/roof_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "roof",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/materials/roof.png"
+          ]
         }
       ],
       "owner": {
@@ -10472,6 +10747,15 @@
             "assets/environment-variants-v1/elements/rubble/rubble_a.png",
             "assets/environment-variants-v1/elements/rubble/rubble_b.png",
             "assets/environment-variants-v1/elements/rubble/rubble_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "rubble",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/rubble.png"
           ]
         }
       ],
@@ -10737,6 +11021,15 @@
             "assets/environment-variants-v1/elements/soil/soil_b.png",
             "assets/environment-variants-v1/elements/soil/soil_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "soil",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/soil.png"
+          ]
         }
       ],
       "owner": {
@@ -10926,6 +11219,15 @@
             "assets/environment-variants-v1/elements/tree_conifer/tree_conifer_b.png",
             "assets/environment-variants-v1/elements/tree_conifer/tree_conifer_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "tree_conifer",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/tree_conifer.png"
+          ]
         }
       ],
       "owner": {
@@ -10977,6 +11279,24 @@
             "assets/environment-variants-v1/elements/tree_deciduous/tree_deciduous_b.png",
             "assets/environment-variants-v1/elements/tree_deciduous/tree_deciduous_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "tree_deciduous",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/tree_deciduous.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "tree-apple",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/tree-apple.png"
+          ]
         }
       ],
       "owner": {
@@ -10997,6 +11317,15 @@
             "assets/environment-variants-v1/elements/utility_pole/utility_pole_a.png",
             "assets/environment-variants-v1/elements/utility_pole/utility_pole_b.png",
             "assets/environment-variants-v1/elements/utility_pole/utility_pole_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "utility_pole",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/utility_pole.png"
           ]
         }
       ],
@@ -11019,6 +11348,15 @@
             "assets/environment-variants-v1/elements/wall_brick/wall_brick_b.png",
             "assets/environment-variants-v1/elements/wall_brick/wall_brick_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "wall_brick",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/materials/wall_brick.png"
+          ]
         }
       ],
       "owner": {
@@ -11039,6 +11377,15 @@
             "assets/environment-variants-v1/elements/wall_wood/wall_wood_a.png",
             "assets/environment-variants-v1/elements/wall_wood/wall_wood_b.png",
             "assets/environment-variants-v1/elements/wall_wood/wall_wood_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "wall_wood",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/materials/wall_wood.png"
           ]
         }
       ],
@@ -11111,6 +11458,15 @@
             "assets/environment-variants-v1/elements/water/water_a.png",
             "assets/environment-variants-v1/elements/water/water_b.png",
             "assets/environment-variants-v1/elements/water/water_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "water",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/water.png"
           ]
         }
       ],
@@ -11189,6 +11545,25 @@
       "owner": {
         "pack": "environment-variants-v1",
         "id": "water_ripple"
+      }
+    },
+    {
+      "id": "world/well",
+      "name": "Дачный колодец",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "well",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/sprites/well.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "well"
       }
     },
     {

@@ -39,6 +39,20 @@ const weapons=read('assets/weapon-animations-v1/manifest.json');assert.equal(wea
 for(const w of weapons.weapons){assert.deepEqual(Object.keys(w.animations).sort(),['fire','reload']);add('weapon/'+w.id,w.name,'weapon-animations-v1',w.id,'reference',['assets/weapon-animations-v1/'+w.reference]);}
 for(const pack of ['combat-vfx-v1','special-vfx-v1']){const m=read('assets/'+pack+'/manifest.json');assert.equal(new Set(m.effects.map(e=>e.id)).size,m.effects.length);for(const e of m.effects)add('effect/'+(policy.effectFamilies[pack+'/'+e.id]||pack+'/'+e.id),e.label||e.id,pack,e.id,'animation');}
 for(const p of read('assets/decorative-corpses-v2/manifest.json').props)add('decor/'+p.id,p.label,'decorative-corpses-v2',p.id,'decor',[p.art,p.sprite].map(f=>'assets/decorative-corpses-v2/'+f));
+// Location packs may own new world entities while reusing existing canonical ones.
+for(const [pack,worldManifest]of Object.entries(policy.worldEntityManifests||{})){
+ need(worldManifest);const world=read(worldManifest);
+ for(const e of world.entities||[]){
+  assert(e.canonicalId.startsWith('world/'),'Location entity must use world namespace '+e.canonicalId);
+  assert(!entities.has(e.canonicalId),'Duplicate world entity '+e.canonicalId);
+  assert.deepEqual(policy.worldEntityOwners?.[e.canonicalId],{pack,id:e.id},'World entity needs explicit owner '+e.canonicalId);
+  add(e.canonicalId,e.title||e.id,pack,e.id,'world-visual',[path.posix.join(path.posix.dirname(worldManifest),e.file)],world.style);
+ }
+}
+for(const [pack,interiorManifest]of Object.entries(policy.styleVariantManifests||{})){
+ need(interiorManifest);const interior=read(interiorManifest);packs.push({pack,manifest:interiorManifest,role:'game-style-variant'});
+ for(const b of interior.bindings){assert(entities.has(b.canonicalId),'Interior style must reuse a canonical entity '+b.canonicalId);add(b.canonicalId,entities.get(b.canonicalId).name,pack,b.id,'style-variant',[path.posix.join(path.posix.dirname(interiorManifest),b.file)],interior.style);}
+}
 const registered=[...entities.values()].sort((a,b)=>a.id.localeCompare(b.id));
 const bindings={};for(const entity of registered){const choices=entity.representations.filter(r=>r.role!=='shared-reference');const owner=choices.find(r=>r.state==='raw')||choices.find(r=>r.role==='item-visual')||choices[0];assert(owner,'Missing owner '+entity.id);entity.owner={pack:owner.pack,id:owner.id};for(const r of entity.representations){const binding=r.pack+'/'+r.id;assert(!bindings[binding]||bindings[binding]===entity.id,'Conflicting entity binding '+binding);bindings[binding]=entity.id;}}
 const aliases=Object.fromEntries(Object.entries(policy.itemAliases).map(([a,b])=>['item-visuals-v2/'+a,'item/'+b]));

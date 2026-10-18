@@ -1,7 +1,9 @@
 {
   "version": 1,
   "description": "One owner per game entity. Other catalogs reference the owner instead of exporting a second asset.",
-  "itemAliases": {"materials-planks": "resource-harvest-boards"},
+  "itemAliases": {
+    "materials-planks": "resource-harvest-boards"
+  },
   "sharedWorldItems": {
     "nature-tree": "tree_deciduous",
     "nature-bush": "bush_small",
@@ -26,7 +28,17 @@
     "boards": "resource-harvest-boards",
     "window": "windows-wood"
   },
-  "retiredLootFood": ["small-game-meat", "venison", "boar-meat", "bear-meat", "poultry-meat", "red-meat", "tiny-game-meat", "frog-legs", "fish-fillet"],
+  "retiredLootFood": [
+    "small-game-meat",
+    "venison",
+    "boar-meat",
+    "bear-meat",
+    "poultry-meat",
+    "red-meat",
+    "tiny-game-meat",
+    "frog-legs",
+    "fish-fillet"
+  ],
   "effectFamilies": {
     "combat-vfx-v1/spore_cloud_dense": "spore-cloud",
     "special-vfx-v1/spore_cloud": "spore-cloud"
@@ -39,5 +51,25 @@
     "Inventory boards and boards on the map are representations of one resource.",
     "Animation frames, corpses, static designs, concept references and UI mockups are not extra inventory items.",
     "The flashlight item and its beam effect are different asset roles."
-  ]
+  ],
+  "worldEntityManifests": {
+    "northern-dachas-v1": "assets/northern-dachas-v1/manifest.json"
+  },
+  "worldEntityOwners": {
+    "world/greenhouse": {
+      "pack": "northern-dachas-v1",
+      "id": "greenhouse"
+    },
+    "world/well": {
+      "pack": "northern-dachas-v1",
+      "id": "well"
+    },
+    "world/garden_bed": {
+      "pack": "northern-dachas-v1",
+      "id": "garden_bed"
+    }
+  },
+  "styleVariantManifests": {
+    "northern-dachas-v1": "assets/northern-dachas-v1/manifest.json"
+  }
 }

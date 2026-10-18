@@ -1,0 +1,930 @@
+{
+  "version": 1,
+  "style": "northern-dachas-realistic-v1",
+  "role": "style-variants-of-existing-canonical-entities",
+  "tool": "built-in image_gen",
+  "status": "integrated-district-prototype",
+  "baseMap": "assets/northern-dachas-v1/references/00-world-ring.png",
+  "prompts": "prompts.json",
+  "bindings": [
+    {
+      "id": "house",
+      "canonicalId": "world/house",
+      "kind": "sprite",
+      "file": "sprites/house.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9f84aa97cd15b95cdfdbc83823060524052c476f0f9537be6f319463b4afa32b",
+      "title": "Синяя деревянная дача",
+      "category": "sprite"
+    },
+    {
+      "id": "garage",
+      "canonicalId": "world/garage",
+      "kind": "sprite",
+      "file": "sprites/garage.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "garage"
+      },
+      "transparent": true,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8956eef077d7a7abd39d1b4ed2d065f25b0ccdc82e8bb831ee461ecd910683a2",
+      "title": "Дачный сарай",
+      "category": "sprite"
+    },
+    {
+      "id": "fence_wood",
+      "canonicalId": "world/fence_wood",
+      "kind": "sprite",
+      "file": "sprites/fence_wood.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_wood"
+      },
+      "transparent": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "887f05cd6818efaf7a02f777334cb1c30a2deaa5c49c44aa0f0f6e759f542e82",
+      "title": "Деревянный забор",
+      "category": "sprite"
+    },
+    {
+      "id": "tree_deciduous",
+      "canonicalId": "world/tree_deciduous",
+      "kind": "sprite",
+      "file": "sprites/tree_deciduous.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "transparent": true,
+      "width": 1295,
+      "height": 1214,
+      "sha256": "173a7b38ac85a37b19a7d0ad7eba3d511da8294e168cae3f04a943846ed84948",
+      "title": "Берёза",
+      "category": "sprite"
+    },
+    {
+      "id": "soil",
+      "canonicalId": "world/soil",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/soil.png",
+      "source": "sources/production/soil.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "soil"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "ebed526bcfed9a3de87343b5740455b86f6860c8e149559ae23ff4c007db6796",
+      "sourceMetadata": {
+        "width": 1261,
+        "height": 1247,
+        "sha256": "cba28a15c31abb59225a13a3560a1934f7931fe9b622dcaf9f4b6a49091770ce"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 32.544270833333336,
+          "edgeMeanY": 27.602864583333332,
+          "neighborMeanX": 27.002772341813436,
+          "neighborMeanY": 26.333491316046967,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "grass_short",
+      "canonicalId": "world/grass_short",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/grass_short.png",
+      "source": "sources/production/grass_short.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_short"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "b83316d659a020ea60249070e04a5748f6eedad00d4bf1a02eb136fa4fcd939c",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4a8138b63bbc8d377c93ab86caa12804977106627e1e184027189f3fa55dfde5"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 25.333333333333332,
+          "edgeMeanY": 25.669921875,
+          "neighborMeanX": 28.217353636660143,
+          "neighborMeanY": 26.648395456213308,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "mud",
+      "canonicalId": "world/mud",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/mud.png",
+      "source": "sources/production/mud.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "mud"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "2fd5315c7a672426ec1521853a7f504d07a528c13c1a3543dba3a8cc421479ac",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "37528c746af8fc69fdf40920253b0b322177054909c6bc34fd4ea44429e20292"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 25.686197916666668,
+          "edgeMeanY": 22.24609375,
+          "neighborMeanX": 22.14427134295499,
+          "neighborMeanY": 22.023982795172863,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "gravel",
+      "canonicalId": "world/gravel",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/gravel.png",
+      "source": "sources/production/gravel.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "gravel"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "3cea7dcea89f913072f94f4c1377ed8450df826d9c44a27d2d0ca516902168a2",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "b2f410b93bc162d8866c57a00109903805454b3426c86bd06aefcc2a1d465a18"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 32.326822916666664,
+          "edgeMeanY": 28.521484375,
+          "neighborMeanX": 27.683993803000654,
+          "neighborMeanY": 27.612036499103066,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "asphalt",
+      "canonicalId": "world/asphalt",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/asphalt.png",
+      "source": "sources/production/asphalt.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "asphalt"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "f888c935c62b7bc765ba61b80f554b4e20b5c2252830efc1118aa7fb0e6f62aa",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "cea531944b4c22b3270dc614fb186d35bb9017a379e1c54e75c544ab8e966705"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 32.184244791666664,
+          "edgeMeanY": 25.5390625,
+          "neighborMeanX": 25.62794688723092,
+          "neighborMeanY": 24.91080856572081,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "floor_wood",
+      "canonicalId": "world/floor_wood",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/floor_wood.png",
+      "source": "sources/production/floor_wood.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "floor_wood"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "50ce1073db1f38d735fba88e7a9e7760f93567b41b97ac4b56df95bbbcab82f4",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "906b57af8d7893866ed0a0b23df0087f9714bc8c55ca9b0dc6e36649a0f84e65"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 21.892578125,
+          "edgeMeanY": 13.470052083333334,
+          "neighborMeanX": 21.029049708496412,
+          "neighborMeanY": 10.617587553000652,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "floor_concrete",
+      "canonicalId": "world/floor_concrete",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/floor_concrete.png",
+      "source": "sources/production/floor_concrete.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "floor_concrete"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "06e6afddb51f854e6cc9b40e5583832b82a762fe7c703ce53518cc0ae252643a",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "b81fde27fd405948a5b042b7adab20585800e7f787a52830992a14148f285a42"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 22.147135416666668,
+          "edgeMeanY": 22.660807291666668,
+          "neighborMeanX": 21.775646709882583,
+          "neighborMeanY": 21.33372446795499,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "water",
+      "canonicalId": "world/water",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "tiles/water.png",
+      "source": "sources/production/water-seamless-v2.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "water"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "7176464ea27867f9e2516e0aca741c4fbb4df17c40a39bc6f6492e40e2fe9c14",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "ccdb36700890986b04f339e0416422f2a58af814c62d98a9758eace0004f1582"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 16.317708333333332,
+          "edgeMeanY": 14.995442708333334,
+          "neighborMeanX": 8.802911468525766,
+          "neighborMeanY": 15.061876987524462,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "wall_wood",
+      "canonicalId": "world/wall_wood",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "materials/wall_wood.png",
+      "source": "sources/production/wall_wood.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wall_wood"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "11ca70edeef473f952464ecb934b57a2b9a0e3b7d102852177b1dfd3fe2aa99f",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "3a60aebdb059b9f4b46dc39e0a9737657d985239e20a795ef72fadd59d94b7be"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 14.530598958333334,
+          "edgeMeanY": 28.556640625,
+          "neighborMeanX": 10.898155934034573,
+          "neighborMeanY": 20.727980522260275,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "wall_brick",
+      "canonicalId": "world/wall_brick",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "materials/wall_brick.png",
+      "source": "sources/production/wall_brick.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wall_brick"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "4e4013818a9634d57ba54177961eb570d9340ca13eed89db33456d68a60f82ba",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "9308b18482b26d16d51020f8ead122be52a711dc805ef97b82bef9642429184d"
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 23.997395833333332,
+          "edgeMeanY": 23.141276041666668,
+          "neighborMeanX": 16.974195307403782,
+          "neighborMeanY": 17.084881309116113,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "roof",
+      "canonicalId": "world/roof",
+      "kind": "tile",
+      "category": "sprite",
+      "file": "materials/roof.png",
+      "source": "sources/production/roof-seamless-v2.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "roof"
+      },
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "f8204d0d9d7a4668d13ac2ae80e479ef2f720fbd4671b750ff84dd7f083e4e8e",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "caba6a108aa73f69f06761c9e6f5bb1452fafb3438fa01e8779df56baf6043c2"
+      },
+      "exportCrop": {
+        "left": 48,
+        "top": 0,
+        "width": 1095,
+        "height": 1254
+      },
+      "tiling": {
+        "requestedSeamless": true,
+        "review": "review/terrain-repeat-contact.png",
+        "metrics": {
+          "edgeMeanX": 13.256510416666666,
+          "edgeMeanY": 19.5625,
+          "neighborMeanX": 16.14347378506197,
+          "neighborMeanY": 13.426657799249837,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true
+      }
+    },
+    {
+      "id": "house-plaster",
+      "canonicalId": "world/house",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/house-plaster.png",
+      "source": "sources/production/house-plaster.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "transparent": true,
+      "width": 800,
+      "height": 544,
+      "sha256": "e12e148868154e1d3434410bbe90e3078aaef4091c21f2e88c3b4c90f0b7e393",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2247aff961dfa164317b1687836dc72b626ded020de52f0569361dfdfd1bcdd9"
+      }
+    },
+    {
+      "id": "house-abandoned",
+      "canonicalId": "world/house",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/house-abandoned.png",
+      "source": "sources/production/house-abandoned.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "transparent": true,
+      "width": 800,
+      "height": 544,
+      "sha256": "94cc964c39dcbe92cfbc617c0fd3e806c6b850328226f4021d341681922a5288",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "219fa49945a5b32526865f9fc65e522c9a964c77f3286b922d24e309ae147a25"
+      }
+    },
+    {
+      "id": "tree_conifer",
+      "canonicalId": "world/tree_conifer",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/tree_conifer.png",
+      "source": "sources/production/tree_conifer.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_conifer"
+      },
+      "transparent": true,
+      "width": 672,
+      "height": 392,
+      "sha256": "ff17db42c38e44674cd0c78cb5d495c25c26d4c8267d82fb4d9acfd929ad799f",
+      "sourceMetadata": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "d62289fefd79c1e121b41be5497a0173276a1aa0ca254c92221ea3bde1a58b5f"
+      }
+    },
+    {
+      "id": "tree-apple",
+      "canonicalId": "world/tree_deciduous",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/tree-apple.png",
+      "source": "sources/production/tree-apple.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "transparent": true,
+      "width": 672,
+      "height": 572,
+      "sha256": "ac306e723f549e25f6c691659391349b5e2c833551f061303b756fe858be843f",
+      "sourceMetadata": {
+        "width": 1366,
+        "height": 1152,
+        "sha256": "97379e283420e0b5a83e66a574a01014385fcd35f4d9792742f20edfa194d049"
+      }
+    },
+    {
+      "id": "bush_small",
+      "canonicalId": "world/bush_small",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/bush_small.png",
+      "source": "sources/production/bush_small.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_small"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 288,
+      "sha256": "f3f45e4466294b8b9660f06fa5d218e42e81a969e18a4d0f29bfb1a9312c827a",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b8b7eea411586386bc5693f5d843666f2906d43dc3bd13e3f19737dacc7d1f44"
+      }
+    },
+    {
+      "id": "grass_tall",
+      "canonicalId": "world/grass_tall",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/grass_tall.png",
+      "source": "sources/production/grass_tall.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "transparent": true,
+      "width": 224,
+      "height": 160,
+      "sha256": "a3289a2ba6d69572cd9db4e2b397714371b27aa97ab7d010a7b4caa09396a246",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "71eb71bd0874d66cef11061c0d67f632cece2864a4fe52ea0b47e7e03a7d9333"
+      }
+    },
+    {
+      "id": "fence_mesh",
+      "canonicalId": "world/fence_mesh",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/fence_mesh.png",
+      "source": "sources/production/fence_mesh.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_mesh"
+      },
+      "transparent": true,
+      "width": 544,
+      "height": 373,
+      "sha256": "7162630b0e522e1c738d7931ae8ddc8a18895f20073da784a26ceac3cc13b96e",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "039270d1b43c7072624350a09d9f6164616c07835af7c82bdbe61d951fdf1f7a"
+      }
+    },
+    {
+      "id": "gate",
+      "canonicalId": "world/gate",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/gate.png",
+      "source": "sources/production/gate.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "gate"
+      },
+      "transparent": true,
+      "width": 544,
+      "height": 373,
+      "sha256": "f975783be299bbc5c76b97f8c0d1ab5eaeb40f5dfbfd95099f79614ba5507aed",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3618448daf6cfc30f9c8a93d7935bb5329b0760ab0edb9ba3d8de93339e0e8d8"
+      }
+    },
+    {
+      "id": "barrel",
+      "canonicalId": "world/barrel",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/barrel.png",
+      "source": "sources/production/barrel.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "barrel"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 387,
+      "sha256": "041ae2f7a2641f47389d660675cff1651a7390ec22c9c35068ee1c65fe26b20d",
+      "sourceMetadata": {
+        "width": 1304,
+        "height": 1206,
+        "sha256": "afc1b39db33f4b7f663b3398811f1fa76e20dd1d3aa9b2236fa4b2ae8ea84e3f"
+      }
+    },
+    {
+      "id": "crate",
+      "canonicalId": "world/crate",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/crate.png",
+      "source": "sources/production/crate.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "crate"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 365,
+      "sha256": "a2a34b837641aba2dff2abf8c62d1b1c9fd07f36feb00fad43f6011ec3fb2ceb",
+      "sourceMetadata": {
+        "width": 1347,
+        "height": 1167,
+        "sha256": "9b917ce090a3fb35f0fcbbd6a3ec4985cf73611430d2b8bef209136edf01a068"
+      }
+    },
+    {
+      "id": "bench",
+      "canonicalId": "world/bench",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/bench.png",
+      "source": "sources/production/bench.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bench"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 288,
+      "sha256": "24096589bbb916ace1fe00b06c6b9577c1813ae5d7efedb4987c706887faaa67",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "efe9074fc2105c85fa4cf3e2f3b3cd1cc56c7c7301e7f382c91f0369647f26ec"
+      }
+    },
+    {
+      "id": "car_abandoned",
+      "canonicalId": "world/car_abandoned",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/car_abandoned.png",
+      "source": "sources/production/car_abandoned.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "transparent": true,
+      "width": 544,
+      "height": 320,
+      "sha256": "50960ea685db0646cae60883c8bd6b9453cada822066e0d83acd4c3a1dee4fb3",
+      "sourceMetadata": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "a0b25e0ea9c06f5336630bd741468664bd3e5766f0895022e8bc8d7ae2ce5312"
+      }
+    },
+    {
+      "id": "utility_pole",
+      "canonicalId": "world/utility_pole",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/utility_pole.png",
+      "source": "sources/production/utility_pole.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "utility_pole"
+      },
+      "transparent": true,
+      "width": 373,
+      "height": 544,
+      "sha256": "ed54ff8e0f47f85ae74df46eb4f2b673c0d15ff2aee09bd227909c98fd6d9b3a",
+      "sourceMetadata": {
+        "width": 1024,
+        "height": 1536,
+        "sha256": "0ff1dfb6a875165489c2326bce696e9d7be247930b5d02606cc01aad84c3f423"
+      }
+    },
+    {
+      "id": "boards",
+      "canonicalId": "item/resource-harvest-boards",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/boards.png",
+      "source": "sources/production/boards.png",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "resource-harvest-boards"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 288,
+      "sha256": "ee3cdb48f12ddf597503a52647ab16749f546aeb9a0096d8546641b552519d49",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f55161f1f7ec686a514345bb924931a0a75e472901caa407491295195814c120"
+      }
+    },
+    {
+      "id": "rubble",
+      "canonicalId": "world/rubble",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/rubble.png",
+      "source": "sources/production/rubble.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "rubble"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 288,
+      "sha256": "7359e1cde1efd992f9570f422a3039860d2ab05d8be13d5d6fdb3090d71bc7db",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "147970ff826b5321e076271331b1b7a4d62bab7579d2e052234f82909e2d94b7"
+      }
+    },
+    {
+      "id": "puddle",
+      "canonicalId": "world/puddle",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/puddle.png",
+      "source": "sources/production/puddle.png",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "puddle"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 248,
+      "sha256": "7d1bfeca6bc2211dee571881e045960a31e91e594b24c9232e560dc5764169ed",
+      "sourceMetadata": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "3ea733b379cf2f739364cd41053dbc3f694aacc4702f0dd0213087ce6e16d517"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "01-dacha-lane",
+      "title": "Дачный проезд — основной вид",
+      "file": "references/01-dacha-lane.png",
+      "role": "design-reference",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a3540edcd808fa5c017705c58279dfcf143107f48028b93803a5433b3bbc9c9a"
+    },
+    {
+      "id": "02-interior",
+      "title": "Интерьер дачного дома",
+      "file": "references/02-interior.png",
+      "role": "design-reference",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7c5542df847122915c5f0c7c8f50d310586796cf4c45f46b72d56abb76385bf1"
+    },
+    {
+      "id": "03-local-map",
+      "title": "Старый квартал — фрагмент большого района",
+      "file": "references/03-local-map.png",
+      "role": "design-reference",
+      "width": 1672,
+      "height": 941,
+      "sha256": "341f2e311212542ccc439112ee419245a1a99ec8e768e3c70b95687d6a72a3d9"
+    },
+    {
+      "id": "04-terrain-atlas",
+      "title": "Материалы земли — 9 образцов",
+      "file": "sources/04-terrain-atlas.png",
+      "role": "material-source",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fe62bd9d16bded73090f0fc47f4016b53f437292f0408100b78d796fcf2e60f6"
+    },
+    {
+      "id": "05-detail-board",
+      "title": "Дачный декор — 9 образцов",
+      "file": "references/05-detail-board.png",
+      "role": "design-reference",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a33d9728c5771f2678f4ac69b5c231220d9248bfbffc427e341500cd19819ac1"
+    },
+    {
+      "id": "06-expanded-district",
+      "title": "Северные дачи — большой район",
+      "file": "references/06-expanded-district.png",
+      "role": "design-reference",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6ce812144310a0864acdd2ac3fb26cb4e29ff68b4d4cb5c89e6b03bcb25e5c1b"
+    },
+    {
+      "id": "00-world-ring",
+      "title": "Кольцо вокруг города — общий план",
+      "file": "references/00-world-ring.png",
+      "role": "design-reference",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cbd79a82518451450003d3c705cfb3ec88081bdcdcb8c09db5e735e76ff8b5b7"
+    }
+  ],
+  "notes": [
+    "34 individual production images: 11 surface tiles and 23 isolated sprites, including four existing sprites.",
+    "Existing entities retain canonical ownership. Greenhouse, well and garden_bed are new world entities explicitly owned by this pack.",
+    "Generated high-resolution sources are preserved; exports only resize and add transparent sprite padding.",
+    "Terrain repeat metrics and previews are diagnostics. Terrain transitions and target-scale material mapping need runtime validation.",
+    "Buildings are static complete sprites; roofless interiors, separable roofs, open doors and other interactive states are not implemented.",
+    "Outdoor map integrated in the isolated northern-dachas branch. Static houses do not have accessible interiors."
+  ],
+  "primaryDistrictMap": "references/06-expanded-district.png",
+  "entities": [
+    {
+      "id": "greenhouse",
+      "title": "Старая теплица",
+      "canonicalId": "world/greenhouse",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/greenhouse.png",
+      "source": "sources/production/greenhouse.png",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "greenhouse"
+      },
+      "transparent": true,
+      "width": 672,
+      "height": 459,
+      "sha256": "ab84caaa8868c1b0ac96f31185d39ded8edb65d7ffe1ee5047ce1d2cdeb320b5",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c6fb67650767b1ac2a39d589abc1752c9d82fde905ec735ee4a67e507735a93f"
+      }
+    },
+    {
+      "id": "well",
+      "title": "Дачный колодец",
+      "canonicalId": "world/well",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/well.png",
+      "source": "sources/production/well.png",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "well"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 365,
+      "sha256": "e3caf2d59f42b5f4020f8369508b045144ccc0032bc7b5326629451008057a88",
+      "sourceMetadata": {
+        "width": 1347,
+        "height": 1167,
+        "sha256": "562712f4b752feaf1c35ebe00e5e9ec24c2387613921c877fe82e1137e3436fd"
+      }
+    },
+    {
+      "id": "garden_bed",
+      "title": "Заросшая грядка",
+      "canonicalId": "world/garden_bed",
+      "kind": "sprite",
+      "category": "sprite",
+      "file": "sprites/garden_bed.png",
+      "source": "sources/production/garden_bed.png",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "garden_bed"
+      },
+      "transparent": true,
+      "width": 416,
+      "height": 288,
+      "sha256": "be381080de457f0b47eeb2a731bfdce73b7fff3c084e76233c1c2196170d0184",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5f68e40e43988fcee304842f2a0e58dcf1d541e9d9372bc2010e8a12e70bb2f8"
+      }
+    }
+  ],
+  "productionPlan": "production-plan.json",
+  "sectorPalettes": "sector-palettes.json",
+  "runtime": {
+    "integrated": true,
+    "map": "desktop/northern-dachas-map.mjs",
+    "renderer": "desktop/northern-dachas-renderer.mjs",
+    "interiors": false
+  }
+}

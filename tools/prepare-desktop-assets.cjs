@@ -44,6 +44,7 @@ async function main(){
  await sharp(frames,{join:{animated:true}}).webp({delay:frames.map(()=>100),loop:0,quality:88,effort:4}).toFile(path.join(OUT,'menu-background.webp'));
  await sharp(path.join(menu,'references/approved-menu-C.png')).extract({left:1325,top:80,width:325,height:205}).png().toFile(path.join(OUT,'logo.png'));
  for(const file of ['clouds.png','sky-mask.png'])fs.copyFileSync(path.join(ROOT,'desktop/art/menu-clouds',file),path.join(OUT,file));
+ await require('./prepare-northern-dachas-runtime.cjs').prepareDistrict(data,OUT);
  fs.writeFileSync(path.join(OUT,'motion-alignment.json'),JSON.stringify(alignment,null,2));
  fs.writeFileSync(path.join(OUT,'data.js'),'window.GAME_ASSETS='+JSON.stringify(data)+';\n');
  fs.writeFileSync(path.join(OUT,'asset-manifest.json'),JSON.stringify(data,null,2));
