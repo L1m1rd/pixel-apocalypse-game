@@ -7,7 +7,7 @@ async function prepareDistrict(data,out){
   const src=path.join(pack,row.file),bytes=fs.readFileSync(src),sha=crypto.createHash('sha256').update(bytes).digest('hex');
   if(sha!==row.sha256)throw Error('Changed northern asset '+row.id);
   const file='dachas/'+row.id+'.png';fs.copyFileSync(src,path.join(out,file));
-  const item={file,kind:row.kind,canonicalId:row.canonicalId,title:row.title,width:row.width,height:row.height,sha256:sha,source:'assets/northern-dachas-v1/'+row.file};
+  const item={file,kind:row.kind,canonicalId:row.canonicalId,title:row.title,visualPass:row.visualPass,category:row.category,width:row.width,height:row.height,sha256:sha,source:'assets/northern-dachas-v1/'+row.file};
   if(row.kind==='sprite'){
    const {data:pixels,info}=await sharp(bytes).ensureAlpha().raw().toBuffer({resolveWithObject:true});let x0=info.width,y0=info.height,x1=0,y1=0;
    for(let y=0;y<info.height;y++)for(let x=0;x<info.width;x++)if(pixels[(y*info.width+x)*4+3]>24){x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y);}

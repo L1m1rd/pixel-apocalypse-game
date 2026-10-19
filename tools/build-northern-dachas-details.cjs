@@ -131,4 +131,5 @@ async function main(){
  await sharp({create:{width:cell*7,height:cell*6,channels:4,background:'#414a3b'}}).composite(thumbs).png().toFile(path.join(DIR,'review/detail-contact.png'));
  console.log(JSON.stringify({generatedSheets:jobs.length,newVariants:rows.length,sprites:rows.filter(r=>r.kind==='sprite').length,tiles:rows.filter(r=>r.kind==='tile').length,totalProduction:manifest.bindings.length+manifest.entities.length}));
 }
-main().catch(e=>{console.error(e);process.exitCode=1;});
+module.exports={unpackAtlas,seamMetrics};
+if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1;});

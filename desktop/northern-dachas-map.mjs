@@ -12,12 +12,12 @@ const sectorColumns=[0,3,5,8,10];
 export const SECTORS=names.flatMap((row,r)=>row.map((name,c)=>({id:r*4+c,name,x:1800+sectorColumns[c]*420,y:900+r*1680,w:(sectorColumns[c+1]-sectorColumns[c])*420,h:1680})));
 export const PLOTS=[],OBJECTS=[],FENCES=[],GATES=[],ROADS=[],LANDMARKS=[];
 const object=(id,asset,x,y,w,h,solid=null,extra={})=>{const o={id,asset,x,y,w,h,solid,...extra};OBJECTS.push(o);return o;};
-for(let r=0;r<=8;r++)ROADS.push({id:'lane-h-'+r,kind:'soil',width:r===4?76:60,points:[[1720,900+r*420],[6080,900+r*420]]});
-for(let c=0;c<=10;c++)ROADS.push({id:'lane-v-'+c,kind:'soil',width:c===7?88:60,points:[[1800+c*420,800],[1800+c*420,4340]]});
-ROADS.push({id:'main-entrance',kind:'gravel',width:90,points:[[4740,4260],[4740,4840],[4830,5000]]});
+for(let r=0;r<=8;r++)ROADS.push({id:'lane-h-'+r,kind:'soil',width:r===4?46:34,points:[[1720,900+r*420],[6080,900+r*420]]});
+for(let c=0;c<=10;c++)ROADS.push({id:'lane-v-'+c,kind:'soil',width:c===7?48:34,points:[[1800+c*420,800],[1800+c*420,4340]]});
+ROADS.push({id:'main-entrance',kind:'gravel',width:52,points:[[4740,4260],[4740,4840],[4830,5000]]});
 ROADS.push({id:'ring-road',kind:'asphalt',width:128,points:[[850,5000],[1800,4920],[3100,5010],[4830,5000],[6200,4870],[7150,4900]]});
-ROADS.push({id:'forest-exit',kind:'soil',width:45,points:[[2220,900],[2220,680],[1790,570]]});
-ROADS.push({id:'riverside-path',kind:'gravel',width:40,points:[[1800,4260],[1550,4380],[1490,4740],[1600,4930]]});
+ROADS.push({id:'forest-exit',kind:'soil',width:30,points:[[2220,900],[2220,680],[1790,570]]});
+ROADS.push({id:'riverside-path',kind:'gravel',width:30,points:[[1800,4260],[1550,4380],[1490,4740],[1600,4930]]});
 function fence(id,x,y,length,axis,gap=false){
  const step=70,n=Math.ceil(length/step),size=length/n;
  for(let i=0;i<n;i++){if(gap&&i===Math.floor(n/2))continue;FENCES.push({id:id+'-'+i,x:x+(axis==='x'?(i+.5)*size:0),y:y+(axis==='y'?(i+.5)*size:0),length:size,axis});}
@@ -66,7 +66,7 @@ LANDMARKS.push({id:'forest-trail',name:'Лесная тропа',x:2220,y:690});
 export function riverBank(y){return 1270+Math.sin(y/430)*85+Math.sin(y/177)*35;}
 export function sectorAt(p){return SECTORS.find(s=>p.x>=s.x&&p.x<s.x+s.w&&p.y>=s.y&&p.y<s.y+s.h)??null;}
 export function createDistrictState(saved){return {mapId:MAP_ID,openedGates:saved?.mapId===MAP_ID?[...new Set((saved.openedGates??[]).filter(id=>GATES.some(g=>g.id===id)))]:[]};}
-export const {decals:DECALS,wires:WIRES}=dressDistrict({PLOTS,OBJECTS,FENCES,LANDMARKS,riverBank});
+export const {decals:DECALS,wires:WIRES}=dressDistrict({PLOTS,OBJECTS,FENCES,LANDMARKS,ROADS,BOUNDS,riverBank});
 const bins=new Map(),colliders=[];
 function register(rect){colliders.push(rect);for(let y=Math.floor(rect.y/128);y<=Math.floor((rect.y+rect.h)/128);y++)for(let x=Math.floor(rect.x/128);x<=Math.floor((rect.x+rect.w)/128);x++){const key=x+','+y;if(!bins.has(key))bins.set(key,[]);bins.get(key).push(rect);}}
 for(const o of OBJECTS)if(o.solid)register({id:o.id,x:o.x-o.solid.w/2,y:o.y-o.solid.h/2,w:o.solid.w,h:o.solid.h});

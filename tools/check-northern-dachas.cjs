@@ -26,14 +26,14 @@ async function main(){
   const registry=JSON.parse(fs.readFileSync(path.join(root,'docs/asset-registry.json'),'utf8'));
   const policy=JSON.parse(fs.readFileSync(path.join(root,'asset-ownership.json'),'utf8'));
   assert.equal(policy.styleVariantManifests['northern-dachas-v1'],'assets/northern-dachas-v1/manifest.json');
-  assert.equal(manifest.bindings.length,73);
-  assert.equal(manifest.entities.length,3);
-  assert.equal(manifest.references.length,7);
+  assert.equal(manifest.bindings.length,110);
+  assert.equal(manifest.entities.length,12);
+  assert.equal(manifest.references.length,15);
   assert.equal(plan.jobs.length,30);
   assert(plan.jobs.every(j=>j.status==='exported'),'Incomplete production plan');
   const production=[...manifest.bindings,...manifest.entities],rows=[...production,...manifest.references];
-  assert.equal(new Set(rows.map(r=>r.file)).size,83);
-  assert.equal(new Set(production.map(r=>r.id)).size,76);
+  assert.equal(new Set(rows.map(r=>r.file)).size,137);
+  assert.equal(new Set(production.map(r=>r.id)).size,122);
   const checked=[],prompts=read(manifest.prompts).jobs;
   for(const row of rows){
     const file=path.resolve(dir,row.file);
@@ -71,6 +71,8 @@ async function main(){
   }
   const details=read('detail-production-plan.json');assert.equal(details.jobs.length,8);assert.equal(details.count,42);assert(details.jobs.every(j=>j.status==='exported'));
   assert.deepEqual([...details.exportedAssets].sort(),production.filter(r=>r.detailSet==='district-detail-v2').map(r=>r.id).sort());
+  const visual=read('visual-v5-production-plan.json');assert.equal(visual.count,46);assert.equal(visual.referenceCount,8);assert.equal(visual.jobs.length,22);assert(visual.jobs.every(j=>j.status==='exported'));
+  assert.deepEqual([...visual.exports].sort(),production.filter(r=>r.visualPass==='dense-v5').map(r=>r.id).sort());
   const layout=read('layout.json');
   assert.equal(layout.scalePlan.relativeAreaTarget,2);
   assert.equal(layout.sectors.length,8);
@@ -82,7 +84,7 @@ async function main(){
   const html=fs.readFileSync(path.join(dir,'textures.html'),'utf8');
   for(const row of production)assert(html.includes('data-id="'+row.id+'"'),'Missing gallery card');
   for(const file of ['review/terrain-repeat-contact.png','review/sprite-contact.png'])assert(fs.existsSync(path.join(dir,file)));
-  const report={passed:true,individualProductionImages:production.length,newExports:plan.jobs.length+details.count,detailVariants:details.count,detailGenerationSheets:details.jobs.length,surfaceTiles:production.filter(r=>r.kind==='tile').length,isolatedSprites:production.filter(r=>r.kind==='sprite').length,newWorldEntities:manifest.entities.length,sectorPalettes:palettes.sectors.length,canonicalReferencesVerified:true,seamDiagnosticsPassed:true,strictSeamlessVerified:false,runtimeIntegrated:!!manifest.runtime?.integrated,checked};
+  const report={passed:true,individualProductionImages:production.length,newExports:plan.jobs.length+details.count+visual.count,visualV5Variants:visual.count,visualV5References:visual.referenceCount,detailVariants:details.count,detailGenerationSheets:details.jobs.length,surfaceTiles:production.filter(r=>r.kind==='tile').length,isolatedSprites:production.filter(r=>r.kind==='sprite').length,newWorldEntities:manifest.entities.length,sectorPalettes:palettes.sectors.length,canonicalReferencesVerified:true,seamDiagnosticsPassed:true,strictSeamlessVerified:false,runtimeIntegrated:!!manifest.runtime?.integrated,checked};
   fs.writeFileSync(path.join(dir,'validation-report.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({...report,checked:undefined}));
 }

@@ -67,9 +67,53 @@
     "world/garden_bed": {
       "pack": "northern-dachas-v1",
       "id": "garden_bed"
+    },
+    "world/playground_swing": {
+      "pack": "northern-dachas-v1",
+      "id": "playground-swing"
+    },
+    "world/playground_slide": {
+      "pack": "northern-dachas-v1",
+      "id": "playground-slide"
+    },
+    "world/playground_roundabout": {
+      "pack": "northern-dachas-v1",
+      "id": "playground-roundabout"
+    },
+    "world/ladder": {
+      "pack": "northern-dachas-v1",
+      "id": "ladder-orchard"
+    },
+    "world/boiler": {
+      "pack": "northern-dachas-v1",
+      "id": "boiler-rusty"
+    },
+    "world/water_tank": {
+      "pack": "northern-dachas-v1",
+      "id": "water-tank"
+    },
+    "world/wheelbarrow": {
+      "pack": "northern-dachas-v1",
+      "id": "wheelbarrow"
+    },
+    "world/tire_stack": {
+      "pack": "northern-dachas-v1",
+      "id": "tire-stack"
+    },
+    "world/plant_pots": {
+      "pack": "northern-dachas-v1",
+      "id": "plant-pots"
     }
   },
   "styleVariantManifests": {
     "northern-dachas-v1": "assets/northern-dachas-v1/manifest.json"
-  }
+  },
+  "designReferenceCopies": [
+    {
+      "owner": "assets/northern-dachas-v1/review/runtime-street-v040.png",
+      "references": [
+        "docs/images/northern-dachas-street.png"
+      ]
+    }
+  ]
 }

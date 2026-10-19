@@ -3,7 +3,7 @@
   "style": "northern-dachas-realistic-v1",
   "role": "style-variants-of-existing-canonical-entities",
   "tool": "built-in image_gen",
-  "status": "integrated-district-sunlight-and-details",
+  "status": "dense-visual-pass-v5",
   "baseMap": "assets/northern-dachas-v1/references/00-world-ring.png",
   "prompts": "prompts.json",
   "bindings": [
@@ -2106,6 +2106,1183 @@
         "runtimeBlendRequired": true,
         "review": "review/detail-contact.png"
       }
+    },
+    {
+      "id": "fence-plane-wood",
+      "title": "Деревянный забор · плоская секция",
+      "canonicalId": "world/fence_wood",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_wood"
+      },
+      "kind": "sprite",
+      "category": "fence-plane",
+      "file": "visual-v5/fence-plane-wood.png",
+      "transparent": true,
+      "width": 737,
+      "height": 452,
+      "sha256": "1ebffe8f3faf255732e0727415c33053939db6853bfa2708fdce364dc559bbb8",
+      "source": "sources/visual-v5/fence-planes.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "47999f99acfb8e5bacccd414c56102ae22e84b30202739b7bf6251acab951639"
+      },
+      "visualPass": "dense-v5",
+      "variant": "fence-plane-wood",
+      "atlasCrop": {
+        "left": 27,
+        "top": 27,
+        "width": 721,
+        "height": 436
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fence-plane-patched",
+      "title": "Забор с заплатами · плоская секция",
+      "canonicalId": "world/fence_wood",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_wood"
+      },
+      "kind": "sprite",
+      "category": "fence-plane",
+      "file": "visual-v5/fence-plane-patched.png",
+      "transparent": true,
+      "width": 719,
+      "height": 412,
+      "sha256": "8199692936ec4f28b3b677a45e34af922a92b84647dfc2e4dea8d6a2cfb2b74b",
+      "source": "sources/visual-v5/fence-planes.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "47999f99acfb8e5bacccd414c56102ae22e84b30202739b7bf6251acab951639"
+      },
+      "visualPass": "dense-v5",
+      "variant": "fence-plane-patched",
+      "atlasCrop": {
+        "left": 800,
+        "top": 66,
+        "width": 703,
+        "height": 396
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fence-plane-mesh",
+      "title": "Сетчатый забор · плоская секция",
+      "canonicalId": "world/fence_mesh",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_mesh"
+      },
+      "kind": "sprite",
+      "category": "fence-plane",
+      "file": "visual-v5/fence-plane-mesh.png",
+      "transparent": true,
+      "width": 725,
+      "height": 465,
+      "sha256": "b45ebadb37b023a19a5389e0dfa1951ad184e41c8e9acf66d63b8adc377071cf",
+      "source": "sources/visual-v5/fence-planes.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "47999f99acfb8e5bacccd414c56102ae22e84b30202739b7bf6251acab951639"
+      },
+      "visualPass": "dense-v5",
+      "variant": "fence-plane-mesh",
+      "atlasCrop": {
+        "left": 34,
+        "top": 515,
+        "width": 709,
+        "height": 449
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "gate-plane",
+      "title": "Ворота · плоская секция",
+      "canonicalId": "world/gate",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "gate"
+      },
+      "kind": "sprite",
+      "category": "fence-plane",
+      "file": "visual-v5/gate-plane.png",
+      "transparent": true,
+      "width": 740,
+      "height": 469,
+      "sha256": "22e8daff0deb09614b10d3fce2d543f8311cff802cb91a7b24078fccc753f8ed",
+      "source": "sources/visual-v5/fence-planes.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "47999f99acfb8e5bacccd414c56102ae22e84b30202739b7bf6251acab951639"
+      },
+      "visualPass": "dense-v5",
+      "variant": "gate-plane",
+      "atlasCrop": {
+        "left": 788,
+        "top": 512,
+        "width": 724,
+        "height": 453
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "birch-rich",
+      "title": "Густая зелёная берёза",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/birch-rich.png",
+      "transparent": true,
+      "width": 571,
+      "height": 599,
+      "sha256": "94e8751068f0ae36f5553d8821c58586b074d4f5f59c7f660c796eb697fa476f",
+      "source": "sources/visual-v5/canopy-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "a42c726b8f72bc65e61ee2d6a5bfd057d8b024a6a39cf9ae6ae13859bea9bb69"
+      },
+      "visualPass": "dense-v5",
+      "variant": "birch-rich",
+      "atlasCrop": {
+        "left": 58,
+        "top": 35,
+        "width": 555,
+        "height": 583
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "spruce-rich",
+      "title": "Густая изумрудная ель",
+      "canonicalId": "world/tree_conifer",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_conifer"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/spruce-rich.png",
+      "transparent": true,
+      "width": 494,
+      "height": 608,
+      "sha256": "e3f8dd54a4d350d8da19052766d486df6a6c5180a45ed8dc4f699a8a4ceb8cea",
+      "source": "sources/visual-v5/canopy-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "a42c726b8f72bc65e61ee2d6a5bfd057d8b024a6a39cf9ae6ae13859bea9bb69"
+      },
+      "visualPass": "dense-v5",
+      "variant": "spruce-rich",
+      "atlasCrop": {
+        "left": 740,
+        "top": 29,
+        "width": 478,
+        "height": 592
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "apple-rich",
+      "title": "Густая яблоня",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/apple-rich.png",
+      "transparent": true,
+      "width": 616,
+      "height": 547,
+      "sha256": "f7a6f3471aa6286b53e206a698c23d646d0e3650ee8940970b6c045c6b018b36",
+      "source": "sources/visual-v5/canopy-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "a42c726b8f72bc65e61ee2d6a5bfd057d8b024a6a39cf9ae6ae13859bea9bb69"
+      },
+      "visualPass": "dense-v5",
+      "variant": "apple-rich",
+      "atlasCrop": {
+        "left": 38,
+        "top": 679,
+        "width": 600,
+        "height": 531
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "birch-gold-rich",
+      "title": "Зелёно-золотая берёза",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/birch-gold-rich.png",
+      "transparent": true,
+      "width": 551,
+      "height": 574,
+      "sha256": "b9a99cea259cefde07cfc6adf5cc0d3bb8ffe1705a3b495014862ebca6199347",
+      "source": "sources/visual-v5/canopy-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "a42c726b8f72bc65e61ee2d6a5bfd057d8b024a6a39cf9ae6ae13859bea9bb69"
+      },
+      "visualPass": "dense-v5",
+      "variant": "birch-gold-rich",
+      "atlasCrop": {
+        "left": 692,
+        "top": 659,
+        "width": 535,
+        "height": 558
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "thicket-bramble",
+      "title": "Сплошной подлесок · ежевика",
+      "canonicalId": "world/bush_large",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_large"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/thicket-bramble.png",
+      "transparent": true,
+      "width": 775,
+      "height": 505,
+      "sha256": "3f28da20045d2d6c885d2067d87b37d5bd9a34fea74693af8a29646599ec84f6",
+      "source": "sources/visual-v5/thickets-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "01ac5b28368728f02423db0a9b1962c3db1a4ed6c700434b376629d020294472"
+      },
+      "visualPass": "dense-v5",
+      "variant": "thicket-bramble",
+      "atlasCrop": {
+        "left": 24,
+        "top": 15,
+        "width": 759,
+        "height": 489
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "thicket-fern",
+      "title": "Сплошной подлесок · папоротник",
+      "canonicalId": "world/bush_large",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_large"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/thicket-fern.png",
+      "transparent": true,
+      "width": 744,
+      "height": 496,
+      "sha256": "f37811cf00ea12908756e621b147cedda4de29cfedd187b0222a99558b4d4e2e",
+      "source": "sources/visual-v5/thickets-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "01ac5b28368728f02423db0a9b1962c3db1a4ed6c700434b376629d020294472"
+      },
+      "visualPass": "dense-v5",
+      "variant": "thicket-fern",
+      "atlasCrop": {
+        "left": 795,
+        "top": 23,
+        "width": 728,
+        "height": 480
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "thicket-flower",
+      "title": "Сплошной подлесок · цветы",
+      "canonicalId": "world/bush_large",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_large"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/thicket-flower.png",
+      "transparent": true,
+      "width": 763,
+      "height": 512,
+      "sha256": "bf8c88da0dabdbc424f14e8c31434a4a175cc73ccabe74430c0213c0d86fdb66",
+      "source": "sources/visual-v5/thickets-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "01ac5b28368728f02423db0a9b1962c3db1a4ed6c700434b376629d020294472"
+      },
+      "visualPass": "dense-v5",
+      "variant": "thicket-flower",
+      "atlasCrop": {
+        "left": 24,
+        "top": 513,
+        "width": 747,
+        "height": 496
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "thicket-sapling",
+      "title": "Сплошной подлесок · молодые деревья",
+      "canonicalId": "world/bush_large",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_large"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/thicket-sapling.png",
+      "transparent": true,
+      "width": 738,
+      "height": 529,
+      "sha256": "d407da8770358fb740589105db207e3e2912510586a1792c8e37eb8d425abe3c",
+      "source": "sources/visual-v5/thickets-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "01ac5b28368728f02423db0a9b1962c3db1a4ed6c700434b376629d020294472"
+      },
+      "visualPass": "dense-v5",
+      "variant": "thicket-sapling",
+      "atlasCrop": {
+        "left": 801,
+        "top": 496,
+        "width": 722,
+        "height": 513
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-green",
+      "title": "Свежая луговая трава",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-green.png",
+      "transparent": true,
+      "width": 345,
+      "height": 389,
+      "sha256": "cc337966ba3adef3d259629f1b8c21f39f793a16684da4fab52aaebf4d6353fa",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-green",
+      "atlasCrop": {
+        "left": 36,
+        "top": 63,
+        "width": 329,
+        "height": 373
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-yellow",
+      "title": "Жёлтые луговые цветы",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-yellow.png",
+      "transparent": true,
+      "width": 330,
+      "height": 387,
+      "sha256": "d02d20db2cdaad28edb78f5af1ecbbc347084568a4ca4e3b265f2218970820e1",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-yellow",
+      "atlasCrop": {
+        "left": 428,
+        "top": 62,
+        "width": 314,
+        "height": 371
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-white",
+      "title": "Белые луговые цветы",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-white.png",
+      "transparent": true,
+      "width": 322,
+      "height": 380,
+      "sha256": "f3aa50b3b84e8707dd4bcac7f1d802e306688d9d077ba822451ad65ed1917519",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-white",
+      "atlasCrop": {
+        "left": 807,
+        "top": 81,
+        "width": 306,
+        "height": 364
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-nettle",
+      "title": "Крапива и сорняки",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-nettle.png",
+      "transparent": true,
+      "width": 327,
+      "height": 378,
+      "sha256": "39f54a8f73b7c61bc4898c283db9dfb633d3f300d3c61d06dea7559fe51b50de",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-nettle",
+      "atlasCrop": {
+        "left": 1190,
+        "top": 79,
+        "width": 311,
+        "height": 362
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-clover",
+      "title": "Папоротник и клевер",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-clover.png",
+      "transparent": true,
+      "width": 330,
+      "height": 398,
+      "sha256": "3ab4bdac08e08915325e5179e5ddbed5260a79c3b9c507c6d2ee94328769b514",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-clover",
+      "atlasCrop": {
+        "left": 39,
+        "top": 549,
+        "width": 314,
+        "height": 382
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-violet",
+      "title": "Фиолетовые луговые цветы",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-violet.png",
+      "transparent": true,
+      "width": 340,
+      "height": 386,
+      "sha256": "54ad5a87ee672ec277607da7c6f8277f8398daf4ab0b000f77177e0726ff62ec",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-violet",
+      "atlasCrop": {
+        "left": 419,
+        "top": 560,
+        "width": 324,
+        "height": 370
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-golden",
+      "title": "Золотые колосья",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-golden.png",
+      "transparent": true,
+      "width": 337,
+      "height": 401,
+      "sha256": "5c69641aacc7a3bea9648e45ceed64803bdecf33f14aed83b466488cbf8e1d4f",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-golden",
+      "atlasCrop": {
+        "left": 794,
+        "top": 543,
+        "width": 321,
+        "height": 385
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-reeds",
+      "title": "Камыш и рогоз",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/grass-reeds.png",
+      "transparent": true,
+      "width": 352,
+      "height": 405,
+      "sha256": "7cc183e3533ceab3171624c7622836925da743db51522eafb23b8247d2f05067",
+      "source": "sources/visual-v5/meadow-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-reeds",
+      "atlasCrop": {
+        "left": 1169,
+        "top": 539,
+        "width": 336,
+        "height": 389
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "gas-cylinders",
+      "title": "Баллоны и ведро",
+      "canonicalId": "world/container",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "container"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/gas-cylinders.png",
+      "transparent": true,
+      "width": 340,
+      "height": 480,
+      "sha256": "8705a6321c4e30c52da0d0bf43855dad37c2a9bb2ac69363e37dd2d2ddf29f43",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "gas-cylinders",
+      "atlasCrop": {
+        "left": 30,
+        "top": 506,
+        "width": 324,
+        "height": 464
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "compost-box",
+      "title": "Компостный ящик",
+      "canonicalId": "world/container",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "container"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/compost-box.png",
+      "transparent": true,
+      "width": 406,
+      "height": 460,
+      "sha256": "f1fdfd78eed178fb84c468b6b827cc1edc0ec551372471890a03586147673f8a",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "compost-box",
+      "atlasCrop": {
+        "left": 762,
+        "top": 522,
+        "width": 390,
+        "height": 444
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "tool-rack",
+      "title": "Стойка с садовым инструментом",
+      "canonicalId": "world/shelves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "shelves"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/tool-rack.png",
+      "transparent": true,
+      "width": 376,
+      "height": 481,
+      "sha256": "be2503520e58eda032531b6b99ec1e9769b03034ade27742555a7e47a66ff651",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "tool-rack",
+      "atlasCrop": {
+        "left": 1165,
+        "top": 511,
+        "width": 360,
+        "height": 465
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "car-sedan",
+      "title": "Брошенный седан",
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/car-sedan.png",
+      "transparent": true,
+      "width": 725,
+      "height": 477,
+      "sha256": "b7af56e7a67a2498d8c99e3c11e0d436336e9e2b9d5e327bfbeb8a826b01e43d",
+      "source": "sources/visual-v5/vehicles-varied.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3b4e9a68ec950c6ae86d9ba5cffcb00e3e2959cddd2f8541ef94c805fa3b7ac0"
+      },
+      "visualPass": "dense-v5",
+      "variant": "car-sedan",
+      "atlasCrop": {
+        "left": 24,
+        "top": 21,
+        "width": 709,
+        "height": 461
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "van-blue",
+      "title": "Брошенный синий фургон",
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/van-blue.png",
+      "transparent": true,
+      "width": 720,
+      "height": 526,
+      "sha256": "16d6d2be7c5915acb692c48f19e0c717878ffa47e744df761946f7865f532620",
+      "source": "sources/visual-v5/vehicles-varied.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3b4e9a68ec950c6ae86d9ba5cffcb00e3e2959cddd2f8541ef94c805fa3b7ac0"
+      },
+      "visualPass": "dense-v5",
+      "variant": "van-blue",
+      "atlasCrop": {
+        "left": 805,
+        "top": 9,
+        "width": 704,
+        "height": 510
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "truck-flatbed",
+      "title": "Брошенный бортовой грузовик",
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/truck-flatbed.png",
+      "transparent": true,
+      "width": 831,
+      "height": 562,
+      "sha256": "b141d96da13dfdd7b03e5b0abda94e0434a2c0c91294addd2b43b8ee4fa44dd8",
+      "source": "sources/visual-v5/vehicles-varied.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3b4e9a68ec950c6ae86d9ba5cffcb00e3e2959cddd2f8541ef94c805fa3b7ac0"
+      },
+      "visualPass": "dense-v5",
+      "variant": "truck-flatbed",
+      "atlasCrop": {
+        "left": 11,
+        "top": 450,
+        "width": 815,
+        "height": 546
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "pickup-red",
+      "title": "Брошенный красный пикап",
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/pickup-red.png",
+      "transparent": true,
+      "width": 772,
+      "height": 457,
+      "sha256": "4d35107a1d458537820f265ad45e956c625bfbdd32c093a90d34249ae44c85af",
+      "source": "sources/visual-v5/vehicles-varied.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3b4e9a68ec950c6ae86d9ba5cffcb00e3e2959cddd2f8541ef94c805fa3b7ac0"
+      },
+      "visualPass": "dense-v5",
+      "variant": "pickup-red",
+      "atlasCrop": {
+        "left": 773,
+        "top": 546,
+        "width": 756,
+        "height": 441
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "cottage-rich-grey",
+      "title": "Заросшая серая дача",
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/cottage-rich-grey.png",
+      "transparent": true,
+      "width": 767,
+      "height": 574,
+      "sha256": "62f994e2c8e756fd773561ec057baa4ac6748b0d833e7099ae1eb9e9c5dfdc29",
+      "source": "sources/visual-v5/cottages-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d9579455bfa84cb0edc51fc92d45c638e30fb300146dfbead7023e1e1a0ddc30"
+      },
+      "visualPass": "dense-v5",
+      "variant": "cottage-rich-grey",
+      "atlasCrop": {
+        "left": 21,
+        "top": 6,
+        "width": 751,
+        "height": 558
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "cottage-rich-blue",
+      "title": "Заросшая синяя дача",
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/cottage-rich-blue.png",
+      "transparent": true,
+      "width": 742,
+      "height": 560,
+      "sha256": "83bec9e803adc72af3b5a7c475385fa38bc6330d94352e55be3898fafd8be519",
+      "source": "sources/visual-v5/cottages-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d9579455bfa84cb0edc51fc92d45c638e30fb300146dfbead7023e1e1a0ddc30"
+      },
+      "visualPass": "dense-v5",
+      "variant": "cottage-rich-blue",
+      "atlasCrop": {
+        "left": 802,
+        "top": 26,
+        "width": 726,
+        "height": 544
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "greenhouse-rich",
+      "title": "Заросшая стеклянная теплица",
+      "canonicalId": "world/greenhouse",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "greenhouse"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/greenhouse-rich.png",
+      "transparent": true,
+      "width": 791,
+      "height": 529,
+      "sha256": "1663cf6fd5c242e5a1f39768660df56dd526ff1f2be5047dd373b9bafc26d17e",
+      "source": "sources/visual-v5/cottages-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d9579455bfa84cb0edc51fc92d45c638e30fb300146dfbead7023e1e1a0ddc30"
+      },
+      "visualPass": "dense-v5",
+      "variant": "greenhouse-rich",
+      "atlasCrop": {
+        "left": 8,
+        "top": 505,
+        "width": 775,
+        "height": 513
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "shed-rich",
+      "title": "Сарай с хозяйственным навесом",
+      "canonicalId": "world/garage",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "garage"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/shed-rich.png",
+      "transparent": true,
+      "width": 740,
+      "height": 483,
+      "sha256": "7893908292530c9029b14834a16b009580e4fcea7cb50bc155cba2bb0f163484",
+      "source": "sources/visual-v5/cottages-rich.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d9579455bfa84cb0edc51fc92d45c638e30fb300146dfbead7023e1e1a0ddc30"
+      },
+      "visualPass": "dense-v5",
+      "variant": "shed-rich",
+      "atlasCrop": {
+        "left": 801,
+        "top": 538,
+        "width": 724,
+        "height": 467
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "grass-rich",
+      "title": "Насыщенный луговой грунт",
+      "canonicalId": "world/grass_short",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_short"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/grass-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "9f472c002ef0cc2eb44e994aa8c99331a132e8020c4aa302c85acff39d0e9df4",
+      "source": "sources/visual-v5/grass-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "cf18e10efc3c3684d08fec383cf75334f27e17bd2a4fb956a16db4e94d6801fc"
+      },
+      "visualPass": "dense-v5",
+      "variant": "grass-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 32.817708333333336,
+          "edgeMeanY": 29.595703125,
+          "neighborMeanX": 31.714112442922374,
+          "neighborMeanY": 28.83767148768754,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
+    },
+    {
+      "id": "path-rich",
+      "title": "Земля тропинок",
+      "canonicalId": "world/soil",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "soil"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/path-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "3be29a4bb83d1cf81899c836003f927b31b64903f2975d1f7d5e1f77ef360792",
+      "source": "sources/visual-v5/path-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "54dcd493b3fe988e1c96c3d1aea2f1ab24ca0377cb0aa43d5b476f092368d156"
+      },
+      "visualPass": "dense-v5",
+      "variant": "path-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 24.484375,
+          "edgeMeanY": 26.513671875,
+          "neighborMeanX": 25.391302796803654,
+          "neighborMeanY": 25.32980547741357,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
+    },
+    {
+      "id": "forest-rich",
+      "title": "Мох и лесная подстилка",
+      "canonicalId": "world/forest_path",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "forest_path"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/forest-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "1e7172bf2419bcba1175e6c17d1670eb16203632e2c263992d35630920d0d745",
+      "source": "sources/visual-v5/forest-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "53a37741eb616c0afe0b53ba536c685f73e6cf57476fbafca8928f009e530d59"
+      },
+      "visualPass": "dense-v5",
+      "variant": "forest-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 27.470703125,
+          "edgeMeanY": 27.007161458333332,
+          "neighborMeanX": 23.11477316740052,
+          "neighborMeanY": 23.54276617539139,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
+    },
+    {
+      "id": "mud-rich",
+      "title": "Влажная садовая земля",
+      "canonicalId": "world/mud",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "mud"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/mud-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "f280a1cef3e4f458342c17cee3bce5dfffba40ace4095b5abc3ecb446882dbea",
+      "source": "sources/visual-v5/mud-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "0f3a422dfba77b532cb38e43ecb71d44810c622f8bf53258c582066e118644a5"
+      },
+      "visualPass": "dense-v5",
+      "variant": "mud-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 26.529947916666668,
+          "edgeMeanY": 26.388671875,
+          "neighborMeanX": 24.798108284409654,
+          "neighborMeanY": 25.207595655984996,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
+    },
+    {
+      "id": "gravel-rich",
+      "title": "Смешанный гравий",
+      "canonicalId": "world/gravel",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "gravel"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/gravel-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "0e980cf6447ad6fbf802d30d6aad95f435b2b9393ea5defd927b2fcc58c7fd65",
+      "source": "sources/visual-v5/gravel-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "780d26dedfac9d726d64a3ccd6f788be76543ae29b8553b902c2f969dae997a0"
+      },
+      "visualPass": "dense-v5",
+      "variant": "gravel-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 29.983723958333332,
+          "edgeMeanY": 32.448567708333336,
+          "neighborMeanX": 27.695966089774952,
+          "neighborMeanY": 27.58342379117743,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
+    },
+    {
+      "id": "water-rich",
+      "title": "Мелкая спокойная вода",
+      "canonicalId": "world/water",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "water"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/water-rich.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "6c25868975c765c67572a714aa8a2716770c19c9cc56b2255e10b0f2af22b9c6",
+      "source": "sources/visual-v5/water-rich.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "9ffb6b2f61ddfb31522073572605f2f956a398c65ad8ca2f0cbdaede7c54801f"
+      },
+      "visualPass": "dense-v5",
+      "variant": "water-rich",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 18.375,
+          "edgeMeanY": 15.41015625,
+          "neighborMeanX": 14.639223540443576,
+          "neighborMeanY": 16.083045397097194,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/visual-v5-contact.png"
+      }
     }
   ],
   "references": [
@@ -2171,6 +3348,86 @@
       "width": 1672,
       "height": 941,
       "sha256": "cbd79a82518451450003d3c705cfb3ec88081bdcdcb8c09db5e735e76ff8b5b7"
+    },
+    {
+      "id": "v5-north-plots",
+      "file": "references/v5-north-plots.png",
+      "title": "Северные участки",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fe5ee3347b3052e4f633ba475198b611152ccd23c99944c669022ebfe8f089bd"
+    },
+    {
+      "id": "v5-birch-street",
+      "file": "references/v5-birch-street.png",
+      "title": "Берёзовая улица",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5f599d90ce88f383aa5e58a3bb6063c2d0b39972fd69b8769e072bb0290c6795"
+    },
+    {
+      "id": "v5-old-dachas",
+      "file": "references/v5-old-dachas.png",
+      "title": "Старые дачи",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "45164a890f581c0b0b7b7fedb646e0307dcd60a2ec4e1d7487939d3542405a0a"
+    },
+    {
+      "id": "v5-apple-orchards",
+      "file": "references/v5-apple-orchards.png",
+      "title": "Яблоневые сады",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7eaa7c3235773227b74ba0cbe519eb2b463ddf621e3534079ad88aa44c6d4066"
+    },
+    {
+      "id": "v5-abandoned-plots",
+      "file": "references/v5-abandoned-plots.png",
+      "title": "Заброшенные участки",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1aef0bbde813e2a4e5adcc03c89ff6b5ca5e8df25c6815523312297054d7c5ff"
+    },
+    {
+      "id": "v5-dacha-sheds",
+      "file": "references/v5-dacha-sheds.png",
+      "title": "Дачные сараи",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e130626bf585469b0a9f11b55b9ba5e02f83540d6668bbe4089e0656a44f33b0"
+    },
+    {
+      "id": "v5-south-entry",
+      "file": "references/v5-south-entry.png",
+      "title": "Южный въезд",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6692611a28b4dbff8967a1ba952e47a6b28f198aab5a8e5c6c1a7578fa1abc2f"
+    },
+    {
+      "id": "v5-greenhouse-sector",
+      "file": "references/v5-greenhouse-sector.png",
+      "title": "Тепличный сектор",
+      "role": "design-reference",
+      "visualPass": "dense-v5",
+      "width": 1672,
+      "height": 941,
+      "sha256": "059e530b5aa2add51fa001b9945369fe373e8b9f3ca1d030c0b6db18180aaedb"
     }
   ],
   "notes": [
@@ -2248,6 +3505,285 @@
         "height": 1024,
         "sha256": "5f68e40e43988fcee304842f2a0e58dcf1d541e9d9372bc2010e8a12e70bb2f8"
       }
+    },
+    {
+      "id": "playground-swing",
+      "title": "Дачные качели",
+      "canonicalId": "world/playground_swing",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-swing"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/playground-swing.png",
+      "transparent": true,
+      "width": 558,
+      "height": 495,
+      "sha256": "0e1865a4f471ba6a5918e6a470089a3ad80c359b32ec6640a674ccab6f0456c6",
+      "source": "sources/visual-v5/playground-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ee2243e28a5d052f401108b0dea6416b94906359494669f55351b99d05f0ebbe"
+      },
+      "visualPass": "dense-v5",
+      "variant": "playground-swing",
+      "atlasCrop": {
+        "left": 167,
+        "top": 20,
+        "width": 542,
+        "height": 479
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "playground-slide",
+      "title": "Дачная горка",
+      "canonicalId": "world/playground_slide",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-slide"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/playground-slide.png",
+      "transparent": true,
+      "width": 586,
+      "height": 507,
+      "sha256": "acb608a454b64b1db4d8337e9a73871e27cb363586db3055990a7c41fdf876a4",
+      "source": "sources/visual-v5/playground-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ee2243e28a5d052f401108b0dea6416b94906359494669f55351b99d05f0ebbe"
+      },
+      "visualPass": "dense-v5",
+      "variant": "playground-slide",
+      "atlasCrop": {
+        "left": 886,
+        "top": 4,
+        "width": 570,
+        "height": 491
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "playground-roundabout",
+      "title": "Старая карусель",
+      "canonicalId": "world/playground_roundabout",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-roundabout"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/playground-roundabout.png",
+      "transparent": true,
+      "width": 640,
+      "height": 404,
+      "sha256": "2f51ac82e4c96ba35f0b4f062b7d025481115e73df3914a4822b188a8278753e",
+      "source": "sources/visual-v5/playground-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ee2243e28a5d052f401108b0dea6416b94906359494669f55351b99d05f0ebbe"
+      },
+      "visualPass": "dense-v5",
+      "variant": "playground-roundabout",
+      "atlasCrop": {
+        "left": 124,
+        "top": 555,
+        "width": 624,
+        "height": 388
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "ladder-orchard",
+      "title": "Садовая лестница",
+      "canonicalId": "world/ladder",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "ladder-orchard"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/ladder-orchard.png",
+      "transparent": true,
+      "width": 304,
+      "height": 520,
+      "sha256": "786f24a5f155c2bd14cc3caba785b7e6bbb177cd26b38dda8c11906f9d03a830",
+      "source": "sources/visual-v5/playground-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ee2243e28a5d052f401108b0dea6416b94906359494669f55351b99d05f0ebbe"
+      },
+      "visualPass": "dense-v5",
+      "variant": "ladder-orchard",
+      "atlasCrop": {
+        "left": 1013,
+        "top": 487,
+        "width": 288,
+        "height": 504
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "boiler-rusty",
+      "title": "Ржавый бойлер",
+      "canonicalId": "world/boiler",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "boiler-rusty"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/boiler-rusty.png",
+      "transparent": true,
+      "width": 292,
+      "height": 505,
+      "sha256": "e44c463a6c399f40d80e40ff347e2ea36f2bbfaefef27543ea4cd7ac3f6d2bb5",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "boiler-rusty",
+      "atlasCrop": {
+        "left": 51,
+        "top": 10,
+        "width": 276,
+        "height": 489
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "water-tank",
+      "title": "Садовая ёмкость для воды",
+      "canonicalId": "world/water_tank",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "water-tank"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/water-tank.png",
+      "transparent": true,
+      "width": 415,
+      "height": 484,
+      "sha256": "d468d0fb327989cbcbe33a039183e1f5bd69e545d5cba3060ace15113875958d",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "water-tank",
+      "atlasCrop": {
+        "left": 358,
+        "top": 31,
+        "width": 399,
+        "height": 468
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "wheelbarrow",
+      "title": "Садовая тачка",
+      "canonicalId": "world/wheelbarrow",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "wheelbarrow"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/wheelbarrow.png",
+      "transparent": true,
+      "width": 457,
+      "height": 446,
+      "sha256": "7e8ec1ddf6fbef5910c03c061389f6da5195ec3ada4a2f1275a9385dfe73cf21",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "wheelbarrow",
+      "atlasCrop": {
+        "left": 777,
+        "top": 61,
+        "width": 441,
+        "height": 430
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "tire-stack",
+      "title": "Заросшие шины",
+      "canonicalId": "world/tire_stack",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "tire-stack"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/tire-stack.png",
+      "transparent": true,
+      "width": 372,
+      "height": 411,
+      "sha256": "3cc504d3dc02f46949a43e8d771fa4c77c2340835dccfe87e3fce12bcbf18933",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "tire-stack",
+      "atlasCrop": {
+        "left": 1169,
+        "top": 85,
+        "width": 356,
+        "height": 395
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "plant-pots",
+      "title": "Горшки и рассада",
+      "canonicalId": "world/plant_pots",
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "plant-pots"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "visual-v5/plant-pots.png",
+      "transparent": true,
+      "width": 362,
+      "height": 452,
+      "sha256": "8318f4123beaf9e418396806f6d3bc94fe9385273d864d758731640806312ae5",
+      "source": "sources/visual-v5/hardware-props.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+      },
+      "visualPass": "dense-v5",
+      "variant": "plant-pots",
+      "atlasCrop": {
+        "left": 388,
+        "top": 530,
+        "width": 346,
+        "height": 436
+      },
+      "atlasExtraction": "alpha-island"
     }
   ],
   "productionPlan": "production-plan.json",
@@ -2259,7 +3795,11 @@
     "interiors": false,
     "lighting": "desktop/northern-dachas-lighting.mjs",
     "staticSun": true,
-    "detailAssets": 42
+    "detailAssets": 88,
+    "visualVersion": "0.5.0",
+    "fenceProjection": "continuous-vertical-plane",
+    "sectorVisualTargets": 8
   },
-  "detailProductionPlan": "detail-production-plan.json"
+  "detailProductionPlan": "detail-production-plan.json",
+  "visualProductionPlan": "visual-v5-production-plan.json"
 }

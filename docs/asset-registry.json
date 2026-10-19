@@ -109,7 +109,7 @@
       "role": "game-style-variant"
     }
   ],
-  "entityCount": 478,
+  "entityCount": 487,
   "aliases": {
     "item-visuals-v2/materials-planks": "item/resource-harvest-boards"
   },
@@ -534,6 +534,7 @@
     "environment-variants-v1/bench": "world/bench",
     "northern-dachas-v1/bench": "world/bench",
     "environment-variants-v1/boarded_passage": "world/boarded_passage",
+    "northern-dachas-v1/boiler-rusty": "world/boiler",
     "environment-variants-v1/branches": "world/branches",
     "environment-variants-v1/branches_sway": "world/branches_sway",
     "environment-variants-v1/break_boards": "world/break_boards",
@@ -543,6 +544,10 @@
     "environment-variants-v1/bush_dry": "world/bush_dry",
     "environment-variants-v1/bush_large": "world/bush_large",
     "northern-dachas-v1/bramble": "world/bush_large",
+    "northern-dachas-v1/thicket-bramble": "world/bush_large",
+    "northern-dachas-v1/thicket-fern": "world/bush_large",
+    "northern-dachas-v1/thicket-flower": "world/bush_large",
+    "northern-dachas-v1/thicket-sapling": "world/bush_large",
     "item-visuals-v2/nature-bush": "world/bush_small",
     "environment-variants-v1/bush_small": "world/bush_small",
     "northern-dachas-v1/bush_small": "world/bush_small",
@@ -556,8 +561,14 @@
     "environment-variants-v1/car_abandoned": "world/car_abandoned",
     "northern-dachas-v1/car_abandoned": "world/car_abandoned",
     "northern-dachas-v1/truck-canvas": "world/car_abandoned",
+    "northern-dachas-v1/car-sedan": "world/car_abandoned",
+    "northern-dachas-v1/van-blue": "world/car_abandoned",
+    "northern-dachas-v1/truck-flatbed": "world/car_abandoned",
+    "northern-dachas-v1/pickup-red": "world/car_abandoned",
     "environment-variants-v1/car_wreck": "world/car_wreck",
     "environment-variants-v1/container": "world/container",
+    "northern-dachas-v1/gas-cylinders": "world/container",
+    "northern-dachas-v1/compost-box": "world/container",
     "item-visuals-v2/storage-crate": "world/crate",
     "environment-variants-v1/crate": "world/crate",
     "northern-dachas-v1/crate": "world/crate",
@@ -582,10 +593,13 @@
     "northern-dachas-v1/fallen-birch": "world/fallen_log",
     "environment-variants-v1/fence_mesh": "world/fence_mesh",
     "northern-dachas-v1/fence_mesh": "world/fence_mesh",
+    "northern-dachas-v1/fence-plane-mesh": "world/fence_mesh",
     "environment-variants-v1/fence_metal": "world/fence_metal",
     "environment-variants-v1/fence_wood": "world/fence_wood",
     "northern-dachas-v1/fence_wood": "world/fence_wood",
     "northern-dachas-v1/fence-broken": "world/fence_wood",
+    "northern-dachas-v1/fence-plane-wood": "world/fence_wood",
+    "northern-dachas-v1/fence-plane-patched": "world/fence_wood",
     "environment-variants-v1/fire": "world/fire",
     "environment-variants-v1/flashlight": "world/flashlight",
     "environment-variants-v1/floor_concrete": "world/floor_concrete",
@@ -597,6 +611,7 @@
     "environment-variants-v1/footstep_splash": "world/footstep_splash",
     "environment-variants-v1/forest_path": "world/forest_path",
     "northern-dachas-v1/forest-floor": "world/forest_path",
+    "northern-dachas-v1/forest-rich": "world/forest_path",
     "item-visuals-v2/hazards-fungal-growth": "world/fungal_cluster",
     "environment-variants-v1/fungal_cluster": "world/fungal_cluster",
     "northern-dachas-v1/fungal-stump": "world/fungal_cluster",
@@ -607,15 +622,18 @@
     "northern-dachas-v1/garage": "world/garage",
     "northern-dachas-v1/wood-shelter": "world/garage",
     "northern-dachas-v1/shed-workshop": "world/garage",
+    "northern-dachas-v1/shed-rich": "world/garage",
     "northern-dachas-v1/garden_bed": "world/garden_bed",
     "item-visuals-v2/openings-gate": "world/gate",
     "environment-variants-v1/gate": "world/gate",
     "northern-dachas-v1/gate": "world/gate",
+    "northern-dachas-v1/gate-plane": "world/gate",
     "environment-variants-v1/gate_open": "world/gate_open",
     "environment-variants-v1/glass_shards": "world/glass_shards",
     "northern-dachas-v1/glass-scatter": "world/glass_shards",
     "environment-variants-v1/grass_short": "world/grass_short",
     "northern-dachas-v1/grass_short": "world/grass_short",
+    "northern-dachas-v1/grass-rich": "world/grass_short",
     "environment-variants-v1/grass_sway": "world/grass_sway",
     "environment-variants-v1/grass_tall": "world/grass_tall",
     "northern-dachas-v1/grass_tall": "world/grass_tall",
@@ -623,9 +641,19 @@
     "northern-dachas-v1/meadow-yellow": "world/grass_tall",
     "northern-dachas-v1/reeds": "world/grass_tall",
     "northern-dachas-v1/fern": "world/grass_tall",
+    "northern-dachas-v1/grass-green": "world/grass_tall",
+    "northern-dachas-v1/grass-yellow": "world/grass_tall",
+    "northern-dachas-v1/grass-white": "world/grass_tall",
+    "northern-dachas-v1/grass-nettle": "world/grass_tall",
+    "northern-dachas-v1/grass-clover": "world/grass_tall",
+    "northern-dachas-v1/grass-violet": "world/grass_tall",
+    "northern-dachas-v1/grass-golden": "world/grass_tall",
+    "northern-dachas-v1/grass-reeds": "world/grass_tall",
     "environment-variants-v1/gravel": "world/gravel",
     "northern-dachas-v1/gravel": "world/gravel",
+    "northern-dachas-v1/gravel-rich": "world/gravel",
     "northern-dachas-v1/greenhouse": "world/greenhouse",
+    "northern-dachas-v1/greenhouse-rich": "world/greenhouse",
     "environment-variants-v1/hit_glass": "world/hit_glass",
     "environment-variants-v1/hit_soil": "world/hit_soil",
     "environment-variants-v1/hit_wood": "world/hit_wood",
@@ -636,10 +664,13 @@
     "northern-dachas-v1/cottage-collapsed": "world/house",
     "northern-dachas-v1/cottage-plaster": "world/house",
     "northern-dachas-v1/cottage-blue": "world/house",
+    "northern-dachas-v1/cottage-rich-grey": "world/house",
+    "northern-dachas-v1/cottage-rich-blue": "world/house",
     "environment-variants-v1/infected_floor": "world/infected_floor",
     "environment-variants-v1/infected_remains": "world/infected_remains",
     "environment-variants-v1/ivy": "world/ivy",
     "northern-dachas-v1/ivy-climbing": "world/ivy",
+    "northern-dachas-v1/ladder-orchard": "world/ladder",
     "environment-variants-v1/lamp_flicker": "world/lamp_flicker",
     "environment-variants-v1/leaves": "world/leaves",
     "northern-dachas-v1/leaf-litter": "world/leaves",
@@ -648,10 +679,15 @@
     "northern-dachas-v1/root-moss": "world/moss",
     "environment-variants-v1/mud": "world/mud",
     "northern-dachas-v1/mud": "world/mud",
+    "northern-dachas-v1/mud-rich": "world/mud",
     "environment-variants-v1/muzzle_flash": "world/muzzle_flash",
     "environment-variants-v1/night": "world/night",
     "environment-variants-v1/pallet": "world/pallet",
     "northern-dachas-v1/pallet-aged": "world/pallet",
+    "northern-dachas-v1/plant-pots": "world/plant_pots",
+    "northern-dachas-v1/playground-roundabout": "world/playground_roundabout",
+    "northern-dachas-v1/playground-slide": "world/playground_slide",
+    "northern-dachas-v1/playground-swing": "world/playground_swing",
     "environment-variants-v1/pothole": "world/pothole",
     "environment-variants-v1/puddle": "world/puddle",
     "northern-dachas-v1/puddle": "world/puddle",
@@ -680,12 +716,14 @@
     "environment-variants-v1/shell_casing": "world/shell_casing",
     "item-visuals-v2/furniture-shelving": "world/shelves",
     "environment-variants-v1/shelves": "world/shelves",
+    "northern-dachas-v1/tool-rack": "world/shelves",
     "environment-variants-v1/shop": "world/shop",
     "environment-variants-v1/sidewalk": "world/sidewalk",
     "environment-variants-v1/slats": "world/slats",
     "environment-variants-v1/smoke": "world/smoke",
     "environment-variants-v1/soil": "world/soil",
     "northern-dachas-v1/soil": "world/soil",
+    "northern-dachas-v1/path-rich": "world/soil",
     "item-visuals-v2/hazards-spore-source": "world/spore_source",
     "environment-variants-v1/spore_source": "world/spore_source",
     "environment-variants-v1/streetlamp": "world/streetlamp",
@@ -695,10 +733,12 @@
     "item-visuals-v2/furniture-table": "world/table",
     "environment-variants-v1/table": "world/table",
     "northern-dachas-v1/workbench-tools": "world/table",
+    "northern-dachas-v1/tire-stack": "world/tire_stack",
     "environment-variants-v1/trash_bin": "world/trash_bin",
     "environment-variants-v1/tree_conifer": "world/tree_conifer",
     "northern-dachas-v1/tree_conifer": "world/tree_conifer",
     "northern-dachas-v1/spruce-mature": "world/tree_conifer",
+    "northern-dachas-v1/spruce-rich": "world/tree_conifer",
     "environment-variants-v1/tree_dead": "world/tree_dead",
     "northern-dachas-v1/dead-tree": "world/tree_dead",
     "item-visuals-v2/nature-tree": "world/tree_deciduous",
@@ -708,6 +748,9 @@
     "northern-dachas-v1/birch-mature": "world/tree_deciduous",
     "northern-dachas-v1/apple-mature": "world/tree_deciduous",
     "northern-dachas-v1/birch-autumn": "world/tree_deciduous",
+    "northern-dachas-v1/birch-rich": "world/tree_deciduous",
+    "northern-dachas-v1/apple-rich": "world/tree_deciduous",
+    "northern-dachas-v1/birch-gold-rich": "world/tree_deciduous",
     "environment-variants-v1/utility_pole": "world/utility_pole",
     "northern-dachas-v1/utility_pole": "world/utility_pole",
     "environment-variants-v1/wall_brick": "world/wall_brick",
@@ -719,9 +762,12 @@
     "environment-variants-v1/warehouse": "world/warehouse",
     "environment-variants-v1/water": "world/water",
     "northern-dachas-v1/water": "world/water",
+    "northern-dachas-v1/water-rich": "world/water",
     "environment-variants-v1/water_ring": "world/water_ring",
     "environment-variants-v1/water_ripple": "world/water_ripple",
+    "northern-dachas-v1/water-tank": "world/water_tank",
     "northern-dachas-v1/well": "world/well",
+    "northern-dachas-v1/wheelbarrow": "world/wheelbarrow",
     "environment-variants-v1/wicket": "world/wicket",
     "environment-variants-v1/wind": "world/wind",
     "item-visuals-v2/openings-boarded-window": "world/window_boarded",
@@ -8549,6 +8595,25 @@
       }
     },
     {
+      "id": "world/boiler",
+      "name": "Ржавый бойлер",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "boiler-rusty",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/boiler-rusty.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "boiler-rusty"
+      }
+    },
+    {
       "id": "world/branches",
       "name": "Ветки",
       "representations": [
@@ -8793,6 +8858,42 @@
           "files": [
             "assets/northern-dachas-v1/details/bramble.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "thicket-bramble",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/thicket-bramble.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "thicket-fern",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/thicket-fern.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "thicket-flower",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/thicket-flower.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "thicket-sapling",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/thicket-sapling.png"
+          ]
         }
       ],
       "owner": {
@@ -9015,6 +9116,42 @@
           "files": [
             "assets/northern-dachas-v1/details/truck-canvas.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "car-sedan",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/car-sedan.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "van-blue",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/van-blue.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "truck-flatbed",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/truck-flatbed.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "pickup-red",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/pickup-red.png"
+          ]
         }
       ],
       "owner": {
@@ -9056,6 +9193,24 @@
             "assets/environment-variants-v1/elements/container/container_a.png",
             "assets/environment-variants-v1/elements/container/container_b.png",
             "assets/environment-variants-v1/elements/container/container_c.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "gas-cylinders",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/gas-cylinders.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "compost-box",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/compost-box.png"
           ]
         }
       ],
@@ -9483,6 +9638,15 @@
           "files": [
             "assets/northern-dachas-v1/sprites/fence_mesh.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "fence-plane-mesh",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/fence-plane-mesh.png"
+          ]
         }
       ],
       "owner": {
@@ -9542,6 +9706,24 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/details/fence-broken.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "fence-plane-wood",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/fence-plane-wood.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "fence-plane-patched",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/fence-plane-patched.png"
           ]
         }
       ],
@@ -9798,6 +9980,15 @@
           "files": [
             "assets/northern-dachas-v1/tiles/forest-floor.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "forest-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/forest-rich.png"
+          ]
         }
       ],
       "owner": {
@@ -9948,6 +10139,15 @@
           "files": [
             "assets/northern-dachas-v1/details/shed-workshop.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "shed-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/shed-rich.png"
+          ]
         }
       ],
       "owner": {
@@ -10005,6 +10205,15 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/sprites/gate.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "gate-plane",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/gate-plane.png"
           ]
         }
       ],
@@ -10101,6 +10310,15 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/tiles/grass_short.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/grass-rich.png"
           ]
         }
       ],
@@ -10204,6 +10422,78 @@
           "files": [
             "assets/northern-dachas-v1/details/fern.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-green",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-green.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-yellow",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-yellow.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-white",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-white.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-nettle",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-nettle.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-clover",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-clover.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-violet",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-violet.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-golden",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-golden.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "grass-reeds",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/grass-reeds.png"
+          ]
         }
       ],
       "owner": {
@@ -10234,6 +10524,15 @@
           "files": [
             "assets/northern-dachas-v1/tiles/gravel.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "gravel-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/gravel-rich.png"
+          ]
         }
       ],
       "owner": {
@@ -10252,6 +10551,15 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/sprites/greenhouse.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "greenhouse-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/greenhouse-rich.png"
           ]
         }
       ],
@@ -10436,6 +10744,24 @@
           "files": [
             "assets/northern-dachas-v1/details/cottage-blue.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "cottage-rich-grey",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/cottage-rich-grey.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "cottage-rich-blue",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/cottage-rich-blue.png"
+          ]
         }
       ],
       "owner": {
@@ -10513,6 +10839,25 @@
       "owner": {
         "pack": "environment-variants-v1",
         "id": "ivy"
+      }
+    },
+    {
+      "id": "world/ladder",
+      "name": "Садовая лестница",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "ladder-orchard",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/ladder-orchard.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "ladder-orchard"
       }
     },
     {
@@ -10670,6 +11015,15 @@
           "files": [
             "assets/northern-dachas-v1/tiles/mud.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "mud-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/mud-rich.png"
+          ]
         }
       ],
       "owner": {
@@ -10762,6 +11116,82 @@
       "owner": {
         "pack": "environment-variants-v1",
         "id": "pallet"
+      }
+    },
+    {
+      "id": "world/plant_pots",
+      "name": "Горшки и рассада",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "plant-pots",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/plant-pots.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "plant-pots"
+      }
+    },
+    {
+      "id": "world/playground_roundabout",
+      "name": "Старая карусель",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "playground-roundabout",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/playground-roundabout.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-roundabout"
+      }
+    },
+    {
+      "id": "world/playground_slide",
+      "name": "Дачная горка",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "playground-slide",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/playground-slide.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-slide"
+      }
+    },
+    {
+      "id": "world/playground_swing",
+      "name": "Дачные качели",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "playground-swing",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/playground-swing.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "playground-swing"
       }
     },
     {
@@ -11258,6 +11688,15 @@
             "assets/environment-variants-v1/elements/shelves/shelves_b.png",
             "assets/environment-variants-v1/elements/shelves/shelves_c.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "tool-rack",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/tool-rack.png"
+          ]
         }
       ],
       "owner": {
@@ -11386,6 +11825,15 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/tiles/soil.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "path-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/path-rich.png"
           ]
         }
       ],
@@ -11551,6 +11999,25 @@
       }
     },
     {
+      "id": "world/tire_stack",
+      "name": "Заросшие шины",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "tire-stack",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/tire-stack.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "tire-stack"
+      }
+    },
+    {
       "id": "world/trash_bin",
       "name": "Мусорный бак",
       "representations": [
@@ -11602,6 +12069,15 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/details/spruce-mature.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "spruce-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/spruce-rich.png"
           ]
         }
       ],
@@ -11707,6 +12183,33 @@
           "state": "northern-dachas-realistic-v1",
           "files": [
             "assets/northern-dachas-v1/details/birch-autumn.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "birch-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/birch-rich.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "apple-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/apple-rich.png"
+          ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "birch-gold-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/birch-gold-rich.png"
           ]
         }
       ],
@@ -11879,6 +12382,15 @@
           "files": [
             "assets/northern-dachas-v1/tiles/water.png"
           ]
+        },
+        {
+          "pack": "northern-dachas-v1",
+          "id": "water-rich",
+          "role": "style-variant",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/tiles/water-rich.png"
+          ]
         }
       ],
       "owner": {
@@ -11959,6 +12471,25 @@
       }
     },
     {
+      "id": "world/water_tank",
+      "name": "Садовая ёмкость для воды",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "water-tank",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/water-tank.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "water-tank"
+      }
+    },
+    {
       "id": "world/well",
       "name": "Дачный колодец",
       "representations": [
@@ -11975,6 +12506,25 @@
       "owner": {
         "pack": "northern-dachas-v1",
         "id": "well"
+      }
+    },
+    {
+      "id": "world/wheelbarrow",
+      "name": "Садовая тачка",
+      "representations": [
+        {
+          "pack": "northern-dachas-v1",
+          "id": "wheelbarrow",
+          "role": "world-visual",
+          "state": "northern-dachas-realistic-v1",
+          "files": [
+            "assets/northern-dachas-v1/visual-v5/wheelbarrow.png"
+          ]
+        }
+      ],
+      "owner": {
+        "pack": "northern-dachas-v1",
+        "id": "wheelbarrow"
       }
     },
     {

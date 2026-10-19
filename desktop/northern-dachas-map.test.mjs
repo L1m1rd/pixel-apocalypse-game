@@ -16,7 +16,8 @@ test('projection is reversible and movement follows the screen axes',()=>{
  assert(Math.abs(after.x-before.x-5)<1e-6);assert(Math.abs(after.y-before.y)<1e-6);
 });
 test('houses, the river and boundaries block walking without tunneling',()=>{
- const state=createDistrictState(),house=OBJECTS.find(o=>o.id.endsWith('-house'));
+ const state=createDistrictState(),house=OBJECTS.find(o=>o.id.endsWith('-house')&&!blocked({x:o.x-o.solid.w/2-20,y:o.y},state));
+ assert(house,'A free approach to a house must exist');
  assert(blocked(house,state));assert(blocked({x:850,y:2000},state));assert(blocked({x:BOUNDS.x-1,y:5000},state));
  const p={x:house.x-house.solid.w/2-20,y:house.y};const intended=project(80,0),moved=moveInDistrict(p,intended.x,intended.y,state);
  assert(moved.x<house.x-house.solid.w/2);assert(!blocked(moved,state));

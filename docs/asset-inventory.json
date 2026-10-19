@@ -125,10 +125,11 @@
     "assets/wildlife-loot-v1/sprites/fish-fillet.png",
     "assets/wildlife-loot-v1/ground/fish-fillet.png",
     "assets/wildlife-loot-v1/sources/fish-fillet.png",
-    "assets/wildlife-loot-v1/records/fish-fillet.json"
+    "assets/wildlife-loot-v1/records/fish-fillet.json",
+    "desktop/media"
   ],
-  "files": 19334,
-  "totalBytes": 2685609445,
+  "files": 19324,
+  "totalBytes": 2778259902,
   "entries": [
     {
       "path": ".gitattributes",
@@ -157,8 +158,8 @@
     },
     {
       "path": "asset-ownership.json",
-      "bytes": 2474,
-      "sha256": "905077ca359b8cc021f0dd59e99981dd31ee18ea14a7e714aa9b67222d001380"
+      "bytes": 3566,
+      "sha256": "a2ca1347c0260811bd217a8fe24c7c2daeff108149781ea9c900d6e614dcf9aa"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -40677,8 +40678,8 @@
     },
     {
       "path": "assets/northern-dachas-v1/index.html",
-      "bytes": 5703,
-      "sha256": "ae419d7bda37efb801ca70f50eefb987fd163dc55d6d1894ab2e3f6301755d48"
+      "bytes": 6169,
+      "sha256": "5f0d98e235364b364ddaee4465becb14af3650c6b72b3c155232cf8ee48547f9"
     },
     {
       "path": "assets/northern-dachas-v1/layout.json",
@@ -40687,8 +40688,8 @@
     },
     {
       "path": "assets/northern-dachas-v1/manifest.json",
-      "bytes": 69533,
-      "sha256": "cf63b4ff8ebc99e66790238032141ca74b22d0fd1100d768524bb6f4883d9976"
+      "bytes": 116422,
+      "sha256": "e8990a2fcee9de9041190be97e1e3bcec96f567ad21d1a528fefab38177f5ea0"
     },
     {
       "path": "assets/northern-dachas-v1/materials/roof.png",
@@ -40712,8 +40713,8 @@
     },
     {
       "path": "assets/northern-dachas-v1/prompts.json",
-      "bytes": 75602,
-      "sha256": "9933a9e2962b266294d99ec29f713263ac5f07ca035c7c1b75b09a9cdf934dad"
+      "bytes": 114056,
+      "sha256": "b44dbf8c5a79e610049240dddb5d69734bd06b6b2a74b1c7ef4c104a386b46fc"
     },
     {
       "path": "assets/northern-dachas-v1/references/00-world-ring.png",
@@ -40744,6 +40745,46 @@
       "path": "assets/northern-dachas-v1/references/06-expanded-district.png",
       "bytes": 4520999,
       "sha256": "6ce812144310a0864acdd2ac3fb26cb4e29ff68b4d4cb5c89e6b03bcb25e5c1b"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-abandoned-plots.png",
+      "bytes": 4499232,
+      "sha256": "1aef0bbde813e2a4e5adcc03c89ff6b5ca5e8df25c6815523312297054d7c5ff"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-apple-orchards.png",
+      "bytes": 4598422,
+      "sha256": "7eaa7c3235773227b74ba0cbe519eb2b463ddf621e3534079ad88aa44c6d4066"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-birch-street.png",
+      "bytes": 4454584,
+      "sha256": "5f599d90ce88f383aa5e58a3bb6063c2d0b39972fd69b8769e072bb0290c6795"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-dacha-sheds.png",
+      "bytes": 4372192,
+      "sha256": "e130626bf585469b0a9f11b55b9ba5e02f83540d6668bbe4089e0656a44f33b0"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-greenhouse-sector.png",
+      "bytes": 4683489,
+      "sha256": "059e530b5aa2add51fa001b9945369fe373e8b9f3ca1d030c0b6db18180aaedb"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-north-plots.png",
+      "bytes": 4504627,
+      "sha256": "fe5ee3347b3052e4f633ba475198b611152ccd23c99944c669022ebfe8f089bd"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-old-dachas.png",
+      "bytes": 4481365,
+      "sha256": "45164a890f581c0b0b7b7fedb646e0307dcd60a2ec4e1d7487939d3542405a0a"
+    },
+    {
+      "path": "assets/northern-dachas-v1/references/v5-south-entry.png",
+      "bytes": 4457669,
+      "sha256": "6692611a28b4dbff8967a1ba952e47a6b28f198aab5a8e5c6c1a7578fa1abc2f"
     },
     {
       "path": "assets/northern-dachas-v1/review/catalog-check.json",
@@ -40781,9 +40822,54 @@
       "sha256": "25660c4429b5e40600a9857866d18fa59521e69d12dbbdda3c875c6b9a642503"
     },
     {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-abandoned-plots.png",
+      "bytes": 2453726,
+      "sha256": "ce7cdfe907b0b817e9c52aab74b4479d2b22d33fe922bf13ed4787faec65c6a5"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-apple-orchards.png",
+      "bytes": 2466998,
+      "sha256": "c496646018328af2ad86eea0d6f04c03ec8c8f7d120b353582f45f687f245611"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-birch-street.png",
+      "bytes": 2448760,
+      "sha256": "6adb53a1657b9e34c744ee3074148304b4a7f36df0a11b7a18dd91c51073a98f"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-dacha-sheds.png",
+      "bytes": 2454649,
+      "sha256": "bd2bda5eb8a23ca4191e6e6f14dd3dc17c587c26b160562486559da6f8422e28"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-greenhouse-sector.png",
+      "bytes": 2476719,
+      "sha256": "a53d1bac34932d3ac88783bf193c92689904552e774286d1133053a881663a24"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-north-plots.png",
+      "bytes": 2460704,
+      "sha256": "bca3274c9851067ee68b2c6416180f226d877f395bcec1a7ab1f3ded8420aa35"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-old-dachas.png",
+      "bytes": 2458889,
+      "sha256": "b77a6b40ea4a84088c2e8ab34dedca7af6998040b7ed7d1973462a0541b4d8d3"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/v5-runtime-south-entry.png",
+      "bytes": 2404459,
+      "sha256": "3d8733496aa235d72d9028179c86bb692074df79749a50c6ec256abf33d7e83e"
+    },
+    {
+      "path": "assets/northern-dachas-v1/review/visual-v5-contact.png",
+      "bytes": 2201721,
+      "sha256": "9d868af2737f744a574074f6dbf1487ad316dfd7fa756036956666c3867aecee"
+    },
+    {
       "path": "assets/northern-dachas-v1/sector-palettes.json",
-      "bytes": 11324,
-      "sha256": "357805bd8a98e7cb472f97330f55bf1ef3d6647d25bd128d4d21db1dce7495d0"
+      "bytes": 20159,
+      "sha256": "6d0b409059d79e1afabaffe12fdeac07890786416edb10900911af848781e5c3"
     },
     {
       "path": "assets/northern-dachas-v1/sources/04-terrain-atlas.png",
@@ -40991,6 +41077,76 @@
       "sha256": "562712f4b752feaf1c35ebe00e5e9ec24c2387613921c877fe82e1137e3436fd"
     },
     {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/canopy-rich.png",
+      "bytes": 2888231,
+      "sha256": "a42c726b8f72bc65e61ee2d6a5bfd057d8b024a6a39cf9ae6ae13859bea9bb69"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/cottages-rich.png",
+      "bytes": 3480140,
+      "sha256": "d9579455bfa84cb0edc51fc92d45c638e30fb300146dfbead7023e1e1a0ddc30"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/fence-planes.png",
+      "bytes": 2906461,
+      "sha256": "47999f99acfb8e5bacccd414c56102ae22e84b30202739b7bf6251acab951639"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/forest-rich.png",
+      "bytes": 4342220,
+      "sha256": "53a37741eb616c0afe0b53ba536c685f73e6cf57476fbafca8928f009e530d59"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/grass-rich.png",
+      "bytes": 4742896,
+      "sha256": "cf18e10efc3c3684d08fec383cf75334f27e17bd2a4fb956a16db4e94d6801fc"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/gravel-rich.png",
+      "bytes": 4671346,
+      "sha256": "780d26dedfac9d726d64a3ccd6f788be76543ae29b8553b902c2f969dae997a0"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/hardware-props.png",
+      "bytes": 2925928,
+      "sha256": "4bbb43f88da0f268c3ef69119dbd3f74889d98324b1efc02e9af614fd9068945"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/meadow-rich.png",
+      "bytes": 2727417,
+      "sha256": "e6d13d3f5092e774662e07268bf1c3195acde98a7e59cfbc8c48cfe686cf034f"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/mud-rich.png",
+      "bytes": 4523229,
+      "sha256": "0f3a422dfba77b532cb38e43ecb71d44810c622f8bf53258c582066e118644a5"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/path-rich.png",
+      "bytes": 4674739,
+      "sha256": "54dcd493b3fe988e1c96c3d1aea2f1ab24ca0377cb0aa43d5b476f092368d156"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/playground-props.png",
+      "bytes": 2213597,
+      "sha256": "ee2243e28a5d052f401108b0dea6416b94906359494669f55351b99d05f0ebbe"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/thickets-rich.png",
+      "bytes": 3538028,
+      "sha256": "01ac5b28368728f02423db0a9b1962c3db1a4ed6c700434b376629d020294472"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/vehicles-varied.png",
+      "bytes": 3002841,
+      "sha256": "3b4e9a68ec950c6ae86d9ba5cffcb00e3e2959cddd2f8541ef94c805fa3b7ac0"
+    },
+    {
+      "path": "assets/northern-dachas-v1/sources/visual-v5/water-rich.png",
+      "bytes": 3720738,
+      "sha256": "9ffb6b2f61ddfb31522073572605f2f956a398c65ad8ca2f0cbdaede7c54801f"
+    },
+    {
       "path": "assets/northern-dachas-v1/sprites/barrel.png",
       "bytes": 170788,
       "sha256": "041ae2f7a2641f47389d660675cff1651a7390ec22c9c35068ee1c65fe26b20d"
@@ -41107,8 +41263,8 @@
     },
     {
       "path": "assets/northern-dachas-v1/textures.html",
-      "bytes": 37184,
-      "sha256": "4c6e4140f6f78eac330b98d167b07f7277ae64fd1c7ae468b5d61ab78800db8c"
+      "bytes": 52095,
+      "sha256": "e1bc80e8e103ce5a7763e8191c0629869e3e22700e8083eec898ba921be2e1d4"
     },
     {
       "path": "assets/northern-dachas-v1/tiles/asphalt.png",
@@ -41131,9 +41287,24 @@
       "sha256": "af721c814c6a463da5dee6c9f9b217841677f7be9dbf58877d993466f4fd6ccb"
     },
     {
+      "path": "assets/northern-dachas-v1/tiles/forest-rich.png",
+      "bytes": 710882,
+      "sha256": "1e7172bf2419bcba1175e6c17d1670eb16203632e2c263992d35630920d0d745"
+    },
+    {
+      "path": "assets/northern-dachas-v1/tiles/grass-rich.png",
+      "bytes": 748002,
+      "sha256": "9f472c002ef0cc2eb44e994aa8c99331a132e8020c4aa302c85acff39d0e9df4"
+    },
+    {
       "path": "assets/northern-dachas-v1/tiles/grass_short.png",
       "bytes": 726734,
       "sha256": "b83316d659a020ea60249070e04a5748f6eedad00d4bf1a02eb136fa4fcd939c"
+    },
+    {
+      "path": "assets/northern-dachas-v1/tiles/gravel-rich.png",
+      "bytes": 745201,
+      "sha256": "0e980cf6447ad6fbf802d30d6aad95f435b2b9393ea5defd927b2fcc58c7fd65"
     },
     {
       "path": "assets/northern-dachas-v1/tiles/gravel.png",
@@ -41141,9 +41312,19 @@
       "sha256": "3cea7dcea89f913072f94f4c1377ed8450df826d9c44a27d2d0ca516902168a2"
     },
     {
+      "path": "assets/northern-dachas-v1/tiles/mud-rich.png",
+      "bytes": 715059,
+      "sha256": "f280a1cef3e4f458342c17cee3bce5dfffba40ace4095b5abc3ecb446882dbea"
+    },
+    {
       "path": "assets/northern-dachas-v1/tiles/mud.png",
       "bytes": 703614,
       "sha256": "2fd5315c7a672426ec1521853a7f504d07a528c13c1a3543dba3a8cc421479ac"
+    },
+    {
+      "path": "assets/northern-dachas-v1/tiles/path-rich.png",
+      "bytes": 739026,
+      "sha256": "3be29a4bb83d1cf81899c836003f927b31b64903f2975d1f7d5e1f77ef360792"
     },
     {
       "path": "assets/northern-dachas-v1/tiles/rutted-soil.png",
@@ -41156,14 +41337,234 @@
       "sha256": "ebed526bcfed9a3de87343b5740455b86f6860c8e149559ae23ff4c007db6796"
     },
     {
+      "path": "assets/northern-dachas-v1/tiles/water-rich.png",
+      "bytes": 666432,
+      "sha256": "6c25868975c765c67572a714aa8a2716770c19c9cc56b2255e10b0f2af22b9c6"
+    },
+    {
       "path": "assets/northern-dachas-v1/tiles/water.png",
       "bytes": 587556,
       "sha256": "7176464ea27867f9e2516e0aca741c4fbb4df17c40a39bc6f6492e40e2fe9c14"
     },
     {
       "path": "assets/northern-dachas-v1/validation-report.json",
-      "bytes": 14235,
-      "sha256": "2a804107c77b2cde4651e5e736740893a03004b5409e1ad8cc66999a04f807b6"
+      "bytes": 23223,
+      "sha256": "0cb4740792f8e90a3066ea84c176c59ebb6f22e2fb663e6b21bf3c5b1dce83a3"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5-asset-summary.json",
+      "bytes": 87,
+      "sha256": "830e232a2f4437c3e6f02b1b4aebb51a3053e0f5c59441a90c590257d14f7d16"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5-production-plan.json",
+      "bytes": 40327,
+      "sha256": "1cef4ed9bbc5aec565336347217b8fcd3d40857a5883a641f4218afadfa36ab9"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5.html",
+      "bytes": 5010,
+      "sha256": "225709f50c0a740049ec6e607c62d174b34e2f28cea0eda749fe3ccc57be2422"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/apple-rich.png",
+      "bytes": 748850,
+      "sha256": "f7a6f3471aa6286b53e206a698c23d646d0e3650ee8940970b6c045c6b018b36"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/birch-gold-rich.png",
+      "bytes": 744162,
+      "sha256": "b9a99cea259cefde07cfc6adf5cc0d3bb8ffe1705a3b495014862ebca6199347"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/birch-rich.png",
+      "bytes": 793677,
+      "sha256": "94e8751068f0ae36f5553d8821c58586b074d4f5f59c7f660c796eb697fa476f"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/boiler-rusty.png",
+      "bytes": 267579,
+      "sha256": "e44c463a6c399f40d80e40ff347e2ea36f2bbfaefef27543ea4cd7ac3f6d2bb5"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/car-sedan.png",
+      "bytes": 691367,
+      "sha256": "b7af56e7a67a2498d8c99e3c11e0d436336e9e2b9d5e327bfbeb8a826b01e43d"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/compost-box.png",
+      "bytes": 418446,
+      "sha256": "f1fdfd78eed178fb84c468b6b827cc1edc0ec551372471890a03586147673f8a"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/cottage-rich-blue.png",
+      "bytes": 927531,
+      "sha256": "83bec9e803adc72af3b5a7c475385fa38bc6330d94352e55be3898fafd8be519"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/cottage-rich-grey.png",
+      "bytes": 968799,
+      "sha256": "62f994e2c8e756fd773561ec057baa4ac6748b0d833e7099ae1eb9e9c5dfdc29"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/fence-plane-mesh.png",
+      "bytes": 333696,
+      "sha256": "b45ebadb37b023a19a5389e0dfa1951ad184e41c8e9acf66d63b8adc377071cf"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/fence-plane-patched.png",
+      "bytes": 724773,
+      "sha256": "8199692936ec4f28b3b677a45e34af922a92b84647dfc2e4dea8d6a2cfb2b74b"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/fence-plane-wood.png",
+      "bytes": 777665,
+      "sha256": "1ebffe8f3faf255732e0727415c33053939db6853bfa2708fdce364dc559bbb8"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/gas-cylinders.png",
+      "bytes": 389608,
+      "sha256": "8705a6321c4e30c52da0d0bf43855dad37c2a9bb2ac69363e37dd2d2ddf29f43"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/gate-plane.png",
+      "bytes": 969701,
+      "sha256": "22e8daff0deb09614b10d3fce2d543f8311cff802cb91a7b24078fccc753f8ed"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-clover.png",
+      "bytes": 304879,
+      "sha256": "3ab4bdac08e08915325e5179e5ddbed5260a79c3b9c507c6d2ee94328769b514"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-golden.png",
+      "bytes": 317299,
+      "sha256": "5c69641aacc7a3bea9648e45ceed64803bdecf33f14aed83b466488cbf8e1d4f"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-green.png",
+      "bytes": 286361,
+      "sha256": "cc337966ba3adef3d259629f1b8c21f39f793a16684da4fab52aaebf4d6353fa"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-nettle.png",
+      "bytes": 285411,
+      "sha256": "39f54a8f73b7c61bc4898c283db9dfb633d3f300d3c61d06dea7559fe51b50de"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-reeds.png",
+      "bytes": 321296,
+      "sha256": "7cc183e3533ceab3171624c7622836925da743db51522eafb23b8247d2f05067"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-violet.png",
+      "bytes": 304189,
+      "sha256": "54ad5a87ee672ec277607da7c6f8277f8398daf4ab0b000f77177e0726ff62ec"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-white.png",
+      "bytes": 283023,
+      "sha256": "f3aa50b3b84e8707dd4bcac7f1d802e306688d9d077ba822451ad65ed1917519"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/grass-yellow.png",
+      "bytes": 266707,
+      "sha256": "d02d20db2cdaad28edb78f5af1ecbbc347084568a4ca4e3b265f2218970820e1"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/greenhouse-rich.png",
+      "bytes": 901863,
+      "sha256": "1663cf6fd5c242e5a1f39768660df56dd526ff1f2be5047dd373b9bafc26d17e"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/ladder-orchard.png",
+      "bytes": 258776,
+      "sha256": "786f24a5f155c2bd14cc3caba785b7e6bbb177cd26b38dda8c11906f9d03a830"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/pickup-red.png",
+      "bytes": 682517,
+      "sha256": "4d35107a1d458537820f265ad45e956c625bfbdd32c093a90d34249ae44c85af"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/plant-pots.png",
+      "bytes": 389454,
+      "sha256": "8318f4123beaf9e418396806f6d3bc94fe9385273d864d758731640806312ae5"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/playground-roundabout.png",
+      "bytes": 581043,
+      "sha256": "2f51ac82e4c96ba35f0b4f062b7d025481115e73df3914a4822b188a8278753e"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/playground-slide.png",
+      "bytes": 329300,
+      "sha256": "acb608a454b64b1db4d8337e9a73871e27cb363586db3055990a7c41fdf876a4"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/playground-swing.png",
+      "bytes": 302891,
+      "sha256": "0e1865a4f471ba6a5918e6a470089a3ad80c359b32ec6640a674ccab6f0456c6"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/shed-rich.png",
+      "bytes": 793620,
+      "sha256": "7893908292530c9029b14834a16b009580e4fcea7cb50bc155cba2bb0f163484"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/spruce-rich.png",
+      "bytes": 593228,
+      "sha256": "e3f8dd54a4d350d8da19052766d486df6a6c5180a45ed8dc4f699a8a4ceb8cea"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/thicket-bramble.png",
+      "bytes": 914527,
+      "sha256": "3f28da20045d2d6c885d2067d87b37d5bd9a34fea74693af8a29646599ec84f6"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/thicket-fern.png",
+      "bytes": 854429,
+      "sha256": "f37811cf00ea12908756e621b147cedda4de29cfedd187b0222a99558b4d4e2e"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/thicket-flower.png",
+      "bytes": 918941,
+      "sha256": "bf8c88da0dabdbc424f14e8c31434a4a175cc73ccabe74430c0213c0d86fdb66"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/thicket-sapling.png",
+      "bytes": 994767,
+      "sha256": "d407da8770358fb740589105db207e3e2912510586a1792c8e37eb8d425abe3c"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/tire-stack.png",
+      "bytes": 315568,
+      "sha256": "3cc504d3dc02f46949a43e8d771fa4c77c2340835dccfe87e3fce12bcbf18933"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/tool-rack.png",
+      "bytes": 392495,
+      "sha256": "be2503520e58eda032531b6b99ec1e9769b03034ade27742555a7e47a66ff651"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/truck-flatbed.png",
+      "bytes": 837318,
+      "sha256": "b141d96da13dfdd7b03e5b0abda94e0434a2c0c91294addd2b43b8ee4fa44dd8"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/van-blue.png",
+      "bytes": 802181,
+      "sha256": "16d6d2be7c5915acb692c48f19e0c717878ffa47e744df761946f7865f532620"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/water-tank.png",
+      "bytes": 478165,
+      "sha256": "d468d0fb327989cbcbe33a039183e1f5bd69e545d5cba3060ace15113875958d"
+    },
+    {
+      "path": "assets/northern-dachas-v1/visual-v5/wheelbarrow.png",
+      "bytes": 246650,
+      "sha256": "7e8ec1ddf6fbef5910c03c061389f6da5195ec3ada4a2f1275a9385dfe73cf21"
     },
     {
       "path": "assets/special-vfx-v1/README.md",
@@ -95741,524 +96142,54 @@
       "sha256": "1df20a3b51ccf76a5b1426b2bfc6b6add767d0d7feec5e7ac9f59a63c5d77914"
     },
     {
-      "path": "desktop/media/asset-manifest.json",
-      "bytes": 50776,
-      "sha256": "def5e54cb185c6c9ffe4701b117686c3b9fd0f76e92d59810eea02f750f29dd1"
-    },
-    {
-      "path": "desktop/media/characters/01-gleb-portrait.png",
-      "bytes": 3866,
-      "sha256": "5a817d0bd3681537c1da8a41a3c1a56808ca1ec8cb471a1a0c3a8cad3838a65a"
-    },
-    {
-      "path": "desktop/media/characters/01-gleb.png",
-      "bytes": 577953,
-      "sha256": "87ee5eea9d0004246ae7cc050f02ca81a5c64e8f1f3b046582738a0858160dac"
-    },
-    {
-      "path": "desktop/media/characters/02-roman-portrait.png",
-      "bytes": 3891,
-      "sha256": "1b996a0acd67a0c8f9815a7e2a35611a50e1bed5ff6f24cc46882f9fcae57137"
-    },
-    {
-      "path": "desktop/media/characters/02-roman.png",
-      "bytes": 586204,
-      "sha256": "540d896305592c0f34e8044febc0f94de3ee5873c35cdb71ed7a0ce6a8e64357"
-    },
-    {
-      "path": "desktop/media/characters/03-miron-portrait.png",
-      "bytes": 3723,
-      "sha256": "1fd4adc6116eb80e59481e608f421777bb22e6aff0d7f8c3cccdbbcb212389ba"
-    },
-    {
-      "path": "desktop/media/characters/03-miron.png",
-      "bytes": 567415,
-      "sha256": "95b8bdcbfbc536bdfc119b507c2d7ef598c973d79c70a5d62944213cc162c022"
-    },
-    {
-      "path": "desktop/media/characters/04-egor-portrait.png",
-      "bytes": 3894,
-      "sha256": "9c00fa50e07b3a3b5ab585a8072a54ca3c36343bd7a58b877974a3b5b52145b0"
-    },
-    {
-      "path": "desktop/media/characters/04-egor.png",
-      "bytes": 622159,
-      "sha256": "475e290162553e7a63ab332957c4b3268a3aa34e6e572abdf17f62e4fdbf2dd3"
-    },
-    {
-      "path": "desktop/media/characters/05-timur-portrait.png",
-      "bytes": 3803,
-      "sha256": "41d4b11025593b24db98d6811f9f14159625adb5ed2ef380ed66274bf1d65515"
-    },
-    {
-      "path": "desktop/media/characters/05-timur.png",
-      "bytes": 617064,
-      "sha256": "c502bae2db42fdefb26b7edb3cb18b1231ca8cf38b0f65e5ecaa82e3f827afe2"
-    },
-    {
-      "path": "desktop/media/characters/06-makar-portrait.png",
-      "bytes": 4022,
-      "sha256": "5cc6b8c6be55d2312feff166e2b913cd9925b5264bb9217b3fedecd608d65a2a"
-    },
-    {
-      "path": "desktop/media/characters/06-makar.png",
-      "bytes": 590903,
-      "sha256": "b1f6d4b3bb56c6ad86e1eb26feb78929723517b289bec374569a464c0e132bc1"
-    },
-    {
-      "path": "desktop/media/clouds.png",
-      "bytes": 367005,
-      "sha256": "0127780ade958b7704457ff0e589281090fa41bb4aba51d83eeae683ac7b4e8b"
-    },
-    {
-      "path": "desktop/media/dachas/apple-mature.png",
-      "bytes": 718673,
-      "sha256": "346c3b58cc24ee6d20d2aa4ce97a1455badbff0608ea28eee426e823f99b6956"
-    },
-    {
-      "path": "desktop/media/dachas/asphalt.png",
-      "bytes": 689364,
-      "sha256": "f888c935c62b7bc765ba61b80f554b4e20b5c2252830efc1118aa7fb0e6f62aa"
-    },
-    {
-      "path": "desktop/media/dachas/barrel.png",
-      "bytes": 170788,
-      "sha256": "041ae2f7a2641f47389d660675cff1651a7390ec22c9c35068ee1c65fe26b20d"
-    },
-    {
-      "path": "desktop/media/dachas/bench.png",
-      "bytes": 98608,
-      "sha256": "24096589bbb916ace1fe00b06c6b9577c1813ae5d7efedb4987c706887faaa67"
-    },
-    {
-      "path": "desktop/media/dachas/birch-autumn.png",
-      "bytes": 363618,
-      "sha256": "03ac2c5edbe544c696e94ecda2eeb87c7931f3cb7c50ff597dac028dea8e31b0"
-    },
-    {
-      "path": "desktop/media/dachas/birch-mature.png",
-      "bytes": 701026,
-      "sha256": "b8de5fe561cc98029b1cbc92c0704f5cd2e211fadfdb7f6b6ca96f1719a0886a"
-    },
-    {
-      "path": "desktop/media/dachas/boards.png",
-      "bytes": 125034,
-      "sha256": "ee3cdb48f12ddf597503a52647ab16749f546aeb9a0096d8546641b552519d49"
-    },
-    {
-      "path": "desktop/media/dachas/bramble.png",
-      "bytes": 383543,
-      "sha256": "b47cb2a5d31f40f51280417cdff91656b411289b671c57704e946fe05446484c"
-    },
-    {
-      "path": "desktop/media/dachas/brick-debris.png",
-      "bytes": 278677,
-      "sha256": "4a4a90986030fdbfc872a3d57b8b70c0d809ae92837d50eedb01e0269260a3ed"
-    },
-    {
-      "path": "desktop/media/dachas/broken-window-frame.png",
-      "bytes": 264340,
-      "sha256": "24d5437d1288e752b75bfb9cc4022f3da070859aa8d0d06f4c0007bcd1c17aa5"
-    },
-    {
-      "path": "desktop/media/dachas/bush_small.png",
-      "bytes": 153667,
-      "sha256": "f3f45e4466294b8b9660f06fa5d218e42e81a969e18a4d0f29bfb1a9312c827a"
-    },
-    {
-      "path": "desktop/media/dachas/car_abandoned.png",
-      "bytes": 251470,
-      "sha256": "50960ea685db0646cae60883c8bd6b9453cada822066e0d83acd4c3a1dee4fb3"
-    },
-    {
-      "path": "desktop/media/dachas/cottage-blue.png",
-      "bytes": 724812,
-      "sha256": "2468e44c1cd42515139b5cbbee3f7b197d842535854bcdba4941c3acf2304204"
-    },
-    {
-      "path": "desktop/media/dachas/cottage-collapsed.png",
-      "bytes": 712682,
-      "sha256": "cd658cf80c128d46cf87f43c8972cceabfb7bb4b60c81e92a9553a2f6c06692e"
-    },
-    {
-      "path": "desktop/media/dachas/cottage-plaster.png",
-      "bytes": 748685,
-      "sha256": "3d6d05ef6be2651d2ff8caf1799e5bee396192b62d8a7af652bf94e3049d8053"
-    },
-    {
-      "path": "desktop/media/dachas/crate-group.png",
-      "bytes": 266544,
-      "sha256": "cfd78f65cfd64699a1cca756de85339d96143c4473871dcab16f5c5179e1bfb2"
-    },
-    {
-      "path": "desktop/media/dachas/crate.png",
-      "bytes": 159841,
-      "sha256": "a2a34b837641aba2dff2abf8c62d1b1c9fd07f36feb00fad43f6011ec3fb2ceb"
-    },
-    {
-      "path": "desktop/media/dachas/dead-tree.png",
-      "bytes": 150688,
-      "sha256": "f797bb3330234ac7184e334b43051ea1344fac6922f910a9543f8ef228488b1e"
-    },
-    {
-      "path": "desktop/media/dachas/direction-sign.png",
-      "bytes": 208923,
-      "sha256": "dd73b501a0b0565cbca5087241479bd6643072f63d9ef9cae3c71bbb65e043a1"
-    },
-    {
-      "path": "desktop/media/dachas/fallen-birch.png",
-      "bytes": 236072,
-      "sha256": "bcaf47fc7e9a45193f17f788585749002d12e163c76e31f761df18461f10d367"
-    },
-    {
-      "path": "desktop/media/dachas/fence-broken.png",
-      "bytes": 338478,
-      "sha256": "477e272cd1b3379bb366fab42cf06b516994faebf779885b99ff80f1d4a24f1e"
-    },
-    {
-      "path": "desktop/media/dachas/fence_mesh.png",
-      "bytes": 116578,
-      "sha256": "7162630b0e522e1c738d7931ae8ddc8a18895f20073da784a26ceac3cc13b96e"
-    },
-    {
-      "path": "desktop/media/dachas/fence_wood.png",
-      "bytes": 952839,
-      "sha256": "887f05cd6818efaf7a02f777334cb1c30a2deaa5c49c44aa0f0f6e759f542e82"
-    },
-    {
-      "path": "desktop/media/dachas/fern.png",
-      "bytes": 451983,
-      "sha256": "212779397974fe9dac2daa947e97634723c49751582d536b28d9f06658384c16"
-    },
-    {
-      "path": "desktop/media/dachas/floor_concrete.png",
-      "bytes": 702560,
-      "sha256": "06e6afddb51f854e6cc9b40e5583832b82a762fe7c703ce53518cc0ae252643a"
-    },
-    {
-      "path": "desktop/media/dachas/floor_wood.png",
-      "bytes": 670255,
-      "sha256": "50ce1073db1f38d735fba88e7a9e7760f93567b41b97ac4b56df95bbbcab82f4"
-    },
-    {
-      "path": "desktop/media/dachas/forest-floor.png",
-      "bytes": 706551,
-      "sha256": "af721c814c6a463da5dee6c9f9b217841677f7be9dbf58877d993466f4fd6ccb"
-    },
-    {
-      "path": "desktop/media/dachas/foundation-damp.png",
-      "bytes": 549205,
-      "sha256": "20d8585b86c1511d34c501f0fae4c746ef9d65d5caf984c28f16f68954cb603b"
-    },
-    {
-      "path": "desktop/media/dachas/fungal-stump.png",
-      "bytes": 225386,
-      "sha256": "8aea6bde69c2a998444eed769a15b6e4f7f615d2161dc9718b9ef4c00c15d6cc"
-    },
-    {
-      "path": "desktop/media/dachas/garage.png",
-      "bytes": 2103376,
-      "sha256": "8956eef077d7a7abd39d1b4ed2d065f25b0ccdc82e8bb831ee461ecd910683a2"
-    },
-    {
-      "path": "desktop/media/dachas/garden_bed.png",
-      "bytes": 134151,
-      "sha256": "be381080de457f0b47eeb2a731bfdce73b7fff3c084e76233c1c2196170d0184"
-    },
-    {
-      "path": "desktop/media/dachas/gate.png",
-      "bytes": 205587,
-      "sha256": "f975783be299bbc5c76b97f8c0d1ab5eaeb40f5dfbfd95099f79614ba5507aed"
-    },
-    {
-      "path": "desktop/media/dachas/glass-scatter.png",
-      "bytes": 492019,
-      "sha256": "80e459851a7d37aa0e79af59fc63d99e6c9a666277980ee2efcb86baea4a08a5"
-    },
-    {
-      "path": "desktop/media/dachas/grass-transition.png",
-      "bytes": 595619,
-      "sha256": "81b2a5299c2b72951097c0d912c6b7dc4c9808005786bba862ee1c3cf03a2d6d"
-    },
-    {
-      "path": "desktop/media/dachas/grass_short.png",
-      "bytes": 726734,
-      "sha256": "b83316d659a020ea60249070e04a5748f6eedad00d4bf1a02eb136fa4fcd939c"
-    },
-    {
-      "path": "desktop/media/dachas/grass_tall.png",
-      "bytes": 26276,
-      "sha256": "a3289a2ba6d69572cd9db4e2b397714371b27aa97ab7d010a7b4caa09396a246"
-    },
-    {
-      "path": "desktop/media/dachas/gravel.png",
-      "bytes": 725198,
-      "sha256": "3cea7dcea89f913072f94f4c1377ed8450df826d9c44a27d2d0ca516902168a2"
-    },
-    {
-      "path": "desktop/media/dachas/greenhouse.png",
-      "bytes": 431428,
-      "sha256": "ab84caaa8868c1b0ac96f31185d39ded8edb65d7ffe1ee5047ce1d2cdeb320b5"
-    },
-    {
-      "path": "desktop/media/dachas/hazel.png",
-      "bytes": 354893,
-      "sha256": "2c3ea0b3cdbd19286b3296cdfdbd2c9ed101b169200d1bec0e540834381373e9"
-    },
-    {
-      "path": "desktop/media/dachas/house-abandoned.png",
-      "bytes": 570797,
-      "sha256": "94cc964c39dcbe92cfbc617c0fd3e806c6b850328226f4021d341681922a5288"
-    },
-    {
-      "path": "desktop/media/dachas/house-plaster.png",
-      "bytes": 644823,
-      "sha256": "e12e148868154e1d3434410bbe90e3078aaef4091c21f2e88c3b4c90f0b7e393"
-    },
-    {
-      "path": "desktop/media/dachas/house.png",
-      "bytes": 2567304,
-      "sha256": "9f84aa97cd15b95cdfdbc83823060524052c476f0f9537be6f319463b4afa32b"
-    },
-    {
-      "path": "desktop/media/dachas/ivy-climbing.png",
-      "bytes": 278694,
-      "sha256": "6615e8bef5a2b29ca5ebe1c57ef57bf6cd52983865c21df5b28dec204336cbdb"
-    },
-    {
-      "path": "desktop/media/dachas/leaf-litter.png",
-      "bytes": 536515,
-      "sha256": "e19bda8e4947e8ec675589a8d85cf0c69250ea9a2043fa8674b3e05eb46e52e1"
-    },
-    {
-      "path": "desktop/media/dachas/meadow-white.png",
-      "bytes": 428750,
-      "sha256": "108ee6d525dcae037eccc42c90388640e60ccbb145f6cf7f8ecaaae6609fbd90"
-    },
-    {
-      "path": "desktop/media/dachas/meadow-yellow.png",
-      "bytes": 379063,
-      "sha256": "24abba681f7b8aa7b7e50b0a9b170a9866589bf61bc9603a0f625d1383553608"
-    },
-    {
-      "path": "desktop/media/dachas/mud.png",
-      "bytes": 703614,
-      "sha256": "2fd5315c7a672426ec1521853a7f504d07a528c13c1a3543dba3a8cc421479ac"
-    },
-    {
-      "path": "desktop/media/dachas/pallet-aged.png",
-      "bytes": 259253,
-      "sha256": "1aca67804160d6c27d3497b184460c4b78b4dc0a2ff27f335b28dfee39862e44"
-    },
-    {
-      "path": "desktop/media/dachas/puddle-shallow.png",
-      "bytes": 487906,
-      "sha256": "6a29eefe4a441666dc76ca0d463d425eed4c77fe24d09b90c2e98d8a9f0d7024"
-    },
-    {
-      "path": "desktop/media/dachas/puddle.png",
-      "bytes": 78532,
-      "sha256": "7d1bfeca6bc2211dee571881e045960a31e91e594b24c9232e560dc5764169ed"
-    },
-    {
-      "path": "desktop/media/dachas/rain-barrel-group.png",
-      "bytes": 358912,
-      "sha256": "5e70dc6de2b9bc3125166e0c96e19bd7a2dcd31e13bd1f2311ec2b82f462a255"
-    },
-    {
-      "path": "desktop/media/dachas/reeds.png",
-      "bytes": 500076,
-      "sha256": "c28e20d400853aacaa009aafff09f66c4011c1ec139f8a71fe649a2282336082"
-    },
-    {
-      "path": "desktop/media/dachas/roof-debris.png",
-      "bytes": 304082,
-      "sha256": "b0c047b6897f112ce4b2d71a2edc3a4d5f65e8c3c8ab34b5117b84dab997ae2f"
-    },
-    {
-      "path": "desktop/media/dachas/roof.png",
-      "bytes": 738022,
-      "sha256": "f8204d0d9d7a4668d13ac2ae80e479ef2f720fbd4671b750ff84dd7f083e4e8e"
-    },
-    {
-      "path": "desktop/media/dachas/root-moss.png",
-      "bytes": 569944,
-      "sha256": "25e2931b51f2df7acc1fb2230f6ae7a6583db129e525174a5c8a1bfd78c3f885"
-    },
-    {
-      "path": "desktop/media/dachas/rubble.png",
-      "bytes": 92534,
-      "sha256": "7359e1cde1efd992f9570f422a3039860d2ab05d8be13d5d6fdb3090d71bc7db"
-    },
-    {
-      "path": "desktop/media/dachas/rutted-soil.png",
-      "bytes": 687582,
-      "sha256": "8e758e018fe429f849354618b2f15d8c7c4ede5841f46d77977ac3415510d27f"
-    },
-    {
-      "path": "desktop/media/dachas/salvage-boards.png",
-      "bytes": 385544,
-      "sha256": "58cad2cd81ac7ebdfa676c79f46cd436a85b8b0ae6b2dc09effa87a9890bdf7b"
-    },
-    {
-      "path": "desktop/media/dachas/shed-workshop.png",
-      "bytes": 696370,
-      "sha256": "c63b3e941bee25a43f7fd9c89fffecb9764ea7d54a5ef51eb7af9c9c46af1fc8"
-    },
-    {
-      "path": "desktop/media/dachas/soil.png",
-      "bytes": 714615,
-      "sha256": "ebed526bcfed9a3de87343b5740455b86f6860c8e149559ae23ff4c007db6796"
-    },
-    {
-      "path": "desktop/media/dachas/spruce-mature.png",
-      "bytes": 345071,
-      "sha256": "be996c429cd96a9e4f6621554b8ac9cc9fda7dac30fd0119fb49d974034f44b7"
-    },
-    {
-      "path": "desktop/media/dachas/stone-scatter.png",
-      "bytes": 526879,
-      "sha256": "7566b581d5a480a415ac856d35b7221615a63630e4bf122dccb2096ad7b0bc15"
-    },
-    {
-      "path": "desktop/media/dachas/tree-apple.png",
-      "bytes": 613570,
-      "sha256": "ac306e723f549e25f6c691659391349b5e2c833551f061303b756fe858be843f"
-    },
-    {
-      "path": "desktop/media/dachas/tree_conifer.png",
-      "bytes": 152599,
-      "sha256": "ff17db42c38e44674cd0c78cb5d495c25c26d4c8267d82fb4d9acfd929ad799f"
-    },
-    {
-      "path": "desktop/media/dachas/tree_deciduous.png",
-      "bytes": 1636299,
-      "sha256": "173a7b38ac85a37b19a7d0ad7eba3d511da8294e168cae3f04a943846ed84948"
-    },
-    {
-      "path": "desktop/media/dachas/truck-canvas.png",
-      "bytes": 510334,
-      "sha256": "bbb8e74ae814b3ad7720c2aa93bfc3db0fa1c5bfdccbe5d7244696db7f05c587"
-    },
-    {
-      "path": "desktop/media/dachas/utility_pole.png",
-      "bytes": 78832,
-      "sha256": "ed54ff8e0f47f85ae74df46eb4f2b673c0d15ff2aee09bd227909c98fd6d9b3a"
-    },
-    {
-      "path": "desktop/media/dachas/wall_brick.png",
-      "bytes": 676094,
-      "sha256": "4e4013818a9634d57ba54177961eb570d9340ca13eed89db33456d68a60f82ba"
-    },
-    {
-      "path": "desktop/media/dachas/wall_wood.png",
-      "bytes": 669844,
-      "sha256": "11ca70edeef473f952464ecb934b57a2b9a0e3b7d102852177b1dfd3fe2aa99f"
-    },
-    {
-      "path": "desktop/media/dachas/water.png",
-      "bytes": 587556,
-      "sha256": "7176464ea27867f9e2516e0aca741c4fbb4df17c40a39bc6f6492e40e2fe9c14"
-    },
-    {
-      "path": "desktop/media/dachas/well.png",
-      "bytes": 179359,
-      "sha256": "e3caf2d59f42b5f4020f8369508b045144ccc0032bc7b5326629451008057a88"
-    },
-    {
-      "path": "desktop/media/dachas/wheel-ruts.png",
-      "bytes": 525656,
-      "sha256": "77dc9e77a8198c379251b67598ed48562c216dbf897ccec0a37c30b02efb431a"
-    },
-    {
-      "path": "desktop/media/dachas/wild-rose.png",
-      "bytes": 378570,
-      "sha256": "a027d2feaf71267eec57be502b714259f52f5c180ca59e7d8c444c8781b92dc4"
-    },
-    {
-      "path": "desktop/media/dachas/wood-barricade.png",
-      "bytes": 272393,
-      "sha256": "65bce2b766f5060f0a87a3256a6c02d9f1568258b2ae3e373c695e446a27f96b"
-    },
-    {
-      "path": "desktop/media/dachas/wood-shelter.png",
-      "bytes": 376206,
-      "sha256": "26a20a3fc3f9c74c97f53821f37a67e56951e0e8cba58cce7bb087d9cf5879a7"
-    },
-    {
-      "path": "desktop/media/dachas/workbench-tools.png",
-      "bytes": 316188,
-      "sha256": "83063b0b9c1eaeb8c9da2b70ef1ef76e42769673be1b5f80be50b53500fbdeb8"
-    },
-    {
-      "path": "desktop/media/data.js",
-      "bytes": 33189,
-      "sha256": "c0f606793559c801caadf43f6ea63103919271aacc87e947af6aa2c51bdfe20e"
-    },
-    {
-      "path": "desktop/media/grass.png",
-      "bytes": 12499,
-      "sha256": "ea5a7e8b744999ef2bd42cc193409d691d3ee49203f62e42d1da9f86cb7c9e57"
-    },
-    {
-      "path": "desktop/media/logo.png",
-      "bytes": 128272,
-      "sha256": "9ab4d6076eb140383ff8595efcbc723b3202732b59b520686fa5d802ec33b81a"
-    },
-    {
-      "path": "desktop/media/menu-background.webp",
-      "bytes": 477444,
-      "sha256": "629b6be059bc16878de8c898ea6950734578d395d313dba8ce3de9ba3078a2e9"
-    },
-    {
-      "path": "desktop/media/motion-alignment.json",
-      "bytes": 447701,
-      "sha256": "a20b5a869d5fe944a08d8f96281e3715095339c2eb1cce5a7797e622f80b3919"
-    },
-    {
-      "path": "desktop/media/sky-mask.png",
-      "bytes": 7404,
-      "sha256": "5ca146e287f0a87670b2130ca17a7003b282649c0aad740dc16c8304da90f93e"
-    },
-    {
       "path": "desktop/northern-dachas-details.mjs",
-      "bytes": 5052,
-      "sha256": "22f91422c110f5538a9dc11f4d47f13c5cba050859194f033c58ccc81d924411"
+      "bytes": 11610,
+      "sha256": "c3e8beb49069a1a208f344cd9896d10b91bcb6c7deeda104648ee06fa4acd414"
+    },
+    {
+      "path": "desktop/northern-dachas-geometry.mjs",
+      "bytes": 870,
+      "sha256": "f8269f9c0c133fbca4d9546a2c6f74ab2b648c33ed05e8621b541d11fac2be2d"
     },
     {
       "path": "desktop/northern-dachas-lighting.mjs",
-      "bytes": 2418,
-      "sha256": "4cd31dc24233f39b6a8a15eda947f228154fb9ddeb6feefc2af9a5be30ecbb09"
+      "bytes": 2836,
+      "sha256": "6e01063e04614da2ef87b24d6759fe3bd4d3aec7dce4e2a0e62068cd6229cec7"
     },
     {
       "path": "desktop/northern-dachas-lighting.test.mjs",
-      "bytes": 1707,
-      "sha256": "e38abaefee58a4253387d8e2b16aa4527f33bc8b0b2f092849cbf8a0bbc1f971"
+      "bytes": 1713,
+      "sha256": "11d8823b29f8a5e3096b0c470c9e778892eddf68b91a55b51386564f308ae754"
     },
     {
       "path": "desktop/northern-dachas-map.mjs",
-      "bytes": 9277,
-      "sha256": "eb526d62347e1010ffbc7ee3fac5e27c3077a65e51995ccecc0c3bfda3a29934"
+      "bytes": 9290,
+      "sha256": "742779d4f92df867e0ba9dc70bcb781c22186619e39ced4762017955d1521015"
     },
     {
       "path": "desktop/northern-dachas-map.test.mjs",
-      "bytes": 3974,
-      "sha256": "af9e0e3288fed928d1630c5bc581cdfd2b7a5cdd0e889e5c50b70302f23bef30"
+      "bytes": 4076,
+      "sha256": "ef8ad71b917a09b2dd10a196f72bd6385e21578f10bd40d586e82862674b6c57"
     },
     {
       "path": "desktop/northern-dachas-renderer.mjs",
-      "bytes": 11009,
-      "sha256": "c7799eeac6107d259a268381c6aabb1eda49b50118aefe3209f7ecad92f0630d"
+      "bytes": 14401,
+      "sha256": "2f9d09da12650a723c4ae287ade77ca0d32bbe2d0296789ca5c4e6ee22c4db46"
+    },
+    {
+      "path": "desktop/northern-dachas-visual.test.mjs",
+      "bytes": 2139,
+      "sha256": "fc191473ebe67cc43150f48e1d89a28f9320339213134574d81447e543e2db5c"
     },
     {
       "path": "desktop/package-lock.json",
       "bytes": 5790,
-      "sha256": "2c048c70bd381b94af39db09e5fe37f6d7b03a7444fa6e13c01d45e8824831dc"
+      "sha256": "28830635b6cd9c37ecc7adbd13fad081e2bb6b9e4d3ceb8d8f72754b5fa1111c"
     },
     {
       "path": "desktop/package.json",
       "bytes": 357,
-      "sha256": "2f6be9e246ce8b58ec2e82ba7107f6f360ef94cfb4447e937ffc54a88c48885e"
+      "sha256": "6c5d02deda68f5a34a27c914d4d3d23d4386907e1492b204648124cb585e2fb2"
     },
     {
       "path": "desktop/preload.cjs",
@@ -96267,8 +96198,8 @@
     },
     {
       "path": "desktop/renderer.mjs",
-      "bytes": 11141,
-      "sha256": "8435360bdf2ecdfff1c12ad0c633fffe8399338b4c0a91c55eb283684e8be88a"
+      "bytes": 11200,
+      "sha256": "6e9faedc18f3e3fc4b0709ee4b653f7fd6e007109b54b8ec245b37770819db4a"
     },
     {
       "path": "desktop/save.cjs",
@@ -96292,13 +96223,13 @@
     },
     {
       "path": "docs/asset-consistency-report.json",
-      "bytes": 8023,
-      "sha256": "50983f12c0244b6efb2123493832a001068bbe0d0383d54eecf88a2aa3cb8043"
+      "bytes": 8149,
+      "sha256": "f0079294e45c5e4147106f7f34a5acacccec64192f36a4d7ab0d94ca6f934f60"
     },
     {
       "path": "docs/asset-registry.json",
-      "bytes": 385986,
-      "sha256": "5f9e8e462539a00fa64545a0af9294bcc47730404e8444a828df1a2332dfd391"
+      "bytes": 403536,
+      "sha256": "aa596d8797228472472dfb4bf410a6144531ae20649a4b5edad141db44d5fe32"
     },
     {
       "path": "docs/combat-design.md",
@@ -96362,13 +96293,23 @@
     },
     {
       "path": "docs/northern-dachas-release.md",
-      "bytes": 3063,
-      "sha256": "12304a6ab0d2972f0a5fc117ad19e40aa741ac862b01de44e377787259550f59"
+      "bytes": 3493,
+      "sha256": "962cf778df6b7646c102222c6714236da3e950f8c239cac849e6f26ca94ceb9b"
     },
     {
       "path": "docs/northern-dachas-v0.4.0.md",
       "bytes": 5359,
       "sha256": "e926cbc3f03468fc48b960414587162119a644594588e11aae8b1dfdbaa65edc"
+    },
+    {
+      "path": "docs/northern-dachas-v0.5.0.md",
+      "bytes": 8064,
+      "sha256": "58043ed652e4241b407dc462121adb2a39c7382d6cd1f4c38a6f81d45f4f30fd"
+    },
+    {
+      "path": "docs/northern-dachas-visual-v5-verification.json",
+      "bytes": 5411,
+      "sha256": "0303724ebf13780f0279f2ef79bfd04ae6035015c048651a78bd4384cfafa246"
     },
     {
       "path": "docs/prototype-v0.2/images/character-selection.png",
@@ -96407,8 +96348,8 @@
     },
     {
       "path": "publication-config.json",
-      "bytes": 7301,
-      "sha256": "d639d80c746eec8a458aa17e1c21aeb4f3cdf613d4d4e2fea10b7f9099a9c88c"
+      "bytes": 7322,
+      "sha256": "b0c1bb7505cbaa45c4dafb79a9b885a0fe26ac0d87505b6e87b91fee74f08f61"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
@@ -96457,8 +96398,13 @@
     },
     {
       "path": "tools/build-northern-dachas-details.cjs",
-      "bytes": 17104,
-      "sha256": "5c804438e51e819fcd392fd8dff656ca328583e2e5b7c66ed5fe7bbb086b9edc"
+      "bytes": 17171,
+      "sha256": "456dfbe82aad377b098bfb3cb6ced6f764cb9aa9d28fe206ee87eb1ca2fb15ea"
+    },
+    {
+      "path": "tools/build-northern-dachas-visual-v5.cjs",
+      "bytes": 15258,
+      "sha256": "40f40f525c184f40fdcd853f81ffacedd178d3d6c8246a2d30057ea8c65640aa"
     },
     {
       "path": "tools/build-redesigned-animations.cjs",
@@ -96487,8 +96433,8 @@
     },
     {
       "path": "tools/check-asset-consistency.cjs",
-      "bytes": 11066,
-      "sha256": "5130b33942051defed36c7481a463c9cb0ebb2ac69a18e782ed22399aac19c28"
+      "bytes": 11182,
+      "sha256": "eec9fe656c1f01b227b69ce3c0e55f01b9485aec7707460f8d4b35d0d641b569"
     },
     {
       "path": "tools/check-asset-files.cjs",
@@ -96541,9 +96487,14 @@
       "sha256": "06def6037c91bee51ae15296b47ee3e515c9874e88c7aa8d5de971a1f57f53f0"
     },
     {
+      "path": "tools/check-northern-dachas-visual-v5.cjs",
+      "bytes": 4673,
+      "sha256": "b68badcf58d487a30e1846e2cbd48e1056b72ce85370b77b4ea1e1bb15223919"
+    },
+    {
       "path": "tools/check-northern-dachas.cjs",
-      "bytes": 6447,
-      "sha256": "5c5a61163bedeaf6589e9ceedf7514798bb96ebab14398e6eb68c35d95ce839c"
+      "bytes": 6863,
+      "sha256": "193b589618811a5e34304379d261a6fe68811bf75c59c28b86696ab8652f6c6c"
     },
     {
       "path": "tools/check-redesigned-animations.cjs",
@@ -96602,8 +96553,8 @@
     },
     {
       "path": "tools/package-desktop.cjs",
-      "bytes": 3081,
-      "sha256": "a25e70b1609653ef2ff1cd8bab4ee1e8a512cda7605b53d29cf2d74ce0addcd0"
+      "bytes": 3112,
+      "sha256": "73e66b6f8e3ed821fb3618ab77db14c614532979ea8bc3fefb36cefd82bb3e26"
     },
     {
       "path": "tools/package-infected-pixel.cjs",
@@ -96672,8 +96623,8 @@
     },
     {
       "path": "tools/prepare-northern-dachas-runtime.cjs",
-      "bytes": 2011,
-      "sha256": "3b7a754113204e39dbb99a7a57863d6baaa98b4bebec7b8923e6b30535bc2696"
+      "bytes": 2059,
+      "sha256": "e3ea2932465b445d1d0bebb3bda0660f30020c0500cd4b780e785455fb091d48"
     },
     {
       "path": "tools/prepare-northern-dachas.cjs",
@@ -96798,7 +96749,7 @@
     {
       "path": "Северные дачи.cmd",
       "bytes": 292,
-      "sha256": "efbc1ce426766b38dacb2da98d55b50be3399330bab7c86bc93c736252ca8e55"
+      "sha256": "3810dd1a15b2767b7cc44c6206a60a41a6897a2b46c19fd7f39042e55c3df2eb"
     }
   ]
 }

@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "DACHAS_EXE=%~dp0output\PixelApocalypse-northern-dachas-v0.4.0-win32-x64\PixelApocalypse.exe"
+set "DACHAS_EXE=%~dp0output\PixelApocalypse-northern-dachas-v0.5.0-win32-x64\PixelApocalypse.exe"
 if exist "%DACHAS_EXE%" (
   start "" "%DACHAS_EXE%"
   exit /b 0

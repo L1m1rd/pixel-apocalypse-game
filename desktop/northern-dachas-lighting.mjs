@@ -4,7 +4,7 @@ export const SUN=Object.freeze({
  id:'northern-dachas-afternoon',static:true,azimuthDegrees:315,elevationDegrees:43,
  direction:Object.freeze({x:-Math.SQRT1_2,y:-Math.SQRT1_2}),
  color:'#ffe5b7',ambient:'#9baeb7',shadowColor:'#182b28',
- shadowOpacity:.29,warmth:.045
+ shadowOpacity:.24,warmth:.02
 });
 export function shadowVector(height,sun=SUN){
  const length=Math.max(0,height)/Math.tan(sun.elevationDegrees*Math.PI/180);
@@ -35,10 +35,16 @@ export function createSunlight(){
   g.addColorStop(0,SUN.shadowColor);g.addColorStop(1,'#182b2800');
   ctx.fillStyle=g;ctx.translate(x,y);ctx.scale(1,h/w);ctx.beginPath();ctx.arc(0,0,w,0,Math.PI*2);ctx.fill();ctx.restore();
  }
+ function castPlane(ctx,id,sprite,plane,opacity=1){
+  if(!enabled||!sprite)return false;const image=mask(id,sprite),v=shadowVector(plane.height);
+  ctx.save();ctx.globalAlpha=SUN.shadowOpacity*opacity;
+  ctx.transform((plane.b.x-plane.a.x)/image.width,(plane.b.y-plane.a.y)/image.width,-v.x/image.height,-v.y/image.height,plane.a.x+v.x,plane.a.y+v.y);
+  ctx.drawImage(image,0,0);ctx.restore();return true;
+ }
  function grade(ctx,canvas){
   if(!enabled)return;
   ctx.save();ctx.setTransform(1,0,0,1,0,0);ctx.globalCompositeOperation='soft-light';
   ctx.globalAlpha=SUN.warmth*3;ctx.fillStyle=SUN.color;ctx.fillRect(0,0,canvas.width,canvas.height);ctx.restore();
  }
- return {cast,contact,grade,setEnabled(value){enabled=!!value;},get enabled(){return enabled;},sun:SUN};
+ return {cast,castPlane,contact,grade,setEnabled(value){enabled=!!value;},get enabled(){return enabled;},sun:SUN};
 }
