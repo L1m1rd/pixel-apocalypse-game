@@ -1,3 +1,4 @@
+import {dressDistrict} from './northern-dachas-details.mjs';
 export const MAP_ID='northern-dachas-v1';
 export const BOUNDS={x:800,y:400,w:6400,h:5400};
 export const SPAWN={x:4740,y:4740};
@@ -65,6 +66,7 @@ LANDMARKS.push({id:'forest-trail',name:'Лесная тропа',x:2220,y:690});
 export function riverBank(y){return 1270+Math.sin(y/430)*85+Math.sin(y/177)*35;}
 export function sectorAt(p){return SECTORS.find(s=>p.x>=s.x&&p.x<s.x+s.w&&p.y>=s.y&&p.y<s.y+s.h)??null;}
 export function createDistrictState(saved){return {mapId:MAP_ID,openedGates:saved?.mapId===MAP_ID?[...new Set((saved.openedGates??[]).filter(id=>GATES.some(g=>g.id===id)))]:[]};}
+export const {decals:DECALS,wires:WIRES}=dressDistrict({PLOTS,OBJECTS,FENCES,LANDMARKS,riverBank});
 const bins=new Map(),colliders=[];
 function register(rect){colliders.push(rect);for(let y=Math.floor(rect.y/128);y<=Math.floor((rect.y+rect.h)/128);y++)for(let x=Math.floor(rect.x/128);x<=Math.floor((rect.x+rect.w)/128);x++){const key=x+','+y;if(!bins.has(key))bins.set(key,[]);bins.get(key).push(rect);}}
 for(const o of OBJECTS)if(o.solid)register({id:o.id,x:o.x-o.solid.w/2,y:o.y-o.solid.h/2,w:o.solid.w,h:o.solid.h});

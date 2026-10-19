@@ -3,7 +3,7 @@
   "style": "northern-dachas-realistic-v1",
   "role": "style-variants-of-existing-canonical-entities",
   "tool": "built-in image_gen",
-  "status": "integrated-district-prototype",
+  "status": "integrated-district-sunlight-and-details",
   "baseMap": "assets/northern-dachas-v1/references/00-world-ring.png",
   "prompts": "prompts.json",
   "bindings": [
@@ -102,7 +102,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Земля"
     },
     {
       "id": "grass_short",
@@ -135,7 +136,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Короткая трава"
     },
     {
       "id": "mud",
@@ -168,7 +170,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Грязь"
     },
     {
       "id": "gravel",
@@ -201,7 +204,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Гравий"
     },
     {
       "id": "asphalt",
@@ -234,7 +238,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Асфальт"
     },
     {
       "id": "floor_wood",
@@ -267,7 +272,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Деревянный пол"
     },
     {
       "id": "floor_concrete",
@@ -300,7 +306,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Бетонный пол"
     },
     {
       "id": "water",
@@ -333,7 +340,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Вода"
     },
     {
       "id": "wall_wood",
@@ -366,7 +374,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Деревянная стена"
     },
     {
       "id": "wall_brick",
@@ -399,7 +408,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Кирпичная стена"
     },
     {
       "id": "roof",
@@ -438,7 +448,8 @@
           "kind": "diagnostic-not-proof-of-invisible-seams"
         },
         "runtimeBlendRequired": true
-      }
+      },
+      "title": "Крыша"
     },
     {
       "id": "house-plaster",
@@ -459,7 +470,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "2247aff961dfa164317b1687836dc72b626ded020de52f0569361dfdfd1bcdd9"
-      }
+      },
+      "title": "Жилой дом"
     },
     {
       "id": "house-abandoned",
@@ -480,7 +492,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "219fa49945a5b32526865f9fc65e522c9a964c77f3286b922d24e309ae147a25"
-      }
+      },
+      "title": "Жилой дом"
     },
     {
       "id": "tree_conifer",
@@ -501,7 +514,8 @@
         "width": 1672,
         "height": 941,
         "sha256": "d62289fefd79c1e121b41be5497a0173276a1aa0ca254c92221ea3bde1a58b5f"
-      }
+      },
+      "title": "Хвойное дерево"
     },
     {
       "id": "tree-apple",
@@ -522,7 +536,8 @@
         "width": 1366,
         "height": 1152,
         "sha256": "97379e283420e0b5a83e66a574a01014385fcd35f4d9792742f20edfa194d049"
-      }
+      },
+      "title": "Дерево"
     },
     {
       "id": "bush_small",
@@ -543,7 +558,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "b8b7eea411586386bc5693f5d843666f2906d43dc3bd13e3f19737dacc7d1f44"
-      }
+      },
+      "title": "Куст"
     },
     {
       "id": "grass_tall",
@@ -564,7 +580,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "71eb71bd0874d66cef11061c0d67f632cece2864a4fe52ea0b47e7e03a7d9333"
-      }
+      },
+      "title": "Высокая трава"
     },
     {
       "id": "fence_mesh",
@@ -585,7 +602,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "039270d1b43c7072624350a09d9f6164616c07835af7c82bdbe61d951fdf1f7a"
-      }
+      },
+      "title": "Забор из сетки"
     },
     {
       "id": "gate",
@@ -606,7 +624,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "3618448daf6cfc30f9c8a93d7935bb5329b0760ab0edb9ba3d8de93339e0e8d8"
-      }
+      },
+      "title": "Ворота"
     },
     {
       "id": "barrel",
@@ -627,7 +646,8 @@
         "width": 1304,
         "height": 1206,
         "sha256": "afc1b39db33f4b7f663b3398811f1fa76e20dd1d3aa9b2236fa4b2ae8ea84e3f"
-      }
+      },
+      "title": "Бочка"
     },
     {
       "id": "crate",
@@ -648,7 +668,8 @@
         "width": 1347,
         "height": 1167,
         "sha256": "9b917ce090a3fb35f0fcbbd6a3ec4985cf73611430d2b8bef209136edf01a068"
-      }
+      },
+      "title": "Ящик"
     },
     {
       "id": "bench",
@@ -669,7 +690,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "efe9074fc2105c85fa4cf3e2f3b3cd1cc56c7c7301e7f382c91f0369647f26ec"
-      }
+      },
+      "title": "Скамейка"
     },
     {
       "id": "car_abandoned",
@@ -690,7 +712,8 @@
         "width": 1672,
         "height": 941,
         "sha256": "a0b25e0ea9c06f5336630bd741468664bd3e5766f0895022e8bc8d7ae2ce5312"
-      }
+      },
+      "title": "Заброшенная машина"
     },
     {
       "id": "utility_pole",
@@ -711,7 +734,8 @@
         "width": 1024,
         "height": 1536,
         "sha256": "0ff1dfb6a875165489c2326bce696e9d7be247930b5d02606cc01aad84c3f423"
-      }
+      },
+      "title": "Столб"
     },
     {
       "id": "boards",
@@ -732,7 +756,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "f55161f1f7ec686a514345bb924931a0a75e472901caa407491295195814c120"
-      }
+      },
+      "title": "Доски после рубки"
     },
     {
       "id": "rubble",
@@ -753,7 +778,8 @@
         "width": 1536,
         "height": 1024,
         "sha256": "147970ff826b5321e076271331b1b7a4d62bab7579d2e052234f82909e2d94b7"
-      }
+      },
+      "title": "Обломки"
     },
     {
       "id": "puddle",
@@ -774,6 +800,1311 @@
         "width": 1672,
         "height": 941,
         "sha256": "3ea733b379cf2f739364cd41053dbc3f694aacc4702f0dd0213087ce6e16d517"
+      },
+      "title": "Лужа"
+    },
+    {
+      "id": "bramble",
+      "title": "Заросли ежевики",
+      "canonicalId": "world/bush_large",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_large"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/bramble.png",
+      "transparent": true,
+      "width": 434,
+      "height": 417,
+      "sha256": "b47cb2a5d31f40f51280417cdff91656b411289b671c57704e946fe05446484c",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "bramble",
+      "atlasCrop": {
+        "left": 10,
+        "top": 80,
+        "width": 418,
+        "height": 401
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "hazel",
+      "title": "Подлесок орешника",
+      "canonicalId": "world/bush_small",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_small"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/hazel.png",
+      "transparent": true,
+      "width": 379,
+      "height": 446,
+      "sha256": "2c3ea0b3cdbd19286b3296cdfdbd2c9ed101b169200d1bec0e540834381373e9",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "hazel",
+      "atlasCrop": {
+        "left": 408,
+        "top": 27,
+        "width": 363,
+        "height": 430
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "meadow-white",
+      "title": "Луговая трава с белыми цветами",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/meadow-white.png",
+      "transparent": true,
+      "width": 415,
+      "height": 486,
+      "sha256": "108ee6d525dcae037eccc42c90388640e60ccbb145f6cf7f8ecaaae6609fbd90",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "meadow-white",
+      "atlasCrop": {
+        "left": 778,
+        "top": 18,
+        "width": 399,
+        "height": 470
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "meadow-yellow",
+      "title": "Луговая трава с жёлтыми цветами",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/meadow-yellow.png",
+      "transparent": true,
+      "width": 371,
+      "height": 494,
+      "sha256": "24abba681f7b8aa7b7e50b0a9b170a9866589bf61bc9603a0f625d1383553608",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "meadow-yellow",
+      "atlasCrop": {
+        "left": 1168,
+        "top": 23,
+        "width": 355,
+        "height": 478
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "reeds",
+      "title": "Камыш и рогоз",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/reeds.png",
+      "transparent": true,
+      "width": 422,
+      "height": 521,
+      "sha256": "c28e20d400853aacaa009aafff09f66c4011c1ec139f8a71fe649a2282336082",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "reeds",
+      "atlasCrop": {
+        "left": 6,
+        "top": 498,
+        "width": 406,
+        "height": 505
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fern",
+      "title": "Папоротник и крапива",
+      "canonicalId": "world/grass_tall",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "grass_tall"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/fern.png",
+      "transparent": true,
+      "width": 455,
+      "height": 463,
+      "sha256": "212779397974fe9dac2daa947e97634723c49751582d536b28d9f06658384c16",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "fern",
+      "atlasCrop": {
+        "left": 390,
+        "top": 544,
+        "width": 439,
+        "height": 447
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "ivy-climbing",
+      "title": "Вьющийся плющ",
+      "canonicalId": "world/ivy",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "ivy"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/ivy-climbing.png",
+      "transparent": true,
+      "width": 341,
+      "height": 531,
+      "sha256": "6615e8bef5a2b29ca5ebe1c57ef57bf6cd52983865c21df5b28dec204336cbdb",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "ivy-climbing",
+      "atlasCrop": {
+        "left": 835,
+        "top": 496,
+        "width": 325,
+        "height": 515
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "wild-rose",
+      "title": "Шиповник",
+      "canonicalId": "world/bush_small",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bush_small"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/wild-rose.png",
+      "transparent": true,
+      "width": 395,
+      "height": 439,
+      "sha256": "a027d2feaf71267eec57be502b714259f52f5c180ca59e7d8c444c8781b92dc4",
+      "source": "sources/details/foliage.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "wild-rose",
+      "atlasCrop": {
+        "left": 1146,
+        "top": 568,
+        "width": 379,
+        "height": 423
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "leaf-litter",
+      "title": "Опавшая листва",
+      "canonicalId": "world/leaves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "leaves"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/leaf-litter.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "e19bda8e4947e8ec675589a8d85cf0c69250ea9a2043fa8674b3e05eb46e52e1",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "leaf-litter",
+      "atlasCrop": {
+        "left": 0,
+        "top": 0,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "root-moss",
+      "title": "Мох и корни",
+      "canonicalId": "world/moss",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "moss"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/root-moss.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "25e2931b51f2df7acc1fb2230f6ae7a6583db129e525174a5c8a1bfd78c3f885",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "root-moss",
+      "atlasCrop": {
+        "left": 384,
+        "top": 0,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "wheel-ruts",
+      "title": "Мокрые колеи",
+      "canonicalId": "world/road_dirt",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "road_dirt"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/wheel-ruts.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "77dc9e77a8198c379251b67598ed48562c216dbf897ccec0a37c30b02efb431a",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "wheel-ruts",
+      "atlasCrop": {
+        "left": 768,
+        "top": 0,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "puddle-shallow",
+      "title": "Мелкая лужа с грязным краем",
+      "canonicalId": "world/puddle",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "puddle"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/puddle-shallow.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "6a29eefe4a441666dc76ca0d463d425eed4c77fe24d09b90c2e98d8a9f0d7024",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "puddle-shallow",
+      "atlasCrop": {
+        "left": 1152,
+        "top": 0,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "stone-scatter",
+      "title": "Камни и кирпичная крошка",
+      "canonicalId": "world/rubble",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "rubble"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/stone-scatter.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "7566b581d5a480a415ac856d35b7221615a63630e4bf122dccb2096ad7b0bc15",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "stone-scatter",
+      "atlasCrop": {
+        "left": 0,
+        "top": 512,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "grass-transition",
+      "title": "Переход травы в землю",
+      "canonicalId": "world/edge_soil_grass",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "edge_soil_grass"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/grass-transition.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "81b2a5299c2b72951097c0d912c6b7dc4c9808005786bba862ee1c3cf03a2d6d",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "grass-transition",
+      "atlasCrop": {
+        "left": 384,
+        "top": 512,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "foundation-damp",
+      "title": "Влажная земля у фундамента",
+      "canonicalId": "world/edge_soil_mud",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "edge_soil_mud"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/foundation-damp.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "20d8585b86c1511d34c501f0fae4c746ef9d65d5caf984c28f16f68954cb603b",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "foundation-damp",
+      "atlasCrop": {
+        "left": 768,
+        "top": 512,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "glass-scatter",
+      "title": "Россыпь битого стекла",
+      "canonicalId": "world/glass_shards",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "glass_shards"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/glass-scatter.png",
+      "transparent": true,
+      "width": 400,
+      "height": 528,
+      "sha256": "80e459851a7d37aa0e79af59fc63d99e6c9a666277980ee2efcb86baea4a08a5",
+      "source": "sources/details/ground-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "glass-scatter",
+      "atlasCrop": {
+        "left": 1152,
+        "top": 512,
+        "width": 384,
+        "height": 512
+      }
+    },
+    {
+      "id": "wood-shelter",
+      "title": "Дровник",
+      "canonicalId": "world/garage",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "garage"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/wood-shelter.png",
+      "transparent": true,
+      "width": 400,
+      "height": 438,
+      "sha256": "26a20a3fc3f9c74c97f53821f37a67e56951e0e8cba58cce7bb087d9cf5879a7",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "wood-shelter",
+      "atlasCrop": {
+        "left": 14,
+        "top": 52,
+        "width": 384,
+        "height": 422
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "workbench-tools",
+      "title": "Верстак с инструментами",
+      "canonicalId": "world/table",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "table"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/workbench-tools.png",
+      "transparent": true,
+      "width": 396,
+      "height": 435,
+      "sha256": "83063b0b9c1eaeb8c9da2b70ef1ef76e42769673be1b5f80be50b53500fbdeb8",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "workbench-tools",
+      "atlasCrop": {
+        "left": 398,
+        "top": 74,
+        "width": 380,
+        "height": 419
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "salvage-boards",
+      "title": "Доски и листы железа",
+      "canonicalId": "item/resource-harvest-boards",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "resource-harvest-boards"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/salvage-boards.png",
+      "transparent": true,
+      "width": 410,
+      "height": 490,
+      "sha256": "58cad2cd81ac7ebdfa676c79f46cd436a85b8b0ae6b2dc09effa87a9890bdf7b",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "salvage-boards",
+      "atlasCrop": {
+        "left": 777,
+        "top": 15,
+        "width": 394,
+        "height": 474
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "rain-barrel-group",
+      "title": "Бочка, ведро и шланг",
+      "canonicalId": "world/barrel",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "barrel"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/rain-barrel-group.png",
+      "transparent": true,
+      "width": 359,
+      "height": 415,
+      "sha256": "5e70dc6de2b9bc3125166e0c96e19bd7a2dcd31e13bd1f2311ec2b82f462a255",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "rain-barrel-group",
+      "atlasCrop": {
+        "left": 1177,
+        "top": 66,
+        "width": 343,
+        "height": 399
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "truck-canvas",
+      "title": "Брошенный грузовик с тентом",
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/truck-canvas.png",
+      "transparent": true,
+      "width": 581,
+      "height": 442,
+      "sha256": "bbb8e74ae814b3ad7720c2aa93bfc3db0fa1c5bfdccbe5d7244696db7f05c587",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "truck-canvas",
+      "atlasCrop": {
+        "left": 8,
+        "top": 512,
+        "width": 565,
+        "height": 426
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "crate-group",
+      "title": "Ящики и корзина",
+      "canonicalId": "world/crate",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "crate"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/crate-group.png",
+      "transparent": true,
+      "width": 333,
+      "height": 359,
+      "sha256": "cfd78f65cfd64699a1cca756de85339d96143c4473871dcab16f5c5179e1bfb2",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "crate-group",
+      "atlasCrop": {
+        "left": 564,
+        "top": 592,
+        "width": 317,
+        "height": 343
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fence-broken",
+      "title": "Перекошенная секция забора",
+      "canonicalId": "world/fence_wood",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fence_wood"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/fence-broken.png",
+      "transparent": true,
+      "width": 440,
+      "height": 456,
+      "sha256": "477e272cd1b3379bb366fab42cf06b516994faebf779885b99ff80f1d4a24f1e",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "fence-broken",
+      "atlasCrop": {
+        "left": 860,
+        "top": 519,
+        "width": 424,
+        "height": 440
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "direction-sign",
+      "title": "Дачный указатель",
+      "canonicalId": "world/road_sign",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "road_sign"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/direction-sign.png",
+      "transparent": true,
+      "width": 252,
+      "height": 485,
+      "sha256": "dd73b501a0b0565cbca5087241479bd6643072f63d9ef9cae3c71bbb65e043a1",
+      "source": "sources/details/yard-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "direction-sign",
+      "atlasCrop": {
+        "left": 1279,
+        "top": 495,
+        "width": 236,
+        "height": 469
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "roof-debris",
+      "title": "Обвалившиеся стропила и шифер",
+      "canonicalId": "world/rubble",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "rubble"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/roof-debris.png",
+      "transparent": true,
+      "width": 440,
+      "height": 358,
+      "sha256": "b0c047b6897f112ce4b2d71a2edc3a4d5f65e8c3c8ab34b5117b84dab997ae2f",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "roof-debris",
+      "atlasCrop": {
+        "left": 24,
+        "top": 152,
+        "width": 424,
+        "height": 342
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "brick-debris",
+      "title": "Кирпич и штукатурка",
+      "canonicalId": "world/rubble",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "rubble"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/brick-debris.png",
+      "transparent": true,
+      "width": 406,
+      "height": 331,
+      "sha256": "4a4a90986030fdbfc872a3d57b8b70c0d809ae92837d50eedb01e0269260a3ed",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "brick-debris",
+      "atlasCrop": {
+        "left": 466,
+        "top": 171,
+        "width": 390,
+        "height": 315
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fallen-birch",
+      "title": "Поваленная берёза",
+      "canonicalId": "world/fallen_log",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fallen_log"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/fallen-birch.png",
+      "transparent": true,
+      "width": 482,
+      "height": 390,
+      "sha256": "bcaf47fc7e9a45193f17f788585749002d12e163c76e31f761df18461f10d367",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "fallen-birch",
+      "atlasCrop": {
+        "left": 832,
+        "top": 135,
+        "width": 466,
+        "height": 374
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "dead-tree",
+      "title": "Сухое дерево",
+      "canonicalId": "world/tree_dead",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_dead"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/dead-tree.png",
+      "transparent": true,
+      "width": 258,
+      "height": 523,
+      "sha256": "f797bb3330234ac7184e334b43051ea1344fac6922f910a9543f8ef228488b1e",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "dead-tree",
+      "atlasCrop": {
+        "left": 1267,
+        "top": 28,
+        "width": 242,
+        "height": 507
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "pallet-aged",
+      "title": "Старый поддон",
+      "canonicalId": "world/pallet",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "pallet"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/pallet-aged.png",
+      "transparent": true,
+      "width": 411,
+      "height": 334,
+      "sha256": "1aca67804160d6c27d3497b184460c4b78b4dc0a2ff27f335b28dfee39862e44",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "pallet-aged",
+      "atlasCrop": {
+        "left": 30,
+        "top": 622,
+        "width": 395,
+        "height": 318
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "wood-barricade",
+      "title": "Дощатое заграждение",
+      "canonicalId": "world/barricade",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "barricade"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/wood-barricade.png",
+      "transparent": true,
+      "width": 394,
+      "height": 366,
+      "sha256": "65bce2b766f5060f0a87a3256a6c02d9f1568258b2ae3e373c695e446a27f96b",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "wood-barricade",
+      "atlasCrop": {
+        "left": 452,
+        "top": 587,
+        "width": 378,
+        "height": 350
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "broken-window-frame",
+      "title": "Разбитая оконная рама",
+      "canonicalId": "world/window_broken",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "window_broken"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/broken-window-frame.png",
+      "transparent": true,
+      "width": 360,
+      "height": 371,
+      "sha256": "24d5437d1288e752b75bfb9cc4022f3da070859aa8d0d06f4c0007bcd1c17aa5",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "broken-window-frame",
+      "atlasCrop": {
+        "left": 849,
+        "top": 592,
+        "width": 344,
+        "height": 355
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "fungal-stump",
+      "title": "Грибы на гнилом пне",
+      "canonicalId": "world/fungal_cluster",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "fungal_cluster"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/fungal-stump.png",
+      "transparent": true,
+      "width": 326,
+      "height": 351,
+      "sha256": "8aea6bde69c2a998444eed769a15b6e4f7f615d2161dc9718b9ef4c00c15d6cc",
+      "source": "sources/details/ruin-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "fungal-stump",
+      "atlasCrop": {
+        "left": 1208,
+        "top": 613,
+        "width": 310,
+        "height": 335
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "birch-mature",
+      "title": "Взрослая берёза",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/birch-mature.png",
+      "transparent": true,
+      "width": 625,
+      "height": 525,
+      "sha256": "b8de5fe561cc98029b1cbc92c0704f5cd2e211fadfdb7f6b6ca96f1719a0886a",
+      "source": "sources/details/tree-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "caffc3f5bab5dcb5c5bf9c05388b612cfba4d9f8ef561bd06177d9c0d6ff34b7"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "birch-mature",
+      "atlasCrop": {
+        "left": 147,
+        "top": 7,
+        "width": 609,
+        "height": 509
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "spruce-mature",
+      "title": "Взрослая ель",
+      "canonicalId": "world/tree_conifer",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_conifer"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/spruce-mature.png",
+      "transparent": true,
+      "width": 390,
+      "height": 532,
+      "sha256": "be996c429cd96a9e4f6621554b8ac9cc9fda7dac30fd0119fb49d974034f44b7",
+      "source": "sources/details/tree-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "caffc3f5bab5dcb5c5bf9c05388b612cfba4d9f8ef561bd06177d9c0d6ff34b7"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "spruce-mature",
+      "atlasCrop": {
+        "left": 974,
+        "top": 6,
+        "width": 374,
+        "height": 516
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "apple-mature",
+      "title": "Старая яблоня",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/apple-mature.png",
+      "transparent": true,
+      "width": 721,
+      "height": 493,
+      "sha256": "346c3b58cc24ee6d20d2aa4ce97a1455badbff0608ea28eee426e823f99b6956",
+      "source": "sources/details/tree-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "caffc3f5bab5dcb5c5bf9c05388b612cfba4d9f8ef561bd06177d9c0d6ff34b7"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "apple-mature",
+      "atlasCrop": {
+        "left": 79,
+        "top": 528,
+        "width": 705,
+        "height": 477
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "birch-autumn",
+      "title": "Осенняя берёза",
+      "canonicalId": "world/tree_deciduous",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "tree_deciduous"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/birch-autumn.png",
+      "transparent": true,
+      "width": 471,
+      "height": 506,
+      "sha256": "03ac2c5edbe544c696e94ecda2eeb87c7931f3cb7c50ff597dac028dea8e31b0",
+      "source": "sources/details/tree-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "caffc3f5bab5dcb5c5bf9c05388b612cfba4d9f8ef561bd06177d9c0d6ff34b7"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "birch-autumn",
+      "atlasCrop": {
+        "left": 978,
+        "top": 523,
+        "width": 455,
+        "height": 490
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "cottage-collapsed",
+      "title": "Дача с обвалившейся крышей",
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/cottage-collapsed.png",
+      "transparent": true,
+      "width": 610,
+      "height": 502,
+      "sha256": "cd658cf80c128d46cf87f43c8972cceabfb7bb4b60c81e92a9553a2f6c06692e",
+      "source": "sources/details/house-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b0cc91ee2e93687cf5ed6603e9cc242a9b0930e13a874edd70c0d8184752e0e"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "cottage-collapsed",
+      "atlasCrop": {
+        "left": 98,
+        "top": 10,
+        "width": 594,
+        "height": 486
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "cottage-plaster",
+      "title": "Штукатурная дача с верандой",
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/cottage-plaster.png",
+      "transparent": true,
+      "width": 628,
+      "height": 500,
+      "sha256": "3d6d05ef6be2651d2ff8caf1799e5bee396192b62d8a7af652bf94e3049d8053",
+      "source": "sources/details/house-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b0cc91ee2e93687cf5ed6603e9cc242a9b0930e13a874edd70c0d8184752e0e"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "cottage-plaster",
+      "atlasCrop": {
+        "left": 841,
+        "top": 9,
+        "width": 612,
+        "height": 484
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "cottage-blue",
+      "title": "Синяя дача с заколоченным окном",
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/cottage-blue.png",
+      "transparent": true,
+      "width": 632,
+      "height": 494,
+      "sha256": "2468e44c1cd42515139b5cbbee3f7b197d842535854bcdba4941c3acf2304204",
+      "source": "sources/details/house-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b0cc91ee2e93687cf5ed6603e9cc242a9b0930e13a874edd70c0d8184752e0e"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "cottage-blue",
+      "atlasCrop": {
+        "left": 103,
+        "top": 515,
+        "width": 616,
+        "height": 478
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "shed-workshop",
+      "title": "Дачная мастерская",
+      "canonicalId": "world/garage",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "garage"
+      },
+      "kind": "sprite",
+      "category": "detail",
+      "file": "details/shed-workshop.png",
+      "transparent": true,
+      "width": 689,
+      "height": 461,
+      "sha256": "c63b3e941bee25a43f7fd9c89fffecb9764ea7d54a5ef51eb7af9c9c46af1fc8",
+      "source": "sources/details/house-details.png",
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b0cc91ee2e93687cf5ed6603e9cc242a9b0930e13a874edd70c0d8184752e0e"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "shed-workshop",
+      "atlasCrop": {
+        "left": 822,
+        "top": 528,
+        "width": 673,
+        "height": 445
+      },
+      "atlasExtraction": "alpha-island"
+    },
+    {
+      "id": "forest-floor",
+      "title": "Лесная подстилка",
+      "canonicalId": "world/forest_path",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "forest_path"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/forest-floor.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "af721c814c6a463da5dee6c9f9b217841677f7be9dbf58877d993466f4fd6ccb",
+      "source": "sources/details/forest-floor.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "b6105e68daf7ec3e677ee90d7d9b9773d8282031f867cd665d8816fbee1a2f3f"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "forest-floor",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 23.121744791666668,
+          "edgeMeanY": 21.955729166666668,
+          "neighborMeanX": 21.962302011986303,
+          "neighborMeanY": 21.716747186888455,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/detail-contact.png"
+      }
+    },
+    {
+      "id": "rutted-soil",
+      "title": "Утоптанная земля проездов",
+      "canonicalId": "world/road_dirt",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "road_dirt"
+      },
+      "kind": "tile",
+      "category": "terrain",
+      "file": "tiles/rutted-soil.png",
+      "transparent": false,
+      "width": 512,
+      "height": 512,
+      "sha256": "8e758e018fe429f849354618b2f15d8c7c4ede5841f46d77977ac3415510d27f",
+      "source": "sources/details/rutted-soil.png",
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4d22e3ed540783c4ba99feacd8f6e9e66f797b389948539d013c368f80ef106c"
+      },
+      "detailSet": "district-detail-v2",
+      "variant": "rutted-soil",
+      "tiling": {
+        "requestedSeamless": true,
+        "metrics": {
+          "edgeMeanX": 25.636067708333332,
+          "edgeMeanY": 24.202473958333332,
+          "neighborMeanX": 21.6334584454501,
+          "neighborMeanY": 22.713280485567516,
+          "kind": "diagnostic-not-proof-of-invisible-seams"
+        },
+        "runtimeBlendRequired": true,
+        "review": "review/detail-contact.png"
       }
     }
   ],
@@ -925,6 +2256,10 @@
     "integrated": true,
     "map": "desktop/northern-dachas-map.mjs",
     "renderer": "desktop/northern-dachas-renderer.mjs",
-    "interiors": false
-  }
+    "interiors": false,
+    "lighting": "desktop/northern-dachas-lighting.mjs",
+    "staticSun": true,
+    "detailAssets": 42
+  },
+  "detailProductionPlan": "detail-production-plan.json"
 }

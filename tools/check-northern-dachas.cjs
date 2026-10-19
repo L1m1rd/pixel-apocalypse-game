@@ -26,14 +26,14 @@ async function main(){
   const registry=JSON.parse(fs.readFileSync(path.join(root,'docs/asset-registry.json'),'utf8'));
   const policy=JSON.parse(fs.readFileSync(path.join(root,'asset-ownership.json'),'utf8'));
   assert.equal(policy.styleVariantManifests['northern-dachas-v1'],'assets/northern-dachas-v1/manifest.json');
-  assert.equal(manifest.bindings.length,31);
+  assert.equal(manifest.bindings.length,73);
   assert.equal(manifest.entities.length,3);
   assert.equal(manifest.references.length,7);
   assert.equal(plan.jobs.length,30);
   assert(plan.jobs.every(j=>j.status==='exported'),'Incomplete production plan');
   const production=[...manifest.bindings,...manifest.entities],rows=[...production,...manifest.references];
-  assert.equal(new Set(rows.map(r=>r.file)).size,41);
-  assert.equal(new Set(production.map(r=>r.id)).size,34);
+  assert.equal(new Set(rows.map(r=>r.file)).size,83);
+  assert.equal(new Set(production.map(r=>r.id)).size,76);
   const checked=[],prompts=read(manifest.prompts).jobs;
   for(const row of rows){
     const file=path.resolve(dir,row.file);
@@ -62,12 +62,15 @@ async function main(){
         assert.equal(digest(source),row.sourceMetadata.sha256,'Changed source '+row.id);
         const sm=await sharp(source).metadata();
         assert(sm.width>=900&&sm.height>=900,'Source too small');
-        if(row.kind==='sprite')await inspectAlpha(path.join(dir,row.source));
+        if(row.kind==='sprite'&&!row.atlasCrop)await inspectAlpha(path.join(dir,row.source));
+        if(row.atlasCrop){assert.equal(sm.hasAlpha,true);assert(row.atlasCrop.left+row.atlasCrop.width<=sm.width);assert(row.atlasCrop.top+row.atlasCrop.height<=sm.height);}
         assert(prompts.some(j=>j.source===row.source&&j.prompt.length>100),'Missing production prompt '+row.id);
       }else assert(prompts.some(j=>j.file===row.file&&j.prompt.length>100),'Missing original prompt');
     }else assert(prompts.some(j=>j.file===row.file&&j.prompt.length>100),'Missing reference prompt');
     checked.push(result);
   }
+  const details=read('detail-production-plan.json');assert.equal(details.jobs.length,8);assert.equal(details.count,42);assert(details.jobs.every(j=>j.status==='exported'));
+  assert.deepEqual([...details.exportedAssets].sort(),production.filter(r=>r.detailSet==='district-detail-v2').map(r=>r.id).sort());
   const layout=read('layout.json');
   assert.equal(layout.scalePlan.relativeAreaTarget,2);
   assert.equal(layout.sectors.length,8);
@@ -79,7 +82,7 @@ async function main(){
   const html=fs.readFileSync(path.join(dir,'textures.html'),'utf8');
   for(const row of production)assert(html.includes('data-id="'+row.id+'"'),'Missing gallery card');
   for(const file of ['review/terrain-repeat-contact.png','review/sprite-contact.png'])assert(fs.existsSync(path.join(dir,file)));
-  const report={passed:true,individualProductionImages:production.length,newExports:plan.jobs.length,surfaceTiles:production.filter(r=>r.kind==='tile').length,isolatedSprites:production.filter(r=>r.kind==='sprite').length,newWorldEntities:manifest.entities.length,sectorPalettes:palettes.sectors.length,canonicalReferencesVerified:true,seamDiagnosticsPassed:true,strictSeamlessVerified:false,runtimeIntegrated:!!manifest.runtime?.integrated,checked};
+  const report={passed:true,individualProductionImages:production.length,newExports:plan.jobs.length+details.count,detailVariants:details.count,detailGenerationSheets:details.jobs.length,surfaceTiles:production.filter(r=>r.kind==='tile').length,isolatedSprites:production.filter(r=>r.kind==='sprite').length,newWorldEntities:manifest.entities.length,sectorPalettes:palettes.sectors.length,canonicalReferencesVerified:true,seamDiagnosticsPassed:true,strictSeamlessVerified:false,runtimeIntegrated:!!manifest.runtime?.integrated,checked};
   fs.writeFileSync(path.join(dir,'validation-report.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({...report,checked:undefined}));
 }

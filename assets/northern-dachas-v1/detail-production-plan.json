@@ -1,0 +1,207 @@
+{
+  "version": 2,
+  "tool": "built-in image_gen",
+  "scope": "District ground, understory, canopy, yard props, damage and building variants",
+  "canonicalPolicy": "All exports reuse existing canonical entity IDs and owners.",
+  "jobs": [
+    {
+      "id": "foliage",
+      "source": "sources/details/foliage.png",
+      "prompt": "Use case: stylized-concept. Production game sprite atlas for Northern Dachas, an abandoned Russian cottage settlement. Create ONE transparent PNG sprite sheet, wide landscape 1536x1024, strict 4 columns x 2 rows of EIGHT equal 384x512 cells. Each cell contains exactly one completely isolated foliage cluster centered within its own cell with at least 35px transparent padding on all sides. No overlap across cells. No text, numbers, frames, checkerboard, ground rectangle or baked cast shadows. Camera: high oblique orthographic isometric, ground axes +/-31 degrees, detailed realistic hand-painted survival game assets, muted olive leaves, warm yellow flecks, coherent small detail, no cartoon outlines. Soft neutral daylight; light-facing upper left, shaded lower right. Row1 left to right: (1) dense waist-high bramble thicket with a few red berries; (2) airy hazel understory shrub with visible branches; (3) tall tangled meadow grasses with tiny white wildflowers; (4) wild meadow grasses with yellow flowers. Row2: (5) dense waterside reeds and brown cattails; (6) fern cluster and nettles; (7) narrow upright ivy climbing cluster suitable against a wall, no wall itself; (8) low scrub rose bush with small faded pink flowers. Real botanical forms, irregular natural silhouettes, detailed leaves. All eight must have actual transparent background.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "bramble",
+        "hazel",
+        "meadow-white",
+        "meadow-yellow",
+        "reeds",
+        "fern",
+        "ivy-climbing",
+        "wild-rose"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f81795d142940489b20cef4b3305fbd1a409d03412a74cf2bf7b6e48b411640"
+      }
+    },
+    {
+      "id": "ground-details",
+      "source": "sources/details/ground-details.png",
+      "prompt": "Use case: stylized-concept. Production ground decal atlas for realistic abandoned Russian dacha survival game. TRUE TRANSPARENT PNG 1536x1024, exact 4 columns by 2 rows of 8 equal cells, 30 pixels empty padding in every cell, one separate irregular decal per cell. Viewed straight DOWN, so the game can project it onto its ground plane. Feathery broken irregular transparent edges, no rectangular bases, no cast shadows, no grid, labels or checkerboard. Row1 left to right: 1) scatter of wet birch and oak leaves with tiny twigs; 2) patch of moss with exposed tree roots; 3) pair of muddy vehicle wheel ruts with small puddles, oriented vertically; 4) shallow irregular grey-blue puddle with muddy edge, no surrounding scenery. Row2: 5) gravel and tiny broken brick chips; 6) transition patch of green grass encroaching brown soil; 7) dark damp foundation dirt with small weeds and lichen; 8) scattered broken glass with dull subtle glints. Realistic finely resolved natural surfaces, restrained olive, grey and earth brown, cohesive art direction, avoid luminous saturated colors. Transparent negative spaces between all pieces.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "leaf-litter",
+        "root-moss",
+        "wheel-ruts",
+        "puddle-shallow",
+        "stone-scatter",
+        "grass-transition",
+        "foundation-damp",
+        "glass-scatter"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5809baef2668ac978f2a2144b82db840f76ebdc035079e3e61bab235e58fba"
+      }
+    },
+    {
+      "id": "yard-details",
+      "source": "sources/details/yard-details.png",
+      "prompt": "Use case: stylized-concept. A production sprite sheet asset for Pixel Apocalypse Northern Dachas. Realistic richly detailed painted textures, natural muted olive/grey/brown palette, high oblique orthographic isometric camera, ground axes +/-31 degrees. One transparent PNG landscape 1536x1024, STRICT 4 columns by 2 rows, 8 equal cells. Each cell contains ONE isolated object fully inside cell, 32px clear transparent padding on ALL four sides, no overlaps across cells, all silhouettes complete. Neutral soft daylight from upper left, no long baked cast shadow, no background, no labels, no gridlines, no checkerboard. Consistent believable scale, all 8 visible separately. Objects by cell, row1 left to right: 1) stacked chopped firewood under a tiny weathered timber shelter; 2) weathered workbench with hand tools and rusty garden watering can; 3) leaning stack of salvaged planks with corrugated metal offcuts; 4) rusty blue rain barrel with dented bucket and coiled hose as one grouped prop. Row2: 5) abandoned Soviet light utility truck with faded olive paint and sagging canvas cargo cover, no symbols, entire vehicle visible; 6) two old wooden produce crates and overturned basket as one grouped prop; 7) broken low wooden garden fence section with leaning posts, oriented on ground axis; 8) battered rural direction signpost with unlettered faded planks. Very convincing wood grain, flaking paint, rust and wear.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "wood-shelter",
+        "workbench-tools",
+        "salvage-boards",
+        "rain-barrel-group",
+        "truck-canvas",
+        "crate-group",
+        "fence-broken",
+        "direction-sign"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a586f5398da94cee4c1902aafc625ca8608353a5512e75425836cf14533c18e0"
+      }
+    },
+    {
+      "id": "ruin-details",
+      "source": "sources/details/ruin-details.png",
+      "prompt": "Use case: stylized-concept. A production sprite sheet asset for Pixel Apocalypse Northern Dachas. Realistic richly detailed painted textures, natural muted olive/grey/brown palette, high oblique orthographic isometric camera, ground axes +/-31 degrees. One transparent PNG landscape 1536x1024, STRICT 4 columns by 2 rows, 8 equal cells. Each cell contains ONE isolated object fully inside cell, 32px clear transparent padding on ALL four sides, no overlaps across cells, all silhouettes complete. Neutral soft daylight from upper left, no long baked cast shadow, no background, no labels, no gridlines, no checkerboard. Consistent believable scale, all 8 visible separately. Row1 left to right: 1) collapsed roof rafters with broken grey roofing sheets and timber debris as a low pile; 2) heap of crumbled red brick and plaster; 3) fallen birch log with branching bare limbs and some moss; 4) dead standing twisted small tree, complete trunk. Row2: 5) old pale wooden pallet with a few loose boards; 6) low makeshift plank barricade with two rusty metal scraps; 7) broken window frame leaning on a wall-free pile of wood with shattered glass near base; 8) cluster of ominous small red-orange parasitic fungi growing from rotting stump. No characters, gore, combat effects or weapons. Each independent object has transparent background.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "roof-debris",
+        "brick-debris",
+        "fallen-birch",
+        "dead-tree",
+        "pallet-aged",
+        "wood-barricade",
+        "broken-window-frame",
+        "fungal-stump"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "28acd91e9926a897103e5961e170bd6ccf28b359a40f763e1c62eda8d0088b67"
+      }
+    },
+    {
+      "id": "tree-details",
+      "source": "sources/details/tree-details.png",
+      "prompt": "Use case: stylized-concept. ONE production game sprite atlas with TRUE TRANSPARENT BACKGROUND. Canvas 1536x1024, exactly TWO COLUMNS and TWO ROWS, four equal 768x512 cells, each has one entire tree fully visible with 60px transparent empty gutter on all sides, absolutely no branch touches cell edge. Four isolated assets, NO landscape, no background color, no ground platforms, no text or border. Realistic high oblique orthographic survival game camera, detailed natural foliage, muted olive-green and yellow birch leaves, sun from upper left with restrained shading and no cast shadow. Row1: left a mature silver birch with wide airy irregular canopy and white-black trunk; right a tall dark spruce with uneven layered boughs and visible trunk. Row2: left a broad old apple tree with gnarled trunk and sparse small apples; right a smaller leaning birch with sparse autumn yellow leaves. Need accurately separated sprites, crowns entirely inside each cell, leaves and branches realistically intricate, no cartoon outline.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "birch-mature",
+        "spruce-mature",
+        "apple-mature",
+        "birch-autumn"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "caffc3f5bab5dcb5c5bf9c05388b612cfba4d9f8ef561bd06177d9c0d6ff34b7"
+      }
+    },
+    {
+      "id": "house-details",
+      "source": "sources/details/house-details.png",
+      "prompt": "Use case: stylized-concept. Production survival game sprite sheet on actual transparent background. Landscape1536x1024 strict2x2 equal cells768x512. Four independent small Russian dacha buildings, one whole building centered per cell, 50px transparent padding, no clipping or overlap. High oblique orthographic isometric camera with ground axes +/-31 degrees, roofs plus two facades visible, front facing lower left. Realistic weathered materials matching richly detailed abandoned cottage game art. Soft daylight upper left, cool recesses, no long cast shadows, no ground platforms, no separate fences, trees, text or surroundings. Top left: faded grey timber cottage with partially collapsed slate roof, exposed rafters and brick chimney. Top right: pale lime-plaster cottage with brick foundation, decayed wooden veranda and mossy corrugated roof. Bottom left: faded desaturated blue timber cottage with intact roof, boarded side window and small porch. Bottom right: small tilted timber workshop shed with open dark doorway, sagging lean-to and rusty sheet roof. Distinct silhouettes and believable construction, vines attached lightly to building surfaces. Every building entirely isolated and fits its cell.",
+      "transparent": true,
+      "status": "exported",
+      "exports": [
+        "cottage-collapsed",
+        "cottage-plaster",
+        "cottage-blue",
+        "shed-workshop"
+      ],
+      "sourceMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b0cc91ee2e93687cf5ed6603e9cc242a9b0930e13a874edd70c0d8184752e0e"
+      }
+    },
+    {
+      "id": "forest-floor",
+      "source": "sources/details/forest-floor.png",
+      "prompt": "Use case: stylized-concept. One square seamless repeating photorealistic game terrain texture, flat orthographic directly overhead view. Abandoned Russian birch forest floor: dark umber soil, scattered tiny yellow birch leaves, fine twigs, low soft moss patches and a few exposed fine roots, no large focal object. Rich convincing fine natural material detail matching realistic high-detail isometric survival game art. Muted olive, tan and brown, neutral diffuse lighting, no directional shadow or perspective, no text or borders, no plants standing up, no vignette. All four edges statistically continuous, no obvious large repeated motif, texture fills entire canvas.",
+      "transparent": false,
+      "status": "exported",
+      "exports": [
+        "forest-floor"
+      ],
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "b6105e68daf7ec3e677ee90d7d9b9773d8282031f867cd665d8816fbee1a2f3f"
+      }
+    },
+    {
+      "id": "rutted-soil",
+      "source": "sources/details/rutted-soil.png",
+      "prompt": "Use case: stylized-concept. One square seamless repeating game terrain surface texture, flat orthographic directly overhead, neutral diffuse light. Fine realistic worn brown dirt of abandoned Russian dacha lane, tiny embedded stones, moist darker variations, sparse straw and hints of tire abrasion. Subtle low-contrast irregularity, natural restrained warm grey-brown, no roads drawn as a strip, no border, no grass frame, no centered motif, no text, no standing objects, no cast shadow. Tile continues all four sides, plausible sharp mineral detail for rich realistic survival game, no artificial noise or blurry watercolor.",
+      "transparent": false,
+      "status": "exported",
+      "exports": [
+        "rutted-soil"
+      ],
+      "sourceMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4d22e3ed540783c4ba99feacd8f6e9e66f797b389948539d013c368f80ef106c"
+      }
+    }
+  ],
+  "exportedAssets": [
+    "bramble",
+    "hazel",
+    "meadow-white",
+    "meadow-yellow",
+    "reeds",
+    "fern",
+    "ivy-climbing",
+    "wild-rose",
+    "leaf-litter",
+    "root-moss",
+    "wheel-ruts",
+    "puddle-shallow",
+    "stone-scatter",
+    "grass-transition",
+    "foundation-damp",
+    "glass-scatter",
+    "wood-shelter",
+    "workbench-tools",
+    "salvage-boards",
+    "rain-barrel-group",
+    "truck-canvas",
+    "crate-group",
+    "fence-broken",
+    "direction-sign",
+    "roof-debris",
+    "brick-debris",
+    "fallen-birch",
+    "dead-tree",
+    "pallet-aged",
+    "wood-barricade",
+    "broken-window-frame",
+    "fungal-stump",
+    "birch-mature",
+    "spruce-mature",
+    "apple-mature",
+    "birch-autumn",
+    "cottage-collapsed",
+    "cottage-plaster",
+    "cottage-blue",
+    "shed-workshop",
+    "forest-floor",
+    "rutted-soil"
+  ],
+  "count": 42
+}

@@ -13,3 +13,7 @@
 Эта ветка использует отдельную папку сохранений `PixelApocalypse-NorthernDachas`, чтобы не затронуть мир другой сборки. Сохраняются герой, позиция и открытые ворота.
 
 Проверки: `node --test desktop/core.test.mjs desktop/northern-dachas-map.test.mjs`, `node tools/check-asset-consistency.cjs`, `node tools/check-northern-dachas.cjs`, `node tools/check-northern-dachas-runtime.cjs`.
+
+## Версия 0.4.0
+
+42 новых варианта окружения (всего 76 производственных PNG), наземные накладки, подлесок и кроны, детали дворов, провода и статичное солнце с направленными тенями. Подробности: [Северные дачи 0.4.0](northern-dachas-v0.4.0.md). Дополнительная проверка: `node tools/check-northern-dachas-sunlight.cjs`; тесты включают `desktop/northern-dachas-lighting.test.mjs`.

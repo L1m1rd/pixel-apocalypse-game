@@ -5,7 +5,7 @@ import {MAP_ID,SPAWN,BOUNDS,PLOTS,OBJECTS,SECTORS,GATES,project,unproject,blocke
 const {validateSave}=createRequire(import.meta.url)('./save.cjs');
 test('the district contains 80 real plots, 60 cottages and eight named sectors',()=>{
  assert.equal(PLOTS.length,80);assert.equal(PLOTS.filter(p=>p.hasHouse).length,60);assert.equal(SECTORS.length,8);
- assert.equal(OBJECTS.filter(o=>['house','house-plaster','house-abandoned'].includes(o.asset)).length,60);
+ assert.equal(OBJECTS.filter(o=>o.id.endsWith('-house')).length,60);
  assert.equal(new Set(OBJECTS.map(o=>o.id)).size,OBJECTS.length);
  for(const plot of PLOTS)assert.equal(sectorAt({x:plot.x+plot.w/2,y:plot.y+plot.h/2})?.id,plot.sectorId);
 });
@@ -16,7 +16,7 @@ test('projection is reversible and movement follows the screen axes',()=>{
  assert(Math.abs(after.x-before.x-5)<1e-6);assert(Math.abs(after.y-before.y)<1e-6);
 });
 test('houses, the river and boundaries block walking without tunneling',()=>{
- const state=createDistrictState(),house=OBJECTS.find(o=>o.asset==='house');
+ const state=createDistrictState(),house=OBJECTS.find(o=>o.id.endsWith('-house'));
  assert(blocked(house,state));assert(blocked({x:850,y:2000},state));assert(blocked({x:BOUNDS.x-1,y:5000},state));
  const p={x:house.x-house.solid.w/2-20,y:house.y};const intended=project(80,0),moved=moveInDistrict(p,intended.x,intended.y,state);
  assert(moved.x<house.x-house.solid.w/2);assert(!blocked(moved,state));

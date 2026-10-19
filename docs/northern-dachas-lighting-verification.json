@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "packaged": true,
+  "version": "0.4.0",
+  "scenes": [
+    {
+      "scene": "04-sunlit-street",
+      "position": {
+        "x": 2429,
+        "y": 1300
+      },
+      "visibleObjects": 262,
+      "shadowCasters": 164,
+      "sun": {
+        "id": "northern-dachas-afternoon",
+        "static": true,
+        "azimuthDegrees": 315,
+        "elevationDegrees": 43,
+        "direction": {
+          "x": -0.7071067811865476,
+          "y": -0.7071067811865476
+        },
+        "color": "#ffe5b7",
+        "ambient": "#9baeb7",
+        "shadowColor": "#182b28",
+        "shadowOpacity": 0.29,
+        "warmth": 0.045,
+        "enabled": true
+      },
+      "difference": {
+        "changedPixelFraction": 0.9229964736605732,
+        "meanChannelDifference": 5.845684184700344,
+        "frameIntervals": {
+          "medianMs": 16.699999999999818,
+          "p95Ms": 16.799999999999727
+        }
+      }
+    },
+    {
+      "scene": "06-abandoned-gardens",
+      "position": {
+        "x": 2429,
+        "y": 2980
+      },
+      "visibleObjects": 293,
+      "shadowCasters": 216,
+      "sun": {
+        "id": "northern-dachas-afternoon",
+        "static": true,
+        "azimuthDegrees": 315,
+        "elevationDegrees": 43,
+        "direction": {
+          "x": -0.7071067811865476,
+          "y": -0.7071067811865476
+        },
+        "color": "#ffe5b7",
+        "ambient": "#9baeb7",
+        "shadowColor": "#182b28",
+        "shadowOpacity": 0.29,
+        "warmth": 0.045,
+        "enabled": true
+      },
+      "difference": null
+    },
+    {
+      "scene": "07-reed-bank",
+      "position": {
+        "x": 1440,
+        "y": 3000
+      },
+      "visibleObjects": 60,
+      "shadowCasters": 67,
+      "sun": {
+        "id": "northern-dachas-afternoon",
+        "static": true,
+        "azimuthDegrees": 315,
+        "elevationDegrees": 43,
+        "direction": {
+          "x": -0.7071067811865476,
+          "y": -0.7071067811865476
+        },
+        "color": "#ffe5b7",
+        "ambient": "#9baeb7",
+        "shadowColor": "#182b28",
+        "shadowOpacity": 0.29,
+        "warmth": 0.045,
+        "enabled": true
+      },
+      "difference": null
+    }
+  ]
+}

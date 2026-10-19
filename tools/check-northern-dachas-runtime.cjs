@@ -5,7 +5,7 @@ fs.mkdirSync(out,{recursive:true});fs.mkdirSync(profile,{recursive:true});
 const savePath=path.join(profile,'world-v1.json');
 const seed={version:1,worldName:'Северные дачи — проверка',characterId:'01-gleb',x:4740,y:4740,direction:'north',crouched:false,district:{mapId:'northern-dachas-v1',openedGates:[]}};
 const packaged=process.argv.includes('--packaged');
-const exe=packaged?(process.env.PIXEL_APOCALYPSE_OUTPUT?path.join(process.env.PIXEL_APOCALYPSE_OUTPUT,'PixelApocalypse.exe'):path.join(ROOT,'output/PixelApocalypse-northern-dachas-v0.3.0-win32-x64/PixelApocalypse.exe')):require('../desktop/node_modules/electron');
+const exe=packaged?(process.env.PIXEL_APOCALYPSE_OUTPUT?path.join(process.env.PIXEL_APOCALYPSE_OUTPUT,'PixelApocalypse.exe'):path.join(ROOT,'output/PixelApocalypse-northern-dachas-v'+require('../desktop/package.json').version+'-win32-x64/PixelApocalypse.exe')):require('../desktop/node_modules/electron');
 const env={...process.env,PIXEL_APOCALYPSE_TEST_DATA:profile};delete env.ELECTRON_RUN_AS_NODE;
 async function launch(){
  const app=await electron.launch({executablePath:exe,args:packaged?[]:[path.join(ROOT,'desktop')],env,timeout:60000});
