@@ -1,0 +1,50 @@
+{
+  "version": "0.7.1",
+  "unitTests": 20,
+  "bindings": {
+    "passed": true,
+    "packaged": true,
+    "version": "0.7.1",
+    "poseChecks": 768,
+    "coveredBodyPixels": 571801,
+    "opaqueArmPoints": 27648,
+    "firearms": 24,
+    "reportedWeapon": "weapon/izh-27",
+    "checks": [
+      "native body opacity preserved when clothes are applied",
+      "clothing covers current-frame arms and legs",
+      "lifted feet receive footwear",
+      "helmet tracks head rather than spread feet",
+      "both posed arms are opaque for every weapon",
+      "running keeps shotgun in hands",
+      "inventory uses stowed weapon and resting hands",
+      "no renderer errors"
+    ]
+  },
+  "inventory": {
+    "passed": true,
+    "packaged": true,
+    "catalog": 268,
+    "checks": [
+      "all eight screen directions",
+      "crouch and stop",
+      "normal inventory contains only owned items",
+      "creative disabled by default",
+      "explicit creative grant",
+      "distinct pockets and backpack",
+      "equipment slots",
+      "split and merge",
+      "button and drag transfer",
+      "healing from backpack",
+      "filled backpack removal and re-equip",
+      "inventory pauses walking",
+      "reload from backpack",
+      "drop and pickup",
+      "creative mode persistence",
+      "save and restart",
+      "minimum window size",
+      "no renderer errors"
+    ],
+    "screenshots": "output/item-lab-v061-review"
+  }
+}
