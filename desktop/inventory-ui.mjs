@@ -1,38 +1,47 @@
 import {SLOT_NAMES,CATEGORY_NAMES} from './inventory.mjs';
-export function createInventoryUI({getInventory,getPlayer,persist,notice,onToggle}){
- const $=id=>document.getElementById(id);let open=false,tab='bag',selected=null,filter='all',search='';
+export function createInventoryUI({getInventory,getPlayer,getCharacter,persist,notice,onToggle}){
+ const $=id=>document.getElementById(id);let open=false,creativeOpen=false,selected=null,creativeKey=null,search='',filter='all';
  const actions={eat:'Съесть',drink:'Выпить',heal:'Применить',read:'Прочитать'};
  const button=(text,action,cls='')=>{const b=document.createElement('button');b.textContent=text;b.className=cls;b.onclick=action;return b;};
- const icon=def=>{const img=document.createElement('img');img.src='media/'+def.file;img.alt='';return img;};
+ const icon=def=>{const img=document.createElement('img');img.src='media/'+def.file;img.alt='';img.draggable=false;return img;};
  const changed=()=>{render();persist().catch(()=>notice('Не удалось сохранить инвентарь.'));};
- const perform=(fn)=>{if(!fn())notice('Действие недоступно: проверь место в рюкзаке, количество или состояние героя.');changed();};
- function toggle(value=!open){open=value;$('inventory-overlay').hidden=!open;onToggle(open);if(open){render();$('inventory-close').focus();}else $('world').focus();}
- $('inventory-close').onclick=()=>toggle(false);
- $('inventory-bag-tab').onclick=()=>{tab='bag';selected=null;render();};$('inventory-catalog-tab').onclick=()=>{tab='catalog';selected=null;render();};
- $('inventory-search').oninput=e=>{search=e.target.value.toLocaleLowerCase('ru');render();};$('inventory-filter').onchange=e=>{filter=e.target.value;render();};
+ const perform=fn=>{if(!fn())notice('Не удалось выполнить действие: проверь место, слот и состояние предмета.');else $('notice').hidden=true;changed();};
+ function toggle(value=!(open||creativeOpen)){open=value;if(!value)creativeOpen=false;$('inventory-overlay').hidden=!open;$('creative-overlay').hidden=!creativeOpen;onToggle(open||creativeOpen);if(open){render();$('inventory-close').focus();}else $('world').focus();}
+ function toggleCreative(value=!creativeOpen){const inv=getInventory();if(!inv)return;if(value&&!inv.state.creative){notice('Включи «Творческий режим» в инвентаре, чтобы открыть выдачу предметов.');return;}creativeOpen=value;$('creative-overlay').hidden=!value;onToggle(open||creativeOpen);if(value){renderCreative();$('creative-close').focus();}else if(open)$('inventory-close').focus();}
+ const closeTop=()=>creativeOpen?toggleCreative(false):toggle(false);
+ $('inventory-close').onclick=()=>toggle(false);$('creative-close').onclick=()=>toggleCreative(false);
+ $('creative-mode').onchange=e=>{getInventory().setCreative(e.target.checked);$('notice').hidden=true;if(!e.target.checked)toggleCreative(false);changed();};
+ $('creative-open').onclick=()=>toggleCreative(true);
+ $('creative-search').oninput=e=>{search=e.target.value.toLocaleLowerCase('ru');renderCreative();};$('creative-filter').onchange=e=>{filter=e.target.value;renderCreative();};
  $('inventory-merge').onclick=()=>{getInventory().merge();changed();};
- function render(){
-  const inv=getInventory();if(!inv)return;
-  $('inventory-bag-tab').setAttribute('aria-selected',String(tab==='bag'));$('inventory-catalog-tab').setAttribute('aria-selected',String(tab==='catalog'));
-  $('inventory-summary').textContent=inv.state.bag.length+' / '+inv.slots()+' ячеек · '+inv.weight().toFixed(1)+' кг · '+inv.defs.size+' вариантов в каталоге';
-  $('inventory-merge').hidden=tab!=='bag';
-  const categories=[...new Set([...inv.defs.values()].map(d=>d.category))];if($('inventory-filter').options.length<2)for(const cat of categories){const o=document.createElement('option');o.value=cat;o.textContent=CATEGORY_NAMES[cat]??cat;$('inventory-filter').append(o);}
-  const rows=tab==='catalog'?[...inv.defs.values()].map(d=>({key:d.key,catalog:true})):inv.state.bag;
-  const visible=rows.filter(s=>{const d=inv.defs.get(s.key);return (filter==='all'||filter===d.category)&&(!search||(d.name+' '+d.key).toLocaleLowerCase('ru').includes(search));});
-  const grid=$('inventory-grid');grid.replaceChildren();
-  for(const s of visible){const d=inv.defs.get(s.key),id=s.catalog?s.key:s.uid,b=button('',()=>{selected=id;render();},'item-cell');b.dataset.key=s.key;if(!s.catalog)b.dataset.uid=s.uid;b.title=d.name;b.setAttribute('aria-label',d.name+(s.qty?' ×'+s.qty:''));b.setAttribute('aria-pressed',String(selected===id));b.append(icon(d));const name=document.createElement('span');name.textContent=d.name;b.append(name);if(s.qty){const qty=document.createElement('b');qty.textContent='×'+s.qty;b.append(qty);}grid.append(b);}
-  if(!visible.length){const p=document.createElement('p');p.textContent=tab==='bag'?'Рюкзак пуст. Открой «Все предметы» и возьми нужные вещи.':'Ничего не найдено.';grid.append(p);}
-  const s=rows.find(s=>(s.catalog?s.key:s.uid)===selected),detail=$('inventory-detail');detail.replaceChildren();
-  if(s){const d=inv.defs.get(s.key);detail.append(icon(d));const h=document.createElement('h2');h.textContent=d.name;detail.append(h);const p=document.createElement('p');p.textContent=d.description;detail.append(p);const meta=document.createElement('p');meta.className='muted';meta.textContent='Вес: '+d.weight+' кг · Стак: '+d.maxStack+(d.slot?' · '+SLOT_NAMES[d.slot]:'')+(d.ammo?' · '+(s.loaded??0)+' / '+d.capacity+' · '+d.ammo:'');detail.append(meta);
-   if(s.catalog){detail.append(button('Взять 1',()=>perform(()=>inv.add(d.key,1)),'primary'));if(d.maxStack>1)detail.append(button('Взять '+d.maxStack,()=>perform(()=>inv.add(d.key,d.maxStack))));}
-   else{if(d.slot)detail.append(button('Экипировать',()=>perform(()=>inv.equip(s.uid)),'primary'));if(d.use)detail.append(button(actions[d.use],()=>perform(()=>inv.use(s.uid)),'primary'));if(s.qty>1)detail.append(button('Разделить пополам',()=>perform(()=>inv.split(s.uid))));detail.append(button('Выбросить',()=>perform(()=>inv.drop(s.uid,getPlayer()))));}
-  }else{detail.textContent='Выбери предмет для осмотра и действий.';}
-  const eq=$('inventory-equipment');eq.replaceChildren();
-  for(const [slot,name] of Object.entries(SLOT_NAMES)){const s=inv.state.equipment[slot],b=button('',()=>{if(s)perform(()=>inv.unequip(slot));},'equipment-slot');b.dataset.slot=slot;const label=document.createElement('span');label.textContent=name;b.append(label);if(s){b.append(icon(inv.defs.get(s.key)));const title=document.createElement('small');title.textContent=inv.defs.get(s.key).name;b.append(title);b.title='Снять: '+inv.defs.get(s.key).name;}else{const blank=document.createElement('small');blank.textContent='Пусто';b.append(blank);}eq.append(b);}
-  const ground=$('inventory-ground');ground.replaceChildren();for(const s of inv.nearby(getPlayer())){const d=inv.defs.get(s.key),b=button(d.name+' ×'+s.qty,()=>perform(()=>inv.pickup(s.uid)));b.dataset.groundUid=s.uid;ground.append(b);}
-  $('inventory-learned').textContent='Изучено: '+(inv.state.learned.map(k=>inv.defs.get(k).name).join(', ')||'нет');
-  updateHUD();
+ function acceptDrop(el,action){el.ondragover=e=>{if(e.dataTransfer.types.includes('application/x-pixel-item')){e.preventDefault();e.dataTransfer.dropEffect='move';}};el.ondrop=e=>{e.preventDefault();e.stopPropagation();const value=e.dataTransfer.getData('application/x-pixel-item');if(/^\d+$/.test(value))perform(()=>action(Number(value)));};}
+ function itemButton(s,container){const inv=getInventory(),d=inv.defs.get(s.key),b=button('',()=>{selected={uid:s.uid};render();},'item-cell');b.dataset.key=s.key;b.dataset.uid=s.uid;b.dataset.container=container;b.title=d.name;b.setAttribute('aria-label',d.name+' ×'+s.qty);b.setAttribute('aria-pressed',String(selected?.uid===s.uid));b.draggable=true;b.ondragstart=e=>{e.dataTransfer.setData('application/x-pixel-item',String(s.uid));e.dataTransfer.effectAllowed='move';};b.append(icon(d));const label=document.createElement('span');label.textContent=d.name;b.append(label);if(s.qty>1){const qty=document.createElement('b');qty.textContent='×'+s.qty;b.append(qty);}if(d.slot==='backpack'){const qty=document.createElement('small');qty.textContent=(s.contents?.length??0)+' / '+d.capacity;b.append(qty);}return b;}
+ function renderContainer(name){const inv=getInventory(),grid=$(name+'-grid'),rows=inv.list(name)??[],capacity=inv.capacity(name);grid.replaceChildren();acceptDrop(grid,uid=>inv.transfer(uid,name));$(name+'-summary').textContent=rows.length+' / '+capacity+' ячеек';
+  if(!capacity){const p=document.createElement('p');p.className='storage-empty';p.textContent='Рюкзак не надет. Перенеси рюкзак из карманов в слот снаряжения.';grid.append(p);return;}
+  for(let i=0;i<capacity;i++){if(rows[i])grid.append(itemButton(rows[i],name));else{const cell=document.createElement('div');cell.className='item-cell empty-cell';cell.setAttribute('aria-label','Свободная ячейка');acceptDrop(cell,uid=>inv.transfer(uid,name));grid.append(cell);}}
  }
- function updateHUD(){const inv=getInventory();if(!inv)return;const v=inv.state.vitals,w=inv.state.equipment.weapon,def=inv.defs.get(w?.key);$('item-hud').textContent='Здоровье '+v.health+' · Сытость '+v.hunger+' · Вода '+v.thirst+' | '+(def?def.name+' '+w.loaded+'/'+def.capacity:'Оружие не выбрано')+' | I — инвентарь';}
- return {toggle,render,updateHUD,get isOpen(){return open;}};
+ function renderEquipment(){const inv=getInventory(),eq=$('inventory-equipment');eq.replaceChildren();
+  for(const [slot,name] of Object.entries(SLOT_NAMES)){const s=inv.state.equipment[slot],b=button('',()=>{selected={slot};render();},'equipment-slot');b.dataset.slot=slot;b.setAttribute('aria-label',name+(s?': '+inv.defs.get(s.key).name:': пусто'));b.setAttribute('aria-pressed',String(selected?.slot===slot));const label=document.createElement('span');label.textContent=name;b.append(label);if(s){b.append(icon(inv.defs.get(s.key)));b.title=inv.defs.get(s.key).name;}else{const empty=document.createElement('small');empty.textContent='Пусто';b.append(empty);}acceptDrop(b,uid=>inv.equip(uid,slot));eq.append(b);}
+  const ch=getCharacter();if(ch){$('inventory-character').src='media/'+ch.portrait;$('inventory-character-name').textContent=ch.name;}
+ }
+ function renderDetail(){const inv=getInventory(),detail=$('inventory-detail');detail.replaceChildren();let s,container;
+  if(selected?.slot)s=inv.state.equipment[selected.slot];else for(const name of ['pockets','backpack']){const row=inv.list(name)?.find(s=>s.uid===selected?.uid);if(row){s=row;container=name;break;}}
+  if(!s){const h=document.createElement('h2');h.textContent='Предмет';const p=document.createElement('p');p.textContent='Выбери вещь в карманах, рюкзаке или снаряжении. Перетаскивай вещи между отделениями и на подходящие слоты.';detail.append(h,p);return;}
+  const d=inv.defs.get(s.key);detail.append(icon(d));const h=document.createElement('h2');h.textContent=d.name;detail.append(h);const p=document.createElement('p');p.textContent=d.description;detail.append(p);const meta=document.createElement('p');meta.className='muted';meta.textContent=(selected?.slot?'На персонаже':container==='pockets'?'Карманы':'Рюкзак')+' · '+d.weight+' кг · ×'+s.qty+(d.ammo?' · Заряжено '+s.loaded+'/'+d.capacity:'');detail.append(meta);
+  if(selected?.slot){detail.append(button('Снять в карманы',()=>perform(()=>inv.unequip(selected.slot,'pockets')),'primary'));if(d.slot!=='backpack'&&inv.capacity('backpack'))detail.append(button('Убрать в рюкзак',()=>perform(()=>inv.unequip(selected.slot,'backpack'))));}
+  else{
+   if(d.slot)detail.append(button('Надеть',()=>perform(()=>inv.equip(s.uid)),'primary'));
+   if(d.use)detail.append(button(actions[d.use],()=>perform(()=>inv.use(s.uid)),'primary'));
+   const target=container==='pockets'?'backpack':'pockets';if(inv.capacity(target)&&!(target==='backpack'&&d.slot==='backpack'))detail.append(button(target==='backpack'?'В рюкзак':'В карманы',()=>perform(()=>inv.transfer(s.uid,target))));
+   if(s.qty>1)detail.append(button('Разделить пополам',()=>perform(()=>inv.split(s.uid))));detail.append(button('Выбросить',()=>perform(()=>inv.drop(s.uid,getPlayer()))));
+  }
+  if(d.slot==='backpack'){const note=document.createElement('p');note.className='muted';note.textContent='Содержимое: '+(s.contents?.length??0)+' / '+d.capacity+' ячеек. При снятии, замене и выбрасывании вещи остаются внутри этого рюкзака.';detail.append(note);}
+ }
+ function render(){const inv=getInventory();if(!inv)return;$('inventory-summary').textContent='При себе · '+inv.weight().toFixed(1)+' кг';$('creative-mode').checked=inv.state.creative;$('creative-open').hidden=!inv.state.creative;renderEquipment();renderContainer('pockets');renderContainer('backpack');renderDetail();
+  const ground=$('inventory-ground');ground.replaceChildren();for(const s of inv.nearby(getPlayer())){const d=inv.defs.get(s.key),b=button(d.name+' ×'+s.qty,()=>perform(()=>inv.pickup(s.uid,'pockets')));b.dataset.groundUid=s.uid;ground.append(b);}if(!ground.children.length)ground.textContent='Пусто';$('inventory-learned').textContent='Изучено: '+(inv.state.learned.map(k=>inv.defs.get(k).name).join(', ')||'нет');updateHUD();if(creativeOpen)renderCreative();}
+ function renderCreative(){const inv=getInventory();if(!inv)return;const select=$('creative-filter');if(select.options.length<2)for(const cat of [...new Set([...inv.defs.values()].map(d=>d.category))]){const o=document.createElement('option');o.value=cat;o.textContent=CATEGORY_NAMES[cat]??cat;select.append(o);}const grid=$('creative-grid');grid.replaceChildren();for(const d of inv.defs.values()){if((filter!=='all'&&filter!==d.category)||(search&&!(d.name+' '+d.key).toLocaleLowerCase('ru').includes(search)))continue;const b=button('',()=>{creativeKey=d.key;renderCreative();},'item-cell');b.dataset.key=d.key;b.setAttribute('aria-label',d.name);b.setAttribute('aria-pressed',String(creativeKey===d.key));b.append(icon(d));const label=document.createElement('span');label.textContent=d.name;b.append(label);grid.append(b);}
+  const detail=$('creative-detail');detail.replaceChildren();const d=inv.defs.get(creativeKey);if(!d){detail.textContent='Каталог выдачи. Эти вещи ещё не находятся у персонажа.';return;}detail.append(icon(d));const title=document.createElement('h2');title.textContent=d.name;detail.append(title);for(const target of ['pockets','backpack']){if(!inv.capacity(target)||target==='backpack'&&d.slot==='backpack')continue;detail.append(button(target==='pockets'?'Взять в карманы':'Взять в рюкзак',()=>perform(()=>inv.grant(d.key,1,target)),'primary'));if(d.maxStack>1)detail.append(button('Стак '+d.maxStack+(target==='pockets'?' в карманы':' в рюкзак'),()=>perform(()=>inv.grant(d.key,d.maxStack,target))));}
+ }
+ function updateHUD(){const inv=getInventory();if(!inv)return;const v=inv.state.vitals,w=inv.state.equipment.weapon,d=inv.defs.get(w?.key);$('item-hud').textContent='Здоровье '+v.health+' · Сытость '+v.hunger+' · Вода '+v.thirst+' | '+(d?d.name+' '+w.loaded+'/'+d.capacity:'Оружие не выбрано')+' | I — инвентарь'+(inv.state.creative?' | Творческий режим · F2':'');}
+ return {toggle,toggleCreative,closeTop,render,updateHUD,get isOpen(){return open||creativeOpen;},get creativeOpen(){return creativeOpen;}};
 }

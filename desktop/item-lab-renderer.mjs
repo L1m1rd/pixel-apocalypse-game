@@ -1,4 +1,4 @@
-const project=(x,y)=>({x:(x-y)*.9,y:(x+y)*.55});
+import {project} from './item-lab-movement.mjs';
 export const LAB_MAP_ID='item-lab-v1';
 export function createLabPainter(images,definitions){
  let texture=null;

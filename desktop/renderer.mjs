@@ -1,3 +1,4 @@
+import {moveOnLab,project} from './item-lab-movement.mjs';
 import {createInventory} from './inventory.mjs';
 import {createInventoryUI} from './inventory-ui.mjs';
 import {createLabPainter,LAB_MAP_ID} from './item-lab-renderer.mjs';
@@ -8,7 +9,7 @@ const keys=new Set(),images=new Map();
 const screens=['menu','character','create','game'];
 const state={screen:'menu',selected:assets.characters[0].id,previewDirection:0,world:null,player:null,paused:false,saved:null,ready:false,busy:false,mapOpen:false,zoom:1.5};
 let districtPainter,districtInfo,inventory;
-const inventoryUI=createInventoryUI({getInventory:()=>inventory,getPlayer:()=>state.player,persist,notice,onToggle:()=>keys.clear()});
+const inventoryUI=createInventoryUI({getInventory:()=>inventory,getPlayer:()=>state.player,persist,notice,onToggle:()=>keys.clear(),getCharacter:()=>assets.characters.find(c=>c.id===state.world?.characterId)});
 let previewTime=0,lastTime=performance.now(),lastSave=0,noticeTimer;
 const canvas=$('world'),ctx=canvas.getContext('2d'),preview=$('hero-preview'),pctx=preview.getContext('2d');
 const skyCanvas=$('menu-clouds'),sky=skyCanvas.getContext('2d');
@@ -31,7 +32,7 @@ function snapshot(){const p=state.player;if(!p||!state.world)return null;return 
 async function persist(){const save=snapshot();if(!save)return;await window.desktop.save(save);state.saved=save;$('continue').disabled=false;}
 async function start(save){
  if(state.busy)return;state.busy=true;$('loading').hidden=false;
- try{await ready;const district={mapId:LAB_MAP_ID},position=save.district?.mapId===LAB_MAP_ID?{x:save.x,y:save.y}:{x:4096,y:4096};inventory=createInventory(assets.inventory.items,save.inventory);state.world={worldName:save.worldName,characterId:save.characterId,district};state.player=createPlayer({...save,...position});await persist();$('continue').disabled=false;$('world-title').textContent=save.worldName;$('player-title').textContent=assets.characters.find(ch=>ch.id===save.characterId).name;show('game');resize();lastSave=performance.now();}
+ try{await ready;const district={mapId:LAB_MAP_ID},position=save.district?.mapId===LAB_MAP_ID?{x:save.x,y:save.y}:{x:4096,y:4096};inventory=createInventory(assets.inventory.items,save.inventory,position);state.world={worldName:save.worldName,characterId:save.characterId,district};state.player=createPlayer({...save,...position});await persist();if(inventory.migratedToGround)notice('Часть вещей из старого инвентаря находится рядом на земле: карманы рассчитаны на 12 ячеек.');$('continue').disabled=false;$('world-title').textContent=save.worldName;$('player-title').textContent=assets.characters.find(ch=>ch.id===save.characterId).name;show('game');resize();lastSave=performance.now();}
  finally{state.busy=false;$('loading').hidden=true;}
 }
 $('world-form').onsubmit=async event=>{event.preventDefault();const name=$('world-name').value.trim();if(!name){$('create-error').textContent='Введи название мира.';$('world-name').focus();return;}try{await start({version:1,worldName:name,characterId:state.selected,x:SIZE/2,y:SIZE/2,direction:'south',crouched:false});}catch(error){$('create-error').textContent=error.message;}};
@@ -44,16 +45,17 @@ function toggleMap(){state.mapOpen=!state.mapOpen;keys.clear();$('district-map-o
 $('map-close').onclick=toggleMap;
 const movementCodes=new Set(['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','ShiftLeft','ShiftRight','KeyC','ControlLeft','ControlRight']);
 window.addEventListener('keydown',event=>{
- if(event.code==='Escape'){if(state.screen==='game'){event.preventDefault();if(inventoryUI.isOpen)inventoryUI.toggle(false);else if(state.mapOpen)toggleMap();else pause(!state.paused);}else if(state.screen==='character')show('menu');else if(state.screen==='create')show('character');return;}
+ if(event.code==='Escape'){if(state.screen==='game'){event.preventDefault();if(inventoryUI.isOpen)inventoryUI.closeTop();else if(state.mapOpen)toggleMap();else pause(!state.paused);}else if(state.screen==='character')show('menu');else if(state.screen==='create')show('character');return;}
  if(state.screen!=='game'||state.paused)return;
  if((event.code==='KeyI'&&!['INPUT','SELECT','TEXTAREA'].includes(event.target.tagName))||(event.code==='Tab'&&!inventoryUI.isOpen)){event.preventDefault();if(!event.repeat&&!state.mapOpen)inventoryUI.toggle();return;}
+ if(event.code==='F2'){event.preventDefault();if(!event.repeat&&!state.mapOpen)inventoryUI.toggleCreative();return;}
  if(inventoryUI.isOpen)return;
  if(state.mapOpen&&event.code!=='KeyM')return;
  if(['KeyR','Space'].includes(event.code)){event.preventDefault();if(!event.repeat){const ok=event.code==='KeyR'?inventory.reload():inventory.fire();notice(ok?(event.code==='KeyR'?'Оружие заряжено':'Выстрел · патрон израсходован'):'Нет оружия, патронов или магазин уже полон');inventoryUI.updateHUD();persist().catch(()=>notice('Не удалось сохранить боезапас'));}return;}
  if(event.code==='KeyM'){event.preventDefault();if(!event.repeat)toggleMap();return;}
  if(event.code==='KeyH'){event.preventDefault();document.body.classList.toggle('hide-hud');return;}
  if(state.mapOpen)return;
- if(event.code==='KeyE'){event.preventDefault();if(!event.repeat){const target=inventory.nearby(state.player)[0];if(target){notice(inventory.pickup(target.uid)?'Предмет подобран':'Нет места в рюкзаке');inventoryUI.updateHUD();persist().catch(()=>notice('Не удалось сохранить предмет'));}}return;}
+ if(event.code==='KeyE'){event.preventDefault();if(!event.repeat){const target=inventory.nearby(state.player)[0];if(target){notice(inventory.pickup(target.uid,'pockets')?'Предмет подобран':'Нет места в рюкзаке');inventoryUI.updateHUD();persist().catch(()=>notice('Не удалось сохранить предмет'));}}return;}
  if(movementCodes.has(event.code)){event.preventDefault();keys.add(event.code);if(!event.repeat&&['KeyC','ControlLeft','ControlRight'].includes(event.code))toggleCrouch(state.player);}
 });
 window.addEventListener('keyup',event=>{keys.delete(event.code);if(state.screen==='game'&&!state.paused&&movementCodes.has(event.code))persist().catch(()=>{});});
@@ -75,10 +77,10 @@ function drawWorld(){
 function tick(now){const dt=Math.min((now-lastTime)/1000,.05);lastTime=now;previewTime+=dt*1000;
  if(state.screen==='menu'&&state.ready)drawClouds(now);
  if(state.screen==='character'&&state.ready){pctx.clearRect(0,0,preview.width,preview.height);drawHero(pctx,selected(),assets.directions[state.previewDirection],'idle',previewTime,140,255,3.2);}
- if(state.screen==='game'&&state.ready&&state.player){if(!state.paused&&!state.mapOpen&&!inventoryUI.isOpen)stepPlayer(state.player,keys,dt,assets.characters.find(c=>c.id===state.world.characterId).timing,(p,dx,dy)=>({x:p.x+dx,y:p.y+dy}));drawWorld();inventoryUI.updateHUD();if(!state.paused&&now-lastSave>1000){lastSave=now;persist().catch(()=>notice('Не удалось сохранить мир.'));}}
+ if(state.screen==='game'&&state.ready&&state.player){if(!state.paused&&!state.mapOpen&&!inventoryUI.isOpen)stepPlayer(state.player,keys,dt,assets.characters.find(c=>c.id===state.world.characterId).timing,moveOnLab);drawWorld();inventoryUI.updateHUD();if(!state.paused&&now-lastSave>1000){lastSave=now;persist().catch(()=>notice('Не удалось сохранить мир.'));}}
  requestAnimationFrame(tick);
 }
 requestAnimationFrame(tick);
 try{state.saved=await window.desktop.load();$('continue').disabled=!state.saved;}catch{notice('Не удалось прочитать сохранение. Можно создать новый мир.');}
 // Read-only state used by integration checks; it never changes gameplay.
-window.__prototype={visualDiagnostics:()=>districtPainter?.visualDiagnostics(),setSunEnabled:value=>districtPainter?.setSunEnabled(value),getState:()=>JSON.parse(JSON.stringify({screen:state.screen,paused:state.paused,mapOpen:state.mapOpen,zoom:state.zoom,inventoryOpen:inventoryUI.isOpen,inventory:inventory?.snapshot(),catalogSize:assets.inventory.items.length,districtMetrics:{plots:0,houses:0,sectors:0,objects:0,gates:0,render:districtInfo?.stats},selected:state.selected,ready:state.ready,world:state.world,player:state.player})),flush:persist};
+window.__prototype={visualDiagnostics:()=>districtPainter?.visualDiagnostics(),getState:()=>JSON.parse(JSON.stringify({screen:state.screen,paused:state.paused,mapOpen:state.mapOpen,zoom:state.zoom,inventoryOpen:inventoryUI.isOpen,creativeOpen:inventoryUI.creativeOpen,screenPosition:state.player?project(state.player.x,state.player.y):null,inventory:inventory?.snapshot(),catalogSize:assets.inventory.items.length,districtMetrics:{plots:0,houses:0,sectors:0,objects:0,gates:0,render:districtInfo?.stats},selected:state.selected,ready:state.ready,world:state.world,player:state.player})),flush:persist};

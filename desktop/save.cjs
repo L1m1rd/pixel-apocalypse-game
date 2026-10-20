@@ -6,15 +6,7 @@ function validateSave(s){
  if(s.district?.mapId==='northern-dachas-v1')result.district={mapId:'northern-dachas-v1',openedGates:[...new Set((Array.isArray(s.district.openedGates)?s.district.openedGates:[]).filter(id=>typeof id==='string'&&/^gate-(?:[0-9]|[1-7][0-9])$/.test(id)))].slice(0,80)};
 
  if(s.district?.mapId==='item-lab-v1')result.district={mapId:'item-lab-v1'};
- if(s.inventory?.version===1){
-  const catalog=new Map(require('./inventory-catalog.json').map(d=>[d.key,d]));
-  const stack=s=>{const d=catalog.get(s?.key);if(!d||!Number.isSafeInteger(s.qty)||s.qty<1||s.qty>d.maxStack)return null;return {key:d.key,qty:s.qty,loaded:Math.max(0,Math.min(d.ammo?d.capacity:0,Number.isFinite(s.loaded)?Math.floor(s.loaded):0))};};
-  const bag=(Array.isArray(s.inventory.bag)?s.inventory.bag:[]).slice(0,1000).map(stack).filter(Boolean),equipment={};
-  for(const [slot,saved] of Object.entries(s.inventory.equipment??{})){const value=stack(saved);if(value&&catalog.get(value.key).slot===slot)equipment[slot]=value;}
-  const ground=(Array.isArray(s.inventory.ground)?s.inventory.ground:[]).slice(0,500).flatMap(saved=>{const value=stack(saved);return value&&Number.isFinite(saved.x)&&Number.isFinite(saved.y)?[{...value,x:Math.max(32,Math.min(8160,saved.x)),y:Math.max(32,Math.min(8160,saved.y))}]:[];});
-  const vitals={};for(const key of ['health','hunger','thirst'])vitals[key]=Number.isFinite(s.inventory.vitals?.[key])?Math.max(0,Math.min(100,s.inventory.vitals[key])):60;
-  result.inventory={version:1,bag,equipment,ground,vitals,learned:[...new Set((Array.isArray(s.inventory.learned)?s.inventory.learned:[]).filter(key=>catalog.get(key)?.use==='read'))]};
- }
+ const inventory=require('./inventory-save.cjs').sanitizeInventory(s.inventory);if(inventory)result.inventory=inventory;
  return result;
 }
 module.exports={validateSave};
