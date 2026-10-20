@@ -1,5 +1,5 @@
 import {SLOT_NAMES,CATEGORY_NAMES} from './inventory.mjs';
-export function createInventoryUI({getInventory,getPlayer,getCharacter,persist,notice,onToggle}){
+export function createInventoryUI({getInventory,getPlayer,getCharacter,persist,notice,onToggle,paintHUD}){
  const $=id=>document.getElementById(id);let open=false,creativeOpen=false,selected=null,creativeKey=null,search='',filter='all';
  const actions={eat:'Съесть',drink:'Выпить',heal:'Применить',read:'Прочитать'};
  const button=(text,action,cls='')=>{const b=document.createElement('button');b.textContent=text;b.className=cls;b.onclick=action;return b;};
@@ -22,7 +22,7 @@ export function createInventoryUI({getInventory,getPlayer,getCharacter,persist,n
  }
  function renderEquipment(){const inv=getInventory(),eq=$('inventory-equipment');eq.replaceChildren();
   for(const [slot,name] of Object.entries(SLOT_NAMES)){const s=inv.state.equipment[slot],b=button('',()=>{selected={slot};render();},'equipment-slot');b.dataset.slot=slot;b.setAttribute('aria-label',name+(s?': '+inv.defs.get(s.key).name:': пусто'));b.setAttribute('aria-pressed',String(selected?.slot===slot));const label=document.createElement('span');label.textContent=name;b.append(label);if(s){b.append(icon(inv.defs.get(s.key)));b.title=inv.defs.get(s.key).name;}else{const empty=document.createElement('small');empty.textContent='Пусто';b.append(empty);}acceptDrop(b,uid=>inv.equip(uid,slot));eq.append(b);}
-  const ch=getCharacter();if(ch){$('inventory-character').src='media/'+ch.portrait;$('inventory-character-name').textContent=ch.name;}
+  const ch=getCharacter();if(ch){$('inventory-character-name').textContent=ch.name;}
  }
  function renderDetail(){const inv=getInventory(),detail=$('inventory-detail');detail.replaceChildren();let s,container;
   if(selected?.slot)s=inv.state.equipment[selected.slot];else for(const name of ['pockets','backpack']){const row=inv.list(name)?.find(s=>s.uid===selected?.uid);if(row){s=row;container=name;break;}}
@@ -42,6 +42,6 @@ export function createInventoryUI({getInventory,getPlayer,getCharacter,persist,n
  function renderCreative(){const inv=getInventory();if(!inv)return;const select=$('creative-filter');if(select.options.length<2)for(const cat of [...new Set([...inv.defs.values()].map(d=>d.category))]){const o=document.createElement('option');o.value=cat;o.textContent=CATEGORY_NAMES[cat]??cat;select.append(o);}const grid=$('creative-grid');grid.replaceChildren();for(const d of inv.defs.values()){if((filter!=='all'&&filter!==d.category)||(search&&!(d.name+' '+d.key).toLocaleLowerCase('ru').includes(search)))continue;const b=button('',()=>{creativeKey=d.key;renderCreative();},'item-cell');b.dataset.key=d.key;b.setAttribute('aria-label',d.name);b.setAttribute('aria-pressed',String(creativeKey===d.key));b.append(icon(d));const label=document.createElement('span');label.textContent=d.name;b.append(label);grid.append(b);}
   const detail=$('creative-detail');detail.replaceChildren();const d=inv.defs.get(creativeKey);if(!d){detail.textContent='Каталог выдачи. Эти вещи ещё не находятся у персонажа.';return;}detail.append(icon(d));const title=document.createElement('h2');title.textContent=d.name;detail.append(title);for(const target of ['pockets','backpack']){if(!inv.capacity(target)||target==='backpack'&&d.slot==='backpack')continue;detail.append(button(target==='pockets'?'Взять в карманы':'Взять в рюкзак',()=>perform(()=>inv.grant(d.key,1,target)),'primary'));if(d.maxStack>1)detail.append(button('Стак '+d.maxStack+(target==='pockets'?' в карманы':' в рюкзак'),()=>perform(()=>inv.grant(d.key,d.maxStack,target))));}
  }
- function updateHUD(){const inv=getInventory();if(!inv)return;const v=inv.state.vitals,w=inv.state.equipment.weapon,d=inv.defs.get(w?.key);$('item-hud').textContent='Здоровье '+v.health+' · Сытость '+v.hunger+' · Вода '+v.thirst+' | '+(d?d.name+' '+w.loaded+'/'+d.capacity:'Оружие не выбрано')+' | I — инвентарь'+(inv.state.creative?' | Творческий режим · F2':'');}
+ function updateHUD(){paintHUD?.();}
  return {toggle,toggleCreative,closeTop,render,updateHUD,get isOpen(){return open||creativeOpen;},get creativeOpen(){return creativeOpen;}};
 }

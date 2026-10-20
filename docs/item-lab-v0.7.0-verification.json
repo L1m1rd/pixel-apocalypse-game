@@ -1,0 +1,71 @@
+{
+  "version": "0.7.0",
+  "unitTests": 17,
+  "avatar": {
+    "passed": true,
+    "packaged": true,
+    "characters": 6,
+    "sideWalkDirections": 12,
+    "visibleWalkPhases": 12,
+    "firearms": 24,
+    "wornVariants": 105,
+    "performance": {
+      "p95FrameMs": 16.800000000000182,
+      "frames": 60
+    },
+    "equipmentSlots": [
+      "head",
+      "mask",
+      "vest",
+      "pants",
+      "boots",
+      "gloves",
+      "greaves",
+      "backpack",
+      "weapon",
+      "hand",
+      "shirt",
+      "jacket"
+    ],
+    "checks": [
+      "both side legs change visible pixels",
+      "screen movement unchanged",
+      "all worn slots change rendered avatar",
+      "four facing views",
+      "inventory preview updates on equip and removal",
+      "weapon fire frames attached to hand",
+      "Space and mouse consume one round",
+      "baked flash only",
+      "top icon HUD",
+      "mini-map opens full map",
+      "HUD hide toggle",
+      "no renderer errors"
+    ]
+  },
+  "inventory": {
+    "passed": true,
+    "packaged": true,
+    "catalog": 268,
+    "checks": [
+      "all eight screen directions",
+      "crouch and stop",
+      "normal inventory contains only owned items",
+      "creative disabled by default",
+      "explicit creative grant",
+      "distinct pockets and backpack",
+      "equipment slots",
+      "split and merge",
+      "button and drag transfer",
+      "healing from backpack",
+      "filled backpack removal and re-equip",
+      "inventory pauses walking",
+      "reload from backpack",
+      "drop and pickup",
+      "creative mode persistence",
+      "save and restart",
+      "minimum window size",
+      "no renderer errors"
+    ],
+    "screenshots": "output/item-lab-v061-review"
+  }
+}

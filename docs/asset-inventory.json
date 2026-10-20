@@ -128,8 +128,8 @@
     "assets/wildlife-loot-v1/records/fish-fillet.json",
     "desktop/media"
   ],
-  "files": 19338,
-  "totalBytes": 2778473698,
+  "files": 19345,
+  "totalBytes": 2778508488,
   "entries": [
     {
       "path": ".gitattributes",
@@ -95568,8 +95568,8 @@
     },
     {
       "path": "desktop/README.md",
-      "bytes": 5748,
-      "sha256": "668b7f3ecae012de8a7752f895babb2ac85a21d026ade375f11cdcb06bb8e7ea"
+      "bytes": 6398,
+      "sha256": "82e7c5b7d4583df169b41bee7c0bedd5cda0307ef25c326e14cc19a7dbf84842"
     },
     {
       "path": "desktop/art/locomotion-v2/01-gleb/east/run-0.png",
@@ -96122,6 +96122,21 @@
       "sha256": "676d612a81e6bd081685d4dcffd70e3feb970dbc132b793b894348bd8db1b8aa"
     },
     {
+      "path": "desktop/avatar-motion.mjs",
+      "bytes": 1403,
+      "sha256": "107498c518b12601577aa8566bbb821771dbe28bcb7346825295f3186a750a08"
+    },
+    {
+      "path": "desktop/avatar-motion.test.mjs",
+      "bytes": 1559,
+      "sha256": "43f4b7aadf5d647829760a5806c4f92af7f863225a4321a3c9944561bcbd4f82"
+    },
+    {
+      "path": "desktop/avatar-renderer.mjs",
+      "bytes": 7083,
+      "sha256": "698da31cc2e8316a8612c5acdfa7bf3b1d37246a1a6127413cc33be86adc0d51"
+    },
+    {
       "path": "desktop/core.mjs",
       "bytes": 1503,
       "sha256": "120927fbd2d5b4a7690dab06049d8872713b4512014df7fefb35838746f24fa6"
@@ -96132,9 +96147,14 @@
       "sha256": "88178709e7634dd7d80cb84440bb68200ad1c3ff51ffbdddc3b42f5ea10c723c"
     },
     {
+      "path": "desktop/hud.mjs",
+      "bytes": 3044,
+      "sha256": "9a2a85e42ed048da7f7b890cdc81962b8fffdf8957195674fccfa907cba0d7e1"
+    },
+    {
       "path": "desktop/index.html",
-      "bytes": 7899,
-      "sha256": "e51f24b53f2a6a03ea96f01dd2e8b0277441a4855760c8a7b80da24ee455beb3"
+      "bytes": 9775,
+      "sha256": "1fe4578142816220f54efd8b2cb1af1dd5869963346d1caa2885484bfaf5a21d"
     },
     {
       "path": "desktop/inventory-catalog.json",
@@ -96148,8 +96168,8 @@
     },
     {
       "path": "desktop/inventory-ui.mjs",
-      "bytes": 10653,
-      "sha256": "db264e6433aa7303d3227dc9491bc8d59743b0b214b21670bdf17805b12ee799"
+      "bytes": 10220,
+      "sha256": "beb7287d50a34f9cb5c3fcfecc2880a38434f089e372b133368f10721ad32e2d"
     },
     {
       "path": "desktop/inventory.mjs",
@@ -96224,12 +96244,12 @@
     {
       "path": "desktop/package-lock.json",
       "bytes": 5790,
-      "sha256": "2e7890fc0d5071fc9e5cf44ab7e26e771e003085e7ebb63ba464c0cd3778d14f"
+      "sha256": "7fadbf38ff5612246a0fb843b4f1d98eecdbecefbfb8858ea6e846246859f101"
     },
     {
       "path": "desktop/package.json",
       "bytes": 392,
-      "sha256": "f43b0c379ada8e00a92fa7d5abcd591f65625556dfdf607de4dedc70c37b02d2"
+      "sha256": "92ef4bebf5bc4af417783bda564b0f921c03863192b950ace73f4ce447476241"
     },
     {
       "path": "desktop/preload.cjs",
@@ -96238,8 +96258,8 @@
     },
     {
       "path": "desktop/renderer.mjs",
-      "bytes": 13069,
-      "sha256": "5572778d7286cf9fab808c7fd29f6da493056f5103ac5bda82f410793ae8217f"
+      "bytes": 15171,
+      "sha256": "f8a21cd4a08bd735b2b691ead28843f6ce30c3abbba19d0f5cfc329742e5ab6b"
     },
     {
       "path": "desktop/save.cjs",
@@ -96248,8 +96268,8 @@
     },
     {
       "path": "desktop/style.css",
-      "bytes": 12727,
-      "sha256": "38f95f693510688457ac50fceba746ef68a63c597b03c8d2efb12a46ec4d3661"
+      "bytes": 15369,
+      "sha256": "1771c74d871fc0b7c59b98f3a12d92f757616351f5bf99c0108270625e1548b2"
     },
     {
       "path": "docs/asset-catalog.md",
@@ -96327,6 +96347,11 @@
       "sha256": "e641bc3ea6b252149e9efc71560677ec0c7d7914b0b3330c4e95a9ff9e1c7cc3"
     },
     {
+      "path": "docs/item-lab-v0.7.0-verification.json",
+      "bytes": 1803,
+      "sha256": "8b939ca59137a4cbfaefc26d80a230650263dcb87bb37b38fe873b4e58112247"
+    },
+    {
       "path": "docs/items-design.md",
       "bytes": 8316,
       "sha256": "2152f8ffbea6dd61f18f8fbb8a34fc853091ccc57d6ffe735858072e262ea04b"
@@ -96343,8 +96368,8 @@
     },
     {
       "path": "docs/northern-dachas-release.md",
-      "bytes": 4956,
-      "sha256": "23084d995dd500c1af64295b5e16bd6cf24804f9a31c8f613ef9e6c0bb6f7c69"
+      "bytes": 5463,
+      "sha256": "6c53cc172f0112702b7a19e44e51d1de5752edcb443e47195cc88ba563581574"
     },
     {
       "path": "docs/northern-dachas-v0.4.0.md",
@@ -96492,6 +96517,11 @@
       "sha256": "e9c3c383bb78102b8ac26e319606b409b83cf3c14fd0477355d974703ec69415"
     },
     {
+      "path": "tools/check-avatar-runtime.cjs",
+      "bytes": 8421,
+      "sha256": "94a545d7b340a23853330cb4e9980461a8fac1e048035355f4d7e82e84c3e434"
+    },
+    {
       "path": "tools/check-combat-vfx.cjs",
       "bytes": 6850,
       "sha256": "2a35bcf06d3c237452960123ebb14a90a7b8e1fb5b6b7976b878e59c58d3934e"
@@ -96523,8 +96553,8 @@
     },
     {
       "path": "tools/check-item-lab-runtime.cjs",
-      "bytes": 8757,
-      "sha256": "661a93836f7ede189cb1609e25185d401029a5d02f924a99eeaf3711628b7b9f"
+      "bytes": 9061,
+      "sha256": "8785bbb9141ef405514c0ecac99052ce24f948960d058ed230121254780e62f4"
     },
     {
       "path": "tools/check-item-revision.cjs",
@@ -96613,8 +96643,8 @@
     },
     {
       "path": "tools/package-desktop.cjs",
-      "bytes": 3672,
-      "sha256": "4c645deac0c10d9ef2b49150195fa86a152e21220a8c10b57ea3c64a6f6468c0"
+      "bytes": 3751,
+      "sha256": "d7c809b10f6196fd3dd3282e6bb6a0cfc1dacb2de0ded44ff21852589370c40c"
     },
     {
       "path": "tools/package-infected-pixel.cjs",
@@ -96657,14 +96687,19 @@
       "sha256": "2d3ff1f545a652302cae227c8b3f65a637cc3acc79a1e4c95a0cfe2294ceaa4e"
     },
     {
+      "path": "tools/prepare-avatar-runtime.cjs",
+      "bytes": 3678,
+      "sha256": "e12ba9857aeb8416b0a975cd925aa10dfae642c90a126a968ea0d675ff252b54"
+    },
+    {
       "path": "tools/prepare-decorative-corpses-v2.cjs",
       "bytes": 4557,
       "sha256": "0072163fe0703065ba6c04356774f038a83a56fdd2b887f57bc1e2ddfa44b01a"
     },
     {
       "path": "tools/prepare-desktop-assets.cjs",
-      "bytes": 4884,
-      "sha256": "38112e7580b9353f9fbf2c9e0a53223f992a4ee5f6144139dcc42277f2bc7edd"
+      "bytes": 4956,
+      "sha256": "fc6a6ee22e9a1840120a037d2dc168fb6e324192bd28fba40edfef0bbb36a359"
     },
     {
       "path": "tools/prepare-friends-animations.cjs",
@@ -96814,7 +96849,7 @@
     {
       "path": "Полигон предметов.cmd",
       "bytes": 97,
-      "sha256": "de8559c883da8cad71a490fb93112019b91190e81d017951cc3203d62eb892f4"
+      "sha256": "d01d86d6f94a8caa152c5606ce9d713ed5f1f82a493e2066540dac8fac7cae19"
     },
     {
       "path": "Северные дачи.cmd",
