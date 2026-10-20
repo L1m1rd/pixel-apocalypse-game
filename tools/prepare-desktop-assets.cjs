@@ -45,6 +45,7 @@ async function main(){
  await sharp(path.join(menu,'references/approved-menu-C.png')).extract({left:1325,top:80,width:325,height:205}).png().toFile(path.join(OUT,'logo.png'));
  for(const file of ['clouds.png','sky-mask.png'])fs.copyFileSync(path.join(ROOT,'desktop/art/menu-clouds',file),path.join(OUT,file));
  await require('./prepare-northern-dachas-runtime.cjs').prepareDistrict(data,OUT);
+ require('./prepare-inventory.cjs').prepareInventory(data,OUT);
  fs.writeFileSync(path.join(OUT,'motion-alignment.json'),JSON.stringify(alignment,null,2));
  fs.writeFileSync(path.join(OUT,'data.js'),'window.GAME_ASSETS='+JSON.stringify(data)+';\n');
  fs.writeFileSync(path.join(OUT,'asset-manifest.json'),JSON.stringify(data,null,2));

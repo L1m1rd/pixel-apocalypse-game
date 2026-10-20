@@ -2,7 +2,7 @@ const {app,BrowserWindow,ipcMain}=require('electron');
 const fs=require('fs');
 const path=require('path');
 const {validateSave}=require('./save.cjs');
-app.setPath('userData',path.join(app.getPath('appData'),'PixelApocalypse-NorthernDachas'));
+app.setPath('userData',path.join(app.getPath('appData'),'PixelApocalypse-ItemLab'));
 if(process.env.PIXEL_APOCALYPSE_TEST_DATA)app.setPath('userData',path.resolve(process.env.PIXEL_APOCALYPSE_TEST_DATA));
 const savePath=()=>path.join(app.getPath('userData'),'world-v1.json');
 let win;

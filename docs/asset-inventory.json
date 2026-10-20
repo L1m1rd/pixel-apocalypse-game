@@ -128,8 +128,8 @@
     "assets/wildlife-loot-v1/records/fish-fillet.json",
     "desktop/media"
   ],
-  "files": 19324,
-  "totalBytes": 2778259902,
+  "files": 19334,
+  "totalBytes": 2778451795,
   "entries": [
     {
       "path": ".gitattributes",
@@ -95568,8 +95568,8 @@
     },
     {
       "path": "desktop/README.md",
-      "bytes": 2841,
-      "sha256": "741e288564134728f517620ef7258898e169c7b0480608583f0f18d1c83a5a55"
+      "bytes": 4015,
+      "sha256": "d442656c7a72e611e968c7987e8a367ef1e3cde92bc4be94d5ecaf9b5842bf59"
     },
     {
       "path": "desktop/art/locomotion-v2/01-gleb/east/run-0.png",
@@ -96133,13 +96133,38 @@
     },
     {
       "path": "desktop/index.html",
-      "bytes": 5111,
-      "sha256": "774b304ab2067cee159bf291924696cde560bd3e0034693815f25c1d1e56269b"
+      "bytes": 6718,
+      "sha256": "a019414c4ecbc9d077c9083340aeee1492c755a90fab233f612d9c17a84fc5a2"
+    },
+    {
+      "path": "desktop/inventory-catalog.json",
+      "bytes": 148200,
+      "sha256": "bfb2bcb50b1e7c354853ee46ed2f4618be5fa7180c917de327195815cb0afca8"
+    },
+    {
+      "path": "desktop/inventory-ui.mjs",
+      "bytes": 6084,
+      "sha256": "d1a9d0afe49d3ada95c29a1418ad908e72806c562aa88f1aec21a2b968424367"
+    },
+    {
+      "path": "desktop/inventory.mjs",
+      "bytes": 5761,
+      "sha256": "413a87707e1adc0eca78d500528787c47a5778a7d02431f5c6fc14bed0d55725"
+    },
+    {
+      "path": "desktop/inventory.test.mjs",
+      "bytes": 4716,
+      "sha256": "c45aa3197916e8eca1eb27597816270f4f3f06681f8b74908a2a7a046d81ebd7"
+    },
+    {
+      "path": "desktop/item-lab-renderer.mjs",
+      "bytes": 1890,
+      "sha256": "b7e8525c8e410fbbfda7ab23f6bb55b048de1a1620202a3fd633017976a5426c"
     },
     {
       "path": "desktop/main.cjs",
-      "bytes": 2202,
-      "sha256": "1df20a3b51ccf76a5b1426b2bfc6b6add767d0d7feec5e7ac9f59a63c5d77914"
+      "bytes": 2195,
+      "sha256": "3004aadac4f7e46fd0ea6a31241c3a05a0be794b48377424e6e51297cd7cea44"
     },
     {
       "path": "desktop/northern-dachas-details.mjs",
@@ -96184,12 +96209,12 @@
     {
       "path": "desktop/package-lock.json",
       "bytes": 5790,
-      "sha256": "28830635b6cd9c37ecc7adbd13fad081e2bb6b9e4d3ceb8d8f72754b5fa1111c"
+      "sha256": "a0317afc6ccf72cfb8265f3619736ac3956a3baf778340d01733886d6bd6acb3"
     },
     {
       "path": "desktop/package.json",
       "bytes": 357,
-      "sha256": "6c5d02deda68f5a34a27c914d4d3d23d4386907e1492b204648124cb585e2fb2"
+      "sha256": "4ac89caae551323fa2db6697b173c970ee03b7a95d04f6c87890e511c3859a36"
     },
     {
       "path": "desktop/preload.cjs",
@@ -96198,18 +96223,18 @@
     },
     {
       "path": "desktop/renderer.mjs",
-      "bytes": 11200,
-      "sha256": "6e9faedc18f3e3fc4b0709ee4b653f7fd6e007109b54b8ec245b37770819db4a"
+      "bytes": 12569,
+      "sha256": "5a35dda4d24a8d8a3ac5d52a5132d6429c0a030417c1d87ac8148474c82bef4f"
     },
     {
       "path": "desktop/save.cjs",
-      "bytes": 912,
-      "sha256": "0f9b220239be281d5d41ab9b7563a918ab218659bd1f21e0c054b0bb3080f103"
+      "bytes": 2286,
+      "sha256": "1d3d3d76ac090d426eb77d54ccd905cc1e31dfdbb4d6b390d5d83e53b8560fc1"
     },
     {
       "path": "desktop/style.css",
-      "bytes": 6251,
-      "sha256": "f8b7a8099bc21c79e13b08ba4c1b983dbafa4d8b52353892383714eef7b3a627"
+      "bytes": 9041,
+      "sha256": "6496ac79d1bb60395c399700e99e231d1b32068721a413545022a855336ea94d"
     },
     {
       "path": "docs/asset-catalog.md",
@@ -96277,6 +96302,11 @@
       "sha256": "8caaf90b1900ff91adc45c117970b3118632a836cf13a9789b4d097172e7b515"
     },
     {
+      "path": "docs/item-lab-v0.6.0-verification.json",
+      "bytes": 557,
+      "sha256": "9e26b7adb91b16c24590544375e434145f4bf3460311a7be22cc15473ead1883"
+    },
+    {
       "path": "docs/items-design.md",
       "bytes": 8316,
       "sha256": "2152f8ffbea6dd61f18f8fbb8a34fc853091ccc57d6ffe735858072e262ea04b"
@@ -96293,8 +96323,8 @@
     },
     {
       "path": "docs/northern-dachas-release.md",
-      "bytes": 3493,
-      "sha256": "962cf778df6b7646c102222c6714236da3e950f8c239cac849e6f26ca94ceb9b"
+      "bytes": 4233,
+      "sha256": "5acc7cf8e8892d6a07528eb43cd711bd62ffd80b025b971ca56317bfad8d8a5b"
     },
     {
       "path": "docs/northern-dachas-v0.4.0.md",
@@ -96467,6 +96497,16 @@
       "sha256": "5556e03d8af2253a18028d25976829e2e43f8b1a9c5cc136e7c97851cb862f30"
     },
     {
+      "path": "tools/check-item-lab-assets.cjs",
+      "bytes": 1298,
+      "sha256": "f788fa6e19fdbc78d45a8df11b479421ffa1a598ab7c1e71c66720bce3067e99"
+    },
+    {
+      "path": "tools/check-item-lab-runtime.cjs",
+      "bytes": 7110,
+      "sha256": "319fcea9d33cd5f66b6f2601727417b7bfee7c7bb1d7a8734ccbd27da6f8eb00"
+    },
+    {
       "path": "tools/check-item-revision.cjs",
       "bytes": 6851,
       "sha256": "b22acc39ec29c1154ab85bb0200a85cd5229bf267cc6ffd5573e5cc15f04e558"
@@ -96553,8 +96593,8 @@
     },
     {
       "path": "tools/package-desktop.cjs",
-      "bytes": 3112,
-      "sha256": "73e66b6f8e3ed821fb3618ab77db14c614532979ea8bc3fefb36cefd82bb3e26"
+      "bytes": 3476,
+      "sha256": "1b059993b5bf054685373250f1332178019870fc124e0cdcbff356ef984d61d5"
     },
     {
       "path": "tools/package-infected-pixel.cjs",
@@ -96578,8 +96618,8 @@
     },
     {
       "path": "tools/package-northern-dachas-release.cjs",
-      "bytes": 1285,
-      "sha256": "ab6fc4a19edce38e6783b707ef1d9e1b8e0183b1f2a1c3e02fa1caa38a98131d"
+      "bytes": 1278,
+      "sha256": "8848b23c2c09174bfdb0fe897d8175ce5e9df1169146ca0a8333f467e0acea88"
     },
     {
       "path": "tools/package-selected-interface.cjs",
@@ -96603,13 +96643,18 @@
     },
     {
       "path": "tools/prepare-desktop-assets.cjs",
-      "bytes": 4820,
-      "sha256": "da20462915cd2d1d8f30dd0e3254d0283af7afda20e79b0096dc403edde7f09f"
+      "bytes": 4884,
+      "sha256": "38112e7580b9353f9fbf2c9e0a53223f992a4ee5f6144139dcc42277f2bc7edd"
     },
     {
       "path": "tools/prepare-friends-animations.cjs",
       "bytes": 11098,
       "sha256": "4514f06a85bb9c90e4829b3b6bf88ab89b5fb6630fc0bed7cff112d393afff6a"
+    },
+    {
+      "path": "tools/prepare-inventory.cjs",
+      "bytes": 6712,
+      "sha256": "37349b959c94032755a4693577d3a78334ec424b0e0e8d397d9d6df2df8de3c5"
     },
     {
       "path": "tools/prepare-item-revision.cjs",
@@ -96745,6 +96790,11 @@
       "path": "Запустить игру.cmd",
       "bytes": 228,
       "sha256": "d90b12acec082f9bc86e8b284febd2de39b96c431d6755ec985dc758877c6540"
+    },
+    {
+      "path": "Полигон предметов.cmd",
+      "bytes": 97,
+      "sha256": "1aa915f6fe4fd25fd8febb175e565668dc5bf0f440e3d27f13c8644323592f55"
     },
     {
       "path": "Северные дачи.cmd",
