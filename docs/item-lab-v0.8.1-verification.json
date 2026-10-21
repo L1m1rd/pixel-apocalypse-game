@@ -1,0 +1,48 @@
+{
+  "version": "0.8.1",
+  "status": "passed",
+  "models": "classic canonical animation sprites restored",
+  "packaged": {
+    "passed": true,
+    "version": "0.8.1",
+    "packaged": true,
+    "still": 96,
+    "detail": 768,
+    "contacts": 768,
+    "classicPixels": 16188,
+    "rightClickSlots": [
+      "head",
+      "vest",
+      "pants",
+      "boots",
+      "jacket",
+      "weapon",
+      "backpack"
+    ],
+    "mouseChecks": [
+      "LMB drag storage to equipment",
+      "LMB drag equipment to storage",
+      "LMB drag into backpack",
+      "RMB auto-equips every tested slot",
+      "Shift+LMB drops exact stack",
+      "Shift+LMB drops filled worn backpack without losing contents",
+      "double click does not drop",
+      "ground click starts animation and closes inventory",
+      "pickup blocks movement and transfers exactly once at completion",
+      "E pickup uses same animation"
+    ],
+    "errors": []
+  },
+  "retained": [
+    "inventory mouse gestures",
+    "pickup animation",
+    "clothing mask fix",
+    "ground contact shadows",
+    "rear weapon occlusion",
+    "static idle"
+  ],
+  "excludedRuntime": [
+    "avatar-detail.png",
+    "avatar-detail.mjs"
+  ]
+}
