@@ -1,0 +1,33 @@
+{
+  "version": "0.9.0",
+  "date": "2026-10-22",
+  "unitTestsPassed": 33,
+  "canonicalPortableVariants": 268,
+  "canonicalPortableEntities": 245,
+  "firearms": 24,
+  "runtimeActorVisuals": 21,
+  "sourceAndPackagedRuntimePassed": true,
+  "runtimeChecks": [
+    "mode activation, starter inventory and generated actors",
+    "journal pauses world time; sideways movement retains screen direction",
+    "night darkness, rain and directional battery powered flashlight",
+    "white outlines for usable nearby items and world objects",
+    "repair and healing complete after timed actions and consume once",
+    "shooting spends one round, damages and kills an enemy, wears gun",
+    "reload commits at animation completion",
+    "animated pickup and save reload preserve item and world state"
+  ],
+  "observedPackagedNightScenarioFPS": 60.68,
+  "performanceNote": "One local test scene; not a general performance guarantee.",
+  "classicAvatarRegression": {
+    "staticPoses": 96,
+    "animatedEquipmentPoses": 768,
+    "groundContacts": 768,
+    "originalPixelsCompared": 16188,
+    "inventoryMouseGesturesPassed": true
+  },
+  "legacyItemLabRuntimePassed": true,
+  "assetConsistencyPassed": true,
+  "rendererErrors": [],
+  "scope": "See survival-v0.9.0.md for adaptations and remaining differences from Mini DAYZ."
+}

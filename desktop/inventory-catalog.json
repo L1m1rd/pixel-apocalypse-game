@@ -13,7 +13,7 @@
     "capacity": null,
     "file": "inventory/ammunition-pistol.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-pistol.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "ammo/pistol@open",
@@ -29,7 +29,7 @@
     "capacity": null,
     "file": "inventory/ammunition-pistol-open.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-pistol-open.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "ammo/rifle@closed",
@@ -45,7 +45,7 @@
     "capacity": null,
     "file": "inventory/ammunition-rifle.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-rifle.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "ammo/rifle@open",
@@ -61,7 +61,7 @@
     "capacity": null,
     "file": "inventory/ammunition-rifle-open.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-rifle-open.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "ammo/shotgun@closed",
@@ -77,7 +77,7 @@
     "capacity": null,
     "file": "inventory/ammunition-shotgun.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-shotgun.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "ammo/shotgun@open",
@@ -93,7 +93,7 @@
     "capacity": null,
     "file": "inventory/ammunition-shotgun-open.png",
     "source": "assets/item-visuals-v2/sprites/ammunition-shotgun-open.png",
-    "description": "Тестовая единица боезапаса: 1 штука = 1 патрон. Изображение коробки обозначает семейство боеприпасов; открытая и закрытая коробки совместимы."
+    "description": "Одна единица — один патрон. Открытая и закрытая коробки одного семейства совместимы. R — перезарядить оружие."
   },
   {
     "key": "animal-resource/animal-fat",
@@ -109,7 +109,7 @@
     "capacity": null,
     "file": "inventory/animal-fat.png",
     "source": "assets/wildlife-loot-v1/sprites/animal-fat.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/bear-claws",
@@ -125,7 +125,7 @@
     "capacity": null,
     "file": "inventory/bear-claws.png",
     "source": "assets/wildlife-loot-v1/sprites/bear-claws.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/bear-pelt",
@@ -141,7 +141,7 @@
     "capacity": null,
     "file": "inventory/bear-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/bear-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/boar-hide",
@@ -157,7 +157,7 @@
     "capacity": null,
     "file": "inventory/boar-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/boar-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/boar-tusks",
@@ -173,7 +173,7 @@
     "capacity": null,
     "file": "inventory/boar-tusks.png",
     "source": "assets/wildlife-loot-v1/sprites/boar-tusks.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/cat-pelt",
@@ -189,7 +189,7 @@
     "capacity": null,
     "file": "inventory/cat-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/cat-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/chicken-feathers",
@@ -205,7 +205,7 @@
     "capacity": null,
     "file": "inventory/chicken-feathers.png",
     "source": "assets/wildlife-loot-v1/sprites/chicken-feathers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/cow-hide",
@@ -221,7 +221,7 @@
     "capacity": null,
     "file": "inventory/cow-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/cow-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/crow-feathers",
@@ -237,7 +237,7 @@
     "capacity": null,
     "file": "inventory/crow-feathers.png",
     "source": "assets/wildlife-loot-v1/sprites/crow-feathers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/deer-antler",
@@ -253,7 +253,7 @@
     "capacity": null,
     "file": "inventory/deer-antler.png",
     "source": "assets/wildlife-loot-v1/sprites/deer-antler.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/dog-hide",
@@ -269,7 +269,7 @@
     "capacity": null,
     "file": "inventory/dog-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/dog-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/duck-feathers",
@@ -285,7 +285,7 @@
     "capacity": null,
     "file": "inventory/duck-feathers.png",
     "source": "assets/wildlife-loot-v1/sprites/duck-feathers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/fish-bones",
@@ -301,7 +301,7 @@
     "capacity": null,
     "file": "inventory/fish-bones.png",
     "source": "assets/wildlife-loot-v1/sprites/fish-bones.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/fish-scales",
@@ -317,7 +317,7 @@
     "capacity": null,
     "file": "inventory/fish-scales.png",
     "source": "assets/wildlife-loot-v1/sprites/fish-scales.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/fox-pelt",
@@ -333,7 +333,7 @@
     "capacity": null,
     "file": "inventory/fox-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/fox-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/frog-skin",
@@ -349,7 +349,7 @@
     "capacity": null,
     "file": "inventory/frog-skin.png",
     "source": "assets/wildlife-loot-v1/sprites/frog-skin.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/goat-hide",
@@ -365,7 +365,7 @@
     "capacity": null,
     "file": "inventory/goat-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/goat-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/goat-horn",
@@ -381,7 +381,7 @@
     "capacity": null,
     "file": "inventory/goat-horn.png",
     "source": "assets/wildlife-loot-v1/sprites/goat-horn.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/hare-pelt",
@@ -397,7 +397,7 @@
     "capacity": null,
     "file": "inventory/hare-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/hare-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/large-bone",
@@ -413,7 +413,7 @@
     "capacity": null,
     "file": "inventory/large-bone.png",
     "source": "assets/wildlife-loot-v1/sprites/large-bone.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/pigeon-feathers",
@@ -429,7 +429,7 @@
     "capacity": null,
     "file": "inventory/pigeon-feathers.png",
     "source": "assets/wildlife-loot-v1/sprites/pigeon-feathers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/rat-pelt",
@@ -445,7 +445,7 @@
     "capacity": null,
     "file": "inventory/rat-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/rat-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/red-deer-hide",
@@ -461,7 +461,7 @@
     "capacity": null,
     "file": "inventory/red-deer-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/red-deer-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/roe-antlers",
@@ -477,7 +477,7 @@
     "capacity": null,
     "file": "inventory/roe-antlers.png",
     "source": "assets/wildlife-loot-v1/sprites/roe-antlers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/roe-deer-hide",
@@ -493,7 +493,7 @@
     "capacity": null,
     "file": "inventory/roe-deer-hide.png",
     "source": "assets/wildlife-loot-v1/sprites/roe-deer-hide.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/small-bones",
@@ -509,7 +509,7 @@
     "capacity": null,
     "file": "inventory/small-bones.png",
     "source": "assets/wildlife-loot-v1/sprites/small-bones.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/sparrow-feathers",
@@ -525,7 +525,7 @@
     "capacity": null,
     "file": "inventory/sparrow-feathers.png",
     "source": "assets/wildlife-loot-v1/sprites/sparrow-feathers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/squirrel-pelt",
@@ -541,7 +541,7 @@
     "capacity": null,
     "file": "inventory/squirrel-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/squirrel-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/tendons",
@@ -557,7 +557,7 @@
     "capacity": null,
     "file": "inventory/tendons.png",
     "source": "assets/wildlife-loot-v1/sprites/tendons.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/wolf-fangs",
@@ -573,7 +573,7 @@
     "capacity": null,
     "file": "inventory/wolf-fangs.png",
     "source": "assets/wildlife-loot-v1/sprites/wolf-fangs.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "animal-resource/wolf-pelt",
@@ -589,7 +589,7 @@
     "capacity": null,
     "file": "inventory/wolf-pelt.png",
     "source": "assets/wildlife-loot-v1/sprites/wolf-pelt.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "food/brown_bear@raw",
@@ -1365,7 +1365,7 @@
     "capacity": null,
     "file": "inventory/backpacks-helmet-helmet.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-helmet.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/backpacks-helmet-pack-1",
@@ -1381,7 +1381,7 @@
     "capacity": 28,
     "file": "inventory/backpacks-helmet-pack-1.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/backpacks-helmet-pack-2",
@@ -1397,7 +1397,7 @@
     "capacity": 36,
     "file": "inventory/backpacks-helmet-pack-2.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/backpacks-helmet-pack-3",
@@ -1413,7 +1413,7 @@
     "capacity": 44,
     "file": "inventory/backpacks-helmet-pack-3.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/backpacks-helmet-pack-4",
@@ -1429,7 +1429,7 @@
     "capacity": 52,
     "file": "inventory/backpacks-helmet-pack-4.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-4.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/backpacks-helmet-pack-5",
@@ -1445,7 +1445,7 @@
     "capacity": 60,
     "file": "inventory/backpacks-helmet-pack-5.png",
     "source": "assets/item-visuals-v2/sprites/backpacks-helmet-pack-5.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-boots-1",
@@ -1461,7 +1461,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-boots-1.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-boots-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-boots-2",
@@ -1477,7 +1477,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-boots-2.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-boots-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-boots-3",
@@ -1493,7 +1493,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-boots-3.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-boots-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-greaves-1",
@@ -1509,7 +1509,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-greaves-1.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-greaves-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-greaves-2",
@@ -1525,7 +1525,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-greaves-2.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-greaves-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/boots-greaves-greaves-3",
@@ -1541,7 +1541,7 @@
     "capacity": null,
     "file": "inventory/boots-greaves-greaves-3.png",
     "source": "assets/item-visuals-v2/sprites/boots-greaves-greaves-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/distraction-alarm-clock",
@@ -1557,7 +1557,7 @@
     "capacity": null,
     "file": "inventory/distraction-alarm-clock.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-alarm-clock.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/distraction-empty-bottle",
@@ -1573,7 +1573,7 @@
     "capacity": null,
     "file": "inventory/distraction-empty-bottle.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-empty-bottle.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/distraction-radio",
@@ -1589,7 +1589,7 @@
     "capacity": null,
     "file": "inventory/distraction-radio.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-radio.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/distraction-throwing-stones",
@@ -1605,7 +1605,7 @@
     "capacity": null,
     "file": "inventory/distraction-throwing-stones.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-throwing-stones.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/distraction-tin-can",
@@ -1621,7 +1621,7 @@
     "capacity": null,
     "file": "inventory/distraction-tin-can.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-tin-can.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/distraction-whistle",
@@ -1637,7 +1637,7 @@
     "capacity": null,
     "file": "inventory/distraction-whistle.png",
     "source": "assets/item-visuals-v2/retained/sprites/distraction-whistle.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы отвлечь ближайших противников шумом."
   },
   {
     "key": "item/electricity-accumulator",
@@ -1653,7 +1653,7 @@
     "capacity": null,
     "file": "inventory/electricity-accumulator.png",
     "source": "assets/item-visuals-v2/retained/sprites/electricity-accumulator.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/electricity-batteries",
@@ -1669,7 +1669,7 @@
     "capacity": null,
     "file": "inventory/electricity-batteries.png",
     "source": "assets/item-visuals-v2/retained/sprites/electricity-batteries.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Заряжает надетый фонарь."
   },
   {
     "key": "item/electricity-flashlight",
@@ -1685,7 +1685,7 @@
     "capacity": null,
     "file": "inventory/electricity-flashlight.png",
     "source": "assets/item-visuals-v2/retained/sprites/electricity-flashlight.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/electricity-lamp",
@@ -1701,7 +1701,7 @@
     "capacity": null,
     "file": "inventory/electricity-lamp.png",
     "source": "assets/item-visuals-v2/retained/sprites/electricity-lamp.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/food-canned-food",
@@ -1757,7 +1757,7 @@
     "capacity": null,
     "file": "inventory/food-water-bottle.png",
     "source": "assets/item-visuals-v2/retained/sprites/food-water-bottle.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/gloves-tools-fishing-rod",
@@ -1773,7 +1773,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-fishing-rod.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-fishing-rod.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/gloves-tools-gloves-1",
@@ -1789,7 +1789,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-gloves-1.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-gloves-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/gloves-tools-gloves-2",
@@ -1805,7 +1805,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-gloves-2.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-gloves-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/gloves-tools-gloves-3",
@@ -1821,7 +1821,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-gloves-3.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-gloves-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/gloves-tools-hoe",
@@ -1837,7 +1837,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-hoe.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-hoe.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/gloves-tools-rake",
@@ -1853,7 +1853,7 @@
     "capacity": null,
     "file": "inventory/gloves-tools-rake.png",
     "source": "assets/item-visuals-v2/sprites/gloves-tools-rake.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/harvest-beet",
@@ -1945,7 +1945,7 @@
     "capacity": null,
     "file": "inventory/herbs-chamomile.png",
     "source": "assets/item-visuals-v2/sprites/herbs-chamomile.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/herbs-dried-herbs",
@@ -1961,7 +1961,7 @@
     "capacity": null,
     "file": "inventory/herbs-dried-herbs.png",
     "source": "assets/item-visuals-v2/sprites/herbs-dried-herbs.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/herbs-mint",
@@ -1977,7 +1977,7 @@
     "capacity": null,
     "file": "inventory/herbs-mint.png",
     "source": "assets/item-visuals-v2/sprites/herbs-mint.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/herbs-nettle",
@@ -1993,7 +1993,7 @@
     "capacity": null,
     "file": "inventory/herbs-nettle.png",
     "source": "assets/item-visuals-v2/sprites/herbs-nettle.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/herbs-plantain",
@@ -2009,7 +2009,7 @@
     "capacity": null,
     "file": "inventory/herbs-plantain.png",
     "source": "assets/item-visuals-v2/sprites/herbs-plantain.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/herbs-yarrow",
@@ -2025,7 +2025,7 @@
     "capacity": null,
     "file": "inventory/herbs-yarrow.png",
     "source": "assets/item-visuals-v2/sprites/herbs-yarrow.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/information-access-card",
@@ -2041,7 +2041,7 @@
     "capacity": null,
     "file": "inventory/information-access-card.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-access-card.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/information-compass",
@@ -2057,7 +2057,7 @@
     "capacity": null,
     "file": "inventory/information-compass.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-compass.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/information-key",
@@ -2073,7 +2073,7 @@
     "capacity": null,
     "file": "inventory/information-key.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-key.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/information-map",
@@ -2089,7 +2089,7 @@
     "capacity": null,
     "file": "inventory/information-map.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-map.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/information-note",
@@ -2105,7 +2105,7 @@
     "capacity": null,
     "file": "inventory/information-note.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-note.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/information-walkie-talkie",
@@ -2121,7 +2121,7 @@
     "capacity": null,
     "file": "inventory/information-walkie-talkie.png",
     "source": "assets/item-visuals-v2/retained/sprites/information-walkie-talkie.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Используй, чтобы получить сведения о районе."
   },
   {
     "key": "item/jackets-1-v1",
@@ -2137,7 +2137,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v1.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-1-v2",
@@ -2153,7 +2153,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v2.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-1-v3",
@@ -2169,7 +2169,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v3.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-1-v4",
@@ -2185,7 +2185,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v4.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v4.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-1-v5",
@@ -2201,7 +2201,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v5.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v5.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-1-v6",
@@ -2217,7 +2217,7 @@
     "capacity": null,
     "file": "inventory/jackets-1-v6.png",
     "source": "assets/item-visuals-v2/sprites/jackets-1-v6.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v10",
@@ -2233,7 +2233,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v10.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v10.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v11",
@@ -2249,7 +2249,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v11.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v11.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v12",
@@ -2265,7 +2265,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v12.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v12.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v7",
@@ -2281,7 +2281,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v7.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v7.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v8",
@@ -2297,7 +2297,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v8.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v8.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-2-v9",
@@ -2313,7 +2313,7 @@
     "capacity": null,
     "file": "inventory/jackets-2-v9.png",
     "source": "assets/item-visuals-v2/sprites/jackets-2-v9.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v13",
@@ -2329,7 +2329,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v13.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v13.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v14",
@@ -2345,7 +2345,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v14.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v14.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v15",
@@ -2361,7 +2361,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v15.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v15.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v16",
@@ -2377,7 +2377,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v16.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v16.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v17",
@@ -2393,7 +2393,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v17.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v17.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-3-v18",
@@ -2409,7 +2409,7 @@
     "capacity": null,
     "file": "inventory/jackets-3-v18.png",
     "source": "assets/item-visuals-v2/sprites/jackets-3-v18.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v19",
@@ -2425,7 +2425,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v19.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v19.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v20",
@@ -2441,7 +2441,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v20.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v20.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v21",
@@ -2457,7 +2457,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v21.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v21.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v22",
@@ -2473,7 +2473,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v22.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v22.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v23",
@@ -2489,7 +2489,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v23.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v23.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/jackets-4-v24",
@@ -2505,7 +2505,7 @@
     "capacity": null,
     "file": "inventory/jackets-4-v24.png",
     "source": "assets/item-visuals-v2/sprites/jackets-4-v24.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/manuals-ammo",
@@ -2617,7 +2617,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-mask-1.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-mask-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/masks-vests-mask-2",
@@ -2633,7 +2633,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-mask-2.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-mask-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/masks-vests-mask-3",
@@ -2649,7 +2649,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-mask-3.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-mask-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/masks-vests-vest-1",
@@ -2665,7 +2665,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-vest-1.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-vest-1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/masks-vests-vest-2",
@@ -2681,7 +2681,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-vest-2.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-vest-2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/masks-vests-vest-3",
@@ -2697,7 +2697,7 @@
     "capacity": null,
     "file": "inventory/masks-vests-vest-3.png",
     "source": "assets/item-visuals-v2/sprites/masks-vests-vest-3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/materials-cloth",
@@ -2713,7 +2713,7 @@
     "capacity": null,
     "file": "inventory/materials-cloth.png",
     "source": "assets/item-visuals-v2/retained/sprites/materials-cloth.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Ткань для ремонта одежды, перевязки и изготовления бинтов."
   },
   {
     "key": "item/materials-duct-tape",
@@ -2729,7 +2729,7 @@
     "capacity": null,
     "file": "inventory/materials-duct-tape.png",
     "source": "assets/item-visuals-v2/retained/sprites/materials-duct-tape.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Восстанавливает 15% состояния снаряжения. Выбери повреждённую вещь в списке ремонта."
   },
   {
     "key": "item/materials-nails",
@@ -2745,7 +2745,7 @@
     "capacity": null,
     "file": "inventory/materials-nails.png",
     "source": "assets/item-visuals-v2/retained/sprites/materials-nails.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/materials-scrap",
@@ -2761,7 +2761,7 @@
     "capacity": null,
     "file": "inventory/materials-scrap.png",
     "source": "assets/item-visuals-v2/retained/sprites/materials-scrap.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/materials-wire",
@@ -2777,7 +2777,7 @@
     "capacity": null,
     "file": "inventory/materials-wire.png",
     "source": "assets/item-visuals-v2/retained/sprites/materials-wire.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-bandage",
@@ -2795,7 +2795,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-bandage.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-bandage.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-canteen",
@@ -2813,7 +2813,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-canteen.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-canteen.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-kit-large",
@@ -2831,7 +2831,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-kit-large.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-kit-large.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-kit-medium",
@@ -2849,7 +2849,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-kit-medium.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-kit-medium.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-kit-small",
@@ -2867,7 +2867,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-kit-small.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-kit-small.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/medicine-water-painkillers",
@@ -2885,7 +2885,7 @@
     "capacity": null,
     "file": "inventory/medicine-water-painkillers.png",
     "source": "assets/item-visuals-v2/sprites/medicine-water-painkillers.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/orchard-apple",
@@ -2958,7 +2958,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v1.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-1-v2",
@@ -2974,7 +2974,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v2.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-1-v3",
@@ -2990,7 +2990,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v3.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-1-v4",
@@ -3006,7 +3006,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v4.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v4.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-1-v5",
@@ -3022,7 +3022,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v5.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v5.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-1-v6",
@@ -3038,7 +3038,7 @@
     "capacity": null,
     "file": "inventory/pants-1-v6.png",
     "source": "assets/item-visuals-v2/sprites/pants-1-v6.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v10",
@@ -3054,7 +3054,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v10.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v10.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v11",
@@ -3070,7 +3070,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v11.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v11.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v12",
@@ -3086,7 +3086,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v12.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v12.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v7",
@@ -3102,7 +3102,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v7.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v7.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v8",
@@ -3118,7 +3118,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v8.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v8.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-2-v9",
@@ -3134,7 +3134,7 @@
     "capacity": null,
     "file": "inventory/pants-2-v9.png",
     "source": "assets/item-visuals-v2/sprites/pants-2-v9.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v13",
@@ -3150,7 +3150,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v13.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v13.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v14",
@@ -3166,7 +3166,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v14.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v14.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v15",
@@ -3182,7 +3182,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v15.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v15.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v16",
@@ -3198,7 +3198,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v16.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v16.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v17",
@@ -3214,7 +3214,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v17.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v17.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-3-v18",
@@ -3230,7 +3230,7 @@
     "capacity": null,
     "file": "inventory/pants-3-v18.png",
     "source": "assets/item-visuals-v2/sprites/pants-3-v18.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v19",
@@ -3246,7 +3246,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v19.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v19.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v20",
@@ -3262,7 +3262,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v20.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v20.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v21",
@@ -3278,7 +3278,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v21.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v21.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v22",
@@ -3294,7 +3294,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v22.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v22.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v23",
@@ -3310,7 +3310,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v23.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v23.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/pants-4-v24",
@@ -3326,7 +3326,7 @@
     "capacity": null,
     "file": "inventory/pants-4-v24.png",
     "source": "assets/item-visuals-v2/sprites/pants-4-v24.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/resource-harvest-berries",
@@ -3361,7 +3361,7 @@
     "capacity": null,
     "file": "inventory/resource-harvest-boards.png",
     "source": "assets/item-visuals-v2/sprites/resource-harvest-boards.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/resource-harvest-mushrooms",
@@ -3396,7 +3396,7 @@
     "capacity": null,
     "file": "inventory/resource-harvest-stone.png",
     "source": "assets/item-visuals-v2/sprites/resource-harvest-stone.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/seeds-beet",
@@ -3412,7 +3412,7 @@
     "capacity": null,
     "file": "inventory/seeds-beet.png",
     "source": "assets/item-visuals-v2/sprites/seeds-beet.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Посади на грядке с лопатой или садовым инструментом. Созревший урожай можно собрать."
   },
   {
     "key": "item/seeds-carrot",
@@ -3428,7 +3428,7 @@
     "capacity": null,
     "file": "inventory/seeds-carrot.png",
     "source": "assets/item-visuals-v2/sprites/seeds-carrot.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Посади на грядке с лопатой или садовым инструментом. Созревший урожай можно собрать."
   },
   {
     "key": "item/seeds-millet",
@@ -3444,7 +3444,7 @@
     "capacity": null,
     "file": "inventory/seeds-millet.png",
     "source": "assets/item-visuals-v2/sprites/seeds-millet.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Посади на грядке с лопатой или садовым инструментом. Созревший урожай можно собрать."
   },
   {
     "key": "item/seeds-potato",
@@ -3460,7 +3460,7 @@
     "capacity": null,
     "file": "inventory/seeds-potato.png",
     "source": "assets/item-visuals-v2/sprites/seeds-potato.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Посади на грядке с лопатой или садовым инструментом. Созревший урожай можно собрать."
   },
   {
     "key": "item/shirts-1-v1",
@@ -3476,7 +3476,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v1.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v1.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-1-v2",
@@ -3492,7 +3492,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v2.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v2.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-1-v3",
@@ -3508,7 +3508,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v3.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v3.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-1-v4",
@@ -3524,7 +3524,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v4.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v4.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-1-v5",
@@ -3540,7 +3540,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v5.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v5.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-1-v6",
@@ -3556,7 +3556,7 @@
     "capacity": null,
     "file": "inventory/shirts-1-v6.png",
     "source": "assets/item-visuals-v2/sprites/shirts-1-v6.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v10",
@@ -3572,7 +3572,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v10.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v10.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v11",
@@ -3588,7 +3588,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v11.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v11.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v12",
@@ -3604,7 +3604,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v12.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v12.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v7",
@@ -3620,7 +3620,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v7.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v7.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v8",
@@ -3636,7 +3636,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v8.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v8.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-2-v9",
@@ -3652,7 +3652,7 @@
     "capacity": null,
     "file": "inventory/shirts-2-v9.png",
     "source": "assets/item-visuals-v2/sprites/shirts-2-v9.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v13",
@@ -3668,7 +3668,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v13.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v13.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v14",
@@ -3684,7 +3684,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v14.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v14.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v15",
@@ -3700,7 +3700,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v15.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v15.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v16",
@@ -3716,7 +3716,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v16.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v16.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v17",
@@ -3732,7 +3732,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v17.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v17.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-3-v18",
@@ -3748,7 +3748,7 @@
     "capacity": null,
     "file": "inventory/shirts-3-v18.png",
     "source": "assets/item-visuals-v2/sprites/shirts-3-v18.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v19",
@@ -3764,7 +3764,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v19.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v19.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v20",
@@ -3780,7 +3780,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v20.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v20.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v21",
@@ -3796,7 +3796,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v21.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v21.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v22",
@@ -3812,7 +3812,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v22.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v22.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v23",
@@ -3828,7 +3828,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v23.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v23.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/shirts-4-v24",
@@ -3844,7 +3844,7 @@
     "capacity": null,
     "file": "inventory/shirts-4-v24.png",
     "source": "assets/item-visuals-v2/sprites/shirts-4-v24.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-bolt-cutters",
@@ -3860,7 +3860,7 @@
     "capacity": null,
     "file": "inventory/tools-bolt-cutters.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-bolt-cutters.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-crowbar",
@@ -3876,7 +3876,7 @@
     "capacity": null,
     "file": "inventory/tools-crowbar.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-crowbar.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-hammer",
@@ -3892,7 +3892,7 @@
     "capacity": null,
     "file": "inventory/tools-hammer.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-hammer.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-saw",
@@ -3908,7 +3908,7 @@
     "capacity": null,
     "file": "inventory/tools-saw.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-saw.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-screwdriver",
@@ -3924,7 +3924,7 @@
     "capacity": null,
     "file": "inventory/tools-screwdriver.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-screwdriver.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/tools-shovel",
@@ -3940,7 +3940,7 @@
     "capacity": null,
     "file": "inventory/tools-shovel.png",
     "source": "assets/item-visuals-v2/retained/sprites/tools-shovel.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/transport-car-battery",
@@ -3956,7 +3956,7 @@
     "capacity": null,
     "file": "inventory/transport-car-battery.png",
     "source": "assets/item-visuals-v2/retained/sprites/transport-car-battery.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Деталь для ремонта или заправки автомобиля. Подойди к автомобилю и нажми E."
   },
   {
     "key": "item/transport-fuel-can",
@@ -3972,7 +3972,7 @@
     "capacity": null,
     "file": "inventory/transport-fuel-can.png",
     "source": "assets/item-visuals-v2/retained/sprites/transport-fuel-can.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Деталь для ремонта или заправки автомобиля. Подойди к автомобилю и нажми E."
   },
   {
     "key": "item/transport-toolbox",
@@ -3988,7 +3988,7 @@
     "capacity": null,
     "file": "inventory/transport-toolbox.png",
     "source": "assets/item-visuals-v2/retained/sprites/transport-toolbox.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Набор инструментов: 25% ремонта оружия или 40% ремонта автомобиля."
   },
   {
     "key": "item/transport-wheel",
@@ -4004,7 +4004,7 @@
     "capacity": null,
     "file": "inventory/transport-wheel.png",
     "source": "assets/item-visuals-v2/retained/sprites/transport-wheel.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Деталь для ремонта или заправки автомобиля. Подойди к автомобилю и нажми E."
   },
   {
     "key": "item/weapons-axe",
@@ -4020,7 +4020,7 @@
     "capacity": null,
     "file": "inventory/weapons-axe.png",
     "source": "assets/item-visuals-v2/retained/sprites/weapons-axe.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/weapons-knife",
@@ -4036,7 +4036,7 @@
     "capacity": null,
     "file": "inventory/weapons-knife.png",
     "source": "assets/item-visuals-v2/retained/sprites/weapons-knife.png",
-    "description": "Можно экипировать и снять."
+    "description": "Надень в подходящий слот. Снаряжение изнашивается. Одежда сохраняет тепло; броня уменьшает урон. Перемещение и выбрасывание сохраняют состояние вещи."
   },
   {
     "key": "item/wires-barbed-pickup",
@@ -4052,7 +4052,7 @@
     "capacity": null,
     "file": "inventory/wires-barbed-pickup.png",
     "source": "assets/item-visuals-v2/sprites/wires-barbed-pickup.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "item/wires-pickup",
@@ -4068,7 +4068,7 @@
     "capacity": null,
     "file": "inventory/wires-pickup.png",
     "source": "assets/item-visuals-v2/sprites/wires-pickup.png",
-    "description": "Переносимый предмет: хранение, стаки, разделение, выбрасывание и подбор. Применение в мире подключается отдельно."
+    "description": "Материал для изготовления, обмена и обустройства укрытия. Доступные рецепты — в журнале J."
   },
   {
     "key": "weapon/ak74",
@@ -4082,7 +4082,7 @@
     "capacity": 30,
     "file": "inventory/ak74.png",
     "source": "assets/weapon-animations-v1/references/ak74.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/akm",
@@ -4096,7 +4096,7 @@
     "capacity": 30,
     "file": "inventory/akm.png",
     "source": "assets/weapon-animations-v1/references/akm.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/colt-m1911",
@@ -4110,7 +4110,7 @@
     "capacity": 7,
     "file": "inventory/colt-m1911.png",
     "source": "assets/weapon-animations-v1/references/colt-m1911.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/colt-python",
@@ -4124,7 +4124,7 @@
     "capacity": 6,
     "file": "inventory/colt-python.png",
     "source": "assets/weapon-animations-v1/references/colt-python.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/glock-17",
@@ -4138,7 +4138,7 @@
     "capacity": 17,
     "file": "inventory/glock-17.png",
     "source": "assets/weapon-animations-v1/references/glock-17.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/hk-mp5",
@@ -4152,7 +4152,7 @@
     "capacity": 30,
     "file": "inventory/hk-mp5.png",
     "source": "assets/weapon-animations-v1/references/hk-mp5.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/izh-27",
@@ -4166,7 +4166,7 @@
     "capacity": 2,
     "file": "inventory/izh-27.png",
     "source": "assets/weapon-animations-v1/references/izh-27.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/izh-43",
@@ -4180,7 +4180,7 @@
     "capacity": 2,
     "file": "inventory/izh-43.png",
     "source": "assets/weapon-animations-v1/references/izh-43.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/m1-carbine",
@@ -4194,7 +4194,7 @@
     "capacity": 15,
     "file": "inventory/m1-carbine.png",
     "source": "assets/weapon-animations-v1/references/m1-carbine.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/m4a1",
@@ -4208,7 +4208,7 @@
     "capacity": 30,
     "file": "inventory/m4a1.png",
     "source": "assets/weapon-animations-v1/references/m4a1.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/mosin-9130",
@@ -4222,7 +4222,7 @@
     "capacity": 5,
     "file": "inventory/mosin-9130.png",
     "source": "assets/weapon-animations-v1/references/mosin-9130.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/mossberg-500",
@@ -4236,7 +4236,7 @@
     "capacity": 5,
     "file": "inventory/mossberg-500.png",
     "source": "assets/weapon-animations-v1/references/mossberg-500.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/nagant-m1895",
@@ -4250,7 +4250,7 @@
     "capacity": 7,
     "file": "inventory/nagant-m1895.png",
     "source": "assets/weapon-animations-v1/references/nagant-m1895.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/pm",
@@ -4264,7 +4264,7 @@
     "capacity": 8,
     "file": "inventory/pm.png",
     "source": "assets/weapon-animations-v1/references/pm.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/pp91-kedr",
@@ -4278,7 +4278,7 @@
     "capacity": 30,
     "file": "inventory/pp91-kedr.png",
     "source": "assets/weapon-animations-v1/references/pp91-kedr.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/remington-700",
@@ -4292,7 +4292,7 @@
     "capacity": 5,
     "file": "inventory/remington-700.png",
     "source": "assets/weapon-animations-v1/references/remington-700.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/remington-870",
@@ -4306,7 +4306,7 @@
     "capacity": 5,
     "file": "inventory/remington-870.png",
     "source": "assets/weapon-animations-v1/references/remington-870.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/ruger-mini14",
@@ -4320,7 +4320,7 @@
     "capacity": 20,
     "file": "inventory/ruger-mini14.png",
     "source": "assets/weapon-animations-v1/references/ruger-mini14.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/sks",
@@ -4334,7 +4334,7 @@
     "capacity": 10,
     "file": "inventory/sks.png",
     "source": "assets/weapon-animations-v1/references/sks.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/sw-686",
@@ -4348,7 +4348,7 @@
     "capacity": 6,
     "file": "inventory/sw-686.png",
     "source": "assets/weapon-animations-v1/references/sw-686.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/toz-34",
@@ -4362,7 +4362,7 @@
     "capacity": 2,
     "file": "inventory/toz-34.png",
     "source": "assets/weapon-animations-v1/references/toz-34.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/uzi",
@@ -4376,7 +4376,7 @@
     "capacity": 32,
     "file": "inventory/uzi.png",
     "source": "assets/weapon-animations-v1/references/uzi.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/winchester-1897",
@@ -4390,7 +4390,7 @@
     "capacity": 5,
     "file": "inventory/winchester-1897.png",
     "source": "assets/weapon-animations-v1/references/winchester-1897.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   },
   {
     "key": "weapon/winchester-70",
@@ -4404,6 +4404,6 @@
     "capacity": 5,
     "file": "inventory/winchester-70.png",
     "source": "assets/weapon-animations-v1/references/winchester-70.png",
-    "description": "Оружие: экипировать, зарядить подходящими патронами, проверить выстрел на полигоне. Калибры пока объединены в три тестовые группы."
+    "description": "Экипируй оружие и заряди патронами того же семейства. Бег снижает точность. Изношенное оружие наносит меньше урона; набор инструментов и скотч помогают восстановить состояние."
   }
 ]

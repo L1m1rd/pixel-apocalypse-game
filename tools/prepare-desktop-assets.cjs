@@ -47,6 +47,7 @@ async function main(){
  await require('./prepare-northern-dachas-runtime.cjs').prepareDistrict(data,OUT);
  require('./prepare-inventory.cjs').prepareInventory(data,OUT);
  await require('./prepare-avatar-runtime.cjs').prepareAvatar(data,OUT);
+ await require('./prepare-survival.cjs').prepareSurvival(data,OUT);
  fs.writeFileSync(path.join(OUT,'motion-alignment.json'),JSON.stringify(alignment,null,2));
  fs.writeFileSync(path.join(OUT,'data.js'),'window.GAME_ASSETS='+JSON.stringify(data)+';\n');
  fs.writeFileSync(path.join(OUT,'asset-manifest.json'),JSON.stringify(data,null,2));
