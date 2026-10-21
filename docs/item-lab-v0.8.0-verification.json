@@ -1,0 +1,63 @@
+{
+  "version": "0.8.0",
+  "status": "passed",
+  "unitTests": 22,
+  "packagedVisual": {
+    "passed": true,
+    "version": "0.8.0",
+    "packaged": true,
+    "still": 96,
+    "detail": 768,
+    "contacts": 768,
+    "rightClickSlots": [
+      "head",
+      "vest",
+      "pants",
+      "boots",
+      "jacket",
+      "weapon",
+      "backpack"
+    ],
+    "mouseChecks": [
+      "LMB drag storage to equipment",
+      "LMB drag equipment to storage",
+      "LMB drag into backpack",
+      "RMB auto-equips every tested slot",
+      "Shift+LMB drops exact stack",
+      "Shift+LMB drops filled worn backpack without losing contents",
+      "double click does not drop",
+      "ground click starts animation and closes inventory",
+      "pickup blocks movement and transfers exactly once at completion",
+      "E pickup uses same animation"
+    ],
+    "errors": []
+  },
+  "packagedInventory": {
+    "passed": true,
+    "packaged": true,
+    "catalog": 268,
+    "checks": [
+      "all eight screen directions",
+      "crouch and stop",
+      "normal inventory contains only owned items",
+      "creative disabled by default",
+      "explicit creative grant",
+      "distinct pockets and backpack",
+      "equipment slots",
+      "split and merge",
+      "button and drag transfer",
+      "healing from backpack",
+      "filled backpack removal and re-equip",
+      "inventory pauses walking",
+      "reload from backpack",
+      "drop and pickup",
+      "creative mode persistence",
+      "save and restart",
+      "minimum window size",
+      "no renderer errors"
+    ],
+    "screenshots": "C:\\Users\\gliza\\.codex\\worktrees\\northern-dachas\\GAME\\output\\item-lab-v061-review"
+  },
+  "earlierRegression": "All 105 wearable variants and all 24 firearms passed source runtime validation; p95 frame 16.8 ms.",
+  "assetEntities": 487
+}

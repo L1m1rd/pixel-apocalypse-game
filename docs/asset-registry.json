@@ -104,8 +104,18 @@
       "role": "game-visual"
     },
     {
+      "pack": "survivor-detail-v1",
+      "manifest": "assets/survivor-detail-v1/manifest.json",
+      "role": "game-visual"
+    },
+    {
       "pack": "northern-dachas-v1",
       "manifest": "assets/northern-dachas-v1/manifest.json",
+      "role": "game-style-variant"
+    },
+    {
+      "pack": "survivor-detail-v1",
+      "manifest": "assets/survivor-detail-v1/manifest.json",
       "role": "game-style-variant"
     }
   ],
@@ -491,11 +501,35 @@
     "item-visuals-v2/wires-pickup": "item/wires-pickup",
     "item-visuals-v2/wires-protected": "item/wires-protected",
     "survivor-friends-pixel-v1/01-gleb": "survivor/01-gleb",
+    "survivor-detail-v1/01-gleb/south": "survivor/01-gleb",
+    "survivor-detail-v1/01-gleb/east": "survivor/01-gleb",
+    "survivor-detail-v1/01-gleb/west": "survivor/01-gleb",
+    "survivor-detail-v1/01-gleb/north": "survivor/01-gleb",
     "survivor-friends-pixel-v1/02-roman": "survivor/02-roman",
+    "survivor-detail-v1/02-roman/south": "survivor/02-roman",
+    "survivor-detail-v1/02-roman/east": "survivor/02-roman",
+    "survivor-detail-v1/02-roman/west": "survivor/02-roman",
+    "survivor-detail-v1/02-roman/north": "survivor/02-roman",
     "survivor-friends-pixel-v1/03-miron": "survivor/03-miron",
+    "survivor-detail-v1/03-miron/south": "survivor/03-miron",
+    "survivor-detail-v1/03-miron/east": "survivor/03-miron",
+    "survivor-detail-v1/03-miron/west": "survivor/03-miron",
+    "survivor-detail-v1/03-miron/north": "survivor/03-miron",
     "survivor-friends-pixel-v1/04-egor": "survivor/04-egor",
+    "survivor-detail-v1/04-egor/south": "survivor/04-egor",
+    "survivor-detail-v1/04-egor/east": "survivor/04-egor",
+    "survivor-detail-v1/04-egor/west": "survivor/04-egor",
+    "survivor-detail-v1/04-egor/north": "survivor/04-egor",
     "survivor-friends-pixel-v1/05-timur": "survivor/05-timur",
+    "survivor-detail-v1/05-timur/south": "survivor/05-timur",
+    "survivor-detail-v1/05-timur/east": "survivor/05-timur",
+    "survivor-detail-v1/05-timur/west": "survivor/05-timur",
+    "survivor-detail-v1/05-timur/north": "survivor/05-timur",
     "survivor-friends-pixel-v1/06-makar": "survivor/06-makar",
+    "survivor-detail-v1/06-makar/south": "survivor/06-makar",
+    "survivor-detail-v1/06-makar/east": "survivor/06-makar",
+    "survivor-detail-v1/06-makar/west": "survivor/06-makar",
+    "survivor-detail-v1/06-makar/north": "survivor/06-makar",
     "weapon-animations-v1/ak74": "weapon/ak74",
     "weapon-animations-v1/akm": "weapon/akm",
     "weapon-animations-v1/colt-m1911": "weapon/colt-m1911",
@@ -7821,6 +7855,42 @@
             "assets/survivor-friends-pixel-v1/art/01-gleb.png",
             "assets/survivor-friends-pixel-v1/sprites/01-gleb.png"
           ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "01-gleb/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "01-gleb/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "01-gleb/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "01-gleb/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
         }
       ],
       "owner": {
@@ -7840,6 +7910,42 @@
           "files": [
             "assets/survivor-friends-pixel-v1/art/02-roman.png",
             "assets/survivor-friends-pixel-v1/sprites/02-roman.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "02-roman/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "02-roman/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "02-roman/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "02-roman/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
           ]
         }
       ],
@@ -7861,6 +7967,42 @@
             "assets/survivor-friends-pixel-v1/art/03-miron.png",
             "assets/survivor-friends-pixel-v1/sprites/03-miron.png"
           ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "03-miron/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "03-miron/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "03-miron/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "03-miron/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
         }
       ],
       "owner": {
@@ -7880,6 +8022,42 @@
           "files": [
             "assets/survivor-friends-pixel-v1/art/04-egor.png",
             "assets/survivor-friends-pixel-v1/sprites/04-egor.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "04-egor/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "04-egor/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "04-egor/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "04-egor/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
           ]
         }
       ],
@@ -7901,6 +8079,42 @@
             "assets/survivor-friends-pixel-v1/art/05-timur.png",
             "assets/survivor-friends-pixel-v1/sprites/05-timur.png"
           ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "05-timur/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "05-timur/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "05-timur/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "05-timur/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
         }
       ],
       "owner": {
@@ -7920,6 +8134,42 @@
           "files": [
             "assets/survivor-friends-pixel-v1/art/06-makar.png",
             "assets/survivor-friends-pixel-v1/sprites/06-makar.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "06-makar/south",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "06-makar/east",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "06-makar/west",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
+          ]
+        },
+        {
+          "pack": "survivor-detail-v1",
+          "id": "06-makar/north",
+          "role": "style-variant",
+          "state": "detailed-four-view-v1",
+          "files": [
+            "assets/survivor-detail-v1/atlas.png"
           ]
         }
       ],

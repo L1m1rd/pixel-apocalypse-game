@@ -106,7 +106,8 @@
     }
   },
   "styleVariantManifests": {
-    "northern-dachas-v1": "assets/northern-dachas-v1/manifest.json"
+    "northern-dachas-v1": "assets/northern-dachas-v1/manifest.json",
+    "survivor-detail-v1": "assets/survivor-detail-v1/manifest.json"
   },
   "designReferenceCopies": [
     {
@@ -115,5 +116,15 @@
         "docs/images/northern-dachas-street.png"
       ]
     }
-  ]
+  ],
+  "sharedCharacterAtlases": {
+    "assets/survivor-detail-v1/atlas.png": [
+      "survivor/01-gleb",
+      "survivor/02-roman",
+      "survivor/03-miron",
+      "survivor/04-egor",
+      "survivor/05-timur",
+      "survivor/06-makar"
+    ]
+  }
 }

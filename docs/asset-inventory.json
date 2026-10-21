@@ -128,8 +128,8 @@
     "assets/wildlife-loot-v1/records/fish-fillet.json",
     "desktop/media"
   ],
-  "files": 19349,
-  "totalBytes": 2778530598,
+  "files": 19355,
+  "totalBytes": 2780329901,
   "entries": [
     {
       "path": ".gitattributes",
@@ -158,8 +158,8 @@
     },
     {
       "path": "asset-ownership.json",
-      "bytes": 3566,
-      "sha256": "a2ca1347c0260811bd217a8fe24c7c2daeff108149781ea9c900d6e614dcf9aa"
+      "bytes": 3880,
+      "sha256": "d781fa3b290722231c564c6d72f1249c7aaaa485195a4f0521376bc110775cb7"
     },
     {
       "path": "assets/combat-vfx-v1/README.md",
@@ -41795,6 +41795,21 @@
       "path": "assets/special-vfx-v1/spore_cloud/spritesheet.png",
       "bytes": 110580,
       "sha256": "b4d5ab9b339c197195115c7f329450cee32645426dfb71dd42f7c35c9559889d"
+    },
+    {
+      "path": "assets/survivor-detail-v1/atlas.png",
+      "bytes": 1761512,
+      "sha256": "c8cae7f0ea892e2f0fe8f0430bd4576bcc105063124afe4b9debda3780dd7086"
+    },
+    {
+      "path": "assets/survivor-detail-v1/manifest.json",
+      "bytes": 5885,
+      "sha256": "7ee979d0ea5fa64f64cb8b6af74750fc84cfad4e3a38d8adc664592674118de8"
+    },
+    {
+      "path": "assets/survivor-detail-v1/prompts.json",
+      "bytes": 860,
+      "sha256": "21578941d3d189a31bd4d7700aba3ed853b16eb885fca26c28731f66bfeee6bc"
     },
     {
       "path": "assets/survivor-friends-animations-v1/01-gleb/east/animations.json",
@@ -95568,8 +95583,8 @@
     },
     {
       "path": "desktop/README.md",
-      "bytes": 7729,
-      "sha256": "4940c279000a33e0b1641a2ec22df37e236090662dbb23ace985b84c2fe542a0"
+      "bytes": 10861,
+      "sha256": "2f6fe7976cf6ff098845c8e34a10650a3342c48e0dd07a8c2cf4b0cd504195c2"
     },
     {
       "path": "desktop/art/locomotion-v2/01-gleb/east/run-0.png",
@@ -96123,13 +96138,18 @@
     },
     {
       "path": "desktop/avatar-anatomy.mjs",
-      "bytes": 5166,
-      "sha256": "32da543ceed635dee9340184ed52a0ebc0cdfe8c0ef792724bafd5a6c2f7e809"
+      "bytes": 5241,
+      "sha256": "156a77b5c46979a70c178bc82131039715bef38064d80f4b2a7b273589dd8c4c"
     },
     {
       "path": "desktop/avatar-anatomy.test.mjs",
-      "bytes": 1702,
-      "sha256": "5b94767d500fc52c74f23755cca453230ca1c4f55483e45ded333479d5fa1154"
+      "bytes": 2039,
+      "sha256": "b5665c616cc99afd8b103de3cf93d007d39ed467c557f3cb8d9e8ec3420521a3"
+    },
+    {
+      "path": "desktop/avatar-detail.mjs",
+      "bytes": 3775,
+      "sha256": "ef17c997f67f631455390f08f310bb32e4911b63ceab1e0d6faaa5c07089f32c"
     },
     {
       "path": "desktop/avatar-motion.mjs",
@@ -96143,8 +96163,8 @@
     },
     {
       "path": "desktop/avatar-renderer.mjs",
-      "bytes": 11340,
-      "sha256": "8dee9530e405e8e8f59be0bd46cb60d79086fed6df477fc7fd93d0be0ffb45c7"
+      "bytes": 13145,
+      "sha256": "1015ee29ec110b006696cac6611775b8fc39ae9bcd21b5afae6c2a48af49dc0e"
     },
     {
       "path": "desktop/core.mjs",
@@ -96163,8 +96183,8 @@
     },
     {
       "path": "desktop/index.html",
-      "bytes": 9775,
-      "sha256": "454b2cd0b98cadf724b6868afc6bcc6b8b2d61822c56a89238f03dc4c9e928e3"
+      "bytes": 9786,
+      "sha256": "df36f64ad4942f11455cd95efd716636d12c352a160512203867e84c0e6a0bc1"
     },
     {
       "path": "desktop/inventory-catalog.json",
@@ -96178,18 +96198,18 @@
     },
     {
       "path": "desktop/inventory-ui.mjs",
-      "bytes": 10220,
-      "sha256": "beb7287d50a34f9cb5c3fcfecc2880a38434f089e372b133368f10721ad32e2d"
+      "bytes": 11201,
+      "sha256": "00180587a1b04a501cab7cf5384cd2ca819e6ba617e3ce7aa8cba26ea1f2e41a"
     },
     {
       "path": "desktop/inventory.mjs",
-      "bytes": 7953,
-      "sha256": "097ba1b1cdd1eec127d4b6db5d5e50c7caae75cfc41fba1d8035f6ae97ef14e7"
+      "bytes": 8336,
+      "sha256": "0fb91b94143514650ab9e06ed3f5f11b249fe6cb64a0b8f868f2f8e363d7dac5"
     },
     {
       "path": "desktop/inventory.test.mjs",
-      "bytes": 6641,
-      "sha256": "258add41705f3f1471dc5b767398d18f5e1cd34114199503c0fc64273952192d"
+      "bytes": 7366,
+      "sha256": "2af59399358121d359f6f3bcdabc61eae0fbf2141d2ef4940b66859678952498"
     },
     {
       "path": "desktop/item-lab-movement.mjs",
@@ -96203,8 +96223,8 @@
     },
     {
       "path": "desktop/item-lab-renderer.mjs",
-      "bytes": 1890,
-      "sha256": "a1a9e8467d6e68b54eb0a5782e837b6ca05fc171f20650d4a22e4c7d7e7e68a5"
+      "bytes": 1943,
+      "sha256": "563b23707f834fd55f07e49a865d3c0e540075ac39b325d1e5ce5fe0f1d4f9c9"
     },
     {
       "path": "desktop/main.cjs",
@@ -96254,12 +96274,12 @@
     {
       "path": "desktop/package-lock.json",
       "bytes": 5790,
-      "sha256": "8791223d868f1e9f3ad3206d1c838390b896c9768d670a1d2a820882011742b6"
+      "sha256": "e3b325e4b19e900e99bb52c2991a7b69b47417019130224d5e4e3435699155c2"
     },
     {
       "path": "desktop/package.json",
       "bytes": 392,
-      "sha256": "ef58ff1a771c4adceacbfbde1c81789d5c9ca9a811c74cbf451a81b8ffefe78b"
+      "sha256": "ce3a81c8724cf9f90b4d4247f779e71b0c8d49671e06eba2380a3dd4a77da9af"
     },
     {
       "path": "desktop/preload.cjs",
@@ -96268,8 +96288,8 @@
     },
     {
       "path": "desktop/renderer.mjs",
-      "bytes": 15652,
-      "sha256": "9080cab3bd898f197bdb37202e96b75a6d2fb04921d25c48818754d8cb3760bb"
+      "bytes": 16976,
+      "sha256": "0f23ca8348540fdd587ce9f0ea3aceabbbbd2d4f2ff94b5ae9ea4f70906cecdd"
     },
     {
       "path": "desktop/save.cjs",
@@ -96294,12 +96314,12 @@
     {
       "path": "docs/asset-consistency-report.json",
       "bytes": 8149,
-      "sha256": "f0079294e45c5e4147106f7f34a5acacccec64192f36a4d7ab0d94ca6f934f60"
+      "sha256": "89c77e03ff8c8d864b4124540ba7eaae655f60e9af224176b5942c818fed28bf"
     },
     {
       "path": "docs/asset-registry.json",
-      "bytes": 403536,
-      "sha256": "aa596d8797228472472dfb4bf410a6144531ae20649a4b5edad141db44d5fe32"
+      "bytes": 411427,
+      "sha256": "98cc7c92af8113da6ca3543d9af51c71d95160f4818b4f50b60130871a949d49"
     },
     {
       "path": "docs/combat-design.md",
@@ -96367,6 +96387,11 @@
       "sha256": "3bacb096f692a6a984050c7289579db747a0892caeea6d7b617e8c50b49a9948"
     },
     {
+      "path": "docs/item-lab-v0.8.0-verification.json",
+      "bytes": 1831,
+      "sha256": "5dd2f4a35ed214ea239e90fb1876f44285124c0f2ef7289ca66db987807f7381"
+    },
+    {
       "path": "docs/items-design.md",
       "bytes": 8316,
       "sha256": "2152f8ffbea6dd61f18f8fbb8a34fc853091ccc57d6ffe735858072e262ea04b"
@@ -96383,8 +96408,8 @@
     },
     {
       "path": "docs/northern-dachas-release.md",
-      "bytes": 6165,
-      "sha256": "fba3fe3d8f5a4fc7f871b491a1844c3356f53cd3e76e30332f27e7ca5e904d57"
+      "bytes": 6928,
+      "sha256": "321cc9d80e2b2f06c385c9b114354f7319ece19883f46d54f1dc86190e423f68"
     },
     {
       "path": "docs/northern-dachas-v0.4.0.md",
@@ -96438,8 +96463,8 @@
     },
     {
       "path": "publication-config.json",
-      "bytes": 7322,
-      "sha256": "b0c1bb7505cbaa45c4dafb79a9b885a0fe26ac0d87505b6e87b91fee74f08f61"
+      "bytes": 7348,
+      "sha256": "3685fb586981fee69e0ff914f7a7fadc57ca8b56bc86170108600df884709051"
     },
     {
       "path": "tools/assemble-friends-animations.cjs",
@@ -96523,8 +96548,8 @@
     },
     {
       "path": "tools/check-asset-consistency.cjs",
-      "bytes": 11182,
-      "sha256": "eec9fe656c1f01b227b69ce3c0e55f01b9485aec7707460f8d4b35d0d641b569"
+      "bytes": 11326,
+      "sha256": "b1fab48b8534f3589ac277aa08dc89179b6dcaaeaa0cfb246a620d19346dc750"
     },
     {
       "path": "tools/check-asset-files.cjs",
@@ -96538,8 +96563,13 @@
     },
     {
       "path": "tools/check-avatar-runtime.cjs",
-      "bytes": 8421,
-      "sha256": "94a545d7b340a23853330cb4e9980461a8fac1e048035355f4d7e82e84c3e434"
+      "bytes": 8425,
+      "sha256": "e3a7c1a6caa4c2b2e6c47182779072f1897043ef934ac3245654849565582c23"
+    },
+    {
+      "path": "tools/check-avatar-v080.cjs",
+      "bytes": 6940,
+      "sha256": "d2ff3d233d609699ac41d7643e80ce73e29d55031210e7b87cf5057f197d0a11"
     },
     {
       "path": "tools/check-combat-vfx.cjs",
@@ -96573,8 +96603,8 @@
     },
     {
       "path": "tools/check-item-lab-runtime.cjs",
-      "bytes": 9061,
-      "sha256": "8785bbb9141ef405514c0ecac99052ce24f948960d058ed230121254780e62f4"
+      "bytes": 9213,
+      "sha256": "0777ec05f61cf867f5574176411858e8918b462db65b142badd01be236deca13"
     },
     {
       "path": "tools/check-item-revision.cjs",
@@ -96663,8 +96693,8 @@
     },
     {
       "path": "tools/package-desktop.cjs",
-      "bytes": 3772,
-      "sha256": "fdc9e8d9e021ed5344550b1132852749f96409222d4ef6b2dcef43c21eda5b0b"
+      "bytes": 3792,
+      "sha256": "6d8bc52ee42ddc6f56e783044d1d090b9d4ac01b577189ff4a7efde6541c0665"
     },
     {
       "path": "tools/package-infected-pixel.cjs",
@@ -96708,8 +96738,8 @@
     },
     {
       "path": "tools/prepare-avatar-runtime.cjs",
-      "bytes": 3678,
-      "sha256": "e12ba9857aeb8416b0a975cd925aa10dfae642c90a126a968ea0d675ff252b54"
+      "bytes": 4038,
+      "sha256": "62a1811ae7056c48130833d1f8f6b4708a76eae48babc7bad50d927288bef0a5"
     },
     {
       "path": "tools/prepare-decorative-corpses-v2.cjs",
@@ -96869,7 +96899,7 @@
     {
       "path": "Полигон предметов.cmd",
       "bytes": 97,
-      "sha256": "257bc8d3cec41c9d526c319c69caf9c9a2f55c3fe5afeef0fd709a312ee1c494"
+      "sha256": "222bc9757a38ebd417713ceadaace5a96c3b6d11acb4facc630a6fd189bc0b24"
     },
     {
       "path": "Северные дачи.cmd",

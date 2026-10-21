@@ -9,7 +9,7 @@ function add(id,name,pack,localId,role,files=[],state=null){
  const entry={pack,id:localId,role,state,files:[...new Set(files)]};entity.representations.push(entry);
  for(const f of entry.files){need(f);if(role!=='reference'&&role!=='animation'){
   const bytes=fs.readFileSync(path.join(ROOT,f)),h=crypto.createHash('sha256').update(bytes).digest('hex'),previous=primaryFiles.get(h);
-  assert(!previous||previous.entity===id,'Identical primary image assigned to different entities: '+f+' and '+previous?.file);
+  assert(!previous||previous.entity===id||(previous.file===f&&(policy.sharedCharacterAtlases?.[f]??[]).includes(id)&&(policy.sharedCharacterAtlases?.[f]??[]).includes(previous.entity)),'Identical primary image assigned to different entities: '+f+' and '+previous?.file);
   primaryFiles.set(h,{entity:id,file:f});
  }}
 }
