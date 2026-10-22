@@ -6,7 +6,7 @@
   <canvas id="menu-clouds" class="menu-scene" width="1304" height="941" aria-hidden="true"></canvas>
   <section class="menu-panel"><img class="brand" src="media/logo.png" alt="Pixel Apocalypse"><nav aria-label="Главное меню">
    <button id="continue" disabled>Продолжить</button><button id="new-world" class="primary">Начать выживание</button><button disabled title="В этой версии доступен только локальный мир">Подключиться</button><button disabled title="Появится в следующей версии">Настройки</button><button id="quit">Выход</button>
-  </nav><p class="edition">НЕПРЕРЫВНОЕ ВЫЖИВАНИЕ · 0.13.0<br>Локальный мир</p></section>
+  </nav><p class="edition">НЕПРЕРЫВНОЕ ВЫЖИВАНИЕ · 0.14.0<br>Локальный мир</p></section>
  </main>
  <main id="character-screen" class="screen shade" hidden><section class="panel character-panel">
   <header><div><p class="eyebrow">НОВЫЙ МИР · ШАГ 1 / 2</p><h1>Выбери выжившего</h1></div><button id="character-back" class="small secondary">Назад</button></header>
@@ -24,15 +24,16 @@
   <div id="hud-health" class="vital health" role="progressbar" aria-valuemin="0" aria-valuemax="100"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21 3 12C-3 4 7-2 12 5 17-2 27 4 21 12Z"/></svg><div><span>Здоровье</span><div class="vital-track"><i id="hud-health-fill"></i></div></div><b id="hud-health-value">65</b></div>
   <div id="hud-hunger" class="vital hunger" role="progressbar" aria-valuemin="0" aria-valuemax="100"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 2v7m4-7v7M2 2v7q0 5 4 5v8M10 2v7q0 5-4 5M19 2q-7 8 0 11v9M19 2v11"/></svg><div><span>Сытость</span><div class="vital-track"><i id="hud-hunger-fill"></i></div></div><b id="hud-hunger-value">60</b></div>
   <div id="hud-thirst" class="vital thirst" role="progressbar" aria-valuemin="0" aria-valuemax="100"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C9 8 4 12 4 16a8 8 0 0 0 16 0c0-4-5-8-8-14Z"/><path d="M8 16q0 4 4 4"/></svg><div><span>Вода</span><div class="vital-track"><i id="hud-thirst-fill"></i></div></div><b id="hud-thirst-value">60</b></div>
+  <div id="hud-temperature" class="vital temperature" role="progressbar" aria-valuemin="0" aria-valuemax="100"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14V5a3 3 0 0 1 6 0v9a5 5 0 1 1-6 0Z M12 7v11"/></svg><div><span>Температура</span><div class="vital-track"><i id="hud-temperature-fill"></i></div></div><b id="hud-temperature-value">85</b></div>
  </section>
  <section id="hud-weapon" class="weapon-panel" aria-label="Оружие в руках"><img id="hud-weapon-icon" hidden alt=""><div><b id="hud-weapon-name">Руки свободны</b><span id="hud-weapon-ammo">I · Снаряжение</span></div></section>
- <button id="mini-map-open" class="minimap-panel" aria-label="Открыть полную карту"><canvas id="mini-map" width="176" height="176" aria-label="Мини-карта района"></canvas><span id="mini-coordinates"></span><small>РАЙОН · M</small></button><span id="hud-creative" hidden>Творческий режим · F2</span>
+ <button id="mini-map-open" class="minimap-panel" aria-label="Открыть полную карту"><canvas id="mini-map" width="176" height="176" aria-label="Мини-карта района"></canvas><span id="mini-coordinates"></span><small>РАЙОН · M</small></button><span id="hud-afflictions" aria-live="polite"></span><span id="hud-creative" hidden>Творческий режим · F2</span>
 </div>
 
  <section id="inventory-overlay" class="modal" hidden role="dialog" aria-modal="true" aria-label="Инвентарь">
   <div class="inventory-panel"><header><div><p class="eyebrow">ВЫЖИВШИЙ · СНАРЯЖЕНИЕ И ВЕЩИ</p><h1>Инвентарь</h1></div><div class="inventory-header-actions"><span id="inventory-summary"></span><label class="creative-switch"><input id="creative-mode" type="checkbox">Творческий режим</label><button id="creative-open" hidden>Каталог · F2</button><button id="inventory-close">Закрыть · I</button></div></header>
   <div class="inventory-layout"><section class="equipment-panel"><h2>Снаряжение</h2><div class="equipment-body"><canvas id="inventory-character" width="160" height="280" aria-label="Персонаж в надетом снаряжении"></canvas><div id="inventory-character-name"></div><div id="inventory-equipment"></div></div></section>
-  <section class="inventory-storage"><section class="storage-section"><header><h2>Карманы</h2><span id="pockets-summary"></span></header><div id="pockets-grid" class="owned-grid" aria-label="Вещи в карманах"></div></section><section class="storage-section backpack-section"><header><h2>Рюкзак</h2><span id="backpack-summary"></span></header><div id="backpack-grid" class="owned-grid" aria-label="Содержимое надетого рюкзака"></div></section><button id="inventory-merge">Объединить стаки</button></section>
+  <section class="inventory-storage"><section class="storage-section"><header><h2>Вещи при себе</h2><span id="pockets-summary"></span></header><div id="pockets-grid" class="owned-grid" aria-label="Вещи в карманах"></div></section><section class="storage-section backpack-section"><header><h2>Рюкзак</h2><span id="backpack-summary"></span></header><div id="backpack-grid" class="owned-grid" aria-label="Содержимое надетого рюкзака"></div></section><button id="inventory-merge">Объединить стаки</button></section>
   <aside id="inventory-detail" aria-live="polite"></aside></div>
   <footer><div><b>Рядом на земле · нажми, чтобы подобрать</b><div id="inventory-ground"></div></div><p id="inventory-learned"></p></footer></div>
  </section>

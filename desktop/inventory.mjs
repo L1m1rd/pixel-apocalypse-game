@@ -1,18 +1,19 @@
+import {STORAGE_SLOTS,storageCapacity,fitsStorage} from './storage-rules.mjs';
 import {profile,repairValue,conditionName,KEYS,clamp as limit} from './survival-rules.mjs';
 export const SLOT_NAMES={head:'Шлем',vest:'Броня',pants:'Штаны',weapon:'Оружие',backpack:'Рюкзак',mask:'Противогаз',gloves:'Перчатки',boots:'Ботинки',shirt:'Футболка',jacket:'Куртка',greaves:'Поножи',hand:'Инструмент',secondary:'Запасное оружие',quick:'Быстрый предмет'};
 export const CATEGORY_NAMES={weapons:'Оружие',ammo:'Патроны',equipment:'Экипировка',tools:'Инструменты',food:'Еда и вода',medicine:'Медицина',manuals:'Методички','animal-resources':'Животные ресурсы',harvest:'Урожай',seeds:'Семена',herbs:'Травы',wires:'Провода','resource-harvest':'Ресурсы','retained-materials':'Материалы','retained-electricity':'Электрика','retained-distraction':'Отвлечение','retained-transport':'Автодетали','retained-information':'Информация'};
-export const POCKET_SLOTS=12;
+export const POCKET_SLOTS=4;
 export function createInventory(catalog,saved,position={x:4096,y:4096}){
  const defs=new Map(catalog.map(i=>[i.key,i])),clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
  const state={version:2,nextId:1,creative:false,pockets:[],equipment:{},ground:[],vitals:{health:65,hunger:60,thirst:60,temperature:85,wetness:0,bleeding:0,disease:0,stamina:100},learned:[]};
  let migratedToGround=0;
- const make=(key,qty)=>({uid:state.nextId++,key,qty,loaded:0,...(profile(defs.get(key)).durable?{condition:100,charge:100}:{}),...(defs.get(key).slot==='backpack'?{contents:[]}:{} )});
- function readStack(s,nested=false){const d=defs.get(s?.key);if(!d||!Number.isSafeInteger(s.qty)||s.qty<1||s.qty>d.maxStack||(nested&&d.slot==='backpack'))return null;const value=make(d.key,s.qty);value.loaded=clamp(Number.isFinite(s.loaded)?Math.floor(s.loaded):0,0,d.ammo?d.capacity:0);if(profile(d).durable){value.condition=Number.isFinite(s.condition)?clamp(s.condition,0,100):100;value.charge=Number.isFinite(s.charge)?clamp(s.charge,0,100):100;}value.mods=Array.isArray(s.mods)?s.mods.filter(m=>['optic','suppressor','night'].includes(m)).slice(0,3):[];if(d.slot==='backpack')value.contents=(Array.isArray(s.contents)?s.contents:[]).slice(0,d.capacity).map(s=>readStack(s,true)).filter(Boolean);return value;}
+ const make=(key,qty)=>({uid:state.nextId++,key,qty,loaded:0,...(profile(defs.get(key)).durable?{condition:100,charge:100}:{}),...(storageCapacity(defs.get(key))?{contents:[]}:{} )});
+ function readStack(s,nested=false,depth=0){const d=defs.get(s?.key);if(depth>2||!d||!Number.isSafeInteger(s.qty)||s.qty<1||s.qty>d.maxStack||(nested&&d.slot==='backpack'))return null;const value=make(d.key,s.qty);value.loaded=clamp(Number.isFinite(s.loaded)?Math.floor(s.loaded):0,0,d.ammo?d.capacity:0);if(profile(d).durable){value.condition=Number.isFinite(s.condition)?clamp(s.condition,0,100):100;value.charge=Number.isFinite(s.charge)?clamp(s.charge,0,100):100;}value.mods=Array.isArray(s.mods)?s.mods.filter(m=>['optic','suppressor','night'].includes(m)).slice(0,3):[];if(storageCapacity(d))value.contents=(Array.isArray(s.contents)?s.contents:[]).slice(0,storageCapacity(d)).filter(s=>fitsStorage(d.slot,defs.get(s?.key))).map(s=>readStack(s,true,depth+1)).filter(Boolean);return value;}
  if([1,2].includes(saved?.version)){
-  state.creative=saved.version===2&&saved.creative===true;
+  if(saved.pocketSlots===12)state.pocketSlots=12;state.creative=saved.version===2&&saved.creative===true;
   for(const slot of Object.keys(SLOT_NAMES)){const stack=readStack(saved.equipment?.[slot]);if(stack&&(defs.get(stack.key).slot===slot||slot==='secondary'&&defs.get(stack.key).slot==='weapon'||slot==='quick'&&!!defs.get(stack.key).use))state.equipment[slot]=stack;}
   state.ground=(Array.isArray(saved.ground)?saved.ground:[]).slice(0,2048).flatMap(s=>{const stack=readStack(s);return stack&&Number.isFinite(s.x)&&Number.isFinite(s.y)?[{...stack,x:clamp(s.x,32,8160),y:clamp(s.y,32,8160)}]:[];});
-  if(saved.version===2)state.pockets=(Array.isArray(saved.pockets)?saved.pockets:[]).slice(0,POCKET_SLOTS).map(s=>readStack(s)).filter(Boolean);
+  if(saved.version===2)state.pockets=(Array.isArray(saved.pockets)?saved.pockets:[]).slice(0,12).map(s=>readStack(s)).filter(Boolean);
   else{
    const legacy=(Array.isArray(saved.bag)?saved.bag:[]).slice(0,1000).map(s=>readStack(s)).filter(Boolean);
    for(const s of legacy){const pack=state.equipment.backpack;if(pack&&defs.get(s.key).slot!=='backpack'&&pack.contents.length<defs.get(pack.key).capacity)pack.contents.push(s);else if(state.pockets.length<POCKET_SLOTS)state.pockets.push(s);else{state.ground.push({...s,x:position.x+14,y:position.y+14});migratedToGround++;}}
@@ -20,36 +21,38 @@ export function createInventory(catalog,saved,position={x:4096,y:4096}){
   for(const key of Object.keys(state.vitals))if(Number.isFinite(saved.vitals?.[key]))state.vitals[key]=clamp(saved.vitals[key],0,100);
   state.learned=[...new Set((Array.isArray(saved.learned)?saved.learned:[]).filter(key=>defs.get(key)?.use==='read'))];
  }
- const list=name=>name==='pockets'?state.pockets:name==='backpack'?(state.equipment.backpack?.contents??null):null;
- const capacity=name=>name==='pockets'?POCKET_SLOTS:name==='backpack'?(defs.get(state.equipment.backpack?.key)?.capacity??0):0;
- function fit(name,key,qty){const rows=list(name),d=defs.get(key);if(!rows||!d||qty<1||(name==='backpack'&&d.slot==='backpack'))return false;return rows.reduce((n,s)=>n+(s.key===key?d.maxStack-s.qty:0),0)+Math.max(0,capacity(name)-rows.length)*d.maxStack>=qty;}
- function locate(uid){for(const container of ['pockets','backpack']){const rows=list(container),stack=rows?.find(s=>s.uid===uid);if(stack)return {rows,stack,container};}const quick=state.equipment.quick;if(quick?.uid===uid)return {stack:quick,slot:'quick',container:'quick'};return null;}
+ const storageNames=()=>['pockets',...STORAGE_SLOTS.filter(slot=>state.equipment[slot])];
+ const list=name=>name==='pockets'?state.pockets:STORAGE_SLOTS.includes(name)?(state.equipment[name]?.contents??null):null;
+ // Legacy loose stacks are retained; their extra cells disappear as they are emptied.
+ const capacity=name=>name==='pockets'?Math.max(state.pocketSlots??POCKET_SLOTS,state.pockets.length):storageCapacity(defs.get(state.equipment[name]?.key));
+ function fit(name,key,qty){const rows=list(name),d=defs.get(key);if(!rows||!d||qty<1||!fitsStorage(name,d))return false;return rows.reduce((n,s)=>n+(s.key===key?d.maxStack-s.qty:0),0)+Math.max(0,capacity(name)-rows.length)*d.maxStack>=qty;}
+ function locate(uid){for(const container of storageNames()){const rows=list(container),stack=rows?.find(s=>s.uid===uid);if(stack)return {rows,stack,container};}const quick=state.equipment.quick;if(quick?.uid===uid)return {stack:quick,slot:'quick',container:'quick'};return null;}
  function insert(rows,s){const d=defs.get(s.key);if(d.maxStack===1){for(let i=0;i<s.qty;i++)rows.push(i===0?{...s,qty:1}:make(s.key,1));return;}let qty=s.qty;for(const a of rows){if(a.key===s.key){const n=Math.min(qty,d.maxStack-a.qty);a.qty+=n;qty-=n;}}while(qty){const n=Math.min(qty,d.maxStack);rows.push(make(s.key,n));qty-=n;}}
  function add(key,qty=1,target='pockets'){if(!Number.isSafeInteger(qty)||qty<1||!fit(target,key,qty))return false;insert(list(target),make(key,qty));return true;}
  function grant(key,qty=1,target='pockets'){return state.creative&&add(key,qty,target);}
  function transfer(uid,target){const loc=locate(uid);if(!loc||loc.container===target||!fit(target,loc.stack.key,loc.stack.qty))return false;if(loc.slot)delete state.equipment[loc.slot];else loc.rows.splice(loc.rows.indexOf(loc.stack),1);insert(list(target),loc.stack);return true;}
- function equip(uid,requestedSlot){const loc=locate(uid),s=loc?.stack,d=defs.get(s?.key);const slot=requestedSlot??d?.slot;if(!d||!(slot===d.slot||slot==='secondary'&&d.slot==='weapon'||slot==='quick'&&d.use)||loc.slot)return false;const old=state.equipment[slot];
+ function equip(uid,requestedSlot){const loc=locate(uid),s=loc?.stack,d=defs.get(s?.key);const slot=requestedSlot??d?.slot;if(!d||!(slot===d.slot||slot==='secondary'&&d.slot==='weapon'||slot==='quick'&&d.use)||loc.slot)return false;const old=state.equipment[slot];if(old&&!fitsStorage(loc.container,defs.get(old.key)))return false;
   // Backpack instances carry their own contents; a worn pack can only come from pockets.
   if(d.slot==='backpack'&&loc.container!=='pockets')return false;
   loc.rows.splice(loc.rows.indexOf(s),1);if(old)loc.rows.push(old);state.equipment[slot]=s;return true;
  }
- function unequip(slot,target='pockets'){const s=state.equipment[slot];if(!s||!fit(target,s.key,1))return false;delete state.equipment[slot];insert(list(target),s);return true;}
+ function unequip(slot,target='pockets'){const s=state.equipment[slot];if(slot===target||!s||!fit(target,s.key,1))return false;delete state.equipment[slot];insert(list(target),s);return true;}
  function remove(loc,n=1){loc.stack.qty-=n;if(!loc.stack.qty){if(loc.slot)delete state.equipment[loc.slot];else loc.rows.splice(loc.rows.indexOf(loc.stack),1);}}
  function legacyUse(uid){const loc=locate(uid),d=defs.get(loc?.stack.key);if(!d?.use)return false;if(d.use==='read'){if(state.learned.includes(d.key))return false;state.learned.push(d.key);remove(loc);return true;}if(!Object.entries(d.effect??{}).some(([k,v])=>v>0&&state.vitals[k]<100))return false;for(const [k,v] of Object.entries(d.effect))state.vitals[k]=clamp(state.vitals[k]+v,0,100);remove(loc);return true;}
  function split(uid){const loc=locate(uid);if(!loc||loc.stack.qty<2||loc.rows.length>=capacity(loc.container))return false;const n=Math.floor(loc.stack.qty/2);loc.stack.qty-=n;loc.rows.push(make(loc.stack.key,n));return true;}
- function merge(container){for(const name of container?[container]:['pockets','backpack']){const rows=list(name);if(!rows)continue;for(let i=0;i<rows.length;i++)for(let j=i+1;j<rows.length;j++){const a=rows[i],b=rows[j];if(a.key!==b.key||defs.get(a.key).maxStack===1)continue;const n=Math.min(b.qty,defs.get(a.key).maxStack-a.qty);a.qty+=n;b.qty-=n;if(!b.qty){rows.splice(j,1);j--;}}}}
+ function merge(container){for(const name of container?[container]:storageNames()){const rows=list(name);if(!rows)continue;for(let i=0;i<rows.length;i++)for(let j=i+1;j<rows.length;j++){const a=rows[i],b=rows[j];if(a.key!==b.key||defs.get(a.key).maxStack===1)continue;const n=Math.min(b.qty,defs.get(a.key).maxStack-a.qty);a.qty+=n;b.qty-=n;if(!b.qty){rows.splice(j,1);j--;}}}}
  function move(uid,target){const loc=locate(uid);if(loc)return transfer(uid,target);const slot=Object.keys(state.equipment).find(k=>state.equipment[k]?.uid===uid);return slot?unequip(slot,target):false;}
  function drop(uid,p){if(state.ground.length>=2048)return false;const loc=locate(uid),slot=Object.keys(state.equipment).find(k=>state.equipment[k]?.uid===uid),stack=loc?.stack??state.equipment[slot];if(!stack)return false;if(loc?.rows)loc.rows.splice(loc.rows.indexOf(stack),1);else delete state.equipment[slot];state.ground.push({...stack,x:clamp(p.x+14,32,8160),y:clamp(p.y+14,32,8160)});return true;}
  function pickup(uid,target='pockets'){const s=state.ground.find(s=>s.uid===uid);if(!s||!fit(target,s.key,s.qty))return false;const {x,y,...stack}=s;insert(list(target),stack);state.ground.splice(state.ground.indexOf(s),1);return true;}
  const nearby=p=>state.ground.filter(s=>Math.hypot(s.x-p.x,s.y-p.y)<=95);
- function reload(){const s=state.equipment.weapon,d=defs.get(s?.key);if(!d?.ammo||(s.condition??100)<=0||s.loaded>=d.capacity)return false;let need=d.capacity-s.loaded,loaded=0;for(const name of ['pockets','backpack'])for(const a of [...(list(name)??[])]){if(defs.get(a.key).entityId!==d.ammo||!need)continue;const n=Math.min(need,a.qty);remove({rows:list(name),stack:a},n);need-=n;loaded+=n;}s.loaded+=loaded;return loaded>0;}
+ function reload(){const s=state.equipment.weapon,d=defs.get(s?.key);if(!d?.ammo||(s.condition??100)<=0||s.loaded>=d.capacity)return false;let need=d.capacity-s.loaded,loaded=0;for(const name of storageNames())for(const a of [...(list(name)??[])]){if(defs.get(a.key).entityId!==d.ammo||!need)continue;const n=Math.min(need,a.qty);remove({rows:list(name),stack:a},n);need-=n;loaded+=n;}s.loaded+=loaded;return loaded>0;}
  function swapWeapons(){const a=state.equipment.weapon,b=state.equipment.secondary;if(!a&&!b)return false;if(b)state.equipment.weapon=b;else delete state.equipment.weapon;if(a)state.equipment.secondary=a;else delete state.equipment.secondary;return true;}
  function fire(){const s=state.equipment.weapon;if(!s||s.loaded<=0||(s.condition??100)<=0)return false;s.loaded--;s.condition=Math.max(0,(s.condition??100)-.35);return true;}
 
  function find(uid){return locate(uid)?.stack??Object.values(state.equipment).find(s=>s.uid===uid);}
- function allStored(){return [...state.pockets,...(list('backpack')??[])];}
+ function allStored(){return storageNames().flatMap(name=>list(name)??[]);}
  function count(key){return allStored().filter(s=>s.key===key).reduce((n,s)=>n+s.qty,0);}
- function consume(key,n=1){if(!Number.isSafeInteger(n)||n<1||count(key)<n)return false;for(const name of ['pockets','backpack'])for(const s of [...(list(name)??[])])if(s.key===key&&n){const take=Math.min(n,s.qty);remove({rows:list(name),stack:s},take);n-=take;}return true;}
+ function consume(key,n=1){if(!Number.isSafeInteger(n)||n<1||count(key)<n)return false;for(const name of storageNames())for(const s of [...(list(name)??[])])if(s.key===key&&n){const take=Math.min(n,s.qty);remove({rows:list(name),stack:s},take);n-=take;}return true;}
  function receive(raw,target='pockets'){const d=defs.get(raw?.key);if(!d||!fit(target,d.key,raw.qty))return false;const stack=readStack(raw);if(!stack)return false;insert(list(target),stack);return true;}
  function extract(uid){const loc=locate(uid);if(!loc)return null;if(loc.slot)delete state.equipment[loc.slot];else loc.rows.splice(loc.rows.indexOf(loc.stack),1);return loc.stack;}
  function wear(uid,amount){const stack=find(uid);if(!stack||!profile(defs.get(stack.key)).durable)return false;stack.condition=clamp((stack.condition??100)-Math.max(0,amount),0,100);return true;}
@@ -70,5 +73,5 @@ export function createInventory(catalog,saved,position={x:4096,y:4096}){
 
  const stackWeight=s=>defs.get(s.key).weight*s.qty+(s.contents??[]).reduce((n,s)=>n+stackWeight(s),0);
  const weight=()=>[...state.pockets,...Object.values(state.equipment)].reduce((n,s)=>n+stackWeight(s),0);
- return {state,defs,list,capacity,canFit:fit,find,allStored,count,consume,receive,extract,wear,repairTargets,repair,canUse,canReload,craft,absorbDamage,insulation,conditionName,profile,weight,weightOf:stackWeight,add,grant,setCreative:value=>{state.creative=value===true;},transfer,move,equip,unequip,use,split,merge,drop,pickup,nearby,reload,fire,swapWeapons,migratedToGround,snapshot:()=>JSON.parse(JSON.stringify(state))};
+ return {state,defs,list,capacity,storageNames,storageCapacity,canFit:fit,find,allStored,count,consume,receive,extract,wear,repairTargets,repair,canUse,canReload,craft,absorbDamage,insulation,conditionName,profile,weight,weightOf:stackWeight,add,grant,setCreative:value=>{state.creative=value===true;},transfer,move,equip,unequip,use,split,merge,drop,pickup,nearby,reload,fire,swapWeapons,migratedToGround,snapshot:()=>JSON.parse(JSON.stringify(state))};
 }

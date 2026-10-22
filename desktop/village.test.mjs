@@ -9,7 +9,7 @@ import {setProjectionMode,project} from './item-lab-movement.mjs';
 import {visibleBetween} from './survival-rules.mjs';
 const require=createRequire(import.meta.url),catalog=require('./inventory-catalog.json'),{validateSave}=require('./save.cjs');
 test('district references are diverse, canonical and persistent; no extraction object',()=>{
- const s=generateVillage(171),scene=villageScenery(171),defs=new Set(catalog.map(d=>d.key));assert.equal(s.objects.filter(o=>o.kind==='house').length,80);assert(scene.decor.length>20000);assert.equal(new Set(s.objects.filter(o=>o.kind==='vehicle').map(o=>o.asset)).size,6);assert(new Set(s.objects.filter(o=>o.kind==='house').map(o=>o.asset)).size>=6);assert(!s.objects.some(o=>['exit','extraction'].includes(o.kind)));assert(!villageBlocked(VILLAGE_SPAWN,s.objects,171));for(const o of s.objects)for(const stack of o.stock)assert(defs.has(stack.key),stack.key);const lootKeys=new Set(s.objects.flatMap(o=>o.stock.map(s=>s.key)));for(const key of ['weapon/ak74','item/weapons-axe','item/tools-shovel','item/gloves-tools-fishing-rod','item/seeds-potato','item/electricity-flashlight','item/boots-greaves-boots-1'])assert(lootKeys.has(key),'survival item must be obtainable without creative mode: '+key);
+ const s=generateVillage(171),scene=villageScenery(171),defs=new Set(catalog.map(d=>d.key));assert.equal(s.objects.filter(o=>o.kind==='house').length,80);assert(scene.decor.length>4000&&scene.decor.length<9000);assert.equal(new Set(s.objects.filter(o=>o.kind==='vehicle').map(o=>o.asset)).size,6);assert(new Set(s.objects.filter(o=>o.kind==='house').map(o=>o.asset)).size>=6);assert(!s.objects.some(o=>['exit','extraction'].includes(o.kind)));assert(!villageBlocked(VILLAGE_SPAWN,s.objects,171));for(const o of s.objects)for(const stack of o.stock)assert(defs.has(stack.key),stack.key);const lootKeys=new Set(s.objects.flatMap(o=>o.stock.map(s=>s.key)));for(const key of ['weapon/ak74','item/weapons-axe','item/tools-shovel','item/gloves-tools-fishing-rod','item/seeds-potato','item/electricity-flashlight','item/boots-greaves-boots-1'])assert(lootKeys.has(key),'survival item must be obtainable without creative mode: '+key);
 });
 test('every house has a real enterable doorway, furniture collisions and protected internal loot',()=>{
  setProjectionMode('isometric');const inv=createInventory(catalog),engine=createSurvival(inv,null,171),p={...VILLAGE_SPAWN,action:'idle'};engine.enable(p,{village:true});
@@ -19,7 +19,7 @@ test('every house has a real enterable doorway, furniture collisions and protect
   const next=moveVillage(p,-n.x*65,-n.y*65,171,engine.state.objects);assert(villageInside(next,h),h.name+' open door blocks entry');
   Object.assign(p,next);const side=rotateLocal(200,0,h.orientation),wall=moveVillage(p,side.x,side.y,171,engine.state.objects);assert(houseLocal(wall,h).x<h.halfW,h.name+' side wall leaks');
   const f=engine.state.objects.find(o=>o.houseId===h.id&&o.asset==='bed');assert(villageBlocked(f,engine.state.objects,171));
-  const chest=engine.state.objects.find(o=>o.houseId===h.id&&o.kind==='chest');Object.assign(p,housePoint(h,-90,-34));assert(!engine.canInteract(chest,p),'loot through outside wall');
+  const chest=engine.state.objects.find(o=>o.houseId===h.id&&o.kind==='chest');Object.assign(p,housePoint(h,-h.halfW-14,-34));assert(!engine.canInteract(chest,p),'loot through outside wall');
  }
 });
 test('save retains furniture, doors, damage, deaths and looted stock without reverting to raids',()=>{

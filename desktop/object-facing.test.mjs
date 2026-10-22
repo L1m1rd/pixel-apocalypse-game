@@ -22,6 +22,6 @@ test('old village saves retain loot, door state, built objects and indoor player
  assert(migrateVillageFacing(world,p,ground));const next=world.objects.find(o=>o.id===h.id);
  const lp=houseLocal(p,next),lg=houseLocal(ground[0],next);assert(Math.abs(lp.x-9)+Math.abs(lp.y+11)<1e-8);assert(Math.abs(lg.x-12)+Math.abs(lg.y-14)<1e-8);
  assert(next.doorOpen);assert.deepEqual(world.objects.find(o=>o.id===chest.id).stock,[{key:'item/materials-cloth',qty:3,condition:37}]);
- assert.equal(world.objects.find(o=>o.id==='build-unique').fuel,33);assert.equal(world.viewVersion,3);
+ assert.equal(world.objects.find(o=>o.id==='build-unique').fuel,33);assert.equal(world.viewVersion,4);
  const once=structuredClone(world);assert.equal(migrateVillageFacing(world,p,ground),false);assert.deepEqual(world,once);
 });

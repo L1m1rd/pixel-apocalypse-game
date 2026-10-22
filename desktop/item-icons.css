@@ -23,3 +23,4 @@
 #notice.icon-toast img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated;}
 #notice.icon-toast b{font-size:16px;color:#f0e4b6;}
 @media(max-width:700px){.loot-columns{grid-template-columns:1fr;gap:18px;}:root{--picture-cell:66px;}}
+.garment-pockets .item-cell{height:44px!important;min-height:44px!important;padding:3px!important}.garment-pockets .item-cell>img{width:34px!important;height:34px!important}.owned-grid .item-cell{height:64px!important;min-height:64px!important}.owned-grid .item-cell>img{width:46px!important;height:46px!important}.gear-card{align-content:start}.gear-card>small{font-size:10px;grid-column:2}.gear-card>.garment-pockets{grid-column:1/-1}.inventory-panel>footer{height:82px;min-height:82px;align-items:flex-start;padding-top:7px;overflow:auto}.inventory-panel>footer>div{width:100%}#inventory-ground{min-height:38px}.inventory-panel>footer b{font-size:10px}.inventory-panel #inventory-ground .item-picture{--picture-cell:40px}
