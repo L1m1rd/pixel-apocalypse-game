@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "packaged": true,
+  "version": "0.13.0",
+  "poseChecks": 768,
+  "coveredBodyPixels": 569647,
+  "opaqueArmPoints": 27648,
+  "firearms": 24,
+  "reportedWeapon": "weapon/izh-27",
+  "checks": [
+    "native body opacity preserved when clothes are applied",
+    "clothing covers current-frame arms and legs",
+    "lifted feet receive footwear",
+    "helmet tracks head rather than spread feet",
+    "both posed arms are opaque for every weapon",
+    "running keeps shotgun in hands",
+    "inventory uses stowed weapon and resting hands",
+    "no renderer errors"
+  ],
+  "scenarioVersion": "0.7.1",
+  "sourceCommit": "a04b0c56e0ccea1e891e0f50e7b10abdf3968d2a"
+}

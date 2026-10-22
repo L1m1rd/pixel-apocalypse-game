@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "sourceVersion": "0.12.0",
+  "targetVersion": "0.13.0",
+  "checks": [
+    "Real 0.12 save opens inside rotated home",
+    "Empty looted cabinet stays empty",
+    "Untouched legacy loot becomes seed-based random loot",
+    "Inventory quantity and indoor coordinates preserved",
+    "Second load retains the same loot without refill"
+  ],
+  "errors": []
+}
