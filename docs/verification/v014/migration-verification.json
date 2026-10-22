@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "from": "0.13.0 actual published save",
+  "to": "0.14.0",
+  "checks": [
+    "Indoor position and dropped item rotate into the new floor plan",
+    "All twelve legacy loose stacks retain loaded ammunition and condition",
+    "Looted cupboard stays empty; other stock does not reroll on second load",
+    "Wildlife is added to the old persistent world",
+    "Second launch retains the migrated state"
+  ]
+}

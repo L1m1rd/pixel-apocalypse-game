@@ -1,0 +1,568 @@
+TAP version 13
+# Subtest: all 18 infected use native frame dimensions, timing, row and pivot in every state and direction
+ok 1 - all 18 infected use native frame dimensions, timing, row and pivot in every state and direction
+  ---
+  duration_ms: 8.8206
+  type: 'test'
+  ...
+# Subtest: death plays its own row once and holds its terminal pose; hits and attacks do not wrap
+ok 2 - death plays its own row once and holds its terminal pose; hits and attacks do not wrap
+  ---
+  duration_ms: 0.6409
+  type: 'test'
+  ...
+# Subtest: AI lets a hit finish and restarts each complete attack instead of cutting off its frames
+ok 3 - AI lets a hit finish and restarts each complete attack instead of cutting off its frames
+  ---
+  duration_ms: 12.3506
+  type: 'test'
+  ...
+# Subtest: real walking and running traverse all six gait poses for every infected in all four screen directions
+ok 4 - real walking and running traverse all six gait poses for every infected in all four screen directions
+  ---
+  duration_ms: 37.0523
+  type: 'test'
+  ...
+# Subtest: head attachment is independent of the position and spread of the feet
+ok 5 - head attachment is independent of the position and spread of the feet
+  ---
+  duration_ms: 13.9403
+  type: 'test'
+  ...
+# Subtest: lifted and planted feet are both classified as footwear, and the low hand is preserved
+ok 6 - lifted and planted feet are both classified as footwear, and the low hand is preserved
+  ---
+  duration_ms: 2.608
+  type: 'test'
+  ...
+# Subtest: both armed hands remain attached to reachable shoulders in every facing direction
+ok 7 - both armed hands remain attached to reachable shoulders in every facing direction
+  ---
+  duration_ms: 6.0326
+  type: 'test'
+  ...
+# Subtest: skin-colored rust fabric inside the chest never becomes a bare hand
+ok 8 - skin-colored rust fabric inside the chest never becomes a bare hand
+  ---
+  duration_ms: 3.8459
+  type: 'test'
+  ...
+# Subtest: both side-walk feet have distinct support, swing, knee and lift phases
+ok 9 - both side-walk feet have distinct support, swing, knee and lift phases
+  ---
+  duration_ms: 1.6988
+  type: 'test'
+  ...
+# Subtest: weapon actions follow frame timing, block overlapping actions and cancel on equipment change
+ok 10 - weapon actions follow frame timing, block overlapping actions and cancel on equipment change
+  ---
+  duration_ms: 0.5517
+  type: 'test'
+  ...
+# Subtest: all eight raids and camp recipes reference existing canonical portable visuals
+ok 11 - all eight raids and camp recipes reference existing canonical portable visuals
+  ---
+  duration_ms: 26.3653
+  type: 'test'
+  ...
+# Subtest: camp starts with two independent survivors, one shared warehouse and a valid starter loadout
+ok 12 - camp starts with two independent survivors, one shared warehouse and a valid starter loadout
+  ---
+  duration_ms: 7.1246
+  type: 'test'
+  ...
+# Subtest: warehouse moves preserve durability, filled bags and counts; invalid quantities roll back
+ok 13 - warehouse moves preserve durability, filled bags and counts; invalid quantities roll back
+  ---
+  duration_ms: 2.2196
+  type: 'test'
+  ...
+# Subtest: resource conversion respects capacity and never converts ammo
+ok 14 - resource conversion respects capacity and never converts ammo
+  ---
+  duration_ms: 1.1226
+  type: 'test'
+  ...
+# Subtest: build queue spends once, reserves power and applies upgrades only after completion
+ok 15 - build queue spends once, reserves power and applies upgrades only after completion
+  ---
+  duration_ms: 1.5025
+  type: 'test'
+  ...
+# Subtest: craft and repair have concrete output, costs and no duplicate completion
+ok 16 - craft and repair have concrete output, costs and no duplicate completion
+  ---
+  duration_ms: 1.1273
+  type: 'test'
+  ...
+# Subtest: recovery blocks deployment and another survivor remains usable
+ok 17 - recovery blocks deployment and another survivor remains usable
+  ---
+  duration_ms: 1.8265
+  type: 'test'
+  ...
+# Subtest: manual extraction deposits loot, retains worn gear and resets only the raid
+ok 18 - manual extraction deposits loot, retains worn gear and resets only the raid
+  ---
+  duration_ms: 9.3208
+  type: 'test'
+  ...
+# Subtest: death loses carried gear, preserves warehouse and leaves a recoverable survivor
+ok 19 - death loses carried gear, preserves warehouse and leaves a recoverable survivor
+  ---
+  duration_ms: 1.8684
+  type: 'test'
+  ...
+# Subtest: automatic mission finishes once offline without overwriting another survivor inventory
+ok 20 - automatic mission finishes once offline without overwriting another survivor inventory
+  ---
+  duration_ms: 1.7854
+  type: 'test'
+  ...
+# Subtest: two weapons and quick use conserve quantities and survive validated saves
+ok 21 - two weapons and quick use conserve quantities and survive validated saves
+  ---
+  duration_ms: 10.6157
+  type: 'test'
+  ...
+# Subtest: weapon and night modules persist as states and a battery refills night equipment
+ok 22 - weapon and night modules persist as states and a battery refills night equipment
+  ---
+  duration_ms: 1.2466
+  type: 'test'
+  ...
+# Subtest: orthographic campaign controls move exactly along screen axes and restore legacy projection
+ok 23 - orthographic campaign controls move exactly along screen axes and restore legacy projection
+  ---
+  duration_ms: 0.6179
+  type: 'test'
+  ...
+# Subtest: wall occlusion and vision polygon respect closed walls and an open door
+ok 24 - wall occlusion and vision polygon respect closed walls and an open door
+  ---
+  duration_ms: 6.1712
+  type: 'test'
+  ...
+# Subtest: campaign victory requires both recovered access code and high level radio
+ok 25 - campaign victory requires both recovered access code and high level radio
+  ---
+  duration_ms: 12.8703
+  type: 'test'
+  ...
+# Subtest: morale and infection recovery finish independently and use matching facilities
+ok 26 - morale and infection recovery finish independently and use matching facilities
+  ---
+  duration_ms: 1.9814
+  type: 'test'
+  ...
+# Subtest: low-resource survivors can recover and empty extraction has no free material reward
+ok 27 - low-resource survivors can recover and empty extraction has no free material reward
+  ---
+  duration_ms: 4.7636
+  type: 'test'
+  ...
+# Subtest: automatic missions require fuel while manual deployment does not
+ok 28 - automatic missions require fuel while manual deployment does not
+  ---
+  duration_ms: 1.0777
+  type: 'test'
+  ...
+# Subtest: backwards clock does not create farm output or duplicate a task
+ok 29 - backwards clock does not create farm output or duplicate a task
+  ---
+  duration_ms: 0.8683
+  type: 'test'
+  ...
+# Subtest: raid AI uses facing and hearing, attacks visible nearby targets and loses sight behind walls
+ok 30 - raid AI uses facing and hearing, attacks visible nearby targets and loses sight behind walls
+  ---
+  duration_ms: 0.8942
+  type: 'test'
+  ...
+# Subtest: strict campaign saves reject unknown items and jobs and retain current raid progress
+ok 31 - strict campaign saves reject unknown items and jobs and retain current raid progress
+  ---
+  duration_ms: 2.3266
+  type: 'test'
+  ...
+# Subtest: raid containers enforce weight before removing loot
+ok 32 - raid containers enforce weight before removing loot
+  ---
+  duration_ms: 3.053
+  type: 'test'
+  ...
+# Subtest: diagonal movement has the same speed as horizontal movement
+ok 33 - diagonal movement has the same speed as horizontal movement
+  ---
+  duration_ms: 3.2806
+  type: 'test'
+  ...
+# Subtest: running is faster; opposing keys cancel; world bounds hold
+ok 34 - running is faster; opposing keys cancel; world bounds hold
+  ---
+  duration_ms: 1.93
+  type: 'test'
+  ...
+# Subtest: crouch transitions finish once, crouch walking ignores Shift, stand up restores walking
+ok 35 - crouch transitions finish once, crouch walking ignores Shift, stand up restores walking
+  ---
+  duration_ms: 0.6514
+  type: 'test'
+  ...
+# Subtest: large delta times cannot teleport a player
+ok 36 - large delta times cannot teleport a player
+  ---
+  duration_ms: 0.189
+  type: 'test'
+  ...
+# Subtest: saves validate identity, positions, types and world name
+ok 37 - saves validate identity, positions, types and world name
+  ---
+  duration_ms: 8.0411
+  type: 'test'
+  ...
+# Subtest: creative issuance is disabled in normal mode; pockets and worn backpack are distinct stores
+ok 38 - creative issuance is disabled in normal mode; pockets and worn backpack are distinct stores
+  ---
+  duration_ms: 4.3055
+  type: 'test'
+  ...
+# Subtest: every portable variant can be stored, equipped or used, dropped, picked up and restored
+ok 39 - every portable variant can be stored, equipped or used, dropped, picked up and restored
+  ---
+  duration_ms: 39.528
+  type: 'test'
+  ...
+# Subtest: split, merge and transfer conserve counts; full destinations reject whole transactions
+ok 40 - split, merge and transfer conserve counts; full destinations reject whole transactions
+  ---
+  duration_ms: 1.9947
+  type: 'test'
+  ...
+# Subtest: filled backpacks retain their own contents through swapping, unequipping, dropping and saving
+ok 41 - filled backpacks retain their own contents through swapping, unequipping, dropping and saving
+  ---
+  duration_ms: 2.3813
+  type: 'test'
+  ...
+# Subtest: equipment rejects wrong slots and full pockets prevent unequipping without losing anything
+ok 42 - equipment rejects wrong slots and full pockets prevent unequipping without losing anything
+  ---
+  duration_ms: 0.8534
+  type: 'test'
+  ...
+# Subtest: all firearms reload from either owned container, reject wrong ammo, retain loaded rounds through moves
+ok 43 - all firearms reload from either owned container, reject wrong ammo, retain loaded rounds through moves
+  ---
+  duration_ms: 7.9101
+  type: 'test'
+  ...
+# Subtest: consumption and learned manuals work from both containers
+ok 44 - consumption and learned manuals work from both containers
+  ---
+  duration_ms: 0.4793
+  type: 'test'
+  ...
+# Subtest: save validation retains both containers and packed bag contents; old 0.6.0 saves migrate without loss
+ok 45 - save validation retains both containers and packed bag contents; old 0.6.0 saves migrate without loss
+  ---
+  duration_ms: 7.4946
+  type: 'test'
+  ...
+# Subtest: dragging worn gear into storage and shift-dropping filled gear conserve its contents
+ok 46 - dragging worn gear into storage and shift-dropping filled gear conserve its contents
+  ---
+  duration_ms: 0.87
+  type: 'test'
+  ...
+# Subtest: WASD and arrows follow screen directions; all eight directions keep equal projected speed
+ok 47 - WASD and arrows follow screen directions; all eight directions keep equal projected speed
+  ---
+  duration_ms: 6.4197
+  type: 'test'
+  ...
+# Subtest: screen running, crouching, stopping, opposite keys and frame rates preserve expected speeds
+ok 48 - screen running, crouching, stopping, opposite keys and frame rates preserve expected speeds
+  ---
+  duration_ms: 2.4045
+  type: 'test'
+  ...
+# Subtest: the fixed sun casts shadows away from the light, proportional to height
+ok 49 - the fixed sun casts shadows away from the light, proportional to height
+  ---
+  duration_ms: 2.424
+  type: 'test'
+  ...
+# Subtest: every yard has ground dressing while entrances stay clear
+ok 50 - every yard has ground dressing while entrances stay clear
+  ---
+  duration_ms: 36.7055
+  type: 'test'
+  ...
+# Subtest: electric wires connect existing poles and all new assets are used
+ok 51 - electric wires connect existing poles and all new assets are used
+  ---
+  duration_ms: 23.9973
+  type: 'test'
+  ...
+# Subtest: the district contains 80 real plots, 60 cottages and eight named sectors
+ok 52 - the district contains 80 real plots, 60 cottages and eight named sectors
+  ---
+  duration_ms: 16.28
+  type: 'test'
+  ...
+# Subtest: projection is reversible and movement follows the screen axes
+ok 53 - projection is reversible and movement follows the screen axes
+  ---
+  duration_ms: 1.7885
+  type: 'test'
+  ...
+# Subtest: houses, the river and boundaries block walking without tunneling
+ok 54 - houses, the river and boundaries block walking without tunneling
+  ---
+  duration_ms: 2.6472
+  type: 'test'
+  ...
+# Subtest: gates can be opened, retained in saves, and cannot close on the player
+ok 55 - gates can be opened, retained in saves, and cannot close on the player
+  ---
+  duration_ms: 13.8056
+  type: 'test'
+  ...
+# Subtest: all 80 plot entrances and all sectors are reachable from the south entrance
+ok 56 - all 80 plot entrances and all sectors are reachable from the south entrance
+  ---
+  duration_ms: 167.2065
+  type: 'test'
+  ...
+# Subtest: adjacent fence sections share exact projected endpoints on both world axes
+ok 57 - adjacent fence sections share exact projected endpoints on both world axes
+  ---
+  duration_ms: 10.4331
+  type: 'test'
+  ...
+# Subtest: dense yards have understory, varied meadow and several prop groups
+ok 58 - dense yards have understory, varied meadow and several prop groups
+  ---
+  duration_ms: 43.4981
+  type: 'test'
+  ...
+# Subtest: all eight visual reference positions remain usable
+ok 59 - all eight visual reference positions remain usable
+  ---
+  duration_ms: 1.351
+  type: 'test'
+  ...
+# Subtest: spatial culling returns exactly the objects in a requested world rectangle
+ok 60 - spatial culling returns exactly the objects in a requested world rectangle
+  ---
+  duration_ms: 22.2758
+  type: 'test'
+  ...
+# Subtest: quarter turns preserve local coordinates and align all doors with the same art variant
+ok 61 - quarter turns preserve local coordinates and align all doors with the same art variant
+  ---
+  duration_ms: 1.9358
+  type: 'test'
+  ...
+# Subtest: old village saves retain loot, door state, built objects and indoor player/piles through facing migration
+ok 62 - old village saves retain loot, door state, built objects and indoor player/piles through facing migration
+  ---
+  duration_ms: 1365.6285
+  type: 'test'
+  ...
+# Subtest: canonical recipe, loot and starter references all exist; world generation is deterministic
+ok 63 - canonical recipe, loot and starter references all exist; world generation is deterministic
+  ---
+  duration_ms: 16.2942
+  type: 'test'
+  ...
+# Subtest: wear reduces condition; repairs consume once, respect material and reject ruined items
+ok 64 - wear reduces condition; repairs consume once, respect material and reject ruined items
+  ---
+  duration_ms: 3.9034
+  type: 'test'
+  ...
+# Subtest: reload commits at animation completion and cancels safely on weapon replacement
+ok 65 - reload commits at animation completion and cancels safely on weapon replacement
+  ---
+  duration_ms: 2.0716
+  type: 'test'
+  ...
+# Subtest: use and repair take time, prevent overlaps and do not spend resources on cancelled actions
+ok 66 - use and repair take time, prevent overlaps and do not spend resources on cancelled actions
+  ---
+  duration_ms: 11.9231
+  type: 'test'
+  ...
+# Subtest: rain, shelter, clothing, cold, disease and night have connected effects
+ok 67 - rain, shelter, clothing, cold, disease and night have connected effects
+  ---
+  duration_ms: 25.5616
+  type: 'test'
+  ...
+# Subtest: armor reduces damage and wears; fire hits visible enemies and spends one round
+ok 68 - armor reduces damage and wears; fire hits visible enemies and spends one round
+  ---
+  duration_ms: 4.15
+  type: 'test'
+  ...
+# Subtest: craft rolls back when output cannot fit and placement only consumes on completion
+ok 69 - craft rolls back when output cannot fit and placement only consumes on completion
+  ---
+  duration_ms: 4.5705
+  type: 'test'
+  ...
+# Subtest: resource gathering, cooking, farming and fishing produce canonical items
+ok 70 - resource gathering, cooking, farming and fishing produce canonical items
+  ---
+  duration_ms: 21.8182
+  type: 'test'
+  ...
+# Subtest: storage transactions, trader, quest, vehicle and one-way travel preserve inventory
+ok 71 - storage transactions, trader, quest, vehicle and one-way travel preserve inventory
+  ---
+  duration_ms: 8.1898
+  type: 'test'
+  ...
+# Subtest: strict saves retain condition, survival progress and migrate missing old vitals safely
+ok 72 - strict saves retain condition, survival progress and migrate missing old vitals safely
+  ---
+  duration_ms: 16.7645
+  type: 'test'
+  ...
+# Subtest: death stops simulation; perk points cannot be spent twice; re-enabling retains world
+ok 73 - death stops simulation; perk points cannot be spent twice; re-enabling retains world
+  ---
+  duration_ms: 1.8785
+  type: 'test'
+  ...
+# Subtest: house loot varies per world and per house, remains repeatable, and has canonical bounded stacks
+ok 74 - house loot varies per world and per house, remains repeatable, and has canonical bounded stacks
+  ---
+  duration_ms: 1288.5737
+  type: 'test'
+  ...
+# Subtest: migration randomizes untouched legacy stock without refilling looted or player-modified cabinets
+ok 75 - migration randomizes untouched legacy stock without refilling looted or player-modified cabinets
+  ---
+  duration_ms: 548.6441
+  type: 'test'
+  ...
+# Subtest: roads contain connected straight horizontal and vertical screen sections
+ok 76 - roads contain connected straight horizontal and vertical screen sections
+  ---
+  duration_ms: 0.4403
+  type: 'test'
+  ...
+# Subtest: flowering growth is sparse and reaches yards and deep woodland, rather than a continuous road border
+ok 77 - flowering growth is sparse and reaches yards and deep woodland, rather than a continuous road border
+  ---
+  duration_ms: 37.4981
+  type: 'test'
+  ...
+# Subtest: all house types share the front entry with exact doorway walls and local-space coordinates
+ok 78 - all house types share the front entry with exact doorway walls and local-space coordinates
+  ---
+  duration_ms: 539.5476
+  type: 'test'
+  ...
+# Subtest: player stops at walls and faces the actual slide rather than the requested movement
+ok 79 - player stops at walls and faces the actual slide rather than the requested movement
+  ---
+  duration_ms: 0.7086
+  type: 'test'
+  ...
+# Subtest: infected face every actual sidestep and do not walk on the spot when boxed in
+ok 80 - infected face every actual sidestep and do not walk on the spot when boxed in
+  ---
+  duration_ms: 0.5175
+  type: 'test'
+  ...
+# Subtest: clothing pockets reject large gear, conserve filled garments, reload and use supplies, and survive both save paths
+ok 81 - clothing pockets reject large gear, conserve filled garments, reload and use supplies, and survive both save paths
+  ---
+  duration_ms: 627.9172
+  type: 'test'
+  ...
+# Subtest: legacy loose inventory keeps every stack while excess cells contract as emptied
+ok 82 - legacy loose inventory keeps every stack while excess cells contract as emptied
+  ---
+  duration_ms: 0.7036
+  type: 'test'
+  ...
+# Subtest: all six house plans have reachable doors, furniture and rooms, with no furniture in the entrance aisle
+ok 83 - all six house plans have reachable doors, furniture and rooms, with no furniture in the entrance aisle
+  ---
+  duration_ms: 8096.6953
+  type: 'test'
+  ...
+# Subtest: streets taper, footpaths stay narrower, and woodland consists of separated groves with edible berries and stones
+ok 84 - streets taper, footpaths stay narrower, and woodland consists of separated groves with edible berries and stones
+  ---
+  duration_ms: 0.6112
+  type: 'test'
+  ...
+# Subtest: trunk loot requires opening at the rear, animates before panel, and stores its state
+ok 85 - trunk loot requires opening at the rear, animates before panel, and stores its state
+  ---
+  duration_ms: 22.1371
+  type: 'test'
+  ...
+# Subtest: damage and healing float above the player; bleeding onset is shown once and is transient
+ok 86 - damage and healing float above the player; bleeding onset is shown once and is transient
+  ---
+  duration_ms: 15.6086
+  type: 'test'
+  ...
+# Subtest: new floor plans migrate 0.13 stock, placed objects, clothing, player position and indoor drops once
+ok 87 - new floor plans migrate 0.13 stock, placed objects, clothing, player position and indoor drops once
+  ---
+  duration_ms: 944.4403
+  type: 'test'
+  ...
+# Subtest: every vehicle has a reachable rear interaction and can close its trunk from beyond its bumper
+ok 88 - every vehicle has a reachable rear interaction and can close its trunk from beyond its bumper
+  ---
+  duration_ms: 29.7842
+  type: 'test'
+  ...
+# Subtest: district references are diverse, canonical and persistent; no extraction object
+ok 89 - district references are diverse, canonical and persistent; no extraction object
+  ---
+  duration_ms: 631.8837
+  type: 'test'
+  ...
+# Subtest: every house has a real enterable doorway, furniture collisions and protected internal loot
+ok 90 - every house has a real enterable doorway, furniture collisions and protected internal loot
+  ---
+  duration_ms: 2121.4765
+  type: 'test'
+  ...
+# Subtest: save retains furniture, doors, damage, deaths and looted stock without reverting to raids
+ok 91 - save retains furniture, doors, damage, deaths and looted stock without reverting to raids
+  ---
+  duration_ms: 541.1832
+  type: 'test'
+  ...
+# Subtest: a closed door and walls stop shots and sight; the opened doorway is transparent
+ok 92 - a closed door and walls stop shots and sight; the opened doorway is transparent
+  ---
+  duration_ms: 534.9901
+  type: 'test'
+  ...
+# Subtest: roads and every house entrance belong to one walkable district
+ok 93 - roads and every house entrance belong to one walkable district
+  ---
+  duration_ms: 38705.5664
+  type: 'test'
+  ...
+1..93
+# tests 93
+# suites 0
+# pass 93
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42927.8678
