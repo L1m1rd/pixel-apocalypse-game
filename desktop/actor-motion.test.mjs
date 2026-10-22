@@ -1,6 +1,8 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {createRequire} from 'node:module';import {actorFrame} from './actor-motion.mjs';const require=createRequire(import.meta.url),runtime=require('./media/asset-manifest.json').survival;
 import {createInventory} from './inventory.mjs';
 import {createSurvival} from './survival-engine.mjs';
+import {moveToward} from './survival-world.mjs';
+import {unproject,setProjectionMode} from './item-lab-movement.mjs';
 test('all 18 infected use native frame dimensions, timing, row and pivot in every state and direction',()=>{const sizes=new Set();let cells=0;for(const [id,d]of Object.entries(runtime.actors)){if(!/^\d/.test(id))continue;sizes.add(d.size);for(const direction of ['south','west','east','north'])for(const [row,action]of d.actions.entries())for(let frame=0;frame<6;frame++){const f=actorFrame({skin:id,direction,action,elapsed:d.timings[action].durationMs*frame,dead:action==='death'},d);assert.equal(f.x,frame*d.size);assert.equal(f.y,row*d.size);assert.equal(f.w,d.size);assert.equal(f.originX,.5);assert.equal(f.originY,.875);cells++;}}assert.deepEqual([...sizes].sort((a,b)=>a-b),[64,96,128]);assert.equal(cells,4032);});
 test('death plays its own row once and holds its terminal pose; hits and attacks do not wrap',()=>{for(const d of Object.values(runtime.actors)){const actions=d.actions;if(!actions.includes('death'))continue;const final=actorFrame({action:'walk',dead:true,elapsed:999999,direction:'south'},d);assert.equal(final.action,'death');assert.equal(final.row,actions.indexOf('death'));assert.equal(final.frame,5);for(const action of ['attack','hurt'])if(actions.includes(action)&&d.timings[action]?.repeat===0)assert.equal(actorFrame({action,elapsed:999999,direction:'south'},d).frame,5);}});
 test('AI lets a hit finish and restarts each complete attack instead of cutting off its frames',()=>{
@@ -10,4 +12,9 @@ test('AI lets a hit finish and restarts each complete attack instead of cutting 
  const seen=new Set();let starts=0,previous=999999;
  for(let i=0;i<170;i++){e.update(.025,p);if(a.action==='attack'){if(a.elapsed<previous)starts++;seen.add(actorFrame(a,runtime.actors[a.skin]).frame);previous=a.elapsed;}else previous=999999;}
  assert(starts>=2);assert.deepEqual([...seen].sort(),[0,1,2,3,4,5]);
+});
+test('real walking and running traverse all six gait poses for every infected in all four screen directions',()=>{
+ setProjectionMode('isometric');for(const [id,def]of Object.entries(runtime.actors).filter(([id])=>/^\d/.test(id)))for(const [direction,dx,dy]of [['east',1,0],['west',-1,0],['south',0,1],['north',0,-1]])for(const speed of [48,65]){
+  const a={skin:id,x:0,y:0,action:'idle',direction,elapsed:0},target=unproject(dx*10000,dy*10000),frames=new Set();for(let i=0;i<120;i++){a.elapsed+=25;moveToward(a,target,.025,speed,[]);assert.equal(a.direction,direction);frames.add(actorFrame(a,def).frame);}assert.equal(a.action,speed===48?'walk':'run');assert.deepEqual([...frames].sort(),[0,1,2,3,4,5],id+' '+direction+' '+speed);
+ }
 });

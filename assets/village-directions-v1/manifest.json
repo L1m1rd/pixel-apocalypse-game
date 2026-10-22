@@ -1,14 +1,18 @@
 {
-  "version": 1,
-  "style": "isometric-four-directions-v1",
+  "version": 2,
+  "style": "isometric-eight-directions-v2",
   "role": "style-variants-of-existing-canonical-entities",
   "tool": "built-in image_gen",
   "prompts": "prompts.json",
   "orientationOrder": [
-    "south",
-    "east",
-    "north",
-    "west"
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    3.5
   ],
   "bindings": [
     {
@@ -1574,6 +1578,1571 @@
       "height": 541,
       "sha256": "c523b62e305310b430be1c555c9504d87a6207c54d9e9fdc4201712f84e849af",
       "transparent": true
+    },
+    {
+      "id": "house-0-0_5",
+      "family": "house",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-0-0_5.png",
+      "source": "sources/axial-house-0.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 667,
+        "h": 590
+      },
+      "width": 616,
+      "height": 557,
+      "sha256": "427ea1f7b7cb70cf8069bc8486015df9fea8834cd86ffdeb84f2cd89b3fbd4be",
+      "transparent": true
+    },
+    {
+      "id": "house-0-1_5",
+      "family": "house",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-0-1_5.png",
+      "source": "sources/axial-house-0.png",
+      "sourceCrop": {
+        "x": 667,
+        "y": 0,
+        "w": 666,
+        "h": 590
+      },
+      "width": 548,
+      "height": 533,
+      "sha256": "5b7f18826662e7b917146297c1a99cd367b021aa56a3f6a8bed7dafe05fee536",
+      "transparent": true
+    },
+    {
+      "id": "house-0-2_5",
+      "family": "house",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-0-2_5.png",
+      "source": "sources/axial-house-0.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 590,
+        "w": 667,
+        "h": 590
+      },
+      "width": 615,
+      "height": 516,
+      "sha256": "352e8d6518335d4d436ab63922ed6ed26d713d91e07381fd5d432c1d2d83becd",
+      "transparent": true
+    },
+    {
+      "id": "house-0-3_5",
+      "family": "house",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-0-3_5.png",
+      "source": "sources/axial-house-0.png",
+      "sourceCrop": {
+        "x": 667,
+        "y": 590,
+        "w": 666,
+        "h": 590
+      },
+      "width": 544,
+      "height": 524,
+      "sha256": "8b40ecd9c0147e9c4c9229ff56b2afd329bb01a9f8ee48057f6653473cebc759",
+      "transparent": true
+    },
+    {
+      "id": "house-1-0_5",
+      "family": "house",
+      "variant": 1,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-1-0_5.png",
+      "source": "sources/axial-house-1.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 711,
+      "height": 484,
+      "sha256": "3d54ecfcffa05cafbcda2dcf34e917b5c01fe92d3da61c5662c9032729a12110",
+      "transparent": true
+    },
+    {
+      "id": "house-1-1_5",
+      "family": "house",
+      "variant": 1,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-1-1_5.png",
+      "source": "sources/axial-house-1.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 616,
+      "height": 482,
+      "sha256": "f1874d259d45777f8ca61dfedd071ab1424830c9acd960642bbc2319c20b2cca",
+      "transparent": true
+    },
+    {
+      "id": "house-1-2_5",
+      "family": "house",
+      "variant": 1,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-1-2_5.png",
+      "source": "sources/axial-house-1.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 673,
+      "height": 491,
+      "sha256": "46e86d6c104fe9de06951777f27f3ad5ba07cb5717b7888b7130596ae2b475d2",
+      "transparent": true
+    },
+    {
+      "id": "house-1-3_5",
+      "family": "house",
+      "variant": 1,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-1-3_5.png",
+      "source": "sources/axial-house-1.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 638,
+      "height": 486,
+      "sha256": "0a0b092365bf9ee8c815b9728a9e76f22226a0b73dde495795c0aedda586a824",
+      "transparent": true
+    },
+    {
+      "id": "house-2-0_5",
+      "family": "house",
+      "variant": 2,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-2-0_5.png",
+      "source": "sources/axial-house-2.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 739,
+        "h": 532
+      },
+      "width": 505,
+      "height": 517,
+      "sha256": "77d226323bfe23199871c2b1dbd6f4e486c86f1cf71ec81a2461058e0e135223",
+      "transparent": true
+    },
+    {
+      "id": "house-2-1_5",
+      "family": "house",
+      "variant": 2,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-2-1_5.png",
+      "source": "sources/axial-house-2.png",
+      "sourceCrop": {
+        "x": 739,
+        "y": 0,
+        "w": 739,
+        "h": 532
+      },
+      "width": 665,
+      "height": 501,
+      "sha256": "c36b64c3da5a7ebea977aa793841363aa7c9b0960eea10fb628dee8ed4205941",
+      "transparent": true
+    },
+    {
+      "id": "house-2-2_5",
+      "family": "house",
+      "variant": 2,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-2-2_5.png",
+      "source": "sources/axial-house-2.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 532,
+        "w": 739,
+        "h": 532
+      },
+      "width": 572,
+      "height": 496,
+      "sha256": "b1e8588f8b869019870f8744222c0122526de8f7526d887c7d8a3eec576819e6",
+      "transparent": true
+    },
+    {
+      "id": "house-2-3_5",
+      "family": "house",
+      "variant": 2,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-2-3_5.png",
+      "source": "sources/axial-house-2.png",
+      "sourceCrop": {
+        "x": 739,
+        "y": 532,
+        "w": 739,
+        "h": 532
+      },
+      "width": 613,
+      "height": 507,
+      "sha256": "fbb8a2c6cee350bb6f8732675c992a79d7d10c3780fc210cb3c8f3617620f402",
+      "transparent": true
+    },
+    {
+      "id": "house-3-0_5",
+      "family": "house",
+      "variant": 3,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-3-0_5.png",
+      "source": "sources/axial-house-3.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 663,
+        "h": 594
+      },
+      "width": 584,
+      "height": 569,
+      "sha256": "52dd2405cf1c1a4e006ea66dd6a309e7c6f3bac199307a6d076a0220269d87c5",
+      "transparent": true
+    },
+    {
+      "id": "house-3-1_5",
+      "family": "house",
+      "variant": 3,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-3-1_5.png",
+      "source": "sources/axial-house-3.png",
+      "sourceCrop": {
+        "x": 663,
+        "y": 0,
+        "w": 662,
+        "h": 594
+      },
+      "width": 621,
+      "height": 562,
+      "sha256": "2a19967f501c1f2f8662f58fa3b57f13e1a9b64e58d0cd520ca231d399bb8a03",
+      "transparent": true
+    },
+    {
+      "id": "house-3-2_5",
+      "family": "house",
+      "variant": 3,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-3-2_5.png",
+      "source": "sources/axial-house-3.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 594,
+        "w": 663,
+        "h": 593
+      },
+      "width": 609,
+      "height": 564,
+      "sha256": "f5e7ab9d148f7e214e74e23f27c4cc32d3807ce1fb63407e1d6fa2ed59c8381e",
+      "transparent": true
+    },
+    {
+      "id": "house-3-3_5",
+      "family": "house",
+      "variant": 3,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-3-3_5.png",
+      "source": "sources/axial-house-3.png",
+      "sourceCrop": {
+        "x": 663,
+        "y": 594,
+        "w": 662,
+        "h": 593
+      },
+      "width": 659,
+      "height": 565,
+      "sha256": "b6cdd6ceeaf6af3f9149db4f75329a5b1dc69edb99edea759bcda2957063c40e",
+      "transparent": true
+    },
+    {
+      "id": "house-4-0_5",
+      "family": "house",
+      "variant": 4,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-4-0_5.png",
+      "source": "sources/axial-house-4.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 724,
+        "h": 544
+      },
+      "width": 544,
+      "height": 528,
+      "sha256": "910d5cdf81d7c40e2b9c11ff9808387729ad9cb2d344e16234cc9921bd027d4c",
+      "transparent": true
+    },
+    {
+      "id": "house-4-1_5",
+      "family": "house",
+      "variant": 4,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-4-1_5.png",
+      "source": "sources/axial-house-4.png",
+      "sourceCrop": {
+        "x": 724,
+        "y": 0,
+        "w": 723,
+        "h": 544
+      },
+      "width": 547,
+      "height": 533,
+      "sha256": "e974fe7714e6e95ee2f32938bd65dab0ab808d3bf835ee7db8e33b95845676ca",
+      "transparent": true
+    },
+    {
+      "id": "house-4-2_5",
+      "family": "house",
+      "variant": 4,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-4-2_5.png",
+      "source": "sources/axial-house-4.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 544,
+        "w": 724,
+        "h": 543
+      },
+      "width": 541,
+      "height": 499,
+      "sha256": "b7ff972d5d8d18035c551003f22e6878809216e645ae4aa9fd10847aee6a8072",
+      "transparent": true
+    },
+    {
+      "id": "house-4-3_5",
+      "family": "house",
+      "variant": 4,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-4-3_5.png",
+      "source": "sources/axial-house-4.png",
+      "sourceCrop": {
+        "x": 724,
+        "y": 544,
+        "w": 723,
+        "h": 543
+      },
+      "width": 544,
+      "height": 512,
+      "sha256": "b902e52fa6572213a8e244dcd3ca6662c870b17dbb395fe70c0ce5f60406eb26",
+      "transparent": true
+    },
+    {
+      "id": "house-5-0_5",
+      "family": "house",
+      "variant": 5,
+      "orientation": 0.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-5-0_5.png",
+      "source": "sources/axial-house-5.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 645,
+        "h": 610
+      },
+      "width": 549,
+      "height": 597,
+      "sha256": "3fe6ce89ddd9100e2d5646e55c0da53bce3623d512a1a480ad0784701c15cb89",
+      "transparent": true
+    },
+    {
+      "id": "house-5-1_5",
+      "family": "house",
+      "variant": 5,
+      "orientation": 1.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-5-1_5.png",
+      "source": "sources/axial-house-5.png",
+      "sourceCrop": {
+        "x": 645,
+        "y": 0,
+        "w": 645,
+        "h": 610
+      },
+      "width": 574,
+      "height": 599,
+      "sha256": "cfd9426a9b24abb9c5103505d4ea6223085225d52641529d7058314c77b2a942",
+      "transparent": true
+    },
+    {
+      "id": "house-5-2_5",
+      "family": "house",
+      "variant": 5,
+      "orientation": 2.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-5-2_5.png",
+      "source": "sources/axial-house-5.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 610,
+        "w": 645,
+        "h": 609
+      },
+      "width": 567,
+      "height": 558,
+      "sha256": "5c4c5689747b55d816cc39ea3ee3d11f9d051e4eeb0241a74eba17a046d45835",
+      "transparent": true
+    },
+    {
+      "id": "house-5-3_5",
+      "family": "house",
+      "variant": 5,
+      "orientation": 3.5,
+      "canonicalId": "world/house",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "house"
+      },
+      "file": "sprites/house-5-3_5.png",
+      "source": "sources/axial-house-5.png",
+      "sourceCrop": {
+        "x": 645,
+        "y": 610,
+        "w": 645,
+        "h": 609
+      },
+      "width": 559,
+      "height": 562,
+      "sha256": "0b7c22a526e854549508524854374990c8ac4dfd3146b90d0422b608bdfb1c16",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-0-0_5",
+      "family": "vehicle",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-0-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 171
+      },
+      "width": 161,
+      "height": 172,
+      "sha256": "c4db51bebd6d3771795587afc016c31702cc7f3d0b94a4cf06f2500341d5a1a9",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-0-1_5",
+      "family": "vehicle",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-0-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 0,
+        "w": 384,
+        "h": 171
+      },
+      "width": 345,
+      "height": 170,
+      "sha256": "7db29ff206a58215b1b6fe0e238770b78177debf1af864d3ff63fa8f3e8656af",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-0-2_5",
+      "family": "vehicle",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-0-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 0,
+        "w": 384,
+        "h": 171
+      },
+      "width": 162,
+      "height": 172,
+      "sha256": "0906f8988fafd04ffa1e0ab9a5340c38aeb74f085ebe36fc7bf9ac471e589fde",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-0-3_5",
+      "family": "vehicle",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-0-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 0,
+        "w": 384,
+        "h": 171
+      },
+      "width": 372,
+      "height": 171,
+      "sha256": "2901af0b593f313346e71f91cfcc126894a1fba78e6c7f1790e3cb34cf062dfb",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-1-0_5",
+      "family": "vehicle",
+      "variant": 1,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-1-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 171,
+        "w": 384,
+        "h": 170
+      },
+      "width": 176,
+      "height": 144,
+      "sha256": "a488268821b8b38d69334f4a91708318aa01d636ed7b6e6dbc340a6a86acea25",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-1-1_5",
+      "family": "vehicle",
+      "variant": 1,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-1-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 171,
+        "w": 384,
+        "h": 170
+      },
+      "width": 320,
+      "height": 145,
+      "sha256": "5ea5d8b54763a0b569b10ea9a75036d0b8d5a7c9093c95a8ff19bfbf4de6625b",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-1-2_5",
+      "family": "vehicle",
+      "variant": 1,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-1-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 171,
+        "w": 384,
+        "h": 170
+      },
+      "width": 170,
+      "height": 144,
+      "sha256": "18ebd1317f758e8d974bdf98e629d1077092f15b6e5bdb396407e4e7fe14fb51",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-1-3_5",
+      "family": "vehicle",
+      "variant": 1,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-1-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 171,
+        "w": 384,
+        "h": 170
+      },
+      "width": 346,
+      "height": 145,
+      "sha256": "0dcb904540313516e0d78621779e9dd774cfdb421ffebdf30aa33cbfbc9455f8",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-2-0_5",
+      "family": "vehicle",
+      "variant": 2,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-2-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 341,
+        "w": 384,
+        "h": 171
+      },
+      "width": 178,
+      "height": 134,
+      "sha256": "e11bd876c6d096b25192efc4bc45150d613e23b47075b0294bc6399323fc24c0",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-2-1_5",
+      "family": "vehicle",
+      "variant": 2,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-2-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 341,
+        "w": 384,
+        "h": 171
+      },
+      "width": 351,
+      "height": 133,
+      "sha256": "aa76900cc71bf6dbc5bf32680df4dd784ff96cf2f1e651b0be80f14dd0ed7052",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-2-2_5",
+      "family": "vehicle",
+      "variant": 2,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-2-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 341,
+        "w": 384,
+        "h": 171
+      },
+      "width": 175,
+      "height": 133,
+      "sha256": "d024a7b115727b799b12a15818d183096fbb5e01c8b2e13cef3189db1eae354a",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-2-3_5",
+      "family": "vehicle",
+      "variant": 2,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-2-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 341,
+        "w": 384,
+        "h": 171
+      },
+      "width": 365,
+      "height": 133,
+      "sha256": "bcbf324ee291a623006331364cb0a58fa46a076e3c0e9c0730229ae9b336053e",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-3-0_5",
+      "family": "vehicle",
+      "variant": 3,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-3-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 512,
+        "w": 384,
+        "h": 171
+      },
+      "width": 177,
+      "height": 141,
+      "sha256": "6d75c3e48390edf13628bd22caa9634798c977c59aa4df48a003b2fc84dde4d7",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-3-1_5",
+      "family": "vehicle",
+      "variant": 3,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-3-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 512,
+        "w": 384,
+        "h": 171
+      },
+      "width": 360,
+      "height": 141,
+      "sha256": "d92675ce8926d39f396b995898c789507db5cf4d0b42d44d139952cb44d5a207",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-3-2_5",
+      "family": "vehicle",
+      "variant": 3,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-3-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 512,
+        "w": 384,
+        "h": 171
+      },
+      "width": 177,
+      "height": 139,
+      "sha256": "d2f7d760137254e0a21edd496f9030bf72641ae04667f3b2cd84913625c0b5fc",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-3-3_5",
+      "family": "vehicle",
+      "variant": 3,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-3-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 512,
+        "w": 384,
+        "h": 171
+      },
+      "width": 357,
+      "height": 138,
+      "sha256": "03629fe86d8606f13807eadf5971c26bc943e727dad9e8a5c65d95ca9e7ad345",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-4-0_5",
+      "family": "vehicle",
+      "variant": 4,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-4-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 683,
+        "w": 384,
+        "h": 170
+      },
+      "width": 183,
+      "height": 160,
+      "sha256": "4c7600215eda5aaf7cdd52e00a599b4b2dfda50cae84c803118226a9db53f1a6",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-4-1_5",
+      "family": "vehicle",
+      "variant": 4,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-4-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 683,
+        "w": 384,
+        "h": 170
+      },
+      "width": 372,
+      "height": 159,
+      "sha256": "cd4dbdd37dce3014ae4e09d598dc1e09b85fbfd02d7dc0ee40ca9180d186ddce",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-4-2_5",
+      "family": "vehicle",
+      "variant": 4,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-4-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 683,
+        "w": 384,
+        "h": 170
+      },
+      "width": 185,
+      "height": 160,
+      "sha256": "59a8b6ca4a9715f7772bef2fa0078546d1f663b6920100e44ab39d4fcdc1df35",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-4-3_5",
+      "family": "vehicle",
+      "variant": 4,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-4-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 683,
+        "w": 384,
+        "h": 170
+      },
+      "width": 367,
+      "height": 158,
+      "sha256": "cc3869013dfcf2612a38ab3571bba9cbfb8ac06e4415388c7552ee74a020d504",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-5-0_5",
+      "family": "vehicle",
+      "variant": 5,
+      "orientation": 0.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-5-0_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 853,
+        "w": 384,
+        "h": 171
+      },
+      "width": 176,
+      "height": 154,
+      "sha256": "59f553ca0d0c758868840e26a896f8912c10a375e80b63720f6e07c7a060c5ba",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-5-1_5",
+      "family": "vehicle",
+      "variant": 5,
+      "orientation": 1.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-5-1_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 384,
+        "y": 853,
+        "w": 384,
+        "h": 171
+      },
+      "width": 317,
+      "height": 153,
+      "sha256": "8b463e728ece09205e9609a41482c31775096e0d9fbe0f3a3811b260f478ff9f",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-5-2_5",
+      "family": "vehicle",
+      "variant": 5,
+      "orientation": 2.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-5-2_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 853,
+        "w": 384,
+        "h": 171
+      },
+      "width": 174,
+      "height": 150,
+      "sha256": "24073d22a8d8d6179985be3f8c9f744ef610d69f278adb3e8c9fa61c857c6853",
+      "transparent": true
+    },
+    {
+      "id": "vehicle-5-3_5",
+      "family": "vehicle",
+      "variant": 5,
+      "orientation": 3.5,
+      "canonicalId": "world/car_abandoned",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "car_abandoned"
+      },
+      "file": "sprites/vehicle-5-3_5.png",
+      "source": "sources/axial-vehicle.png",
+      "sourceCrop": {
+        "x": 1152,
+        "y": 853,
+        "w": 384,
+        "h": 171
+      },
+      "width": 318,
+      "height": 151,
+      "sha256": "1846bbad7eeb9fb1335bc1f34572c469ba7d729f3f611231a961846ed70d4e95",
+      "transparent": true
+    },
+    {
+      "id": "table-0-0_5",
+      "family": "table",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/table",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "table"
+      },
+      "file": "sprites/table-0-0_5.png",
+      "source": "sources/axial-table.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 671,
+      "height": 403,
+      "sha256": "6f698d6eb68b2b8a3d484d522d9e5ae2f0eed8405082ca158b2523c002530017",
+      "transparent": true
+    },
+    {
+      "id": "table-0-1_5",
+      "family": "table",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/table",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "table"
+      },
+      "file": "sprites/table-0-1_5.png",
+      "source": "sources/axial-table.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 447,
+      "height": 403,
+      "sha256": "a0030459a1f09dc6565a15cee7138ec4faa6424ecc9b80e4131c81fadb685c8c",
+      "transparent": true
+    },
+    {
+      "id": "table-0-2_5",
+      "family": "table",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/table",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "table"
+      },
+      "file": "sprites/table-0-2_5.png",
+      "source": "sources/axial-table.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 671,
+      "height": 401,
+      "sha256": "66370c8091a04d51f425118292b935c3f19b3970cb14ac62bb0de83cd9720341",
+      "transparent": true
+    },
+    {
+      "id": "table-0-3_5",
+      "family": "table",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/table",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "table"
+      },
+      "file": "sprites/table-0-3_5.png",
+      "source": "sources/axial-table.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 452,
+      "height": 402,
+      "sha256": "bab530e70f178447f43b26753ead5fcf1a86484dfac24a600d0de0e17268bb24",
+      "transparent": true
+    },
+    {
+      "id": "bed-0-0_5",
+      "family": "bed",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/bed",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bed"
+      },
+      "file": "sprites/bed-0-0_5.png",
+      "source": "sources/axial-bed.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 402,
+      "height": 494,
+      "sha256": "8accd8add556e3065ca6e10f0b87b71f722d7e5bbe58af6859e3517375006400",
+      "transparent": true
+    },
+    {
+      "id": "bed-0-1_5",
+      "family": "bed",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/bed",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bed"
+      },
+      "file": "sprites/bed-0-1_5.png",
+      "source": "sources/axial-bed.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 0,
+        "w": 768,
+        "h": 512
+      },
+      "width": 708,
+      "height": 396,
+      "sha256": "f9faef41ba4697b8c1c51c809a289923128209c49db7fb53bab20b81c43b8235",
+      "transparent": true
+    },
+    {
+      "id": "bed-0-2_5",
+      "family": "bed",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/bed",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bed"
+      },
+      "file": "sprites/bed-0-2_5.png",
+      "source": "sources/axial-bed.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 389,
+      "height": 454,
+      "sha256": "2ac1c1f250c033ae8b981621650cd717c626e3dcfee00750dfa94f3623e45e0b",
+      "transparent": true
+    },
+    {
+      "id": "bed-0-3_5",
+      "family": "bed",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/bed",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "bed"
+      },
+      "file": "sprites/bed-0-3_5.png",
+      "source": "sources/axial-bed.png",
+      "sourceCrop": {
+        "x": 768,
+        "y": 512,
+        "w": 768,
+        "h": 512
+      },
+      "width": 716,
+      "height": 397,
+      "sha256": "8d25dcd21669a7dda9935be71016993616740f55c80f11f53cf1761b6409744c",
+      "transparent": true
+    },
+    {
+      "id": "wardrobe-0-0_5",
+      "family": "wardrobe",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/wardrobe",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wardrobe"
+      },
+      "file": "sprites/wardrobe-0-0_5.png",
+      "source": "sources/axial-wardrobe.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 627,
+        "h": 627
+      },
+      "width": 353,
+      "height": 580,
+      "sha256": "b8cf26823e6ba2392831fc01aba4a430b0532e5af9f9c7037eadbeecb3bc9b99",
+      "transparent": true
+    },
+    {
+      "id": "wardrobe-0-1_5",
+      "family": "wardrobe",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/wardrobe",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wardrobe"
+      },
+      "file": "sprites/wardrobe-0-1_5.png",
+      "source": "sources/axial-wardrobe.png",
+      "sourceCrop": {
+        "x": 627,
+        "y": 0,
+        "w": 627,
+        "h": 627
+      },
+      "width": 205,
+      "height": 588,
+      "sha256": "ef9e231821b3621db12536de3c0bedeae5e627b4a165280c7d7b72921c4d7abc",
+      "transparent": true
+    },
+    {
+      "id": "wardrobe-0-2_5",
+      "family": "wardrobe",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/wardrobe",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wardrobe"
+      },
+      "file": "sprites/wardrobe-0-2_5.png",
+      "source": "sources/axial-wardrobe.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 627,
+        "w": 627,
+        "h": 627
+      },
+      "width": 353,
+      "height": 579,
+      "sha256": "078596a8f19e416fa05c081adca1753b9f9ad65d99ba0169cecc45dc68d3fe39",
+      "transparent": true
+    },
+    {
+      "id": "wardrobe-0-3_5",
+      "family": "wardrobe",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/wardrobe",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "wardrobe"
+      },
+      "file": "sprites/wardrobe-0-3_5.png",
+      "source": "sources/axial-wardrobe.png",
+      "sourceCrop": {
+        "x": 627,
+        "y": 627,
+        "w": 627,
+        "h": 627
+      },
+      "width": 207,
+      "height": 588,
+      "sha256": "3c92fc3b6c1f1b08d4f7e005c55bc551d4e79acb0c1e3b91adb605f0203071b6",
+      "transparent": true
+    },
+    {
+      "id": "shelves-0-0_5",
+      "family": "shelves",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "world/shelves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "shelves"
+      },
+      "file": "sprites/shelves-0-0_5.png",
+      "source": "sources/axial-shelves.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 656,
+        "h": 600
+      },
+      "width": 426,
+      "height": 542,
+      "sha256": "dbeada515da940213b8961916f373cc89fb37bd5316b280c4c99949053a86e3b",
+      "transparent": true
+    },
+    {
+      "id": "shelves-0-1_5",
+      "family": "shelves",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "world/shelves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "shelves"
+      },
+      "file": "sprites/shelves-0-1_5.png",
+      "source": "sources/axial-shelves.png",
+      "sourceCrop": {
+        "x": 656,
+        "y": 0,
+        "w": 656,
+        "h": 600
+      },
+      "width": 227,
+      "height": 545,
+      "sha256": "78a3087c12e7dd2725a8237672228360f5ab88457cd5869fe07b88882a0fd0e7",
+      "transparent": true
+    },
+    {
+      "id": "shelves-0-2_5",
+      "family": "shelves",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "world/shelves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "shelves"
+      },
+      "file": "sprites/shelves-0-2_5.png",
+      "source": "sources/axial-shelves.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 600,
+        "w": 656,
+        "h": 599
+      },
+      "width": 421,
+      "height": 547,
+      "sha256": "d80b4c51d5904626d17267999208063b781cc679eda475357b2154d9701102c2",
+      "transparent": true
+    },
+    {
+      "id": "shelves-0-3_5",
+      "family": "shelves",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "world/shelves",
+      "owner": {
+        "pack": "environment-variants-v1",
+        "id": "shelves"
+      },
+      "file": "sprites/shelves-0-3_5.png",
+      "source": "sources/axial-shelves.png",
+      "sourceCrop": {
+        "x": 656,
+        "y": 600,
+        "w": 656,
+        "h": 599
+      },
+      "width": 230,
+      "height": 547,
+      "sha256": "f05597a416a17c02ff0e1c3417feb9e0866117c1cf54b29890e52207964c4fa7",
+      "transparent": true
+    },
+    {
+      "id": "stove-0-0_5",
+      "family": "stove",
+      "variant": 0,
+      "orientation": 0.5,
+      "canonicalId": "item/base-stove",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "base-stove"
+      },
+      "file": "sprites/stove-0-0_5.png",
+      "source": "sources/axial-stove.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 0,
+        "w": 653,
+        "h": 603
+      },
+      "width": 353,
+      "height": 578,
+      "sha256": "e753b466b35d586c9cbd0df2c1e9da625cbbc3f1b6ed1af904c6b065f0ad5016",
+      "transparent": true
+    },
+    {
+      "id": "stove-0-1_5",
+      "family": "stove",
+      "variant": 0,
+      "orientation": 1.5,
+      "canonicalId": "item/base-stove",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "base-stove"
+      },
+      "file": "sprites/stove-0-1_5.png",
+      "source": "sources/axial-stove.png",
+      "sourceCrop": {
+        "x": 653,
+        "y": 0,
+        "w": 653,
+        "h": 603
+      },
+      "width": 310,
+      "height": 572,
+      "sha256": "a47c8cfc1d946680e24cef40c7e674d6b9554fb72d192ae3adaac15943b73f48",
+      "transparent": true
+    },
+    {
+      "id": "stove-0-2_5",
+      "family": "stove",
+      "variant": 0,
+      "orientation": 2.5,
+      "canonicalId": "item/base-stove",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "base-stove"
+      },
+      "file": "sprites/stove-0-2_5.png",
+      "source": "sources/axial-stove.png",
+      "sourceCrop": {
+        "x": 0,
+        "y": 603,
+        "w": 653,
+        "h": 602
+      },
+      "width": 352,
+      "height": 569,
+      "sha256": "b57dbe92f589f1c472b9888ed54c749cfc7fb2392fce81fc48b071744a3a9acc",
+      "transparent": true
+    },
+    {
+      "id": "stove-0-3_5",
+      "family": "stove",
+      "variant": 0,
+      "orientation": 3.5,
+      "canonicalId": "item/base-stove",
+      "owner": {
+        "pack": "item-visuals-v2",
+        "id": "base-stove"
+      },
+      "file": "sprites/stove-0-3_5.png",
+      "source": "sources/axial-stove.png",
+      "sourceCrop": {
+        "x": 653,
+        "y": 603,
+        "w": 653,
+        "h": 602
+      },
+      "width": 336,
+      "height": 573,
+      "sha256": "c0fc488606a4dcfde2fd1c55eb074b657731a71f8b1c7ece690c581775cc5f85",
+      "transparent": true
     }
-  ]
+  ],
+  "axialPrompts": "axial-prompts.json"
 }

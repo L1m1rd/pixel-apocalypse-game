@@ -20,8 +20,8 @@ test('old village saves retain loot, door state, built objects and indoor player
  const p={x:h.x+9,y:h.y-11},ground=[{uid:99,key:'item/food-canned-food',qty:1,x:h.x+12,y:h.y+14}];
  world.objects.push({id:'build-unique',kind:'campfire',x:1100,y:5700,fuel:33});
  assert(migrateVillageFacing(world,p,ground));const next=world.objects.find(o=>o.id===h.id);
- assert.deepEqual(houseLocal(p,next),{x:9,y:-11});assert.deepEqual(houseLocal(ground[0],next),{x:12,y:14});
+ const lp=houseLocal(p,next),lg=houseLocal(ground[0],next);assert(Math.abs(lp.x-9)+Math.abs(lp.y+11)<1e-8);assert(Math.abs(lg.x-12)+Math.abs(lg.y-14)<1e-8);
  assert(next.doorOpen);assert.deepEqual(world.objects.find(o=>o.id===chest.id).stock,[{key:'item/materials-cloth',qty:3,condition:37}]);
- assert.equal(world.objects.find(o=>o.id==='build-unique').fuel,33);assert.equal(world.viewVersion,2);
+ assert.equal(world.objects.find(o=>o.id==='build-unique').fuel,33);assert.equal(world.viewVersion,3);
  const once=structuredClone(world);assert.equal(migrateVillageFacing(world,p,ground),false);assert.deepEqual(world,once);
 });

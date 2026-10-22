@@ -1,5 +1,6 @@
 import {villageInside,villageObstacle,villageBlocked} from './village-world.mjs';
-import {unproject} from './item-lab-movement.mjs';
+import {unproject,project} from './item-lab-movement.mjs';
+import {faceActualMovement,screenFacing} from './locomotion.mjs';
 import {KEYS,clamp,interactionDistance as distance,visibleBetween} from './survival-rules.mjs';
 export const WORLD_CENTER={x:4096,y:4096};
 export function makeRandom(seed){let n=seed>>>0;return ()=>{n=(Math.imul(n,1664525)+1013904223)>>>0;return n/4294967296;};}
@@ -48,4 +49,13 @@ export function actorTick(a,dt,player,world,inv,rng,damage){
   else if(d>30&&(a.action!=='attack'||a.cooldown<.75)){moveToward(a,player,dt,a.kind==='wolf'?95:a.kind==='bear'?70:player.action==='run'?65:48,world.objects,world.villageMode?world.seed:null);}
  }else if(a.cooldown<=0&&distance(a,{x:a.homeX,y:a.homeY})>20)moveToward(a,{x:a.homeX,y:a.homeY},dt,24,world.objects,world.villageMode?world.seed:null);else a.action='idle';
 }
-function moveToward(a,target,dt,speed,objects,seed=null){const collides=p=>seed===null?blocked(p,objects):villageBlocked(p,objects,seed);const dx=target.x-a.x,dy=target.y-a.y,len=Math.max(1,Math.hypot(dx,dy));const sx=(dx-dy)*.9,sy=(dx+dy)*.55;a.direction=Math.abs(sx)>Math.abs(sy)?sx>0?'east':'west':sy>0?'south':'north';const p={x:a.x+dx/len*speed*dt,y:a.y+dy/len*speed*dt};if(!collides(p)){a.x=p.x;a.y=p.y;a.action='run';}else{const side={x:a.x-dy/len*speed*dt,y:a.y+dx/len*speed*dt};if(!collides(side)){a.x=side.x;a.y=side.y;}a.action='walk';}}
+export function moveToward(a,target,dt,speed,objects,seed=null){
+ const collides=p=>seed===null?blocked(p,objects):villageBlocked(p,objects,seed),before={x:a.x,y:a.y},dx=target.x-a.x,dy=target.y-a.y,len=Math.hypot(dx,dy);if(len<.1){a.action='idle';return;}
+ const step=Math.min(len,speed*dt),ux=dx/len,uy=dy/len,direct={x:a.x+ux*step,y:a.y+uy*step};
+ if(!collides(direct)){a.x=direct.x;a.y=direct.y;a.avoidLeft=0;}else{
+  // Commit briefly to a side instead of alternating and walking backwards.
+  const preferred=(a.avoidLeft??0)>0?(a.avoidSide??1):1,choices=[{x:a.x+dx/len*step,y:a.y},{x:a.x,y:a.y+dy/len*step},...([preferred,-preferred].map(sign=>({x:a.x-uy*step*sign,y:a.y+ux*step*sign,sign})))].filter(p=>Math.hypot(p.x-a.x,p.y-a.y)>.002&&!collides(p));
+  choices.sort((p,q)=>Math.hypot(target.x-p.x,target.y-p.y)-Math.hypot(target.x-q.x,target.y-q.y)+(p.sign&&p.sign!==preferred?step*.7:0)-(q.sign&&q.sign!==preferred?step*.7:0));const next=choices[0];if(next){a.x=next.x;a.y=next.y;if(next.sign){a.avoidSide=next.sign;a.avoidLeft=.45;}}
+ }
+ a.avoidLeft=Math.max(0,(a.avoidLeft??0)-dt);const moved=faceActualMovement(a,before,speed>=60?'run':'walk');if(!moved){a.elapsed=0;return;}a.gaitDistance=(a.gaitDistance??0)+moved;const desired=project(ux*step,uy*step);a.elapsed=Math.max(0,a.elapsed-dt*1000*(1-Math.min(1,moved/Math.max(.001,Math.hypot(desired.x,desired.y)))));
+}

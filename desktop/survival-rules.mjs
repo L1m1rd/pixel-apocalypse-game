@@ -1,3 +1,4 @@
+import {houseLocal} from './object-facing.mjs';
 export const clamp=(n,a=0,b=100)=>Math.max(a,Math.min(b,n));
 import {villageWalls} from './village-world.mjs';
 export const KEYS={wood:'item/resource-harvest-boards',cloth:'item/materials-cloth',tape:'item/materials-duct-tape',nails:'item/materials-nails',wire:'item/materials-wire',scrap:'item/materials-scrap',stone:'item/resource-harvest-stone',bandage:'item/medicine-water-bandage',kit:'item/medicine-water-kit-small',water:'item/food-water-bottle',canteen:'item/medicine-water-canteen',food:'item/food-canned-food',berries:'item/resource-harvest-berries',fuel:'item/transport-fuel-can',toolbox:'item/transport-toolbox',battery:'item/electricity-batteries',flashlight:'item/electricity-flashlight',fishing:'item/gloves-tools-fishing-rod',shovel:'item/tools-shovel',axe:'item/weapons-axe',knife:'item/weapons-knife'};
@@ -17,4 +18,4 @@ export const RECIPES=[
 ];
 export const interactionDistance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 export function segmentHitsRect(a,b,r){let lo=0,hi=1;const dx=b.x-a.x,dy=b.y-a.y;for(const [p,q]of [[-dx,a.x-r.x],[dx,r.x+r.w-a.x],[-dy,a.y-r.y],[dy,r.y+r.h-a.y]]){if(Math.abs(p)<1e-8){if(q<0)return false;}else{const t=q/p;if(p<0)lo=Math.max(lo,t);else hi=Math.min(hi,t);if(lo>hi)return false;}}return true;}
-export function visibleBetween(a,b,objects){return !objects.some(o=>o.kind==='house'&&o.halfW?villageWalls(o).some(r=>segmentHitsRect(a,b,r)):o.kind==='barricade'&&o.condition>0&&segmentHitsRect(a,b,{x:o.x-35,y:o.y-8,w:70,h:16})||o.kind==='house'&&segmentHitsRect(a,b,{x:o.x-50,y:o.y-38,w:100,h:76})&&!(Math.abs(a.x-o.x)<50&&Math.abs(a.y-o.y)<38)&&!(Math.abs(b.x-o.x)<50&&Math.abs(b.y-o.y)<38));}
+export function visibleBetween(a,b,objects){return !objects.some(o=>o.kind==='house'&&o.halfW?villageWalls({...o,x:0,y:0,orientation:0}).some(r=>segmentHitsRect(houseLocal(a,o),houseLocal(b,o),r)):o.kind==='barricade'&&o.condition>0&&segmentHitsRect(a,b,{x:o.x-35,y:o.y-8,w:70,h:16})||o.kind==='house'&&segmentHitsRect(a,b,{x:o.x-50,y:o.y-38,w:100,h:76})&&!(Math.abs(a.x-o.x)<50&&Math.abs(a.y-o.y)<38)&&!(Math.abs(b.x-o.x)<50&&Math.abs(b.y-o.y)<38));}

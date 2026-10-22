@@ -1,3 +1,4 @@
+import {heroGaitTime} from './locomotion.mjs';
 import {VILLAGE_ID,VILLAGE_SPAWN,villageScenery,villageBlocked,migrateVillageFacing} from './village-world.mjs';
 import {createVillagePainter} from './village-renderer.mjs';
 import {setProjectionMode} from './item-lab-movement.mjs';
@@ -102,7 +103,7 @@ function drawHero(context,ch,direction,action,time,x,y,scale,equipment={},weapon
 function drawClouds(now){const clouds=images.get('clouds'),mask=images.get('sky-mask');if(!clouds||!mask)return;sky.clearRect(0,0,1304,941);sky.globalCompositeOperation='source-over';sky.imageSmoothingEnabled=true;const width=740,offset=(now/1000*5)%width;for(let i=0;i<2;i++)sky.drawImage(clouds,750-offset+i*width,23,width,185);sky.globalCompositeOperation='destination-in';sky.drawImage(mask,0,0);sky.globalCompositeOperation='source-over';}
 function drawWorld(){
  const p=state.player,ch=assets.characters.find(c=>c.id===state.world.characterId),progress=pickupAction?pickupAction.elapsed/pickupAction.duration:null,pickupPose=progress===null?null:{action:'crouch_down',time:(progress<.5?progress*2:(1-progress)*2)*5*ch.timingsByDirection[p.direction].crouch_down};
- const paintHero=(c,x,y)=>{const action=survival?.state.action;const pose=pickupPose??(action&&action.kind!=='melee'?{action:'crouch_idle',time:0}:null);drawHero(c,ch,p.direction,pose?.action??p.action,pose?.time??p.elapsed,x,y,.8,inventory.state.equipment,combat.getState());worldAvatarInfo=avatar.diagnostics();};
+ const paintHero=(c,x,y)=>{const action=survival?.state.action;const pose=pickupPose??(action&&action.kind!=='melee'?{action:'crouch_idle',time:0}:null);drawHero(c,ch,p.direction,pose?.action??p.action,pose?.time??heroGaitTime(p,ch),x,y,.8,inventory.state.equipment,combat.getState());worldAvatarInfo=avatar.diagnostics();};
  if(survival?.state.enabled)districtInfo=survivalPainter.render(ctx,canvas,p,inventory,survival,paintHero,(c,a,x,y)=>drawHero(c,assets.characters.find(ch=>ch.id===a.skin)??assets.characters[0],a.direction,a.action==='run'?'run':a.action==='walk'?'walk':'idle',a.elapsed,x,y,.8,['bandit','friendly'].includes(a.kind)?{weapon:{key:'weapon/pm',uid:10001,loaded:8,condition:100}}:{}),state.zoom,pickupAction?{uid:pickupAction.uid,progress}:null);
  else districtInfo=districtPainter.render(ctx,canvas,p,inventory,paintHero,state.zoom,!document.body.classList.contains('hide-hud'),pickupAction?{uid:pickupAction.uid,progress}:null);
  const title=ch.name+' · '+districtInfo.sector;if($('player-title').textContent!==title)$('player-title').textContent=title;
