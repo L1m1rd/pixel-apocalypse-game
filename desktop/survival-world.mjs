@@ -1,3 +1,4 @@
+import {unproject} from './item-lab-movement.mjs';
 import {KEYS,clamp,interactionDistance as distance,visibleBetween} from './survival-rules.mjs';
 export const WORLD_CENTER={x:4096,y:4096};
 export function makeRandom(seed){let n=seed>>>0;return ()=>{n=(Math.imul(n,1664525)+1013904223)>>>0;return n/4294967296;};}
@@ -35,7 +36,7 @@ export function blocked(p,objects){return objects.some(o=>{
   if(o.kind!=='house')return false;const x=Math.abs(p.x-o.x),y=p.y-o.y;
   return x<59&&Math.abs(y)<47&&(x>43||y<-31||y>29&&(!o.doorOpen||x>16));
  });}
-export function moveWorld(p,screenDx,screenDy,objects,speedFactor=1){const dx=(screenDx/1.8+screenDy/1.1)*speedFactor,dy=(screenDy/1.1-screenDx/1.8)*speedFactor,n=Math.max(1,Math.ceil(Math.hypot(dx,dy)/3));let {x,y}=p;for(let i=0;i<n;i++){if(!blocked({x:x+dx/n,y},objects))x=clamp(x+dx/n,32,8160);if(!blocked({x,y:y+dy/n},objects))y=clamp(y+dy/n,32,8160);}return {x,y};}
+export function moveWorld(p,screenDx,screenDy,objects,speedFactor=1){const delta=unproject(screenDx,screenDy),dx=delta.x*speedFactor,dy=delta.y*speedFactor,n=Math.max(1,Math.ceil(Math.hypot(dx,dy)/3));let {x,y}=p;for(let i=0;i<n;i++){if(!blocked({x:x+dx/n,y},objects))x=clamp(x+dx/n,32,8160);if(!blocked({x,y:y+dy/n},objects))y=clamp(y+dy/n,32,8160);}return {x,y};}
 export function actorTick(a,dt,player,world,inv,rng,damage){
  a.elapsed+=dt*1000;if(a.lureLeft>0&&!a.dead){a.lureLeft-=dt;moveToward(a,{x:a.lureX,y:a.lureY},dt,55,world.objects);return;}a.cooldown=Math.max(0,a.cooldown-dt);a.alert=Math.max(0,a.alert-dt);if(a.dead){a.action='death';return;}const d=distance(a,player),hostile=['infected','bandit','wolf','bear'].includes(a.kind);
  if(!hostile){if(a.kind==='friendly'&&a.recruited){const target=world.actors.find(b=>!b.dead&&['infected','bandit','wolf','bear'].includes(b.kind)&&distance(a,b)<300&&visibleBetween(a,b,world.objects));if(target&&a.cooldown<=0){target.health-=18;a.cooldown=1.3;if(target.health<=0){target.health=0;target.dead=true;target.elapsed=0;}}if(d>85)moveToward(a,player,dt,60,world.objects);}else if(a.kind==='hare'&&d<150){moveToward(a,{x:a.x+(a.x-player.x),y:a.y+(a.y-player.y)},dt,100,world.objects);}else a.action='idle';return;}

@@ -10,7 +10,7 @@
     "start": "node tools/launch-desktop.cjs",
     "prepare:desktop": "node tools/prepare-desktop-assets.cjs",
     "build:desktop": "node tools/package-desktop.cjs",
-    "package:desktop": "node tools/package-desktop-release.cjs",
+    "package:desktop": "node tools/package-northern-dachas-release.cjs",
     "test:desktop-core": "node --test desktop/core.test.mjs",
     "check:assets": "node tools/check-asset-files.cjs",
     "check:redesigned": "node tools/check-redesigned-animations.cjs",
@@ -39,6 +39,7 @@
     "reconcile:assets": "node tools/reconcile-assets.cjs"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "jszip": "3.10.1",
     "playwright": "1.62.1",
     "sharp": "0.35.5"

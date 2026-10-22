@@ -1,0 +1,29 @@
+{
+  "version": "0.10.0",
+  "date": "2026-10-22",
+  "unitTestsPassed": 55,
+  "campFacilities": 10,
+  "raidLocations": 8,
+  "survivorsInitially": 2,
+  "survivorPool": 6,
+  "canonicalPortableVariants": 268,
+  "firearms": 24,
+  "newCanonicalImageEntities": 0,
+  "originalMiniDayZ2AssetsBundled": 0,
+  "packagedCoreFlowPassed": true,
+  "packagedFailureAndOfflinePassed": true,
+  "packagedNewCampaignEntryPassed": true,
+  "accessibilityAuditedStates": 10,
+  "accessibilityViolations": 0,
+  "observedNightScenarioFPS": 60.09,
+  "performanceNote": "One local test scene; not a guarantee for all machines.",
+  "classicAvatarRegression": {
+    "staticPoses": 96,
+    "equipmentPoses": 768,
+    "contacts": 768,
+    "sourcePixels": 16188
+  },
+  "legacyInventoryAndSurvivalRuntimePassed": true,
+  "rendererErrors": [],
+  "scope": "Selected feature matrix only; see recon.md and parity.md. Online cooperative play and exact original content/balance are not implemented."
+}

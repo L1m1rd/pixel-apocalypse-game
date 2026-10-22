@@ -8,6 +8,7 @@ function validateSave(s){
  if(s.district?.mapId==='item-lab-v1')result.district={mapId:'item-lab-v1'};
  const inventory=require('./inventory-save.cjs').sanitizeInventory(s.inventory);if(inventory)result.inventory=inventory;
  const survival=require('./survival-save.cjs').sanitizeSurvival(s.survival);if(survival)result.survival=survival;
+ const campaign=require('./campaign-save.cjs').sanitizeCampaign(s.campaign);if(campaign)result.campaign=campaign;result.gameMode=s.gameMode==='campaign'?'campaign':'laboratory';
  return result;
 }
 module.exports={validateSave};

@@ -1,0 +1,5 @@
+export function visionPolygon(p,objects,range=330,rays=128){
+ const rects=[];for(const o of objects){if(o.kind==='house'){rects.push({x:o.x-59,y:o.y-47,w:16,h:94},{x:o.x+43,y:o.y-47,w:16,h:94},{x:o.x-59,y:o.y-47,w:118,h:16});if(o.doorOpen)rects.push({x:o.x-59,y:o.y+29,w:43,h:18},{x:o.x+16,y:o.y+29,w:43,h:18});else rects.push({x:o.x-59,y:o.y+29,w:118,h:18});}else if(o.kind==='barricade'&&o.condition>0)rects.push({x:o.x-39,y:o.y-13,w:78,h:26});}
+ const near=rects.filter(r=>Math.hypot(p.x-(r.x+r.w/2),p.y-(r.y+r.h/2))<range+100),points=[];
+ for(let i=0;i<rays;i++){const a=i/rays*Math.PI*2,dx=Math.cos(a),dy=Math.sin(a);let distance=range;for(const r of near){let lo=0,hi=range;for(const [origin,d,min,max]of [[p.x,dx,r.x,r.x+r.w],[p.y,dy,r.y,r.y+r.h]]){if(Math.abs(d)<1e-8){if(origin<min||origin>max){lo=Infinity;break;}}else{let t1=(min-origin)/d,t2=(max-origin)/d;if(t1>t2)[t1,t2]=[t2,t1];lo=Math.max(lo,t1);hi=Math.min(hi,t2);}}if(lo<=hi&&lo>1)distance=Math.min(distance,lo);}points.push({x:p.x+dx*distance,y:p.y+dy*distance});}return points;
+}

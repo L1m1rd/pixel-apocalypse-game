@@ -1,0 +1,340 @@
+TAP version 13
+# Subtest: head attachment is independent of the position and spread of the feet
+ok 1 - head attachment is independent of the position and spread of the feet
+  ---
+  duration_ms: 6.1748
+  type: 'test'
+  ...
+# Subtest: lifted and planted feet are both classified as footwear, and the low hand is preserved
+ok 2 - lifted and planted feet are both classified as footwear, and the low hand is preserved
+  ---
+  duration_ms: 2.2405
+  type: 'test'
+  ...
+# Subtest: both armed hands remain attached to reachable shoulders in every facing direction
+ok 3 - both armed hands remain attached to reachable shoulders in every facing direction
+  ---
+  duration_ms: 5.713
+  type: 'test'
+  ...
+# Subtest: skin-colored rust fabric inside the chest never becomes a bare hand
+ok 4 - skin-colored rust fabric inside the chest never becomes a bare hand
+  ---
+  duration_ms: 2.198
+  type: 'test'
+  ...
+# Subtest: both side-walk feet have distinct support, swing, knee and lift phases
+ok 5 - both side-walk feet have distinct support, swing, knee and lift phases
+  ---
+  duration_ms: 1.2117
+  type: 'test'
+  ...
+# Subtest: weapon actions follow frame timing, block overlapping actions and cancel on equipment change
+ok 6 - weapon actions follow frame timing, block overlapping actions and cancel on equipment change
+  ---
+  duration_ms: 0.4744
+  type: 'test'
+  ...
+# Subtest: all eight raids and camp recipes reference existing canonical portable visuals
+ok 7 - all eight raids and camp recipes reference existing canonical portable visuals
+  ---
+  duration_ms: 10.4389
+  type: 'test'
+  ...
+# Subtest: camp starts with two independent survivors, one shared warehouse and a valid starter loadout
+ok 8 - camp starts with two independent survivors, one shared warehouse and a valid starter loadout
+  ---
+  duration_ms: 4.9465
+  type: 'test'
+  ...
+# Subtest: warehouse moves preserve durability, filled bags and counts; invalid quantities roll back
+ok 9 - warehouse moves preserve durability, filled bags and counts; invalid quantities roll back
+  ---
+  duration_ms: 1.8151
+  type: 'test'
+  ...
+# Subtest: resource conversion respects capacity and never converts ammo
+ok 10 - resource conversion respects capacity and never converts ammo
+  ---
+  duration_ms: 0.9677
+  type: 'test'
+  ...
+# Subtest: build queue spends once, reserves power and applies upgrades only after completion
+ok 11 - build queue spends once, reserves power and applies upgrades only after completion
+  ---
+  duration_ms: 1.1205
+  type: 'test'
+  ...
+# Subtest: craft and repair have concrete output, costs and no duplicate completion
+ok 12 - craft and repair have concrete output, costs and no duplicate completion
+  ---
+  duration_ms: 1.1057
+  type: 'test'
+  ...
+# Subtest: recovery blocks deployment and another survivor remains usable
+ok 13 - recovery blocks deployment and another survivor remains usable
+  ---
+  duration_ms: 1.1431
+  type: 'test'
+  ...
+# Subtest: manual extraction deposits loot, retains worn gear and resets only the raid
+ok 14 - manual extraction deposits loot, retains worn gear and resets only the raid
+  ---
+  duration_ms: 6.2483
+  type: 'test'
+  ...
+# Subtest: death loses carried gear, preserves warehouse and leaves a recoverable survivor
+ok 15 - death loses carried gear, preserves warehouse and leaves a recoverable survivor
+  ---
+  duration_ms: 0.8656
+  type: 'test'
+  ...
+# Subtest: automatic mission finishes once offline without overwriting another survivor inventory
+ok 16 - automatic mission finishes once offline without overwriting another survivor inventory
+  ---
+  duration_ms: 0.9957
+  type: 'test'
+  ...
+# Subtest: two weapons and quick use conserve quantities and survive validated saves
+ok 17 - two weapons and quick use conserve quantities and survive validated saves
+  ---
+  duration_ms: 4.1446
+  type: 'test'
+  ...
+# Subtest: weapon and night modules persist as states and a battery refills night equipment
+ok 18 - weapon and night modules persist as states and a battery refills night equipment
+  ---
+  duration_ms: 0.5298
+  type: 'test'
+  ...
+# Subtest: orthographic campaign controls move exactly along screen axes and restore legacy projection
+ok 19 - orthographic campaign controls move exactly along screen axes and restore legacy projection
+  ---
+  duration_ms: 0.1938
+  type: 'test'
+  ...
+# Subtest: wall occlusion and vision polygon respect closed walls and an open door
+ok 20 - wall occlusion and vision polygon respect closed walls and an open door
+  ---
+  duration_ms: 1.3482
+  type: 'test'
+  ...
+# Subtest: campaign victory requires both recovered access code and high level radio
+ok 21 - campaign victory requires both recovered access code and high level radio
+  ---
+  duration_ms: 2.1058
+  type: 'test'
+  ...
+# Subtest: morale and infection recovery finish independently and use matching facilities
+ok 22 - morale and infection recovery finish independently and use matching facilities
+  ---
+  duration_ms: 0.5963
+  type: 'test'
+  ...
+# Subtest: low-resource survivors can recover and empty extraction has no free material reward
+ok 23 - low-resource survivors can recover and empty extraction has no free material reward
+  ---
+  duration_ms: 3.4715
+  type: 'test'
+  ...
+# Subtest: automatic missions require fuel while manual deployment does not
+ok 24 - automatic missions require fuel while manual deployment does not
+  ---
+  duration_ms: 0.4985
+  type: 'test'
+  ...
+# Subtest: backwards clock does not create farm output or duplicate a task
+ok 25 - backwards clock does not create farm output or duplicate a task
+  ---
+  duration_ms: 0.3395
+  type: 'test'
+  ...
+# Subtest: raid AI uses facing and hearing, attacks visible nearby targets and loses sight behind walls
+ok 26 - raid AI uses facing and hearing, attacks visible nearby targets and loses sight behind walls
+  ---
+  duration_ms: 0.3353
+  type: 'test'
+  ...
+# Subtest: strict campaign saves reject unknown items and jobs and retain current raid progress
+ok 27 - strict campaign saves reject unknown items and jobs and retain current raid progress
+  ---
+  duration_ms: 1.0015
+  type: 'test'
+  ...
+# Subtest: raid containers enforce weight before removing loot
+ok 28 - raid containers enforce weight before removing loot
+  ---
+  duration_ms: 0.7986
+  type: 'test'
+  ...
+# Subtest: diagonal movement has the same speed as horizontal movement
+ok 29 - diagonal movement has the same speed as horizontal movement
+  ---
+  duration_ms: 2.3655
+  type: 'test'
+  ...
+# Subtest: running is faster; opposing keys cancel; world bounds hold
+ok 30 - running is faster; opposing keys cancel; world bounds hold
+  ---
+  duration_ms: 0.4471
+  type: 'test'
+  ...
+# Subtest: crouch transitions finish once, crouch walking ignores Shift, stand up restores walking
+ok 31 - crouch transitions finish once, crouch walking ignores Shift, stand up restores walking
+  ---
+  duration_ms: 0.4863
+  type: 'test'
+  ...
+# Subtest: large delta times cannot teleport a player
+ok 32 - large delta times cannot teleport a player
+  ---
+  duration_ms: 0.1276
+  type: 'test'
+  ...
+# Subtest: saves validate identity, positions, types and world name
+ok 33 - saves validate identity, positions, types and world name
+  ---
+  duration_ms: 5.8887
+  type: 'test'
+  ...
+# Subtest: creative issuance is disabled in normal mode; pockets and worn backpack are distinct stores
+ok 34 - creative issuance is disabled in normal mode; pockets and worn backpack are distinct stores
+  ---
+  duration_ms: 2.8521
+  type: 'test'
+  ...
+# Subtest: every portable variant can be stored, equipped or used, dropped, picked up and restored
+ok 35 - every portable variant can be stored, equipped or used, dropped, picked up and restored
+  ---
+  duration_ms: 23.5596
+  type: 'test'
+  ...
+# Subtest: split, merge and transfer conserve counts; full destinations reject whole transactions
+ok 36 - split, merge and transfer conserve counts; full destinations reject whole transactions
+  ---
+  duration_ms: 1.5225
+  type: 'test'
+  ...
+# Subtest: filled backpacks retain their own contents through swapping, unequipping, dropping and saving
+ok 37 - filled backpacks retain their own contents through swapping, unequipping, dropping and saving
+  ---
+  duration_ms: 0.4043
+  type: 'test'
+  ...
+# Subtest: equipment rejects wrong slots and full pockets prevent unequipping without losing anything
+ok 38 - equipment rejects wrong slots and full pockets prevent unequipping without losing anything
+  ---
+  duration_ms: 0.4564
+  type: 'test'
+  ...
+# Subtest: all firearms reload from either owned container, reject wrong ammo, retain loaded rounds through moves
+ok 39 - all firearms reload from either owned container, reject wrong ammo, retain loaded rounds through moves
+  ---
+  duration_ms: 1.1169
+  type: 'test'
+  ...
+# Subtest: consumption and learned manuals work from both containers
+ok 40 - consumption and learned manuals work from both containers
+  ---
+  duration_ms: 0.1913
+  type: 'test'
+  ...
+# Subtest: save validation retains both containers and packed bag contents; old 0.6.0 saves migrate without loss
+ok 41 - save validation retains both containers and packed bag contents; old 0.6.0 saves migrate without loss
+  ---
+  duration_ms: 3.9418
+  type: 'test'
+  ...
+# Subtest: dragging worn gear into storage and shift-dropping filled gear conserve its contents
+ok 42 - dragging worn gear into storage and shift-dropping filled gear conserve its contents
+  ---
+  duration_ms: 0.4929
+  type: 'test'
+  ...
+# Subtest: WASD and arrows follow screen directions; all eight directions keep equal projected speed
+ok 43 - WASD and arrows follow screen directions; all eight directions keep equal projected speed
+  ---
+  duration_ms: 4.1394
+  type: 'test'
+  ...
+# Subtest: screen running, crouching, stopping, opposite keys and frame rates preserve expected speeds
+ok 44 - screen running, crouching, stopping, opposite keys and frame rates preserve expected speeds
+  ---
+  duration_ms: 0.955
+  type: 'test'
+  ...
+# Subtest: canonical recipe, loot and starter references all exist; world generation is deterministic
+ok 45 - canonical recipe, loot and starter references all exist; world generation is deterministic
+  ---
+  duration_ms: 7.7991
+  type: 'test'
+  ...
+# Subtest: wear reduces condition; repairs consume once, respect material and reject ruined items
+ok 46 - wear reduces condition; repairs consume once, respect material and reject ruined items
+  ---
+  duration_ms: 1.0372
+  type: 'test'
+  ...
+# Subtest: reload commits at animation completion and cancels safely on weapon replacement
+ok 47 - reload commits at animation completion and cancels safely on weapon replacement
+  ---
+  duration_ms: 1.1398
+  type: 'test'
+  ...
+# Subtest: use and repair take time, prevent overlaps and do not spend resources on cancelled actions
+ok 48 - use and repair take time, prevent overlaps and do not spend resources on cancelled actions
+  ---
+  duration_ms: 6.5888
+  type: 'test'
+  ...
+# Subtest: rain, shelter, clothing, cold, disease and night have connected effects
+ok 49 - rain, shelter, clothing, cold, disease and night have connected effects
+  ---
+  duration_ms: 12.7082
+  type: 'test'
+  ...
+# Subtest: armor reduces damage and wears; fire hits visible enemies and spends one round
+ok 50 - armor reduces damage and wears; fire hits visible enemies and spends one round
+  ---
+  duration_ms: 1.4853
+  type: 'test'
+  ...
+# Subtest: craft rolls back when output cannot fit and placement only consumes on completion
+ok 51 - craft rolls back when output cannot fit and placement only consumes on completion
+  ---
+  duration_ms: 2.1513
+  type: 'test'
+  ...
+# Subtest: resource gathering, cooking, farming and fishing produce canonical items
+ok 52 - resource gathering, cooking, farming and fishing produce canonical items
+  ---
+  duration_ms: 8.7909
+  type: 'test'
+  ...
+# Subtest: storage transactions, trader, quest, vehicle and one-way travel preserve inventory
+ok 53 - storage transactions, trader, quest, vehicle and one-way travel preserve inventory
+  ---
+  duration_ms: 2.8383
+  type: 'test'
+  ...
+# Subtest: strict saves retain condition, survival progress and migrate missing old vitals safely
+ok 54 - strict saves retain condition, survival progress and migrate missing old vitals safely
+  ---
+  duration_ms: 5.887
+  type: 'test'
+  ...
+# Subtest: death stops simulation; perk points cannot be spent twice; re-enabling retains world
+ok 55 - death stops simulation; perk points cannot be spent twice; re-enabling retains world
+  ---
+  duration_ms: 0.8902
+  type: 'test'
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 205.9657
