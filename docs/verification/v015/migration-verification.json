@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "from": "0.14.0 actual published save",
+  "to": "0.15.0",
+  "checks": [
+    "Indoor position and dropped item stay in the existing floor plan",
+    "All twelve legacy loose stacks retain loaded ammunition and condition",
+    "Looted cupboard stays empty; other stock does not reroll on second load",
+    "Actor identities and existing district remain unchanged",
+    "Second launch retains the migrated state"
+  ]
+}

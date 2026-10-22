@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "version": "0.15.0",
+  "checks": [
+    "Finite player visibility with obstacle shadows and darker facade foliage; no animated door geometry",
+    "Closed house hides infected, health bars and ground loot on screen and minimap; static open doorway reveals them",
+    "Directional infected vision; static idle pixels; standing player is detected while crouching at the same distance stays hidden",
+    "Car search uses a timed progress ring, can be cancelled and opens loot only after completion",
+    "Bandaging progress ring; cancellation preserves the item; completion consumes once and stops bleeding",
+    "All 18 infected × four directions × walk/run visibly alternate both leg supports; eight motion GIFs"
+  ],
+  "animatedCycles": 144,
+  "errors": []
+}

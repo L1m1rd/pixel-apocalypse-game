@@ -15,3 +15,15 @@
 Старые миры и их инвентарь сохраняются. Версия планировки остаётся 4: изменение зрения не пересоздаёт деревню, не восстанавливает обысканные шкафы и не выдаёт предметы повторно.
 
 Проверки: `node --test desktop/*.test.mjs`, `node tools/check-asset-consistency.cjs`, `node tools/check-village-assets.cjs`, `node tools/check-village-directions.cjs`, `node tools/check-v015-runtime.cjs`. Переменные `PIXEL_V015_EXE` и `PIXEL_V015_REVIEW` выбирают готовый EXE и папку отчёта; все проверки используют отдельный профиль.
+
+## Результаты готовой Windows-сборки
+
+Версия 0.15.0: 102 проверки пройдены, ошибок нет. Проверки канонических материалов, деревни и направлений проходят. Новых игровых сущностей и дублированных PNG не добавлено.
+
+В готовом EXE пройдены шесть групп проверок: ограничение видимости и мини-карты стенами, статичная дверь, сектор зрения заражённых, присед и обнаружение, отменяемый обыск, отменяемая перевязка. Все 18 заражённых проверены в четырёх направлениях при ходьбе и беге — 144 цикла. Ошибок отрисовки нет.
+
+Настоящее сохранение опубликованной 0.14.0 дважды загружено отдельным профилем: позиции в доме и предмета на полу, боезапас, состояние двенадцати старых стаков, пустой обысканный шкаф и идентичности существ сохраняются.
+
+Отчёты: [Windows](verification/v015/verification.json), [сохранения](verification/v015/migration-verification.json), [сборка и SHA-256](verification/v015/release.json), [102 проверки](verification/v015/unit-tests.tap).
+
+Визуальная проверка: [обзор](../replica/clone-screens/v015/01-field-of-view.png), [закрытый вход](../replica/clone-screens/v015/02-closed-door-blocks-vision.png), [открытый вход](../replica/clone-screens/v015/03-open-door-reveals.png), [присед](../replica/clone-screens/v015/06-crouch-hidden.png), [обыск](../replica/clone-screens/v015/07-search-progress-ring.png), [перевязка](../replica/clone-screens/v015/08-bandage-progress-ring.png), [шаг](../replica/clone-screens/v015/motion-walk-east.gif), [бег](../replica/clone-screens/v015/motion-run-south.gif).
