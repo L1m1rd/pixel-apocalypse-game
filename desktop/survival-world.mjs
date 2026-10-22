@@ -1,3 +1,4 @@
+import {villageInside,villageObstacle,villageBlocked} from './village-world.mjs';
 import {unproject} from './item-lab-movement.mjs';
 import {KEYS,clamp,interactionDistance as distance,visibleBetween} from './survival-rules.mjs';
 export const WORLD_CENTER={x:4096,y:4096};
@@ -29,8 +30,9 @@ export function generateZone(seed,zone=1){
  for(let i=0;i<12;i++)actor(i%4===0?'wolf':i%5===0?'bear':'hare',3050+rand()*1200,3050+rand()*600,{skin:i%4===0?'wolf':i%5===0?'brown_bear':'hare',name:i%4===0?'Волк':i%5===0?'Медведь':'Заяц'});
  return {objects,actors};
 }
-export function inHouse(p,o){return o.kind==='house'&&Math.abs(p.x-o.x)<48&&Math.abs(p.y-o.y)<36;}
+export function inHouse(p,o){return o.halfW?villageInside(p,o):o.kind==='house'&&Math.abs(p.x-o.x)<48&&Math.abs(p.y-o.y)<36;}
 export function blocked(p,objects){return objects.some(o=>{
+  if(o.halfW||o.houseId||o.kind==='gate'||o.solid)return villageObstacle(p,o);
   if(o.kind==='tree'&&!o.used)return Math.hypot(p.x-o.x,p.y-o.y)<10;
   if(o.kind==='barricade'&&o.condition>0)return Math.abs(p.x-o.x)<39&&Math.abs(p.y-o.y)<13;
   if(o.kind!=='house')return false;const x=Math.abs(p.x-o.x),y=p.y-o.y;
@@ -38,12 +40,12 @@ export function blocked(p,objects){return objects.some(o=>{
  });}
 export function moveWorld(p,screenDx,screenDy,objects,speedFactor=1){const delta=unproject(screenDx,screenDy),dx=delta.x*speedFactor,dy=delta.y*speedFactor,n=Math.max(1,Math.ceil(Math.hypot(dx,dy)/3));let {x,y}=p;for(let i=0;i<n;i++){if(!blocked({x:x+dx/n,y},objects))x=clamp(x+dx/n,32,8160);if(!blocked({x,y:y+dy/n},objects))y=clamp(y+dy/n,32,8160);}return {x,y};}
 export function actorTick(a,dt,player,world,inv,rng,damage){
- a.elapsed+=dt*1000;if(a.lureLeft>0&&!a.dead){a.lureLeft-=dt;moveToward(a,{x:a.lureX,y:a.lureY},dt,55,world.objects);return;}a.cooldown=Math.max(0,a.cooldown-dt);a.alert=Math.max(0,a.alert-dt);if(a.dead){a.action='death';return;}const d=distance(a,player),hostile=['infected','bandit','wolf','bear'].includes(a.kind);
- if(!hostile){if(a.kind==='friendly'&&a.recruited){const target=world.actors.find(b=>!b.dead&&['infected','bandit','wolf','bear'].includes(b.kind)&&distance(a,b)<300&&visibleBetween(a,b,world.objects));if(target&&a.cooldown<=0){target.health-=18;a.cooldown=1.3;if(target.health<=0){target.health=0;target.dead=true;target.elapsed=0;}}if(d>85)moveToward(a,player,dt,60,world.objects);}else if(a.kind==='hare'&&d<150){moveToward(a,{x:a.x+(a.x-player.x),y:a.y+(a.y-player.y)},dt,100,world.objects);}else a.action='idle';return;}
+ a.elapsed+=dt*1000;if(a.lureLeft>0&&!a.dead){a.lureLeft-=dt;moveToward(a,{x:a.lureX,y:a.lureY},dt,55,world.objects,world.villageMode?world.seed:null);return;}a.cooldown=Math.max(0,a.cooldown-dt);a.alert=Math.max(0,a.alert-dt);if(a.dead){a.action='death';return;}const d=distance(a,player),hostile=['infected','bandit','wolf','bear'].includes(a.kind);
+ if(!hostile){if(a.kind==='friendly'&&a.recruited){const target=world.actors.find(b=>!b.dead&&['infected','bandit','wolf','bear'].includes(b.kind)&&distance(a,b)<300&&visibleBetween(a,b,world.objects));if(target&&a.cooldown<=0){target.health-=18;a.cooldown=1.3;if(target.health<=0){target.health=0;target.dead=true;target.elapsed=0;}}if(d>85)moveToward(a,player,dt,60,world.objects,world.villageMode?world.seed:null);}else if(a.kind==='hare'&&d<150){moveToward(a,{x:a.x+(a.x-player.x),y:a.y+(a.y-player.y)},dt,100,world.objects,world.villageMode?world.seed:null);}else a.action='idle';return;}
  const noise=player.action==='run'?250:player.crouched?65:140,stealth=world.perks.includes('quiet')?.7:1,vision=(world.darkness>.4?180:310)*stealth;
  if((d<vision&&visibleBetween(a,player,world.objects)||d<noise*stealth)||a.alert>0){a.alert=4;if(a.kind==='bandit'&&d<260&&a.cooldown<=0&&visibleBetween(a,player,world.objects)){damage(14,'bullet');a.cooldown=2;a.action='attack';}
-  else if(d<36&&a.cooldown<=0){damage(a.kind==='bear'?28:a.kind==='wolf'?14:10,'melee');a.cooldown=1.2;a.action='attack';}
-  else if(d>30&&(a.action!=='attack'||a.cooldown<.75)){moveToward(a,player,dt,a.kind==='wolf'?95:a.kind==='bear'?70:player.action==='run'?65:48,world.objects);}
- }else if(a.cooldown<=0&&distance(a,{x:a.homeX,y:a.homeY})>20)moveToward(a,{x:a.homeX,y:a.homeY},dt,24,world.objects);else a.action='idle';
+  else if(d<36&&a.cooldown<=0&&visibleBetween(a,player,world.objects)){damage(a.kind==='bear'?28:a.kind==='wolf'?14:10,'melee');a.cooldown=1.2;a.action='attack';}
+  else if(d>30&&(a.action!=='attack'||a.cooldown<.75)){moveToward(a,player,dt,a.kind==='wolf'?95:a.kind==='bear'?70:player.action==='run'?65:48,world.objects,world.villageMode?world.seed:null);}
+ }else if(a.cooldown<=0&&distance(a,{x:a.homeX,y:a.homeY})>20)moveToward(a,{x:a.homeX,y:a.homeY},dt,24,world.objects,world.villageMode?world.seed:null);else a.action='idle';
 }
-function moveToward(a,target,dt,speed,objects){const dx=target.x-a.x,dy=target.y-a.y,len=Math.max(1,Math.hypot(dx,dy));const sx=(dx-dy)*.9,sy=(dx+dy)*.55;a.direction=Math.abs(sx)>Math.abs(sy)?sx>0?'east':'west':sy>0?'south':'north';const p={x:a.x+dx/len*speed*dt,y:a.y+dy/len*speed*dt};if(!blocked(p,objects)){a.x=p.x;a.y=p.y;a.action='run';}else{const side={x:a.x-dy/len*speed*dt,y:a.y+dx/len*speed*dt};if(!blocked(side,objects)){a.x=side.x;a.y=side.y;}a.action='walk';}}
+function moveToward(a,target,dt,speed,objects,seed=null){const collides=p=>seed===null?blocked(p,objects):villageBlocked(p,objects,seed);const dx=target.x-a.x,dy=target.y-a.y,len=Math.max(1,Math.hypot(dx,dy));const sx=(dx-dy)*.9,sy=(dx+dy)*.55;a.direction=Math.abs(sx)>Math.abs(sy)?sx>0?'east':'west':sy>0?'south':'north';const p={x:a.x+dx/len*speed*dt,y:a.y+dy/len*speed*dt};if(!collides(p)){a.x=p.x;a.y=p.y;a.action='run';}else{const side={x:a.x-dy/len*speed*dt,y:a.y+dx/len*speed*dt};if(!collides(side)){a.x=side.x;a.y=side.y;}a.action='walk';}}

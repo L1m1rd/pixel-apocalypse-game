@@ -6,9 +6,10 @@ function validateSave(s){
  if(s.district?.mapId==='northern-dachas-v1')result.district={mapId:'northern-dachas-v1',openedGates:[...new Set((Array.isArray(s.district.openedGates)?s.district.openedGates:[]).filter(id=>typeof id==='string'&&/^gate-(?:[0-9]|[1-7][0-9])$/.test(id)))].slice(0,80)};
 
  if(s.district?.mapId==='item-lab-v1')result.district={mapId:'item-lab-v1'};
+ if(s.district?.mapId==='northern-dachas-survival-v2')result.district={mapId:'northern-dachas-survival-v2'};
  const inventory=require('./inventory-save.cjs').sanitizeInventory(s.inventory);if(inventory)result.inventory=inventory;
  const survival=require('./survival-save.cjs').sanitizeSurvival(s.survival);if(survival)result.survival=survival;
- const campaign=require('./campaign-save.cjs').sanitizeCampaign(s.campaign);if(campaign)result.campaign=campaign;result.gameMode=s.gameMode==='campaign'?'campaign':'laboratory';
+ const campaign=require('./campaign-save.cjs').sanitizeCampaign(s.campaign);if(campaign)result.campaign=campaign;result.gameMode=s.gameMode==='survival'?'survival':s.gameMode==='campaign'?'campaign':'laboratory';
  return result;
 }
 module.exports={validateSave};

@@ -1,0 +1,15 @@
+/* World HUD uses the existing visual tokens; the playfield stays visible. */
+:root {--village-panel:rgba(21,32,23,.88);--village-ink:#f1e9ce;--village-line:#a79867;--village-gap:12px;--village-bottom:16px;}
+#game-screen .controls {max-width:760px;left:50%;bottom:var(--village-bottom);transform:translateX(-50%);padding:8px var(--village-gap);font-size:11px;opacity:.82;background:var(--village-panel);}
+#game-screen .controls span:nth-child(n+9) {display:none;}
+#survival-hud {background:var(--village-panel);color:var(--village-ink);border-color:var(--village-line);max-width:850px;width:max-content;height:auto;min-height:0;display:flex;flex-wrap:wrap;align-items:center;left:50%;right:auto;bottom:62px;transform:translateX(-50%);top:auto;padding:6px 10px;gap:10px;font-size:11px;}
+#survival-hud label {margin:0;padding:0;min-height:0;height:auto;display:flex;align-items:center;gap:5px;font-size:11px;}
+#survival-hud meter {width:45px;height:7px;margin:0;}
+#survival-hud>span {white-space:nowrap;}
+#survival-hud button {font-size:11px;padding:5px 8px;}
+#survival-hud small {display:none;}
+.world-title {background:var(--village-panel);}
+.world-title b {color:var(--village-ink);}
+#district-interaction {bottom:135px;}
+.hide-hud #survival-hud {display:none;}
+@media(max-width:1050px){#game-screen .controls {max-width:610px;}#survival-hud {max-width:630px;bottom:86px;}#district-interaction {bottom:155px;}}
