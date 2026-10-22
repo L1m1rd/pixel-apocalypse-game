@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": [
+    "Continuous run starts directly in village; four screen movement directions; detailed world and fixed sunlight",
+    "Map with eight sectors, inventory and normal starter equipment"
+  ],
+  "errors": [],
+  "metrics": {
+    "visibleObjects": 1289,
+    "visibleDecor": 1162,
+    "assetTypes": 29,
+    "worldObjects": 1645,
+    "worldDecor": 21092,
+    "houses": 80,
+    "sectors": 8,
+    "shadowCasters": 83,
+    "interior": null,
+    "roofHidden": false,
+    "sun": {
+      "id": "northern-dachas-afternoon",
+      "static": true,
+      "azimuthDegrees": 315,
+      "elevationDegrees": 43,
+      "direction": {
+        "x": -0.7071067811865476,
+        "y": -0.7071067811865476
+      },
+      "color": "#ffe5b7",
+      "ambient": "#9baeb7",
+      "shadowColor": "#182b28",
+      "shadowOpacity": 0.24,
+      "warmth": 0.02
+    },
+    "terrainSaturation": 1
+  }
+}

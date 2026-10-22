@@ -17,5 +17,3 @@ async function main(){
  }finally{await app?.close().catch(()=>{});}
 }
 main().catch(e=>{console.error(e);console.error(JSON.stringify({errors}));process.exitCode=1;});
-
-

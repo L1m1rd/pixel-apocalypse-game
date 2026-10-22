@@ -32,4 +32,3 @@ features 95.5  (34 counted, must-haves 24 of 24 done)
 ## Поведение и доказательства
 
 Сценарии F01–F07 покрываются campaign.test.mjs и двумя сценариями окна Electron. Ручной проход всей кампании от нуля до финальной цели человеком не заявляется; конечное условие проверяется автоматизированным тестом. Итоговые результаты Windows EXE сохраняются отдельно в output/campaign-v010-review, отчёты проверки — verification.json, packaged-verification.json, edge-verification.json и edge-packaged-verification.json.
-
