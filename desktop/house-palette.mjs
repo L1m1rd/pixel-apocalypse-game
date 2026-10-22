@@ -1,0 +1,2 @@
+// A runtime material adjustment. Canonical PNGs and their owner bindings stay intact.
+export function shadeFacadeLeaves(data){let changed=0;for(let i=0;i<data.length;i+=4){const r=data[i],g=data[i+1],b=data[i+2],max=Math.max(r,g,b),min=Math.min(r,g,b);if(data[i+3]<10||max<100||max-min<32||g<r*.82||g<b*1.18)continue;const grey=(r+g+b)/3;data[i]=Math.round((r*.78+grey*.22)*.76);data[i+1]=Math.round((g*.78+grey*.22)*.72);data[i+2]=Math.round((b*.78+grey*.22)*.8);changed++;}return changed;}

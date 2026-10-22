@@ -1,3 +1,4 @@
+import {sensePlayer,screenDistance,stealthProfile} from './perception.mjs';
 import {villageInside,villageObstacle,villageBlocked} from './village-world.mjs';
 import {unproject,project} from './item-lab-movement.mjs';
 import {faceActualMovement,screenFacing} from './locomotion.mjs';
@@ -41,13 +42,22 @@ export function blocked(p,objects){return objects.some(o=>{
  });}
 export function moveWorld(p,screenDx,screenDy,objects,speedFactor=1){const delta=unproject(screenDx,screenDy),dx=delta.x*speedFactor,dy=delta.y*speedFactor,n=Math.max(1,Math.ceil(Math.hypot(dx,dy)/3));let {x,y}=p;for(let i=0;i<n;i++){if(!blocked({x:x+dx/n,y},objects))x=clamp(x+dx/n,32,8160);if(!blocked({x,y:y+dy/n},objects))y=clamp(y+dy/n,32,8160);}return {x,y};}
 export function actorTick(a,dt,player,world,inv,rng,damage){
- a.elapsed+=dt*1000;if(a.lureLeft>0&&!a.dead){a.lureLeft-=dt;moveToward(a,{x:a.lureX,y:a.lureY},dt,55,world.objects,world.villageMode?world.seed:null);return;}a.cooldown=Math.max(0,a.cooldown-dt);a.alert=Math.max(0,a.alert-dt);if(a.dead){a.action='death';return;}const d=distance(a,player),hostile=['infected','bandit','wolf','bear'].includes(a.kind);
- if(!hostile){if(a.kind==='friendly'&&a.recruited){const target=world.actors.find(b=>!b.dead&&['infected','bandit','wolf','bear'].includes(b.kind)&&distance(a,b)<300&&visibleBetween(a,b,world.objects));if(target&&a.cooldown<=0){target.health-=18;a.cooldown=1.3;if(target.health<=0){target.health=0;target.dead=true;target.elapsed=0;}}if(d>85)moveToward(a,player,dt,60,world.objects,world.villageMode?world.seed:null);}else if(a.kind==='hare'&&d<150){moveToward(a,{x:a.x+(a.x-player.x),y:a.y+(a.y-player.y)},dt,100,world.objects,world.villageMode?world.seed:null);}else a.action='idle';return;}
- const noise=player.action==='run'?250:player.crouched?65:140,stealth=world.perks.includes('quiet')?.7:1,vision=(world.darkness>.4?180:310)*stealth;
- if((d<vision&&visibleBetween(a,player,world.objects)||d<noise*stealth)||a.alert>0){a.alert=4;if(a.kind==='bandit'&&d<260&&a.cooldown<=0&&visibleBetween(a,player,world.objects)){damage(14,'bullet');a.cooldown=2;a.action='attack';}
-  else if(d<36&&a.cooldown<=0&&visibleBetween(a,player,world.objects)){damage(a.kind==='bear'?28:a.kind==='wolf'?14:10,'melee');a.cooldown=1.2;a.action='attack';}
-  else if(d>30&&(a.action!=='attack'||a.cooldown<.75)){moveToward(a,player,dt,a.kind==='wolf'?95:a.kind==='bear'?70:player.action==='run'?65:48,world.objects,world.villageMode?world.seed:null);}
- }else if(a.cooldown<=0&&distance(a,{x:a.homeX,y:a.homeY})>20)moveToward(a,{x:a.homeX,y:a.homeY},dt,24,world.objects,world.villageMode?world.seed:null);else a.action='idle';
+ a.elapsed+=dt*1000;a.cooldown=Math.max(0,a.cooldown-dt);a.alert=Math.max(0,(a.alert??0)-dt);if(a.dead){a.action='death';return;}
+ if(a.lureLeft>0){a.lureLeft-=dt;moveToward(a,{x:a.lureX,y:a.lureY},dt,55,world.objects,world.villageMode?world.seed:null);return;}
+ const d=distance(a,player),hostile=['infected','bandit','wolf','bear'].includes(a.kind);
+ if(!hostile){if(a.kind==='friendly'&&a.recruited){const target=world.actors.find(b=>!b.dead&&['infected','bandit','wolf','bear'].includes(b.kind)&&distance(a,b)<300&&visibleBetween(a,b,world.objects));if(target&&a.cooldown<=0){target.health-=18;a.cooldown=1.3;if(target.health<=0){target.health=0;target.dead=true;target.elapsed=0;}}if(d>85)moveToward(a,player,dt,60,world.objects,world.villageMode?world.seed:null);else a.action='idle';}else if(a.kind==='hare'&&d<150)moveToward(a,{x:a.x+(a.x-player.x),y:a.y+(a.y-player.y)},dt,100,world.objects,world.villageMode?world.seed:null);else a.action='idle';return;}
+ const stealth=world.stealth??stealthProfile(player,world),senses=sensePlayer(a,player,world,stealth);a.seesPlayer=senses.sees;a.hearsPlayer=senses.hears;
+ a.suspicion=clamp((a.suspicion??0)+(senses.sees?dt*(senses.distance<45?5:stealth.crouched?1:2.2):-dt*.32),0,1);
+ if(senses.hears){a.lastKnown={x:player.x,y:player.y};a.searchLeft=4;a.suspicion=Math.max(a.suspicion,.28);}
+ for(const n of world.noises??[])if(screenDistance(a,n)<n.radius*(visibleBetween(a,n,world.objects)?1:.4)){a.lastKnown={x:n.x,y:n.y};a.searchLeft=6;a.suspicion=Math.max(a.suspicion,.5);}
+ if(senses.sees){a.lastKnown={x:player.x,y:player.y};a.searchLeft=5;if(a.suspicion>=1)a.alert=4;}
+ if(senses.sees&&a.alert>0){if(a.kind==='bandit'&&d<260&&a.cooldown<=0){damage(14,'bullet');a.cooldown=2;a.action='attack';}
+  else if(d<36&&a.cooldown<=0){damage(a.kind==='bear'?28:a.kind==='wolf'?14:10,'melee');a.cooldown=1.2;a.action='attack';}
+  else if(d>30&&(a.action!=='attack'||a.cooldown<.75))moveToward(a,player,dt,a.kind==='wolf'?95:a.kind==='bear'?70:player.action==='run'?65:48,world.objects,world.villageMode?world.seed:null);
+  else if(a.action!=='attack'||a.cooldown<.75)a.action='idle';
+ }else if(a.lastKnown&&(a.searchLeft??0)>0){a.searchLeft-=dt;const last=a.lastKnown;if(distance(a,last)>14)moveToward(a,last,dt,a.alert>0?48:30,world.objects,world.villageMode?world.seed:null);else{a.action='idle';if(a.searchLeft<1){a.lastKnown=null;a.alert=0;}}}
+ else if(a.cooldown<=0&&distance(a,{x:a.homeX,y:a.homeY})>20)moveToward(a,{x:a.homeX,y:a.homeY},dt,24,world.objects,world.villageMode?world.seed:null);else a.action='idle';
+ if(a.action==='idle')a.elapsed=0;
 }
 export function moveToward(a,target,dt,speed,objects,seed=null){
  const collides=p=>seed===null?blocked(p,objects):villageBlocked(p,objects,seed),before={x:a.x,y:a.y},dx=target.x-a.x,dy=target.y-a.y,len=Math.hypot(dx,dy);if(len<.1){a.action='idle';return;}
@@ -57,5 +67,5 @@ export function moveToward(a,target,dt,speed,objects,seed=null){
   const preferred=(a.avoidLeft??0)>0?(a.avoidSide??1):1,choices=[{x:a.x+dx/len*step,y:a.y},{x:a.x,y:a.y+dy/len*step},...([preferred,-preferred].map(sign=>({x:a.x-uy*step*sign,y:a.y+ux*step*sign,sign})))].filter(p=>Math.hypot(p.x-a.x,p.y-a.y)>.002&&!collides(p));
   choices.sort((p,q)=>Math.hypot(target.x-p.x,target.y-p.y)-Math.hypot(target.x-q.x,target.y-q.y)+(p.sign&&p.sign!==preferred?step*.7:0)-(q.sign&&q.sign!==preferred?step*.7:0));const next=choices[0];if(next){a.x=next.x;a.y=next.y;if(next.sign){a.avoidSide=next.sign;a.avoidLeft=.45;}}
  }
- a.avoidLeft=Math.max(0,(a.avoidLeft??0)-dt);const moved=faceActualMovement(a,before,speed>=60?'run':'walk');if(!moved){a.elapsed=0;return;}a.gaitDistance=(a.gaitDistance??0)+moved;const desired=project(ux*step,uy*step);a.elapsed=Math.max(0,a.elapsed-dt*1000*(1-Math.min(1,moved/Math.max(.001,Math.hypot(desired.x,desired.y)))));
+ a.avoidLeft=Math.max(0,(a.avoidLeft??0)-dt);const moved=faceActualMovement(a,before,speed>=60?'run':'walk');if(!moved){a.elapsed=0;return;}a.gaitDistance=(a.gaitDistance??0)+moved;a.gaitPhase=(a.gaitPhase??0)+moved/(speed>=60?48:34);const desired=project(ux*step,uy*step);a.elapsed=Math.max(0,a.elapsed-dt*1000*(1-Math.min(1,moved/Math.max(.001,Math.hypot(desired.x,desired.y)))));
 }
