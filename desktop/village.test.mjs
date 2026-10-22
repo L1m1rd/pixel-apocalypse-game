@@ -1,3 +1,4 @@
+import {housePoint,houseLocal,doorNormal,rotateLocal} from './object-facing.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
@@ -13,12 +14,12 @@ test('district references are diverse, canonical and persistent; no extraction o
 test('every house has a real enterable doorway, furniture collisions and protected internal loot',()=>{
  setProjectionMode('isometric');const inv=createInventory(catalog),engine=createSurvival(inv,null,171),p={...VILLAGE_SPAWN,action:'idle'};engine.enable(p,{village:true});
  for(const h of engine.state.objects.filter(o=>o.kind==='house')){
-  const door=villageDoor(h);h.doorOpen=false;Object.assign(p,{x:door.x,y:door.y+24});assert(engine.canInteract(h,p),h.name+' door unreachable');
-  const closed=moveVillage(p,0,-60,171,engine.state.objects);assert(closed.y>=door.y+5,h.name+' closed door leaks');assert(engine.interact(h,p));
-  const next=moveVillage(p,0,-65,171,engine.state.objects);assert(villageInside(next,h),h.name+' open door blocks entry');
-  Object.assign(p,next);const wall=moveVillage(p,200,0,171,engine.state.objects);assert(wall.x<h.x+h.halfW,h.name+' side wall leaks');
+  const door=villageDoor(h);h.doorOpen=false;const n=doorNormal(h);Object.assign(p,{x:door.x+n.x*24,y:door.y+n.y*24});assert(engine.canInteract(h,p),h.name+' door unreachable');
+  const closed=moveVillage(p,-n.x*60,-n.y*60,171,engine.state.objects);assert(!villageInside(closed,h),h.name+' closed door leaks');assert(engine.interact(h,p));
+  const next=moveVillage(p,-n.x*65,-n.y*65,171,engine.state.objects);assert(villageInside(next,h),h.name+' open door blocks entry');
+  Object.assign(p,next);const side=rotateLocal(200,0,h.orientation),wall=moveVillage(p,side.x,side.y,171,engine.state.objects);assert(houseLocal(wall,h).x<h.halfW,h.name+' side wall leaks');
   const f=engine.state.objects.find(o=>o.houseId===h.id&&o.asset==='bed');assert(villageBlocked(f,engine.state.objects,171));
-  const chest=engine.state.objects.find(o=>o.houseId===h.id&&o.kind==='chest');Object.assign(p,{x:h.x-90,y:h.y-34});assert(!engine.canInteract(chest,p),'loot through outside wall');
+  const chest=engine.state.objects.find(o=>o.houseId===h.id&&o.kind==='chest');Object.assign(p,housePoint(h,-90,-34));assert(!engine.canInteract(chest,p),'loot through outside wall');
  }
 });
 test('save retains furniture, doors, damage, deaths and looted stock without reverting to raids',()=>{
@@ -35,6 +36,6 @@ test('roads and every house entrance belong to one walkable district',()=>{
  function free(x,y){if(x<0||y<0||x>=W||y>=H)return false;const id=y*W+x;if(!occupancy[id])occupancy[id]=villageBlocked(point(x,y),s.objects,seed)?-1:1;return occupancy[id]===1;}
  const start=cell(VILLAGE_SPAWN);let head=0,tail=1;queue[0]=start.y*W+start.x;seen[queue[0]]=1;
  while(head<tail){const n=queue[head++],x=n%W,y=Math.floor(n/W);for(const [dx,dy]of [[1,0],[-1,0],[0,1],[0,-1]]){const xx=x+dx,yy=y+dy,id=yy*W+xx;if(!free(xx,yy)||seen[id])continue;const middle=point(x+dx*.5,y+dy*.5);if(villageBlocked(middle,s.objects,seed))continue;seen[id]=1;queue[tail++]=id;}}
- const inaccessible=[];for(const h of s.objects.filter(o=>o.kind==='house')){const door=villageDoor(h);let found=false;for(let dx=-12;dx<=12;dx+=6)for(let dy=18;dy<=50;dy+=8){const p=cell({x:door.x+dx,y:door.y+dy});if(seen[p.y*W+p.x])found=true;}if(!found)inaccessible.push(h.name+' '+h.x+','+h.y);}
+ const inaccessible=[];for(const h of s.objects.filter(o=>o.kind==='house')){const door=villageDoor(h);let found=false;for(let dx=-12;dx<=12;dx+=6)for(let dy=18;dy<=50;dy+=8){const n=doorNormal(h),p=cell({x:door.x+n.x*dy+n.y*dx,y:door.y+n.y*dy-n.x*dx});if(seen[p.y*W+p.x])found=true;}if(!found)inaccessible.push(h.name+' '+h.x+','+h.y);}
  assert.deepEqual(inaccessible,[],'entrances isolated by fences or scenery');assert(tail>30000);
 });

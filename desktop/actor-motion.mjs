@@ -1,0 +1,5 @@
+export function actorFrame(a,def){
+ const action=a.dead&&def.actions.includes('death')?'death':def.actions.includes(a.action)?a.action:def.actions.includes('idle')?'idle':def.actions[0],row=def.actions.indexOf(action),timing=def.timings?.[action]??{},count=def.frameCounts?.[a.direction]?.[action]??def.frameCount??6,ms=timing.durationMs??timing.frameMs??(action==='run'?90:135),repeat=action==='death'?false:timing.repeat!==0,raw=Math.max(0,Math.floor((a.elapsed??0)/ms)),frame=repeat?raw%count:Math.min(count-1,raw),size=def.size;
+ return {action,row,frame,x:frame*size,y:row*size,w:size,h:size,scale:def.worldScale??.8,originX:def.originX??.5,originY:def.origin??.875};
+}
+export function motionDuration(a,definitions,action=a.action){const def=definitions?.[a.skin]??definitions?.['01-A'],t=def?.timings?.[action],count=def?.frameCounts?.[a.direction]?.[action]??def?.frameCount??6;return ((t?.durationMs??t?.frameMs??(action==='hurt'?80:110))*count)/1000;}

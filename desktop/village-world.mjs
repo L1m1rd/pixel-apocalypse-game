@@ -1,3 +1,4 @@
+import {housePoint,houseLocal,doorNormal,rotateSolid,quarterTurn} from './object-facing.mjs';
 // One persistent district: no lobby, extraction timer or reset on entering a house.
 export const VILLAGE_ID='northern-dachas-survival-v2';
 export const VILLAGE_BOUNDS={left:800,top:400,right:7200,bottom:5800};
@@ -15,15 +16,12 @@ export const VILLAGE_SECTORS=[
 const rng=seed=>{let n=seed>>>0;return()=>((n=(Math.imul(n,1664525)+1013904223)>>>0)/4294967296);};
 export const roadDistance=(p,road)=>{let d=Infinity;for(let i=1;i<road.points.length;i++){const a=road.points[i-1],b=road.points[i],dx=b[0]-a[0],dy=b[1]-a[1],t=Math.max(0,Math.min(1,((p.x-a[0])*dx+(p.y-a[1])*dy)/(dx*dx+dy*dy)));d=Math.min(d,Math.hypot(p.x-a[0]-dx*t,p.y-a[1]-dy*t));}return d;};
 export function villageSector(p){return VILLAGE_SECTORS.reduce((a,b)=>Math.hypot(p.x-a.x,p.y-a.y)<Math.hypot(p.x-b.x,p.y-b.y)?a:b).name;}
-export function footprint(h){return {w:h.halfW??76,h:h.halfH??62};}
-export function villageInside(p,h){const {w,h:hh}=footprint(h);return h.kind==='house'&&Math.abs(p.x-h.x)<w-7&&Math.abs(p.y-h.y)<hh-7;}
-export function villageDoor(h){return {x:h.x+(h.doorOffset??0),y:h.y+footprint(h).h};}
-export function villageWalls(o){const {w,h}=footprint(o),left=o.x-w,top=o.y-h,door=o.x+(o.doorOffset??0);return [{x:left,y:top,w:w*2,h:7},{x:left,y:top,w:7,h:h*2},{x:o.x+w-7,y:top,w:7,h:h*2},...(o.doorOpen?[{x:left,y:o.y+h-7,w:door-23-left,h:7},{x:door+23,y:o.y+h-7,w:o.x+w-door-23,h:7}]:[{x:left,y:o.y+h-7,w:w*2,h:7}])];}
+export function footprint(h){const w=h.halfW??76,hh=h.halfH??62;return quarterTurn(h.orientation)%2?{w:hh,h:w}:{w,h:hh};}
+export function villageInside(p,h){if(h.kind!=='house')return false;const q=houseLocal(p,h);return Math.abs(q.x)<(h.halfW??76)-7&&Math.abs(q.y)<(h.halfH??62)-7;}
+export function villageDoor(h){return housePoint(h,h.doorOffset??0,h.halfH??62);}
+export function villageWalls(o){const w=o.halfW??76,h=o.halfH??62,d=o.doorOffset??0,local=[{x:-w,y:-h,w:w*2,h:7},{x:-w,y:-h,w:7,h:h*2},{x:w-7,y:-h,w:7,h:h*2},...(o.doorOpen?[{x:-w,y:h-7,w:d-23+w,h:7},{x:d+23,y:h-7,w:w-d-23,h:7}]:[{x:-w,y:h-7,w:w*2,h:7}])];return local.map(r=>{const q=housePoint(o,r.x+r.w/2,r.y+r.h/2),size=rotateSolid(r,o.orientation);return {x:q.x-size.w/2,y:q.y-size.h/2,w:size.w,h:size.h};});}
 export function villageObstacle(p,o,pad=6){
- if(o.kind==='house'){const s=footprint(o),x=p.x-o.x,y=p.y-o.y;if(Math.abs(x)>s.w+pad||Math.abs(y)>s.h+pad)return false;
-  if(Math.abs(x)>s.w-7-pad||y<-s.h+7+pad)return true;
-  return y>s.h-7-pad&&(!o.doorOpen||Math.abs(x-(o.doorOffset??0))>23-pad);
- }
+ if(o.kind==='house'){const r=footprint(o);if(Math.abs(p.x-o.x)>r.w+pad||Math.abs(p.y-o.y)>r.h+pad)return false;return villageWalls(o).some(r=>p.x+pad>r.x&&p.x-pad<r.x+r.w&&p.y+pad>r.y&&p.y-pad<r.y+r.h);}
  if(o.kind==='tree')return !o.used&&Math.hypot(p.x-o.x,p.y-o.y)<(o.radius??9)+pad;
  if(o.kind==='gate')return !o.doorOpen&&Math.abs(p.x-o.x)<o.w/2+pad&&Math.abs(p.y-o.y)<4+pad;
  if(o.solid)return Math.abs(p.x-o.x)<o.solid.w/2+pad&&Math.abs(p.y-o.y)<o.solid.h/2+pad;
@@ -62,27 +60,27 @@ export function villageScenery(seed=1){
  const plants=['grass-green','grass-yellow','grass-white','grass-nettle','grass-clover','grass-violet','grass-golden'];
  const shrubs=['thicket-bramble','thicket-fern','thicket-flower','thicket-sapling','wild-rose','hazel'];
  const props=['wood-shelter','workbench-tools','rain-barrel-group','crate-group','salvage-boards','gas-cylinders','tool-rack','compost-box','pallet-aged','boiler-rusty','water-tank','wheelbarrow','tire-stack','plant-pots','roof-debris','brick-debris'];
- const deco=(asset,x,y,w,h,extra={})=>decor.push({asset,x,y,w,h,...extra});
+ const deco=(asset,x,y,w,h,extra={})=>decor.push({asset,x,y,w,h,mirror:((Math.round(x)*13+Math.round(y)*7)&1)===1,...extra});
  function fence(x1,y1,x2,y2){const len=Math.hypot(x2-x1,y2-y1),n=Math.ceil(len/40);for(let k=0;k<n;k++){const a={x:x1+(x2-x1)*k/n,y:y1+(y2-y1)*k/n},b={x:x1+(x2-x1)*(k+1)/n,y:y1+(y2-y1)*(k+1)/n};fences.push({a,b,height:26+random()*3,missing:random()<.035});}}
  const loot=['item/food-canned-food','item/food-water-bottle','item/medicine-water-bandage','item/materials-cloth','item/materials-duct-tape','ammo/pistol@closed','item/materials-scrap','item/resource-harvest-boards'];
  for(const [i,[sector,x,y]]of placements.entries()){
   const px=x-190,py=y-150,pw=340+random()*28,ph=315+random()*30;
   const plot={id:'yard-'+i,index:i,sector,x:px,y:py,w:pw,h:ph};plots.push(plot);
-  const house=obj('house',houses[i%houses.length],x,y,{name:'Дача №'+(i+1)+' · '+VILLAGE_SECTORS.find(s=>s.id===sector).name,halfW:76,halfH:62,doorOffset:-8,doorOpen:i<2,sectorId:sector,layout:i%4,visualW:250+random()*16,visualH:195+random()*20});plot.house=house;
+  const house=obj('house',houses[i%houses.length],x,y,{name:'Дача №'+(i+1)+' · '+VILLAGE_SECTORS.find(s=>s.id===sector).name,halfW:76,halfH:62,doorOffset:-8,doorOpen:i<2,sectorId:sector,layout:i%4,orientation:i%4,variantIndex:i%houses.length,visualW:250+random()*16,visualH:195+random()*20});plot.house=house;
   const door=villageDoor(house);let nearest=roads.slice(0,5).reduce((a,b)=>roadDistance(door,a)<roadDistance(door,b)?a:b);let q=null,best=Infinity;const mouth={x:door.x,y:py+ph+28};for(let n=1;n<nearest.points.length;n++){const a=nearest.points[n-1],b=nearest.points[n],dx=b[0]-a[0],dy=b[1]-a[1],t=Math.max(0,Math.min(1,((mouth.x-a[0])*dx+(mouth.y-a[1])*dy)/(dx*dx+dy*dy))),v=[a[0]+dx*t,a[1]+dy*t],d=Math.hypot(mouth.x-v[0],mouth.y-v[1]);if(d<best){best=d;q=v;}}
   // Each yard opens south, with a footpath that joins its nearby lane.
-  roads.push({width:26,kind:'path-rich',yard:true,points:[[door.x,door.y-4],[door.x+4,py+ph+28],[q[0],q[1]]]});
+  const normal=doorNormal(house),beyond=[door.x+normal.x*26,door.y+normal.y*26],exit=[door.x,py+ph+28],side=x+footprint(house).w+34;const path=house.orientation===2?[[door.x,door.y],beyond,[side,beyond[1]],[side,exit[1]],exit,q]:house.orientation===1||house.orientation===3?[[door.x,door.y],beyond,[beyond[0],exit[1]],exit,q]:[[door.x,door.y],beyond,exit,q];roads.push({width:26,kind:'path-rich',yard:true,points:path});
   fence(px,py,px+pw,py);fence(px,py,px,py+ph);fence(px+pw,py,px+pw,py+ph);fence(px,py+ph,door.x-28,py+ph);fence(door.x+28,py+ph,px+pw,py+ph);
   if(i%3===0)obj('gate','gate-plane',door.x,py+ph,{name:'Калитка дачи №'+(i+1),w:52,doorOpen:true});
   const items=[{asset:'wardrobe',dx:-49,dy:-34,w:40,h:66,solid:{w:25,h:20}},{asset:'bed',dx:43,dy:-30,w:58,h:43,solid:{w:30,h:42}},{asset:'table',dx:43,dy:23,w:45,h:38,solid:{w:25,h:23}},{asset:'stove',dx:-47,dy:15,w:35,h:51,solid:{w:23,h:24}}];
   if(i%2===1)items[2]={asset:'shelves',dx:44,dy:21,w:40,h:61,solid:{w:20,h:25}};
-  for(const [j,f]of items.entries())obj(j===0||j===2?'chest':'furniture',f.asset,x+f.dx,y+f.dy,{name:j===0?'Шкаф с вещами':j===2?'Припасы на полке':f.asset==='bed'?'Кровать':'Печь',houseId:house.id,visualW:f.w,visualH:f.h,solid:f.solid,stock:j===0||j===2?Array.from({length:1+i%3},(_,n)=>({key:loot[(i*3+j+n)%loot.length],qty:/ammo/.test(loot[(i*3+j+n)%loot.length])?6:1,loaded:0})):[]});
+  for(const [j,f]of items.entries()){const point=housePoint(house,f.dx,f.dy);obj(j===0||j===2?'chest':'furniture',f.asset,point.x,point.y,{orientation:(house.orientation+(f.asset==='bed'?1:f.asset==='stove'?2:0))%4,name:j===0?'Шкаф с вещами':j===2?'Припасы на полке':f.asset==='bed'?'Кровать':'Печь',houseId:house.id,visualW:f.w,visualH:f.h,solid:rotateSolid(f.solid,house.orientation),stock:j===0||j===2?Array.from({length:1+i%3},(_,n)=>({key:loot[(i*3+j+n)%loot.length],qty:/ammo/.test(loot[(i*3+j+n)%loot.length])?6:1,loaded:0})):[]});}
   const cupboards=objects.filter(o=>o.houseId===house.id&&o.kind==='chest'),gear=['item/boots-greaves-boots-1','item/pants-1-v1','item/backpacks-helmet-helmet','item/masks-vests-vest-1','item/backpacks-helmet-pack-2','item/jackets-1-v1'],tools=['item/weapons-axe','item/tools-shovel','item/gloves-tools-fishing-rod','item/electricity-flashlight','item/transport-toolbox','item/electricity-batteries','item/medicine-water-kit-small'];
   if(i%2===0)cupboards[0].stock.push({key:gear[(i/2|0)%gear.length],qty:1,loaded:0,condition:45+(i*17)%55,charge:85,contents:[]});
   if(i%3===1||sector==='greenhouse')cupboards[1].stock.push({key:sector==='greenhouse'?'item/tools-shovel':tools[i%tools.length],qty:1,loaded:0,condition:55+(i*13)%45,charge:65});
   if(i%5===2||sector==='greenhouse')cupboards[1].stock.push({key:i%2?'item/seeds-potato':'item/seeds-carrot',qty:2,loaded:0});
   if(i%11===4){const guns=['weapon/pm','weapon/izh-27','weapon/ak74'],ammo=['ammo/pistol@closed','ammo/shotgun@closed','ammo/rifle@closed'],pick=(i/11|0)%3;cupboards[1].stock.push({key:guns[pick],qty:1,loaded:0,condition:50+(i*7)%50},{key:ammo[pick],qty:8,loaded:0});}
-  if(i%3===0)obj('vehicle',vehicles[(i/3|0)%vehicles.length],px+62,py+ph-55,{name:'Брошенный '+['грузовик','фургон','пикап','седан','бортовой грузовик','автомобиль'][(i/3|0)%6],visualW:140,visualH:94,solid:{w:66,h:38},condition:0,fuel:0,stock:i%2?[{key:loot[(i+1)%loot.length],qty:1,loaded:0}]:[]});
+  if(i%3===0)obj('vehicle',vehicles[(i/3|0)%vehicles.length],px+62,py+ph-55,{orientation:(i/3|0)%4,variantIndex:(i/3|0)%vehicles.length,name:'Брошенный '+['грузовик','фургон','пикап','седан','бортовой грузовик','автомобиль'][(i/3|0)%6],visualW:140,visualH:94,solid:rotateSolid({w:66,h:38},(i/3|0)%4),condition:0,fuel:0,stock:i%2?[{key:loot[(i+1)%loot.length],qty:1,loaded:0}]:[]});
   if(i%2===0)deco(sector==='greenhouse'?'greenhouse-rich':'shed-rich',px+pw-64,py+ph-68,sector==='greenhouse'?143:103,sector==='greenhouse'?97:78,{solid:{w:65,h:45},caster:true});
   if(i%3===0)obj('bush','wild-rose',px+pw-24,py+ph-42,{name:'Ягодный куст',visualW:39,visualH:43});
   if(i%4===0||sector==='greenhouse')for(let b=0;b<(sector==='greenhouse'?3:2);b++)obj('garden','garden_bed',px+35+b*46,py+ph-87,{name:'Заросшая грядка',crop:i%2?'potato':null,growth:i%2?100:0,visualW:48,visualH:30});
@@ -115,7 +113,7 @@ export function villageScenery(seed=1){
  const clearFences=fences.filter(f=>!roads.some(r=>roadDistance({x:(f.a.x+f.b.x)/2,y:(f.a.y+f.b.y)/2},r)<r.width/2+15));
  const result={objects,actors,roads,plots,decor,fences:clearFences,wires};cache.set(seed,result);if(cache.size>4)cache.delete(cache.keys().next().value);return result;
 }
-export function generateVillage(seed){const s=villageScenery(seed);return {objects:structuredClone(s.objects),actors:structuredClone(s.actors),villageMode:true,mapId:VILLAGE_ID,bounds:{...VILLAGE_BOUNDS},raidMode:false,clock:13*60+30,weather:'clear',weatherLeft:420,enabled:true,dead:false};}
+export function generateVillage(seed){const s=villageScenery(seed);return {objects:structuredClone(s.objects),actors:structuredClone(s.actors),villageMode:true,mapId:VILLAGE_ID,bounds:{...VILLAGE_BOUNDS},raidMode:false,viewVersion:2,clock:13*60+30,weather:'clear',weatherLeft:420,enabled:true,dead:false};}
 const bins=new WeakMap();
 function sceneryBins(scene){if(bins.has(scene))return bins.get(scene);const map=new Map();const add=(r)=>{for(let y=Math.floor(r.y/128);y<=Math.floor((r.y+r.h)/128);y++)for(let x=Math.floor(r.x/128);x<=Math.floor((r.x+r.w)/128);x++){const key=x+','+y;if(!map.has(key))map.set(key,[]);map.get(key).push(r);}};
  for(const f of scene.fences)if(!f.missing)add({x:Math.min(f.a.x,f.b.x)-3,y:Math.min(f.a.y,f.b.y)-3,w:Math.abs(f.b.x-f.a.x)+6,h:Math.abs(f.b.y-f.a.y)+6});
@@ -129,3 +127,5 @@ export function villageBlocked(p,objects,seed=1){
  return false;
 }
 export function moveVillage(p,dx,dy,seed,objects){const n=Math.max(1,Math.ceil(Math.hypot(dx,dy)/3));let {x,y}=p;for(let i=0;i<n;i++){if(!villageBlocked({x:x+dx/n,y},objects,seed))x+=dx/n;if(!villageBlocked({x,y:y+dy/n},objects,seed))y+=dy/n;}return {x,y};}
+
+export function migrateVillageFacing(world,p,ground=[]){if(!world.villageMode||world.viewVersion===2)return false;const scene=villageScenery(world.seed),old=new Map(world.objects.map(o=>[o.id,o])),inside=world.objects.find(o=>villageInside(p,o)),local=inside?houseLocal(p,inside):null;for(const stack of ground){const home=world.objects.find(o=>villageInside(stack,o)),newHome=home&&scene.objects.find(o=>o.id===home.id);if(newHome){const q=houseLocal(stack,home);Object.assign(stack,housePoint(newHome,q.x,q.y));}}const preserved=['stock','condition','used','doorOpen','fuel','burning','crop','growth','occupied'];world.objects=scene.objects.map(o=>{const prior=old.get(o.id),next=structuredClone(o);if(prior)for(const key of preserved)if(prior[key]!==undefined)next[key]=structuredClone(prior[key]);return next;});for(const o of old.values())if(!world.objects.some(n=>n.id===o.id))world.objects.push(o);if(inside&&local){const home=world.objects.find(o=>o.id===inside.id);Object.assign(p,housePoint(home,local.x,local.y));}world.viewVersion=2;return true;}
