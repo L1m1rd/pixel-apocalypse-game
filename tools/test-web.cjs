@@ -15,7 +15,7 @@ async function main(){
  const browser=await chromium.launch({channel:'msedge',headless:true});
  const page=await browser.newPage({viewport:{width:1280,height:800}});const errors=[];page.on('pageerror',error=>errors.push(error.message));
  try{
-  await page.goto(`http://127.0.0.1:${server.address().port}/`,{waitUntil:'domcontentloaded'});
+  await page.goto(process.env.PIXEL_WEB_URL||`http://127.0.0.1:${server.address().port}/`,{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>window.__prototype?.getState().ready,{timeout:120000});
   assert.equal(await page.locator('#continue').isDisabled(),true);
   assert.equal(await page.locator('#quit').textContent(),'Перезапустить');
