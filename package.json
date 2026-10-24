@@ -10,6 +10,8 @@
     "start": "node tools/launch-desktop.cjs",
     "prepare:desktop": "node tools/prepare-desktop-assets.cjs",
     "build:desktop": "node tools/package-desktop.cjs",
+    "build:web": "node tools/build-web.cjs",
+    "test:web": "node tools/test-web.cjs",
     "package:desktop": "node tools/package-northern-dachas-release.cjs",
     "test:desktop-core": "node --test desktop/core.test.mjs",
     "check:assets": "node tools/check-asset-files.cjs",
