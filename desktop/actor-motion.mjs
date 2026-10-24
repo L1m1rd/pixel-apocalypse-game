@@ -3,3 +3,6 @@ export function actorFrame(a,def){
  return {action,row,frame,x:frame*size,y:row*size,w:size,h:size,scale:def.worldScale??.8,originX:def.originX??.5,originY:def.origin??.875};
 }
 export function motionDuration(a,definitions,action=a.action){const def=definitions?.[a.skin]??definitions?.['01-A'],t=def?.timings?.[action],count=def?.frameCounts?.[a.direction]?.[action]??def?.frameCount??6;return ((t?.durationMs??t?.frameMs??(action==='hurt'?80:110))*count)/1000;}
+
+// Frame three of a six-frame strike is the contact pose, after the wind-up.
+export function attackContactMs(a,definitions){const def=definitions?.[a.skin]??definitions?.['01-A'],count=def?.frameCounts?.[a.direction]?.attack??def?.frameCount??6,t=def?.timings?.attack,frame=Math.min(count-1,t?.contactFrame??Math.floor(count/2));return frame*(t?.durationMs??t?.frameMs??110);}

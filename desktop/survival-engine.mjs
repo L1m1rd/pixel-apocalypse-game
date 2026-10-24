@@ -1,6 +1,6 @@
 import {createVisibility,sightLine,stealthProfile,coverAt} from './perception.mjs';
 import {villageScenery} from './village-world.mjs';
-import {motionDuration} from './actor-motion.mjs';
+import {motionDuration,attackContactMs} from './actor-motion.mjs';
 import {houseLocal} from './object-facing.mjs';
 import {generateVillage,VILLAGE_SPAWN,villageInside,villageDoor,vehicleTrunk,moveVillage} from './village-world.mjs';
 import {unproject} from './item-lab-movement.mjs';
@@ -10,6 +10,7 @@ import {generateZone,actorTick,moveWorld,inHouse} from './survival-world.mjs';
 export function createSurvival(inv,saved=null,seed=Date.now()){
  const fresh={version:1,enabled:false,seed:seed>>>0,rng:seed>>>0,zone:1,clock:8*60,weather:'clear',weatherLeft:180,elapsed:0,xp:0,kills:0,perks:[],dead:false,objects:[],actors:[],action:null,flashlight:false,vehicleId:null,traces:[],messages:[],quest:'none',difficulty:'regular',unlocks:[]};
  const state={...fresh,...saved,action:null,traces:[],messages:[],floating:[],pendingPanel:null,noises:[],perception:{status:'hidden'}};let visionCache=null;let focus=null,playerRef=null,ambient=12,actorDefinitions={};
+ for(const actor of state.actors){delete actor.pendingStrike;if(actor.action==='attack'){actor.action='idle';actor.elapsed=0;actor.motionLock=0;}}
  let seenHealth=inv.state.vitals.health,seenBleeding=inv.state.vitals.bleeding,healthRemainder=0,floatId=0;
  function observeVitals(p){const v=inv.state.vitals,delta=v.health-seenHealth;seenHealth=v.health;healthRemainder+=delta;if(Math.abs(healthRemainder)>=1){const n=Math.round(healthRemainder);state.floating.push({id:++floatId,x:p.x,y:p.y,text:(n>0?'+':'')+n+' HP',color:n>0?'#b8e3a0':'#ffb17d',age:0,duration:1.6});healthRemainder-=n;}if(v.bleeding>0&&seenBleeding<=0){state.floating.push({id:++floatId,x:p.x,y:p.y,text:'Я чувствую, что у меня кровотечение',color:'#ff655b',age:0,duration:3.2,status:true});say('Кровотечение: используйте бинт или ткань.');}seenBleeding=v.bleeding;}
  function random(){state.rng=(Math.imul(state.rng,1664525)+1013904223)>>>0;return state.rng/4294967296;}
@@ -90,7 +91,14 @@ export function createSurvival(inv,saved=null,seed=Date.now()){
   for(const o of state.objects){if((o.kind==='campfire'||o.interaction==='stove')&&o.burning){o.fuel=Math.max(0,o.fuel-dt*(state.weather==='rain'?1.5:1));o.burning=o.fuel>0;}if(o.kind==='garden'&&o.crop)o.growth=clamp(o.growth+dt*(state.weather==='rain'?.4:.25));}
   for(const trap of state.objects.filter(o=>o.kind==='trap'&&o.condition>0)){for(const a of state.actors)if(!a.dead&&distance(a,trap)<25){a.health-=20*dt;if(a.health<=0)kill(a);}if(distance(p,trap)<20)damage(dt*8,'trap');}
   state.noises=state.noises.filter(n=>(n.life-=dt)>0);state.stealth=stealthProfile(p,state,state.villageMode?coverAt(p,villageScenery(state.seed),state.objects):0);
-  for(const a of state.actors){const prev=a.action,previousCooldown=a.cooldown;if(!a.dead&&a.motionLock>0){a.elapsed+=dt*1000;a.cooldown=Math.max(0,a.cooldown-dt);a.motionLock=Math.max(0,a.motionLock-dt);}else{if(state.raidMode)raidAI(a,dt,p,state,inv,damage);else actorTick(a,dt,p,state,inv,random,damage);if(a.action!==prev&&!(['walk','run'].includes(prev)&&['walk','run'].includes(a.action)))a.elapsed=0;if(a.action==='attack'&&(a.action!==prev||a.cooldown>previousCooldown)){a.elapsed=0;a.motionLock=motionDuration(a,actorDefinitions);}}if(!a.dead&&a.health<=0)kill(a);}
+  for(const a of state.actors){
+   const prev=a.action,previousCooldown=a.cooldown;
+   const queueStrike=(amount,kind)=>{a.pendingStrike={amount,kind,contactMs:attackContactMs(a,actorDefinitions),range:kind==='bullet'?260:40};};
+   if(!a.dead&&a.motionLock>0){a.elapsed+=dt*1000;a.cooldown=Math.max(0,a.cooldown-dt);a.motionLock=Math.max(0,a.motionLock-dt);}
+   else{if(state.raidMode)raidAI(a,dt,p,state,inv,queueStrike);else actorTick(a,dt,p,state,inv,random,queueStrike);if(a.action!==prev&&!(['walk','run'].includes(prev)&&['walk','run'].includes(a.action)))a.elapsed=0;if(a.action==='attack'&&(a.action!==prev||a.cooldown>previousCooldown)){a.elapsed=0;a.motionLock=motionDuration(a,actorDefinitions);}}
+   if(a.pendingStrike){if(a.dead||a.health<=0||a.action!=='attack')delete a.pendingStrike;else if(a.elapsed>=a.pendingStrike.contactMs){const strike=a.pendingStrike;delete a.pendingStrike;if(distance(a,p)<=strike.range&&visibleBetween(a,p,state.objects))damage(strike.amount,strike.kind);}}
+   if(!a.dead&&a.health<=0)kill(a);
+  }
   const watchers=state.actors.filter(a=>!a.dead&&a.seesPlayer&&a.suspicion>=1),suspects=state.actors.filter(a=>!a.dead&&(a.suspicion??0)>.15);state.perception={status:watchers.length?'spotted':suspects.length?'suspicious':'hidden',watchers:watchers.map(a=>a.id),suspicion:Math.max(0,...suspects.map(a=>a.suspicion)),crouched:state.stealth.crouched,cover:state.stealth.cover,noiseRadius:state.stealth.noiseRadius};
   if(state.action){state.action.elapsed+=dt;if(state.action.elapsed>=state.action.duration){const a=state.action;state.action=null;finish(a,p);}}
   if(!state.action&&p.action==='idle'&&!inv.defs.get(inv.state.equipment.weapon?.key)?.ammo&&state.actors.some(a=>!a.dead&&!['trader','friendly'].includes(a.kind)&&distance(a,p)<36))melee(p);

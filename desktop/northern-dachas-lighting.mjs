@@ -10,6 +10,10 @@ export function shadowVector(height,sun=SUN){
  const length=Math.max(0,height)/Math.tan(sun.elevationDegrees*Math.PI/180);
  return {x:-sun.direction.x*length,y:-sun.direction.y*length*.62};
 }
+export function footprintShadow(points,height){
+ const v=shadowVector(Math.min(95,Math.max(0,height))),all=[...points,...points.map(p=>({x:p.x+v.x,y:p.y+v.y}))].sort((a,b)=>a.x-b.x||a.y-b.y),cross=(a,b,c)=>(b.x-a.x)*(c.y-a.y)-(b.y-a.y)*(c.x-a.x),lower=[],upper=[];
+ for(const p of all){while(lower.length>1&&cross(lower.at(-2),lower.at(-1),p)<=0)lower.pop();lower.push(p);}for(const p of [...all].reverse()){while(upper.length>1&&cross(upper.at(-2),upper.at(-1),p)<=0)upper.pop();upper.push(p);}return [...lower.slice(0,-1),...upper.slice(0,-1)];
+}
 export function createSunlight(){
  const silhouettes=new Map();let enabled=true;
  function mask(id,sprite){
@@ -41,10 +45,11 @@ export function createSunlight(){
   ctx.transform((plane.b.x-plane.a.x)/image.width,(plane.b.y-plane.a.y)/image.width,-v.x/image.height,-v.y/image.height,plane.a.x+v.x,plane.a.y+v.y);
   ctx.drawImage(image,0,0);ctx.restore();return true;
  }
+ function castBuilding(ctx,points,height){if(!enabled)return false;const polygon=footprintShadow(points,height);ctx.save();ctx.fillStyle=SUN.shadowColor;ctx.globalAlpha=.18;ctx.beginPath();polygon.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y));ctx.closePath();ctx.fill();ctx.restore();return true;}
  function grade(ctx,canvas){
   if(!enabled)return;
   ctx.save();ctx.setTransform(1,0,0,1,0,0);ctx.globalCompositeOperation='soft-light';
   ctx.globalAlpha=SUN.warmth*3;ctx.fillStyle=SUN.color;ctx.fillRect(0,0,canvas.width,canvas.height);ctx.restore();
  }
- return {cast,castPlane,contact,grade,setEnabled(value){enabled=!!value;},get enabled(){return enabled;},sun:SUN};
+ return {cast,castPlane,castBuilding,contact,grade,setEnabled(value){enabled=!!value;},get enabled(){return enabled;},sun:SUN};
 }
